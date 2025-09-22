@@ -1,0 +1,186 @@
+0:00:00.700,0:00:04.000
+Heute besprechen wir das vierte Übungsblatt
+zur Einführung in die Logik. Wir beginnen
+
+0:00:04.000,0:00:08.640
+mit Aufgabe eins. Hier sollen wir mittels
+aussagenlogischer Resolution die Unerfüllbarkeit
+
+0:00:08.640,0:00:15.150
+der Formeln untersuchen und in einem Antwortsatz
+das Ergebnis kommentieren. Dazu muss die Formel
+
+0:00:15.150,0:00:18.750
+zunächst in Klausel-Schreibweise überführt
+werden. Ich ändere jetzt die Reihenfolge
+
+0:00:18.750,0:00:23.300
+der Klauseln, sodass die Lösung im Anschluss
+übersichtlich bleibt. Die Reihenfolge kann
+
+0:00:23.300,0:00:28.040
+verändert werden, weil alles mit einer Konjunktion
+verbunden ist. Hier haben wir A und B. Das
+
+0:00:28.040,0:00:35.880
+ist dieser Teil. Wir haben nicht B und C.
+Das ist dieser Teil. Und wir haben den Teil
+
+0:00:35.880,0:00:41.400
+mit A und nicht C. Wir haben also dieselben
+Klauseln verwendet, aber zu Gunsten der Übersichtlichkeit
+
+0:00:41.400,0:00:48.160
+die Reihenfolge verändert. Wir beginnen mit
+den ersten beiden und sehen: B und nicht B,
+
+0:00:48.160,0:00:53.420
+da kann das eliminiert werden. A und C bleiben
+übrig. Dann nehmen wir die hinteren beiden.
+
+0:00:53.420,0:00:59.360
+Da kann das C eliminiert werden, sodass nicht
+B und A übrigbleiben. Die beiden können
+
+0:00:59.360,0:01:03.590
+nicht miteinander kombiniert werden, aber
+man könnte das nicht B und das A mit dem
+
+0:01:03.590,0:01:10.289
+ersten kombinieren. Dann kann das nicht B
+und das B eliminiert werden, sodass A übrigbleibt.
+
+0:01:10.289,0:01:16.799
+Jetzt können wir überlegen: Wir haben keine
+Klausel mehr mit nicht A. So könnte man theoretisch
+
+0:01:16.799,0:01:22.289
+das C, das nicht C zum Beispiel eliminieren.
+Ich verwende dafür eine andere Farbe. Hier
+
+0:01:22.289,0:01:27.939
+würde wieder A rauskommen, wenn wir das C
+eliminieren. Wir haben zwei Klauseln, welche
+
+0:01:27.939,0:01:35.380
+die Klausel A sind. Wir arbeiten bei der Resolution
+jedoch auf einer Menge von Klauseln. Die Menge
+
+0:01:35.380,0:01:42.829
+hat verschiedene Elemente. Die Klausel A haben
+wir schon, weshalb es sie nicht doppelt geben
+
+0:01:42.829,0:01:47.270
+kann. Das würde sowieso nichts nutzen. Ich
+habe es trotzdem hier aufgeschrieben, da es
+
+0:01:47.270,0:01:51.319
+ein Schritt ist, den man machen könnte. Jetzt
+schauen wir, was wir noch haben: Wir haben
+
+0:01:51.319,0:01:58.340
+noch A übrig. Darüber hinaus kann nichts
+mehr eliminiert werden. Es gibt keine zwei
+
+0:01:58.340,0:02:01.200
+Klauseln mehr, die miteinander verbunden werden
+könnten, sodass etwas Neues herauskommen
+
+0:02:01.200,0:02:06.759
+würde. Ich mache das A hier weg. Da wir keine
+Klauseln mehr haben, die noch miteinander
+
+0:02:06.759,0:02:10.170
+verbunden werden könnten, sehen wir, dass
+wir hier nicht weiterkommen. Wenn man nicht
+
+0:02:10.170,0:02:15.840
+weiterkommt und sich nicht die leere Klausel
+herleiten lässt, dann ist F erfüllbar. Hier
+
+0:02:15.840,0:02:21.329
+steht, dass F erfüllbar ist, da sich die
+leere Klausel nicht herleiten lässt. Wir
+
+0:02:21.329,0:02:26.400
+kommen zu Aufgabe (b). Auch hier werde ich
+die Reihenfolge der Klauseln wieder ändern,
+
+0:02:26.400,0:02:31.379
+sodass wir eine gute Übersicht haben und
+ihr das Ergebnis besser nachvollziehen könnt.
+
+0:02:31.379,0:02:36.069
+Wenn eure Lösung jedoch anders aussieht und
+sich eure Striche überkreuzen, ist das kein
+
+0:02:36.069,0:02:38.790
+Problem. Dann habt ihr eine Spaghetti-Darstellung,
+wie Professor Vogtländern in der Vorlesung
+
+0:02:38.790,0:02:46.891
+gesagt hat. Wir schreiben also zuerst die
+Klauseln auf. Wir haben nicht A. Das habe
+
+0:02:46.891,0:02:53.770
+ich hierher. Dann haben wir A und nicht E
+hierher. A und nicht D haben wir hierher.
+
+0:02:53.770,0:03:00.870
+C und D haben wir hier. B, nicht C und D haben
+wir hierher. A, nicht B und E haben wir hierher.
+
+0:03:00.870,0:03:05.080
+Damit haben wir alle Klauseln verwendet und
+nur die Reihenfolge geändert zu Gunsten der
+
+0:03:05.080,0:03:09.170
+Übersichtlichkeit. Wir beginnen rechts mit
+den letzten beiden Klauseln. Wenn wir das
+
+0:03:09.170,0:03:16.311
+B wegmachen, haben wir ein A, ein nicht C,
+ein D und ein E übrig. Hier sehen wir, dass
+
+0:03:16.311,0:03:21.170
+die Resolvente mehr Literale hat als die Ausgangsformeln.
+Das heißt, die beiden Klauseln darüber hatten
+
+0:03:21.170,0:03:26.249
+je drei Literale. Hier haben wir jetzt vier.
+Das ist kein Problem, denn auch das ist möglich.
+
+0:03:26.249,0:03:31.920
+Wir haben das B als Literal eliminiert. Von
+hieraus können wir mit der Klausel davor
+
+0:03:31.920,0:03:38.841
+fortfahren. Hier können wir das C eliminieren
+und haben A, D und E übrig. Mit der Klausel
+
+0:03:38.841,0:03:45.450
+davor können wir das D eliminieren, sodass
+A und E übrigbleiben. Mit der Klausel davor
+
+0:03:45.450,0:03:52.849
+können wir das E eliminieren, sodass A übrigbleibt.
+Das wird wiederum zusammen mit nicht A eliminiert.
+
+0:03:52.849,0:03:57.450
+Wir haben die leere Klausel abgeleitet. Eure
+Lösung sieht, wie gesagt, vielleicht etwas
+
+0:03:57.450,0:04:01.370
+weniger übersichtlich aus, mit sich überkreuzenden
+Strichen. Das ist kein Problem, solange ihr
+
+0:04:01.370,0:04:08.340
+auch auf die leere Menge kommt und die richtigen
+Schritte verwendet habt. Der Antwortsatz lautet:
+
+0:04:08.340,0:04:13.799
+Da wir die leere Klausel herleiten können,
+ist die Formel unerfüllbar. Das war es schon
+
+0:04:13.799,0:04:14.469
+mit Aufgabe eins.

@@ -1,0 +1,154 @@
+0:00:00.240,0:00:06.390
+Bei der Aufgabe zwei soll ein einfaches Generate-and-test-Verfahren
+angewendet werden, bei der eine Prologanfrage
+
+0:00:06.390,0:00:11.690
+gestellt werden muss, die alle Listen aus
+den jeweils genau ein Mal vorkommenden Elementen
+
+0:00:11.690,0:00:13.160
+eins, zwei, drei, vier ausgibt.
+
+0:00:13.160,0:00:16.840
+Bei denen das erste Listenelement größer
+ist als das zweite.
+
+0:00:16.840,0:00:20.170
+Dabei können wir bekannte Listenprädikate
+verwenden.
+
+0:00:20.170,0:00:21.860
+Kurz noch einmal zu dem Generate-and-Test.
+
+0:00:21.860,0:00:27.830
+Da geht es im ersten Schritt darum, dass man
+mögliche Lösungen generiert und im zweiten
+
+0:00:27.830,0:00:29.679
+Schritt die Validität dieser Lösungen überprüft.
+
+0:00:29.679,0:00:35.970
+Für das Generate gab es aus der Vorlesung
+ein bekanntes Listenprädikat, Permutation
+
+0:00:35.970,0:00:36.970
+zwei.
+
+0:00:36.970,0:00:41.260
+Das Permutationprädikat ist ein zweistelliges
+built-in-Prädikat.
+
+0:00:41.260,0:00:45.970
+Dazu bekommen wir als ersten Parameter eine
+Liste und als zweiten Parameter die permutierte
+
+0:00:45.970,0:00:46.970
+Liste.
+
+0:00:46.970,0:00:54.470
+Das heißt, die Anfrage mit dem Permutationprädikat
+wird wahr, wenn L1 eine Permutation von L2
+
+0:00:54.470,0:00:55.580
+ist.
+
+0:00:55.580,0:00:58.570
+Permutation ist eine Umordnung von Elementen
+in einer Liste.
+
+0:00:58.570,0:01:04.220
+Das heißt zum Beispiel beim Aufrufen von
+Permutation 1, 2, 3, 3, 2, 1 ergibt sich true,
+
+0:01:04.220,0:01:08.670
+weil 3, 1, 2 eine Permutation von 1, 2, 3
+ist.
+
+0:01:08.670,0:01:13.219
+Wenn wir zum Beispiel die Variablen A, B,
+C, D in die erste Liste setzen und 1, 2, 3,
+
+0:01:13.219,0:01:18.369
+4 als zweite Liste setzen, dann bekommen wir
+alle Permutationen von 1, 2, 3, 4.
+
+0:01:18.369,0:01:23.740
+Also zum Beispiel A ist 1, B ist 2 und C ist
+3, B ist 4 und so weiter.
+
+0:01:23.740,0:01:24.740
+Mit allen Ersetzungen.
+
+0:01:24.740,0:01:29.450
+Das heißt, man kann dieses Permutationprädikat
+benutzen werden, um mögliche Permutationen
+
+0:01:29.450,0:01:30.450
+zu generieren.
+
+0:01:30.450,0:01:34.329
+Wenn wir zum Beispiel eine Permutation von
+1, 2, 3 machen, dann können wir zum Beispiel
+
+0:01:34.329,0:01:38.789
+auch als drittes Listenelement in der zweiten
+Liste eine anonyme Variable setzen.
+
+0:01:38.789,0:01:41.100
+Diese wird dann auch in den Lösungen unterdrückt.
+
+0:01:41.100,0:01:49.509
+Für den Test gibt es in der Aufgabenstellung
+einen relativ einfachen Teil in der Anfrage:
+
+0:01:49.509,0:01:53.729
+Die Bedingung ist, dass das erste Element
+größer sein soll als das zweite.
+
+0:01:53.729,0:01:58.070
+Jetzt werden wir das Ganze direkt von den
+Anfragen her bearbeiten und so die Lösung
+
+0:01:58.070,0:01:59.070
+entwickeln.
+
+0:01:59.070,0:02:01.719
+Zunächst gucken wir uns noch einmal das Permutationprädikat
+an.
+
+0:02:01.719,0:02:07.189
+Wenn wir eine vierelementige Liste auf 1,
+2, 3, 4 und alle Permutationen davon haben
+
+0:02:07.189,0:02:08.700
+wollen, können wir das auf diese Weise aufschreiben.
+
+0:02:08.700,0:02:13.970
+Wir können an die Anfrage eine weitere Bedingung
+anhängen und damit auch verunden.
+
+0:02:13.970,0:02:17.330
+Durch das Komma werden die Bedingungen in
+der Anfrage verundet.
+
+0:02:17.330,0:02:20.780
+Und da können wir L mit einer vierelementigen
+Liste unifizieren.
+
+0:02:20.780,0:02:24.730
+Jetzt haben wir natürlich auch das C und
+D in der Ergebnisliste.
+
+0:02:24.730,0:02:29.730
+Deswegen machen wir daraus eine anonyme Variable
+und wir sehen, dass das nicht mehr in den
+
+0:02:29.730,0:02:32.030
+Ergebnissen der Anfrage auftaucht.
+
+0:02:32.030,0:02:35.510
+Jetzt können wir noch den Test einfügen,
+ob A größer als B ist und wir haben schon
+
+0:02:35.510,0:02:36.200
+die Lösung.

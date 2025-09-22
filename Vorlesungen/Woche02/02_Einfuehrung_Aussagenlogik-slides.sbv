@@ -1,0 +1,810 @@
+0:00:00.000,0:00:08.010
+Herzlich willkommen zurück! Willkommen in der
+neuen Woche, der zweiten Vorlesungswoche für die
+
+0:00:08.010,0:00:17.340
+Vorlesung. Nachdem wir in der letzten Woche eine
+recht allgemeine Einführung hatten, wird es heute
+
+0:00:17.340,0:00:24.810
+natürlich etwas konkreter. Und zwar werden wir mit
+dem Kapitel Aussagenlogik beginnen. Das möchte
+
+0:00:24.810,0:00:31.650
+ich zunächst kurz auf dieser Folie abgrenzen zur
+Prädikatenlogik, was die andere größere
+
+0:00:31.650,0:00:34.650
+Logik-Gruppe sein wird, mit der wir uns beschäftigen
+werden. Aussagenlogik, da geht es um Aussagen,
+
+0:00:36.510,0:00:42.930
+die geht eigentlich zurück auf George Boole im 19.
+Jahrhundert. Er hat sich mit Aussagenlogik
+
+0:00:42.930,0:00:48.330
+beschäftigt und dafür Begriffe geprägt. Zum
+Beispiel gehen auch die Booleschen Schaltungen
+
+0:00:48.330,0:00:53.190
+letztlich auf seinen Namen zurück.
+Oder in vielen Programmiersprachen, Boolesche
+
+0:00:53.190,0:01:00.510
+Daten mit Werten: Wahr oder Falsch. Wenn man
+Boolean in einer Programmiersprache hat, dann geht das auf
+
+0:01:00.510,0:01:07.920
+George Boole zurück, der sich mit Aussagenlogik
+beschäftigt hat. Da geht es also um Aussagen:
+
+0:01:07.920,0:01:13.410
+Elementaraussagen, einfache Aussagen. Wichtig
+ist, dass diese irgendwie (prinzipiell zumindest) einen
+
+0:01:13.410,0:01:17.820
+Wahrheitswert haben können. Also man möchte sich nicht
+mit Aussagen beschäftigen, für die man gar nicht
+
+0:01:17.820,0:01:23.280
+festlegen könnte, ob sie wahr oder falsch sind. Es geht also nicht
+nur darum, dass Aussagen wahr sein *müssen*. Aber es muss
+
+0:01:23.280,0:01:27.600
+zumindest feststellbar sein, oder irgendwie sinnvoll
+zuweisbar sein, ob eine Aussage wahr oder falsch
+
+0:01:27.600,0:01:32.820
+ist. Wenn eine Aussage an sich schon gar nicht wohlgeformt
+ist und es gar nicht vorstellbar ist, ihr einen
+
+0:01:32.820,0:01:38.940
+Wahrheitsgehalt zuzuschreiben, dann könnte man
+sie auch nicht mit der Aussagenlogik behandeln. Typische
+
+0:01:38.940,0:01:44.670
+mögliche Aussagen wären: „Es regnet“, „die Straße ist
+nass.“ Also viele sprachliche Aussagen, die irgendwie
+
+0:01:44.670,0:01:51.090
+genau einen Aspekt beschreiben, könnte man als
+solche Grundaussagen nehmen. Zu jedem beliebigen Zeitpunkt
+
+0:01:51.090,0:01:56.400
+kann es sein, dass es regnet oder eben auch nicht. Oder dass
+die Straße nass ist oder eben auch nicht. Das wären also
+
+0:01:56.400,0:02:02.400
+sozusagen die Grundbausteine für aussagenlogische
+Aussagen. Solche Aussagen, oder Elementaraussagen, wie man
+
+0:02:02.400,0:02:08.070
+sie auch nennt, würde man dann verknüpfen mit einfachen
+Operatoren. Diese Operatoren sind erst mal sprachliche
+
+0:02:08.070,0:02:13.020
+Mittel. Zum Beispiel könnte ich ja sagen
+wollen: „Es regnet UND die Straße ist nass.“ Dann habe ich
+
+0:02:13.020,0:02:20.130
+diese beiden Aussagen hier oben verknüpft. Und zwar
+mit dem Operator UND. Dieses UND wäre
+
+0:02:20.130,0:02:28.260
+dann der mich interessierende Operator, der diese
+beiden Aussagen verknüpft. In dem Fall ist das jetzt
+
+0:02:28.260,0:02:32.070
+sehr einfach. Ich hab wirklich einfach nur die beiden Satzstücke
+genommen und das UND dazwischen geschrieben.
+
+0:02:32.070,0:02:37.380
+Natürlich werden in der Sprache Operatoren auch
+auf andere Weise ausgedrückt. Zum Beispiel
+
+0:02:37.380,0:02:42.780
+wäre die Aussage „Wenn die Straße nicht
+nass ist, dann regnet es nicht.“
+
+0:02:42.780,0:02:48.150
+nicht direkt einfach diese beiden Satzstücke
+aneinandergehängt und irgendwie ein Wort dazwischen
+
+0:02:48.150,0:02:53.310
+geschrieben. Da ist also sprachlich mehr passiert. Aber
+dennoch ist auch das letztlich eine Verknüpfung
+
+0:02:53.310,0:02:59.310
+dieser beiden Grundaussagen. Operatoren sind etwas
+interessanter, etwas komplizierter. Zum einen wurde
+
+0:02:59.310,0:03:05.160
+hier aus der Aussage „es regnet“ die Aussage
+„es regnet nicht“. Da wurde diese Grundaussage
+
+0:03:05.160,0:03:13.770
+negiert -> „Es regnet nicht.“ Genauso wurde hier „die
+Straße ist nass“ negiert. Hier steht nämlich auch, dass
+
+0:03:13.770,0:03:19.500
+die Straße nicht nass ist. Dann haben wir also
+diese beiden Aussagen erst mal negiert. Das
+
+0:03:19.500,0:03:25.680
+wäre eine mögliche Operation. Dann haben wir
+diese beiden negierten Aussagen verknüpft und
+
+0:03:25.680,0:03:34.020
+zwar mit einem „wenn ... dann“. Das war in der letzten Woche
+auch schon Thema, dass so sprachliche, mit der Logik,
+
+0:03:34.020,0:03:39.390
+oder mit logischen Aussagen, oder mit logischen
+Überlegungen zusammenhängende Begriffe wie „und“,
+
+0:03:39.390,0:03:48.210
+„oder“, „wenn ... dann“, „sofern“, „falls“, „weil“, „nicht“,
+Dinge sind, die die Logik beschreiben kann. Und zwar wird es
+
+0:03:48.210,0:03:53.880
+eben passieren, indem man hier jetzt diese
+sprachlichen Mittel benutzt als solche Operatoren.
+
+0:03:53.880,0:03:57.660
+Natürlich werden wir das nachher anders aufschreiben und
+nicht mehr als lange Texte. Für diese Operatoren wird
+
+0:03:57.660,0:04:04.140
+es dann mathematische Symbole geben, die Sie zum Teil
+auch schon mal gesehen haben. Auch natürlich andere Aussagen
+
+0:04:04.140,0:04:10.020
+aus der letzten Woche würden in dieses Schema passen.
+„Wenn der Mond grün ist, haben wir Donnerstag.“ Das war so
+
+0:04:10.020,0:04:16.110
+eine Aussage. Die könnte man genauso auffassen, als
+zusammengesetzt auf bestimmte Operator-Weise
+
+0:04:16.110,0:04:23.740
+aus Grundaussagen „der Mond ist grün“ ,
+„wir haben Donnerstag.“ Das ist die Domäne der
+
+0:04:23.740,0:04:28.810
+Aussagenlogik. Mit solchen Elementaraussagen
+und ihren Zusammenbauungen, Verknüpfungen
+
+0:04:28.810,0:04:36.670
+zu arbeiten. Das andere, als Abgrenzung, wäre die
+Prädikatenlogik, mit der wir uns erst später im Verlauf
+
+0:04:36.670,0:04:42.040
+des Semesters beschäftigen werden. Wo ist da der
+wesentliche Unterschied? Die Prädikatenlogik baut
+
+0:04:42.040,0:04:48.490
+erst mal auf der Aussagenlogik auf. Also sie verwendet
+auch einfache Aussagen und Verknüpfungen dazwischen, kann aber
+
+0:04:48.490,0:04:53.980
+zusätzlich noch weitere Arten von Aussagen
+treffen. Zum einen über Beziehungen zwischen Objekten.
+
+0:04:56.770,0:05:00.610
+Die Objekte können identifiziert werden, um die es geht.
+Vielleicht gibt es mehrere Straßen. Da könnte man sagen:
+
+0:05:00.610,0:05:05.560
+diese und jene Straße. Die eine ist nass, die andere
+nicht nass. Die eine Straße ist neben der anderen. Also
+
+0:05:05.560,0:05:10.120
+Beziehungen zwischen Objekten herstellen. Und es ist
+möglich, existenzielle und universelle Aussagen zu
+
+0:05:10.120,0:05:15.490
+treffen. Im Sinne: es geht nicht um eine Straße, sondern um alle
+Straßen. Oder „alle Menschen sind sterblich.“
+
+0:05:15.490,0:05:24.550
+„Alle Philosophen sind Menschen.“ Das werden Allaussagen,
+universelle Aussagen. Ein typisches Beispiel aus der
+
+0:05:24.550,0:05:33.610
+Mathematik, wo man all diese drei Zutaten sozusagen
+hat, wäre eine Aussage folgender Form: „Für jede
+
+0:05:33.610,0:05:41.470
+natürliche Zahl x gilt, dass es eine natürliche Zahl y gibt, so
+dass x kleiner als y ist.“ Hier haben wir eine universelle Aussage,
+
+0:05:41.470,0:05:46.660
+indem etwas über jede natürliche Zahl gesagt wird.
+Dafür müssen wir der einen Namen geben, damit wir im
+
+0:05:46.660,0:05:52.690
+Rest des Satzes darauf Bezug nehmen können. Wenn wir
+sagen würden: für jede natürliche Zahl gilt irgendetwas, etwa dass es
+
+0:05:52.690,0:05:56.980
+eine natürliche Zahl gibt, so dass ...; dann wüssten wir hinterher nicht
+mehr, welche von beiden natürlichen Zahlen wir denn
+
+0:05:56.980,0:06:02.470
+meinen, wenn wir eine Beziehung ausdrücken. Deswegen sagen
+sagen wir hier: „für jede natürliche Zahl x, ...“ - das wäre eine
+
+0:06:02.470,0:06:09.550
+Universalaussage über alle x - „... gilt, dass es eine
+natürliche Zahl y gibt“ - das wäre dann eine existenzielle
+
+0:06:09.550,0:06:16.510
+Aussage, wegen „es gibt eine natürliche Zahl“ und die wird hier y
+genannt, um auf sie Bezug nehmen zu können - und
+
+0:06:16.510,0:06:22.750
+dann wird gesagt „x ist kleiner als y.“ Das ist dann eine Beziehung, die
+zwischen diesen beiden Objekten hergestellt wird,
+
+0:06:22.750,0:06:33.360
+bzw. ausgedrückt wird, die vorher universell oder
+essenziell eingeführt wurden. Diese Art Logik kam
+
+0:06:33.360,0:06:38.790
+geschichtlich natürlich nach der Aussagenlogik. Bekannte
+Namen wären da: Frege, Peano, Russel. Ende
+
+0:06:38.790,0:06:45.720
+des 19. Jahrhunderts, also 30 bis 40 Jahre nach den
+ursprünglichen Überlegungen zur Aussagenlogik.
+
+0:06:45.720,0:06:53.250
+Und natürlich auch Aussagen, jetzt nochmal aus der
+vergangenen Woche, wie „es gibt Delfine, die
+
+0:06:53.250,0:06:57.720
+keine Säugetiere sind“, wären auch Aussagen,
+die in diesen Bereich fallen würden, wegen
+
+0:06:57.720,0:07:03.720
+dieser Existenzaussage „es gibt Delfine.“ Ob die Aussage
+stimmt („es gibt Delfine, die keine Säugetiere sind“), ist
+
+0:07:03.720,0:07:09.510
+dabei gar nicht erheblich. Es geht darum, dass diese Aussage
+mit Prädikatenlogik zumindest formulierbar ist, um sie dann
+
+0:07:09.510,0:07:15.390
+auf Wahrheitsgehalt hin zu untersuchen. Während sie
+in der Aussagenlogik keinen Platz hätte. Weil man da mit solchen
+
+0:07:15.390,0:07:26.250
+Grundaussagen über einzelne Objekte zum Beispiel
+arbeitet und nicht „es gibt x, y, z folgender Form“. Das
+
+0:07:26.250,0:07:30.450
+sozusagen erst mal als die Trennlinie zwischen
+Aussagen- und Prädikatenlogik. Wir werden zunächst
+
+0:07:30.450,0:07:36.900
+mit diesen Arten von Aussagen arbeiten. Das sind Aussagen
+oder Formeln, die Sie vielleicht auch schon mal gesehen haben.
+
+0:07:36.900,0:07:44.640
+Die werden auch gleich in den Folien erst intuitiv
+auftauchen, später dann (auch noch diese
+
+0:07:44.640,0:07:50.160
+Woche) systematischer ihr Aufbau untersucht
+werden. Natürlich werden wir im
+
+0:07:50.160,0:07:55.560
+Folgenden nicht immer mit solchen langen Wortketten
+arbeiten, sondern mit solchen Aussagen. Insbesondere auch
+
+0:07:55.560,0:08:00.720
+schon diese Grundaussagen, die werden irgendwie bezeichnet werden.
+Oft werden das einfach irgendwie Buchstaben sein. Man
+
+0:08:00.720,0:08:07.530
+könnte zum Beispiel sagen, diese Grundaussage „es regnet“
+bezeichnet man als R. Die Grundaussage „die Straße
+
+0:08:07.530,0:08:14.220
+ist nass“ bezeichnet man als N. Und dann kann man eben
+die Verknüpfungen auch mit Symbolen hinschreiben.
+
+0:08:14.880,0:08:21.480
+Die Aussage „es regnet und die Straße ist nass“
+heißt dann einfach: R gilt UND N gilt. Dann wird es
+
+0:08:21.480,0:08:28.560
+dafür ein Symbol geben. Das ist der logische UND-Operator,
+den Sie vielleicht schon mal gesehen haben.
+
+0:08:28.560,0:08:33.570
+Für die Aussage „wenn die Straße nicht nass ist,
+dann regnet es nicht“ hatten wir gesagt,
+
+0:08:33.570,0:08:39.060
+diese beiden „nicht“s (das „nicht“ hier
+und das „nicht“ hier), die müssten irgendwie als
+
+0:08:39.060,0:08:44.430
+Operatoren auf den Grundaussagen
+interpretiert werden. Dann müssen Sie
+
+0:08:44.430,0:08:53.430
+noch verknüpft werden als „wenn ... dann“. Sie werden
+im Laufe dieser Woche sehen, dass das dann
+
+0:08:53.430,0:08:58.980
+konkret zum Beispiel so als Formel geschrieben
+werden könnte. Also dieses Symbol steht für "nicht".
+
+0:08:58.980,0:09:08.250
+Also "nicht N". Die Straße ist nicht nass impliziert,
+oder daraus folgt, nicht R. Also es regnet nicht.
+
+0:09:10.230,0:09:15.420
+Dieses "nicht N" wäre „die Straße ist nicht nass“. Das "nicht R" wäre
+„es regnet nicht“. Und dieser Pfeil dazwischen
+
+0:09:15.420,0:09:24.540
+steht für „wenn das eine gilt, gilt auch das andere“. Bzw. „wenn die Straße nicht
+nass ist, dann regnet es nicht.“ Das sind die Bestandteile.
+
+0:09:24.540,0:09:31.230
+Solche Grundaussagen einfach atomar als Symbol
+ausgedrückt, als Namen ausgedrückt. Oftmals einfach
+
+0:09:31.230,0:09:38.220
+einzelne Buchstaben. Und dann Operationen darüber.
+Das wäre die Aussagenlogik, und in der Prädikatenlogik später
+
+0:09:38.220,0:09:44.310
+werden weitere syntaktische Mittel, weitere
+formalsprachliche Dinge dazukommen. Und
+
+0:09:44.310,0:09:50.130
+zwar müssen wir dann einerseits die Variablen
+haben und andererseits eben diese Aussagen wie
+
+0:09:50.130,0:09:55.650
+"universell" und "existenziell" ausdrücken können. Dazu
+werden wir Quantoren sehen. Das ist vielleicht
+
+0:09:55.650,0:10:01.950
+auch schon mal im Matheunterricht aufgetreten. Aber vielleicht
+weniger oft gesehen als diese
+
+0:10:01.950,0:10:11.400
+Art von Symbolen. Oder auch gar nicht. Dieses umgedrehte A
+stünde für „alle x“, also „für jedes x“. Das umgedrehte E
+
+0:10:11.400,0:10:18.990
+steht für "existenziell", also „es gibt ein y“. Und
+dann etwa solche Beziehungen hier könnten einfach
+
+0:10:18.990,0:10:25.770
+mathematische Relationssymbole sein. Die Kleiner-Relation
+wäre hier die Beziehung, die in der Formel auftaucht.
+
+0:10:25.770,0:10:39.360
+Wie gesagt, das dann später im Prädikatenlogik-Kapitel.
+Und natürlich können in diesen Aussagen aber
+
+0:10:39.360,0:10:44.460
+auch genauso Symbole wie in der Aussagenlogik auftreten.
+Auch wenn das jetzt hier in dem Beispiel
+
+0:10:44.460,0:10:50.160
+nicht der Fall war. Also auch hier unten könnten Implikationen
+auftauchen, Negationen, Verknüpfungen mit UND etc.
+
+0:10:54.300,0:11:02.370
+Also wir werden Aussagenlogik betreiben. Schon
+auf dieser intuitiven Basis, ohne jetzt die
+
+0:11:02.370,0:11:09.120
+Operatoren einzeln eingeführt zu haben, können
+wir schon sehen, dass es da Entsprechungen zu einigen
+
+0:11:09.120,0:11:13.890
+der Strategien aus der letzten Woche gibt. Wir hatten
+dieses Einstein-Rätsel gelöst, mit dem Zebra und den
+
+0:11:13.890,0:11:20.910
+Häusern und den Aussagen dazu. Das hatten wir mit dieser Tabelle
+gelöst, und ich hatte einige Strategien genannt.
+
+0:11:20.910,0:11:28.050
+Die kann man auch formulieren, oder
+zunächst schon mal schlagwortartig sehen, anhand
+
+0:11:28.050,0:11:37.380
+solcher Beschreibung wie wir es hier mit Formeln haben.
+Ohne, dass wir diese Formen aktuell schon
+
+0:11:37.380,0:11:47.520
+formal evaluieren können. Was meine ich damit? Zum Beispiel
+hatten wir begonnen, uns bei der Lösung des Einstein-Rätsels erst mal
+
+0:11:47.520,0:11:53.640
+von der Satzform, also von den langen
+Sätzen der Regeln wie „das grüne Haus
+
+0:11:53.640,0:11:59.760
+ist direkt rechts von dem elfenbeinfarbenen Haus“,
+zu trennen und diese Aussagen erst mal in atomarer
+
+0:11:59.760,0:12:05.700
+Form auszudrücken. Das entspräche natürlich dem, was wir hier
+gemacht haben. Dass wir einfach solche sprachlichen Sprachteile irgendwie
+
+0:12:05.700,0:12:13.500
+atomar fassen, sie mit irgendwelchen Buchstaben bezeichnen. Das werden wir
+also auch dann so tun im Folgenden. In der letzten Woche hatte ich
+
+0:12:13.500,0:12:17.910
+das noch gemacht, indem ich einfach die Tabelle
+aufgebaut hatte und da dann Einträge getätigt hatte.
+
+0:12:17.910,0:12:24.420
+Das war auch eine Art der kompakten Darstellung.
+Wir werden im Folgenden oftmals
+
+0:12:24.420,0:12:29.970
+solche Grundaussagen, Elementaraussagen einfach mit
+Großbuchstaben bezeichnen Manchmal auch Großbuchstaben
+
+0:12:29.970,0:12:36.030
+mit so einem tief gestellten Index, wenn wir einfach
+sehr viele haben und nicht einfach nur A, B, C bis Z
+
+0:12:36.030,0:12:45.390
+durchnummerieren wollen. Das wäre der eine Teil, dass
+wir unsere Sätze formulieren oder zerlegen in
+
+0:12:45.390,0:12:51.450
+solche atomaren Aussagen, die wir knapp bezeichnen
+können. Und dann hatten wir einige Strategien, die wir eben
+
+0:12:51.450,0:12:59.280
+auch beschreiben können, jetzt, mit Hilfe solcher
+kompakten Formeln, wie wir dann sehen werden. Etwa
+
+0:12:59.280,0:13:04.980
+hatten wir besprochen, dass wir gern Alternativen
+explorieren wollen. Also das Haus kann grün oder nicht grün
+
+0:13:04.980,0:13:10.880
+sein, zum Beispiel. Wenn wir die Suche über Lösungen machen,
+das hatten wir manchmal gemacht: entweder dies oder
+
+0:13:10.880,0:13:18.710
+jenes. Was würde das aussagenlogisch bedeuten? Da gibt es das
+Prinzip des ausgeschlossenen Dritten. Das werden wir
+
+0:13:18.710,0:13:24.530
+so formulieren, dass für jede Aussage, egal welche Aussage das ist
+(sei es die Aussage „das Haus ist grün“ oder irgendeine andere Aussage),
+
+0:13:24.530,0:13:30.830
+immer gilt, dass entweder diese Aussage selbst oder
+ihre Negation gelten muss. Es ist vollkommen egal, was A ist. A könnte sein
+
+0:13:30.830,0:13:38.180
+„es regnet“. Dann würde diese Formel sozusagen
+entsprechen, weil dieses Symbol für das ODER stehen
+
+0:13:38.180,0:13:43.820
+wird (wir hatten gerade auf der Folie davor das umgedrehte
+Dach, das
+
+0:13:43.820,0:13:51.770
+war das UND - so geschrieben wäre es das
+ODER), also was hier stünde wäre: es gilt immer A ODER
+
+0:13:51.770,0:13:57.350
+nicht A. Zum Beispiel gilt „es regnet oder es
+regnet nicht“. Das nennt man das Prinzip des ausgeschlossenen Dritten.
+
+0:13:57.350,0:14:02.240
+Das ist in der klassischen Logik gesetzt. Denn wir
+gehen davon aus, dass jede Aussage entweder wahr
+
+0:14:02.240,0:14:12.200
+oder falsch ist. Deswegen kann die Aussage nicht wahr und
+falsch sein. Aber vor allem kann sie auch nichts anderes als wahr
+
+0:14:12.200,0:14:18.140
+oder falsch sein. Es gibt keine dritte Möglichkeit.
+Entweder das Haus ist grün oder es ist nicht grün.
+
+0:14:24.140,0:14:28.310
+Natürlich werden im Allgemeinen auch mehr Fälle möglich.
+Das Haus kann grün, gelb, blau sein. Aber wenn wir einfach
+
+0:14:28.310,0:14:32.810
+nur eine Aussage und ihre Negation nehmen, also grün
+vs. nicht grün, sind das genau die beiden Möglichkeiten.
+
+0:14:33.470,0:14:45.650
+Dann hatten wir direkte Schlussfolgerungen
+verwendet. Also Sachen wie: Wenn ein
+
+0:14:45.650,0:14:49.700
+Haus grün ist und wir wissen, dass im grünen Haus
+Kaffee getrunken wird, dann wissen wir, dass in
+
+0:14:49.700,0:14:55.520
+dem entsprechenden Haus Kaffee getrunken wird.
+Wie werden wir
+
+0:14:55.520,0:15:01.520
+das in Formelsprache später fassen? Was könnte man machen, wenn man das
+jetzt für allgemeine Aussagen A und B betrachten
+
+0:15:01.520,0:15:08.390
+möchte? Da könnte man sagen: Wenn wir wissen, dass
+irgendetwas gilt, irgendein A gilt, und wir wissen,
+
+0:15:08.390,0:15:14.990
+dass aus A zwangsweise B folgt (dieser Pfeil war:
+"aus irgendwas folgt irgendwas" - „wenn dies, dann auch
+
+0:15:14.990,0:15:23.120
+das“), dann können wir wiederum folgern, dass auf
+
+0:15:23.120,0:15:29.960
+jeden Fall B gelten muss. Diese Regel nennt man Modus
+Ponens. Natürlich tauchte die auch bei unseren
+
+0:15:29.960,0:15:37.490
+Syllogismen auf. Als transitive Schlüsse.
+Wenn man ein Philosoph ist,
+
+0:15:37.490,0:15:43.880
+ist man ein Mensch. Wenn man ein Mensch ist, ist man sterblich. Also
+wenn man ein Philosoph ist, ist man sterblich. Solche Schlüsse,
+
+0:15:43.880,0:15:50.810
+aus A folgt B, aus B folgt C, würden auch in dieses
+Muster passen, direkte Schlussfolgerungen zu treffen.
+
+0:15:50.810,0:16:00.080
+Hier wäre das eben aufgeschrieben mit irgendwelchen
+Aussagen A und B. Dann hatten wir den Aspekt,
+
+0:16:00.080,0:16:05.810
+dass wir bei unserer Lösungssuche im Einstein-Rätsel
+nach Widersprüchen gesucht haben. Oder
+
+0:16:05.810,0:16:10.640
+auf Widersprüche gestoßen sind, die aufgedeckt haben, und
+dann ausnutzen konnten. Zum Beispiel, indem wir andere
+
+0:16:10.640,0:16:20.570
+Alternativen exploriert haben. Wie könnte man
+das ausdrücken, in solcher Formelschreibweise?
+
+0:16:20.570,0:16:28.340
+Was ist ein Widerspruch? Ich hatte hier oben schon kurz gesagt, bei
+dem Prinzip des ausgeschlossenen Dritten: eine Aussage
+
+0:16:28.340,0:16:36.020
+muss immer wahr oder falsch sein. Sie kann aber auch
+nicht beides sein. Also, dass sie wahr oder falsch
+
+0:16:36.020,0:16:42.020
+sein muss, und es keine weiteren Möglichkeiten gibt.
+Das wäre eigentlich hier ausgedrückt. Also A ODER
+
+0:16:42.020,0:16:48.470
+nicht A gilt. Es darf aber auch nicht gelten (das steht hier oben
+noch nicht), dass nicht gleichzeitig A UND nicht A
+
+0:16:48.470,0:16:56.570
+gilt. Das könnte man so aufschreiben. Ich schreibe es hier mal für B
+auf. Was steht hier? Es darf nicht gelten,
+
+0:16:56.570,0:17:05.540
+dass B gilt UND nicht B gilt. Das hier wäre
+ein Widerspruch. Dass eine Aussage und ihr Gegenteil
+
+0:17:05.540,0:17:12.530
+gilt. Da wir das ausschließen wollen, sagen
+wir, das ist insgesamt nicht wahr. Das könnte
+
+0:17:12.530,0:17:23.420
+zum Beispiel verwendet werden beim Explorieren
+von Alternativen. Nehmen wir an, wir haben
+
+0:17:23.420,0:17:31.280
+irgendwie grün oder nicht grün. Das Haus ist grün oder nicht grün.
+Und nehmen wir an, aus
+
+0:17:31.280,0:17:38.960
+der Alternative, dass es grün sei, könnten
+wir irgendwie zwei weitere Aussagen herleiten.
+
+0:17:38.960,0:17:43.490
+Nämlich, dass in dem Haus Kaffee getrunken wird und
+nicht Kaffee getrunken wird. Dann wissen wir, das kann
+
+0:17:43.490,0:17:48.350
+gar nicht stimmen. Und dann wissen wir, von diesen
+beiden Alternativen muss die andere wahr gewesen sein. Weil diese
+
+0:17:48.350,0:17:53.630
+dann nicht wahr sein kann, weil sie zu einem
+Widerspruch führt. Und wegen dem Prinzip des ausgeschlossenen Dritten musste
+
+0:17:53.630,0:18:04.960
+dann die andere Alternative zutreffen. Und so haben
+wir dann die Suche betrieben. Dann tauchte auf
+
+0:18:04.960,0:18:10.600
+der Folie noch ein weiteres Prinzip auf, das wir
+benutzt hatten. Noch eine weitere Strategie. Und zwar das
+
+0:18:10.600,0:18:18.820
+Ausschlussverfahren. Das hatten wir da verwendet,
+um für die eine Position festzustellen, dass
+
+0:18:18.820,0:18:23.740
+das Haus gelb sein müsste unter bestimmten
+Voraussetzungen, weil keine weiteren Möglichkeiten mehr
+
+0:18:23.740,0:18:35.860
+übrig waren. Wie könnte man das fassen? Wie werden wir
+so etwas fassen? Das kann man zum Beispiel so fassen: Wenn wir
+
+0:18:35.860,0:18:42.790
+vielleicht zwei (oder es könnten auch mehr Möglichkeiten sein, aber betrachten
+wir mal zwei) Möglichkeiten haben, also wenn C oder D gelten
+
+0:18:42.790,0:18:52.330
+muss - nehmen wir mal an, es wäre nur noch möglich bzw. übrig,
+dass das Haus grün oder gelb sei -
+
+0:18:52.330,0:18:59.560
+und außerdem würden wir feststellen, dass es aber
+nicht grün ist; also wir wissen: grün oder gelb; und wir
+
+0:18:59.560,0:19:07.660
+wissen auch, dass es nicht grün ist. Dann muss zwangsweise
+gelb vorliegen. Auch das könnte natürlich
+
+0:19:07.660,0:19:15.850
+kombiniert werden bzw. könnte zum Einsatz kommen
+etwa im Zusammenhang mit dem Aufdecken eines
+
+0:19:15.850,0:19:24.580
+Widerspruchs. Angenommen, wir wissen grün oder
+gelb muss stimmen. Und aus dem
+
+0:19:24.580,0:19:31.420
+Teil "grün" lassen sich zwei Aussagen herleiten,
+die sich gegenseitig widersprechen. Also nehmen wir
+
+0:19:31.420,0:19:36.430
+an, das C würde solch einer Form entsprechen
+für irgendwelche Grundaussagen B, und
+
+0:19:36.430,0:19:48.280
+dann entsprechend nicht B, dann wüssten wir also, dass die
+Negation davon gilt. Weil das hier immer zutrifft,
+
+0:19:48.280,0:19:53.830
+egal was die Grundaussage B konkret ist. Dann
+wären wir in der Situation, dass wir einerseits
+
+0:19:53.830,0:19:59.410
+diese Alternative hätten: C oder D könnte stimmen. Wir
+wissen außerdem: C kann nicht stimmen, wegen eines
+
+0:19:59.410,0:20:10.150
+Widerspruchs. Dann muss zwangsweise D stimmen.
+Das haben wir natürlich zuvor konkret gemacht. Wir haben das
+
+0:20:10.150,0:20:16.300
+nicht so aufgeschrieben. Ich habe das jetzt hier nur gemacht, um
+Ihnen schon ein paar Formeln zu zeigen, damit Sie
+
+0:20:16.300,0:20:23.740
+sich an diese Schreibweise gewöhnen, die wir natürlich
+noch formaler definieren werden. Ganz wichtig ist
+
+0:20:23.740,0:20:27.850
+aber: Während wir das da hier noch konkret gemacht haben,
+ist das eine
+
+0:20:27.850,0:20:34.390
+Möglichkeit, die Überlegung ausdrücken, ohne auf
+ganz konkrete Aussagen Bezug zu nehmen. Hier steht bewusst
+
+0:20:34.390,0:20:39.640
+eben A, B, C, D. Das sind einfach irgendwelche Aussagen. Hier könnte
+auch A und A stehen. Hier könnten auch konkrete
+
+0:20:39.640,0:20:46.060
+Aussagen stehen, wenn wir das verbal aufschreiben wollen. Der Punkt ist diese
+Grundüberlegung: diese Grundstrategien, die sind eben
+
+0:20:46.060,0:20:53.230
+unabhängig davon, was die konkreten beteiligten
+Aussagen sind. Das sind Schemata für bestimmte
+
+0:20:53.230,0:21:01.540
+Schlussfolgerungen. So wie die Syllogismen ja auch
+Grundprinzipien waren, um verschiedene Aussagen
+
+0:21:02.710,0:21:11.350
+zu untersuchen. Um diesen Punkt
+sozusagen noch stärker klar zu machen, oder mal
+
+0:21:11.350,0:21:17.920
+auszunutzen, habe ich auf der nächsten Folie jetzt nochmal ein
+Rätsel. Diesmal witzigerweise von Zweistein. Das ist ein
+
+0:21:17.920,0:21:30.280
+Pseudonym eines Journalisten. Und zwar geht es
+hier um folgendes Rätsel aus einer Zeitschrift. Finden tun
+
+0:21:30.280,0:21:35.440
+Sie das in einem Artikel, den ich in Moodle noch
+hochladen werde. Da können Sie dazu auch ein bisschen Drumherum
+
+0:21:35.440,0:21:42.940
+lesen. Aber der Punkt ist, das ist ein Rätsel, so eine kleine
+Logelei. Wenn Sie sich das mal anschauen, dann
+
+0:21:42.940,0:21:47.800
+stehen hier Aussagen drin, die scheinbar
+gar keinen Sinn ergeben. Also die wir überhaupt
+
+0:21:47.800,0:21:52.000
+nicht sinnvoll interpretieren könnten. Ich kann
+nicht sagen, was es heißt „gedrübt zu sein“ oder zu
+
+0:21:52.000,0:21:59.680
+„maksen“ und „eine Mause zu haben“. Hier sind so ein paar
+Aussagen, ein bisschen wie in dem Einstein-Rätsel.
+
+0:21:59.680,0:22:04.090
+Dann geht es darum, irgendeinen Zusammenhang
+zwischen zwei Begriffen herzuleiten. „Matupeln“
+
+0:22:04.090,0:22:09.820
+und „eine Mause haben“. Jetzt irgendwie zu sagen, irgendwas
+davon ist wahr oder falsch, ist gar nicht möglich, weil
+
+0:22:09.820,0:22:19.700
+wir diese Begriffe nicht kennen. Der Punkt ist, diese
+Prinzipien, die Art wie man mit Aussagen arbeiten
+
+0:22:19.700,0:22:24.320
+kann, sind völlig unabhängig vom konkreten Gehalt. Also
+steht hier jetzt für A „es regnet“ oder steht da „die Straße
+
+0:22:24.320,0:22:31.610
+ist nass“? Die Strategien sind unabhängig vom
+konkreten Inhalt der einzelnen Aussagen. Es geht nur um die
+
+0:22:31.610,0:22:38.090
+Schemata, wie man sie verknüpfen kann. Deswegen
+kann man so ein Rätsel selbst dann lösen, wenn denn
+
+0:22:38.090,0:22:42.800
+genug Information vorhanden ist, wenn man gar nicht
+weiß, was es heißt, „ein Klep zu sein“, „ein Pfuff zu sein“, oder was
+
+0:22:42.800,0:22:54.470
+auch immer. Das Beispiel würde ich gern durcharbeiten
+am Whiteboard. Ich werde ein extra Video direkt im
+
+0:22:54.470,0:23:02.510
+Anschluss jetzt machen, wo ich das mal durchgehe,
+und wir versuchen, diese Aufgabe zu lösen.

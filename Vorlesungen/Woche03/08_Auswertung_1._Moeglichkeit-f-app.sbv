@@ -1,0 +1,144 @@
+0:00:00.000,0:00:05.310
+Also hier haben wir eine Formel, die wir
+auch vorher schon einmal gesehen hatten. Wir hatten auch
+
+0:00:05.310,0:00:12.570
+den Syntaxbaum dazu gesehen. Und wir würden die jetzt gern
+auswerten. Wir wissen, dass wir dafür zunächst eine
+
+0:00:12.570,0:00:19.860
+Belegung der atomaren Aussagen brauchen, die darin vorkommen.
+Da kommen A1, A3 und A4 vor. Wir können aber auch
+
+0:00:19.860,0:00:27.120
+ein α angeben, das für A1, A2, A3, A4 Werte vorgibt.
+Das Entscheidende ist, dass ich
+
+0:00:27.120,0:00:36.780
+hier auch das A2 mit dabei habe, weil möglicherweise meine
+Menge A1, A2, A3, A4 umfasste. Meine Menge M.
+
+0:00:36.780,0:00:42.750
+Meine Menge M^ aller Formeln, die darüber gebildet
+werden können, enthält unter anderem auch diese
+
+0:00:42.750,0:00:47.430
+Formel, in der zufällig A2 nicht genutzt wird. Hätte
+aber genutzt werden können. Deswegen macht es Sinn, dieses
+
+0:00:47.430,0:00:52.080
+α zu nehmen, in dem auch dem A2 etwas zugeordnet ist.
+Jetzt haben wir eine Formel. Wir haben ein passendes α.
+
+0:00:52.080,0:00:58.530
+Und können das jetzt ausrechnen. Die erste
+Möglichkeit, in der wir das tun konnten, war,
+
+0:00:58.530,0:01:11.010
+dass wir letztlich an den Elementaraussagen beginnen.
+Und uns dort jeweils festhalten, was denn
+
+0:01:11.010,0:01:20.940
+die Bewertung ist. Wir sehen hier das A4. Das
+ist sozusagen mit 0 bewertet. A1 ist auch mit
+
+0:01:20.940,0:01:27.600
+0 bewertet. Und A3 ist mit 1 bewertet. Und dass
+wir dann die Regeln von der entsprechenden Folie
+
+0:01:27.600,0:01:36.150
+anwenden, um für komplexere Formeln jeweils ihren
+Wahrheitswert zu bestimmen. Da können wir hier zum Beispiel sehen, direkt von
+
+0:01:36.150,0:01:41.970
+links beginnend, dass wir hier dieses ¬A4
+haben. Wenn wir da auf die Folie schauen würden,
+
+0:01:41.970,0:01:55.690
+dann sehen wir, wenn wir das
+α^(¬A4) ausrechnen sollen,
+
+0:01:55.690,0:02:04.240
+dann sagt die entsprechende Regel
+auf der Folie: Wir schauen nach, was denn α^(¬A4) wäre.
+
+0:02:04.240,0:02:11.200
+Das ist 0. Deswegen kommt hier
+1 heraus, weil das die Regel für das α^ so sagt, bei der Negation.
+
+0:02:11.200,0:02:20.080
+Hingegen für das A1 zum Beispiel, da
+bleibt α^ einfach das,
+
+0:02:20.080,0:02:30.970
+was α auch sagt. Nämlich 0. Diese 0 hier, die bliebe
+einfach bis dorthin stehen.
+
+0:02:30.970,0:02:48.760
+Dann kommt hier die Disjunktion. Also das α^(¬A4 ∨ A1).
+Da ist die Regel: Man schaue
+
+0:02:48.760,0:02:57.040
+die beiden Werte an. Schaue, ob mindestens einer
+von beiden 1 ist. Wenn dem so ist, dann nehme
+
+0:02:57.040,0:03:10.260
+man auch 1 als Ergebnis. Und natürlich
+auf der noch weiter außen liegenden Ebene, hätte
+
+0:03:10.260,0:03:23.460
+man die 1 für das A3 von oben einfach behalten.
+Und würde jetzt kombinieren als α^ von der
+
+0:03:23.460,0:03:36.510
+einen, inneren Formel ((¬A4 ∨ A1) ∧ A3).
+Das ist das UND zwischen diesen
+
+0:03:36.510,0:03:51.600
+beiden Einsen. Das ist natürlich 1. Dann
+haben wir noch ganz außen das α^ von einer
+
+0:03:51.600,0:03:59.640
+negierten Formel. Alles was da drüber stand. Das wird jetzt
+berechnet als α^ negiert von einer Formel,
+
+0:03:59.640,0:04:11.280
+die zu 1 bewertet wurde. Also wäre das Ergebnis 0.
+Das wäre die Gesamtbewertung des α^ für
+
+0:04:11.280,0:04:18.750
+unsere gegebene Formel F. Dieses Verfahren arbeitet
+so von unten nach oben. Wenn man auf den Syntaxbaum schaut.
+
+0:04:18.750,0:04:23.910
+Wir haben ja von innen nach außen gearbeitet, als wir
+hierauf gearbeitet haben. Wenn wir uns das am Syntaxbaum
+
+0:04:23.910,0:04:33.690
+parallel angeschaut hätten, hätten wir gesehen, dass wir im
+Grunde genommen von unten nach oben zugeordnet haben. A4 = 1.
+
+0:04:33.690,0:04:49.520
+A1 = 0. A3 = 1. Einfach wegen entsprechender Einträge von hier.
+Dann ¬A4, also ¬1 ist 0. (Jetzt habe ich hier falsch begonnen.)
+
+0:04:49.520,0:05:06.290
+(Richtig:) A4 = 0. A1 = 0. A3 = 1. Dann wird aus dem
+¬0 eine 1. Dann wird aus diesem Paar (1 ∨ 0) = 1.
+
+0:05:06.290,0:05:10.070
+Dann wird aus diesem Paar (1 ∧ 1) von Einsen bei der Konjunktion
+eine 1. Dann wird aus dieser 1
+
+0:05:10.070,0:05:19.820
+beim Negieren eine 0. Das, was ich hier
+drüben schrittweise getan habe, kann man auch
+
+0:05:19.820,0:05:29.660
+hier entsprechend als Schritte wiederfinden. In dem
+Sinne findet die Auswertung "bottom-up" also von
+
+0:05:29.660,0:05:35.240
+unten nach oben statt. Oder an der Formel gesehen,
+von innen nach außen. Aber am Syntaxbaum entspricht das:
+von unten nach oben.

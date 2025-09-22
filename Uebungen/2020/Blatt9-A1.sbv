@@ -1,0 +1,383 @@
+0:00:05.640,0:00:09.960
+Heute besprechen wir Blatt Neun von Logik. Bei
+Aufgabe Eins haben wir eine Formel gegeben und
+
+0:00:09.960,0:00:14.460
+sollen dazu zunächst einmal eine Wahrheitstabelle
+aufstellen. Ich gehe da immer so vor, dass ich mir
+
+0:00:14.460,0:00:18.840
+einerseits einmal anschaue, welche atomaren
+Formeln wir in der Formel gegeben haben. Das
+
+0:00:18.840,0:00:23.700
+sind hier A, B und C. Und ich schaue mir auch
+an, welche davon negiert sind. Das sind hier in
+
+0:00:23.700,0:00:29.220
+dem Fall auch A, B und C. Dann schreibe ich mir
+die Spalten dafür in die Wahrheitstabelle auf,
+
+0:00:29.220,0:00:36.060
+A, B und C und nicht A, nicht B und nicht C. Da
+wir hier drei atomare Formeln haben, wissen wir,
+
+0:00:36.060,0:00:41.100
+dass wir zwei hoch drei Zeilen benötigen, also,
+acht Zeilen. Das heißt, wir fangen wieder mit
+
+0:00:41.100,0:00:46.140
+den Nullen an. Die Hälfte von Acht ist Vier,
+vier Nullen bei A, vier Einsen bei A. Dann
+
+0:00:46.140,0:00:51.780
+die Hälfte von Vier ist Zwei, zwei Nullen bei B,
+zwei Einsen, zwei B, zwei Nullen, zwei Einsen. Und
+
+0:00:51.780,0:00:56.940
+dann die Hälfte von Zwei ist Eins, also, Null und
+Eins im Wechsel bei C. Und bei der negierten Form
+
+0:00:56.940,0:01:01.440
+dann genau anders herum, sodass der Anfang der
+Wahrheitstabelle dann so aussieht. Dann schaue
+
+0:01:01.440,0:01:05.640
+ich mir an, welche Teilformeln ich aus der
+Formel erkenne und wofür ich extra Spalten
+
+0:01:05.640,0:01:10.500
+in meiner Wahrheitstabelle machen möchte. Hier
+sehe ich einmal, dass diese Formel aus diesem
+
+0:01:10.500,0:01:16.080
+oder hier besteht. Das heißt, der linke Teil
+der Formel wird mit dem rechten Teil der Formel
+
+0:01:16.080,0:01:21.000
+über das oder verknüpft. Und der linke Teil
+wiederrum besteht aus den Teilformeln nicht
+
+0:01:21.000,0:01:29.820
+A oder nicht B und der Implikation zu nicht C.
+Das heißt, der linke Teil der Formel impliziert
+
+0:01:29.820,0:01:37.680
+wieder diesen Teil. Und genau so mache ich das
+auch in meiner Wahrheitstabelle. Das heißt,
+
+0:01:37.680,0:01:42.660
+ich schreibe mir zunächst den linken Teil
+auf, nicht A oder nicht B, dann schreibe
+
+0:01:42.660,0:01:49.380
+ich nicht A oder nicht B impliziert nicht C.
+Und dann noch den rechten Teil, A und C. Und
+
+0:01:49.380,0:01:57.600
+als letzte Spalte die Gesamtformel, nicht A oder
+nicht B impliziert nicht C und das oder A und C.
+
+0:01:57.600,0:02:01.200
+Und dann gehe ich die Spalten einzeln durch.
+Den linken Teil der Tabelle haben wir schon
+
+0:02:01.200,0:02:08.100
+ausgefüllt. Da fangen wir an mit nicht A oder
+nicht B. Dafür brauche ich diese beiden. Und
+
+0:02:08.100,0:02:12.360
+da wir eine oder-Verknüpfung haben, weiß ich,
+es reicht, wenn eins von beiden eine Eins ist,
+
+0:02:12.360,0:02:18.000
+dann wird auch diese Teilformel hier Eins. Das
+ist hier überall der Fall, bis auf den letzten
+
+0:02:18.000,0:02:22.500
+beiden Zeilen. Da haben wir zwei Nullen. Dann
+gehen wir zum nächsten, nicht A oder nicht B.
+
+0:02:22.500,0:02:30.540
+Dafür brauchen wir einmal den Teil, den wir hier
+gerade bearbeitet haben, und impliziert nicht C.
+
+0:02:31.680,0:02:37.680
+Dafür brauchen wir hier diese Spalte mit
+nicht C. Und schauen dann da weiter. Bei
+
+0:02:37.680,0:02:42.660
+der Implikation wissen wir, wenn der linke Teil
+der Implikation eine Null ist, dann ist es egal,
+
+0:02:42.660,0:02:48.660
+was auf der rechten Seite der Implikation steht,
+dann kommt immer eine Eins heraus. Das heißt, wir
+
+0:02:48.660,0:02:51.720
+wissen schon mal, dass wir in die in die letzten
+beiden Zeilen eine Eins schreiben können, denn da
+
+0:02:51.720,0:02:55.500
+haben wir für nicht A und nicht B eine Null. Für
+die restlichen Zeilen müssen wir separat gucken.
+
+0:02:55.500,0:03:01.620
+Überall dort, wo nicht C eine Eins ist, ergibt
+auch die gesamte Teilformel eine Eins. Und in den
+
+0:03:01.620,0:03:06.300
+anderen Zeilen haben wir eine Null. Das heißt, das
+sieht dann so aus. Jetzt noch die vorletzte Zeile
+
+0:03:06.300,0:03:18.000
+A und C. Dafür benötigen wir die erste Spalte und
+die Spalte C. Und da schauen wir jetzt. Da wir
+
+0:03:18.000,0:03:22.320
+hier eine Unverknüpfung haben, wissen wir, beides
+muss eine Eins sein, damit auch die Teilformel
+
+0:03:22.320,0:03:28.320
+eine Eins ergibt. Und das sieht dann so aus. Jetzt
+müssen wir noch die Spalte für die Gesamtformel
+
+0:03:28.320,0:03:34.500
+ausfüllen. Da haben wir den gesamten linken
+Teil oder den gesamten rechten Teil. Das heißt,
+
+0:03:34.500,0:03:42.120
+wir schauen uns dann einmal für den gesamten
+linken Teil diese Spalte an oder für den gesamten
+
+0:03:42.120,0:03:46.920
+rechten Teil diese Spalte an. Bei oder reicht es
+wieder, wenn eine von beiden eine Eins ist. Und
+
+0:03:46.920,0:03:52.440
+so sieht dann die komplette Wahrheitstafel aus.
+In Teilaufgabe B sollen wir begründet angeben,
+
+0:03:52.440,0:03:57.600
+welchen Status F, zum Beispiel tautologisch,
+besitzt. Woran sehen wir das jetzt? Wir schauen
+
+0:03:57.600,0:04:03.360
+einmal, ob die Formel überhaupt erfüllbar ist, und
+ob es für die Formel überhaupt eine Belegung gibt,
+
+0:04:03.360,0:04:07.740
+sodass der Wahrheitswert am Ende Eins ist.
+Ja, das ist der Fall. Wir haben sogar in
+
+0:04:07.740,0:04:11.340
+mehreren Fällen Eins als Wahrheitswert
+rausbekommen. Das können wir hier in der
+
+0:04:11.340,0:04:15.300
+letzte Spalte ablesen. Daher wissen wir, die
+Formel ist auf jeden Fall schon mal erfüllbar.
+
+0:04:15.300,0:04:19.320
+Und jetzt müssen wir noch gucken, ob die Formel
+tautologisch ist. Tautologisch würde bedeuten,
+
+0:04:19.320,0:04:23.340
+dass sie für jede passende Belegung den
+Wahrheitswert Eins erhält. Da wir hier auch
+
+0:04:23.340,0:04:27.120
+den Wahrheitswert Null an zwei Stellen heraus
+haben, wissen wir, dass die Formel erfüllbar,
+
+0:04:27.120,0:04:31.680
+aber nicht tautologisch ist. Das heißt, ein
+guter Antwortsatz könnte dann zum Beispiel sein,
+
+0:04:31.680,0:04:36.300
+die Formel F ist erfüllbar, aber sie ist nicht
+tautologisch, weil sie nicht für alle passenden
+
+0:04:36.300,0:04:40.620
+Belegungen den Wahrheitswert Eins erhält, wie
+es anhand der Wahrheitstafel zu erkennen ist.
+
+0:04:41.880,0:04:46.680
+Bei Aufgabe C sollen wir jetzt die ursprüngliche
+Formel mittels Äquivalenzumformungen in eine
+
+0:04:46.680,0:04:52.680
+Formel in konjunktiver Normalform überführen. Und
+dafür die verwendeten Umformungen angeben. Dafür
+
+0:04:52.680,0:04:57.660
+schreibe ich zunächst die Formel nochmal ab. Das
+Erste, was wir jetzt machen, wir verwenden die
+
+0:04:57.660,0:05:03.600
+Definition der Implikation. Das heißt, wir
+lösen diesen vorderen Teil, diese vordere
+
+0:05:03.600,0:05:10.800
+Implikation, auf und haben dann nicht nicht A
+oder nicht B oder nicht C, und dann bleibt der
+
+0:05:10.800,0:05:15.960
+restliche Teil hinten einfach gleich, oder A
+und C. Und jetzt verwenden wir De Morgan und
+
+0:05:15.960,0:05:23.040
+ziehen die Negation nach innen rein. Das heißt,
+wir haben, nicht nicht A. Und ganz wichtig bei
+
+0:05:23.040,0:05:28.620
+De Morgan ist, was häufig vergessen wird, klappt
+dieses oder zum und und stünde hier ein und würde
+
+0:05:28.620,0:05:36.300
+es zum oder umklappen. Das heißt, wir haben, nicht
+nicht A und nicht nicht B oder nicht C oder A und
+
+0:05:36.300,0:05:41.280
+C. Das bleibt gleich. Und jetzt können wir die
+Doppelnegation auflösen. Das heißt, wir haben,
+
+0:05:41.880,0:05:50.520
+A und B oder nicht C oder A und C. Und jetzt
+können wir das Distributivgesetz anwenden und zwar
+
+0:05:50.520,0:05:57.120
+zunächst auf den vorderen Teil, den hinteren Teil
+lassen wir einfach unberührt. Das heißt, wir haben
+
+0:05:57.120,0:06:08.340
+A oder nicht C. Das ist hier dieses A und dieses
+nicht C. Und B oder nicht C. B und auch wieder
+
+0:06:08.340,0:06:14.580
+dieses nicht C. Und den hinteren Teil können
+wir wieder einfach so übernehmen, oder A und C.
+
+0:06:16.260,0:06:21.360
+Jetzt können wir wieder das Distributivgesetz
+anwenden. Das heißt, wir haben hier einmal diesen
+
+0:06:21.360,0:06:27.600
+vorderen Teil, diesen und diesen, und können
+ihn jetzt zusammen mit diesem verbinden. Und
+
+0:06:27.600,0:06:37.260
+bekommen dann heraus, A oder nicht C oder A und
+C als eine Einheit das Erste mit dem Letzten,
+
+0:06:37.260,0:06:45.840
+und B oder nicht C oder A und C als hintere
+Einheit. Und darauf können wir jetzt nochmal
+
+0:06:45.840,0:06:51.360
+das Distributivgesetz anwenden. Und wir fangen mit
+dem vorderen Teil an. Das heißt, wir können dann
+
+0:06:51.360,0:06:55.680
+dieses Ganze hier als eine Einheit betrachten
+und das mit diesen beiden hier zusammentun,
+
+0:06:55.680,0:07:02.340
+einmal A und einmal C. Und das sieht dann
+folgendermaßen aus. Wir haben dann, A oder nicht C
+
+0:07:02.340,0:07:10.740
+oder A und A oder nicht C oder C. Und den hinteren
+Teil behalten wir einfach wieder. Das heißt,
+
+0:07:10.740,0:07:20.160
+B oder nicht C oder A und C. Hier können wir jetzt
+einmal die Idempotenz und die Tautologie anwenden.
+
+0:07:21.960,0:07:30.000
+Wir sehen, dass wir hier A oder A und hier nicht
+C oder C stehen haben. Das heißt, A oder A könnten
+
+0:07:30.000,0:07:34.980
+wir hier einfach zu A zusammenfügen. Das heißt,
+wir haben für die erste Klammer A oder nicht
+
+0:07:34.980,0:07:41.820
+C. Und C oder nicht C ist immer wahr, denn eins
+von beiden muss immer gelten, denn es ist C oder
+
+0:07:41.820,0:07:47.580
+es ist eben nicht C, und deswegen ist es eine
+Tautologie. Und da das A verodert ist, heißt,
+
+0:07:47.580,0:07:53.160
+es muss entweder A gelten oder nicht C oder C.
+Und wir wissen, es wird entweder nicht C oder
+
+0:07:53.160,0:07:57.360
+C gelten. Und beim oder reicht es, wenn eins
+von beiden wahr ist. Und dadurch wissen wir,
+
+0:07:57.360,0:08:01.200
+dass der gesamte Ausdruck immer wahr ist und
+deswegen können wir den auch einfach streichen.
+
+0:08:01.200,0:08:06.600
+Der ist nämlich mit den restlichen Teilen mit
+einem und verbunden. Das heißt, wir wissen hier
+
+0:08:06.600,0:08:10.860
+auf jeden Fall schon mal die Eins und dann hängt
+der Wahrheitsgehalt davon ab, wie der Rest der
+
+0:08:10.860,0:08:15.300
+Formel aussieht. Das heißt, den lassen wir einfach
+weg und schreiben den hinteren Teil wieder dran,
+
+0:08:15.300,0:08:23.220
+B oder nicht C oder A und C. Jetzt können
+wir wieder das Distributivgesetz anwenden.
+
+0:08:24.540,0:08:31.680
+Dafür betrachten wir einmal diesen Teil und
+A und C gesondert. Das heißt, den ersten Teil
+
+0:08:31.680,0:08:38.700
+schreiben wir ab, A oder nicht C und jetzt gehen
+wir hier vor und wenden das Distributivgesetz an,
+
+0:08:38.700,0:08:50.760
+und erhalten, B oder nicht C oder A und B
+oder nicht C oder C. Hier können wir jetzt
+
+0:08:50.760,0:08:58.080
+die Tautologie anwenden. Da wir hier sehen, wir
+haben C oder nicht C, und das B ist wieder mit
+
+0:08:58.080,0:09:03.420
+einem oder verbunden, heißt, dass dieser Ausdruck
+immer wahr ist, da immer C oder nicht C gilt,
+
+0:09:03.420,0:09:08.100
+und es reicht, wenn eins von beiden wahr
+wird, dann wird die gesamte Teilformel wahr,
+
+0:09:08.100,0:09:16.740
+wenn sie verodert ist. Das heißt, wir erhalten
+schlussendlich, A oder nicht C und B oder nicht
+
+0:09:16.740,0:09:22.200
+C oder A. Hier hättet ihr auch den Algorithmus
+aus der Vorlesung verwenden können und wärt zu
+
+0:09:22.200,0:09:27.180
+einer Lösung gekommen. Die wäre allerdings etwas
+länger gewesen, da dort die Vereinfachungen wie
+
+0:09:27.720,0:09:33.000
+Tautologie nicht berücksichtigt werden, wäre aber
+auch okay gewesen. Und wir haben hier eine KNF,
+
+0:09:33.000,0:09:36.900
+da wir hier eine Konjunktion haben. Und die
+Konjunktion verbindet Disjunktionen miteinander.

@@ -1,0 +1,219 @@
+0:00:00.000,0:00:11.340
+Meine nächste selbstgestellte Aufgabe wäre
+die hier gezeigte Formel in DNF zu bringen.
+
+0:00:13.920,0:00:22.590
+Die enthält wieder Negation und
+Konjunktion und Disjunktion. Das Verfahren
+
+0:00:22.590,0:00:29.100
+auch beim Umwandeln in DNF war ja zunächst
+die Negation entweder zu entfernen (wo das geht)
+
+0:00:29.100,0:00:36.510
+durch Doppelnegation. Oder sie im Syntaxbaum sozusagen
+in der Formel nach unten zu drücken. Hier haben wir jetzt mal die
+
+0:00:36.510,0:00:42.660
+Situation, dass wir innen eine Disjunktion haben
+aus drei Partnern. Da hatte ich gesagt: Auch dafür gilt, dass
+
+0:00:42.660,0:00:48.270
+wir die Negation dadrüber ziehen können, dann
+jeden einzelnen Teil in der Disjunktion negieren
+
+0:00:48.270,0:00:53.670
+und aus der Disjunktion eine Konjunktion
+machen. Das heißt der erste Schritt hier wäre, dass
+
+0:00:53.670,0:01:06.690
+umzuformen zu einer Konjunktion, wo die einzelnen
+Teile sind: ¬¬A ∧ ¬¬B ∧ ¬(C ∧ D).
+
+0:01:07.860,0:01:17.550
+Da können wir direkt
+zweimal Doppelnegation entfernen. Hier und hier.
+
+0:01:19.230,0:01:28.020
+Das hinten lassen wir vielleicht erstmal so stehen,
+weil das die einfachen Schritte sind hier. Dann machen
+
+0:01:28.020,0:01:36.810
+wir tatsächlich den nächsten und hier einzigen
+de Morgan Schritt. Also Negation über eine
+
+0:01:36.810,0:01:45.960
+der binäre Operation ziehen. In dem Fall über die
+Konjunktion. Dann bleibt übrig: Eine Disjunktion, die
+
+0:01:45.960,0:01:51.840
+wir Klammern sollten, damit wir das nicht mit der
+äußeren Konjunktion irgendwie vermischen.
+
+0:01:51.840,0:01:57.780
+Dann hätten wir diesen Ausdruck. Der ist zum
+einen in der letzten Woche bereits aufgetaucht
+
+0:01:57.780,0:02:03.660
+auf einer Folie. Das war nämlich der Ausdruck,
+der in meinem Moodle Beispiel auftrat. Und der
+
+0:02:03.660,0:02:09.300
+war dort auch schon identifiziert als konjunktive
+Normalform. Also wieder zufälligerweise sind wir auf dem
+
+0:02:09.300,0:02:15.210
+Weg in eine disjunktive Normalform bei einer konjunktiven
+Normalform vorbei gekommen. Vorhin war es genau umgekehrt.
+
+0:02:15.210,0:02:21.720
+Das ist Zufall. Das muss nicht immer so sein. Hier würden wir
+gern weitermachen, weil wir eine disjunktive Normalform wollen.
+
+0:02:22.680,0:02:27.420
+Wie würden wir das machen? Jetzt müssen wir die andere
+Distributivität anwenden, wo wir eine Konjunktion
+
+0:02:27.420,0:02:33.000
+nach innen schieben über eine Disjunktion.
+Zum Beispiel können wir sagen, wir wenden hier drauf
+
+0:02:34.410,0:02:43.620
+das Distributivgesetz an. Dann würden wir was erhalten?
+Außen der Kontext "A ∧" bleibt natürlich gleich.
+
+0:02:43.620,0:02:58.860
+Durch was würde dieser Term hier ersetzt
+werden? Durch eine Disjunktion von (B ∧ ¬C)
+
+0:02:58.860,0:03:11.880
+einerseit. Sowie (B ∧ ¬D) andererseits. Und
+dieser Gesamtterm/ die Disjunktion sollte auch
+
+0:03:11.880,0:03:17.700
+noch einmal durch eine Klammer umschlossen werden,
+damit klar ist, wie hier die Struktur ist. Das ist also
+
+0:03:17.700,0:03:26.790
+diese Disjunktion innen ist und diese Konjunktion
+außen. Dann müssten wir weitermachen. Wir hätten
+
+0:03:26.790,0:03:30.810
+immer noch nicht eine disjunktive Normalform. Wir hätten
+immer noch nicht Disjunktionen außen. Wir müssen
+
+0:03:30.810,0:03:37.890
+deswegen das Gleiche nochmal machen. Und
+jetzt das "A ∧" nach innen ziehen. Dann ziehen wir jetzt
+
+0:03:37.890,0:03:44.070
+also dieses ∧ über dieses ∨. Dann kriegen wir jetzt tatsächlich
+außen ein ∨. Und der linke Teil dieses ∨, ist
+
+0:03:44.070,0:03:52.590
+die Konjunktion aus diesem "A ∧ den linken
+Disjunkt der inneren Disjunktion". Also eine
+
+0:03:52.590,0:04:01.320
+Konjunktion von: (A ∧ B ∧ ¬C). Und natürlich
+können wir diese beiden Klammern auch weglassen.
+
+0:04:11.510,0:04:19.320
+Das wäre dann ein Teil der Disjunktion.
+Der andere Teil wird die rechte Seite/ der rechte
+
+0:04:19.320,0:04:26.400
+Partner, aber eben auch mit dem Kontext "A ∧"
+versehen. Also: (A ∧ B ∧ ¬D).
+
+0:04:26.400,0:04:37.020
+(Das ist hier jetzt nicht besonders schön geschrieben. Das sollte ein
+∧ sein. Dann ¬D.) Und das ist eine disjunktive
+
+0:04:37.020,0:04:45.510
+Normalform. Wenn man genau hinschaut,
+hätte man hier eventuell etwas an Schritten sparen können.
+
+0:04:45.510,0:04:50.970
+Man hat manchmal durchaus verschiedene Möglichkeiten
+die Regeln anzuwenden. Und zwar, wenn wir nochmal
+
+0:04:50.970,0:05:03.210
+auf diese Stelle hier schauen, da war es jetzt
+nicht die einzige Möglichkeit tatsächlich das
+
+0:05:03.210,0:05:12.720
+B nach innen zu ziehen. Wir hätten auch
+an dieser Stelle sozusagen einen Abzweig nehmen
+
+0:05:12.720,0:05:31.640
+können und das lesen können als: (A ∧ B) und dieser
+rechte Teil. Also ¬(C ∧ D).
+
+0:05:31.640,0:05:38.570
+Also statt sozusagen das zusammenzufassen, hätte
+ich hier (gedanklich zumindest) das zusammengefasst.
+
+0:05:39.260,0:05:47.120
+Dann kann ich nämlich das insgesamt als den Kontext
+nehmen, den ich hierüber ziehe. Genau genommen hätte es
+
+0:05:48.050,0:05:56.930
+natürlich mehr Sinn gemacht, das schon auf dieser
+Stufe hier zu machen, wo ich also diesen Teil habe.
+
+0:05:56.930,0:06:11.780
+(Lassen Sie mich das ein bisschen tricksen) Und das also hiervon
+abzweigen. Ich hab (A ∧ B). Ich fasse das
+
+0:06:11.780,0:06:20.300
+zusammen. Und die rechte Seite/ der rechten Teil
+der Konjunktion ist dieses (¬C ∨ ¬D).
+
+0:06:20.300,0:06:30.680
+Dann zieh ich das von außen über die
+innere Disjunktion. Und kann dann in einem mal, also
+
+0:06:30.680,0:06:37.700
+statt hier zwei Schritte Distributivität zu
+machen, mache ich nur einen Schritt. Hier waren das
+
+0:06:37.700,0:06:51.490
+zwei solche Schritte. Jetzt mach ich einen Schritt, wo
+ich direkt diesen Teil nach innen ziehe. Dann kriege
+
+0:06:51.490,0:07:00.430
+ich also eine äußere Disjunktion und innen steht
+einmal die Konjunktion von (A ∧ B ∧ ¬C).
+
+0:07:00.430,0:07:10.360
+Und außen steht diese Disjunktion. Und auf
+der rechten Seite habe ich die Konjunktion
+
+0:07:10.360,0:07:22.570
+von (A ∧ B ∧ ¬D). Und dann bin ich natürlich bei
+dem gleichen Ergebnis rausgekommen.
+
+0:07:23.080,0:07:32.440
+Aber habe hier einen Schritt gemacht, wo ich
+hier zwei Schritte gemacht habe. Nichts von diesen
+
+0:07:32.440,0:07:38.560
+beiden Varianten ist besser oder richtiger oder
+falscher. Ich habe einfach mehrere Möglichkeiten
+
+0:07:38.560,0:07:45.790
+die Regeln anzuwenden. Und jede davon, die ich korrekt
+durchführe, führt zu einem Ergebnis. Das muss
+
+0:07:45.790,0:07:50.410
+nicht mal unbedingt immer die identische Formel sein,
+die da raus kommt. Aber jede Formeln, die dabei rauskommen,
+
+0:07:50.410,0:07:55.540
+wenn ich jeden einzelnen Schritt korrekt durchführe und
+alle Schritte durchgeführt habe, die
+
+0:07:56.050,0:08:01.930
+ich durchführen kann (bis nichts mehr geht), dann habe
+ich eine korrekte in dem Fall die DNF hergestellt.

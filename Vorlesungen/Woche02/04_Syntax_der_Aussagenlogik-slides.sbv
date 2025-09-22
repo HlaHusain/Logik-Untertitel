@@ -1,0 +1,613 @@
+0:00:01.550,0:00:07.910
+Wir sind im Kapitel Aussagenlogik,
+bzw. haben das gerade begonnen. In der
+
+0:00:07.910,0:00:13.340
+ursprünglichen Übersicht von Themen war
+schon etwas dazu gesagt, dass wir uns mit Syntax
+
+0:00:13.340,0:00:17.220
+und Semantik beschäftigen werden. Zunächst werden wir
+uns die Syntax der Aussagenlogik
+
+0:00:17.220,0:00:21.269
+jetzt anschauen. Da geht es also darum: Was sind
+denn eigentlich nun die Operatoren, mit denen
+
+0:00:21.269,0:00:26.619
+wir es zu tun haben? Wie werden die aufgeschrieben?
+Was ist eine Formel? Und vor allem auch, wann
+
+0:00:26.619,0:00:31.800
+sind Formeln wohl-aufgebaut? Man möchte nicht
+einfach Symbole willkürlich mischen, sondern es
+
+0:00:31.800,0:00:37.500
+sollen schon sinnvolle Formeln herauskommen.
+Dieses „sinnvoll“ muss man kurz mal definieren.
+
+0:00:37.500,0:00:41.829
+Dann wird es um die Semantik gehen. Also was ist denn die
+Bedeutung einer Formel? Syntaktisch irgendwas
+
+0:00:41.829,0:00:46.370
+hinzuschreiben, ist die eine Sache. Aber man möchte
+von einer Formel ja auch wissen, was sie bedeutet.
+
+0:00:46.370,0:00:52.149
+Dann gibt es eben vor allem besonders interessante
+Arten von Formeln. Zum Beispiel allgemeingültige
+
+0:00:52.149,0:00:57.180
+Formeln. Das heißt, welche die immer wahr sind. Wo die Bedeutung also sehr
+stark ist. In dem Sinne, dass die Formel immer wahr
+
+0:00:57.180,0:01:03.190
+ist. Es kann auch das Gegenteil geben, dass eine Formel unerfüllbar
+ist. Also, dass, egal wie viel Mühe man sich
+
+0:01:03.190,0:01:09.970
+gibt, vielleicht Teile der Formel wahr zu machen,
+sie insgesamt immer falsch ist. Also nie wahr ist.
+
+0:01:09.970,0:01:16.110
+Zwischen diesen beiden Extremen gibt es natürlich dann
+viele Formeln, wo es vom Kontext abhängen kann,
+
+0:01:16.110,0:01:22.430
+vom konkreten Inhalt einzelner Teile, die in der Formel
+auftauchen, ob sie denn nun wahr ist oder
+
+0:01:22.430,0:01:30.640
+nicht wahr ist. Oder unter welchen Bedingungen
+sie vielleicht wahr gemacht werden kann. Das werden
+
+0:01:30.640,0:01:36.890
+wir alles definieren. Was es bedeutet, wahr, allgemeingültig,
+unerfüllbar, erfüllbar, etc. zu sein. Aber vor allem möchte man
+
+0:01:36.890,0:01:42.700
+das natürlich auch konstruktiv bestimmen können. Man
+möchte nicht nur mathematisch sagen können, was es heißt,
+
+0:01:42.700,0:01:47.070
+dass eine Formel wahr ist oder allgemeingültig ist,
+sondern die Frage ist auch, ob man diesen Grad
+
+0:01:47.070,0:01:53.170
+der Gültigkeit oder der Erfüllbarkeit einer
+Formel überprüfen kann, mit Algorithmen. Informatisch,
+
+0:01:53.170,0:01:59.460
+mit Verfahren, die systematisch solche Aussagen
+bestimmen und die Gültigkeit von Aussagen bestimmen.
+
+0:01:59.460,0:02:07.550
+Das ist also der Fahrplan für die nächsten Videos
+und Wochen. Das wird natürlich nicht alles noch diese
+
+0:02:07.550,0:02:13.470
+Woche passieren. Wir werden uns das jetzt anschauen.
+Die Syntax und auch noch etwas zur Semantik
+
+0:02:13.470,0:02:19.700
+machen. Syntax, da geht es also um die Formeln.
+Wir haben schon intuitiv ein paar
+
+0:02:19.700,0:02:29.390
+Formeln gesehen (wie A und B impliziert C),
+die auftauchten auf der Folie, wo ich die
+
+0:02:29.390,0:02:33.930
+Strategien und die Lösung des Einstein-Rätsels
+in Erinnerung gerufen hatte,
+
+0:02:33.930,0:02:39.290
+und die jeweils durch eine Formel ausgedrückt hatte. Da hatten
+wir schon gesehen, dass wir mit sogenannten atomaren
+
+0:02:39.290,0:02:45.110
+Formeln oder Elementaraussagen arbeiten. Also
+einfach Formeln, die wir benennen mit
+
+0:02:45.110,0:02:52.810
+einem Buchstaben A, B, C oder vielleicht auch
+mit nummerierten solchen Buchstaben. Das steht jeweils dann
+
+0:02:52.810,0:02:56.960
+für eine Elementaraussage, die wahr oder falsch
+sein kann. In der Formel selber interessieren wir uns
+
+0:02:56.960,0:03:01.350
+dann nicht mehr dafür, welche Aussage sich dahinter
+konkret verbirgt. Es geht darum, es ist einfach irgendeine
+
+0:03:01.350,0:03:06.700
+Aussage, die wahr sein könnte oder nicht. Das sind die sogenannten
+Elementaraussagen oder atomaren Formeln. Aus
+
+0:03:06.700,0:03:12.660
+denen baut man dann allgemeine Formeln auf. Durch so einen
+schrittweisen Prozess, von einfach zu kompliziert.
+
+0:03:12.660,0:03:17.230
+Es geht also darum, wie denn kompliziertere
+Aussagen aus einfachen Aussagen zusammengesetzt sind.
+
+0:03:17.230,0:03:25.340
+Sprachlich oder hier auf Formelebene. Erinnern wir uns an
+den Mann auf dem Berg oder andere zusammengesetzte
+
+0:03:25.340,0:03:30.850
+Aussagen aus dem Einstein-Rätsel, die irgendwie
+aus atomaren Aussagen zusammengebaut waren. Dann
+
+0:03:30.850,0:03:37.459
+geht es darum: Wie kann man das in einer Formel
+sinnvoll fassen? Da gibt es sozusagen für diesen
+
+0:03:37.459,0:03:40.810
+schrittweisen Prozess den einfachsten
+Fall, nämlich atomare Formeln sind bereits
+
+0:03:40.810,0:03:46.610
+Formeln. Jede atomare Formel, einfach so ein Buchstabe hingeschrieben,
+ist auch eine Formel. Die trivialste Formel, die man sich vorstellen
+
+0:03:46.610,0:03:51.900
+kann. Aber eben eine Formel. Dann gibt es Regeln zum
+Zusammenbau komplizierterer Formeln. Also allgemeiner
+
+0:03:51.900,0:04:00.410
+Formeln. Da gibt es einerseits für zwei der Operationen,
+die ich intuitiv schon mal erwähnt hatte,
+
+0:04:00.410,0:04:04.959
+nämlich das UND und das ODER (was hier aber jetzt
+einfach nur Symbole sind), die Regel, dass wenn
+
+0:04:04.959,0:04:10.530
+wir zwei Formeln haben (F und G sollen jetzt nicht
+im Sinne von solchen Buchstaben atomare Formeln
+
+0:04:10.530,0:04:15.410
+sein, sondern möglicherweise komplexere Formeln),
+eine Formel F, die irgendwie in diesem Prozess
+
+0:04:15.410,0:04:19.840
+entstanden ist, und eine möglicherweise andere
+Formel G, die auch in diesem Prozess entstanden
+
+0:04:19.840,0:04:26.090
+ist (vielleicht aus erstens, aber vielleicht auch schon aus
+zweitens oder drittens), dann sind hingeschrieben (F ∧ G),
+
+0:04:26.090,0:04:33.330
+sowie auch (F ∨ G), selbst wiederum Formeln.
+Wir setzen die zunächst in Klammern,
+
+0:04:33.330,0:04:39.540
+weil beim Zusammenbau dieser Formeln wir dann sehr viele
+
+0:04:39.540,0:04:43.659
+Symbole haben können. Und so wie wir in der Mathematik,
+in der Arithmetik, bei + und * manchmal durch Klammern
+
+0:04:43.659,0:04:47.550
+klarstellen müssen, wie denn die Reihenfolge
+gemeint ist, würden wir hier im allgemeinen Fall
+
+0:04:47.550,0:04:53.569
+erst mal auch mit Klammern arbeiten. Man kann
+später nach bestimmten Präzedenzregeln,
+
+0:04:53.569,0:04:58.680
+so wie "Punkt- vor Strichrechnung" in der Arithmetik,
+auch einige Klammern weglassen. Aber zunächst
+
+0:04:58.680,0:05:04.499
+mal, um die Formeln zu definieren, würde man präzise sagen,
+man setzt immer solche zusammengesetzten Formeln
+
+0:05:04.499,0:05:13.729
+in Klammern. Das wären also diese beiden Möglichkeiten.
+Dann gibt es noch eine dritte Möglichkeit. Neben den Grundformeln
+
+0:05:13.729,0:05:17.729
+und diesen beiden Möglichkeiten aus dem zweiten
+Schritt, noch den dritten möglichen Schritt.
+
+0:05:17.729,0:05:22.629
+Nämlich, wenn wir eine Formel F haben, wiederum
+entweder eine Elementarformel oder schon eine zusammengesetzte
+
+0:05:22.629,0:05:27.621
+Formel aus den anderen Schritten, dann ist
+auch die Negation davon eine Formel. Dann könnte
+
+0:05:27.621,0:05:36.309
+es sein, dass F zum Beispiel in Klammern A ∧ B ist.
+Daraus können wir einfach sehr viele Formeln
+
+0:05:36.309,0:05:44.599
+erstellen, wenn wir ein paar Grundformeln vorgeben.
+Die Sprechweise für die Symbole ist dann
+
+0:05:44.599,0:05:52.900
+das „und“ für dieses Dach ∧. Und „oder“ für das
+umgekehrte Dach oder diese Tränke ∨. UND, ODER
+
+0:05:52.900,0:05:59.669
+wären die beiden umgangssprachlichen
+Bezeichnungen. Formal, mathematisch, spricht
+
+0:05:59.669,0:06:04.559
+man hier von der Konjunktion für das UND und
+der Disjunktion für das ODER. Manchmal auch
+
+0:06:04.559,0:06:11.990
+Alternative von F und G, zum Beispiel. Dieses „nicht“,
+dieses Symbol ¬, steht für Negation von F oder
+
+0:06:11.990,0:06:21.770
+einfach „nicht F“ kurz ausgesprochen. Damit
+könnte man jetzt Formeln aufschreiben.
+
+0:06:21.770,0:06:27.449
+Da hätte ich jetzt hier ein paar Beispiele aufschreiben können,
+was eine Formel ist. „A UND B in Klammern ODER C. Das ganze negiert.
+
+0:06:27.449,0:06:34.939
+Und dann noch UND A4 ODER A5“ = ¬( (A ∧ B) ∨ C) ∧ (A4 ∨ A5)
+Mit Klammern an geeigneten Stellen, um die Schachtelung klarzustellen.
+
+0:06:34.939,0:06:43.020
+Da steckt also eine Struktur dahinter, natürlich.
+Die Reihenfolge, in der ich Sachen zusammenfasse oder
+
+0:06:43.020,0:06:50.030
+wie ich klammere, steht dafür, wie bei arithmetischen
+Ausdrücken auch. Meine ich das Produkt von
+
+0:06:50.030,0:06:53.789
+zwei Zahlen und dann die Summe dieses Produkts
+mit etwas anderem? Oder meine ich das Produkt aus
+
+0:06:53.789,0:06:57.809
+einer einzelnen Zahl und einer Summe von zwei
+Zahlen? Eine Möglichkeit, diese
+
+0:06:57.809,0:07:02.249
+Struktur darzustellen, wären sogenannte
+Syntaxbäume. Wo man also nicht mehr Formeln nur
+
+0:07:02.249,0:07:09.169
+flach hinschreibt, wie das hier suggeriert ist, sondern
+diesen strukturellen, schrittweisen Aufbau auch
+
+0:07:09.169,0:07:17.839
+nachvollzieht. Das wäre dann eben so ein Syntaxbaum, und das sieht
+dann schematisch so aus. Hier ist einfach ein Beispiel. Nehmen wir mal A1, A2,
+
+0:07:17.839,0:07:23.139
+A3, A4 als unsere Grundaussagen, und A2 wird
+gar nicht benutzt. Das wären ja drei mögliche
+
+0:07:23.139,0:07:30.199
+Elementaraussagen, elementare Formeln. Dann
+ist zum Beispiel auch die Negation von A4
+
+0:07:30.199,0:07:34.719
+eine Formel. Und weil die Negation von A4 eine
+Formel ist und A1 eine Formel ist, ist
+
+0:07:34.719,0:07:42.199
+auch dieser Teil eine Formel. Und weil das eine Formel
+ist und A3 eine Formel ist, ist auch das
+
+0:07:42.199,0:07:46.780
+eine Formel. Und weil das eine Formel ist, ist auch
+die Negation davon eine Formel. Und wenn wir diesen
+
+0:07:46.780,0:07:53.869
+schrittweisen Aufbau auch festhalten, dann können
+wir das als Baum darstellen. Da sehen wir also
+
+0:07:53.869,0:08:01.729
+genau die Schachtelung. Also dass das die Negation von etwas
+Größerem ist. Dieses Größere ist die Konjunktion,
+
+0:08:01.729,0:08:07.349
+wegen dieses Symbols ∧, von A3 auf der rechten
+Seite und einem wiederum komplexeren Baum auf der linken
+
+0:08:07.349,0:08:13.749
+Seite. Und dieser komplexe Baum auf der linken Seite ist
+eine Disjunktion, wegen diesem Symbol ∨, von zwei Teilen.
+
+0:08:13.749,0:08:21.350
+Nämlich rechts einer Elementaraussage, einer elementaren
+Formel, und links der Negation von wiederum einer
+
+0:08:21.350,0:08:31.610
+solchen elementaren Aussage. Jede Formel entspricht einem
+Baum. Und umgekehrt jeder Baum dieser Art (wo das Negationssymbol
+
+0:08:31.610,0:08:36.810
+immer einen Nachfolger hat, und UND oder ODER jeweils
+zwei Nachfolger haben, wenn sie auftreten) einer Formel.
+
+0:08:36.810,0:08:40.740
+Wenn diese Symbole auftreten, müssen sie jeweils zwei Nachfolger
+haben. Und wenn man darüber dann Bäume erstellt,
+
+0:08:40.740,0:08:47.959
+also das so geschachtelt aufschreibt, dann entspricht
+das auch immer einer Formel. Dann kann man aus dem
+
+0:08:47.959,0:08:53.130
+Baum auch die Formel ablesen. So wie das hier in dem Beispiel
+miteinander korrespondiert. Und natürlich gibt es,
+
+0:08:53.130,0:08:58.480
+selbst wenn wir nur eine solche Grundaussage A hätten,
+ohne irgendwelche Nummerierung, unendlich
+
+0:08:58.480,0:09:01.790
+viele solcher Bäume, die wir bauen könnten. Und
+entsprechend auch unendlich viele Formeln.
+
+0:09:01.790,0:09:13.000
+Dann gibt es noch zwei weitere, syntaktische Anmerkungen
+zu machen. Das eine ist, dass das jetzt eben sehr einfach
+
+0:09:13.000,0:09:18.019
+war. Im Sinne, dass ich als Operatoren genau
+die Negation, das UND und das ODER hatte. Wir haben
+
+0:09:18.019,0:09:22.750
+allerdings auch schon mindestens in der Logelei
+andere Symbole gesehen. Bzw. mindestens
+
+0:09:22.750,0:09:28.470
+ein anderes Symbol. Nämlich diesen Pfeil => für
+„es folgt“ oder Implikation. Das wird auch ein
+
+0:09:28.470,0:09:34.310
+weiterer Operator sein. Tatsächlich gibt es noch weitere
+Operatoren, die verwendet werden. Allerdings
+
+0:09:34.310,0:09:39.820
+müssten die hier nicht auftreten, weil sie im Grunde genommen
+einfach Abkürzungen sind.
+
+0:09:39.820,0:09:44.920
+Wir werden zwar Implikation wie
+auch in den Beispielen verwenden. Auch konkret
+
+0:09:44.920,0:09:52.441
+verwenden in weiteren Teilen der Vorlesung.
+Aber formal würde es für die Syntax reichen,
+
+0:09:52.441,0:09:59.690
+diese Operatoren vorzusehen, weil, wie wir sehen werden,
+die Implikation oder auch
+
+0:09:59.690,0:10:04.399
+die sogenannte Biimplikation eigentlich nur
+Abkürzungen sind auf der Basis von schon
+
+0:10:04.399,0:10:10.759
+bis hierher gesehenen Operatoren. Die müssen wir
+also nicht unbedingt formal hinzufügen. Die lassen
+
+0:10:10.759,0:10:16.870
+sich auch einfach als Abkürzungen verstehen unter
+Verwendung nur von Dingen, die hier schon auftauchten.
+
+0:10:16.870,0:10:20.360
+Das ist eine Anmerkung. Eine andere Anmerkung ist,
+dass wir im Folgenden immer wieder auch
+
+0:10:20.360,0:10:24.310
+von Teilformeln reden werden. Also wir haben eine
+Formel, die ist schrittweise aufgebaut, wie wir das
+
+0:10:24.310,0:10:31.209
+gerade gesehen haben. Dann wollen wir uns auf Teile
+davon beziehen. Weil wir vielleicht nach einer
+
+0:10:31.209,0:10:35.379
+Lösung suchen und dann erst mal für einen Teil davon eine
+Lösung suchen wollen. Dann müssen wir noch sagen, was
+
+0:10:35.379,0:10:42.389
+heißt denn überhaupt, eine Teilformel zu sein? Jetzt könnte
+man sagen, irgendwie irgendein Ausschnitt.
+
+0:10:42.389,0:10:46.959
+Wir haben eine Formel, die sei gegeben. Wie auf der
+vorigen Folie zum Beispiel. Dann geht es darum, was
+
+0:10:46.959,0:10:53.230
+die Teilformeln davon sind. Und das sind Ausschnitte
+aus der Formel. Einfach ein Teil davon gelesen. Aber die
+
+0:10:53.230,0:10:58.649
+müssen selbst wohl-aufgebaut sein. In dem Sinne,
+dass sie selbst auch nach den gleichen Schritten
+
+0:10:58.649,0:11:08.980
+hätten erzeugt werden können. Also wenn wir
+das als unsere Formel hätten, dann wären mögliche
+
+0:11:08.980,0:11:14.760
+Teilformeln einfach Ausschnitte daraus, die
+selber auch wieder wohl-aufgebaute Formeln sind. Also
+
+0:11:14.760,0:11:20.639
+¬A ist eine wohl-aufgebaute Formel und taucht
+hier drin auf. Also wäre es eine Teilformel dieser Gesamtformel.
+
+0:11:20.639,0:11:28.730
+(¬A ∨ B) ist selbst eine wohl-aufgebaute
+Formel. Die ließe sich mit diesen Regeln erzeugen,
+
+0:11:28.730,0:11:34.600
+taucht in dieser Gesamtformel auf, ist also
+Teilformel davon. Das Gleiche für C. Und auch noch für einige
+
+0:11:34.600,0:11:39.940
+weitere. Es gibt noch mehr Teilformeln dieser
+konkreten Formel. Andererseits kann es auch Ausschnitte geben,
+
+0:11:39.940,0:11:45.310
+die selbst keine Teilformel sind, weil sie
+nicht wohl-aufgebaut sind. Wenn wir einfach mal aus der Formel,
+
+0:11:45.310,0:11:53.639
+die wir hier oben haben, dieses Stück herausgreifen,
+dann ist das keine wohl-aufgebaute Formel. Diese Stück
+
+0:11:53.639,0:11:59.519
+"B) ∧ C" kann man nicht nach diesen Regeln
+hier erstellen. Zum Beispiel, weil hier immer
+
+0:11:59.519,0:12:04.389
+öffnende und schließende Klammern in gleicher
+Anzahl vorkommen müssen. Und deswegen ist das zwar
+
+0:12:04.389,0:12:13.120
+irgend ein Ausschnitt der Ursprungsformel,
+aber keine Teilformel davon. Wir wollen nur sinnvolle Ausschnitte
+
+0:12:13.120,0:12:20.430
+betrachten, wenn wir von Teilformeln reden.
+Und wie kann man das mit den Syntaxbäumen erklären? Teilformeln
+
+0:12:20.430,0:12:26.959
+entsprechen einfach jeweils
+einem Teilbaum des Syntaxbaums. Also wenn wir
+
+0:12:26.959,0:12:34.629
+eine Formel haben (da ist einfach nochmal der Syntaxbaum, den ich vor
+zwei Folien abgebildet hatte), und wir greifen
+
+0:12:34.629,0:12:40.980
+uns irgendwie einen Knoten heraus und gucken uns
+
+0:12:40.980,0:12:46.620
+den Baum an, der an diesem Knoten beginnt und nach
+unten beliebig lang fortgesetzt ist. Für diesen einen
+
+0:12:46.620,0:12:50.890
+Blattknoten hier wäre der Teilbaum, der dort
+steht, einfach der Blattknoten selber. Und dann
+
+0:12:50.890,0:12:56.889
+ist das eine Teilformel. A4 ist eine Teilformel,
+der hier gesamt gesehen Formel, weil es ein
+
+0:12:56.889,0:13:02.980
+Teilbaum ist. Da können wir jetzt jeden Knoten einfach durchgehen
+und uns immer fragen: Was ist denn die Teilformel
+
+0:13:02.980,0:13:07.750
+dafür oder die entsprechende Teilformel der
+Gesamtformel? Und auf diese Weise würden wir alle Teilformeln
+
+0:13:07.750,0:13:15.899
+erhalten. Das ist der Punkt. A1 ist eine Teilformel, weil es
+hier vorkommt. A3 ist eine Teilformel, weil es hier vorkommt.
+
+0:13:15.899,0:13:21.230
+¬A4 ist eine Teilformel, denn wenn wir an
+dem Knoten zu lesen beginnen und den rot
+
+0:13:21.230,0:13:27.470
+eingefärbten Teilbaum nehmen, dann entspricht der der
+Teilformel ¬A4. Wenn wir den darüber liegenden
+
+0:13:27.470,0:13:35.089
+Knoten nehmen, erhalten wir die Teilformel
+(¬A4 ∨ A1). Und so können wir das für jeden Knoten machen.
+
+0:13:35.089,0:13:40.410
+Insbesondere ist die Formel insgesamt natürlich
+auch Teilformel von sich, auf eine sehr einfache
+
+0:13:40.410,0:13:46.550
+Art und Weise, weil es einen
+Knoten im Syntaxbaum gibt, an dem genau
+
+0:13:46.550,0:13:52.980
+diese Formel beginnt. Die Anzahl der Teilformeln
+entspricht der Anzahl der Knoten im Syntaxbaum.
+
+0:13:52.980,0:13:57.279
+Natürlich könnten dabei einige Teilformeln
+mehrfach auftauchen. Stellen wir uns vor, an dieser
+
+0:13:57.279,0:14:01.610
+Stelle A3 stünde in der Ursprungsformel auch A1.
+Das wäre auch eine wohl-aufgebaute Formel. Dann würden wir hier
+
+0:14:01.610,0:14:10.930
+2 mal A1 und A1 zählen. Aber wir können keine Teilformel dabei
+vergessen, wenn wir jeweils die Syntaxbaumteile
+
+0:14:10.930,0:14:15.589
+uns anschauen, also vollständige Teilbäume. Natürlich
+können wir nicht einfach hier in diesem
+
+0:14:15.589,0:14:21.980
+roten, markierten Teil irgendwie einzelne Unterknoten
+wieder schwarz markieren. Das muss immer der gesamte Ausschnitt
+
+0:14:21.980,0:14:30.620
+sein. Das wäre im Schnelldurchlauf die
+Syntax. Wie gesagt, mit nur den drei Operationen
+
+0:14:30.620,0:14:36.029
+hier. Wir werden noch weitere Operationen haben. Das
+werden auch binäre Operationen sein. Das heißt,
+
+0:14:36.029,0:14:40.949
+die könnten in einem Syntaxbaum wie hier an diesen
+beiden inneren Knotenstellen stehen, zum Beispiel.
+
+0:14:40.949,0:14:45.389
+Nicht hier an der Spitze mit nur einem Nachfolger,
+aber hier oder hier hätte auch der Implikationspfeil
+
+0:14:45.389,0:14:53.839
+stehen können, zum Beispiel. Das ist Syntax. Dann
+wollen wir zur Semantik kommen. Da geht es also
+
+0:14:53.839,0:15:00.370
+darum: Was ist denn nun die Bedeutung einer Formel?
+Oder ihrer Teilformeln? Wir haben eine Formel, die hat auch Teilformeln,
+
+0:15:00.370,0:15:05.939
+und wir könnten uns für die Gesamtformel oder Teile davon fragen: Was
+ist deren Bedeutung? Bedeutung, was könnte das sein?
+
+0:15:05.939,0:15:09.980
+Es geht um Wahrheit. Bei den Aussagen ging es
+darum, die können wahr oder falsch sein. Das
+
+0:15:09.980,0:15:13.770
+heißt, wir fragen nach Wahrheitswerten. Was ist der
+Wahrheitswert einer bestimmten Formel oder
+
+0:15:13.770,0:15:28.339
+einer ihrer Teilformeln? Die Antwort ist:
+Es kommt drauf an! Wie ist das gemeint? Wir müssen
+
+0:15:28.339,0:15:33.389
+irgendwas über die Teile der Formel wissen. Zum
+Beispiel insbesondere über die Elementaraussagen darin.
+
+0:15:33.389,0:15:39.759
+Das würde ich gern an einem Beispiel zunächst diskutieren,
+und dann wieder zu Folien zurückkommen.

@@ -1,0 +1,262 @@
+0:00:00.210,0:00:04.690
+Wir kommen zur dritten und letzten Aufgabe.
+Es handelt sich dabei um eine Prologaufgabe,
+
+0:00:04.690,0:00:09.790
+weshalb ich sie hier im Notepad bearbeite.
+Wir haben eine Prologwissensbasis gegeben,
+
+0:00:09.790,0:00:17.310
+die ich oben eingefügt habe. Hier unten haben
+wir die Aufgaben. Ich habe diese mit Rautenzeichen
+
+0:00:17.310,0:00:22.220
+markiert. Dann sind es Kommentare, die nicht
+ausgewertet werden. Als erstes sollen Queries
+
+0:00:22.220,0:00:27.380
+formuliert werden. Bei Teilaufgabe (a) geht
+es um die Söhne von Juliet. Ich schreibe
+
+0:00:27.380,0:00:37.150
+das hier hin. Sohne von Juliet sind auf jeden
+Fall männlich. Das heißt, wir suchen male
+
+0:00:37.150,0:00:46.890
+X. Dass es Sohne sind, müssen es auch Childs
+sein. Hier ist es sehr wichtig, dass wir wieder
+
+0:00:46.890,0:00:55.300
+das X verwenden. In der Wissensbasis sehen
+wir, dass Juliet als Mutter auf der rechten
+
+0:00:55.300,0:00:59.790
+Seite steht. Das heißt, die Beziehung ist
+so, dass das Kind links das Kind von Juliet
+
+0:00:59.790,0:01:12.649
+rechts ist. Wir suchen das male, das männliche
+Kind mit X. Das ist dann Child von Juliet.
+
+0:01:12.649,0:01:20.020
+Bei Aufgabe (b) suchen wir Brüder inklusive
+Halbbrüder irgendeiner weiblichen Person.
+
+0:01:20.020,0:01:27.530
+Wir suchen als male, da es sich um Brüder
+einer weiblichen Person handelt. Wir haben
+
+0:01:27.530,0:01:35.100
+kein direktes Prädikat mit Bruder oder Geschwister,
+weshalb wir das wieder über die Eltern-Kind-Beziehung
+
+0:01:35.100,0:01:41.610
+lösen müssen. Ich gebe daher hier Child
+ein. X muss ein Kind von irgendeiner Person
+
+0:01:41.610,0:01:49.640
+sein. Ich nenne sie Z. Wir haben ein weiteres
+Kind: Child Y von der gleichen Person. Deshalb
+
+0:01:49.640,0:01:56.250
+verwenden wir wieder die Variable Z. Da sie
+Geschwister sind, müssen sie ein gleiches
+
+0:01:56.250,0:01:59.820
+Elternteil haben. Dabei ist es egal, ob Mutter
+oder Vater. Auch Halbbrüder sind erlaubt.
+
+0:01:59.820,0:02:04.450
+Jedoch steht hier auch, dass es das Kind irgendeiner
+weiblichen Person sein soll. Deshalb müssen
+
+0:02:04.450,0:02:11.170
+wir sicherstellen, dass Y das Kind von Z,
+von dem auch X das Kind ist, weiblich ist.
+
+0:02:11.170,0:02:20.140
+Wir fügen daher als letztes female Y hinzu.
+Bei Aufgabe (c) geht es um Personen mit sowohl
+
+0:02:20.140,0:02:26.200
+einer Tochter als auch einem Sohn. Das heißt,
+wir brauchen Personen, die ein Kind haben.
+
+0:02:26.200,0:02:32.570
+Welches ist hier nicht vorgegeben, weshalb
+wir eine Variable verwenden. Ich nehme Y.
+
+0:02:32.570,0:02:40.370
+Die gesuchte Person ist X. Ich sage jetzt,
+dass Y weiblich sein soll, da die Person eine
+
+0:02:40.370,0:02:47.230
+Tochter haben soll. Die Tochter ist weiblich.
+Das heißt, X hat ein Kind. Und dieses Kind
+
+0:02:47.230,0:02:55.790
+Y ist weiblich. Die Person soll aber auch
+einen Sohn haben. Wir brauchen also eine zweite
+
+0:02:55.790,0:03:02.060
+Eltern-Kind-Beziehung. Dafür nehmen wir eine
+neue Variable. Denn es ist nicht die Tochter
+
+0:03:02.060,0:03:07.630
+und es ist auch nicht der Elternteil. Ich
+nehme dafür die Variable Z. Die zweite Variable
+
+0:03:07.630,0:03:13.530
+muss natürlich X sein, da wir am Anfang gesagt
+haben, dass X folgendes Kind hat. X soll aber
+
+0:03:13.530,0:03:19.950
+Tochter und Sohn haben. Deshalb haben wir
+X einmal mit der Tochter und das gleiche X
+
+0:03:19.950,0:03:27.190
+muss auch einen Sohn haben. Dieser Sohn ist
+in diesem Fall die Variable Z. Z muss männlich
+
+0:03:27.190,0:03:31.660
+sein, dass wir sicherstellen, dass es ein
+Sohn ist. Es soll kein Elternteil mit zwei
+
+0:03:31.660,0:03:37.180
+Töchtern sein. Das war es schon. Bei Aufgabe
+(d) suchen wir eine Person mit einem Vater,
+
+0:03:37.180,0:03:45.760
+der nicht Harry ist. Wir suchen also wieder
+ein Kind mit einer Kind-Eltern-Beziehung XY
+
+0:03:45.760,0:03:50.750
+und das Elternteil muss männlich sein. Das
+heißt, Y muss männlich sein, da es ein Vater
+
+0:03:50.750,0:03:59.280
+sein soll. Außerdem darf Y nicht Harry sein.
+Das heißt, Y nicht Harry. Dabei gilt es zu
+
+0:03:59.280,0:04:04.540
+beachten, dass Harry in der Aufgabenstellung
+großgeschrieben wird. Im Prolog wird aber
+
+0:04:04.540,0:04:10.600
+alles kleingeschrieben, weshalb auch Harry
+hier kleingeschrieben wird. Das war es hierzu
+
+0:04:10.600,0:04:15.960
+schon. Wir kommen zu Aufgabe zwei. Hier sollen
+allgemeine Regeln für die folgenden binären
+
+0:04:15.960,0:04:20.979
+Prädikate angegeben werden. Binär heißt,
+dass sie hier zwei Stellen haben. Mother hat
+
+0:04:20.979,0:04:27.449
+X und Y, deshalb binär. X ist die Mutter
+von Y. Dazu sollen wir eine Regel schreiben.
+
+0:04:27.449,0:04:32.300
+Wir schreiben also Mother XY. Hier steht,
+dass X die Mutter ist. Das heißt, es ist
+
+0:04:32.300,0:04:37.962
+genau andersherum, als es oben im Kind-Verhältnis
+angegeben war. Die erste Variable ist die
+
+0:04:37.962,0:04:44.639
+Mutter. Das heißt, X muss als Mutter female
+sein. Und sie muss die Mutter von Y sein.
+
+0:04:44.639,0:04:50.479
+Das heißt, wir haben female und Child. Das
+Child-Verhältnis ist hier oben so gewesen,
+
+0:04:50.479,0:04:59.330
+dass das Kind zuerst steht. Deshalb schreiben
+wir: Child von Y und X. Bei Teilaufgabe (b)
+
+0:04:59.330,0:05:05.490
+haben wir diese Regel: Brother XY und X ist
+Bruder von Y. Wir wissen also, das X Bruder
+
+0:05:05.490,0:05:13.719
+ist und daher männlich, male X. Wir wissen
+auch, dass X und Y ein gleiches Elternteil
+
+0:05:13.719,0:05:27.439
+haben müssen. Child XZ, der Bruder muss einen
+Elternteil haben. Child YZ, die Person Y muss
+
+0:05:27.439,0:05:33.199
+das gleiche Elternteil haben wie X. Es könnte
+aber passieren, dass X und Y gleich sind.
+
+0:05:33.199,0:05:41.160
+Zum Beispiel, wenn X Luke wäre. Luke ist
+male, das passt. Wir sehen hier unten: Luke
+
+0:05:41.160,0:05:48.430
+ist Sohn von Harry. Jetzt geht der Prolog
+als Nächstes hin und sucht wieder jemanden.
+
+0:05:48.430,0:05:52.230
+Dann haben wir dieses und dieses abgehakt.
+Z haben wir mit Harry belegt, wie gesagt.
+
+0:05:52.230,0:06:03.469
+Wir suchen jetzt, wer noch Kind von Z ist
+und gehen von oben durch. Aha, hier: Luke
+
+0:06:03.469,0:06:09.840
+ist Kind von Z. Wir haben nicht gesagt, dass
+Y nicht Luke sein darf. Deshalb müssen wir
+
+0:06:09.840,0:06:21.520
+hier noch sagen, dass X ungleich Y ist. So
+kann nicht die gleiche Person herauskommen.
+
+0:06:21.520,0:06:31.699
+Hier haben wir Uncle X und Y. X ist Onkel
+von Y.  Das heißt, wir können hier auf
+
+0:06:31.699,0:06:37.330
+die Regel zurückgreifen, die wir gerade eben
+definiert haben. Onkel ist es dann, wenn es
+
+0:06:37.330,0:06:49.030
+der Bruder von einem Elternteil, der Mutter
+oder des Vaters, ist. Wir wissen also: Brother
+
+0:06:49.030,0:06:55.370
+X, X ist der Onkel und X ist der Bruder, des
+Elternteils Z. Dass es der Onkel von Y ist,
+
+0:06:55.370,0:07:00.370
+muss Y das Kind des Elternteils Z sein. Passt
+hierbei im Autotool auf, dass ihr auf jeden
+
+0:07:00.370,0:07:04.819
+Fall die Regel Brother schon definiert habt
+oder korrekt definiert. Sonst kann die Regel
+
+0:07:04.819,0:07:17.150
+Uncle auch nicht funktionieren und nicht richtig
+ausgewertet werden. Hier haben wir Grandson
+
+0:07:17.150,0:07:21.910
+XY. X ist Enkelsohn von Y. Also muss X wieder
+männlich und das Kind von jemandem sein.
+
+0:07:21.910,0:07:29.419
+Wenn X das Kind von Z ist und Z das Kind von
+Y, dann ist Y der Großvater oder die Großmutter,
+
+0:07:29.419,0:07:37.330
+das haben wir noch nicht definiert, von X.
+Also Child Z und Y. Das war es schon zu Aufgabe
+
+0:07:37.330,0:07:37.580
+drei.

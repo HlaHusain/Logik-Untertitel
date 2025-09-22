@@ -1,0 +1,363 @@
+0:00:00.000,0:00:07.230
+So da wir uns ab nächster Woche mit
+Logikprogrammierung Prolog einführend beschäftigen
+
+0:00:07.230,0:00:13.080
+möchten, wollte ich Ihnen in diesem Video ganz
+kurz schon mal einen Einblick geben und insbesondere
+
+0:00:13.080,0:00:19.770
+die Verbindung herstellen zu den Hornformeln, die
+wir gerade gesehen haben. Sie haben hier noch
+
+0:00:19.770,0:00:27.540
+mal die letzte Folie, die ich Ihnen gezeigt hatte.
+Da war hier die eine Formel in Hornformelform
+
+0:00:27.540,0:00:35.940
+geschrieben und wir hatten hier die Resolution im
+Vergleich letztlich dazu, wie auf den Folien davor
+
+0:00:35.940,0:00:41.730
+per Markierungsalgorithmus diese Formel gelöst wurde
+bzw. deren Unerfüllbarkeit nachgewiesen wurde.
+
+0:00:41.730,0:00:50.250
+Und ich würde Ihnen gern kurz Prolog zeigen.
+Ich mach das an dem Beispiel und
+
+0:00:50.250,0:00:54.930
+insbesondere, weil ich ihnen zeigen will, wie Sie dann auch
+selber mit Prolog-Programmen arbeiten können.
+
+0:00:54.930,0:01:01.080
+Sie können sich natürlich lokal ein Prolog-System
+installieren auf Ihrem Rechner. Sie könnten aber
+
+0:01:01.080,0:01:07.800
+auch einfach ein Webinterface nutzen, das eigentlich
+alles unterstützt, was wir brauchen werden.
+
+0:01:07.800,0:01:13.890
+Das können sie unter dieser URL hier finden.
+Und da werde ich direkt mal dieses Beispiel hier ausprobieren
+
+0:01:13.890,0:01:20.250
+und dabei ein, zwei, drei vier Anmerkung machen.
+Also was haben wir hier? Hier können wir ein Programm eingeben
+
+0:01:20.250,0:01:26.130
+und dann hier eine Query erstellen. Denken Sie dran: Bei
+den Klauseln hatte ich von Programmklauseln und
+
+0:01:26.130,0:01:35.880
+Anfragen gesprochen. Das entspräche eben hier Programm und Query.
+Also was würden wir hier hinpacken? Regeln und Fakten.
+
+0:01:35.880,0:01:43.650
+Rules and facts. Wir hatten diese Hornformeln. Da gab es Klauseln, die
+Regeln hießen. Da gab es welche, die Fakten hießen.
+
+0:01:43.650,0:01:50.910
+Und die sollen hier hin. In unserem Beispiel, was waren die Regeln?
+Also zum Beispiel ((A ∧ C) => B) war eine Regel. Dann sollten wir die
+
+0:01:50.910,0:01:56.010
+also als Teil des Programms im Prolog eingeben. Jetzt gibt es
+ein paar syntaktische Unterschiede. Zum einen
+
+0:01:56.010,0:02:02.460
+kann man in Prolog nicht einfach Großbuchstaben
+benutzen für Aussagen. Das hat Gründe darin, dass in
+
+0:02:02.460,0:02:07.590
+Prolog Großbuchstaben als Variablen betrachtet werden
+und nicht als Aussagen, die wahr oder falsch sein können.
+
+0:02:07.590,0:02:15.220
+Also wir müssen Kleinbuchstaben verwenden, statt A, C, B groß, werde
+ich jetzt a, c, b klein schreiben. Das ist ein Unterschied.
+
+0:02:15.220,0:02:20.320
+Dann kann man nicht die Symbole ∧ und => benutzen, sondern da
+gibt es in Prolog andere Symbole. Und zwar würde man
+
+0:02:20.320,0:02:28.420
+diese Regel ((A ∧ C) => B) in Prolog wie folgt schreiben: b :- a, c.
+Also was ist hier anders? Zum einen scheint
+
+0:02:28.420,0:02:34.360
+die Reihenfolge verschieden zu sein. Also was hier in der
+Implikation rechts steht, steht hier links.
+
+0:02:34.360,0:02:39.010
+Und das hier, dieses merkwürdige Symbol, soll so etwas wie
+ein Pfeil nach links sein. Also letztlich
+
+0:02:39.010,0:02:44.680
+diese Implikation andersrum aufgeschrieben und dann
+statt dieses grafischen Symbols wird dieses :-
+
+0:02:44.680,0:02:56.200
+verwendet als stilisierter Pfeil. Dann hab ich wie gesagt
+Kleinbuchstaben für B und A und C. Und statt des "Und's" wird hier
+
+0:02:56.200,0:03:06.790
+das Komma verwendet. Also das würde jetzt als Regel zu lesen
+sein als: "B wird impliziert von A und C."
+
+0:03:06.790,0:03:14.080
+Davon abgesehen entspricht das dieser Regel. Was heißt
+das für diese Regel (C => D)? Die würden wir demzufolge
+
+0:03:14.080,0:03:20.020
+dann schreiben als "D wird impliziert von C."
+Und wir schreiben das einfach als Regel darunter.
+
+0:03:20.020,0:03:28.600
+Also letztlich wird alles, was wir hier in einzelnen
+Zeilen hinschreiben, noch Und verknüpft, um die
+
+0:03:28.600,0:03:33.640
+gesamte Formel zu ergeben. Wir haben hier einzelne Regeln/
+einzelne Klauseln. Wir schreiben hier
+
+0:03:33.640,0:03:38.590
+einfach die Klauseln auf. Und die gelten dann alle.
+Insofern entspricht das dann der Und-Verknüpfung hier.
+
+0:03:38.590,0:03:45.850
+Und dann kommt hier (B => 0). Wie schreiben wir das auf?
+Das schreiben wir gar nicht hier hin.
+
+0:03:45.850,0:03:51.700
+Denn das ist von der Form her eine Anfrage.
+Das ist keine Programmklausel, kein Fakt und
+
+0:03:51.700,0:03:57.340
+keine Regel. Deswegen gehört es nicht in dieses
+Fenster, sondern nachher in dieses Fenster hier unten.
+
+0:03:57.340,0:04:05.590
+Also schauen wir die anderen Sachen noch an. (D => A) würden
+wir schreiben als: "A wird impliziert von D."
+
+0:04:05.590,0:04:13.120
+Und was ist mit diesen Fakt hier? (1 => C). Also C ist ein
+Fakt, gilt immer. Das schreiben wir einfach als "c.".
+
+0:04:13.120,0:04:18.670
+Der Punkt hier am Ende ist immer wichtig. Der ist sozusagen das
+Ende eines Satzes/einer Aussage über Aussagen/
+
+0:04:18.670,0:04:23.820
+über Elementaraussagen. Und hier schreiben wir nicht
+irgendwie "C wird durch 1 impliziert.",
+
+0:04:23.820,0:04:32.370
+sondern einfach nur c ist ein Fakt. Damit hätten
+wir die Programmklauseln, die vier abgedeckt, und dann
+
+0:04:32.370,0:04:37.380
+müssten wir was mit der Anfrageklausel machen.
+Aber diese Zielklausel gehört in das Query Fenster hier unten.
+
+0:04:37.380,0:04:48.570
+(Jetzt mach ich das mal wieder ein bisschen kleiner,
+damit ich an die Knöpfe drankomme.)
+
+0:04:48.570,0:04:56.820
+Also die Zielklausel hier ist B, also könnten wir hier
+als Query b. eingeben. Und wenn wir jetzt hier "Run!" machen,
+
+0:04:56.820,0:05:02.070
+würde im Hintergrund letztlich auch eine Resolution ablaufen und
+überprüft werden, ob b. aus dem Rest folgt oder
+
+0:05:02.070,0:05:07.200
+umgekehrt, ob die so ausgeschriebene Hornformel unerfüllbar ist.
+Denn es ist ja äquivalent dazu, dass B gilt.
+
+0:05:07.200,0:05:17.130
+Wenn das hier unerfüllbar ist, d.h. die Negation ist eine Tautologie.
+Die Negation wäre letztlich, dass aus
+
+0:05:17.130,0:05:30.240
+den Programmklauseln die Negation von
+negiert B folgt. Also B. Also lassen wir laufen. Kommt true heraus.
+
+0:05:30.240,0:05:36.660
+In dem Sinne, dass das tatsächlich erfolgreich ist.
+Da im Hintergrund ist letztlich diese Resolution abgelaufen.
+
+0:05:36.660,0:05:45.270
+Das können wir auch etwas genauer sehen bzw.
+ein bisschen zum Markierungsalorithmus in Beziehung setzen,
+
+0:05:45.270,0:05:49.470
+wenn wir hier sagen, wir würden das gerne Ausführen in einem
+sogenannten Debug-Modus.
+
+0:05:49.470,0:05:54.960
+Da wird getraced. Da wird also sozusagen eine Spur
+angelegt von dem, was passiert. So eine Art Protokoll.
+
+0:05:54.960,0:06:00.720
+Wenn wir das dann noch mal durchführen, können wir hier
+so schrittweise Sachen ausführen. Jetzt müssen Sie
+
+0:06:00.720,0:06:05.280
+nicht ganz genau verstehen, was hier Exit und Call etc. bedeutet.
+Aber was wir sehen können ist
+
+0:06:05.280,0:06:11.790
+eine Reihenfolge b , a, d, c und das entspricht nicht
+zufällig der Reihenfolge von positiven Literalen
+
+0:06:11.790,0:06:21.860
+der Programmklauseln, mit denen wir hier resolviert haben.
+Also b, a, d, c entspricht genau den Regeln hier, die
+
+0:06:21.860,0:06:29.180
+genommen wurden. Oder wenn wir auf die Folie davor gehen,
+die umgekehrte Reihenfolge, in der die Aussagen
+
+0:06:29.180,0:06:35.150
+markiert wurden im Markierungsalgorithmus.
+Rückwärts gelesen B, A, D, C entspricht genau dem, was Prolog
+
+0:06:35.150,0:06:45.530
+hier in der Reihenfolge getan hat. Das können wir
+also daraus lernen. Wie gesagt, wenn ich b nur so frage,
+
+0:06:45.530,0:06:51.740
+erhalte ich true. Was könnten wir noch machen? Wir könnten zum Beispiel mal
+das Programm etwas ändern. Also nehmen wir an die Formel
+
+0:06:51.740,0:07:00.410
+wäre anders gewesen. Vielleicht machen wir hier aus d folgt nicht a,
+sondern zum Beispiel c.
+
+0:07:00.410,0:07:10.910
+Nehmen wir an wir hätten irgendwie diese Regel gehabt.
+Lassen das ablaufen. Dann kommt eine Fehlermeldung.
+
+0:07:10.910,0:07:18.740
+"procedure a does not exist." Das kommt daher, dass
+a hier verwendet wird, es aber keine Regel gibt,
+
+0:07:18.740,0:07:25.790
+in der a durch irgendetwas impliziert wird.
+Das heißt für Prolog, dass es mit dem a nicht viel anfangen kann,
+
+0:07:25.790,0:07:29.870
+weil es keine Regeln dafür gibt. Und aus dem
+Namen procedure hier können Sie auch vielleicht
+
+0:07:29.870,0:07:37.310
+verstehen/ersehen, woher der Name Prozedurklausel
+für Klauseln kommt. Was hier vorher nämlich stand,
+
+0:07:37.310,0:07:46.910
+war gemäß unserer Folien eine Prozedurklausel für a.
+In Prolog heißen diese Dinger eben Prozeduren oder es wird so
+
+0:07:46.910,0:07:52.160
+darüber geredet. Deswegen nennt man das eine Prozedurklausel.
+Wenn ich das hier Überschreibe, dann gibt es für a
+
+0:07:52.160,0:07:59.190
+keine Prozedurklausel. Und das ist hier die Beschwerde.
+Dann könnten wir sagen, dann führen wir eben für a etwas anderes ein.
+
+0:07:59.190,0:08:08.100
+Sagen wir zum Beispiel a folgt aus c. Das wäre von der
+Form her immer noch eine Hornklausel.
+
+0:08:08.100,0:08:14.160
+Und wenn wir das hier "ver-unden" mit Konjunktionen, dann wäre
+das immer noch eine Hornformel. Alles, was wir hinschreiben,
+
+0:08:14.160,0:08:20.130
+entspricht auf die Art und Weise solchen Hornformeln
+wie in der Vorlesung eingeführt.
+
+0:08:20.130,0:08:28.860
+Jetzt können wir fragen, was passiert, wenn wir das hier ausführen.
+Dann entsteht hier eine Fehlermeldung. Das heißt nicht, dass das Programm
+
+0:08:28.860,0:08:35.880
+per se falsch ist, sondern das liegt an der Suche, die
+Prolog hier durchführt. Die hat hier zu einem
+
+0:08:35.880,0:08:46.920
+Stack Overflow, sozusagen zu einem Speicherüberlauf
+geführt. Das heißt nicht, dass die Formel nicht
+
+0:08:46.920,0:08:52.800
+erfüllbar war oder so. Das kann man daraus nicht folgern.
+Weder erfüllbar, noch unerfüllbar kann man daraus folgern.
+
+0:08:52.800,0:08:57.450
+Das heißt einfach, dass Prologs Algorithmus für
+die Suche [nicht erfolgreich war], was nicht exakt der Markierungsalgorithmus ist, weil
+
+0:08:57.450,0:09:02.370
+eben auch noch andere Fälle zu behandeln sind, weil
+die Programme nicht so einfach sind, wie hier dargestellt.
+
+0:09:02.370,0:09:07.470
+Wir werden das auch noch genau sehen, was tatsächlich in Prolog passiert.
+Für dieses Programm, wie ich es jetzt hier sehr willkürlich
+
+0:09:07.470,0:09:12.990
+geändert habe, da steckt vielleicht nicht allzu
+viel Logik dahinter. Tatsächlich war Prolog
+
+0:09:12.990,0:09:19.170
+nicht erfolgreich mit seiner Lösungssuche. Das heißt
+nicht, dass es keinen Resolutionsbeweis gibt, nur dass
+
+0:09:19.170,0:09:25.290
+das nicht genauso funktioniert hat für dieses
+Programm, wie Prolog sich das vorgestellt hat.
+
+0:09:25.290,0:09:32.820
+Aber das zu verstehen führt hier zu weit. Das wird uns in
+den folgenden Wochen beschäftigen. Jetzt ging es ja nur
+
+0:09:32.820,0:09:39.420
+darum überhaupt diese Lesart der Hornformeln
+als Prolog-Programme zumindest schon mal anzudeuten
+
+0:09:39.420,0:09:48.510
+und auch diese Trennung in Programmklauseln,
+Prozedurklauseln, Regeln, Fakten, Tatsachenklausel
+
+0:09:48.510,0:09:55.830
+einerseits und Anfrageklauseln/ Query andererseits
+zu sehen. Die hier in der Hornformel einfach nur
+
+0:09:55.830,0:09:59.790
+an der Form zu unterscheiden ist. Also diese
+Formeln "irgendwas impliziert 0"
+
+0:09:59.790,0:10:05.010
+waren hier die sogenannten Anfrageklauseln.
+In Prolog würde man die tatsächlich an anderer
+
+0:10:05.010,0:10:09.120
+Stelle benutzen. Hier das Programm und
+hier die Frage, die man stellt und laufen lässt.
+
+0:10:09.120,0:10:15.990
+Mehr Details dann in den folgenden Wochen.
+Aber vielleicht können Sie auch schon mal mit dieser
+
+0:10:15.990,0:10:20.670
+Webseite spielen. Oder sich zumindest damit vertraut
+machen, wie sie die erreichen und Sachen eingeben können etc.
+
+0:10:20.670,0:10:26.550
+Das hilft ihnen dann sicherlich bei
+den echten Programmen, die wir betrachten wollen.

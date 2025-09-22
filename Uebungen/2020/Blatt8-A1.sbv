@@ -1,0 +1,375 @@
+0:00:00.120,0:00:04.800
+Heute besprechen wir Blatt 8 von Logik. Bei
+Aufgabe 1 sollen wir ein Prädikat without
+
+0:00:04.800,0:00:09.480
+schreiben, das ist dreistellig. Dabei soll der
+erste Parameter eine Liste sein, der zweite ein
+
+0:00:09.480,0:00:14.400
+Element und der dritte soll die Liste des ersten
+Parameters sein, aber in dieser Liste sollen alle
+
+0:00:14.400,0:00:18.780
+Vorkommen des Elements im zweiten Parameter
+gelöscht sein. Das heißt also, die Liste des
+
+0:00:18.780,0:00:23.880
+ersten Parameters ohne das Element des zweiten
+Parameters. Bei der Listenverarbeitung im Prolog
+
+0:00:23.880,0:00:28.440
+gibt es ein generelles Schema, mit dem man bei
+vielen von diesen Aufgaben vorgehen kann. Man kann
+
+0:00:28.440,0:00:33.780
+mittels Rekursion die Liste elementweise abbauen,
+bis sie zum Beispiel leer ist oder einelementig.
+
+0:00:33.780,0:00:39.120
+Und dann einen Basisfall als Fakt konstruieren,
+sodass man damit die Rekursionen auflösen und
+
+0:00:39.120,0:00:43.320
+beenden kann. Dabei ist es vor Allem wichtig,
+dass man auf das Head-Element zugreifen kann,
+
+0:00:43.320,0:00:47.400
+denn damit macht man zumeist irgendetwas. Das
+benutzt man dann für eine irgendeine Semantik,
+
+0:00:47.400,0:00:51.420
+für eine Abarbeitung, Vergleiche oder
+Ähnliches. Dann, im nächsten Schritt,
+
+0:00:51.420,0:00:56.640
+macht man einen rekursiven Aufruf mit dem Rest
+der Liste. Dann kann man das gleiche Konzept auf
+
+0:00:56.640,0:01:01.920
+die verkleinerte Liste anwenden. Und das macht
+man solange, bis man keine weiteren rekursiven
+
+0:01:01.920,0:01:06.120
+Schritte durchführen kann. Um auf das Head-Element
+von einer bestehenden Liste zuzugreifen,
+
+0:01:06.120,0:01:11.640
+kann man zum Beispiel das built-in-Prädikat append
+benutzen. Append ist ein dreistelliges Prädikat,
+
+0:01:11.640,0:01:17.580
+was eine Liste bekommt, eine zweite Liste und als
+dritten Parameter die konkatenierte Liste, also
+
+0:01:17.580,0:01:21.720
+zusammengefügte Liste von beiden hat. Wenn man
+sich zum Beispiel hier die Aufgabe anschaut,
+
+0:01:21.720,0:01:26.940
+dann kann man die Liste, die wir bereits
+haben, als die Ergebnisliste betrachten und
+
+0:01:26.940,0:01:33.420
+Head entsprechend als den ersten Teil, die erste
+Liste. Und Tail als den zweiten Teil der Liste.
+
+0:01:33.420,0:01:40.560
+Sodass wir dann auf das Prädikat append, Head,
+Tail und GesamteListe kommen können, um auf Head
+
+0:01:40.560,0:01:45.900
+zuzugreifen. Wichtig ist dabei, dass Head nur das
+einzelne Element ist und Tail dabei die gesamte
+
+0:01:45.900,0:01:50.760
+Liste. Deswegen müssen wir beim ersten Parameter
+Head entsprechend in die eckigen Klammern setzen,
+
+0:01:50.760,0:01:55.320
+damit wir daraus eine Liste bekommen. Wenn man
+jetzt die Beispielanfrage von hier oben sieht,
+
+0:01:55.320,0:02:00.540
+würde das so aussehen, dass wir append a in
+eckigen Klammern haben, da dann die Restliste
+
+0:02:00.540,0:02:05.100
+Tail anfügen und wenn wir dann als dritten
+Parameter L haben, ist das dann die konkatenierte,
+
+0:02:05.100,0:02:10.260
+also zusammengefügte Liste. Und das war ja das,
+was wir aus dem Beispiel auch haben wollten. Wenn
+
+0:02:10.260,0:02:15.840
+wir das jetzt also auf die Aufgabe übertragen,
+dann können wir bei der Beispielaufgabe auf das
+
+0:02:15.840,0:02:20.640
+Head-Element zugreifen und jetzt gibt es zwei
+Fälle, die wir betrachten können. Der erste,
+
+0:02:20.640,0:02:24.600
+den wir betrachten ist, dass Head gleich
+dem Element ist, das wir aus der Liste
+
+0:02:24.600,0:02:29.760
+herauslöschen wollen. Das ist jetzt hier in dieser
+Anfrage gegeben. Jetzt müssen wir als erstes den
+
+0:02:29.760,0:02:34.740
+Zugriff auf Head durch das append-Prädikat
+machen. Wenn wir jetzt also without (Xs, X,
+
+0:02:34.740,0:02:39.660
+L) in der Definition gegeben haben, dann wollen
+wir das Head-Element so da herausbekommen, dass
+
+0:02:39.660,0:02:45.420
+wir aus der Xs-Liste das erste Element nehmen. Das
+wäre in dem Fall, dass das Head-Element und jenes,
+
+0:02:45.420,0:02:49.860
+was wir herauslöschen wollen, gleich wären, wäre
+das aus der Signatur schon das x. Das heißt,
+
+0:02:49.860,0:02:55.860
+wir haben als erstes das Element x, dann haben
+wir unbekannte Restliste, die wir bekommen
+
+0:02:55.860,0:03:01.380
+wollen und dann die GesamteListe. Also wenn wir
+das Head-Element anfügen, an diese unbekannte
+
+0:03:01.380,0:03:07.860
+Tail-Liste, dann bekommen wir Xs heraus. Das heißt
+Ys wäre in dem Fall unser Tail. Also in dem Fall
+
+0:03:07.860,0:03:15.060
+von der Beispielanfrage b, c. Das X wäre dann eben
+a. Und das Xs wäre dann entsprechend die Liste a,
+
+0:03:15.060,0:03:19.620
+b, c. Der nächste Schritt ist jetzt, dass wir
+eben eine Rekursion mit der Restliste Ys machen,
+
+0:03:19.620,0:03:24.960
+das heißt, mit dem b, c was wir hier haben. Da ist
+aber wichtig, dass das L, unsere Ergebnisliste,
+
+0:03:24.960,0:03:29.400
+unverändert bleibt. Weil im Falle der Gleichheit,
+wollen wir das Element mehr oder weniger einfach
+
+0:03:29.400,0:03:34.500
+verwerfen. Weil bei dem without geht es darum,
+dass wir das Element aus der Liste herauslöschen.
+
+0:03:34.500,0:03:39.600
+Also darf das dann eben nicht mehr in L vorkommen.
+Deswegen machen wir dann entsprechend auch den
+
+0:03:39.600,0:03:46.740
+rekursiven Aufruf mit dem Ys, der Restliste, also
+dem Tail, was wir vorhin hatten, dann dem Element
+
+0:03:46.740,0:03:52.680
+X, was wir herauslöschen wollen und immer noch der
+unveränderten Ergebnisliste L. Der zweite Fall, im
+
+0:03:52.680,0:03:58.020
+Gegensatz zum ersten, ist, dass das Head-Element
+ungleich dem Element ist, was wir vergleichen
+
+0:03:58.020,0:04:02.280
+wollen. Hier haben wir eine Beispielanfrage,
+bei der das der Fall wäre. Da haben wir das
+
+0:04:02.280,0:04:07.140
+Head-Element und da müssen wir genauso wie
+im ersten Fall auch das append benutzen,
+
+0:04:07.140,0:04:13.920
+um auf das Head-Element zuzugreifen. Wir benennen
+das mit Y statt wie vorhin mit dem X, weil wir
+
+0:04:13.920,0:04:21.180
+klar machen wollen, dass es ein anderes Element
+ist. Das Problem dabei ist, das Y jedoch wieder
+
+0:04:21.180,0:04:26.220
+mit dem gleichen Wert für X unifiziert werden
+könnte. Deswegen müssen wir hier explizit sagen,
+
+0:04:26.220,0:04:31.980
+dass Y ungleich X sein soll. Denn sonst gäbe es
+die Möglichkeit, dass es auch damit unifiziert
+
+0:04:31.980,0:04:38.340
+wird und in dem vollständigen Resolutionsbaum eben
+das auch als eine mögliche Lösung erscheint. Das
+
+0:04:38.340,0:04:42.600
+könnte man dann unter Umständen auch durch das
+Backtracking herausbekommen. Was man auf der
+
+0:04:42.600,0:04:47.040
+Anfrageebene durch das Drücken der Semikolontaste
+erzwingen könnte. Der nächste Schritt ist,
+
+0:04:47.040,0:04:52.380
+dass wir die Rekursion mit der Restliste machen,
+auch analog zum gerade Durchgeführten. Allerdings
+
+0:04:52.380,0:04:57.060
+gibt es noch einen wesentlichen Unterschied. Denn
+in dem Fall, dass Head ungleich dem Element ist,
+
+0:04:57.060,0:05:02.520
+heißt es, dass das Head-Element d wieder an der
+Ergebnisliste hinten angefügt werden müsste.
+
+0:05:02.520,0:05:07.740
+Das heißt, wir brauchen jetzt ein zusätzliches
+append mit dem wir das entsprechend gewährleisten
+
+0:05:07.740,0:05:12.480
+können. Und das Letzte, was wir uns überlegen
+müssen, ist der Basisfall. Also in dem Fall,
+
+0:05:12.480,0:05:17.220
+dass die Liste abgebaut ist. Da kann man sich
+ganz gut überlegen, was passiert mit einer Liste,
+
+0:05:17.220,0:05:21.300
+unabhängig davon, welches Element wir aus einer
+leeren Liste entfernen wollen, es kommt immer noch
+
+0:05:21.300,0:05:26.280
+die leere Liste heraus. Deswegen kodieren wir
+das jetzt als Prolog-Fakt, ohne dass wir eine
+
+0:05:26.280,0:05:31.140
+komplexe Regel dazu machen müssen. Dazu verwenden
+wir eine anonyme Variable mit dem Unterstrich,
+
+0:05:31.140,0:05:35.760
+weil uns letztendlich nicht interessiert, wie
+dieses Element ist. In der gesamten Lösung,
+
+0:05:35.760,0:05:39.540
+sieht das dann so aus. Sinnvoll ist es
+eigentlich immer, diesen Basisfakt als
+
+0:05:39.540,0:05:43.500
+erstes in die Regelbasis einzupflegen,
+damit man auch immer gewährleisten kann,
+
+0:05:43.500,0:05:48.540
+dass die Rekursion nicht ins Unendliche läuft.
+Weil die Prolog-Wissensbasis auch sequenziell
+
+0:05:48.540,0:05:54.060
+angefragt wird, das heißt, es wird immer das
+erste Vorkommen des ... zuerst gematcht. Es
+
+0:05:54.060,0:05:58.980
+gibt auch noch eine alternative Lösung auf Basis
+der aus der Vorlesung bekannten built-in-Prädikate
+
+0:05:59.870,0:06:04.920
+insert, not und member. Die Idee dabei ist, dass
+man jetzt zwei Fälle betrachtet. Beim ersten Fall
+
+0:06:04.920,0:06:10.020
+kann man sich vorstellen, dass, wenn die Liste,
+das zu löschende Element nicht enthält, ist man
+
+0:06:10.020,0:06:14.880
+schon fertig. Das können wir so modellieren, dass
+wir das without-Prädikat auf die Art modellieren,
+
+0:06:14.880,0:06:20.280
+dass wir die Liste Xs haben, das Element X,
+was wir löschen wollen und dass dabei auch
+
+0:06:20.280,0:06:26.640
+die Liste Xs herauskommt, falls X nicht
+ein member von Xs ist. Das heißt also,
+
+0:06:26.640,0:06:32.640
+falls X nicht in der Liste Xs vorkommt. Der andere
+Fall ist eigentlich der Rest. Da geht man jetzt
+
+0:06:32.640,0:06:39.000
+geschickt vor und stellt einfach die erste Liste
+Xs als Ergebnis einer Einfüge-Operation von X
+
+0:06:39.000,0:06:43.860
+in die um X reduzierte Liste dar. Das kann
+man sich im Prinzip als eine Umkehrung des
+
+0:06:43.860,0:06:49.860
+insert-Prädikats vorstellen. Zur Erinnerung:
+insert fügt ein Element in eine Liste ein. Bei
+
+0:06:49.860,0:06:55.740
+insert wurde das Element X gegeben, als erster
+Parameter, die Liste L als zweiter Parameter,
+
+0:06:55.740,0:07:02.040
+in die eingefügt werden soll. Und die Liste R, die
+dann der Ergebnisparameter ist. Also die Liste L
+
+0:07:02.040,0:07:07.380
+in der das Element X eingefügt ist. Und so sieht
+das Ganze dann in Prolog aus. Wir stellen also
+
+0:07:07.380,0:07:14.220
+die Liste Xs als Ergebnis der insert-Operation
+dar. Das heißt, wenn wir das Element X an Zs,
+
+0:07:14.220,0:07:21.240
+eine bisher unbekannte Liste anfügen, das ist dann
+unsere Restliste dann kommt Xs heraus. So gesehen
+
+0:07:21.240,0:07:32.304
+ist die Liste Xs die Restliste, die schon um das
+Element X erleichtert ist. Dann ist die Liste a,
+
+0:07:32.304,0:07:39.060
+b, c, d, e die Xs-Liste, das Element X ist
+b und Zs ist dann dieser Ergebnisparameter
+
+0:07:39.060,0:07:44.820
+L am Ende. Das heißt also, da haben wir die um b
+reduzierte Liste, sodass wir jetzt sagen können,
+
+0:07:44.820,0:07:52.140
+dass das insert dazu führt, dass X in Zs
+eingefügt wird und Xs herauskommt. Mit Zs
+
+0:07:52.140,0:07:57.360
+haben wir die um das Element X reduzierte Liste.
+Da führen wir jetzt wieder die Rekursion durch
+
+0:07:57.360,0:08:02.820
+mit dem without. Das heißt, wir haben jetzt
+im Prinzip das gleiche Prozedere, aber auf
+
+0:08:02.820,0:08:08.700
+die verkleinerte Liste angewendet. Deswegen bleibt
+natürlich der zweite Parameter bestehen und Ys ist
+
+0:08:08.700,0:08:14.520
+die dann die neue Ergebnisliste, die dann von der
+verkleinerten Menge das Ergebnis ist. Jetzt muss
+
+0:08:14.520,0:08:19.500
+das Ganze wiederholt werden und es steigt erneut
+in Prolog-Wissensbasis ein. Und so sieht das dann
+
+0:08:19.500,0:08:24.180
+in der gesamten Lösung aus. Das ist eine kompakte
+Lösung als Alternative zum ersten Entwurf.

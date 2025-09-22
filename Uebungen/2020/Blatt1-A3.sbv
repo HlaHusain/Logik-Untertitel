@@ -1,0 +1,151 @@
+0:00:00.060,0:00:06.900
+Bei Aufgabe drei soll nun der Wahrheitswert für
+die gegebene Formel mit der Bottom-up-sowie mit
+
+0:00:06.900,0:00:12.360
+der Top-down-Methode bestimmt werden. Wir beginnen
+mit der Bottom-up-Methode. Ich schreibe die Formel
+
+0:00:12.360,0:00:17.100
+nochmal von oben ab. Laut Aufgabenstellung
+ist die Belegung gegeben mit Alpha von A und
+
+0:00:17.100,0:00:23.580
+Alpha von B. Das ist jeweils eins. Wir können
+also bereits über A und B jeweils die Belegung
+
+0:00:23.580,0:00:29.280
+notieren. Es ist alles mit eins belegt. Nun
+können wir uns die Regeln von der Folie anschauen,
+
+0:00:29.280,0:00:39.120
+die ihr dazu in der Vorlesung bekommen habt. Hier
+hätten wir die Regel für Alpha von nicht A. Wie
+
+0:00:41.340,0:00:50.880
+man es vermuten würde, ist es das Gegenteil. Wenn
+also A eins ist, dann ist Alpha von nicht A null.
+
+0:00:51.720,0:00:55.680
+Im hinteren Teil, in der Klammer, haben wir
+keine Negierungen. Deshalb haben wir in beiden
+
+0:00:55.680,0:01:04.200
+Fällen diese Belegung mit eins und eins. Nun
+ist dieser hintere Teil mit einer Konjunktion,
+
+0:01:04.200,0:01:10.980
+einer Und-Verknüpfung, verbunden. Dazu lautet
+die Regel: Wenn beides eins ist, ergibt auch das
+
+0:01:10.980,0:01:21.120
+Gesamte eine eins. Also haben wir Alpha von
+A und B. Das ist dann eins, wenn für beides
+
+0:01:21.120,0:01:27.060
+die Belegung eins ist. Ich ziehe hier die Null
+weiter runter, sodass es auf einer Ebene ist. Die
+
+0:01:27.060,0:01:32.640
+Null bleibt vorhanden. Hier haben wir diese beiden
+Teile noch mit einer Disjunktion, also mit einem
+
+0:01:32.640,0:01:44.520
+Oder verknüpft, also Alpha von nicht A oder A und
+B. Bei der Oder-Verknüpfung muss mindestens eins
+
+0:01:44.520,0:01:51.300
+von beiden eine eins sein, sodass es im Gesamten
+eine Eins wird. Das ist hier der Fall. Der zweite
+
+0:01:51.300,0:01:55.560
+Teil ist mit einer Eins belegt, sodass wir für die
+komplette Formel auch auf einen Wahrheitswert von
+
+0:01:55.560,0:02:03.180
+eins kommen. Das wäre dann die Gesamtbewertung für
+unser Alphadach von der gegebenen Formel F. Jetzt
+
+0:02:03.180,0:02:08.700
+machen wir das Gleiche mit der Top-down-Methode.
+Ich habe hier die Folie mit den Regeln
+
+0:02:08.700,0:02:13.020
+hineinkopiert, sodass wir es nochmals in der
+Übersicht sehen. Bei der Top-Down-Methode gehen
+
+0:02:13.020,0:02:20.040
+wir die Formel von außen nach innen oder von oben
+nach unten ab. Das bedeutet, wir schauen uns jetzt
+
+0:02:20.040,0:02:26.220
+im ersten Fall die äußerste Verknüpfung an. Das
+ist hier die Disjunktion, die Oder-Verknüpfung.
+
+0:02:26.220,0:02:34.380
+Und wir sehen hier, dass die Oder-Verknüpfung hier
+über das Maximum definiert wird. Ich schreibe kurz
+
+0:02:34.380,0:02:40.920
+die Formel ab. Das heißt, entsprechend der
+Regeln für die Top-down-Methode schauen wir
+
+0:02:40.920,0:02:46.680
+uns nun an, was das Maximum vom linken Teil der
+Oder-Verknüpfung und was das Maximum des rechten
+
+0:02:46.680,0:02:56.160
+Teils der Oder-Verknüpfung ist. Alphadach von
+nicht A oder Alphadach von A und B. Das können
+
+0:02:56.160,0:03:01.800
+wir nun weiter aufdröseln. Wir gehen immer weiter
+nach innen. Wir gucken uns jetzt also an, was für
+
+0:03:01.800,0:03:06.420
+Teile des Maximums das sind, die überprüft werden
+müssen. Da müssen wir einmal nicht A prüfen. Nicht
+
+0:03:06.420,0:03:13.440
+A ist, wie wir hier auf der Folie sehen, die
+Negation. Sie wird zu eins minus Alphadach von
+
+0:03:13.440,0:03:19.200
+F. Das heißt, das Maximum außen bleibt stehen,
+da wir dieses noch nicht aufgelöst haben. Das
+
+0:03:19.200,0:03:30.360
+Maximum von eins minus Alphadach von A. Der
+zweite Teil: A und B. Da sehen wir auf der
+
+0:03:30.360,0:03:36.240
+Folie, dass A und B zur Multiplikation wird. Die
+Konjunktion wird zur Multiplikation. Das bedeutet,
+
+0:03:36.240,0:03:46.980
+Alphadach von A mal Alphadach von B. Und Alphadach
+auf atomaren Aussagen ist immer einfach das Alpha,
+
+0:03:46.980,0:03:50.220
+wie wir auch bereits in der Vorlesung gelernt
+haben. Das heißt, wir können hier auch direkt das
+
+0:03:50.220,0:03:56.460
+Alpha nehmen und das Dach wegmachen. Im nächsten
+Schritt können wir auch schon die Belegungen
+
+0:03:56.460,0:04:02.640
+einsetzen, da es mit den gelernten Regeln nichts
+weiter aufzulösen gibt. Das bedeutet, wir haben
+
+0:04:02.640,0:04:08.460
+das Maximum von eins minus. Alpha von A ist laut
+Aufgabenstellung eins. Alpha von A ist eins,
+
+0:04:13.980,0:04:19.860
+mal Alpha von B ist auch eins. Das
+heißt, wir haben das Maximum von eins
+
+0:04:19.860,0:04:24.900
+minus eins ist null und einmal eins ist
+eins von null und eins. Und das ist eins.

@@ -1,0 +1,43 @@
+0:00:01.689,0:00:05.750
+In Teilaufgabe (d) sollen wir nun den Resolutionsbaum
+interpretieren und sagen, was es für die
+
+0:00:05.750,0:00:10.190
+Variable X bedeutet, wenn wir die leere Menge
+resolvieren können.
+
+0:00:10.190,0:00:16.370
+Wenn wir die leere Menge resolvieren können,
+ist das ein Pfad, der eine mögliche SLD Resolution
+
+0:00:16.370,0:00:17.370
+ist.
+
+0:00:17.370,0:00:19.702
+Wir können X in diesem Fall also substituieren.
+
+0:00:19.702,0:00:24.130
+Wir substituieren X mit dem, was wir in dem
+Pfad herausbekommen haben.
+
+0:00:24.130,0:00:28.039
+Wenn wir uns zum Beispiel den letzten Pfad
+anschauen, sehen wir: "besitzt(C,a)".
+
+0:00:28.039,0:00:31.840
+Jetzt können wir X durch C ersetzen, also
+durch Charlotte.
+
+0:00:31.840,0:00:35.809
+Im vorletzten Baum hatten wir: "besitzt(N,a)".
+
+0:00:35.809,0:00:37.800
+Hier können wir X durch N ersetzen.
+
+0:00:37.800,0:00:43.359
+Da Prolog immer von oben nach unten vorgeht,
+haben wir zuerst Nilo und dann Charlotte als
+
+0:00:43.359,0:00:46.649
+mögliche Lösungen, die auch vom Prologprogramm
+ausgegeben werden.

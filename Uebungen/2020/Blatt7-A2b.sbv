@@ -1,0 +1,171 @@
+0:00:00.070,0:00:05.130
+Bei Aufgabe B haben wir das Prolog-Prädikat
+ist double gegeben, das ist auch wieder zweistellig.
+
+0:00:05.130,0:00:11.541
+Und das wird genau dann gelten, wenn A, also,
+der erste Teil, der erste Parameter, gleich
+
+0:00:11.541,0:00:15.480
+Zwei Mal B ist, also doppelt so groß wie
+B ist.
+
+0:00:15.480,0:00:22.140
+Und hier haben wir schon die Abbruchbedingung
+gegeben, isDouble Z Komma Z Punkt.
+
+0:00:22.140,0:00:23.779
+Woran erkennen wir, dass das die Abbruchbedingung
+ist?
+
+0:00:23.779,0:00:28.460
+Einerseits ist es ein Fakt, das ist keine
+Regel, und andererseits haben wir hier schon
+
+0:00:28.460,0:00:31.300
+die kleinstmöglichen Zahlen drin, Z und Z.
+
+0:00:31.300,0:00:35.850
+Wenn man überlegt, was ist Zwei Mal irgendwas,
+dann ist Null gleich Zwei Mal Null.
+
+0:00:35.850,0:00:39.449
+Und kleiner geht es nicht, weil wir keine
+negativen Zahlen haben.
+
+0:00:39.449,0:00:41.000
+Jetzt brauchen wir noch eine Regel dazu.
+
+0:00:41.000,0:00:45.309
+Jetzt schauen wir uns erstmal an, wie das
+Pattern, das Muster, von dem Ganzen überhaupt
+
+0:00:45.309,0:00:46.309
+ist.
+
+0:00:46.309,0:00:50.750
+Wenn wir jetzt eine Zahl B haben und A ist
+Zwei Mal B und wir packen das wieder in unser
+
+0:00:50.750,0:00:58.969
+S von X-Schema herein, dann wäre B zum Beispiel
+im kleinsten Fall Null und Zwei Mal Null wäre
+
+0:00:58.969,0:00:59.969
+immer noch Null.
+
+0:00:59.969,0:01:00.969
+Und das ist hier diese Bedingung.
+
+0:01:00.969,0:01:05.050
+Wenn B jetzt Eins wäre, also, S von Z, was
+wäre dann Zwei Mal B?
+
+0:01:05.050,0:01:08.930
+Zwei Mal B wäre dann S von S von Z, also,
+Eins und Zwei.
+
+0:01:08.930,0:01:10.020
+Gehen wir noch einen größer.
+
+0:01:10.020,0:01:15.340
+Wenn B jetzt Zwei wäre, S von S von Z, wie
+wäre dann Zwei Mal B, also, A, dann wäre
+
+0:01:15.340,0:01:20.850
+das schon Vier, also, S von S von S von S
+von Z und so weiter und so fort.
+
+0:01:20.850,0:01:22.710
+Und was erkennen wir hieran?
+
+0:01:22.710,0:01:28.040
+Dass wir immer von einem zum nächsten Schritt
+hier auf der linken Seite beim B quasi ein
+
+0:01:28.040,0:01:29.040
+S hinzufügen.
+
+0:01:29.040,0:01:30.040
+Wir gehen einen höher.
+
+0:01:30.040,0:01:32.159
+Und wie viel gehen wir gleichzeitig beim Rechten
+höher?
+
+0:01:32.159,0:01:35.700
+Da gehen wir jedes Mal Zwei direkt höher.
+
+0:01:35.700,0:01:37.439
+Drei wäre zum Beispiel Sechs.
+
+0:01:37.439,0:01:39.200
+Dann hätten wir wieder Zwei mehr.
+
+0:01:39.200,0:01:40.500
+Vier wäre dann Acht.
+
+0:01:40.500,0:01:43.399
+Das sind wieder Zwei mehr als Sechs.
+
+0:01:43.399,0:01:46.659
+Das heißt, pro Schritt werden immer zwei
+S hinzugefügt.
+
+0:01:46.659,0:01:53.579
+Und deswegen sieht die Lösung genau so aus,
+isDouble Z Komma Z die Abbruchbedingung, und
+
+0:01:53.579,0:01:59.250
+darunter, isDouble S von S von X, weil die
+große Zahl, die rechte hier ist in diesem
+
+0:01:59.250,0:02:04.700
+Fall die erste, das A. Da müssen wir immer
+das Doppelte haben, da müssen wir Zwei Mal
+
+0:02:04.700,0:02:07.759
+haben, wenn wir rechts Ein Mal haben.
+
+0:02:07.759,0:02:12.920
+Und den ersten Fall, hier mit Z und Z müssen
+wir nicht abdecken, weil das hier schon in
+
+0:02:12.920,0:02:13.920
+der Abbruchbedingung ist.
+
+0:02:13.920,0:02:15.970
+Das heißt, wir können direkt beim Zweiten
+einsteigen.
+
+0:02:15.970,0:02:21.110
+Und durch das X und das Y halten wir uns offen,
+dass wir beliebig tief hier reingehen.
+
+0:02:21.110,0:02:25.300
+Und das gilt genau dann, wenn isDouble X Komma
+Y.
+
+0:02:25.300,0:02:29.340
+Wenn wir runtergehen, bei der Rekursion gehen
+wir genau anders herum, von oben nach unten,
+
+0:02:29.340,0:02:33.110
+von den höheren Zahlen zu den niedrigeren,
+nehmen wir hier in dem Fall immer bei dem
+
+0:02:33.110,0:02:41.220
+A Zwei Mal das S weg und bei dem Y Ein Mal,
+bis wir gucken, kommen wir zu Z Komma Z.
+
+0:02:41.220,0:02:45.990
+Und wenn das der Fall ist, dann ist diese
+große Zahl doppelt so groß wie die.
+
+0:02:45.990,0:02:51.370
+Kommen wir nicht bei Z Komma Z aus, weil wir
+zum Beispiel hier nochmal S von Z Komma Z
+
+0:02:51.370,0:02:54.200
+übrig haben, dann bekommen wir auch ein false
+heraus.

@@ -1,0 +1,1191 @@
+0:00:00.000,0:00:07.530
+Also schauen wir uns dieses Beispiel bzw.
+diese aufeinander aufbauenden Beispiele
+
+0:00:07.530,0:00:18.990
+aus dem Learn Prolog Now Buch an. Und gleichzeitig,
+während einerseits die syntaktischen Mittel/Elemente
+
+0:00:18.990,0:00:26.310
+von Prolog so intuitiv vorgestellt werden, wird
+es auch darum gehen, wie jeweils Anfragen an Prolog-Programme
+
+0:00:26.310,0:00:34.080
+aussehen und was man da als Antworten erwarten darf.
+Falls Sie das Beispiel nicht wiedererkennen, das
+
+0:00:34.080,0:00:40.140
+sind Figuren aus dem Film Pulp Fiction, den
+Sie vielleicht kennen. Ich habe den in diesem
+
+0:00:40.140,0:00:44.550
+Sommer das erste Mal mit meinem Sohn gesehen.
+Also ich hab nicht den Film das erste Mal gesehen, aber das erste
+
+0:00:44.550,0:00:52.620
+Mal mit meinem Sohn. Also worum geht es hier?
+Im einfachsten Fall würde Prolog oder ein
+
+0:00:52.620,0:00:57.450
+Prolog-Programm einfach bestehen aus einer Art
+Datenbank. Da könnten Fakten drinstehen und
+
+0:00:57.450,0:01:02.970
+zwar in dieser Prädikatsschreibweise, die ich
+in dem vorigen Video bereits kurz illustriert habe.
+
+0:01:02.970,0:01:09.120
+Also wir könnten uns zum Beispiel vorstellen, dass
+da festgehalten ist, dass Mia, Jody und Yolanda Frauen sind
+
+0:01:09.120,0:01:15.840
+und dass Jody Luftgitarre spielt.
+Das wird angegeben hier als Fakten in dem
+
+0:01:15.840,0:01:23.400
+Fakten- und Regelfenster zum Beispiel der Swish-Website,
+indem man eben diese Fakten da auflistet.
+
+0:01:23.400,0:01:31.575
+Und der Punkt hier ist jeweils wichtig, weil das sozusagen
+die Zeile oder die Angabe des Fakts beendet oder schließt.
+
+0:01:31.575,0:01:37.200
+Dann kann man in dem separaten Fenster (in dem Query-Fenster,
+im Anfragefenster) Anfragen stellen. Zum Beispiel
+
+0:01:37.200,0:01:43.320
+könnte man fragen, ob denn Mia eine Frau ist.
+Die Antwort wäre wahr. Wahr in dem Sinne, dass
+
+0:01:43.320,0:01:51.000
+es aus der Datenbank von Fakten folgt.
+Wichtig ist hier, dass man diesen Punkt wirklich eingibt
+
+0:01:51.000,0:01:57.840
+bei der Anfrage. Das kommt auf das Prolog-System an,
+ob das wirklich Pflicht ist. In der Regel, wenn sie
+
+0:01:57.840,0:02:01.920
+zumindest im Interpreter auf dem eigenen Rechner
+arbeiten und diesen Punkt hier vergessen würden einzugeben,
+
+0:02:01.920,0:02:06.030
+kriegen Sie wahrscheinlich eine Fehlermeldung
+oder gar keine Antwort, weil Prolog noch wartet,
+
+0:02:06.030,0:02:11.430
+dass Sie sagen, was Sie eigentlich wollen und eben
+auch Ihre Anfragen mit einem Punkt schließen. So wie hier die
+
+0:02:11.430,0:02:19.335
+Regeln und Fakten jeweils mit einem Punkt abgeschlossenen sind.
+Also das sollten Sie in der Regel lieber nicht vergessen diesen Punkt anzugeben.
+
+0:02:19.335,0:02:26.070
+Jetzt wird hier eben wahr geantwortet, weil es
+stimmt, dass Mia eine Frau ist. Wir können auch nach anderen
+
+0:02:26.070,0:02:33.075
+Sachen fragen. Wir können fragen, ob denn Jody Luftgitarre spielt.
+Auch da wäre die Antwort Ja. Wir können auch fragen, ob Mia
+
+0:02:33.075,0:02:38.610
+Luftgitarre spielt und da wird interessanterweise falsch
+geantwortet. Das stimmt nicht. Da könnte man sich fragen, Warum?
+
+0:02:38.610,0:02:44.460
+Hier oben ist ja nirgendwo explizit gesagt,
+dass Mia nicht Luftgitarre spielt. Da ist sozusagen
+
+0:02:44.460,0:02:52.440
+die erste Erkenntnis für uns, dass Prolog
+immer Sachen als wahr annimmt, die aus dem Programm folgen
+
+0:02:52.440,0:02:57.810
+und für Sachen, die nicht aus dem Programm folgen, falsch annimmt.
+Also obwohl hier nicht steht, dass Mia
+
+0:02:57.810,0:03:03.150
+nicht Luftgitarre spielt, wird aus dem Fakt,
+aus der Tatsache, dass nicht gesagt wird, dass Mia
+
+0:03:03.150,0:03:08.970
+Luftgitarre spielt, gefolgert, dass sie es nicht tut.
+Hier steht ja nirgendwo "not-playAirGuitar(mia)."
+
+0:03:08.970,0:03:16.650
+Und dennoch sagt Prolog auf diese Anfrage: Nein!
+Das Gleiche würde passieren, wenn wir nach jemanden
+
+0:03:16.650,0:03:21.360
+fragen, der gar nicht erwähnt ist, also wenn wir fragen,
+ob Vincent Luftgitarre spielt. Über Vincent wissen wir noch gar nichts.
+
+0:03:21.360,0:03:25.950
+Hier gibt es keinen Fakt, der über Vincent irgendetwas sagt.
+Dennoch können fragen, ob Vincent
+
+0:03:25.950,0:03:34.410
+Luftgitarre spielt. Die Antwort wäre Nein!
+Also Prologs Antwort wäre Nein, weil Prolog nicht folgern
+
+0:03:34.410,0:03:41.460
+oder ermitteln kann, dass Vincent Luftgitarre spielt.
+Dann könnten wir auch noch fragen, ob denn jemand Piano spielt,
+
+0:03:41.460,0:03:46.680
+also ein anderes Instrument. Zum Beispiel könnten wir fragen,
+ob Jody, die es ja gibt, Piano spielt. Da könnte die Antwort auch
+
+0:03:46.680,0:03:54.600
+sein: Nein, weil wir eben nichts darüber wissen, dass Jody Piano spielt.
+Abhängig vom konkreten Prolog-System, dass Sie verwenden,
+
+0:03:54.600,0:03:57.750
+könnte es auch sein, dass hier auch eine Fehlermeldung kommt.
+Also nicht einfach nur Falsch, sondern wirklich
+
+0:03:57.750,0:04:03.960
+gesagt, nicht falschen im Sinne "die Antwort ist Nein" , sondern
+im Sinne, dass Prolog sich beschwert und sagt:
+
+0:04:03.960,0:04:11.430
+"Das ist syntaktisch falsch, das Programm stimmt nicht."
+Das ist zwischen den Prolog-Systemen
+
+0:04:11.430,0:04:17.640
+verschieden, ob sie da Nein Nein oder ob sie das
+Programm zurückweisen. Das ist also anders als
+
+0:04:17.640,0:04:22.620
+bei dem Objekt. Hier hat sozusagen das Argument Vincent
+nicht existiert. Es wird aber gesagt: Nein,
+
+0:04:22.620,0:04:27.630
+spielt nicht Luftgitarre. Wenn sogar die Frage
+sozusagen nirgendwo definiert ist, also wenn es in
+
+0:04:27.630,0:04:33.090
+dem Programm über "das Piano spielen" überhaupt nicht geht,
+dann kann es sein, dass nicht nur gesagt wird: Nein,
+
+0:04:33.090,0:04:38.340
+das folgt nicht daraus, sondern sogar diese Frage ist Unsinn.
+Das sollte gar nicht gefragt werden, wenn wir über Piano
+
+0:04:38.340,0:04:44.880
+spielen nichts wissen. Der Hintergrund für diese Interpretation,
+für dieses Vorgehen ist, dass sowas schnell auch
+
+0:04:44.880,0:04:49.050
+mal passieren kann, indem man sich vertippt.
+Angenommen ich wollte eigentlich fragen, ob Jody
+
+0:04:49.050,0:04:54.150
+Luftgitarre spielt und habe mich hier irgendwo vertippt
+um einen Buchstaben, dann möchte ich lieber nicht
+
+0:04:54.150,0:04:59.190
+gesagt kriegen: "Falsch, also Nein" , sondern ich möchte lieber darauf
+hingewiesen werden, dass meine Anfrage einen
+
+0:04:59.190,0:05:05.010
+Tippfehler enthielt. Das mag jetzt bei playPiano nicht
+so naheliegend sein, dass das ein Tippfehler ist, aber
+
+0:05:05.010,0:05:09.000
+so gehen eben einige Systeme vor, dass Sie dann,
+wenn man eine Anfrage stellt, wo das Prädikat
+
+0:05:09.000,0:05:14.430
+überhaupt nicht definiert ist im Programm (in keinster
+Weise), dass das dann wirklich zurückgewiesen wird mit
+
+0:05:14.430,0:05:22.230
+einer Fehlermeldung. Das wäre jetzt ja langweilig,
+wenn wir nur solche Fakten und solche Fragen hätten.
+
+0:05:22.230,0:05:26.610
+Natürlich können wir mehr. Und wir wissen ja auch schon, was wir noch können.
+Wir können nämlich auch Implikationen ausdrücken.
+
+0:05:26.610,0:05:32.850
+So wie in der Aussagenlogik. So wie in Hornformeln.
+Und wir haben ja auch schon die Syntax dafür gesehen.
+
+0:05:32.850,0:05:39.750
+Also wir haben gesehen, dass dieser :- in Prolog das Zeichen
+für Implikation von rechts nach links ist.
+
+0:05:39.750,0:05:49.590
+Also wie ein stilisierter Pfeil von rechts nach links.
+Wir könnten zum Beispiel sagen: Yolanda ist glücklich.
+
+0:05:49.590,0:05:57.690
+Mia hört Musik. Wenn Yolanda glücklich ist, dann hört sie auch Musik.
+Wenn Mia Musik hört, dann spielt sie Luftgitarre.
+
+0:05:57.690,0:06:06.510
+Wenn Yolanda Musik hört, dann spielt auch sie Luftgitarre.
+Und das hier ist das „wenn“- Zeichen.
+
+0:06:07.020,0:06:14.640
+Das gilt, WENN Yolanda glücklich ist. Diese linke
+Seite war sozusagen "gefolgert wird aus irgendetwas".
+
+0:06:14.640,0:06:20.490
+Das nennen wir auch Kopf einer Regel. Das hier ist eine
+Regel und das ist der Kopf der Regel. Und auf die rechte
+
+0:06:20.490,0:06:25.770
+Seite nehmen wir Bezug, indem wir sagen Rumpf der Regel.
+Das kann wie hier einfach ein Literal sein.
+
+0:06:25.770,0:06:31.140
+Das könnten auch mehrere sein. Also Kopf ist immer einer.
+Der Rumpf könnte aus mehreren Literalen bestehen.
+
+0:06:31.140,0:06:38.040
+Der Kopf ist immer genau ein Literal. Jetzt können wir wieder
+Anfragen stellen. Zum Beispiel, ob Mia Luftgitarre
+
+0:06:38.040,0:06:49.050
+spielt. Da wäre die Antwort: Ja. Das kann man
+sich hier überlegen aus Gründen. Also man kann sich überlegen:
+
+0:06:49.050,0:06:54.600
+Mia hört Musik und wenn Mia Musik hört, dann spielt
+sie auch Luftgitarre. Also ist Prolog im Recht hier zu
+
+0:06:54.600,0:07:00.450
+antworten: Ja. Wenn wir zum Beispiel die gleiche
+Frage nach Yolanda stellen, dann kann
+
+0:07:00.450,0:07:08.190
+Prolog auch das mit Ja beantworten, weil aus dem
+Glücklichsein von Yolanda folgt, dass sie Musik hört.
+
+0:07:08.190,0:07:13.530
+Und aus der Tatsache, dass Yolanda Musik hört,
+folgt dass sie Luftgitarre spielt. Da hat Prolog
+
+0:07:13.530,0:07:18.630
+hier diese Implikation ausgewertet. Ob das jetzt
+per Markierungsalgorithmus in irgendeiner Weise
+
+0:07:18.630,0:07:23.730
+geschieht oder durch Resolution, kann uns jetzt im Moment egal sein,
+weil wir nur mit dem Prolog-System interagieren wollen.
+
+0:07:23.730,0:07:30.600
+Der Punkt ist: Aus diesem Wissen, was hier oben steht,
+folgt über diese zwei Zwischenschritte, dass Yolanda
+
+0:07:30.600,0:07:35.400
+Luftgitarre spielt und Prolog antwortet das auch einfach.
+Antwortet einfach auf die Frage mit Ja.
+
+0:07:35.400,0:07:43.890
+Im Hintergrund wurde dieses Schlussfolgern durchgeführt.
+Dann hatte ich gerade schon gesagt,
+
+0:07:43.890,0:07:49.080
+dass wir auf der rechten Seite in einem Rumpf
+einer Regel durchaus auch mehrere Literal haben könnten.
+
+0:07:49.080,0:07:56.790
+Also schauen wir uns einmal solche komplexeren Regeln an.
+Wieder eine leicht andere Wissens- und Regelbasis.
+
+0:07:56.790,0:08:01.650
+Jetzt kommt tatsächlich der Vincent ins Spiel
+und auch der Butch. Vincent ist glücklich.
+
+0:08:01.650,0:08:07.920
+Butch hört Musik. Vincent spielt Luftgitarre unter zwei
+Vorbedingungen. Nämlich wenn er Musik hört und
+
+0:08:07.920,0:08:14.550
+glücklich ist. Es reicht nicht, dass Vincent Musik hört,
+um Luftgitarre spielen. Er muss gleichzeitig glücklich sein.
+
+0:08:14.550,0:08:24.450
+Dieses Komma hier, das ist unsere Konjunktion. Das ist das
+Prolog-Zeichen für „und“. Also wenn das UND das wahr ist,
+
+0:08:24.450,0:08:31.770
+dann ist auch dieser Kopf wahr. Und dann haben wir noch
+zwei weitere Regeln gegenüber Butch. Nämlich wenn Butch glücklich ist,
+
+0:08:31.770,0:08:36.210
+dann spielt er Luftgitarre. Und wenn Butch Musik hört,
+dann spielt er Luftgitarre. Das ist nicht das Gleiche
+
+0:08:36.210,0:08:41.850
+wie hier oben bei Vincent. Bei Vincent muss das UND
+das war sein, damit er Luftgitarre spielt. Was hier
+
+0:08:41.850,0:08:47.850
+eigentlich steht ist: Wenn Butch glücklich ist,
+dann spielt er Luftgitarre. Wenn Butch Musik hört,
+
+0:08:47.850,0:08:53.070
+dann spielt er Luftgitarre. Das heißt es reicht, wenn
+eine von diesen beiden Sachen zutrifft. Denn schon
+
+0:08:53.070,0:09:00.840
+dann könnten wir schlussfolgern, dass Butch Luftgitarre spielt.
+Das heißt, für Vincent kriegen wir nicht,
+
+0:09:00.840,0:09:08.070
+dass er Luftgitarre spielt, weil von
+den beiden Voraussetzungen nur eine erfüllt ist.
+
+0:09:08.070,0:09:17.760
+Denn wir wissen über Vincent nicht, dass er Musik hört.
+Und während wir über Butch zwar nicht wissen, ob
+
+0:09:17.760,0:09:25.470
+er glücklich ist, aber wissen, dass er Musik hört,
+kriegen wir für Butch auf diese Frage die Antwort Ja.
+
+0:09:25.470,0:09:31.080
+Das liegt daran, dass das die Alternativen sind letztlich
+Also wenn aus glücklich sein und aus Musik hören
+
+0:09:31.080,0:09:36.660
+auch diese Aussage für Butch folgt,
+dann reicht es, wenn eine dieser beiden
+
+0:09:36.660,0:09:41.370
+Voraussetzungen erfüllt ist. Wenn wir zwei Regeln haben
+mit dem gleichen Kopf, dann ist das letztlich
+
+0:09:41.370,0:09:48.360
+eine Alternative, statt einer Konjunktion. Statt
+eines Und's. Wenn wir sagen, wenn einer der beiden
+
+0:09:48.360,0:09:54.770
+Rümpfe erfüllt ist, können wir schon diesen Kopf folgern.
+Das können wir in Prolog auch expliziter machen.
+
+0:09:54.770,0:10:00.980
+Wir können auch sozusagen analog zu einer Regel
+mit Konjunktion auch eine Regel mit Disjunktion schreiben.
+
+0:10:00.980,0:10:07.130
+Und zwar kann man dafür das Semikolon benutzen, um in
+einem Rumpf eine Disjunktion / ein „Oder“ auszudrücken.
+
+0:10:07.130,0:10:12.650
+Also diese beiden Regeln hier, hätte man auch
+zusammenfassen können, zu dieser Regel. Üblicher ist
+
+0:10:12.650,0:10:17.420
+in Prolog tatsächlich, das durch getrennte Regeln zu schreiben.
+Also meistens benutzt man auf den rechten Seiten
+
+0:10:17.420,0:10:21.740
+der Regeln nur die Konjunktion.
+Wenn man die Disjunktion verwenden würde, schreibt man
+
+0:10:21.740,0:10:27.710
+es eher als zwei Regeln, die die gleiche Konsequenz haben.
+Also auch mit dieser Regel, statt dieser beiden Regeln,
+
+0:10:27.710,0:10:32.240
+würden wir hier die Antwort Ja kriegen, denn eine von diesen beiden
+Voraussetzungen müsste dann nur erfüllt sein.
+
+0:10:33.530,0:10:42.980
+Ich werde meistens auch diesen Stil nutzen, mit
+mehreren gleichen Köpfen, statt einer Regel
+
+0:10:42.980,0:10:51.540
+mit Disjunktion auf der rechten Seite.
+Was können wir noch machen? Das waren alles nur einfache
+
+0:10:51.540,0:10:55.620
+Prädikate mit einem Argument. Ich hatte in dem
+vorigen Video schon davon gesprochen, dass wir
+
+0:10:55.620,0:11:00.900
+auch Prädikate mit mehr als einem Argument haben können.
+Dann geht es letztlich nicht nur um eine
+
+0:11:00.900,0:11:06.960
+Eigenschaft eines Subjekt oder Objekts, sondern um
+eine Beziehung/Relation zwischen mehreren
+
+0:11:06.960,0:11:16.170
+Objekten oder Subjekten, Personen, Dingen.
+Das können wir zum Beispiel in diesem Beispiel abdecken.
+
+0:11:16.170,0:11:23.850
+Wir deklarieren wieder einige Personen. Und sagen jetzt
+darüber, dass es Frauen sind. Mia, Joly, Yolanda sind also die
+
+0:11:23.850,0:11:29.010
+drei Frauen, die in dem Szenario vorkommen.
+Dann haben wir Relationen. Und zwar haben wir diese
+
+0:11:29.010,0:11:36.510
+Liebesbeziehung. Da werden jeweils zwei Personen genannt.
+Zu verstehen ist das, das hatte ich in dem letzten Video
+
+0:11:36.510,0:11:45.330
+auch schon gesagt, dass wir oft die Konvention nutzen zu
+sagen: Subjekt -> Prädikat -> Objekt. Also Vincent liebt
+
+0:11:45.330,0:11:49.230
+Mia. Marcellus liebt Mia. Mia liebt Vincent.
+Vincent liebt Vincent. Das ist möglich. Vincent ist selbstverliebt.
+
+0:11:49.230,0:11:55.020
+Was wir hier haben ist ein mehrstelliges Prädikat.
+Das entspricht eben einer Relation
+
+0:11:55.020,0:12:01.980
+zwischen mehreren Bereichen. Jetzt können wir wieder Anfragen stellen.
+Jetzt stellen wir mal etwas interessantere Anfragen.
+
+0:12:01.980,0:12:05.880
+Wir stellen nicht einfach nur Anfragen, die direkt hier Fakten
+entsprechen, wo dann nur die Antwort Ja oder Nein,
+
+0:12:05.880,0:12:12.990
+True oder False herauskommt. Sondern wir könnten in den Anfragen
+auch Variablen benutzen. Das ist die zusätzliche Stärke
+
+0:12:12.990,0:12:17.970
+von Prädikatenlogik letztlich, dass wir also nicht
+wie bei der Aussagenlogik nur Wahr und Falsch haben
+
+0:12:17.970,0:12:23.130
+und nur feste Begriffe haben, sondern wir können auch mit
+Variablen arbeiten. Zum Beispiel könnten wir hier
+
+0:12:23.130,0:12:31.050
+Prolog, wenn wir ihm diese Faktenbasis gegeben haben, fragen:
+Wer sind denn die Frauen in unserem Szenario?
+
+0:12:31.050,0:12:37.440
+Dafür würden wir eine Variable benutzen. Ich hatte schon gesagt:
+Variablen in Prolog sind mit Großbuchstaben geschrieben.
+
+0:12:37.440,0:12:44.670
+Deswegen schreiben wir alles andere mit Kleinbuchstaben,
+um nicht unabsichtlich Variablen einzuführen.
+
+0:12:44.670,0:12:50.010
+Also Variablen im mathematischen Sinne. Irgendetwas Unbekanntes,
+das konkret instanziiert werden kann, aber beim
+
+0:12:50.010,0:12:57.300
+Hinschreiben dieses Ausdrucks noch nicht bekannt ist.
+Also mit dieser Wissensbasis könnte ich Prolog
+
+0:12:57.300,0:13:01.680
+fragen, gibt es denn überhaupt Frauen? Und wenn Ja, dann sag
+mir bitte wer das ist. Das drückt sozusagen diese
+
+0:13:01.680,0:13:07.710
+Anfrage implizit aus. Und was würde Prolog dann sagen?
+Prolog würde sagen: Ja es gibt Frauen. Prolog würde
+
+0:13:07.710,0:13:12.870
+aber nicht nur sagen „Ja“/„True“, sondern Prolog würde mir
+diese Frauen aufzählen. Also sagen: Ja X = mia
+
+0:13:12.870,0:13:18.990
+ist eine Lösung. Also statt nur „True“ zu sagen, sagt
+Prolog hier X = mia. Mia ist eine Antwort
+
+0:13:18.990,0:13:27.510
+auf deine Frage nach Frauen. Jetzt steht hier dieses ; und das
+hätte ich als Nutzer eingegeben. Das kommt jetzt
+
+0:13:27.510,0:13:33.840
+wieder auf das genaue Interaktionsverhalten Ihres
+Prolog-Systems an. Haben Sie das offline? Machen Sie
+
+0:13:33.840,0:13:38.190
+das im Browser? Aber zum Beispiel in einem Interpreter, den
+Sie in der Konsole laufen lassen, wäre das Verhalten
+
+0:13:38.190,0:13:44.550
+in der Regel so: Sie stellen diese Anfrage. Schließen die
+mit einem Punkt ab. Drücken Enter. Prolog sagt: „X = mia.“
+
+0:13:44.550,0:13:51.090
+Und dann steht das Semikolon noch nicht da. In dem Moment, wo Sie
+als Nutzer das Semikolon eingeben, also letztlich sagen
+
+0:13:51.090,0:13:57.390
+„X = mia“ Oder? Gibt es noch andere Alternativen?
+Dann würde Prolog sagen: "Ja in der Tat. Jody ist eine Antwort."
+
+0:13:57.390,0:14:03.120
+Dann könnte ich wieder Fragen: Oder?
+Also gibt es noch weitere Alternativen? Dann würde Prolog sagen:
+
+0:14:03.120,0:14:07.380
+"Ja X = yolanda ist auch eine Lösung." Und hier in
+dem Fall würde Prolog auch dann mit einem Punkt abschließen.
+
+0:14:07.380,0:14:11.700
+Dann müsste ich als Nutzer nichts weiter machen. Was Prolog
+hier gesagt hätte, wäre letztlich: „Die Antwort auf deine Frage
+
+0:14:11.700,0:14:18.240
+nach Frauen ist X = mia, oder X = jody, oder
+X = yolanda.“ Prolog kann keine weiteren
+
+0:14:18.240,0:14:24.390
+Frauen identifizieren aus diesem Programm.
+Deswegen würde Prolog hier schließen
+
+0:14:24.390,0:14:30.390
+und sagen: Weitere Alternativen gibt es nicht.
+Das wäre also eine Möglichkeit mit Variablen zu arbeiten.
+
+0:14:30.390,0:14:36.960
+Das könnte man auch für solche binären
+Prädikate machen. Also auch in einer solchen
+
+0:14:36.960,0:14:42.750
+Relation kann ich, statt nach Wahr und Falsch,
+auch nach Belegungen fragen.
+
+0:14:42.750,0:14:49.260
+Also nach Belegungen von Variablen. Zum Beispiel kann ich fragen:
+„Wen liebt denn Vincent?“ Oder: „Liebt Vincent überhaupt jemanden?“
+
+0:14:49.260,0:14:57.360
+Das wäre dann die Frage ?- loves(vincent,_).
+Und als zweites Argument würde ich eine
+
+0:14:57.360,0:15:05.460
+Variable benutzen. Dann ist also die Frage: Gibt es ein X,
+sodass Vincent X liebt? Und wenn ich die Anfrage jetzt wieder
+
+0:15:05.460,0:15:12.660
+starten würde, dann würde Prolog mir sagen: „Ja, Vincent
+liebt Mia.“, weil das hier aus einem Fakt folgt.
+
+0:15:13.260,0:15:20.460
+Und wenn ich dann durch das Semikolon nach weiteren Lösungen frage,
+würde Prolog sagen: „Ja, übrigens X könnte auch Vincent sein.“
+
+0:15:20.460,0:15:27.720
+Das ist hier ja auch durch das Programm abgedeckt.
+Jetzt könnte ich sagen: Das interessiert mich nicht so sehr.
+
+0:15:27.720,0:15:33.480
+Mich interessieren Frauen, in die Vincent verliebt ist.
+Wie könne das ausdrücken? Ich kann in
+
+0:15:33.480,0:15:39.090
+einer Anfrage auch mehrere Literale haben.
+Also ich muss nicht immer eine feste Anfrage stellen,
+
+0:15:39.090,0:15:45.120
+mit genau einem Prädikat und seinen Argumenten.
+Ich könnte auch fragen: „Wen liebt denn Vincent, der
+
+0:15:45.120,0:15:52.770
+oder die eine Frau ist?“ Also ich möchte jemanden haben,
+den Vincent liebt und eine Frau ist. Das könnte ich so machen.
+
+0:15:53.310,0:15:58.740
+Komma = Konjunktion. Das wissen Sie schon. Das kann ich nicht nur
+in Regeln verwenden, sondern auch in einer Anfrage.
+
+0:15:59.490,0:16:07.170
+Diese Anfrage wäre: Ich möchte gern wissen ein X,
+welches Vincent liebt und es soll auch gelten,
+
+0:16:07.170,0:16:13.380
+dass X eine Frau ist. Und dann würde von den beiden
+Lösungen hier oben eine wegfallen, denn über Vincent
+
+0:16:13.380,0:16:19.170
+wissen wir nicht, dass er eine Frau ist. Und wenn
+wir das nicht wissen, dann folgert Prolog, dass
+
+0:16:19.170,0:16:24.060
+Vincent keine Frau ist, weil nicht explizit da steht,
+dass Vincent eine Frau ist. Das heißt Prolog würde immer noch
+
+0:16:24.060,0:16:30.150
+„X = mia“ antworten. Und wenn wir dann nach weiteren Lösungen
+fragen, würde Prolog sagen: „Falsch.“ Also letztlich: Es
+
+0:16:30.150,0:16:39.510
+gibt keine weiteren Antworten. Das kann man lesen als X = mia
+oder falsch. Und "oder falsch" ist eigentlich gar nichts.
+
+0:16:39.510,0:16:47.550
+Das kann man auch einfach weglassen, weil falsch bezüglich
+der Disjunktion verschwindet. "Irgendwas ∨ Falsch" ist immer irgendwas.
+
+0:16:47.550,0:16:57.540
+In dem Fall X = mia.
+Jetzt hatten wir also Regeln, Fakten,
+
+0:16:57.540,0:17:04.800
+Anfragen mit Variablen. Wir würden Variablen auch gern
+im Programm verwenden. In dem Beispiel eben hatte ich
+
+0:17:04.800,0:17:11.580
+oben immer feste Aussagen und nur in der Anfrage
+hatte ich hier eben mehrmals eine Variable verwendet.
+
+0:17:11.580,0:17:15.990
+Jetzt würden wir auch in dem Programm Variablen verwenden.
+Ein Beispiel dafür hatte ich schon in dem letzten
+
+0:17:15.990,0:17:22.800
+Video ganz am Ende gezeigt, bei dem Mann und dem
+Berg und Mir und dem Fernrohr, dass man da auch Regeln schreiben
+
+0:17:22.800,0:17:31.980
+könnte, wo Variablen vorkommen. Machen wir das an
+einem Beispiel hier. Da könnten wir uns folgendes Programm
+
+0:17:31.980,0:17:38.340
+und Konzept vorstellen. Wir haben wieder Fakten darüber,
+wer wen liebt. Wir wollen gern das Konzept
+
+0:17:38.340,0:17:46.260
+der Eifersucht definieren. "Wann ist X eifersüchtig auf Y ?"
+Hier wieder erst Subjekt, dann Objekt. X ist eifersüchtig auf Y,
+
+0:17:46.260,0:17:55.500
+wenn gilt: "X liebt Z und Y liebt Z."
+Interessanter Weise: X und Y sind irgendwie zwei Personen,
+
+0:17:55.500,0:18:01.680
+die hier in der Anfrage vorkommen könnten.
+In der Definition und der Angabe dazu,
+
+0:18:01.680,0:18:06.990
+unter welchen Umständen ich denn weiß, dass X Y liebt,
+taucht eine weitere Variable Z auf.
+
+0:18:06.990,0:18:14.010
+Und das ist sozusagen der gemeinsame Liebespartner.
+Also wenn X Z liebt und Y Z liebt, für irgendein Z,
+
+0:18:14.010,0:18:20.760
+(egal wer Z ist), dann ist X eifersüchtig auf Y.
+Das ist sicherlich eine nachvollziehbare Definition
+
+0:18:20.760,0:18:27.120
+oder Regel dafür, wann jemand eifersüchtig ist.
+Jetzt kann ich wieder anfangen Fragen zu stellen.
+
+0:18:27.120,0:18:32.580
+Jetzt habe ich im Programm Variablen. Ich könnte auch in
+den Anfragen weiterhin Variablen verwenden.
+
+0:18:32.580,0:18:39.840
+Zum Beispiel könnte ich fragen auf wen denn Marcellus
+eifersüchtig ist. Jetzt könnte man gucken, auf wen
+
+0:18:39.840,0:18:44.760
+Marcellus eifersüchtig ist. Da müssen wir mal schauen.
+Marcellus liebt Mia. Vincent liebt auch Mia.
+
+0:18:44.760,0:18:50.370
+Also wahrscheinlich wird Marcellus auf Vincent
+eifersüchtig sein nach diesem Konzept hier.
+
+0:18:51.680,0:18:58.610
+Und in der Tat: Eine mögliche Lösung hier ist X könnte Vincent sein.
+Jetzt kann ich wieder fragen, ob es noch weitere Lösung gibt.
+
+0:18:58.610,0:19:03.830
+Vielleicht auf den ersten Blick überraschend, wäre
+die Antwort: Ja. Was würde Prolog hier noch antworten,
+
+0:19:03.830,0:19:09.860
+wenn ich weiter frage? Prolog würde sagen auch
+Marcellus ist eine Lösung. Also Marcellus ist auch
+
+0:19:09.860,0:19:17.570
+auf Marcellus eifersüchtig. Warum ist dem so?
+Weil Marcellus Mia liebt und Marcellus Mia liebt, also
+
+0:19:17.570,0:19:24.830
+ist Marcellus auf Marcellus eifersüchtig.
+In dieser Definition hier, bei dieser Regel wurde nicht
+
+0:19:24.830,0:19:30.560
+ausgedrückt, das X und Y verschieden sind.
+Also X und Y könnten beides Marcellus sein, und weil dann
+
+0:19:30.560,0:19:35.480
+sowohl "Marcellus liebt Mia", als auch "Marcellus liebt Mia"
+zutrifft, wäre auch Marcellus auf Marcellus eifersüchtig.
+
+0:19:35.480,0:19:42.500
+Weitere Lösung gäbe es allerdings nicht.
+Das kann man vielleicht noch zu beheben versuchen,
+
+0:19:42.500,0:19:51.380
+dass wir dieses Selbst-Eifersuchtsproblem eliminieren.
+Vorher noch ein weiteres Feature.
+
+0:19:51.380,0:19:57.800
+Was wäre mit so einer Anfrage? Jetzt kommt hier gar
+keine konkrete Person mehr drin vor?
+
+0:19:57.800,0:20:05.330
+Ich frage jealous(X,_) ? Was bedeutet dieser Unterstrich?
+Das ist eine anonyme Variable.
+
+0:20:05.330,0:20:11.180
+Also ich möchte wissen, ist X auf jemanden eifersüchtig?
+Aber wer dieser jemand ist, ist mir eigentlich egal.
+
+0:20:11.180,0:20:16.130
+Ich möchte hier nicht Vincent, Marcellus, Mia hinschreiben.
+Ich will nur wissen, wer überhaupt eifersüchtig ist.
+
+0:20:16.130,0:20:22.130
+Ich möchte nicht wissen auf wen. Das drück ich hier so aus.
+Das X ist mir wichtig. Ich möchte wissen wer eifersüchtig ist
+
+0:20:22.130,0:20:30.590
+auf irgendjemand, aber wer das ist, ist mir egal.
+Deswegen anonyme Variable. Was wären dann antworten?
+
+0:20:30.590,0:20:38.640
+X = vincent ist eine Antwort. X = vincent ist noch eine
+Antwort. Woran liegt das ? So wie Marcellus sowohl auf
+
+0:20:38.640,0:20:43.500
+Vincent, als auch auf sich selbst eifersüchtig ist,
+so ist auch Vincent auf Marcellus und sich selbst
+
+0:20:43.500,0:20:48.810
+eifersüchtig. Also im Grunde genommen ist Vincent doppelt
+eifersüchtig. Einmal auf Marcellus und einmal auf
+
+0:20:48.810,0:20:55.110
+sich selbst. Das ist wichtig, dass Prolog in dem
+Fall auch die Antwort mehrmals gibt.
+
+0:20:55.110,0:21:01.140
+Prolog arbeitet nicht irgendwie mit einer Mengensemantik,
+wo X nur einmal Lösung sein kann. Also wenn X = Vincent ist,
+
+0:21:01.140,0:21:06.060
+dann kann X nicht nochmal Vincent sein. Es wird also keine Menge
+von Ergebnissen zurück geliefert, sondern sozusagen eine Multimenge.
+
+0:21:06.060,0:21:10.500
+Wenn es mehrere Wege gibt, auf denen Vincent auf
+irgendjemanden eifersüchtig ist, dann wird Vincent auch
+
+0:21:10.500,0:21:17.850
+mehrmals als Lösung hier genannt. Und das Gleiche würde
+natürlich auch für Marcellus passieren. Hingegen Mia
+
+0:21:17.850,0:21:23.220
+nur einmal geantwortet werden würde, denn Mia ist nur auf sich
+selbst eifersüchtig wegen Vincent. Mia liebt Vincent.
+
+0:21:23.220,0:21:26.430
+Mia liebt Vincent, also ist Mia auf sich selbst eifersüchtig.
+Das wird deswegen als Lösung genannt hier.
+
+0:21:26.430,0:21:33.630
+Mia ist aber auf niemand anderes eifersüchtig,
+weil es niemand anderes gibt, der Vincent liebt,
+
+0:21:33.630,0:21:38.610
+in diesem Szenario. Vorhin hatte Vincent auch noch sich selbst geliebt.
+Dann wäre Mia auch auf Vincent eifersüchtig gewesen.
+
+0:21:38.610,0:21:47.130
+In dem Szenario jetzt gerade mal nicht.
+Dann können wir uns noch mit der Frage beschäftigen,
+
+0:21:47.130,0:21:54.510
+wie wir das denn vielleicht hier geschickt lösen könnten,
+dass wir diese "Selbsteifersuchten" entfernen.
+
+0:21:54.510,0:21:58.200
+Was wollen wir da eigentlich ausdrücken? Wir wollen ausdrücken,
+dass man nur auf jemand anderes eifersüchtig sein kann und nicht auf
+
+0:21:58.200,0:22:03.780
+sich selbst. Ich hatte gesagt, dass hier X und Y als zwei
+Variablen stehen nicht heißt, dass nicht trotzdem
+
+0:22:03.780,0:22:09.150
+Marcellus auf Marcellus eifersüchtig sein kann.
+Wenn ich das möchte, muss ich das explizit ausdrücken.
+
+0:22:09.150,0:22:13.680
+Die Tatsache, dass ich hier zwei verschiedene Variablen habe,
+reicht nicht, um ausdrücken, dass das verschiedene Personen sein sollen.
+
+0:22:13.680,0:22:19.020
+Das ist wie in der Mathematik, wenn Sie ein Gleichungssystem
+haben z.B. 3x + 5y = irgendwas, dann ist dadurch
+
+0:22:19.020,0:22:24.270
+nicht ausgeschlossen, dass X und Y auch beide 7 sein könnten,
+nur weil es verschiedene Variablen sind.
+
+0:22:24.270,0:22:28.080
+Das heißt es könnten verschiedene Werte sein, müssen es
+aber nicht. Wenn ich es möchte, dass sie verschieden sind
+
+0:22:28.080,0:22:35.880
+explizit, muss ich das sagen. Wie kann ich das sagen?
+Ich kann es in der Regel sagen. Ich könnte sagen:
+
+0:22:35.880,0:22:41.130
+Ich nutze die gleichen Fakten. Ich nutze fast die gleiche Regel.
+Ich sage jetzt aber: "X ist auf Y eifersüchtig, wenn
+
+0:22:41.130,0:22:47.350
+X Z liebt und Y Z liebt und X und Y verschieden sind."
+Also dieses Zeichen hier, dieses \= , dieses
+
+0:22:50.440,0:22:55.765
+zusammengesetzte Operationssymbol, steht für "ungleich".
+Damit sage ich: "X liebt Z und Y liebt Z und X und Y sind verschieden."
+
+0:22:55.765,0:23:05.170
+Es ist wichtig aus Gründen, die ich im Moment
+nicht weiter elaboriere, aber es ist wichtig,
+
+0:23:05.170,0:23:12.190
+dass solch eine Ungleichheitsbeziehung immer am Ende
+einer Regel steht. Also wenn Sie das X \= Y
+
+0:23:12.190,0:23:17.980
+hier vorn hinschreiben würden, wo man vermeintlich
+sagen könnte, auch das müsste ja funktionieren,
+
+0:23:17.980,0:23:22.390
+wenn das Komma Konjunktion ist, ist die Reihenfolge egal, dann
+würde aber leider nicht das Richtige passieren.
+
+0:23:22.390,0:23:29.350
+Das ist ein Prolog-Spezifikum. Im Moment sollten
+Sie einfach hinnehmen, dass ich Ihnen rate, wenn
+
+0:23:29.350,0:23:34.900
+Sie solche Ungleichheitsconstraints in Ihren
+Regeln benutzen wollen, dass Sie die immer ans
+
+0:23:34.900,0:23:40.150
+Ende Ihrer Regeln, oder wenn Sie eine Anfrage stellen,
+ans Ende der Anfrage schreiben. Dann kriegen
+
+0:23:40.150,0:23:45.970
+Sie die Ergebnisse, die Sie wollen. Während wenn
+Sie von dieser Regel abweichen, etwas unerwartetes
+
+0:23:45.970,0:23:53.950
+passieren kann. Das müssen Sie Moment einfach hinnehmen,
+dass das so ist. Merken Sie sich das einfach.
+
+0:23:53.950,0:24:00.790
+Wenn wir das aber beachten, also die Negation ans Ende dieser Regel
+stellen, dann kriegen wir was? Wir können jetzt fragen:
+
+0:24:00.790,0:24:06.220
+"Ist Marcellus auf jemanden eifersüchtig?" Jetzt wäre die Antwort:
+"Ja, auf Vincent." Aber auf niemanden anderes, weil
+
+0:24:06.220,0:24:11.620
+die Selbsteifersucht von Marcellus jetzt sozusagen geheilt ist
+oder nicht mehr zum Tragen kommt, weil
+
+0:24:11.620,0:24:18.970
+dann diese Ungleichheit nicht erfüllt wäre.
+Wir können auch wieder fragen: "Ist irgendwer eifersüchtig?"
+
+0:24:18.970,0:24:23.800
+Also wir fragen wieder mit anonymer Variable. Wir wollen
+alle X wissen, die auf jemanden eifersüchtig sind, ohne dass
+
+0:24:23.800,0:24:30.790
+uns diese andere Person besonders interessiert.
+Und dann wäre die Antwort jetzt auch wieder: "X könnte
+
+0:24:30.790,0:24:37.660
+Vincent sein. X könnte Marcellus sein. Andere Möglichkeiten
+gibt es nicht."
+
+0:24:37.660,0:24:44.080
+Zum einen ist jetzt die Mia verschwunden, weil es
+keine Selbsteifersucht mehr gibt. Und auch Vincent
+
+0:24:44.080,0:24:50.170
+und Marcellus werden uns jetzt nur noch einmal genannt,
+wiederum weil es keine Selbsteifersucht gibt.
+
+0:24:50.170,0:24:56.475
+Diese Einführung, diese Extrabedingung
+hat wirklich den gewünschten Effekt gehabt.
+
+0:24:56.475,0:25:02.880
+Und dann wäre es noch interessant vielleicht zu gucken, was denn
+ist, wenn ich hier keine anonyme Variable verwende,
+
+0:25:02.880,0:25:10.080
+sondern eine normale, bekannte Variable? Das kann ich auch machen.
+Also ich muss in der Anfrage nicht immer genau eine Variable haben,
+
+0:25:10.080,0:25:17.010
+die mir dann gelöst wird, sondern ich kann in einer
+Anfrage auch mehrere Variablen erwähnen. Und dann
+
+0:25:17.010,0:25:23.760
+kriege ich auch alle Kombinationen geliefert. Also wenn ich frage,
+wer denn auf wen eifersüchtig ist, also X und Y sollen
+
+0:25:23.760,0:25:28.710
+beide unbekannt in der Anfrage sein, ich möchte darauf antworten haben,
+dann liefert mir Prolog auch wirklich alle Paare.
+
+0:25:28.710,0:25:36.840
+Dann sagt Prolog zum Beispiel:"X = vincent und
+Y = marcellus." Mit anderen Worten: "Vincent ist
+
+0:25:36.840,0:25:45.090
+auf Marcellus eifersüchtig." Und X = vincent
+und Y = marcellus. Dann kann ich wieder hier fragen:"Oder?
+
+0:25:45.090,0:25:51.840
+Was gibt es noch an Alternativen?" Dann sagt Prolog:
+"Ja oder X = marcellus und Y = vincent." Also "Vincent ist auf Marcellus
+
+0:25:51.840,0:25:57.810
+eifersüchtig" sagt das erste Paar. "Marcellus ist auf
+Vincent eifersüchtig" sagt das zweite Paar. Wenn ich dann
+
+0:25:57.810,0:26:02.220
+weiter frage, ob es noch weitere Lösung gibt, ist die Antwort auch wieder falsch.
+Also weitere Lösungen gibt es nicht. Das sind die einzigen beiden Paare,
+
+0:26:02.220,0:26:06.480
+zwischen denen Eifersucht besteht. Und zwar in beide
+Richtungen. Vincent auf Marcellus und Marcellus auf Vincent.
+
+0:26:06.480,0:26:12.960
+Das habe ich erreicht, indem ich hier beide
+Argumente in meiner Anfrage variable gehalten habe.
+
+0:26:12.960,0:26:18.120
+Und wenn ich dann mehr Variablen erwähne, vielleicht auch
+in mehreren, weiteren Literal noch, dann kriege ich
+
+0:26:18.120,0:26:29.710
+Antworten, die alle gestellten Anfragen erfüllen.
+Also das Konzept der Variablen ist sicherlich das,
+
+0:26:29.710,0:26:36.160
+was hier sozusagen an größter Kompliziertheit weiter
+sozusagen über das, was wir schon bei der Aussagenlogik
+
+0:26:36.160,0:26:42.310
+gemacht haben, hinaus-/hinzukommt. Jenseits noch
+dieser Prädikatsschreibweise. Deswegen ein paar
+
+0:26:42.310,0:26:49.000
+Anmerkungen insbesondere zu Variablen. Dinge, die ich
+gerade schon en passant erwähnt habe, aber die es
+
+0:26:49.000,0:26:54.250
+Sinn macht noch mal auf einer extra Folie zusammenzufassen.
+Also das war das Programm, was wir gerade gesehen haben.
+
+0:26:54.250,0:27:01.150
+Wir können Variablen im Programm und in Anfragen verwenden.
+Dabei ist wichtig, dass die unabhängig
+
+0:27:01.150,0:27:06.550
+voneinander sind. Also wenn ich in mehreren Regeln Variablen benutze,
+dann beeinflussen die sich nicht.
+
+0:27:06.550,0:27:12.730
+Und auch wenn ich in dem Programm,
+in Regeln, Variablen benutze und zum Beispiel
+
+0:27:12.730,0:27:19.300
+die gleiche Variable in einer Anfrage, dann sind das dennoch
+verschiedene Sachen. Also was ich hier gefragt habe,
+
+0:27:19.300,0:27:24.130
+auf wen Marcellus denn eifersüchtig ist und da auch X benutzt habe,
+ist nicht in Konflikt mit diesem X hier.
+
+0:27:24.130,0:27:30.160
+Das ist nicht irgendwie so, dass dann geschlussfolgert wird:
+Hier steht X als zweite Komponente. Hier als erste.
+
+0:27:30.160,0:27:35.560
+Das müssen irgendwie die gleichen oder verschiedene Dinge sein,
+sich in irgendeiner Weise beeinflussen. Das passiert nicht.
+
+0:27:35.560,0:27:43.000
+Also ich hätte hier auch U oder V nehmen können. Ich hätte exakt
+die gleichen Ergebnisse gekriegt. Das X hier hat mit dem X hier
+
+0:27:43.000,0:27:51.340
+nichts zu tun. Dieses X Y und das Z sind gültig im Kontext
+dieser Regel. Und dieses X ist etwas, das in meiner
+
+0:27:51.340,0:28:00.490
+Anfrage auftaucht, wofür ich Antworten haben möchte.
+Das hat nichts mit irgendeinen X in dem Programm zu tun.
+
+0:28:00.490,0:28:08.380
+Das ist wichtig. Naheliegenderweise stehen innerhalb einer
+Regel oder innerhalb einer Anfrage gleiche Variablen
+
+0:28:08.380,0:28:12.700
+für gleiche Objekte. Also wenn ich in einer Anfrage X
+mehrmals erwähne - das hatten wir vorhin bei irgendwie
+
+0:28:12.700,0:28:23.500
+"liebe" und "frau" auf X bezogen - in einer Anfrage, dann steht
+die Variable, wenn es die gleiche Variable ist, für das gleiche Objekt.
+
+0:28:23.500,0:28:29.020
+Also wenn ich hier X und X in der Anfrage erwähne, dann meine ich
+beide Male das Gleiche. Wenn ich hier von Z und Z rede,
+
+0:28:29.020,0:28:35.720
+dann muss das die gleiche Person sein, die hier für Z
+gewählt wird. Umgekehrt stehen verschiedene
+
+0:28:35.720,0:28:41.300
+Variablen nicht unbedingt für verschiedene Objekte.
+Also, dass hier X und Y, heißt noch nicht, dass sie
+
+0:28:41.300,0:28:47.240
+verschieden sind. Wenn ich das möchte, muss ich das explizit sagen.
+Wenn ich nicht sage, dass X und Y verschieden sind, dann dürften
+
+0:28:47.240,0:28:52.700
+sie auch mit dem gleichen Wert belegt werden.
+Also gleiche Variablen stehen für gleiche Objekte.
+
+0:28:52.700,0:28:57.080
+Verschiedene Variablen nicht unbedingt verschiedene Objekte.
+Nur wenn ich das erzwinge. Und das kann ich auf diese Weise,
+
+0:28:57.080,0:29:05.540
+wenn ich das am Ende einer Regel oder einer Anfrage tue.
+Etwas, was wir noch nicht gesehen haben ist, dass durchaus auch
+
+0:29:05.540,0:29:11.750
+mehrmals die gleiche Variable zum Beispiel
+hier im Kopf einer Regel vorkommen könnte.
+
+0:29:11.750,0:29:15.170
+Das haben wir jetzt nicht gemacht. Wir hatten das Z zum Beispiel,
+das taucht rechts mehrfach auf. Aber links hatte ich
+
+0:29:15.170,0:29:21.530
+jetzt nur jede Variable einmal. Man könnte hier auch
+X und X haben. Dann heißt das ist wieder was anderes. Dann würde
+
+0:29:21.530,0:29:28.220
+das nur die Selbsteifersucht von irgendjemand definieren.
+Wenn ich hier X und X schreibe, dann darf ich
+
+0:29:28.220,0:29:33.170
+das syntaktisch. Das Programm wäre noch legal.
+Würde aber was anders bedeutenden, denn dann muss das jeweils
+
+0:29:33.170,0:29:41.720
+das gleiche Objekt sein. Und dann noch etwas, was wir auch schon
+gesehen haben: Man darf durchaus auf der rechten
+
+0:29:41.720,0:29:47.630
+Seite hier Variablen verwenden, die links gar nicht vorkommen.
+Das haben wir hier so hingenommen. Ich hab das vorhin an dem
+
+0:29:48.230,0:29:53.600
+Beispiel einfach so gemacht. Wenn man an die
+Mathematik denkt, ist das vielleicht ein wenig
+
+0:29:53.600,0:29:59.240
+überraschend, denn wenn man sich das jetzt vorstellt wie
+eine Definition einer Funktion, dann geht das ja nicht so einfach.
+
+0:29:59.240,0:30:04.175
+Ich kann in der Mathematik nicht sagen: Ich definiere
+f(x) = ... Nehmen wir das hier als den Kopf f(x) =
+
+0:30:04.175,0:30:08.840
+und hier rechts soll irgendwie die Definition
+einer Funktion stehen, dann kann ich da zwar sin(x) hinschreiben,
+
+0:30:08.840,0:30:14.630
+aber nicht cos(y). Also in der Mathematik wäre man
+sehr überrascht, wenn man eine Funktion definiert und
+
+0:30:14.630,0:30:20.030
+auf der rechten Seite der Definition dann plötzlich
+Variablen benutzt werden, die gar nicht im Kopf sozusagen vorkamen.
+
+0:30:20.030,0:30:27.530
+Also "f(x) =" dann darf ich auch nur x benutzen.
+Hier jealous(X,Y) ist gleich sozusagen oder wird definiert als:
+
+0:30:27.530,0:30:32.390
+hier kommt die logische Beschreibung. Und da
+darf ich plötzlich Variablen benutzen, die ich
+
+0:30:32.390,0:30:41.600
+gar nicht auf der linken Seite hatte. Das ist erstmal schön,
+das man das darf. Die Interpretation ist insofern interessant,
+
+0:30:41.600,0:30:48.950
+als dann eben hier dann reicht, irgendein Z zu haben, das
+von X und Y geliebt wird. Ich wollte was über X und Y Wissen.
+
+0:30:48.950,0:30:55.190
+Über ihre Eifersucht. Und durfte das tun/ausdrücken, indem
+ich auf ein sozusagen zunächst unbekanntes Z Bezug nehme
+
+0:30:55.190,0:30:59.780
+und dann findet Prolog eben ein solches Z,
+wenn es das gibt und liefert mir passende Antworten
+
+0:30:59.780,0:31:10.520
+für X und Y. Z ist nur notwendig, um überhaupt
+die Eifersucht festzustellen.
+
+0:31:10.520,0:31:16.340
+Das ist das Ende dieses Beispiels. Man könnte natürlich
+noch mit vielen, weiteren Dingen herumspielen, aber ich
+
+0:31:16.340,0:31:22.070
+denke ich habe die wesentlichen Aspekte
+im Schnelldurchlauf ein bisschen gezeigt.
+
+0:31:22.070,0:31:27.110
+Natürlich wird es jetzt auch darauf ankommen, dass Sie
+selber mit solchen Faktenbasen und einfachen
+
+0:31:27.110,0:31:32.990
+Regeln und Anfragen auch einmal arbeiten.
+Dazu wird es natürlich im Übungsbetrieb Gelegenheit geben,
+
+0:31:32.990,0:31:38.240
+und wir werden auch in der Vorlesung noch weitere
+Beispiele hier und da sehen. Prädikatenlogik etc.

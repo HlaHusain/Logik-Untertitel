@@ -1,0 +1,538 @@
+0:00:00.130,0:00:04.480
+Hallo! Wir besprechen heute das erste Übungsblatt
+zur Einführung in die Logik. Wir beginnen
+
+0:00:04.480,0:00:09.840
+mit Aufgabe eins. Hier sollen wir für die
+folgenden logischen Formeln Wahrheitstabellen
+
+0:00:09.840,0:00:16.199
+erstellen. Aber wofür machen wir Wahrheitstabellen?
+Um zu schauen, wie der Wahrheitsgehalt einer
+
+0:00:16.199,0:00:23.880
+Formel für eine bestimmte Belegung ist. Wenn
+wir mit Aufgabe a) anfangen, haben wir die
+
+0:00:23.880,0:00:28.400
+Formel nicht a. Für die Wahrheitstabelle
+schauen wir jetzt, wie viele atomare Formeln
+
+0:00:28.400,0:00:33.860
+die ursprüngliche Formel hat. Für Teilaufgabe
+(a) ist es nur eine atomare Formel, nämlich
+
+0:00:33.860,0:00:38.440
+A. Bei Teilaufgabe (b) wären es aber zum
+Beispiel schon zwei atomare Formeln, nämlich
+
+0:00:38.440,0:00:43.740
+A und B. Es könnte auch sein, dass eine Formel
+noch mehr atomare Formeln hat. So könnte
+
+0:00:43.740,0:00:50.000
+es beispielsweise noch ein C, ein D oder weitere
+atomare Formeln geben. Wir müssen im Endeffekt
+
+0:00:50.000,0:00:55.870
+schauen, welche atomaren Formeln vorhanden
+sind. Bei Teilaufgabe a) ist das erstmal A.
+
+0:00:55.870,0:01:02.880
+Die Formel an sich ist nicht A. Und jetzt
+schauen wir uns an, wie A belegt sein kann.
+
+0:01:02.880,0:01:08.340
+A kann entweder mit dem Wahrheitswert null,
+also falsch sein, oder mit dem Wahrheitswert
+
+0:01:08.340,0:01:12.970
+eins, also richtig sein. Ich empfehle euch
+auch, bei den Wahrheitstabellen immer mit
+
+0:01:12.970,0:01:17.259
+der Null anzufangen. So ist es einheitlich
+zu dem, wie ihr es in Vorlesungen, aber auch
+
+0:01:17.259,0:01:20.170
+hier in der Übung sehen werdet. Auf diese
+Weise könnt ihr eure Lösungen direkt eins
+
+0:01:20.170,0:01:25.130
+zu eins vergleichen. Die negierte Form ist
+immer genau das Gegenteil von dem, was es
+
+0:01:25.130,0:01:30.209
+ursprünglich ist. Wenn also A gleich null
+ist, dann ist nicht A gleich 1. Wenn A gleich
+
+0:01:30.209,0:01:36.329
+eins ist, dann ist nicht A gleich null. Wenn
+A zum Beispiel dafür steht, dass Anton die
+
+0:01:36.329,0:01:41.799
+Wahrheit sagt und A mit dem Wahrheitswert
+null belegt ist, dann heißt das, dass Anton
+
+0:01:41.799,0:01:47.240
+nicht die Wahrheit sagt. Also ist nicht A
+gleich eins. Wenn A gleich eins ist, also
+
+0:01:47.240,0:01:52.650
+Anton sagt die Wahrheit, dann stimmt es nicht,
+dass Anton nicht die Wahrheit sagt. Es ist
+
+0:01:52.650,0:01:55.810
+also das Gegenteil davon. Deshalb ist das
+Gegenteil gleich null. Bei Teilaufgabe (b)
+
+0:01:55.810,0:02:03.179
+wird es etwas umfangreicher. Da haben wir
+zwei atomare Formen, A und B. Bei Teilaufgabe
+
+0:02:03.179,0:02:08.500
+(a) haben wir zwei Zeilen gebraucht. Bei Teilaufgabe
+(b) brauchen wir mehr Zeilen. Wir beginnen
+
+0:02:08.500,0:02:13.921
+damit, zu schauen, wie viele atomare Formeln
+wir in der Formel haben. Bei Teilaufgabe (a)
+
+0:02:13.921,0:02:20.540
+war es eine, bei Teilaufgabe (b) sind es zwei,
+nämlich A und B. Dann brauchen wir zwei hoch
+
+0:02:20.540,0:02:25.540
+und dann die Anzahl der atomaren Formeln,
+die in der Formel vorkommen. Bei Teilaufgabe
+
+0:02:25.540,0:02:30.320
+(a) ist das zwei hoch eins, was zwei ist.
+Daher brauchen wir zwei Zeilen. Bei Teilaufgabe
+
+0:02:30.320,0:02:36.220
+(b) sind es zwei hoch zwei, weil wir A und
+B haben, was dann vier Zeilen sind. Gäbe
+
+0:02:36.220,0:02:43.220
+es nun auch eine Aufgabe mit A, B und C, hätten
+wir 2 hoch 3, würden also acht Zeilen benötigen.
+
+0:02:43.220,0:02:49.040
+Das haben wir hier allerdings nicht und bleiben
+daher bei zwei hoch zwei, also vier Zeilen.
+
+0:02:49.040,0:02:53.320
+Nun bilden wir die Wahrheitstabelle, indem
+wir schauen, wie viele Zeilen wir insgesamt
+
+0:02:53.320,0:02:58.830
+haben, nämlich vier. Dann nehmen wir für
+die erste atomare Formel, also A, erstmal
+
+0:02:58.830,0:03:05.290
+die Hälfte von vier, also zwei. Zwei Nullen.
+Ich empfehle auch, immer mit der Null anzufangen,
+
+0:03:05.290,0:03:11.480
+um dann den Rest mit Einsen aufzufüllen.
+Also zwei Nullen, zwei Einsen. Wenn wir acht
+
+0:03:11.480,0:03:15.340
+Zeilen hätten, würden wir mit vier Nullen
+starten, um dann vier Eisen anzuhängen. Bei
+
+0:03:15.340,0:03:20.110
+Teilaufgabe (b) stehen null und eins im Wechsel.
+Auch hier empfehle ich, immer mit der Null
+
+0:03:20.110,0:03:23.741
+zu beginnen und dann die Einsen zu setzen.
+So erhaltet ihr das exakt gleiche Ergebnis,
+
+0:03:23.741,0:03:27.901
+wie es auch in den Beispielaufgaben in der
+Regel dargestellt wird. Die Formeln, die wir
+
+0:03:27.901,0:03:34.150
+uns hier anschauen, ist A und B. Bei der Und-Verknüpfung
+müssen beide Elemente, die mit dem Und verknüpft
+
+0:03:34.150,0:03:39.410
+sind, wahr sein, sodass die gesamte Aussage
+wahr wird. In der ersten Zeile steht: A ist
+
+0:03:39.410,0:03:44.560
+null und B ist null. Deshalb ist auch die
+gesamte Aussage null. Null und eins in der
+
+0:03:44.560,0:03:49.541
+zweiten Zeile. Hier haben wir auch nicht für
+beide Zeilen eine eins. Deswegen ist es auch
+
+0:03:49.541,0:03:52.110
+eine null. Bei eins und null in der dritten
+Zeile ist es das Gleiche. Lediglich in der
+
+0:03:52.110,0:03:56.160
+letzten Zeile, bei eins und eins, sind beide
+Elemente, die durch das Und verknüpft sind,
+
+0:03:56.160,0:04:00.620
+eins. Daher ist auch die gesamte Aussage wahr.
+Wenn wir das nun wieder in ein sprachliches
+
+0:04:00.620,0:04:04.831
+Konstrukt überleiten, klingt das so: Wenn
+A dafür steht, dass Anton die Wahrheit sagt
+
+0:04:04.831,0:04:10.020
+und B dafür steht, dass Berta die Wahrheit
+sagt, wäre die Aussage "Anton und Berta sagen
+
+0:04:10.020,0:04:15.990
+die Wahrheit." nur dann wahr, wenn beide die
+Wahrheit sagen, wenn also für A und B die
+
+0:04:15.990,0:04:24.870
+Belegung eins ist. Bei Teilaufgabe c) haben
+wir wieder zwei atomare Formeln, also A und
+
+0:04:24.870,0:04:33.880
+B. Diese verbinden wir durch eine Oder-Verknüpfung.
+Es müssen also A oder B oder beide wahr sein,
+
+0:04:33.880,0:04:39.740
+sodass die gesamte Aussage wahr wird. Zunächst
+füllen wir wieder die Zeilen aus, wie bei
+
+0:04:39.740,0:04:45.770
+Teilaufgabe b). Wir beginnen mit den Nullen,
+fahren dann mit den Einsen fort. Bei B abwechselnd
+
+0:04:45.770,0:04:52.430
+Nullen und Einsen. In Zeile eins sind A und
+B null. Das heißt, dass weder A noch B eins.
+
+0:04:52.430,0:04:57.750
+Das heißt, die Gesamtaussage ist ebenfalls
+eine Null und die Formel bekommt den Wahrheitswert
+
+0:04:57.750,0:05:06.100
+null. In der zweiten Zeile ist A null und
+B eins. A oder B sind zusammen also eine eins,
+
+0:05:06.100,0:05:10.550
+da es ausreicht, wenn eines von beiden eine
+Eins ist, um die Oder-Verknüpfung wahr werden
+
+0:05:10.550,0:05:16.010
+zu lassen. In der dritten Zeile gilt dasselbe:
+Hier ist A wahr, was ausreicht, um die Oder-Verknüpfung
+
+0:05:16.010,0:05:20.370
+wahr werden zu lassen. In der vierten Zeile
+sind beide wahr. Auch das ist bei der Oder-Verknüpfung
+
+0:05:20.370,0:05:25.290
+in Ordnung, da es sich hier nicht um ein exklusives
+Oder handelt. Es ist also ok, dass entweder
+
+0:05:25.290,0:05:31.980
+eins von beiden wahr ist oder beide wahr sind.
+Teilaufgabe d) ist noch etwas komplexer, da
+
+0:05:31.980,0:05:37.580
+die Formel etwas länger ist. Die Formel ist
+hier nicht A oder A und B. Die Klammersetzung
+
+0:05:37.580,0:05:41.850
+ist hier genauso, wie ihr sie aus dem Mathematikunterricht
+kennt. Es wird also zuerst der Teil innerhalb
+
+0:05:41.850,0:05:47.690
+der Klammer ausgewertet, bevor die übergeordnete
+Operation durchgeführt wird. In diesem Fall
+
+0:05:47.690,0:05:52.650
+ist es das nicht A-oder, und dann erst folgt
+der Klammerteil. Wenn ihr so einen Fall habt,
+
+0:05:52.650,0:05:57.710
+empfehle ich euch, die Wahrheitstabelle mit
+Zwischenschritten auszufüllen. Auf diese
+
+0:05:57.710,0:06:01.620
+Weise minimiert ihr das Fehlerrisiko am Ende.
+So haben wir hier im ersten Schritt nicht
+
+0:06:01.620,0:06:09.460
+A. Dann folgt der Teil A und B, welcher separat
+ausgewertet wird. Erst dann werten wir die
+
+0:06:09.460,0:06:16.949
+gesamte Formel, nicht A oder A und B, aus.
+Es ist nicht falsch, wenn ihr diese Zwischenschritte
+
+0:06:16.949,0:06:21.090
+nicht macht. Aber insbesondere dann, wenn
+die Wahrheitstabellen unübersichtlicher und
+
+0:06:21.090,0:06:27.871
+die Formeln länger werden, helfen diese Zwischenschritte
+sehr. Wir beginnen also mit der Spalte nicht
+
+0:06:27.871,0:06:34.150
+A. Dafür schauen wir uns nur A an, wie bei
+Teilaufgabe a). Das ist immer das Gegenteil
+
+0:06:34.150,0:06:39.712
+dessen, was bei A steht. In der zweiten Spalte
+stehen A und B. Bei der Und-Operation müssen
+
+0:06:39.712,0:06:43.230
+wie gesagt beide den Wert eins haben. Das
+ist hier ausschließlich in der letzten Zeile
+
+0:06:43.230,0:06:47.550
+gegeben. Nun haben wir diese beiden Spalten
+bereits ausgewertet und können sie uns anschauen.
+
+0:06:47.550,0:06:53.510
+Dort sehen wir, dass es mit einem Oder verknüpft
+ist: Nicht A oder A und B. Das heißt, dass
+
+0:06:53.510,0:06:56.949
+eine von beiden Spalten ein sein muss oder
+beide eins sein müssen, sodass die Gesamtaussage
+
+0:06:56.949,0:07:02.790
+eins wird. Das haben wir im ersten Fall. Hier
+ist nicht A eins. In der zweiten Zeile ist
+
+0:07:02.790,0:07:09.050
+nicht A eins. In der dritten Zeile ist nichts
+eins. Deshalb gilt null oder null, und es
+
+0:07:09.050,0:07:14.020
+kommt null dabei heraus. In der vierten Zeile
+haben wir A und B gleich eins. Ich wische
+
+0:07:14.020,0:07:20.290
+das jetzt weg, sodass wir oben noch die Übungsaufgabe
+sehen können. Wir fahren mit Teilaufgabe
+
+0:07:20.290,0:07:26.930
+e) fort. Hier lautet die Formel: A impliziert
+B. Wir haben also zunächst A und B gegeben.
+
+0:07:26.930,0:07:32.380
+Das zieht sich durch die Aufgaben hindurch.
+Als Formel haben wir also: A impliziert B.
+
+0:07:32.380,0:07:37.950
+Vielleicht wisst ihr noch aus der Vorlesung,
+wie A impliziert B noch notiert werden kann.
+
+0:07:37.950,0:07:47.470
+Und zwar: A impliziert B ist äquivalent zu
+nicht A oder B. Das Gleichheitszeichen mit
+
+0:07:47.470,0:07:55.390
+drei Strichen bedeutet äquivalent. Wenn es
+euch also schwerfällt, die Tabelle für die
+
+0:07:55.390,0:08:01.190
+Implikation mit A impliziert B auszufüllen,
+könnt ihr auch nicht A oder B nehmen. Das
+
+0:08:01.190,0:08:06.020
+fällt vielen leichter. Dann könntet ihr
+als Zwischenschritt nicht A nehmen. Im Anschluss
+
+0:08:06.020,0:08:14.729
+könnt ihr dann nicht A oder B oder A impliziert
+B auswerten, wenn das für euch einfacher
+
+0:08:14.729,0:08:22.600
+ist. Wir machen es jetzt aber mit A impliziert
+B. Denn bei der Implikation können wir uns
+
+0:08:22.600,0:08:28.900
+das Leben auch einfach machen: A impliziert
+bedeutet, dass B gilt, sobald A gilt. Wenn
+
+0:08:28.900,0:08:40.300
+also der erste Teil bereits falsch ist, ist
+es egal, was B ist, und die Aussage ist immer
+
+0:08:40.300,0:08:44.229
+wahr. Das bedeutet, dass wir aus dieser Implikation
+nur sagen können, dass wenn A gilt, dann
+
+0:08:44.229,0:08:50.770
+auch B gilt. Wir wissen aber nicht, was gilt,
+wenn A nicht ist. Dann kann B wahr oder nicht
+
+0:08:50.770,0:08:55.250
+wahr sein. Das bedeutet: Wenn A gleich null
+ist, dann wissen wir schon, dass die gesamte
+
+0:08:55.250,0:08:59.060
+Aussage wahr ist, unabhängig davon, was B
+ist. Wir müssen uns also nur die letzten
+
+0:08:59.060,0:09:03.580
+beiden Zeilen anschauen, wenn A eins ist.
+Dann müssen wir gucken, ob dann auch B gilt.
+
+0:09:03.580,0:09:08.330
+Denn nur dann ist die Formel insgesamt wahr
+oder hat den Wahrheitswert eins. In der dritten
+
+0:09:08.330,0:09:13.570
+Zeile haben wir also A gleich eins und B gleich
+null. Das heißt, dass A gilt, aber B nicht.
+
+0:09:13.570,0:09:17.800
+Das bedeutet, dass A B impliziert und den
+Wahrheitswert null bekommt. Es ist falsch.
+
+0:09:17.800,0:09:23.910
+In der vierten Zeile steht, dass sowohl A
+als auch B gelten. Beides ist eins. Also ist
+
+0:09:23.910,0:09:32.550
+A impliziert B wahr. In Teilaufgabe f) wird
+jetzt die Implikation mit der Und-Verknüpfung
+
+0:09:32.550,0:09:39.410
+zusammengeführt. Auch hier haben wir A und
+B, die wir zuerst mit einem Wahrheitswert
+
+0:09:39.410,0:09:46.880
+belegen müssen. Dann kommt die gesamte Formel.
+Wir schreiben also wieder null, null, eins,
+
+0:09:46.880,0:09:51.710
+eins, null, eins, null, eins. Auch hier empfehle
+ich, Zwischenschritte in der Wahrheitstabelle
+
+0:09:51.710,0:09:55.700
+zu nutzen. Das bedeutet, dass wir zunächst
+die linke Klammer nehmen: A impliziert B.
+
+0:09:55.700,0:10:00.740
+Diese werten wir aus. Dann werten wir die
+rechte Klammer aus: B impliziert A. Erst dann
+
+0:10:00.740,0:10:10.430
+werten wir die gesamte Formel aus: A impliziert
+B und B impliziert A. Wir beginnen mit der
+
+0:10:10.430,0:10:15.490
+ersten Spalte. Wir haben bei der Implikation
+bereits festgestellt: Wenn der erste Teil
+
+0:10:15.490,0:10:19.300
+bereits falsch ist, ist es egal, was der zweite
+Teil ist. So kann ich hier in den ersten beiden
+
+0:10:19.300,0:10:24.060
+Zeilen eine eins notieren und muss lediglich
+die letzten beiden Zeilen anschauen. Auch
+
+0:10:24.060,0:10:32.100
+das ist exakt dasselbe wie in Teilaufgabe
+c). In die dritte Zeile kommt eine null, in
+
+0:10:32.100,0:10:34.640
+die vierte Zeile eine eins. Bei B impliziert
+A ist es nun genau andersherum. Hier ist B
+
+0:10:34.640,0:10:40.730
+die Bedingung. Wenn B also gilt, dann gilt
+auch A. In der ersten Zeile gilt B nicht.
+
+0:10:40.730,0:10:45.340
+Das bedeutet, dass wir hier eine eins notieren
+können. In der zweiten Zeile gilt B, aber
+
+0:10:45.340,0:10:49.160
+A nicht. Das heißt, dass hier eine Null steht.
+In der dritten Zeile gilt B nicht, weshalb
+
+0:10:49.160,0:10:54.920
+wir hier wieder eine Eins notieren. In der
+vierten Zeile gilt B, also gilt auch A und
+
+0:10:54.920,0:11:00.060
+wir notieren den Wahrheitswert eins. Nun schauen
+wir uns die gesamte Formel an: A impliziert
+
+0:11:00.060,0:11:05.149
+B und B impliziert A. Wir erinnern uns: Bei
+der Und-Verknüpfung müssen beide Teile wahr
+
+0:11:05.149,0:11:12.459
+sein, sodass die gesamte Formel den Wahrheitswert
+eins bekommt. In der zweiten und dritten Spalte
+
+0:11:12.459,0:11:20.790
+muss also in beiden Fällen eine Eins stehen,
+sodass der gesamte Ausdruck wahr wird. Das
+
+0:11:20.790,0:11:24.830
+ist hier in der letzten und in der ersten
+Zeile gegeben. Entsprechend bekommt die Formel
+
+0:11:24.830,0:11:32.270
+unter diesen Belegungen den Wahrheitswert
+eins. Ich entferne das wieder, sodass wir
+
+0:11:32.270,0:11:37.800
+auch bei Teilaufgabe g) wieder die Aufgabenstellung
+sehen können. Auch hier sehen wir, dass die
+
+0:11:37.800,0:11:41.350
+Formel etwas länger ist. Daher würde ich
+auch hier wieder Zwischenschritte empfehlen.
+
+0:11:41.350,0:11:48.550
+Auch hier haben wir wieder den ersten Teil,
+A impliziert B, sowie den zweiten Teil, B
+
+0:11:48.550,0:11:55.920
+impliziert A. Es folgt die Gesamtformel, welche
+in diesem Fall beides durch eine Oder-Verknüpfung
+
+0:11:55.920,0:12:04.440
+miteinander verbindet. A impliziert B oder
+B impliziert A. In den ersten beiden Spalten
+
+0:12:04.440,0:12:08.700
+verhält es sich gleich wie in den vorigen
+Aufgaben. Diese können wir also einfach übernehmen
+
+0:12:08.700,0:12:13.300
+und müssen uns nur den letzten Teil der Wahrheitstabelle
+nochmal anschauen. Hier haben wir keine Und-Verknüpfung,
+
+0:12:13.300,0:12:19.470
+wie in der vorigen Aufgabe, sondern eine Oder-Verknüpfung.
+Bei der Oder-Verknüpfung muss, wie gesagt,
+
+0:12:19.470,0:12:23.850
+eines von beiden wahr sein oder beides. Wir
+schauen uns hier wieder die zweite und dritte
+
+0:12:23.850,0:12:29.300
+Spalte an, denn dafür haben wir sie gemacht.
+Wir suchen also nach Stellen, an denen mindestens
+
+0:12:29.300,0:12:35.060
+eine von beiden Spalten eine Eins hat. Das
+ist in diesem Fall in jeder Zeile so. Die
+
+0:12:35.060,0:12:37.660
+Wahrheitstabelle sieht also so aus.

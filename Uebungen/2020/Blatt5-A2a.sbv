@@ -1,0 +1,191 @@
+0:00:00.840,0:00:06.480
+Wir kommen zu Aufgabe zwei. Wir sind auf einem
+Lebenshof für gerettete Tiere und sollen eine
+
+0:00:06.480,0:00:12.180
+Hornformel zum folgenden Text aufstellen. Zunächst
+gehen wir den Text durch und markieren die
+
+0:00:12.180,0:00:17.520
+wichtigen Sachen. Hier steht, dass wir Tiere in
+Käfig A und B haben, die gefüttert werden können,
+
+0:00:17.520,0:00:23.400
+sobald eine Futterlieferung für C eingetroffen
+ist. Das markiere ich in Gelb. Für den nächsten
+
+0:00:23.400,0:00:26.520
+Fall verwende ich eine andere Farbe, sodass es
+übersichtlich bleibt. Wenn ihr die Möglichkeit
+
+0:00:26.520,0:00:31.320
+habt, würde ich euch das auch empfehlen. Aber
+macht es so, wir ihr am besten klarkommt. Als
+
+0:00:31.320,0:00:35.640
+nächstes haben wir Tiere in Käfig A, die sehr
+futterneidisch sind. Daher können die Tiere
+
+0:00:35.640,0:00:41.880
+in Käfig D erst gefüttert werden, wenn die Tiere
+in Käfig A schon gefüttert wurden. Das heißt: D,
+
+0:00:41.880,0:00:49.920
+wenn A. Das markiere ich auch. Ich empfehle euch,
+immer die atomaren Formeln zu markieren, die ihr
+
+0:00:49.920,0:00:54.960
+braucht. Also A, D und B bisher. Aber
+markiert auch Wörter wie zum Beispiel,
+
+0:00:54.960,0:00:59.700
+wenn oder genau dann, wenn. So wisst ihr
+später noch, ob es eine Und-Verknüpfung ist,
+
+0:00:59.700,0:01:04.920
+eine Konjunktion oder eine Implikation.
+Hier haben wir ein Wenn. Als nächstes
+
+0:01:04.920,0:01:25.020
+steht hier, dass außerdem die Futterlieferung E
+eingetroffen sein muss. Das heißt: D, wenn A und
+
+0:01:25.020,0:01:26.197
+E. Deshalb markiere ich das immer in verschiedenen
+Farben, sodass ich hinterher rasch sehe, dass eine
+
+0:01:26.197,0:01:26.760
+Farbe zu einer aussagenlogischen Formel verbunden
+werden muss. Dann haben wir noch die Tiere in
+
+0:01:26.760,0:01:32.460
+Käfig F, welche Reste-Verwerter sind. Deshalb
+werden sie mit den Futterresten aus Käfig B und D
+
+0:01:32.460,0:01:38.700
+gefüttert. Sie können also erst gefüttert werden,
+nachdem B und D gefüttert wurden. Ich markiere
+
+0:01:38.700,0:01:45.480
+deshalb hier: F, wenn B und D. Jetzt sollen wir
+eine Hornformel aufstellen, die diese Situation
+
+0:01:45.480,0:01:50.460
+beschreibt. Ich füge hier nochmal die Folie zu
+den Hornformeln ein. Sie wird im Folgenden relativ
+
+0:01:50.460,0:01:56.940
+wichtig sein. Wir erinnern uns: Eine Hornformel
+muss in KNF vorliegen und jede Klausel der
+
+0:01:56.940,0:02:03.840
+Hornformel darf maximal ein positives Literal
+enthalten. Hier steht noch etwas Wichtiges,
+
+0:02:04.920,0:02:07.260
+das wir gleich brauchen werden. Deshalb nehme ich
+das vorweg: Hornformeln haben die Besonderheit,
+
+0:02:07.260,0:02:11.340
+dass sie sich immer als Konjunktion von
+Implikationen zwischen Konjunktionen von
+
+0:02:11.340,0:02:16.860
+nur positiven Literalen schreiben lassen. Das
+bedeutet, dass dieser untere Satz gilt. Wenn wir
+
+0:02:16.860,0:02:23.700
+eine Formel haben wie nicht A eins oder A zwei
+oder A drei, Punkt, Punkt, Punkt oder B, dann
+
+0:02:23.700,0:02:33.600
+ist das Äquivalent zu A und A zwei und A drei,
+Punkt, Punkt, Punkt, impliziert B. Wir beginnen
+
+0:02:33.600,0:02:36.600
+mit der gelb markierten Aussage. Die Tiere in
+den Käfigen A und B können gefüttert werden,
+
+0:02:36.600,0:02:43.560
+sobald C eingetroffen ist. Das Sobald können wir
+hier wie ein Wenn interpretieren. A und B können
+
+0:02:43.560,0:02:48.420
+gefüttert werden, wenn die Futterlieferung für
+C eingetroffen ist. Das ist exakt die gleiche
+
+0:02:48.420,0:02:55.260
+Bedeutung. Deshalb streichen wir das Sobald und
+ersetzen es gedanklich durch ein Wenn. Wenn C,
+
+0:02:55.260,0:03:01.740
+dann A und B. Wir wissen, dass der Teil des Wenns
+vor die Implikation kommt. Wir haben also: C
+
+0:03:01.740,0:03:08.940
+impliziert A und B. Das würde man so aus dem Text
+herauslesen. Aber C impliziert A und B hat nicht
+
+0:03:08.940,0:03:15.300
+die benötigte Form für eine Regel. Für eine Regel
+darf auf der rechten Seite der Implikation nur ein
+
+0:03:15.300,0:03:21.120
+positives Literal stehen. Deshalb formen wir es
+um. Wir wenden dafür beispielsweise die Definition
+
+0:03:21.120,0:03:30.900
+der Implikation an. Nicht C oder in Klammern
+A und B. Das können wir wiederum zu nicht C
+
+0:03:30.900,0:03:39.480
+oder A und nicht C oder B umformen. Wenn wir das
+wieder in die Implikationsschreibweise umformen,
+
+0:03:39.480,0:03:48.120
+erhalten wir zwei einzelne Implikationen. Und
+zwar: C impliziert A und C impliziert B. Die
+
+0:03:48.120,0:03:53.580
+beiden entsprechen der benötigten Form für die
+Regel. Deshalb verwenden wir sie so. Dann können
+
+0:03:53.580,0:03:59.280
+wir uns schon den grün markierten Stellen
+zuwenden. Hier haben wir D, wenn A und E.
+
+0:03:59.280,0:04:07.800
+Das heißt, das Wenn ist A und E. Wir schreiben:
+A und E impliziert D. Das ist genauso wie immer.
+
+0:04:12.720,0:04:19.320
+Wir kommen zur orange markierten Aussage: F, wenn
+B und D. Wir stellen den Wenn-Teil nach vorn. B
+
+0:04:19.320,0:04:24.780
+und D impliziert F. Das ist ganz simpel.
+Jetzt müssen wir eine Hornformel daraus
+
+0:04:24.780,0:04:27.780
+machen. Bisher haben wir drei verschiedene
+Formeln aufgeschrieben. Wie verbinden wir
+
+0:04:27.780,0:04:32.700
+diese zu einer Hornformel? All diese Bedingungen
+müssen gelten. Das bedeutet in aussagenlogischer
+
+0:04:32.700,0:04:37.200
+Form: Wir haben eine Konjunktion. Wir nehmen
+also all diese Teile und verbinden sie mit einer
+
+0:04:37.200,0:04:43.620
+Konjunktion. Dann haben wir schon die Hornformel.
+Ich nenne die Hornformel hier G und sie lautet: C
+
+0:04:43.620,0:04:50.640
+impliziert A in Klammern und C impliziert B
+in Klammern. A und E in Klammern impliziert
+
+0:04:50.640,0:04:56.880
+D in Klammern. B und D in Klammern impliziert
+F. Das Ganze steht auch nochmal in Klammern.

@@ -1,0 +1,304 @@
+0:00:00.659,0:00:04.170
+Bei Aufgabe 3 geht es um freie Variablen.
+
+0:00:04.170,0:00:09.309
+Hier soll für jedes Vorkommen einer Variable
+in den folgenden Formeln entschieden werden,
+
+0:00:09.309,0:00:12.200
+ob diese an dieser Stelle frei oder gebunden
+sind.
+
+0:00:12.200,0:00:16.240
+Falls eine Variable gebunden ist, sollen wir
+zudem markieren, durch welchen Quantor sie
+
+0:00:16.240,0:00:17.240
+gebunden ist.
+
+0:00:17.240,0:00:25.269
+Hier haben wir im ersten Beispiel: Für alle
+X gilt, für all Y gilt P von x, y, x oder
+
+0:00:25.269,0:00:31.029
+Q von y, z. Hier sehen wir schon als ersten
+Indikator ob etwas gebunden ist oder nicht.
+
+0:00:31.029,0:00:32.520
+Haben wir einen Quantor davor?
+
+0:00:32.520,0:00:37.020
+Ja, wir haben ein Mal einen Quantor für x
+und einen Quantor für y und alles innerhalb
+
+0:00:37.020,0:00:40.620
+der Klammern ist von diesen beiden Quantoren
+gebunden.
+
+0:00:40.620,0:00:46.170
+Das heißt, wir haben x, y und x, was jeweils
+von diesem Quantor gebunden ist.
+
+0:00:46.170,0:00:51.539
+Und wir haben y und z. Wobei z haben wir hier
+nicht durch einen Quantor gebunden.
+
+0:00:51.539,0:00:54.180
+Deswegen ist nur y von diesem Quantor gebunden.
+
+0:00:54.180,0:00:56.800
+Das heißt, wir haben hier ein Mal x, y und
+x.
+
+0:00:56.800,0:01:02.149
+Wobei die Variablen x hier durch diesen Quantor
+gebunden sind und das y durch diesen Quantor.
+
+0:01:02.149,0:01:07.610
+Und wir haben hier y und z. Wobei y wieder
+durch diesen Quantor gebunden ist, z aber
+
+0:01:07.610,0:01:12.580
+nicht durch einen Quantor gebunden ist, weil
+es für z hier keinen Quantor gibt und deswegen
+
+0:01:12.580,0:01:14.470
+z frei vorkommt.
+
+0:01:14.470,0:01:19.470
+Deswegen haben wir hier, wie besprochen, die
+beiden x mit diesem Quantor und die beiden
+
+0:01:19.470,0:01:25.760
+y mit diesem Quantor und z, hier fett gedruckt,
+als freie Variable.
+
+0:01:25.760,0:01:34.220
+Bei (b) haben wir: Es existiert ein x sodass
+ein y existiert sodass gilt, P(x) oder Q(y)
+
+0:01:34.220,0:01:37.100
+und für alle x gilt R(y,x).
+
+0:01:37.100,0:01:40.960
+Schauen wir auf die Quantoren hier vorne.
+
+0:01:40.960,0:01:46.280
+Die binden ein Mal diesen Teil und dieser
+Quantor bindet diesen Teil.
+
+0:01:46.280,0:01:51.751
+Das heißt, wir haben ein Mal in diesem Teil
+das x, was durch diesen Quantor gebunden wird
+
+0:01:51.751,0:01:54.630
+und das y was durch diesen Quantor gebunden
+wird.
+
+0:01:54.630,0:01:59.110
+Und hier im rechten Teil haben wir das x,
+was durch diesen Quantor gebunden wird und
+
+0:01:59.110,0:02:02.860
+das y wird hier durch keinen Quantor mehr
+gebunden.
+
+0:02:02.860,0:02:05.550
+Das kann man hier ganz gut an der Klammerung
+erkennen.
+
+0:02:05.550,0:02:11.290
+Diese äußere Klammerung hier, die umklammert
+ein Mal komplett diesen linken Teil.
+
+0:02:11.290,0:02:14.830
+Dann haben wir hier diese innere Klammer,
+die umklammert diesen Teil und die ganz innere
+
+0:02:14.830,0:02:18.170
+Klammer ist hier nur für das y gedacht.
+
+0:02:18.170,0:02:22.200
+Das heißt, das ist ein Teil, der zusammengehört,
+und das ist ein separater Teil.
+
+0:02:22.200,0:02:28.410
+Daher sehen wir, dass dieses y nicht von diesem
+Quantor hier gebunden wird, sondern dieses
+
+0:02:28.410,0:02:29.410
+y ist frei.
+
+0:02:29.410,0:02:31.250
+Was ist also die Lösung?
+
+0:02:31.250,0:02:35.480
+Wie besprochen, das vordere x durch den vorderen
+Quantor.
+
+0:02:35.480,0:02:41.450
+Dieses y durch diesen Quantor, dieses x durch
+diesen und das y hier, fett gedruckt, ist
+
+0:02:41.450,0:02:42.450
+frei.
+
+0:02:42.450,0:02:43.450
+Nun zu (c).
+
+0:02:43.450,0:02:52.080
+Es existiert ein x sodass gilt, für alle
+y gilt P(x) und für alle x gilt R(x,y).
+
+0:02:52.080,0:02:56.050
+Hier haben wir eine ganz andere Klammerung.
+
+0:02:56.050,0:02:57.050
+Da würde ich einmal gucken.
+
+0:02:57.050,0:03:00.420
+Wenn ihr da unsicher seid, könnt ihr euch
+das auch farbig anstreichen.
+
+0:03:00.420,0:03:04.660
+Hier haben wir diese Klammer, welche diesen
+Teil hier einklammert.
+
+0:03:04.660,0:03:09.580
+Das heißt, dieser Teil hier wird schon einmal
+nicht mehr von diesen Quantoren hier gebunden.
+
+0:03:09.580,0:03:15.110
+Das heißt, es existiert ein x, sodass für
+alle y gilt P(x).
+
+0:03:15.110,0:03:18.840
+Das heißt, dieses x wird durch diesen Quantor
+gebunden.
+
+0:03:18.840,0:03:19.840
+Und Q(x).
+
+0:03:19.840,0:03:24.840
+Dieses x ist ja außerhalb dieser Klammer
+hier, das heißt, das wird nicht mehr von
+
+0:03:24.840,0:03:26.110
+diesem Quantor hier gebunden.
+
+0:03:26.110,0:03:28.220
+Das heißt, dieses x ist frei.
+
+0:03:28.220,0:03:31.250
+Und für alle x gilt R(x,y).
+
+0:03:31.250,0:03:34.610
+Dieses x gehört also wieder zu diesem Quantor.
+
+0:03:34.610,0:03:36.570
+Es steht hier unmittelbar danach.
+
+0:03:36.570,0:03:40.470
+Und das y ist frei.
+
+0:03:40.470,0:03:44.790
+Sodass wir hier haben, genau wie besprochen,
+dieser Quantor bindet nichts.
+
+0:03:44.790,0:03:50.350
+Dieses x wird durch diesen Quantor gebunden,
+dieses x ist frei, dieses x wird durch diesen
+
+0:03:50.350,0:03:52.220
+Quantor gebunden und das y ist frei.
+
+0:03:52.220,0:04:01.870
+Und bei Aufgabe (d) haben wir: Für alle x
+gilt, es existiert ein y sodass P(x) oder
+
+0:04:01.870,0:04:06.819
+Q(y) und für alle z gilt R(x,z).
+
+0:04:06.819,0:04:08.490
+Dann schauen wir uns die Klammerung an.
+
+0:04:08.490,0:04:11.720
+Um diesen Quantor hier ist gar keine Klammer.
+
+0:04:11.720,0:04:16.040
+Das heißt, alles, was danach kommt, bezieht
+sich auf jeden Fall hier auf diesen Quantor,
+
+0:04:16.040,0:04:17.690
+wird von diesem Quantor gebunden.
+
+0:04:17.690,0:04:19.690
+Dann haben wir hier die erste Klammer.
+
+0:04:19.690,0:04:22.310
+Da muss ich einmal kurz gucken.
+
+0:04:22.310,0:04:24.139
+Diese hier bezieht sich auf diese.
+
+0:04:24.139,0:04:33.500
+Das heißt, die erste Klammer hier, also diese
+hier sodass wir bereits sehen, alles hier
+
+0:04:33.500,0:04:38.330
+ist geklammert und jedes x was darin vorkommt,
+wird von diesem Quantor gebunden.
+
+0:04:38.330,0:04:41.560
+Das heißt, wir wissen schon einmal, dieses
+x wird von diesem Quantor gebunden, dieses
+
+0:04:41.560,0:04:44.310
+x wird von diesem Quantor gebunden.
+
+0:04:44.310,0:04:48.000
+Dann haben wir hier noch Klammern, die diesen
+Teil hier einschließen.
+
+0:04:48.000,0:04:53.370
+Das heißt, wir wissen schon einmal, alles,
+was hier drinnen ist, wird von diesem Quantor
+
+0:04:53.370,0:04:54.370
+gebunden.
+
+0:04:54.370,0:04:55.370
+Jedes y.
+
+0:04:55.370,0:04:56.919
+Das heißt, dieses y wird von diesem Quantor
+gebunden.
+
+0:04:56.919,0:05:00.000
+Dieses x, hatten wir gerade schon gesagt,
+wird von dem gebunden.
+
+0:05:00.000,0:05:05.470
+Und, unabhängig von dem Quantor, haben wir
+noch: Für alle z gilt R(x,z).
+
+0:05:05.470,0:05:11.350
+Das x, hatten wir vorhin schon gesagt, wird
+von diesem gebunden und das z wird jetzt von
+
+0:05:11.350,0:05:13.100
+diesem Quantor gebunden.
+
+0:05:13.100,0:05:15.420
+So wie besprochen ergibt sich die Lösung.
+
+0:05:15.420,0:05:19.210
+Jedes x hier drinnen wird von dem vorderen
+Quantor gebunden.
+
+0:05:19.210,0:05:23.520
+Das y wird von diesem Quantor gebunden und
+das z wird von diesem Quantor gebunden.
+
+0:05:23.520,0:05:25.650
+Und das war es mit Übungsblatt 10.

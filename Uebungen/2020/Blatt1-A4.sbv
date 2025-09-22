@@ -1,0 +1,379 @@
+0:00:00.909,0:00:06.009
+Bei Aufgabe 4 ist wieder eine kleine Textaufgabe
+gegeben. Da sagen drei verschiedene Studierende,
+
+0:00:06.009,0:00:13.919
+A, B und C einem Logiker, wo der Raum LB 107
+zu finden ist. Und wir sollen jetzt herausfinden,
+
+0:00:13.919,0:00:18.880
+wer von den Studierenden die Wahrheit sagt.
+Die Aussagen sind: A sagt: „B lügt.“
+
+0:00:18.880,0:00:24.420
+B sagt: „C sagt die Wahrheit.“ Und C sagt:
+„A und B lügen.“ Man könnte jetzt einfach
+
+0:00:24.420,0:00:28.900
+ausprobieren durch Herumtüfteln, wer die
+Wahrheit sagt und wer nicht. Oder wir gehen
+
+0:00:28.900,0:00:33.870
+mit einer Wahrheitstabelle daran. Um die Wahrheitstabelle
+zu machen, müssen wir die Aussagen natürlich
+
+0:00:33.870,0:00:39.350
+erst mal wieder in aussagenlogische Formeln
+umwandeln. Das heißt, wir schauen zuerst
+
+0:00:39.350,0:00:45.690
+mal an: Wie sind die entsprechenden Implikationen?
+Ich nummeriere die, damit es übersichtlicher
+
+0:00:45.690,0:00:50.899
+ist und klar ist, worüber wir reden: Erste
+Aussage, zweite Aussage, dritte Aussage. Die
+
+0:00:50.899,0:00:56.739
+erste Aussage ist: A sagt: „B lügt.“
+Das heißt, wir sagen jetzt, dass die Buchstaben
+
+0:00:56.739,0:01:00.079
+immer bedeuten, dass die jeweilige Person
+die Wahrheit sagt. Also A bedeutet: A sagt
+
+0:01:00.079,0:01:04.790
+die Wahrheit. B bedeutet: B sagt die Wahrheit.
+Und C bedeutet: C sagt die Wahrheit. Das heißt
+
+0:01:04.790,0:01:11.450
+also: Wenn A die Wahrheit sagt, dann folgt
+daraus, dass B lügt, also B nicht die Wahrheit
+
+0:01:11.450,0:01:17.301
+sagt. Dass nicht gilt: B sagt die Wahrheit.
+Umgekehrt gilt aber auch: Wenn B lügt, also
+
+0:01:17.301,0:01:23.340
+wenn Nicht B gilt, dann hat ja auch A die
+Wahrheit gesagt, weil A ja gesagt hat, dass
+
+0:01:23.340,0:01:28.400
+B lügt. Also Nicht B impliziert A. Und wenn
+wir so ein Konstrukt haben, dann ist das die
+
+0:01:28.400,0:01:34.810
+Doppelimplikation. Also: Wenn A Nicht B impliziert
+und Nicht B A impliziert, dann kann man das
+
+0:01:34.810,0:01:40.720
+auch als Doppelindikation aufschreiben. Ich
+schreibe das jetzt mal ein bisschen kompakter,
+
+0:01:40.720,0:01:46.060
+damit wir gleich auch noch alles sehen. Das
+Gleiche machen wir jetzt analog für Satz
+
+0:01:46.060,0:01:52.560
+2. B sagt: „C sagt die Wahrheit.“ Das
+heißt, wenn B die Wahrheit sagt, dann folgt
+
+0:01:52.560,0:01:58.230
+daraus, dass C die Wahrheit sagt. Und wenn
+C die Wahrheit sagt, dann hat ja B mit seiner
+
+0:01:58.230,0:02:02.960
+Aussage „C sagt die Wahrheit“ die Wahrheit
+gesagt, deswegen auch hier wieder die Doppelimplikation.
+
+0:02:02.960,0:02:10.340
+Und beim Satz 3: C sagt: „A und B lügen.“
+Das heißt, wenn C die Wahrheit sagt, dann
+
+0:02:10.340,0:02:18.130
+gilt, dass sowohl A lügt als auch dass B
+lügt. Und wenn sowohl A als auch B lügen,
+
+0:02:18.130,0:02:22.000
+dann sagt C die Wahrheit, deswegen haben wir
+auch hier wieder die Doppelimplikation. Hier
+
+0:02:22.000,0:02:26.320
+beim hinteren Teil müsst ihr aufpassen. Was
+einige Studierende manchmal falschmachen,
+
+0:02:26.320,0:02:33.090
+dass sie Nicht A und Nicht B schreiben, dass
+sie schreiben: Nicht A und B. Das ist aber
+
+0:02:33.090,0:02:37.690
+eine andere Bedeutung. Die Bedeutung von dem,
+was ich hier in Blau geschrieben habe ist,
+
+0:02:37.690,0:02:42.260
+dass nicht beide gleichzeitig die Wahrheit
+sagen. Hier reicht es aber, wenn einer von
+
+0:02:42.260,0:02:47.620
+beiden die Wahrheit sagt. Aber diese Formulierung
+von dem hier oben in Weiß, die ist wirklich:
+
+0:02:47.620,0:02:53.090
+Beide müssen jeweils lügen, damit C die
+Wahrheit sagt. Jetzt haben wir aber unsere
+
+0:02:53.090,0:02:58.590
+drei Aussagen. Und wie können wir jetzt herausfinden,
+wer die Wahrheit sagt? Wir können einerseits
+
+0:02:58.590,0:03:03.660
+ein bisschen ausprobieren. Für können für
+A 1 einsetzen, für B 1. Dann können wir
+
+0:03:03.660,0:03:08.671
+ausprobieren, ob wir es rausfinden. Oder wir
+bilden eine Wahrheitstabelle. Das machen wir
+
+0:03:08.671,0:03:14.860
+jetzt mal, weil das immer zur Lösung führen
+sollte. Das ist jetzt eine relativ umfangreiche
+
+0:03:14.860,0:03:27.240
+Wahrheitstabelle. Wir haben jetzt drei atomare
+Formeln. Wir haben A, B und C. Wir brauchen
+
+0:03:27.240,0:03:34.211
+dann immer 2 hoch die Anzahl an atomaren Formeln
+für die Zeilen. In dem Fall also 2 mal 2
+
+0:03:34.211,0:03:42.850
+mal 2. Wir benötigen für diese Wahrheitstabelle
+8 Zeilen. Wir fangen wieder mit A an, belegen
+
+0:03:42.850,0:03:47.450
+die Hälfte davon mit Nullen und die andere
+Hälfte mit Einsen. Damit wir das alle einheitlich
+
+0:03:47.450,0:03:57.060
+machen fangen wir mit der 0 an. Dann bei B,
+beim zweiten können wir, wenn wir am Anfang
+
+0:03:57.060,0:04:03.100
+4 mal die 0 genommen haben, jetzt mit der
+Hälfte anfangen, also mit 2 mal der Null.
+
+0:04:03.100,0:04:10.680
+Das dann wieder im Wechsel: 0, 0, 1, 1, 0,
+0, 1, 1. Beim dritten würden wir wieder die
+
+0:04:10.680,0:04:14.520
+Hälfte nehmen von dem davor. Wir hatten gerade
+zweimal die 0, dann fangen wir jetzt mit einmal
+
+0:04:14.520,0:04:23.961
+der 0 an. 0, 1, 0, 1, 0, 1, 0, 1. Die letzte
+atomare Folge, die ihr da hinschreibt, sollte
+
+0:04:23.961,0:04:30.380
+immer direkt im Wechsel sein mit nur einer
+Wiederholung. Jetzt können wir uns die einzelnen
+
+0:04:30.380,0:04:35.420
+Teile in der Wahrheitstabelle anschauen. Ich
+mache mir noch zwei Hilfsspalten. Und zwar:
+
+0:04:35.420,0:04:42.120
+Nicht A und Nicht B. Nicht C benutze ich nicht,
+weil das hier in keiner Formel vorkommt. So.
+
+0:04:42.120,0:04:49.780
+Dann mache ich mir noch eine dritte Hilfsspalte.
+Wir sehen jetzt hier, Formel 1 und 2 bestehen
+
+0:04:49.780,0:04:53.770
+nur aus diesen kleineren, die haben wir alle
+abgedeckt. A haben wir stehen, Nicht B haben
+
+0:04:53.770,0:04:58.530
+wir stehen, B haben wir stehen und C haben
+wir stehen. In Formel 3 gibt es noch diesen
+
+0:04:58.530,0:05:03.130
+hinteren Teil, Nicht A und Nicht B, den haben
+wir jetzt noch nicht einzeln in einer Spalte
+
+0:05:03.130,0:05:06.960
+stehen. Und das schreibe ich mir jetzt auch
+noch mal auf, weil ich es einfach übersichtlicher
+
+0:05:06.960,0:05:12.110
+finde. Nicht A und Nicht B kann ich aus den
+Spalten davor ablesen. Und jetzt können wir
+
+0:05:12.110,0:05:18.710
+anfangen, uns die erste Aussage anzuschauen.
+A Doppelimplikation Nicht B. Jetzt schauen
+
+0:05:18.710,0:05:26.990
+wir Zeile für Zeile durch. Falls ihr nicht
+mehr wisst, wie das mit der Doppelimplikation
+
+0:05:26.990,0:05:30.910
+funktioniert, könnt ihr euch das natürlich
+einerseits noch mal auf den Vorlesungen anschauen,
+
+0:05:30.910,0:05:35.810
+die ich in der Vorlesung hattet. Ihr könnt
+euch aber auch überlegen, wie die Doppelimplikation
+
+0:05:35.810,0:05:40.030
+überhaupt hergeleitet wird oder was es überhaupt
+bedeutet. Ich schreibe es hier zur Erinnerung
+
+0:05:40.030,0:05:45.770
+noch mal auf: Wenn wir eine Formel wie diese
+haben, A Doppelimplikation B, dann ist ja
+
+0:05:45.770,0:05:56.010
+das das Gleiche wie: A impliziert B. Und B
+impliziert A. Und das wiederum kennen wir
+
+0:05:56.010,0:06:00.060
+ja schon, also A impliziert B und B impliziert
+A. Das hatten wir in den Aufgabenteilen davor
+
+0:06:00.060,0:06:03.870
+ja auch schon. Das könnt ihr dann so in eine
+Wahrheitstabelle übertragen. Und dann für
+
+0:06:03.870,0:06:08.110
+diese Formel den Wahrheitswert bestimmen bei
+den einzelnen Belegungen. Das ist dann der
+
+0:06:08.110,0:06:12.541
+gleiche wie bei der Doppelindikation. Ihr
+werdet herausfinden, dass die Doppelimplikation
+
+0:06:12.541,0:06:17.330
+immer dann den Wahrheitswert 1 bekommt, wenn
+eben auf beiden Seiten die Teile den Wahrheitswert
+
+0:06:17.330,0:06:24.300
+1 oder auf beiden Seiten die Teile den Wahrheitswert
+0 haben. In dem Fall müsste entweder A und
+
+0:06:24.300,0:06:31.590
+Nicht B mit 1 belegt sein, oder A und Nicht
+B müsste mit 0 belegt sein. Dafür müssen
+
+0:06:31.590,0:06:37.930
+wir uns also die erste Spalte, diese hier
+und diese anschauen. Und gucken jetzt: Wo
+
+0:06:37.930,0:06:43.310
+haben wir bei beidem 1 oder 0 und können
+das dann hier reinschreiben. In dieser Zeile
+
+0:06:43.310,0:06:48.130
+haben wir zum Beispiel nicht, in dieser Zeile
+nicht. In dieser Zeile haben wir bei beidem
+
+0:06:48.130,0:06:53.820
+eine Null, das heißt, die Doppelimplikation
+ergibt 1 im Gesamten. Hier auch. hier haben
+
+0:06:53.820,0:06:59.639
+wir bei beidem eine 1, hier auch. Hier nicht
+und hier nicht. Weiter geht es mit Satz 2.
+
+0:06:59.639,0:07:06.169
+Da haben wir B Doppelimplikation C. Und dafür
+müssen wir uns diese Zeile hier anschauen
+
+0:07:06.169,0:07:15.350
+und das C. Und gehen dann analog zu dem davor
+vor. Überall dort, wo beide eine 1 haben
+
+0:07:15.350,0:07:21.040
+oder beide eine 0, ist es im Gesamten eine
+1. Und ansonsten ist es im Gesamten eine 0.
+
+0:07:21.040,0:07:27.270
+Und jetzt noch Satz 3. Dafür müssen wir
+uns zum einen die Spalte von C anschauen und
+
+0:07:27.270,0:07:33.060
+zum anderen auch diese Hilfsspalte von Nicht
+A und Nicht B. Und auch hier wieder meine
+
+0:07:33.060,0:07:38.240
+Doppelimplikation, das heißt, beides muss
+1 oder 0 sein, damit die gesamte Formel 1
+
+0:07:38.240,0:07:46.280
+oder 0 wird. Und was können wir jetzt hieraus
+ablesen? Damit alle Aussagen zutreffen, die
+
+0:07:46.280,0:07:49.900
+wir hier oben getroffen haben, könnten wir
+diese drei Aussagen, diese drei einzelnen
+
+0:07:49.900,0:07:55.570
+Sätze in eine Aussagenlogische Formel bringen.
+Das heißt, wir würden die alle mit einer
+
+0:07:55.570,0:08:05.611
+Konjunktion verbinden, mit Und. Also: A impliziert
+nicht B. Und: B impliziert C. Und: C impliziert
+
+0:08:05.611,0:08:12.880
+Nicht A und Nicht B. Also alle drei Teilsätze
+einfach verbunden mit einer Konjunktion, weil
+
+0:08:12.880,0:08:18.330
+ja alle zutreffen müssen. Und jetzt können
+wir also schauen: Wann treffen alle Aussagen
+
+0:08:18.330,0:08:26.100
+zu? Wir können jetzt eine letzte Spalte machen
+für unsere finale Formel: F. Und dafür müssen
+
+0:08:26.100,0:08:30.410
+wir gucken, das ist ja mit einer Konjunktion
+verbunden, das heißt, alle Teile, die … #00:08:29#,
+
+0:08:30.410,0:08:35.849
+da geht es um diese Spalte, um diese Spalte
+und um diese Spalte. In welcher Zeile ist
+
+0:08:35.849,0:08:40.460
+es so, dass in allen drei Spalten eine 1 steht?
+Weil alle Teile, die … #00:08:39#, müssen
+
+0:08:40.460,0:08:45.019
+ja mit einer 1 belegt sein. Und das ist hier
+in dieser Zeile der Fall. Da haben wir bei
+
+0:08:45.019,0:08:50.559
+allen drei eine 1. In keiner anderen Zeile
+haben wir bei allen drei eine 1. Das heißt,
+
+0:08:50.559,0:08:56.079
+in dieser Zeile wird unsere gesamte Formel
+mit dem Wahrheitswert 1 belegt. In allen anderen
+
+0:08:56.079,0:09:01.740
+nicht. Daher wissen wir, dass diese Belegung
+diejenige ist, unter der alle Aussagen zutreffen.
+
+0:09:01.740,0:09:07.329
+Dann können wir uns anschauen, was diese
+Belegung sagt. Sie sagt: Für A gilt 1, für
+
+0:09:07.329,0:09:14.360
+B 0 und für C 0. Unter dieser Voraussetzung
+stimmen alle drei Aussagen. Das heißt also,
+
+0:09:14.360,0:09:19.410
+wir können sagen, dass A die Wahrheit sagt,
+B lügt und C lügt.

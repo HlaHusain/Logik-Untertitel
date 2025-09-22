@@ -1,0 +1,189 @@
+0:00:00.089,0:00:03.649
+Bei Teilaufgabe (b) haben wir zusätzlich
+die Information, dass die Futterlieferungen
+
+0:00:03.649,0:00:05.430
+C und E eingetroffen sind.
+
+0:00:05.430,0:00:09.270
+Wir sollen sagen, ob jetzt die Tiere in Käfig
+F gefüttert werden können.
+
+0:00:09.270,0:00:12.440
+Das Ganze sollen wir durch Anwendung des Markierungsalgorithmus
+zeigen.
+
+0:00:12.440,0:00:17.250
+Der Antwortsatz ist auch sehr wichtig und
+darf nicht vergessen werden.
+
+0:00:17.250,0:00:18.250
+Andernfalls gibt es Punktabzug.
+
+0:00:18.250,0:00:20.869
+Wir brauchen also zunächst die Formel, die
+wir gerade eben hatten.
+
+0:00:20.869,0:00:22.240
+Denn diese Bedingungen gelten alle.
+
+0:00:22.240,0:00:26.420
+Zusätzlich haben wir jetzt noch die Bedingung,
+dass C und E eingetroffen sind.
+
+0:00:26.420,0:00:30.420
+Eins impliziert also C und eins impliziert
+E.
+
+0:00:30.420,0:00:35.190
+Um jetzt zu zeigen, ob die Tiere in Käfig
+F gefüttert werden können, hängen wir noch
+
+0:00:35.190,0:00:37.920
+die C-Klausel, F impliziert null, an.
+
+0:00:37.920,0:00:43.161
+Diese Formel testen wir jetzt auf Unerfüllbarkeit.
+
+0:00:43.161,0:00:49.290
+In der Vorlesung wurde bereits darüber gesprochen:
+Wenn ihr Fakten und eine Regel habt, die eine
+
+0:00:49.290,0:00:55.440
+Frage implizieren, ist das genau dann gültig,
+wenn Fakten und Regel und die negierte Frage
+
+0:00:55.440,0:00:56.550
+unerfüllbar sind.
+
+0:00:56.550,0:00:59.379
+Die Frage lautet in diesem Fall: Kann F gefüttert
+werden?
+
+0:00:59.379,0:01:04.019
+Deshalb negieren wir das Ganze und sagen,
+dass F null impliziert.
+
+0:01:04.019,0:01:08.899
+Jetzt wollen wir zeigen, dass das unerfüllbar
+ist, um damit zu zeigen, dass die Tiere in
+
+0:01:08.899,0:01:09.929
+Käfig F gefüttert werden können, wenn es
+denn so ist.
+
+0:01:09.929,0:01:14.380
+Wir wenden den Markierungsalgorithmus ganz
+normal an.
+
+0:01:14.380,0:01:19.779
+Wir schauen also, ob wir irgendwo eine Klausel
+haben, in der steht, dass eins irgendwas impliziert.
+
+0:01:19.779,0:01:23.399
+Das haben wir hier zwei Mal, da die Futterlieferungen
+C und E eingetroffen sind.
+
+0:01:23.399,0:01:29.539
+Wir können daher im ersten Schritt C überall
+markieren.
+
+0:01:29.539,0:01:35.099
+Wir können auch E überall markieren, weil
+hier auch steht, dass eins E impliziert.
+
+0:01:35.099,0:01:40.069
+Dann schauen wir, ob wir Klauseln haben, in
+welchen auf der linken Seite der Implikation
+
+0:01:40.069,0:01:42.419
+alles markiert ist, aber auf der rechten Seite
+nichts.
+
+0:01:42.419,0:01:49.779
+Das ist hier zum Beispiel in der zweiten Klausel
+der Fall: C impliziert B.
+
+0:01:49.779,0:01:51.880
+Wir können hier also B als zweites markieren.
+
+0:01:51.880,0:01:54.270
+Wir könnten aber auch A als zweites markieren.
+
+0:01:54.270,0:01:56.369
+Die Reihenfolge ist egal.
+
+0:01:56.369,0:01:59.709
+Ich markiere B als zweites.
+
+0:01:59.709,0:02:00.709
+Als drittes markiere ich A.
+
+0:02:00.709,0:02:02.819
+Das könnten wir, wie gesagt, auch andersherum
+machen.
+
+0:02:02.819,0:02:08.849
+Dann schaue ich wieder, ob ich eine Klausel
+habe, in der links alles markiert ist, aber
+
+0:02:08.849,0:02:09.890
+rechts noch nicht.
+
+0:02:09.890,0:02:12.319
+Das ist zum Beispiel in der dritten Klausel
+der Fall.
+
+0:02:12.319,0:02:17.290
+Hier haben wir A und E markiert, weshalb wir
+als viertes jetzt auch D markieren können.
+
+0:02:17.290,0:02:18.290
+Das heißt, wir markieren alle Ds.
+
+0:02:18.290,0:02:19.700
+Das ist auch in der nächsten Klausel der
+Fall.
+
+0:02:19.700,0:02:26.340
+So ist diese auch links komplett markiert
+und wir können F als fünftes markieren.
+
+0:02:26.340,0:02:30.050
+Wir kommen zur letzten Klausel: F impliziert
+null.
+
+0:02:30.050,0:02:33.400
+Hier lautet die Regel: Wir kommen zu der Klausel.
+
+0:02:33.400,0:02:34.859
+Etwas Markiertes impliziert null.
+
+0:02:34.859,0:02:37.390
+Deshalb ist die Formel unerfüllbar.
+
+0:02:37.390,0:02:40.030
+Das schreiben wir hin und geben es aus.
+
+0:02:40.030,0:02:42.750
+Sehr wichtig ist es jetzt, den Antwortsatz
+zu formulieren.
+
+0:02:42.750,0:02:43.750
+Was sagt dieses Ergebnis aus?
+
+0:02:43.750,0:02:45.969
+Wir haben genau den Fall, über den wir gerade
+eben gesprochen haben.
+
+0:02:45.969,0:02:50.719
+Fakten, Regeln und die negierte Frage sind
+unerfüllbar.
+
+0:02:50.719,0:02:54.930
+Somit haben wir festgestellt, dass F aus den
+Programmklauseln folgt.
+
+0:02:54.930,0:02:58.609
+Das heißt, dass die Tiere in Käfig F gefüttert
+werden können.

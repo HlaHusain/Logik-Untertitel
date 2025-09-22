@@ -1,0 +1,358 @@
+0:00:05.960,0:00:10.670
+Bei Aufgabe 4 haben wir einen Text gegeben
+und sollen den geschriebenen Sachverhalt in
+
+0:00:10.670,0:00:13.330
+eine aussagenlogische Formel übersetzen.
+
+0:00:13.330,0:00:17.180
+Und auch explizit die benutzten atomaren Formeln
+benennen.
+
+0:00:17.180,0:00:19.600
+Markieren wir wieder erst einmal den Text.
+
+0:00:19.600,0:00:24.740
+Wir haben die Geschwister Anton, Bertha und
+Charlie, welche sich ein Haustier wünschen.
+
+0:00:24.740,0:00:28.490
+Ihre Eltern beschließen, ein oder mehrere
+Tiere aus dem Tierheim zu adoptieren.
+
+0:00:28.490,0:00:32.770
+Allerdings haben die Geschwister genaue Vorstellungen
+darüber welche Tiere sie mögen und welche
+
+0:00:32.770,0:00:33.770
+nicht.
+
+0:00:33.770,0:00:36.520
+Anton möchte einen Hund oder eine Katze.
+
+0:00:36.520,0:00:39.890
+Das heißt, ich markiere mir Anton und Hund
+oder Katze.
+
+0:00:39.890,0:00:44.320
+Das Oder ist ganz wichtig, das brauchen wir
+gleich für die Formel.
+
+0:00:44.320,0:00:49.969
+Bertha wiederum möchte einen Wellensittich
+oder einen Hund und Charlie möchte auf jeden
+
+0:00:49.969,0:00:51.550
+Fall keinen Hund.
+
+0:00:51.550,0:00:54.510
+Außerdem können Hund und Katze nicht zusammen
+gehalten werden.
+
+0:00:54.510,0:00:59.830
+Welches Tier oder welche Tiere sollen die
+Eltern adoptieren, um alle Kinder glücklich
+
+0:00:59.830,0:01:00.830
+zu machen?
+
+0:01:00.830,0:01:03.550
+Wir führen erst einmal die atomaren Formeln
+ein.
+
+0:01:03.550,0:01:06.350
+Hier würde es Sinn ergeben, das für die
+Tiere zu machen.
+
+0:01:06.350,0:01:10.120
+Das heißt, wir könnten feststellen, H bedeutet,
+die Kinder bekommen einen Hund.
+
+0:01:10.120,0:01:15.920
+K bedeutet, die Kinder bekommen eine Katze
+und W bedeutet, die Kinder bekommen einen
+
+0:01:15.920,0:01:16.920
+Wellensittich.
+
+0:01:16.920,0:01:18.729
+Wie können wir die Formel aufstellen?
+
+0:01:18.729,0:01:22.780
+Wir haben die erste Bedingung, die grüne
+Bedingung, Anton möchte einen Hund oder eine
+
+0:01:22.780,0:01:23.780
+Katze.
+
+0:01:23.780,0:01:30.979
+Das heißt, wir haben die Formel, ich nenne
+sie einmal G, Hund oder Katze und dann haben
+
+0:01:30.979,0:01:38.860
+wir das Lilane, Lila-pinke hier, Wellensittich
+oder Hund, das heißt W oder H. Und das Blaue,
+
+0:01:38.860,0:01:45.420
+Charlie möchte keinen Hund, und nicht H und
+noch das Orangene: Außerdem können Hund
+
+0:01:45.420,0:01:53.070
+und Katze nicht zusammen spielen, das heißt
+nicht Hund und Katze gleichzeitig, allein
+
+0:01:53.070,0:01:56.579
+ginge es schon, nicht Hund und Katze.
+
+0:01:56.579,0:01:57.990
+Das wäre Aufgabe (a).
+
+0:01:57.990,0:02:02.210
+Jetzt sollen wir in Aufgabe (b) beantworten,
+ob es möglich ist, alle Kinder glücklich
+
+0:02:02.210,0:02:03.210
+zu machen?
+
+0:02:03.210,0:02:05.820
+Falls ja, welche Tiere müssen dazu adoptiert
+werden?
+
+0:02:05.820,0:02:10.500
+Begründen Sie Ihre Antwort mit Hilfe einer
+Wahrheitstafel und gegebenenfalls einem entsprechenden
+
+0:02:10.500,0:02:11.500
+Modell.
+
+0:02:11.500,0:02:14.440
+Geben Sie in jedem Fall die vollständige
+Wahrheitstafel an.
+
+0:02:14.440,0:02:18.480
+Ich mache das ein bisschen hier hoch, wir
+brauchen nur die Formel, welche wir aufgestellt
+
+0:02:18.480,0:02:21.030
+haben, damit wir ein wenig Platz haben für
+die Wahrheitstafel.
+
+0:02:21.030,0:02:26.350
+Wie immer schaue ich zuerst, welche atomaren
+Formeln haben wir.
+
+0:02:26.350,0:02:30.810
+Da haben wir H, K und W.
+
+0:02:30.810,0:02:32.290
+Also wieder drei atomare Formeln.
+
+0:02:32.290,0:02:37.450
+Das heißt, wir brauchen wieder zwei hoch
+drei Zeilen, also acht Zeilen.
+
+0:02:37.450,0:02:45.700
+Beginnen also wieder vier Mal mit null und
+vier Mal mit eins, gefolgt von zwei Mal der
+
+0:02:45.700,0:02:55.880
+null, zwei Mal der eins und ein Mal der null
+und ein Mal der eins.
+
+0:02:55.880,0:02:59.380
+Ich schaue für mich immer noch einmal, welche
+Formeln negiert vorliegen und schreibe mir
+
+0:02:59.380,0:03:00.680
+diese auch noch einmal auf.
+
+0:03:00.680,0:03:02.760
+Das könnt ihr natürlich auch im Kopf machen.
+
+0:03:02.760,0:03:08.510
+Wir haben ein Mal nicht H und ansonsten liegt
+nichts einzeln negiert vor.
+
+0:03:08.510,0:03:11.580
+Dann schaue ich mir noch an, welche Teilformeln
+vorliegen.
+
+0:03:11.580,0:03:19.490
+Ich habe ein Mal die vordere Teilformel H
+oder K, dann habe ich W oder H. Nicht H habe
+
+0:03:19.490,0:03:20.840
+ich bereits aufgeschrieben.
+
+0:03:20.840,0:03:25.500
+Und dann habe ich nicht H und K vorliegen.
+
+0:03:25.500,0:03:32.410
+Hier würde ich ein mal H und K und nicht
+H und K einzeln aufschreiben, weil ich das
+
+0:03:32.410,0:03:33.410
+übersichtlicher finde.
+
+0:03:33.410,0:03:35.140
+So vertue ich mich auf gar keinen Fall.
+
+0:03:35.140,0:03:40.110
+Dann habe ich noch die Gesamtformel, die dann
+die Konjunktion aus allen Bedingungen ist.
+
+0:03:40.110,0:03:42.950
+Fangen wir an mit der ersten Spalte.
+
+0:03:42.950,0:03:47.280
+Hier habe ich ein Mal nicht H. Diese ist einfach
+und entspricht immer genau dem Gegenteil von
+
+0:03:47.280,0:03:50.010
+H, das heißt vier Mal die eins und vier Mal
+die null.
+
+0:03:50.010,0:03:52.010
+Dann habe ich H oder K.
+
+0:03:52.010,0:03:54.730
+Das heißt, ich schaue mir die ersten beiden
+Spalten an.
+
+0:03:54.730,0:03:58.240
+Hier genügt es bei der oder-Verknüpfung
+wenn eines von beiden eins ist.
+
+0:03:58.240,0:03:59.950
+Die sieht folgendermaßen aus.
+
+0:03:59.950,0:04:04.340
+Dann haben wir W oder H, das heißt, die dritte
+und die erste Spalte.
+
+0:04:04.340,0:04:07.760
+Da schaue ich auch wieder, wo eines von beiden
+eins ist.
+
+0:04:07.760,0:04:14.630
+Dann haben wir H und K, hier haben wir eine
+und-Verknüpfung, das heißt, wir müssen
+
+0:04:14.630,0:04:16.691
+gucken, wo beides eine eins ist.
+
+0:04:16.691,0:04:21.389
+Das sind die ersten beiden Spalten, die ich
+mir dafür angucken muss.
+
+0:04:21.389,0:04:27.280
+Und dieses ist in den letzten beiden Zeilen
+der Fall, ansonsten nicht.
+
+0:04:27.280,0:04:34.610
+Dann habe ich nicht H und K, das ist Gegenteil
+davon, wo eine null steht wird eine eins gesetzt.
+
+0:04:34.610,0:04:39.389
+Und dann habe ich die Gesamtformel, hier muss
+ich aufpassen, weil ich mir diese Hilfsspalte
+
+0:04:39.389,0:04:41.919
+hier gemacht habe mit H und K.
+
+0:04:41.919,0:04:49.570
+Diese brauch und darf ich nicht berücksichtigen,
+sondern ich schaue mir dies Spalte an und
+
+0:04:49.570,0:04:54.009
+diese Spalte, weil die sind ja zusammen verundet.
+
+0:04:54.009,0:05:00.909
+Bei dem Und muss überall eine eins sein,
+damit die Gesamtformel eins ergibt.
+
+0:05:00.909,0:05:04.930
+Ich schaue, habe ich eine Zeile, in der überall
+eine eins steht?
+
+0:05:04.930,0:05:07.280
+Das ist hier in der vierten Zeile der Fall.
+
+0:05:07.280,0:05:11.289
+Wie gesagt, den Mittelteil kann ich außen
+vorlassen, den habe ich mir nur als Hilfsspalte
+
+0:05:11.289,0:05:12.289
+gemacht.
+
+0:05:12.289,0:05:18.659
+Alle anderen Spalten enthalten mindestens
+eine null, das heißt, ich kann in allen anderen
+
+0:05:18.659,0:05:25.120
+Zeilen für die Gesamtformel eine null aufschreiben
+und in dieser Zeile schreibe ich eine eins
+
+0:05:25.120,0:05:26.130
+auf.
+
+0:05:26.130,0:05:28.040
+Sodass es im Gesamten folgendermaßen aussieht.
+
+0:05:28.040,0:05:31.460
+Jetzt müssen wir noch die Frage beantworten.
+
+0:05:31.460,0:05:35.030
+Ist es möglich, alle Kinder glücklich zu
+machen?
+
+0:05:35.030,0:05:37.930
+Falls ja, welche Tiere müssen dazu adoptiert
+werden?
+
+0:05:37.930,0:05:41.840
+Begründen Sie Ihre Antwort mit Hilfe einer
+Wahrheitstafel und gegebenenfalls einem entsprechenden
+
+0:05:41.840,0:05:42.840
+Modell.
+
+0:05:42.840,0:05:44.060
+Geben Sie in jedem Fall die vollständige
+Wahrheitstafel an.
+
+0:05:44.060,0:05:49.169
+Das haben wir gemacht und wir können mit
+Hilfe unserer Wahrheitstafel begründen, dass
+
+0:05:49.169,0:05:52.169
+es die Möglichkeit gibt, alle Kinder glücklich
+zu machen.
+
+0:05:52.169,0:05:54.460
+Weil wir das Modell hieraus haben.
+
+0:05:54.460,0:05:56.949
+Wir haben hier eine eins heraus.
+
+0:05:56.949,0:06:01.710
+Deswegen wissen wir, unter der Belegung, die
+müssen wir uns hier vorne anschauen.
+
+0:06:01.710,0:06:07.560
+Wir wissen, vierte Zeile, das ist die entsprechende
+Belegung H null, K eins, W eins.
+
+0:06:07.560,0:06:09.819
+Unter dieser Belegung werden alle Kinder glücklich.
+
+0:06:09.819,0:06:18.569
+Das heißt, die Belegung alpha(H)=0, alpha(K)=1,
+alpha(W)=1 ist ein Modell von G.
+
+0:06:18.569,0:06:23.690
+Alle Kinder sind glücklich, wenn eine Katze
+und ein Wellensittich adoptiert werden.
+
+0:06:23.690,0:06:25.929
+Das war es auch schon mit Übungsblatt 9.

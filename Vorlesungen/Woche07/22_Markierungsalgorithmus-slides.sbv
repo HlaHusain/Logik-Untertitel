@@ -1,0 +1,1222 @@
+0:00:00.000,0:00:08.730
+So kommen wir zum Markierungsalgorithmus, für
+den wir ja die Hornformeln eingeführt haben.
+
+0:00:08.730,0:00:17.730
+Zunächst zur Erinnerung: Bisher hatten wir, um
+die Unerfüllbarkeit einer Formel zu prüfen, diese
+
+0:00:17.730,0:00:24.540
+in eine konjunktive Normalform gebracht und dann das
+Resolutionsverfahren genutzt. Das funktionierte,
+
+0:00:24.540,0:00:31.620
+hat allerdings ein paar Nachteile. Zum einen haben
+wir gesehen, dass die Suche nach der leeren Klausel,
+
+0:00:31.620,0:00:36.570
+was wir da ja tun müssen, um die Unerfüllbarkeit zu
+überprüfen, recht aufwendig werden kann. Wir hatten
+
+0:00:36.570,0:00:41.970
+dieses Beispiel zu Beginn dieser Vorlesungswoche,
+wo ich sehr viele Varianten hatte und am Ende doch
+
+0:00:41.970,0:00:47.430
+die leere Klausel nicht gefunden habe. Da gab es also
+keinen linearen Weg, auf dem ich mich in die richtige
+
+0:00:47.430,0:00:52.860
+Richtung bewegen konnte, sondern ich hatte an vielen Stellen
+viele Möglichkeiten mir unter allen auf der
+
+0:00:52.860,0:00:59.820
+Folie stehenden Klauseln die zwei auszuwählen,
+mit denen ich als nächstes resolvieren möchte.
+
+0:00:59.820,0:01:05.100
+Und selbst wenn ich mich schon auf zwei Klauseln
+festgelegt hätte, kann es noch sein, dass es mehrere
+
+0:01:05.100,0:01:10.260
+Möglichkeiten gibt, da drinnen ein Literal und
+das Komplement aus der anderen Klausel zu wählen
+
+0:01:10.260,0:01:14.970
+und zu resolvieren. Auch da haben wir Beispiele gesehen,
+wo man für die gleichen zwei Klauseln verschiedene mögliche
+
+0:01:14.970,0:01:20.100
+Schritte gehabt hätte. Man hat also die "Qual der Wahl", da man
+Klauseln auch beliebig oft verwenden kann.
+
+0:01:20.100,0:01:25.320
+Da weiß man nie, wann man nochmal auf eine frühere
+Klausel zurückgreifen sollte etwa. Das ist alles nicht
+
+0:01:25.320,0:01:30.870
+sehr zielgerichtet. Man kann die Ursprungsklauseln
+verwenden. Man kann Klauseln, die unterwegs entstanden
+
+0:01:30.870,0:01:35.790
+sind, später nochmals wiederverwenden etc.
+Und man hat die Qual der Wahl welches Literal man den jeweils nimmt.
+
+0:01:37.260,0:01:43.470
+Also man siehe wirklich dieses Beispiel zu Beginn dieser
+Vorlesungswoche, wo da dieses "Spaghetti-Bild"
+
+0:01:43.470,0:01:51.180
+entstanden ist, mit ganz vielen Querverweisen.
+Ein zweiter Nachteil des Resolutionsverfahren ist, dass
+
+0:01:51.180,0:01:55.590
+wenn sich herausstellt, dass die ursprüngliche
+Formel doch erfüllbar ist, dass wir also die leere
+
+0:01:55.590,0:02:00.450
+Klausel nicht herleiten können, dann kann das zum einen dauern,
+bis wir das festgestellt haben und zum anderen
+
+0:02:00.450,0:02:04.890
+haben wir selbst dann, wenn wir jetzt wissen die
+Formel muss erfüllbar sein, weil die leere Klausel
+
+0:02:04.890,0:02:09.420
+durch Resolution nicht herleitbar ist, haben
+wir noch lange keine konkrete erfüllende Belegung.
+
+0:02:10.050,0:02:16.230
+Also man kann nicht einfach einen nicht zu einer
+leeren Klausel führenden Resolutionsgraphen
+
+0:02:16.230,0:02:21.900
+nehmen und daraus irgendwie ablesen für welche
+Belegung denn die Ursprungsformel erfüllbar war.
+
+0:02:21.900,0:02:29.940
+Also das ist einfach schwierig und bei allgemeinen
+KNF's ist das so. Aber wir haben
+
+0:02:29.940,0:02:36.420
+ja diese spezielle Klasse von Teilformeln,
+also nicht Teilformeln, sondern Teilklassen von KNF,
+
+0:02:36.420,0:02:42.900
+kennengelernt. Nämlich die sogenannten Hornformeln. Das sind
+eben auch KNF's, aber in bestimmter Art und Weise.
+
+0:02:42.900,0:02:48.960
+Diese Forderungen, dass nur jemals maximal ein
+positives Literal in jeder Klausel sein darf.
+
+0:02:48.960,0:02:55.800
+Und dann hatten wir die auch umgeschrieben. Nämlich in so
+eine Implikationsschreibweise. Wo wir Implikationen
+
+0:02:55.800,0:03:02.520
+haben und links jeweils eine Konjunktion
+von Elementaraussagen stehen darf und rechts eine
+
+0:03:02.520,0:03:06.870
+Elementaraussage. Wir haben aber auch gesagt, wenn
+dort mehrere konjugiert stünden, könnte man das in
+
+0:03:06.870,0:03:13.410
+mehrere Implikationen aufsplitten. Es darf außerdem
+rechts auch 0 stehen, als falsch/ Falschaussage
+
+0:03:13.410,0:03:20.970
+und links darf 1 stehen. Dann ist das hier ein
+Fakt. Und diese Art Klauseln nannten wir die Anfrageklauseln.
+
+0:03:20.970,0:03:27.150
+Das war also eine spezielle Schreibweise zunächst
+erst mal. Wir werden gleich sehen, inwiefern die uns
+
+0:03:27.150,0:03:35.640
+beim Markierungsalgorithmus hilft. Relevant war
+noch, dass wir keine Klauseln in dieser
+
+0:03:35.640,0:03:40.470
+Hornformel-Schreibweise zulassen, wo rechts der Implikation
+eine Disjunktion steht. Das ist das Entscheidende
+
+0:03:40.470,0:03:45.540
+letztlich, was diese Klasse von KNF's unterscheidet.
+Nicht nur in der Schreibweise, sondern tatsächlich
+
+0:03:45.540,0:03:50.850
+von der Möglichkeit, was man damit ausdrücken kann.
+Wenn wir links eine Disjunktion hätten, also wenn hier stünde:
+
+0:03:56.430,0:03:59.130
+((A ∨ C) => B), könnten wir das immer noch aufsplitten in
+zwei Klauseln: (A => B) und (C => B). Wenn wir sagen ((A ∨ C) => B),
+
+0:03:59.130,0:04:07.050
+also wenn A oder C gilt, dann gilt B, das ist äquivalent dazu zu sagen:
+"Wenn A gilt, gilt B und übrigens auch wenn C gilt, gilt B".
+
+0:04:07.050,0:04:14.070
+Aber wenn wir rechts eine Disjunktion haben, kann man das
+nicht in eine äquivalente Hornformel immer überführen.
+
+0:04:17.460,0:04:22.110
+Also wir haben diese spezielle Klasse. Und jetzt kann man sich
+fragen, warum soll das für die irgendwie besser
+
+0:04:22.110,0:04:28.500
+gehen und vielleicht nicht diese Nachteile des
+allgemeinen Resolutionsverfahren fortbestehen?
+
+0:04:28.500,0:04:33.570
+Diese Implikationsschreibweise, die deutet das schon
+ein bisschen an, was man hier vielleicht
+
+0:04:33.570,0:04:38.580
+anderes tun kann. Man kann nämlich wirklich
+versuchen, das hier wie so ein Puzzle zu lösen.
+
+0:04:38.580,0:04:43.140
+Also wenn ich mich Frage, ist denn diese Formel
+erfüllbar, dann könnte ich nach Belegungen suchen, indem
+
+0:04:43.140,0:04:49.380
+ich zum Beispiel sage: C muss zum Beispiel wahr sein.
+In jeder diese Konjunktion erfüllenden
+
+0:04:49.380,0:04:55.020
+Belegungen muss ja insbesondere auch dieser letzte
+Konjunkt wahr sein. Und der ist nur dann wahr, wenn
+
+0:04:55.020,0:04:59.790
+C = 1 ist. Wenn ich C mit 0 belege, dann habe ich
+(1 => 0), also aus Wahr folgt Falsch.
+
+0:04:59.790,0:05:06.210
+Und das ist nicht wahr. Also kann ich hier aus
+der Form dieser Teilformel sehen, dass C = 1 sein muss.
+
+0:05:06.210,0:05:10.740
+Und dann kann ich mich so auf die Jagd begeben und
+suchen, was daraus folgt, wenn ich C kenne.
+
+0:05:10.740,0:05:16.650
+Wenn ich weiß, das C = 1, dann würde ich sehen, dass auch
+D = 1 ist, weil ja D aus C folgt.
+
+0:05:16.650,0:05:23.370
+Und so kann man sich durch die Formel entlang hangeln,
+wenn Sie diese spezielle Form hat und
+
+0:05:23.370,0:05:30.210
+rechts keine Disjunktionen auftauchen.
+Also deswegen können wir an diesem einfachen Beispiel
+
+0:05:30.210,0:05:37.050
+die Idee des Markierungsalgorithmus durchsprechen
+und ihn uns danach allgemein aufgeschrieben anschauen.
+
+0:05:37.050,0:05:43.770
+Also das ist einfach noch mal die gleiche Formel wie hier.
+Und jetzt ist der erste Schritt tatsächlich der, den ich gerade
+
+0:05:43.770,0:05:49.980
+schon intuitiv gerechtfertigt habe. Also wenn ich
+mir diese Klauseln anschaue, dann sticht da diese
+
+0:05:49.980,0:05:55.590
+Tatsachenklausel hervor. Der Fakt, der mir nämlich sagt,
+dass in jeder erfüllenden Belegung C = 1 sein muss.
+
+0:05:55.590,0:06:05.220
+Und das können wir uns merken/ festhalten,
+indem wir hier dieses C markieren.
+
+0:06:05.220,0:06:10.680
+Also ich habe hier festgestellt, dass C = 1 sein muss, damit
+ich eine erfüllende Belegung habe. Dann markiere ich
+
+0:06:10.680,0:06:17.010
+mir dieses C hier, da ich das jetzt festgestellt habe.
+Ich unterstreiche das C als eine Aussage, die
+
+0:06:17.010,0:06:23.820
+auf jeden Fall 1 sein muss. Das mache ich tatsächlich
+nicht nur hier, sondern damit ich diese Information wirklich
+
+0:06:23.820,0:06:32.210
+gut festhalte, unterstreiche ich einfach alle Vorkommen von C
+in der Formel. Erst hatte ich das unterstrichen. Und ich
+
+0:06:32.210,0:06:37.850
+unterstreiche auch alle anderen. Also weil ich diesen Fakt hier
+habe, unterstreiche ich in der gesamten Formel
+
+0:06:37.850,0:06:47.570
+alle Vorkommen dieser Atomaraussage C. Und das werte ich
+ab jetzt, als C muss auf jeden Fall wahr sein.
+
+0:06:47.570,0:06:52.700
+Wie geht es dann weiter? Ich halte dann Ausschau nach anderen
+Klauseln, für die ich jetzt vielleicht irgendwas folgern kann.
+
+0:06:52.700,0:06:56.780
+Wir haben kein weiteren Fakt. Wir haben keine
+weitere Formel der Form (1 => irgendwas).
+
+0:06:56.780,0:07:04.490
+Aber wir haben jetzt eine Formel, die wir weiter
+sozusagen ausnutzen können. Wir wissen aus (C => D)
+
+0:07:04.490,0:07:08.750
+und wir haben gerade festgelegt, dass C = 1 sein muss.
+Dann könnten wir anhand dieser Klausel auch feststellen, dass
+
+0:07:08.750,0:07:14.570
+D auch gleich 1 sein muss. Hier vorn können wir das noch nicht tun.
+Wir können noch nicht sagen, dass B = 1 sein muss, denn
+
+0:07:14.570,0:07:19.940
+da wissen wir nur, dass B gilt, wenn A und C gelten. Wir haben aber
+gerade nur C markiert. Das A ist noch nicht markiert. Über
+
+0:07:19.940,0:07:23.840
+A wissen wir noch nichts. Also die Klausel kann
+ich noch nicht ausnutzen. Aber die Klausel kann ich
+
+0:07:23.840,0:07:31.940
+sicherlich ausnutzen. Wie mache ich das? Weil C schon
+markiert ist und ich diese Klausel hier habe, muss auch
+
+0:07:31.940,0:07:39.290
+D = 1 sein in jeder erfüllenden Belegung. Und wie
+halte ich das fest? Wieder durch Markierungen.
+
+0:07:39.290,0:07:45.860
+Also ich markiere dieses D und auch jedes andere D in
+der Gesamtformel. Das heißt in diesem Fall, dass ich
+
+0:07:45.860,0:07:52.190
+dieses D noch markiere. Und dann sehen Sie in diesem Fall
+jetzt schon, dass ich hier vorne immer noch
+
+0:07:52.190,0:07:57.050
+nichts tun kann. Aber weil ich dieses D jetzt markiert
+habe, kann ich nun folgern, dass folglich A wahr sein
+
+0:07:57.050,0:08:03.500
+muss. Und so arbeite ich mich durch die Formel. Also
+nächster Schritt wäre, weil es diese Implikation
+
+0:08:03.500,0:08:10.400
+gibt und D jetzt markiert ist, können wir auch A
+als mit 1 belegt festlegen und markieren. Das heißt,
+
+0:08:10.400,0:08:16.340
+hier wird A markiert und hier wird A markiert.
+Und jetzt haben wir die Situation, dass wir hier vorne
+
+0:08:16.340,0:08:23.150
+jetzt beide Vorbedingungen erfüllt haben/ markiert
+haben. Und auch erst dann dürfen wir das tun. Also
+
+0:08:23.150,0:08:27.140
+erst, wenn alle Aussagen in der Voraussetzung
+einer solchen Implikationsklausel erfüllt
+
+0:08:27.140,0:08:33.740
+sind, also markiert sind, können wir auch die
+Aussage aus der Folgerung markieren. Also hier durfte
+
+0:08:33.740,0:08:38.120
+ich das noch nicht. Ich durfte hier nicht B markieren, weil A
+noch nicht markiert war. Nach diesem Schritt ist A markiert
+
+0:08:38.120,0:08:44.930
+und C ist sowieso schon markiert von weiter vorn,
+deswegen darf ich jetzt im nächsten Schritt B markieren.
+
+0:08:44.930,0:08:51.110
+Das tu ich hier. Und natürlich auch überall sonst. Also
+insbesondere auch hier. Jetzt kann ich wieder
+
+0:08:51.110,0:08:56.300
+gucken, gibt es irgendwelche Klauseln, aus den ich irgendetwas lernen
+kann? Eigentlich ist nur noch diese Klausel über, mit der ich noch
+
+0:08:56.300,0:09:02.270
+nichts gemacht habe. Und die hat diese ganz spezielle Form,
+dass da steht: irgendetwas, was jetzt mittlerweile
+
+0:09:02.270,0:09:08.570
+markiert ist, impliziert 0. Und was heißt das für uns?
+Einerseits haben wir hergeleitet, dass B in jeder
+
+0:09:08.570,0:09:14.510
+erfüllenden Belegung mit 1 belegt sein muss, wegen
+dieser Markierungsschritte. Aber, wenn B mit 1
+
+0:09:14.510,0:09:20.480
+markiert ist, dann würde hier stehen: (1 => 0).
+"Aus wahr folgt falsch." Das ist genau ein
+
+0:09:20.480,0:09:26.450
+Widerspruch. Das darf nicht sein. Also wenn wir
+eine Klausel haben, in der alle Vorbedingungen
+
+0:09:26.450,0:09:33.860
+markiert sind und die Konsequenz aus dieser Implikation
+soll 0 sein, (dieser Spezialfall, wo hier rechts eben keine
+
+0:09:33.860,0:09:39.260
+Elementaraussage steht, sondern die 0), dann haben
+wir einen Widerspruch. Und das ist gleichbedeutend
+
+0:09:39.260,0:09:44.690
+damit, dass die Ursprungsformel nicht erfüllbar
+gewesen sein kann. Also hätten wir jetzt für diese
+
+0:09:44.690,0:09:50.240
+spezielle Formel ohne Verwendung von Resolution,
+sondern mit diesen Markierungsschritten,
+
+0:09:50.240,0:09:57.590
+mit der Jagd sozusagen nach weiteren zu
+markierenden Elementaraussagen bis dahin, dass
+
+0:09:57.590,0:10:04.760
+wir irgendwann bei der 0 angekommen sind und alle
+ihre Vorbedingungen markiert waren, haben wir auf
+
+0:10:04.760,0:10:11.780
+diese Weise auch nachgewiesen ohne Verwendung von
+Resolution, dass diese Formel unerfüllbar ist.
+
+0:10:11.780,0:10:19.490
+Also das passierte auf jeden Fall schon mal zielgerichteter,
+als so mancher Resolutionsschritt oder manche Ausführungen des
+
+0:10:19.490,0:10:26.870
+Resolutionsverfahren. Das ist also schon mal erfreulich
+in diesem konkreten Beispiel. Dann müssen wir uns
+
+0:10:26.870,0:10:32.930
+natürlich anschauen, wie das im Allgemeinen funktionieren
+soll. Im wesentlichen ist das dann eine
+
+0:10:32.930,0:10:37.430
+Verbalisierung oder allgemeinere Beschreibung
+dieser Schritte, die wir in dem Beispiel auch gesehen hatten.
+
+0:10:38.000,0:10:46.580
+Damit wir später insbesondere in den Übungen/
+in der Klausur nachvollziehen können was passiert
+
+0:10:46.580,0:10:53.150
+ist, (Ich hatte hier schrittweise die einzelnen Formeln/
+Formelteile markiert) wenn wir am Ende nur noch
+
+0:10:53.150,0:10:57.410
+das hier über haben, sieht man natürlich nicht mehr
+in welcher Reihenfolge etwas markiert wurde.
+
+0:10:57.410,0:11:02.030
+Außer man schreibt das in dieser Ausführlichkeit hin.
+Damit wir das auch in der Formel
+
+0:11:02.030,0:11:07.460
+direkt nachvollziehen können, werden wir fortan,
+wenn wir diese Markierungen durchführen,
+
+0:11:07.460,0:11:14.240
+jeweils noch eine Nummer dran schreiben.
+Die Schrittnummer, in welcher Reihenfolge/
+
+0:11:14.240,0:11:19.910
+in welchen Schritt wir welche Aussagen markiert haben.
+Deswegen steht hier im allgemeinen Algorithmus
+
+0:11:19.910,0:11:26.660
+noch etwas von einer Schrittnummer. Die ist am Anfang eben
+niedrig und steigt dann, wann immer wir einen
+
+0:11:26.660,0:11:30.980
+dieser Markierungsschritte durchführen. Also immer,
+wenn wir eine neue Elementaraussage hinzunehmen,
+
+0:11:30.980,0:11:38.180
+die wir markieren können, zählen wir den Schrittzähler
+nach oben. Und wie sieht dann der Algorithmus aus?
+
+0:11:38.180,0:11:43.640
+Was macht der? Zunächst werden eben diese Fakten
+ausgenutzt. Also jede Teilformel dieser Form
+
+0:11:43.640,0:11:50.000
+"1 => irgendeine Elementaraussagen" führt dazu, dass wir alle
+Vorkommen von A in der Gesamtformel markieren und
+
+0:11:50.000,0:11:56.090
+dafür die Schrittnummer 1 verwenden. Das war eben auch der
+erste Schritt. Hier ist wirklich wichtig:
+
+0:11:56.090,0:12:00.980
+"für jede Teilformel". Im Beispiel eben gab es genau nur eine,
+aber wenn wir mehrere Teilformeln dieser Form haben, dann
+
+0:12:00.980,0:12:06.125
+werden die alle direkt im ersten Schritt markiert
+und auch mit der Schrittnummer 1 versehen.
+
+0:12:06.125,0:12:12.020
+Das war wie dieses Verfahren beginnt. Danach
+hatten wir immer die Ausschau gehalten, nach weiteren
+
+0:12:12.020,0:12:19.340
+Klauseln. Insbesondere solchen, bei denen alle
+Vorbedingungen, also alle Teile der Konjunktion links
+
+0:12:19.340,0:12:27.560
+des Implikationspfeils schon markiert waren.
+Also solange es Teilformeln dieser Art gibt, wobei alle
+
+0:12:27.560,0:12:34.700
+A_i bereits markiert sind. Also die wären alle schon
+unterstrichen in unserer aktuellen Formel. Wenn wir
+
+0:12:34.700,0:12:40.340
+so etwas finden, dann schauen wir uns an, was rechts davon steht.
+Steht da 0 ? Oder steht da eine weitere Aussage ?
+
+0:12:40.340,0:12:45.800
+Im Beispiel eben hatten wir dort immer erst
+Elementaraussagen stehen und ganz am Ende die 0.
+
+0:12:45.800,0:12:51.530
+Wir haben auch schon gesehen, wenn dort eine
+0 steht an der Stelle, dann können wir sagen,
+
+0:12:51.530,0:12:56.540
+das Verfahren bricht ab und die Ursprungsformel war unerfüllbar.
+Das ist eben im Beispiel ganz am Schluss passiert.
+
+0:12:56.540,0:13:02.570
+Das hätte auch schon eher passieren können.
+Also sobald es uns gelingt so eine Teilformel zu sehen,
+
+0:13:02.570,0:13:10.520
+wo alle Aussagen links schon markiert sind
+(aus vorherigen Schritten natürlich) und rechts steht die 0,
+
+0:13:10.520,0:13:16.280
+dann war die Ursprungsformel unerfüllbar und wir
+können das an dieser Stelle feststellen. Das ist also der Fall,
+
+0:13:16.280,0:13:21.530
+wo wir aufhören können. Im dem anderen Fall, wenn hier nicht 0
+steht, dann kann da nur eine Elementaraussage stehen.
+
+0:13:21.530,0:13:26.630
+Also sowas sie B, C, D oder was auch immer.
+Und dann wissen wir, dass waren die Schritte, wo wir
+
+0:13:26.630,0:13:33.080
+markieren müssen. Also wir werden dann dieses B markieren.
+Aber auch alle Vorkommen von B anderswo in der Formel.
+
+0:13:33.080,0:13:38.270
+Und wir benutzen dafür den nächsten Schrittzähler.
+Also wir nehmen den bisherigen Schrittzähler. Am Anfang war das
+
+0:13:38.270,0:13:43.070
+die Nummer 1. Beim ersten Mal, wo wir etwas neu markieren würden,
+würden wir den Schrittzähler hochzählen auf zwei. Und jetzt
+
+0:13:43.070,0:13:48.170
+alle Vorkommen von B mit zwei markieren und dann im nächsten
+Schritt mit drei etc. Bis wir vielleicht irgendwann
+
+0:13:48.170,0:13:55.370
+auf diesen Fall stoßen. Jetzt kann es auch sein, dass wir
+niemals auf den Fall stoßen. Dass wir einfach
+
+0:13:55.370,0:14:00.290
+zählen, zählen, zählen, markieren, markieren, markieren.
+Irgendwann ist alles markiert. Oder zumindest finden
+
+0:14:00.290,0:14:06.290
+wir nichts mehr dieser Art, wo links alles markiert
+ist. Und wir haben noch nicht diesen Fall getroffen,
+
+0:14:06.290,0:14:15.920
+wo die 0 herauskam. Was ist dann? Dann wissen
+wir, dass die Formel doch erfüllbar ist. Also wenn
+
+0:14:16.520,0:14:21.950
+wir das für jede Teilformel probiert haben und auch wirklich so
+lange diese Schritte durchgeführt haben, bis es nicht
+
+0:14:21.950,0:14:27.920
+mehr geht, bis wir also keine Teilformel dieser Form
+mehr finden mit allen linken Teilen unterstrichen
+
+0:14:27.920,0:14:33.470
+und wir auch nirgendwo gestoppt haben, wir also
+nicht irgendwann ausgestiegen sind, sondern wir das wirklich
+
+0:14:33.470,0:14:38.300
+gemacht haben, gemacht haben, gemacht haben bzw. nie
+stoppen durften, wegen dieses Falls, aber irgendwann
+
+0:14:38.300,0:14:42.740
+auch nicht mehr weitermachen können, weil es keine
+weiteren Teilformeln mehr gibt, also wenn dieser Ablauf
+
+0:14:42.740,0:14:47.960
+nicht zu unerfüllbar geführt hat und wir trotzdem
+nicht mehr weitermachen können, weil es nichts
+
+0:14:47.960,0:14:54.410
+mehr gibt zu markieren nach der Regel hier, dann
+wissen wir die Formel war erfüllbar. Dann geben wir das
+
+0:14:54.410,0:15:02.300
+auch aus. Und anders als beim Resolutionsverfahren,
+können wir jetzt auch eine Belegung ablesen.
+
+0:15:02.300,0:15:08.480
+Und zwar haben wir ja bei dem Markieren jeweils immer
+implizit festgelegt, dass die entsprechend markierten
+
+0:15:08.480,0:15:15.410
+Aussagen wahr sein müssen. Das heißt eine Belegung α,
+in der wir alle markierten Aussagen auf 1 setzen
+
+0:15:15.410,0:15:23.930
+und alle anderen auf 0 ist eine
+erfüllbare/ erfüllende Belegung. Die anderen
+
+0:15:23.930,0:15:28.220
+auf 0 zu setzen, das können wir sagen, ist vorsichtshalber.
+Wir haben ja keinen Grund sie auf 1 zu setzen, weil wir sie
+
+0:15:28.220,0:15:33.800
+nicht markiert haben. Manchmal kann es auch sein, dass
+durchaus auch einige der anderen Aussagen auf 1 gesetzt
+
+0:15:33.800,0:15:37.250
+werden dürften und das trotzdem eine erfüllende Belegung wäre,
+aber es gibt auch Gegenbeispiele, wo das nicht funktioniert.
+
+0:15:37.250,0:15:42.530
+Wenn wir aber die markierten Aussagen auf 1
+setzen und alle anderen einfach
+
+0:15:42.530,0:15:48.620
+auf 0, dann haben wir in diesen Fall,
+(also wenn wir wirklich in diesem Fall gelandet sind am Ende)
+
+0:15:48.620,0:15:54.950
+dann haben wir wirklich ein erfüllende Belegung.
+So funktioniert der Algorithmus. Wir haben ihn gerade am Beispiel
+
+0:15:54.950,0:16:03.320
+gesehen. Und gleich werde ich das nochmal aufgeschrieben
+haben mit den Nummern der Schritte da dran. Also wie das am Ende
+
+0:16:03.320,0:16:07.160
+aussehen würde, wenn man nicht die Zwischenschritte alle sehen kann.
+Etwa auf einem Blatt Papier, während der Übung oder Klausur.
+
+0:16:07.160,0:16:16.190
+Erstmal fragt man sich: Hört der Algorithmus wirklich immer auf?
+Terminiert der? Ja das ist ziemlich offensichtlich.
+
+0:16:16.190,0:16:22.760
+Offensichtlicher als bei der Resolution.
+Wir fangen ja immer irgendwie bei einer nicht markierten
+
+0:16:22.760,0:16:27.440
+Formel an. Fangen da an Sachen drin
+zu markieren. Und das kann letztlich nicht länger
+
+0:16:27.440,0:16:34.670
+dauern, als bis wir entweder jede Formel markiert haben/
+jede Teilformel, jede Elementaraussage markiert haben
+
+0:16:34.670,0:16:40.790
+oder es irgendwann einfach nichts mehr gibt, weil es keine
+Schritte dieser Art mehr gibt/ keine Teilformel dieser
+
+0:16:40.790,0:16:45.170
+Art mehr gibt, wo alles links markiert ist. Das heißt,
+es kann nicht sein, dass wir das unendlich lange tun.
+
+0:16:45.170,0:16:53.690
+Irgendwann ist Schluss! Definitiv! Das kann man sich leicht überlegen,
+dass dieses Vorgehen beschränkt ist.
+
+0:16:53.690,0:17:00.320
+Und was man hier in dieser Algorithmusform vielleicht auch besser
+sehen kann, als an dem Beispiel eben, wenn
+
+0:17:00.320,0:17:05.600
+das Problem bestünde, wenn rechts von so einer
+Implikation auch Disjunktionen stehen dürften.
+
+0:17:05.600,0:17:12.140
+Dann wüssten wir hier nämlich gar nicht,
+welche dieser Aussagen wir markieren sollten.
+
+0:17:12.140,0:17:16.520
+Also dass wir Hornformeln haben/ dass wir diese Form haben, dass
+die Hornklauseln immer die Form, dass links diese Aussagen
+
+0:17:16.520,0:17:23.030
+in Konjunktion stehen und rechts genau eine weitere
+Aussage oder 0, führt dazu, dass wir
+
+0:17:23.030,0:17:27.200
+in dem Schritt wirklich genau wissen, wo wir mit
+Markieren weitermachen können. Wenn hier recht irgendwie
+
+0:17:27.200,0:17:32.030
+B v C stünde, dann dürften wir beide nicht markieren.
+Das wäre einfach zu viel gefolgert.
+
+0:17:32.030,0:17:37.340
+Wenn hier steht aus A_1 bis A_k folgt (B ∨ C), dann
+dürfen wir nicht einfach sagen: "B und C müssen
+
+0:17:37.340,0:17:42.170
+beide 1 sein." Wir können uns aber auch nicht für
+eins entscheiden. Während, wenn hier immer nur B stehen kann,
+
+0:17:42.170,0:17:49.130
+klar ist, wie der Algorithmus weitermachen muss. Das wäre die
+Intuition dafür, warum diese Hornformelform wichtig ist für
+
+0:17:49.130,0:17:57.410
+den Markierungsalgorithmus und für generell diese Art Vorgehen.
+Schauen wir uns das noch
+
+0:17:57.410,0:18:01.400
+mal an, wie wir das jetzt mit diesen Schrittnummern
+aufschreiben würden für das Beispiel, was wir eben
+
+0:18:01.400,0:18:06.590
+gesehen haben. Das könnte dann eben so aussehen.
+Also das ist die gleiche Formel, wie vorhin,
+
+0:18:06.590,0:18:15.110
+mit den gleichen Unterstreichungen.
+Aber hier stand erster, zweiter, dritter Schritt etc.
+
+0:18:15.110,0:18:23.720
+Das wären hier jetzt eben die Schrittnummern oben an die Aussagen
+drangeschrieben und auch vielleicht hier unten separat
+
+0:18:23.720,0:18:32.450
+zur deutlichkeitshalber noch mal aufgeschrieben in
+welchen Schritt, wir welche Aussage markiert haben.
+
+0:18:32.450,0:18:38.390
+Und auch das Protokoll am Ende sozusagen nach
+dem vierten Schritt, weil wir dann auf diese Klausel
+
+0:18:38.390,0:18:43.070
+gestoßen waren und das B markiert war, die Ausgabe
+ist unerfüllbar. Im anderen Fall, wenn es erfüllbar
+
+0:18:43.070,0:18:52.430
+wäre, würden wir natürlich dann noch die Belegung angeben.
+Relevant noch: Das muss nicht immer so
+
+0:18:52.430,0:18:59.450
+eindeutig sein sozusagen, dass da überall genau
+eine Aussage steht und auch noch die Reihenfolge
+
+0:18:59.450,0:19:04.640
+von vornherein fix ist. Das muss nicht so sein.
+In diesem Beispiel gab es genau diese Möglichkeit.
+
+0:19:04.640,0:19:10.160
+Im Allgemeinen kann es a) passieren, dass im ersten Schritt
+zumindest mehrere Aussagen stehen. Bei den späteren
+
+0:19:10.160,0:19:14.240
+nicht mehr, aber im ersten Schritt könnten durchaus
+mehrere Aussagen markiert werden. Das liegt an diesem
+
+0:19:14.240,0:19:22.490
+"jede" hier. Während es hier immer genau um ein B geht.
+Und es kann auch vorkommen je nach Formel, mit der wir
+
+0:19:22.490,0:19:28.250
+bearbeiten, dass es durchaus verschiedene richtige
+Lösungen gibt, die leicht andere Schrittreihenfolgen haben.
+
+0:19:28.250,0:19:32.780
+Das Endergebnis, ob erfüllbar oder nicht,
+darf ich natürlich nicht ändern, aber
+
+0:19:32.780,0:19:38.600
+diese Nummern können manchmal leicht verschieden
+vergeben sein, weil es egal, ob ich erst
+
+0:19:38.600,0:19:44.150
+A und dann D oder erst D und dann A markiere.
+In dem Beispiel nicht. Da war die Reihenfolge sehr
+
+0:19:44.150,0:19:54.770
+fest. Man konnte in keiner anderen sinnvollen Reihenfolge
+gültigerweise die Markierungen durchführen.
+
+0:19:54.770,0:20:01.020
+Schauen wir noch mal auf ein anderes Beispiel.
+Nehmen wir mal diese Formel. Da müssen wir uns natürlich erst
+
+0:20:01.020,0:20:06.330
+überzeugen, ob das überhaupt eine Hornformel ist.
+Das ist offenkundig eine KNF. Das ist eine Konjunktion
+
+0:20:06.330,0:20:12.960
+von Disjunktionen. Und in der Tat jede der
+inneren Teilformeln, also jede Disjunktion enthält
+
+0:20:12.960,0:20:19.290
+höchstens ein positives Literal. Das ist hier der Fall.
+Da sind A und C positive Literale. Hier gibt es genau ein
+
+0:20:19.290,0:20:25.290
+positives Literal und hier auch. Hier gibt es zum Beispiel
+keins. Das wäre also eine Klausel, die nur aus
+
+0:20:25.290,0:20:33.600
+negativen Literalen besteht. Jetzt können wir wieder schauen, wie
+der Markierungsalgorithmus hier ablaufen wird.
+
+0:20:33.600,0:20:40.260
+In dem Fall entwickle ich den jetzt nicht sozusagen in allen
+einzelnen Schritten. Wir können uns hier relativ direkt überlegen,
+
+0:20:40.260,0:20:47.070
+was passieren wird. Also a) würden wir das
+natürlich in die Hornformelform bringen.
+
+0:20:47.070,0:20:54.960
+Also A und C etwa würden zu (1 => A) und (1 => C) werden.
+Hier draus würde (C => D) werden. Hier draus
+
+0:20:54.960,0:21:03.480
+würde (F => 0) und etwa hieraus würde ((C ∧ D) => E) werden.
+Dann würden wir uns auf die Suche begeben
+
+0:21:03.480,0:21:09.690
+nach Fakten. Das wären A und C.
+Also in dem Fall würden wir direkt im ersten Schritt A
+
+0:21:09.690,0:21:17.430
+und C markieren. Und deswegen auch jeweils eine 1
+an alle Vorkommen von A und C dranschreiben.
+
+0:21:17.430,0:21:24.210
+Und danach müssen wir mal schauen, wie es dann weiterginge.
+Zum Beispiel könnten wir danach mittels dieser Implikation
+
+0:21:24.210,0:21:30.990
+(C => D) dann aus dem C das D folgen.
+Also das Endergebnis des Markierungsalgorithmus hier
+
+0:21:30.990,0:21:36.720
+könnte so aussehen. Das sind zunächst erst mal die
+Implikationsformen dieser Klauseln und dann sehen
+
+0:21:36.720,0:21:40.920
+Sie hier, in welcher Reihenfolge ich das getan habe.
+Also A und C wurden im ersten Schritt zuerst markiert,
+
+0:21:40.920,0:21:50.400
+weil es diese Fakten sind. Dann hatte mich hier
+entschieden als nächstes mittels dieser Implikation D
+
+0:21:50.400,0:21:56.730
+zu folgern. Deswegen steht hier im Schritt 2 D und
+an den D Vorkommen steht eine 2 dran.
+
+0:21:56.730,0:22:01.770
+Danach in Schritt 3 hatte ich dann B gefolgert aus A.
+Deswegen steht hier die 3 und hier eben auch B bei Schritt 3.
+
+0:22:02.340,0:22:10.980
+Und im letzten Schritt E. Also relevant
+hier (zufälligerweise in diesem Beispiel): B hätte
+
+0:22:10.980,0:22:16.830
+hier auch vor D oder nach E kommen können.
+Also D kann nicht nach E kommen. Das sehen wir letztlich
+
+0:22:16.830,0:22:21.810
+hier dran. Um das verwenden zu können, müssen
+wir erst D schon wissen. Also D kann nicht
+
+0:22:21.810,0:22:28.380
+nach hinten getauscht werden, nicht hinter E zumindest.
+Aber Schritt 3 könnte sowohl vor diesen Schritte kommen,
+
+0:22:28.380,0:22:33.510
+oder danach. Dann wäre eben die Nummerierung
+anders und dann würde hier eben z.B. 2 stehen und hier 3 stehen.
+
+0:22:33.510,0:22:40.260
+Was relevant hier ist: in dem Beispiel wird
+nicht alles markiert.
+
+0:22:40.260,0:22:44.520
+Wir haben, nachdem wir E markiert haben in Schritt vier, keine
+weiteren Markierungen mehr, die möglich sind.
+
+0:22:44.520,0:22:49.650
+Es gibt keine weiteren Klausel mehr, bei denen links
+alle Sachen markiert sind. Es gibt noch diese Klausel
+
+0:22:49.650,0:22:57.600
+(F => 0). Wenn wir das F markieren könnten irgendwie,
+könnten wir einen Widerspruch feststellen und
+
+0:22:57.600,0:23:04.320
+wüssten, dass die Ursprungsformel nicht erfüllbar war.
+In dem Fall passiert es aber nicht. Wir haben keine
+
+0:23:04.320,0:23:08.850
+Möglichkeit den Widerspruch festzustellen.
+Aber es gibt auch keine weiteren, anderen Schritt, die wird tun können.
+
+0:23:08.850,0:23:17.820
+Es gibt keine anderen Klauseln mehr, bei denen wir
+diesen Schritt hier tun könnten. Deswegen würden
+
+0:23:17.820,0:23:23.910
+wir jetzt hier den Algorithmus stoppen lassen.
+Aber eben nach abarbeiten dieses Teils. Wir hätten nirgendwo
+
+0:23:23.910,0:23:29.040
+unterwegs unerfüllbar ausgegeben. Deswegen muss die
+Ursprungsformel erfüllbar gewesen sein. Und wir
+
+0:23:29.040,0:23:34.740
+lesen aus den aktuellen Markierungen ab, was die
+erfüllende Belegung ist. Nämlich alle markierten
+
+0:23:34.740,0:23:41.160
+Aussagen werden auf 1 gesetzt. Das ist hier A, B, C, D, E.
+Also alle diejenigen, die hier in diesen Schritten auftauchten.
+
+0:23:41.160,0:23:47.370
+Und die einzige verbleibende Aussage, die nicht markiert
+wurde, ist das F. Das setzen wir auf 0. Und hier sehen
+
+0:23:47.370,0:23:52.170
+wir auch, wenn wir F auf 1 setzen würden, hätten wir keine
+erfüllende Belegung. Denn das würde diese Formel
+
+0:23:52.170,0:23:59.160
+hier oben verletzen, wenn wir F auf 1 setzen. Also hier ist es zum Beispiel
+wichtig, dass wir wirklich die nicht markierten Aussagen
+
+0:23:59.160,0:24:09.710
+auf 0 setzen und nicht einfach im Unklaren lassen.
+Zur Erinnerung: Bei Resolution ging das nicht.
+
+0:24:09.710,0:24:14.480
+Selbst, wenn wir hierfür Resolution durchgeführt hätten.
+Irgendwann festgestellt hätten, dass wir
+
+0:24:14.480,0:24:19.250
+nicht die leere Klausel ableiten können,
+hätten wir nicht ohne weiteres diese Belegung
+
+0:24:19.250,0:24:26.390
+aus dem Protokoll der Resolutionsdurchführung ablesen können.
+Während wir aus dieser Durchführung hier
+
+0:24:26.390,0:24:38.360
+die Belegung ablesen können. Die Reihenfolge hatte ich gesagt war egal.
+Wir müssen B aber natürlich auch herleiten.
+
+0:24:38.360,0:24:42.710
+Wir können zwar B nach hinten schieben, also
+erst E markieren und dann B. Wir müssen B aber natürlich
+
+0:24:42.710,0:24:48.620
+markieren. Also wenn wir B noch nicht markiert hätten, dürften
+wir nicht aufhören. Aber wenn wir alles markiert haben, was
+
+0:24:48.620,0:24:54.890
+markierbar ist und dennoch kein Widerspruch hergeleitet haben,
+das wir hier auch nicht können, dann ist die Formel eben
+
+0:24:54.890,0:25:04.520
+erfüllbar gewesen. Das hat jetzt an zwei Beispielen funktioniert.
+Funktioniert in dem Sinne,
+
+0:25:04.520,0:25:07.940
+dass sie mir hoffentlich glauben, dass das, was hier
+jeweils rausgekommen ist, auch wirklich stimmt.
+
+0:25:07.940,0:25:15.230
+Dass das wirklich ein erfüllende Belegung dafür ist.
+Und diese Formel wirklich nicht erfüllbar war,
+
+0:25:15.230,0:25:21.650
+was sie natürlich mit Resolution durchrechnen könnten.
+Man kann sich natürlich noch allgemein auch Fragen, ist
+
+0:25:21.650,0:25:26.060
+denn dieser Algorithmus garantiert korrekt? Kann man den
+vielleicht irgendwie mit Resolution in Beziehung setzen?
+
+0:25:26.060,0:25:31.070
+Und in der Tat kann man das formal beweisen, dass er korrekt ist.
+Das werden wir nicht tun, aber ich werde
+
+0:25:31.070,0:25:40.400
+zumindest auf der nächsten Folie zeigen, wie für dieses
+Beispiel das letztlich einem Resolutionsbeweis
+
+0:25:40.400,0:25:45.020
+entspricht. Denn natürlich ist diese Hornformel,
+wenn wir wieder die Implikationen ersetzen durch
+
+0:25:45.020,0:25:51.050
+Negation und Disjunktion, natürlich immer noch
+eine KNF. Die Hornformeln waren ja ein Teilmenge der KNF's,
+
+0:25:51.050,0:25:56.630
+bis auf die Schreibweise.
+Also könnten wir natürlich auch Resolution anwenden.
+
+0:25:56.630,0:26:01.280
+Und wir können mal schauen, was dabei dann passiert. Und da werden wir
+durchaus einen Zusammenhang zu dem Markierungsalgorithmus
+
+0:26:01.280,0:26:10.250
+mit etwas scharfen Hinschauen feststellen können.
+Also nehmen wir noch mal diese Hornformel
+
+0:26:10.250,0:26:17.630
+und denken uns die jetzt in Mengenschreibweise für die KNF geschrieben.
+Und wenn wir dann einen Resolutionsbeweis
+
+0:26:17.630,0:26:28.320
+führen würden, dann würde der etwa so aussehen.
+Was haben wir hier? Hier habe ich
+
+0:26:28.320,0:26:37.950
+die Klausel, die dieser Anfrage entspricht.
+Und hier, was jetzt hier Seitenklauseln genannt wird, weil sie so von
+
+0:26:37.950,0:26:45.990
+der Seite immer verwendet werden, das sind genau
+die restlichen Klauseln, die Programmklauseln dieser Hornformel.
+
+0:26:45.990,0:26:53.580
+Und erst mal können Sie nachprüfen, dass das hier tatsächlich
+eine gültige Resolution ist.
+
+0:26:53.580,0:26:59.280
+Also das sind alles Resolutionsschritte und die
+führten zur leeren Aussage, zur leeren Klauseln. Das heißt, das
+
+0:26:59.280,0:27:06.960
+wäre ein alternativer Beweis per Resolution,
+dass diese Formel nicht erfüllbar ist.
+
+0:27:07.950,0:27:13.380
+Aber interessanterweise ist es eben auch eine ganz
+spezielle Resolution. Zum einen ist die strukturell
+
+0:27:13.380,0:27:19.590
+sehr einfach. Wir starten nämlich mit der Anfrageklausel
+und verwenden dann für die Resolution
+
+0:27:19.590,0:27:25.590
+immer eine von den Programmklauseln. Die heißen auch
+Seitenklauseln, weil man nie eine Klausel verwendet
+
+0:27:25.590,0:27:37.500
+die zum Beispiel weiter oben in dem aktuellen
+Pfad sozusagen war. Das ist ja völlig anders als etwa in
+
+0:27:37.500,0:27:50.510
+in diesem Beispiel hier, wo wild durcheinander
+die Klauseln verwendet worden. Und auch Klauseln, die
+
+0:27:50.510,0:27:54.650
+als Resolvent herauskamen in
+weiteren Schritten verwendet werden. Und zwar
+
+0:27:54.650,0:28:02.570
+mehrfach und an verschiedenen Stellen. Was wir hier
+haben in dem Beispiel ist ja ähnlich zu diesem
+
+0:28:02.570,0:28:07.460
+einfachen Beispiel, was wir auch in der Vorlesung hatten,
+wo man nämlich eigentlich immer sozusagen mit
+
+0:28:07.460,0:28:11.990
+zwei Klauseln aus der Ursprungsformel startet,
+die resolviert und dann das Ergebnis
+
+0:28:11.990,0:28:18.110
+davon wieder mit einer Formel/ einer Klausel aus der
+Ursprungsformel resolviert usw.
+
+0:28:20.330,0:28:26.630
+Das nennt man auch eine lineare Resolution, weil sie eben
+diesen geradlinigen Weg hat und nicht so völlig
+
+0:28:26.630,0:28:34.580
+verworren ist, wie hier. Und was wir hier haben
+ist auch so eine lineare Resolution. Was man feststellen
+
+0:28:34.580,0:28:39.260
+kann ist, dass der Markierungsalgorithmus immer solch
+einer linearen Resolution dieser einfachen Form entspricht.
+
+0:28:39.260,0:28:44.840
+Darüber hinaus können wir noch weitere Beziehungen feststellen.
+
+0:28:44.840,0:28:51.590
+Also wenn wir uns zum Beispiel die Schritte, die hier vorkamen, anschauen:
+C, D, A, B das war die Reihenfolge, in der wir hier markiert haben.
+
+0:28:52.640,0:28:57.320
+Das entspricht in umgekehrter Reihenfolge
+genau den Resolutionsschritten hier.
+
+0:28:57.320,0:29:04.370
+Also wir hatten gerade C, D, A, B und wenn wir hier gucken:
+haben wir C, D, A, B. Also wenn wir uns jeweils das positive Literal
+
+0:29:04.370,0:29:09.020
+anschauen, mit dem hier resolviert wurde, ist das genau C, D, A, B.
+Also im Grunde genommen werden hier die Schritte
+
+0:29:09.020,0:29:13.130
+in genau der umgekehrten Reihenfolge wie
+im Markierungsalgorithmus durchgeführt.
+
+0:29:13.130,0:29:18.290
+Und das ist auch kein Zufall für dieses Beispiel. Das ist immer
+so, dass so ein Markierungsalgorithmus-Ablauf einer
+
+0:29:18.290,0:29:23.510
+solchen linearen Resolution entspricht, wo man
+hier rechts einfach nur Programmklauseln benutzt und
+
+0:29:23.510,0:29:29.720
+zwar immer die Programmklauseln, mit einem
+positiven Literal, was auch dem
+
+0:29:29.720,0:29:39.380
+entsprechenden Markierungsschritt entspricht.
+Also links immer starten wir immer mit
+
+0:29:39.380,0:29:44.360
+einer Anfrageklausel. Danach stehen hier auch immer
+nur Klausel, mit nur negativen Literalen. Das folgt
+
+0:29:44.360,0:29:50.450
+einfach aus der Gestalt dieser Programmklauseln.
+Hier rechts stehen Programmklauseln. Zufälligerweise
+
+0:29:50.450,0:29:53.990
+taucht in dem Beispiel jede genau einmal auf.
+Das muss nicht so sein. Es kann auch sein, dass
+
+0:29:53.990,0:29:58.590
+eine der Programmklauseln gar nicht verwendet wird
+oder, dass vielleicht an der dritte Stelle noch mal die
+
+0:29:58.590,0:30:03.465
+von hier oben steht. Aber da stehen immer Programmklauseln und
+nicht irgendwelchen anderen Klauseln. Und man hat auch nie irgendwie
+
+0:30:03.465,0:30:10.140
+den Bezug, dass man jetzt diesen Schritt erhält,
+indem man den und den resolviert.
+
+0:30:10.140,0:30:18.810
+Man nimmt immer den genau vorhergehenden Resolventen
+und eine Programmklausel. Deswegen hat man hier diese strikte Form.
+
+0:30:18.810,0:30:25.380
+Das ist sehr viel linearer und sehr viel zielstrebiger/
+zielgerichteter, als eine beliebige Resolutionsdurchführung.
+
+0:30:25.380,0:30:31.410
+Auch diese andere "Qual der Wahl",
+welches Literal man denn bitteschön beim Resolvieren
+
+0:30:31.410,0:30:36.210
+nehmen möge, das besteht hier nicht, denn in
+den Programmklauseln gibt es immer genau ein
+
+0:30:36.210,0:30:42.060
+positives Literal, weil das Hornklauseln sind.
+Und links steht immer eine Klausel mit nur negativen
+
+0:30:42.060,0:30:50.910
+Literalen, d. h. es gibt immer nur eine Möglichkeit.
+Zwischen dieser und dieser auf jeder Stufe
+
+0:30:50.910,0:30:55.920
+gibt es hier links nur negative Literale,
+rechts genau ein positives. Das heißt
+
+0:30:55.920,0:30:57.420
+eine Resolution zwischen diesen beiden kann nur
+über B stattfinden. Eine Resolution zwischen diesen
+
+0:30:57.420,0:31:05.970
+beiden kann nur über A stattfinden. Da besteht
+nie eine Wahlmöglichkeit, wenn wir uns für
+
+0:31:05.970,0:31:11.670
+eine Programmklausel entschieden haben. Auch das
+war bei der allgemeinen Resolution ja anders und
+
+0:31:11.670,0:31:23.810
+deshalb schwieriger, weil es viel mehr Möglichkeiten gab,
+die wir ausprobieren müssen. Wie gesagt, das ist kein Zufall,
+
+0:31:23.810,0:31:29.930
+dass es diese Entsprechung gibt. Die gibt es immer. Wir werden
+das aber nicht beweisen. Einfach diese Erläuterungen
+
+0:31:29.930,0:31:35.510
+über die spezielle Form der Klauseln, die
+soll einfach hoffentlich glaubhaft genug machen,
+
+0:31:35.510,0:31:41.690
+dass man auf die Weise immer so linear vorgehen kann,
+und deswegen eben nicht eine allgemeine
+
+0:31:41.690,0:31:49.850
+Suche braucht, wie bei dem Resolutionsverfahren, wo wir
+eben diese Möglichkeit des Spaghettigraphen haben.
+
+0:31:49.850,0:31:56.870
+Und das ist auch wichtig, weil diese
+zielgerichtete Suche wichtig ist, für die
+
+0:31:56.870,0:32:02.870
+Logikprogrammierung, die eben auch nicht völlig
+beliebig einen Resolutionsgraphen explorieren möchte,
+
+0:32:02.870,0:32:08.990
+sondern zielgerichtet arbeiten möchte und
+diese Hornformeln bieten dafür die Möglichkeiten.

@@ -1,0 +1,56 @@
+0:00:00.070,0:00:03.490
+In Aufgabe B sollen wir jetzt noch mal zeigen,
+dass die beiden Formeln äquivalent sind,
+
+0:00:03.490,0:00:07.510
+indem wir sie mittels Äquivalenzumformungen
+umformen, quasi ineinander überführen.
+
+0:00:07.510,0:00:11.599
+Dafür schreibe ich mir die Formel F ab.
+
+0:00:11.599,0:00:16.070
+Und das können wir jetzt umformen, da sehen
+wir schon, wir haben hier eine Negation.
+
+0:00:16.070,0:00:18.710
+Da ist immer ganz praktisch, de-Morgan anzuwenden.
+
+0:00:18.710,0:00:26.259
+Ziehen die Negation also rein, dann kippt
+der Operator um, Disjunktion wird zu Konjunktion,
+
+0:00:26.259,0:00:32.550
+Nicht A wird zu A und B wird zu Nicht B. Jetzt
+können wir als nächstes das Distributivgesetz
+
+0:00:32.550,0:00:33.760
+anwenden.
+
+0:00:33.760,0:00:38.579
+A oder C und Nicht B oder C.
+
+0:00:38.579,0:00:41.730
+Und dann können wir jetzt noch die Definition
+der Implikation anwenden.
+
+0:00:41.730,0:00:49.610
+Und dann haben wir: A oder C, denn Nicht B
+oder C ist ja, wenn ihr euch erinnert, B impliziert
+
+0:00:49.610,0:00:50.610
+C.
+
+0:00:50.610,0:00:54.739
+Wir hatten das vorher immer andersrum, B impliziert
+C, kann man auch zu Nicht B oder C auflösen.
+
+0:00:54.739,0:00:56.219
+Und hier machen wir es eben so rum.
+
+0:00:56.219,0:00:57.640
+Und das ist G.
+
+0:00:57.640,0:01:01.969
+Das heißt, wir haben hier gezeigt, dass F
+äquivalent zu G ist.

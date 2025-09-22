@@ -1,0 +1,151 @@
+0:00:02.139,0:00:06.529
+In Aufgabe C sollen wir jetzt ein rekursives
+Prolog-Prädikat isEven schreiben, was nur
+
+0:00:06.529,0:00:13.539
+einen Parameter hat. Und das soll sagen, ob
+diese eine Zahl isEven A, ob A eine gerade
+
+0:00:13.539,0:00:19.859
+Peano-Zahl ist oder nicht. Auch da überlegen
+wir einmal, wann A denn eine gerade Zahl ist.
+
+0:00:19.859,0:00:27.939
+Im kleinstmöglichen Fall Z. Z ist eine gerade
+Zahl. Dann haben wir Eins S von Z. Das ist
+
+0:00:27.939,0:00:34.000
+keine gerade Zahl, denn Eins ist nicht gerade.
+Und Zwei S von S von Z ist wiederrum gerade.
+
+0:00:34.000,0:00:38.270
+Das heißt, wir erwarten so eine Ausgabe,
+fortgeführt natürlich. Drei ist nicht gerade,
+
+0:00:38.270,0:00:41.899
+Vier ist gerade, Fünf ist nicht gerade und
+so weiter und so fort. Auch hier haben wir
+
+0:00:41.899,0:00:48.039
+wieder den Fall, immer wenn hier eine gerade
+Anzahl an S vorsteht oder eben keins, dann
+
+0:00:48.039,0:00:52.510
+ist es eine gerade Zahl. Steht hier eine ungerade
+Anzahl an S vor, dann ist es keine gerade
+
+0:00:52.510,0:00:57.591
+Zahl. Also, im nächsten Fall wäre zum Beispiel
+Drei, dann wäre es S S S von Z und das wäre
+
+0:00:57.591,0:01:02.370
+wieder false. Das heißt, das wäre dann eine
+ungerade Zahl. Und deswegen muss die Lösung
+
+0:01:02.370,0:01:06.480
+folgendermaßen aussehen, einmal, was ist
+die kleinstmögliche Zahl? Das ist wieder
+
+0:01:06.480,0:01:13.230
+Z. Z ist even. Das heißt, wir schreiben auf,
+isEven Z Punkt. Das ist ein Fakt. Wenn wir
+
+0:01:13.230,0:01:17.840
+da ankommen, kann Prolog angeben, das ist
+true. Und dann haben wir noch, isEven S von
+
+0:01:17.840,0:01:25.590
+S von X gilt dann, wenn isEven X. Und warum
+ist das so? Weil wir wissen, wir müssen eine
+
+0:01:25.590,0:01:29.810
+gerade Anzahl haben. Das heißt, wir packen
+das direkt in ein Schema herein, wo wir eine
+
+0:01:29.810,0:01:34.510
+gerade Anzahl haben. Die kleinstmögliche
+gerade Anzahl wäre, wie gesagt, gar kein
+
+0:01:34.510,0:01:38.180
+S gewesen. Gar kein S können wir hier aber
+nicht machen, denn isEven X gilt dann, wenn
+
+0:01:38.180,0:01:42.420
+isEven X ist und dann können wir hier unsere
+Zahlen nicht mehr in das Schema reinpacken.
+
+0:01:42.420,0:01:48.119
+Also, haben wir als kleinstmögliche Möglichkeit
+S von S von Z. Das geben wir auch hier ein,
+
+0:01:48.119,0:01:51.759
+S von S von und dann X, weil wir hier noch
+einsetzen wollen und dann können wir das
+
+0:01:51.759,0:01:56.219
+hier größer machen, gilt dann, wenn isEven
+X. Das heißt, wenn wir jetzt zum Beispiel
+
+0:01:56.219,0:02:02.549
+eine ungerade Zahl S von Z hier einsetzen
+würden, hätten wir S von S von S von Z isEven
+
+0:02:02.549,0:02:08.130
+X. Dann würde X unifiziert werden. Wir hatten
+gesagt, X wäre dann S von Z. Das heißt,
+
+0:02:08.130,0:02:13.040
+wir würden dann gucken, isEven S von Z. Das
+heißt, wir würden dann mit der Anfrage weitermachen,
+
+0:02:13.040,0:02:17.300
+isEven S von Z, X war S von Z, dann schreiben
+wir hier weiter in der ersten Zeile passt
+
+0:02:17.300,0:02:23.040
+es nicht, isEven Z, weil wir haben S von Z.
+In der zweiten Zeile passt es auch nicht,
+
+0:02:23.040,0:02:28.280
+weil wir isEven S von Z haben, aber hier steht
+S von S von irgendwas. Und S von S von irgendwas
+
+0:02:28.280,0:02:32.150
+haben wir nicht, sondern wir haben nur S von
+irgendwas. Und deswegen passt es nicht. Und
+
+0:02:32.150,0:02:35.480
+deswegen würde Prolog false ausgeben. Wenn
+wir jetzt aber zum Beispiel die nächste Zahl
+
+0:02:35.480,0:02:43.709
+haben. Also, Zwei, dann hätten wir, isEven
+S von S und jetzt die Zahl S von S von Z und
+
+0:02:43.709,0:02:50.319
+das gilt dann, wenn isEven X. X ist S von
+S von Z. Das heißt, der Prolog geht wieder
+
+0:02:50.319,0:02:57.330
+rein mit der Anfrage, isEven S von S von Z.
+Ich gehe jetzt wieder hier rein. In die erste
+
+0:02:57.330,0:03:02.440
+Zeile passt es nicht. Passt es in die zweite?
+Ja, isEven S von S von Z, daher erkennen wir
+
+0:03:02.440,0:03:10.000
+X ist Z, gilt dann, wenn isEven X. X ist Z
+haben wir gesagt. Also, isEven Z. Dann geht
+
+0:03:10.000,0:03:15.300
+Prolog weiter, isEven Z, passt das? Ja, das
+passt hier mit dem ersten Programmcode, isEven
+
+0:03:15.300,0:03:20.340
+Z, das passt. Und deswegen wird true ausgegeben.
+Das könnt ihr auch im Kopf mit allen möglich
+
+0:03:20.340,0:03:23.620
+weiteren Zahlen durchspielen und kommt immer
+auf das gleiche Ergebnis.

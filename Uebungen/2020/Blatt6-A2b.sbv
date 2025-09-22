@@ -1,0 +1,183 @@
+0:00:00.000,0:00:05.460
+In Teilaufgabe (b) sollen wir einen
+vollständigen SLD Resolutionsbaum mit
+
+0:00:05.460,0:00:11.760
+Mengennotationen aufzeichnen für die Anfrage
+"Fährt X Auto?". Wir dürfen dabei die Namen
+
+0:00:11.760,0:00:16.200
+von Personen und Fahrzeugtypen jeweils mit
+ihrem Anfangsbuchstabend abkürzen. Das heißt,
+
+0:00:16.200,0:00:23.040
+wir beginnen hier, wie in der Aufgabe gezeigt,
+mit der Klausel "Nicht fährt(X,a)." So
+
+0:00:24.180,0:00:30.060
+geht Prolog bei der Resolution vor. Es negiert
+die gestellte Anfrage zur Klausel und versucht,
+
+0:00:30.060,0:00:36.540
+mit Hilfe der Programmklauseln einen Widerspruch
+herzuleiten. Dazu negieren wir die gestellte
+
+0:00:36.540,0:00:43.740
+Anfrage zu einer Klausel. Da haben wir "Nicht
+faehrt(X,a)" als erste Klausel. Dann schauen wir
+
+0:00:43.740,0:00:48.600
+im Prologprogramm, wie es weitergeht. Die Regel
+sagt: " atFuehrerschein(P,F), besitzt(P,F)“.
+
+0:00:49.620,0:00:55.800
+Auch das negieren wir jetzt in eine Klausel.
+"Nicht hatFuehrerschein(X,a)." Weil wir hier
+
+0:00:55.800,0:01:02.580
+oben auch "Faehrt(X,a)" und "Besitzt(X,a)" haben.
+Das wird jetzt ersetzt. A ist in diesem Fall eine
+
+0:01:02.580,0:01:10.260
+Konstante, da a kleingeschrieben ist. Es ist also
+im Gegensatz zu X keine Variable mehr. Wir haben
+
+0:01:10.260,0:01:20.280
+die Anfrageklausel: "Nicht faehrt(X,a)". Diese
+können wir resolvieren mit der Regel in Zeile elf.
+
+0:01:20.280,0:01:30.540
+Diese würde in Klauselschreibweise lauten: "Fährt
+oder nicht hat Führerschein und nicht besitzt P,
+
+0:01:30.540,0:01:38.400
+F." Das heißt, das "Fährt" würde eliminiert
+werden. Nicht fährt und fährt. Übrig bleibt dann:
+
+0:01:38.400,0:01:48.540
+"Nicht hatFuehrerschein(X von a)“ und „nicht
+besitzt X und a“. X und a, da wir hier in
+
+0:01:48.540,0:01:55.860
+der Anfrageklausel die genaue Variable X und
+die Konstante a verwendet haben. Diese wurden
+
+0:01:55.860,0:02:03.060
+hier unifiziert. Die Elf hier bedeutet, dass
+wir das mit der Klausel aus Zeile elf gelöst
+
+0:02:03.060,0:02:06.480
+haben. Denn diese schreiben wir nicht mehr
+hin. Sie würde eigentlich lauten: "Faehrt,
+
+0:02:07.080,0:02:11.940
+nicht hat Fuehrerschein(X,a), nicht besitzt
+(X,a)". Diese sehen wir jetzt aber nicht mehr,
+
+0:02:11.940,0:02:17.580
+sondern schreiben hier nur noch diese Elf und
+die Resolvente hin. Die können wir zum Beispiel
+
+0:02:18.300,0:02:25.440
+mit Zeile acht verwenden. Warum das so ist? Weil
+wir dort sehen, dass da das Auto steht. A steht
+
+0:02:25.440,0:02:30.720
+für Auto. Das ist eine Konstante. Das heißt, die
+Konstante kann nicht durch eine andere Konstante
+
+0:02:30.720,0:02:34.740
+ersetzt werden, wie Motorrad, weil es keine
+Variable ist. Wir müssen also etwas nehmen,
+
+0:02:34.740,0:02:40.320
+das das Auto beinhaltet. Das haben wir in Zeile
+acht. So haben wir von unserer Resolvente, die wir
+
+0:02:40.320,0:02:46.260
+übrighatten, "Nicht hatFuehrerschein(X,a)", fällt
+das "hatFuehrerschein" weg. Das wird eliminiert.
+
+0:02:46.860,0:02:55.920
+Wir erhalten "Nicht besitzt(K,a)". Warum K?
+Weil wir die Variable X unifizieren konnten
+
+0:02:55.920,0:03:02.880
+mit Klaus. Klaus bleibt stehen. An dieser Stelle
+können wir nicht weitermachen, da wir oben keine
+
+0:03:02.880,0:03:09.360
+Regel mehr haben, in der K und a so vorkommen.
+Wir können aber bei "hatFuehrerschein, X und a"
+
+0:03:09.360,0:03:17.040
+und "Nicht besitzt(X,a)" noch weitere Schritte
+machen, zum Beispiel mit Zeile neun. Da hätten
+
+0:03:17.040,0:03:22.140
+wir "Nicht besitzt, N". Wir können das wieder
+mit dem ersten Anfangsbuchstaben abkürzen. Nilo
+
+0:03:22.140,0:03:28.380
+wird zu N und a. Das können wir wiederum mit
+Zeile drei weiterverwenden. In Zeile drei haben
+
+0:03:28.380,0:03:34.920
+wir "besitzt(nilo,auto)" Das "besitzt" können
+wir eliminieren und erhalten die leere Menge.
+
+0:03:36.540,0:03:41.880
+Dieser Pfad ist hier beendet. Wir können
+die obere Resolvente aber weiterverwenden,
+
+0:03:41.880,0:03:46.740
+zum Beispiel mit Zeile zehn. Da
+steht "Hat Führerschein, Charlotte,
+
+0:03:46.740,0:03:53.520
+Auto". Übrig bleibt: "Nicht besitzt(C,a)". Das
+können wir wiederum mit Zeile fünf resolvieren und
+
+0:03:53.520,0:04:00.120
+erhalten hier erneut die leere Menge. Dann können
+wir die Resolvente mit Zeile drei resolvieren
+
+0:04:00.120,0:04:09.420
+und erhalten "Nicht hatFuehrerschein(N,a)." Wieso
+können wir das mit Zeile drei resolvieren? Weil
+
+0:04:09.420,0:04:16.020
+Zeile drei die Klausel "Besitzt, Nilo, Auto" hat.
+Das "besitzt" können wir mit dem "nicht besitzt"
+
+0:04:16.020,0:04:21.360
+aus unser Klausel hier eliminieren. Deshalb
+bleibt "Nicht hatFuehrerschein(N,a)" übrig.
+
+0:04:23.460,0:04:30.180
+Das können wir wiederum mit Zeile neun resolvieren
+und erhalten erneut die leere Menge. Es ist quasi
+
+0:04:30.180,0:04:37.260
+der gleiche Schritt wie in unserem zweiten Pfad,
+nur andersherum. Bei diesem hatten wir erst Zeile
+
+0:04:37.260,0:04:41.940
+neun genommen und dann Zeile drei. Jetzt nehmen
+wir zuerst Zeile drei und dann Zeile neun. Aber
+
+0:04:41.940,0:04:46.800
+wir sollen alle möglichen Resolutionsschritte
+aufschreiben, weshalb das auch da hinmuss. Nach
+
+0:04:46.800,0:04:52.620
+der gleichen Logik erledigen wir jetzt den letzten
+Schritt. Da können wir Zeile fünf verwenden und
+
+0:04:52.620,0:04:58.680
+erhalten dann "Nicht hatFuehrerschein(C,a)."
+Das resolvieren wir mit Zeile zehn und erhalten
+
+0:04:58.680,0:05:04.320
+auch hier die leere Menge. So haben wir einen
+vollständigen Resolutionsbaum mit Mengennotation.

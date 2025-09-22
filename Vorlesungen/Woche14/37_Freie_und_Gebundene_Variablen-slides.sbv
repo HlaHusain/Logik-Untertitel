@@ -1,0 +1,722 @@
+0:00:00.000,0:00:07.440
+Wir müssen uns noch mit einem wichtigen
+syntaktischen Konzept zu prädikatenlogischen
+
+0:00:07.440,0:00:15.930
+Formeln beschäftigen, und zwar mit der Frage nach
+Freiheit oder Gebundenheit von Variablen. Das sehen Sie
+
+0:00:15.930,0:00:21.780
+hier schon: ich werde gleich freie und gebundene Variablen als
+Definition entwickeln. Worum geht es dabei?
+
+0:00:21.780,0:00:25.740
+Das ist nicht ganz das gleiche wie die freien Variablen
+in Prolog. In Prolog hatten wir auch schon von freien
+
+0:00:25.740,0:00:30.990
+Variablen gesprochen, wenn eine Variable auf der
+rechten Seite einer Regel auftauchte, aber nicht auf
+
+0:00:30.990,0:00:36.900
+der linken. Das ist hier nicht das gleiche, denn hier haben
+wir jetzt Quantoren. Aber es gibt tatsächlich Beziehungen
+
+0:00:36.900,0:00:43.440
+zwischen diesen Konzepten. Also worum geht es?
+Es geht letztlich darum, bis wohin bzw. wie weit ein
+
+0:00:43.440,0:00:49.560
+Quantor wirkt. Im letzten Video hatten wir
+darüber gesprochen, dass wenn man "für alle x" sagt,
+
+0:00:49.560,0:00:55.920
+und dann irgendeine Restformel kommt, es darum ging,
+über welche x man da quantifiziert. Woher kommen denn
+
+0:00:55.920,0:01:00.390
+die Individuen, die in einer All- oder Existenzaussage
+potenziell für das x eingesetzt werden könnten?
+
+0:01:00.390,0:01:06.840
+Jetzt geht es darum, wenn wir so einen Quantor haben,
+∀x oder ∃x, und dann eine Restformel kommt,
+
+0:01:06.840,0:01:12.630
+welche Stellen in der Restformel denn
+von diesem Quantor getroffen werden.
+
+0:01:12.630,0:01:18.870
+Das war in den bisherigen Beispielen sehr einfach.
+Wenn wir zum Beispiel ∀x : (M(x) ⇨ S(x)) hatten, dann
+
+0:01:18.870,0:01:23.970
+war klar, dass diese beiden x irgendwie das sind,
+worüber dieser Quantor "für alle x" spricht.
+
+0:01:23.970,0:01:28.800
+Aber wenn wir komplexere Formeln haben, wenn wir
+die etwa beliebig ineinander schachteln,
+
+0:01:28.800,0:01:35.160
+kann das durchaus weniger offensichtlich sein.
+Es könnte auch sein, dass wir sozusagen vergessen, eine
+
+0:01:35.160,0:01:40.110
+Variable mit einem Quantor zu versehen (oder es auch
+nicht vergessen, sondern absichtlich eine Variable frei lassen).
+
+0:01:40.110,0:01:47.220
+Deswegen müssen wir da genau draufschauen, dies genau definieren.
+Und zwar ist wichtig: Es geht dabei immer darum,
+
+0:01:47.220,0:01:53.340
+ob ein bestimmtes Vorkommen einer Variable gebunden oder frei ist.
+Also nicht: Ich habe eine Formel und x ist frei.
+
+0:01:53.340,0:01:58.710
+Sondern ein bestimmtes Vorkommen einer Variable
+x in dieser Formel (dort können ja mehrere sein)
+
+0:01:58.710,0:02:05.250
+ist frei oder ist gebunden.
+Und dabei geht es um diejenigen Vorkommen,
+
+0:02:05.250,0:02:10.410
+die nicht direkt hinter dem Quantor stehen.
+Also wenn wir haben "∀x : irgendwas", dann geht
+
+0:02:10.410,0:02:15.490
+es nicht um dieses x, das hinter dem "für alle" steht,
+sondern um potenzielle Vorkommen des x
+
+0:02:15.490,0:02:22.060
+in dem, was nach dem Doppelpunkt kommt (und vielleicht auch
+noch tief verschachtelt). Und jedes solches Vorkommen,
+
+0:02:22.060,0:02:27.430
+das nicht direkt hinter einem Quantor steht, aber in der Formel
+vorkommt, wird entweder als frei oder als gebunden gekennzeichnet.
+
+0:02:27.430,0:02:32.020
+Es gibt genau diese beiden Möglichkeiten.
+Also ein Vorkommen einer Variable kann
+
+0:02:32.020,0:02:38.950
+nicht beides gleichzeitig sein, aber
+kann auch nicht nichts von beiden sein.
+
+0:02:38.950,0:02:45.760
+Wie ist das definiert? Es geht darum, so ein bestimmtes
+Vorkommen der Variable x zu haben und sich zu fragen:
+
+0:02:45.760,0:02:52.960
+Ist das, so wie es in der Formel F vorkommt, gebunden
+oder nicht? Und da ist letztlich das Kriterium, dass es
+
+0:02:52.960,0:02:58.810
+irgendwie einen All- oder Existenzquantor gibt,
+der dieses x überspannt. Wie ist das gemeint?
+
+0:02:58.810,0:03:07.660
+Das x kommt irgendwo in der Formel F vor.
+Nehmen wir an, dieses Vorkommen von x in F ist Teil einer Formel
+
+0:03:07.660,0:03:17.080
+entweder dieser Art oder dieser Art.
+Also es gibt irgendwo in der Formel F eine Teilformel,
+
+0:03:17.080,0:03:23.620
+welche die Form hat: "∀x : irgendetwas" oder "∃x : irgendetwas".
+Und das Vorkommen der Variable x, das wir uns gerade anschauen,
+
+0:03:23.620,0:03:30.070
+ist eines, das eben in diesem G oder in diesem G vorkommt.
+Dann kommt das ja an einer Stelle vor,
+
+0:03:30.070,0:03:36.970
+wo es sozusagen weiter außen gebunden ist.
+Entweder durch diesen "∀x"-Quantor oder den "∃x"-Quantor.
+
+0:03:36.970,0:03:44.830
+Wenn das die gleiche Variable x ist,
+der gleiche Variablenname. Also es kommt darauf an,
+
+0:03:44.830,0:03:49.600
+dass dieses x dann irgendwo in diesem G vorkommt.
+Das x, das wir gerade betrachten, dieses Vorkommen der Variable x,
+
+0:03:49.600,0:03:56.590
+kommt in einer Teilformel
+dieser Form vor, und zwar in dem G, weil wir ja nicht
+
+0:03:56.590,0:04:02.650
+dieses Vorkommen direkt an dem Quantor betrachten.
+Und wenn dem so ist, dann nennt man dieses Vorkommen der
+
+0:04:02.650,0:04:12.580
+Variable "gebunden". Anderenfalls ist es ein "freies" Vorkommen.
+Und das können wir jeweils für jedes Vorkommen von Variablen in der Formel
+
+0:04:12.580,0:04:20.530
+entscheiden. Ist das etwas, das weiter außen
+durch ein "∀, gleicher Variablenname, oder ∃, gleicher Variablenname"
+
+0:04:20.530,0:04:27.990
+gebunden wurde, oder nicht?
+Das machen wir
+
+0:04:27.990,0:04:33.480
+für jedes Vorkommen von Variablen in der Formel.
+Und dann kann man die Formel hinterher als Ganzes
+
+0:04:33.480,0:04:40.050
+noch klassifizieren.
+Und zwar nennt man alle prädikatenlogischen Formeln,
+
+0:04:40.050,0:04:47.820
+die ganz ohne Vorkommen von freien
+Variablen sind, "geschlossene" Formeln.
+
+0:04:47.820,0:04:53.520
+Also "nichts frei" heißt dann "geschlossen". Also eine geschlossene
+Formel ist eine, die gar keine Vorkommen freier Variablen enthält.
+
+0:04:53.520,0:04:58.980
+Man nennt das auch eine prädikatenlogische Aussage.
+Bisher hatten wir von prädikatenlogischen Formeln gesprochen.
+
+0:04:58.980,0:05:04.110
+Und eine prädikatenlogische Formel
+nennt man dann prädikatenlogische Aussage,
+
+0:05:04.110,0:05:12.570
+wenn sie keine freien Variablen enthält. In der
+Aussagenlogik waren einfach alles Aussagen.
+
+0:05:12.570,0:05:19.590
+Da gab es: A, atomare Formel, ist eine Aussage.
+Deswegen war das Aussagenlogik. Jetzt in der Prädikatenlogik
+
+0:05:19.590,0:05:26.880
+haben wir auch ein Konzept von atomarer Formel. Das waren einfach
+Anwendungen von Prädikatsymbolen auf Terme.
+
+0:05:26.880,0:05:32.100
+Das waren die atomaren Formeln in der Prädikatenlogik.
+Eine prädikatenlogische Aussage hingegen ist eine
+
+0:05:32.100,0:05:37.470
+beliebige prädikatenlogische Formel, die ohne
+freie Variablen auskommt. Das kann also eine große Formel sein,
+
+0:05:38.520,0:05:44.490
+mit vielen Quantoren und Operationssymbolen, die aber
+insgesamt keine freien Variablenvorkommen enthält.
+
+0:05:44.490,0:05:53.520
+Dann ist das eine prädikatenlogische Aussage. Das ist vielleicht
+etwas abstrakt. Schauen wir auf Beispiele und wenden das jeweils an.
+
+0:05:53.520,0:06:02.850
+Also ein sehr einfaches Beispiel: Wenn das unsere
+prädikatenlogische Formel ist, dann gibt es darin
+
+0:06:02.850,0:06:08.640
+genau ein Vorkommen einer Variable,
+das nicht direkt hinter einem Quantor steht.
+
+0:06:08.640,0:06:17.430
+Also uns interessiert in diesem Fall einfach genau
+dieses Vorkommen von x. Und was ist das für ein Vorkommen?
+
+0:06:17.430,0:06:24.810
+Das ist natürlich ein gebundenes Vorkommen, weil es
+in einer Teilformel der Form "∀x : irgendwas" steht,
+
+0:06:24.810,0:06:30.000
+und hier drin taucht das x auf. In dem Fall ist
+sogar die gesamte Formel von dieser Form.
+
+0:06:30.780,0:06:37.020
+Das Kriterium war, dass das in einer Teilformel dieser
+Art vorkommt. In dem Fall ist es eben die Gesamtformel,
+
+0:06:37.020,0:06:47.990
+die von dieser Art ist. Das heißt, das x hier, dieses
+eine Vorkommen von x hier, ist ein gebundenes Vorkommen.
+
+0:06:47.990,0:06:55.070
+Ein anderes Beispiel: Zum einen ist es egal, ob wir das über All-
+oder Existenzquantoren machen. Die Frage, ob etwas gebunden oder frei ist,
+
+0:06:55.070,0:07:01.820
+entscheidet sich nicht daran, ob es ein All- oder
+Existenzquantor ist, der im Spiel ist. Die Definition
+
+0:07:01.820,0:07:08.030
+ignoriert das sozusagen, welche Art von Quantor
+es ist. Es geht darum, dass es einen Quantor geben muss,
+
+0:07:08.030,0:07:15.950
+damit ein Variablenvorkommen gebunden ist.
+In dieser Formel gibt es erstmal
+
+0:07:17.270,0:07:22.160
+an drei Stellen eine Variable auftretend: hier, hier und hier.
+Dieses Vorkommen ist nicht relevant. Das ist
+
+0:07:22.160,0:07:27.020
+so eins direkt hinter einem Quantor.
+Es geht um die anderen Vorkommen von Variablen.
+
+0:07:27.020,0:07:34.130
+Also um dieses Vorkommen von x und dieses Vorkommen von y.
+Was ist mit denen? Dieses Vorkommen von x taucht in
+
+0:07:34.130,0:07:42.140
+einer Teilformel der Art "∃, genau dieser Variablenname" auf.
+Also wie hier oben ist dieses x auch hier gebunden.
+
+0:07:42.140,0:07:47.870
+Dabei ist es vollkommen egal, dass es nochmal
+in diesem Funktionssymbol geschachtelt ist.
+
+0:07:47.870,0:07:53.990
+Es geht darum, dass es in dieser Teilformel vorkommt.
+Irgendwo. Gegebenenfalls auch geschachtelt und nicht
+
+0:07:53.990,0:08:02.300
+unbedingt direkt als Argument eines Prädikats. Also dieses x
+ist ein gebundenes Vorkommen. Was ist mit dem y?
+
+0:08:02.300,0:08:08.480
+Das taucht ja auch in dieser Teilformel auf. Allerdings taucht
+es nicht in einer Teilformel der Form "Quantor, y" auf.
+
+0:08:08.480,0:08:14.810
+Hier steht eben ein anderer Variablenname und nicht der Variablenname y.
+Deswegen ist dieses y hier ein freies Vorkommen.
+
+0:08:14.810,0:08:24.020
+Also hier kommt x gebunden vor und y frei vor.
+Wenn hier stünde "∃y, und dann der Rest",
+
+0:08:24.020,0:08:34.900
+also statt x hier y stünde, dann wäre eben x in dem Fall
+ein freies Vorkommen und y ein gebundenes Vorkommen.
+
+0:08:34.900,0:08:41.740
+Was ist mit diesem Beispiel? Jetzt haben wir zwei Vorkommen
+von x, die nicht direkt hinter einem Quantor stehen.
+
+0:08:41.740,0:08:49.480
+Also dieses und dieses. Ist x hier jetzt gebunden oder frei?
+Nun, das kommt darauf an, welches Vorkommen wir uns anschauen.
+
+0:08:49.480,0:08:54.760
+Man sagt ja nicht, x als Ganzes ist
+für die gesamte Formel gebunden oder frei, sondern
+
+0:08:54.760,0:09:00.190
+jedes einzelne Vorkommen von x kann gebunden oder frei sein.
+Und natürlich ist dieses Vorkommen von x hier
+
+0:09:00.190,0:09:07.990
+ein gebundenes, weil es in einer Teilformel
+der Art "Quantor und genau dieser Variablenname" auftritt.
+
+0:09:07.990,0:09:15.970
+Deswegen ist dieses x gebunden, während dieses x frei ist.
+Das taucht nicht in einer Teilformel der
+
+0:09:15.970,0:09:27.790
+entsprechenden Art auf. Man könnte sagen, es taucht
+zwar in dieser Formel auf, aber R(x) ist hier eben nicht Teil
+
+0:09:27.790,0:09:43.720
+des Gs für solch eine Teilformel "∃x : G" oder "∀x : G".
+Die entsprechende Teilformel dieser Art
+
+0:09:43.720,0:09:50.440
+wäre hier diese Teilformel, und das Vorkommen von x
+hier hinten ist eben nicht in dem G hier drin.
+
+0:09:50.440,0:09:58.870
+Das als Ganzes ist zwar eine Teilformel, in der x vorkommt.
+Das ist aber keine Teilformel der Art "∃x : Rest".
+
+0:09:58.870,0:10:08.950
+Das ist eine Teilformel "∃x : irgendwas ∧ irgendwas anderes".
+Also die sozusagen nächstgrößere Teilformel,
+
+0:10:08.950,0:10:15.010
+in der x vorkommt, ist R(x) selbst, und dann schon
+die gesamte Formel, und nicht irgendwas der Art
+
+0:10:15.010,0:10:22.240
+"es existiert x" oder "für alle x" und Rest.
+Das heißt, dieses x wirkt nur bis hierhin, aber
+
+0:10:22.240,0:10:30.110
+nicht irgendwie in den Nachbarzweig des Syntaxbaums.
+Wichtig ist hier natürlich die Klammerung.
+
+0:10:30.110,0:10:35.270
+Wenn wir hier anders geklammert hätten,
+zum Beispiel statt dieser beiden Klammern hier
+
+0:10:35.270,0:10:44.240
+eine Klammer hier und eine Klammer hier gesetzt hätten,
+dann wäre es so, dass "P(x) und R(x)"
+
+0:10:44.240,0:10:53.120
+als Ganzes der Rest für diese Formel
+der Art "∃x : Rest" wäre. Also wenn hier eine Klammer
+
+0:10:53.120,0:10:59.720
+und hier eine Klammer stünde, dann wäre dieses x
+natürlich innerhalb des Gs für die Formel "∃x : G".
+
+0:10:59.720,0:11:08.990
+Aber so ist das die relevante Quantor-behaftete
+Formel, und das ist unabhängig davon. Also die Klammerung
+
+0:11:08.990,0:11:16.250
+ist wirklich wichtig, generell in logischen Formeln und
+besonders wichtig auch zur Anzeige der Reichweite
+
+0:11:16.250,0:11:25.670
+von Quantoren (des Bereichs, auf den Quantoren sich beziehen).
+Das wäre jetzt so ein Beispiel, das was ich gerade besprochen habe.
+
+0:11:27.410,0:11:35.030
+Wenn wir die Klammern anders setzen, dann sind hier beide
+Vorkommen der Variable x tatsächlich gebundene Vorkommen.
+
+0:11:35.030,0:11:47.510
+Also x kommt zweimal gebunden vor. Hier und hier.
+Und was ist mit diesem Beispiel, "∀x : Restformel"?
+
+0:11:47.510,0:12:02.210
+Restformel ist eine Konjunktion aus
+"∀x : P(x)" und einer Formel "R(x)".
+
+0:12:02.210,0:12:09.590
+Was sind die relevanten Vorkommen? Dieses und dieses.
+Das sind die beiden auftretenden Variablen hier, die nicht
+
+0:12:09.590,0:12:18.740
+direkt an einem Quantor stehen. Das ist offenkundig ein
+gebundenes Vorkommen. Es taucht direkt in so einer
+
+0:12:18.740,0:12:26.840
+Teilformel auf, offenkundig in dem G für so
+eine Teilformel der Art "Quantor x : G".
+
+0:12:26.840,0:12:32.150
+Was ist mit diesem x hier? Das taucht ja nicht innerhalb
+dieser Teilformel auf. Also das gehört nicht irgendwie
+
+0:12:32.150,0:12:39.950
+zu diesem Quantor, weil hier die Klammer zugeht,
+und das hier die relevante Teilformel für diesen Quantor ist.
+
+0:12:39.950,0:12:48.590
+Aber es gibt weiter außen noch einen Quantor, und der
+benennt auch das x. Und zwar das gleiche x wie hier.
+
+0:12:48.590,0:12:54.620
+Das heißt, hier sind tatsächlich zwei gebundene
+Vorkommen von x. Anders als zum Beispiel hier.
+
+0:12:54.620,0:13:00.080
+Und die werden durch verschiedene Quantoren gebunden.
+Also dieses x wird durch diesen Quantor gebunden,
+
+0:13:00.080,0:13:06.980
+und dieses x durch diesen Quantor. Wenn wir den
+äußeren Quantor hier weglassen würden, dann wäre das
+
+0:13:06.980,0:13:11.990
+hier immer noch ein gebundenes Vorkommen, wegen
+diesem ∀x. Aber dieses x wäre plötzlich ein freies Vorkommen,
+
+0:13:11.990,0:13:19.430
+wenn es diesen Quantor hier nicht mehr gäbe. Und hier könnten
+wir das noch durch Farben/Markierungen deutlich machen.
+
+0:13:19.430,0:13:25.760
+Aber das wichtige ist: Das sind beides gebundene Vorkommen.
+Es ergibt sich nur so, dass die eben
+
+0:13:25.760,0:13:40.790
+durch verschiedene Quantoren gebunden werden.
+Dieses durch diesen Quantor. Dieses durch diesen Quantor.
+
+0:13:40.790,0:13:52.280
+Dann, zum Abschluss dieses Videos (aber nicht dieser Woche) nochmal
+eine Tabelle mit vielen Kandidatenformeln.
+
+0:13:52.280,0:13:59.840
+Einfach nochmal zur einerseits Reprise der Syntax
+von prädikatenlogischen Formeln, aber eben auch
+
+0:13:59.840,0:14:11.330
+genau der Frage nach Geschlossenheit (oder nicht) von Formeln.
+Also ich spreche die mal jeweils kurz durch.
+
+0:14:11.330,0:14:18.230
+Was ist mit dieser Zeichenkette? Ist das eine Formel, oder sogar
+eine Aussage (eine geschlossene Formel)?
+
+0:14:18.230,0:14:24.290
+Nein, es ist nicht mal eine Formel. Hier müssten wir,
+wenn wir das per Multiple Choice lösen wollten,
+
+0:14:24.290,0:14:30.950
+das Kreuzchen bei KF machen. Das ist keine Formel.
+Warum nicht? Weil es einfach nicht den Regeln genügt.
+
+0:14:30.950,0:14:36.620
+Die syntaktischen Regeln zum Aufbau würden sagen:
+Nach diesem All-Quantor muss eine Variable stehen
+
+0:14:36.620,0:14:42.560
+und nicht einfach der nächste Quantor.
+Sowas wie ∀∃ gibt es nicht.
+
+0:14:42.560,0:14:53.840
+Es müsste heißen: "∀y" und dann eine Restformel,
+in der etwa der Existenzquantor vorkommen kann.
+
+0:14:53.840,0:14:59.270
+Was ist damit? Das ist eine Formel. Da sieht syntaktisch alles okay aus.
+Ist es auch eine Aussage, also eine geschlossene Formel?
+
+0:14:59.270,0:15:03.980
+Das kommt darauf an, was das a hier ist. Wenn wir das a als Konstante
+sehen (was wir per Konvention wahrscheinlich tun würden,
+
+0:15:03.980,0:15:12.560
+weil es ein Kleinbuchstabe vom Beginn des Alphabetes ist),
+dann wäre das eine Aussage. Dann gibt es hier einen Quantor.
+
+0:15:12.560,0:15:19.430
+Zufälligerweise taucht die Variable davon nie auf.
+Das ist nicht schädlich. Und dieses a ist eine Konstante.
+
+0:15:19.430,0:15:27.500
+Das heißt, es gibt gar keine Variablen
+in dieser inneren Teilformel. Wenn wir hingegen
+
+0:15:27.500,0:15:32.870
+a als Variable ansehen, dann wäre es
+ein freies Vorkommen einer Variable,
+
+0:15:32.870,0:15:42.500
+weil es keinen Quantor für a gibt. Und dann wäre das zwar
+eine Formel, aber keine geschlossene Formel.
+
+0:15:43.030,0:15:54.040
+Was ist damit? "∀x : ∃y :" und dann eine Teilformel,
+in der x und y vorkommen. Nun, das sieht erstmal
+
+0:15:54.040,0:16:00.670
+nach einer validen, wohl-gebauten Formel aus.
+Da kommen mehrere Variablenvorkommen vor.
+
+0:16:00.670,0:16:07.090
+Die sind aber alle gebunden. Also sowohl dieses x,
+als auch dieses x, sind durch diesen Quantor gebunden.
+
+0:16:07.090,0:16:14.020
+Und sowohl dieses y, als auch dieses y,
+durch diesen Quantor. Also wäre das eine Aussage,
+
+0:16:14.020,0:16:28.060
+eine prädikatenlogische Formel ohne freie Variablen.
+Was ist mit dieser Zeile? Erstmal vom Aufbau her auch alles okay.
+
+0:16:28.060,0:16:35.860
+Also keine irgendwie abstrusen Zeichenketten, die gar
+nicht zu syntaktisch wohl-geformten Formeln passen.
+
+0:16:35.860,0:16:44.200
+Ist es eine geschlossene Formel? Gibt es hier
+Variablen, die frei vorkommen? In dem ersten Teil
+
+0:16:44.200,0:16:50.440
+hier sicherlich nicht. Hier gibt es zwei Vorkommen von x.
+Die sind aber beide gebunden durch diesen Quantor hier.
+
+0:16:50.440,0:16:55.930
+Was ist hier hinten? Hier gibt es das y. Das ist durch
+diesen Quantor gebunden. Was ist mit diesem x?
+
+0:16:55.930,0:17:01.270
+Das ist nicht durch einen Quantor gebunden, weil hier y steht und
+dieser Quantor nur bis zu dieser schließenden Klammer hier wirkt.
+
+0:17:01.270,0:17:10.150
+Das heißt, das wäre keine prädikatenlogische Aussage,
+weil es keine geschlossene Formel ist.
+
+0:17:10.150,0:17:17.200
+Hier würde wieder gelten, wenn wir die Klammern anders
+setzen würden, wenn hier eine Klammer aufginge und die
+
+0:17:17.200,0:17:23.650
+erst hier wieder zuginge, dann wäre dieses x von diesem
+Quantor erfasst und es wäre eine geschlossene Aussage.
+
+0:17:23.650,0:17:36.040
+Aber so wie es hier steht, ist es keine geschlossene Formel.
+Was gilt hier? Das wiederum ist eine geschlossene Formel,
+
+0:17:36.040,0:17:44.650
+denn zum einen ist hier jetzt ein anderes
+Operationssymbol, das ändert natürlich nichts,
+
+0:17:44.650,0:17:50.980
+aber hier sind alle Variablen, die vorkommen, jeweils gebunden.
+Nur an verschiedenen Stellen. Dieses x ist hier gebunden.
+
+0:17:50.980,0:17:58.180
+Und diese beiden x sind hier gebunden. Das sind auch alles
+Vorkommen der gleichen Variable, werden aber an
+
+0:17:58.180,0:18:02.860
+verschiedenen Stellen gebunden. Hier könnte man wieder
+mit Farben arbeiten, also die beiden x gleich einfärben,
+
+0:18:02.860,0:18:12.010
+und diese drei x gleich einfärben, weil sie die
+gleiche Bindungsstelle haben. Was ist damit, "∀P(x)"?
+
+0:18:12.010,0:18:18.430
+Das ist nicht mal eine Formel. Das verletzt wieder die Regeln
+zum Aufbau von Formeln. Einfach von der Syntax her,
+
+0:18:18.430,0:18:24.910
+von den Kombinationen von Zeichen, die wir bilden dürfen.
+Hier fehlt hinter dem ∀ wieder irgendwie eine Variable.
+
+0:18:24.910,0:18:31.240
+Da könnte x stehen. Da könnte y stehen. Dann wären das Formeln.
+Ob da x oder y stünde, würde einen Unterschied dafür machen,
+
+0:18:31.240,0:18:40.600
+ob es eine Aussage ist oder nicht. Aber so ist das
+nicht mal eine Formel, weil es syntaktisch einfach nicht passt.
+
+0:18:40.600,0:18:48.580
+Was ist hiermit, "P(x) ⇨ ∃x"? Auch das ist keine Formel,
+denn es gibt keine Teilformel der Art "∃x" ohne irgendeinen Rest.
+
+0:18:48.580,0:18:56.050
+Es muss immer sein: "∃x :" und dann irgendwie
+eine weitere Teilformel. Einfach nur ∃x ist
+
+0:18:56.050,0:19:05.140
+keine sinnvolle Teilformel, und damit ist das auch
+insgesamt keine Formel. Wenn hier irgendwie stünde:
+
+0:19:05.140,0:19:12.940
+"∃x : wahre Aussage", dann würde man auch aussagen,
+dass x existiert. Aber ohne eine Aussage dahinter
+
+0:19:12.940,0:19:19.120
+ist das keine Formel. Ohne irgendwie eine weitere Teilformel,
+egal ob Aussage oder nicht (in diesem Sinne von Aussage).
+
+0:19:19.120,0:19:32.260
+Also hier sind einfach die Aufbauregeln nicht erfüllt.
+
+0:19:33.070,0:19:41.870
+Mal sehen, ob in den anderen Fällen noch etwas Interessantes passiert.
+Das sieht nach einer Formel aus. Allerdings ist es keine
+
+0:19:41.870,0:19:48.650
+geschlossene Formel. Warum nicht? Weil dieser Quantor dieses y hier
+nicht erfasst, und es auch keine andere Bindungsstelle für das y gibt.
+
+0:19:48.650,0:20:00.140
+Das heißt, das y hier wäre eine freie Variable. Aus ähnlichen
+Gründen wäre auch das hier keine geschlossene Formel,
+
+0:20:00.140,0:20:10.070
+weil das z nicht gebunden ist (wobei auch diese
+beiden Vorkommen von x und dieses Vorkommen von x
+
+0:20:10.070,0:20:21.050
+jeweils freie Variablen sind). Wie ist es hier?
+Hier kommt es wieder darauf an, ob das a eine Variable oder
+
+0:20:21.050,0:20:25.940
+eine Konstante ist. Wenn es eine Konstante ist, dann ist das
+insgesamt eine geschlossene Formel. Wenn es eine Variable ist,
+
+0:20:25.940,0:20:35.990
+dann ist es zwar eine Formel, aber keine geschlossene Formel,
+also keine Aussage. Was haben wir hier? Das ist eine
+
+0:20:35.990,0:20:42.410
+wohl-gebaute Formel. Allerdings keine geschlossene Formel,
+weil hier vorn ein freies Vorkommen von x vorliegt,
+
+0:20:42.410,0:20:48.230
+das durch nichts gebunden wird. Denn dieser Existenzquantor hier
+wirkt ja nur auf den Rest dieser Formel,
+
+0:20:48.230,0:21:01.520
+auf diese Teilformel von hier bis hier.
+Und die letzte Zeile? Da scheint alles gebunden zu werden.
+
+0:21:01.520,0:21:08.330
+x und y sind die Variablen, die hier vorkommen.
+Die werden auch beide gebunden. Und zwar wird auch
+
+0:21:08.330,0:21:13.790
+dieses x durch diesen Quantor hier erfasst,
+einfach wegen der Art, wie hier die Klammern gesetzt sind.
+
+0:21:13.790,0:21:19.550
+Allerdings ist das, was hier steht, dennoch
+keine Formel und demzufolge keine Aussage.
+
+0:21:19.550,0:21:31.250
+Warum nicht? Weil es hier keine Stelligkeit für P gibt,
+die eingehalten worden wäre. Sie erinnern sich:
+
+0:21:31.250,0:21:36.980
+Wir müssen für Funktions- und Prädikatsymbole jeweils
+eine Stelligkeit haben. Die stand hier nirgendwo dran,
+
+0:21:36.980,0:21:44.350
+aber es ließ sich immer erschließen. Immer wenn hier
+ein Prädikatsymbol auftrat, konnten wir der Formel ansehen,
+
+0:21:44.350,0:21:49.150
+welche Stelligkeit das haben soll. Und bei dem Konstantensymbol
+a ist es auch klar: Stelligkeit null.
+
+0:21:49.150,0:21:56.500
+Hier können wir weder sagen, P hat Stelligkeit eins,
+noch Stelligkeit zwei. Das dürfen wir als Formel so
+
+0:21:56.500,0:22:03.490
+gar nicht schreiben. Wir hätten uns entscheiden müssen:
+Hat P Stelligkeit eins oder Stelligkeit zwei? Und in beiden Fällen
+
+0:22:03.490,0:22:09.190
+wäre irgendwie ein Teil dieser Formel falsch gewesen.
+Das heißt, das hier unten ist auch keine Formel,
+
+0:22:09.190,0:22:17.890
+demzufolge auch keine Aussage. Das ist jetzt natürlich unabhängig
+von der Quantoren-Interpretation. Das ist einfach schon,
+
+0:22:17.890,0:22:24.040
+bevor wir die Quantoren anschauen, keine wohl-gebaute
+Formel, wegen dieser Stelligkeits-Problematik.

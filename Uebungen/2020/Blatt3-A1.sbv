@@ -1,0 +1,286 @@
+0:00:00.130,0:00:03.980
+Heute besprechen wir Übungsblatt drei von
+Logik. Hier sollen wir für die beiden gegebenen
+
+0:00:03.980,0:00:09.120
+Formeln ein Modell und eine passende Belegung
+angeben, die kein Modell ist. Dafür müssen
+
+0:00:09.120,0:00:14.019
+wir uns nochmal klarmachen, was eine passende
+Belegung ist. Eine Belegung Alpha ist zu F
+
+0:00:14.019,0:00:18.910
+passend, falls die Belegung alle atomaren
+Formeln enthält, die in F vorkommen. Das
+
+0:00:18.910,0:00:24.710
+heißt, allen atomaren Formeln muss ein Wahrheitswert
+zugewiesen werden. Was ist ein Modell? Ein
+
+0:00:24.710,0:00:28.179
+Modell ist es immer dann, wenn die Belegung
+für die Formel passend ist und die Formel
+
+0:00:28.179,0:00:34.360
+unter dieser Belegung den Wahrheitswert eins
+bekommt. Es gibt mehrere Lösungswege für
+
+0:00:34.360,0:00:37.510
+diese Aufgabe. Ihr könnt zum Beispiel durch
+Ausprobieren herausfinden, was ein Modell
+
+0:00:37.510,0:00:42.880
+ist, oder durch eine Wahrheitstabelle. Da
+die vorliegenden Formeln relativ kurz sind,
+
+0:00:42.880,0:00:47.640
+versuche ich, die Aufgabe durch Ausprobieren
+zu lösen. Die Wahrheitstabelle ist aber auch
+
+0:00:47.640,0:00:55.900
+korrekt, dauert nur etwas länger. Ich schaue
+mir also die Formel (a) an: F ist gleich nicht
+
+0:00:55.900,0:01:04.850
+A oder B. Wichtig ist also auf jeden Fall
+eine Belegung für A und B. Wir brauchen ein
+
+0:01:04.850,0:01:11.039
+Alpha von A und ein Alpha von B, da sie die
+beiden atomaren Formeln sind, die in der Formel
+
+0:01:11.039,0:01:15.969
+vorkommen. Theoretisch können wir auch ein
+Alpha von C machen, da es darauf ankommt,
+
+0:01:15.969,0:01:21.020
+dass die atomaren Formeln, die in der Formel
+vorkommen, belegt werden. Stehen dort mehrere,
+
+0:01:21.020,0:01:26.750
+ist das nicht schlimm. In diesem Fall benötigen
+wir aber nur A und B. Bei der Disjunktion,
+
+0:01:26.750,0:01:31.340
+der Oder-Verknüpfung, ist es so, dass eins
+von beiden eine Eins sein muss, sodass die
+
+0:01:31.340,0:01:39.069
+Formel im Gesamten eine Eins wird. Das heißt,
+wenn B eine Eins wäre, ergäbe die Formel
+
+0:01:39.069,0:01:44.520
+im Gesamten eine Eins. Egal, was nicht Alpha
+ist. Wenn nicht Alpha null ist, null oder
+
+0:01:44.520,0:01:50.880
+eins, würde es für die Wahrheitstabelle
+eine Eins ergeben. Eins oder eins würde für
+
+0:01:50.880,0:01:53.490
+die Wahrheitstabelle ebenfalls eine Eins ergeben.
+Das heißt, es müsste entweder das nicht
+
+0:01:53.490,0:01:59.249
+A oder das B eine Eins sein oder beides. Am
+einfachsten wäre hier das B, da es nicht
+
+0:01:59.249,0:02:03.759
+negiert ist. Wenn wir jetzt auch nicht A mit
+einer eins belegen wollen würden, müsste
+
+0:02:03.759,0:02:08.830
+A eine Null sein, sodass nicht A wiederum
+eins ist. Aber das ist uns in diesem Fall
+
+0:02:08.830,0:02:13.450
+komplett freigestellt. Ich würde hier zum
+Beispiel A eine Eins zuweisen. Dann hätten
+
+0:02:13.450,0:02:18.600
+wir null oder eins und es würde eins herauskommen.
+Genauso richtig wäre aber zum Beispiel auch
+
+0:02:18.600,0:02:29.070
+hier eine Null. Alpha von B ist gleich eins.
+Wenn wir bei B eine Null vergeben würden,
+
+0:02:29.070,0:02:34.200
+dann müsste nicht A eine Eins sein. A müsste
+eine Null sein. Dann wäre die Formel auch
+
+0:02:34.200,0:02:39.340
+im Gesamten eins. Das sind nur Beispiele.
+Für welche Belegung ihr euch letztendlich
+
+0:02:39.340,0:02:44.781
+entscheidet, bleibt euch überlassen. Es ginge
+zum Beispiel auch Alpha von A gleich null
+
+0:02:44.781,0:02:58.450
+und Alpha von B gleich eins. All diese Möglichkeiten
+wären Modelle von F. Wenn wir eine Belegung
+
+0:02:58.450,0:03:02.790
+haben möchten, die zwar passend, aber kein
+Modell ist, dann brauchen wir natürlich auch
+
+0:03:02.790,0:03:08.771
+ein Alpha von A und ein Alpha von B, sodass
+die Formel passend ist. Aber die Formel muss
+
+0:03:08.771,0:03:16.040
+nun im Gesamten eine Null ergeben. Nicht A
+und B müssen jeweils null sein. Das heißt,
+
+0:03:16.040,0:03:20.830
+B muss auf jeden Fall null sein und nicht
+A. Dann muss A eine eins sein, sodass nicht
+
+0:03:20.830,0:03:29.800
+A eine Null ist. Das wäre eine passende Belegung,
+die kein Modell ist. Wir kommen zu Aufgabe
+
+0:03:29.800,0:03:37.130
+(b). Auch diese können wir entweder durch
+Ausprobieren oder durch die Wahrheitstabelle
+
+0:03:37.130,0:03:40.220
+lösen. Da die Wahrheitstabelle der einfachere
+Schritt ist, erkläre ich euch jetzt, wie
+
+0:03:40.220,0:03:44.010
+ich die Aufgabe durch Ausprobieren lösen
+würde. Ihr seht bei so einer Formel, nicht
+
+0:03:44.010,0:03:50.560
+A und in Klammern B oder nicht C, dass die
+ganze Formel negiert ist. Wir wissen also,
+
+0:03:50.560,0:03:55.569
+dass nicht irgendwas herauskommt. Die Voraussetzung
+dafür, dass nicht irgendwas insgesamt eine
+
+0:03:55.569,0:04:01.660
+Eins ergibt und es ein Modell wird, ist, dass
+es nicht null ist. Das bedeutet, dass der
+
+0:04:01.660,0:04:13.310
+Teil in der Klammer, A und B oder nicht C,
+im Gesamten null ergeben muss, sodass es wieder
+
+0:04:13.310,0:04:20.650
+eine Eins ergibt. Wir haben A und wir haben
+eine Konjunktion als übergeordnete Verknüpfung.
+
+0:04:20.650,0:04:29.210
+Das heißt, wir haben A, B und nicht C. Da
+eine Und-Verknüpfung nur dann eine Eins wird,
+
+0:04:29.210,0:04:34.150
+wenn auf beiden Teilen eine Eins steht, reicht
+bereits eine Null aus, sodass die Und-Verknüpfung
+
+0:04:34.150,0:04:39.060
+null ergibt. Wir wissen also, dass entweder
+A null sein muss, damit es eine Null ist,
+
+0:04:39.060,0:04:44.160
+so können wir schon schreiben, dass Alpha
+von A gleich null ist. Das reicht bereits
+
+0:04:44.160,0:04:49.950
+aus. Wenn wir nun Alpha von A mit null besetzen,
+wird der komplette Teil nach der Negation
+
+0:04:49.950,0:04:58.050
+null. Daher ist es egal, was wir B und nicht
+C oder B und C zuweisen, da die gesamte Formel
+
+0:04:58.050,0:05:02.930
+durch die Konjunktion null wird. Gleichzeitig
+wird nicht null eins. Ein Modell für diese
+
+0:05:02.930,0:05:12.120
+Formel wäre also Alpha von A gleich null.
+Und Alpha von B können wir uns aussuchen.
+
+0:05:12.120,0:05:18.250
+Ich nehme hier auch eine Null. Alpha von C
+ist auch null. Aber auch hier gibt es verschiedene
+
+0:05:18.250,0:05:27.660
+Möglichkeiten. Ein Modell von F. Jetzt benötigen
+wir eine Überlegung, die kein Modell ist,
+
+0:05:27.660,0:05:34.150
+aber trotzdem passend. Wir müssen also auf
+jeden Fall Alpha von A, Alpha von B und Alpha
+
+0:05:34.150,0:05:39.650
+von C belegen. Im Gesamten darf nicht eins
+rauskommen. Es muss null herauskommen. Wir
+
+0:05:39.650,0:05:43.800
+wissen also, dass der Teil nach der Negation
+im Gesamten eine Eins sein muss, sodass das
+
+0:05:43.800,0:05:52.180
+Negierte eine Null wird. A und B oder nicht
+C müssen dann eine Eins ergeben. Dass es
+
+0:05:52.180,0:05:57.280
+eine Eins ergibt, muss auf beiden Seiten eine
+Eins sein. Ich schreibe diesen Teil hier auf.
+
+0:05:57.280,0:06:06.880
+A und B oder nicht C müssen eins ergeben,
+dass das Negierte null ergibt. Dieser Teil
+
+0:06:06.880,0:06:11.490
+muss also eine Eins ergeben. Beide Seiten
+müssen eine Eins ergeben. A muss entsprechend
+
+0:06:11.490,0:06:16.920
+eine Eins sein. Das schreiben wir direkt auf.
+B oder nicht C müssen auch auf jeden Fall
+
+0:06:16.920,0:06:22.560
+eine Eins sein. Bei B oder nicht C reicht
+es wiederum, wenn das eine Eins sein soll,
+
+0:06:22.560,0:06:26.669
+dass auf einer von beiden Seiten eine Eins
+steht, sodass es insgesamt eine Eins ergibt.
+
+0:06:26.669,0:06:31.320
+Wenn wir also sagen, dass B mit einer Eins
+belegt ist, ist B oder nicht C eins. Dann
+
+0:06:31.320,0:06:35.840
+ist es egal, was C ist und wir können für
+C null oder eins einsetzen. Das ist komplett
+
+0:06:35.840,0:06:43.760
+egal. Dann haben wir schon unsere passende
+Belegung, die kein Modell ist. Auch hier gibt
+
+0:06:43.760,0:06:48.840
+es wieder mehrere Möglichkeiten. Wenn ihr
+den Lösungsweg des Ausprobierens nicht verwenden
+
+0:06:48.840,0:06:52.190
+möchtet, könnt ihr auch Wahrheitstabellen
+nutzen. Bei kurzen Formeln sind Wahrheitstabellen
+
+0:06:52.190,0:06:55.861
+auch nicht zeitintensiv, sodass ihr, wenn
+ihr auf Nummer Sicher gehen möchtet, auf
+
+0:06:55.861,0:06:59.130
+jeden Fall diese Variante verwenden könnt.
+Diese Erklärung hier war nur ein Beispiel
+
+0:06:59.130,0:07:00.139
+für einen alternativen Lösungsweg.

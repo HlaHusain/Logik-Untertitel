@@ -1,0 +1,123 @@
+0:00:05.910,0:00:10.450
+Bei Aufgabe Zwei sollen wir jeweils ein Beispiel
+für die folgenden Sachen nennen, als Erstes
+
+0:00:10.450,0:00:13.030
+eine erfüllbare, aber nicht tautologische
+Formel.
+
+0:00:13.030,0:00:19.650
+Die einfachste Möglichkeit hier wäre A.
+A ist erfüllbar, aber nicht tautologisch,
+
+0:00:19.650,0:00:23.080
+da A entweder den Wahrheitswert Eins oder
+Null haben kann.
+
+0:00:23.080,0:00:27.570
+Das heißt, es gibt mögliche, passende Belegungen,
+wo A den Wahrheitswert Eins hat, es gibt aber
+
+0:00:27.570,0:00:30.260
+auch Belegungen, wo es Null hat, deswegen
+ist es nicht tautologisch.
+
+0:00:30.260,0:00:31.440
+Als Nächstes sollen wir eine tautologische
+Formel nennen.
+
+0:00:31.440,0:00:38.030
+Und bei tautologischen Formeln ist es so,
+dass sie unter jeder passenden Belegung immer
+
+0:00:38.030,0:00:39.880
+den Wahrheitswert Eins bekommen.
+
+0:00:39.880,0:00:44.300
+Die einfachste tautologische Formel, die ihr
+euch hier merken könnt, lautet, A oder nicht
+
+0:00:44.300,0:00:50.739
+A ist immer Eins, denn egal ob A den Wahrheitswert
+Eins oder Null erhält, durch das oder, mit
+
+0:00:50.739,0:00:54.239
+dem die beiden verknüpft sind, reicht es
+immer, wenn eins von beiden Eins hat und eins
+
+0:00:54.239,0:00:57.640
+von beiden ist immer Eins und deswegen ist
+die gesamte Formel tautologisch.
+
+0:00:57.640,0:01:01.020
+Jetzt sollen wir noch eine unerfüllbare Formel
+nennen.
+
+0:01:01.020,0:01:07.930
+Das wäre dann A und nicht A, denn A kann
+entweder Eins oder Null sein und dann ist
+
+0:01:07.930,0:01:10.070
+eben das jeweils andere Eins oder Null.
+
+0:01:10.070,0:01:14.650
+Und so ist immer eine von beiden Seiten Null
+und bei der Unverknüpfung müssen beide Eins
+
+0:01:14.650,0:01:16.539
+sein, damit im Gesamten eine Eins rauskommt.
+
+0:01:16.539,0:01:21.810
+Das ist hier nicht möglich, deswegen ist
+A und nicht A eine unerfüllbare Formel.
+
+0:01:21.810,0:01:26.380
+In dem Zusammenhang sollen wir jetzt erklären,
+was eine passende Belegung zu einer Formel
+
+0:01:26.380,0:01:27.380
+ist.
+
+0:01:27.380,0:01:32.430
+Und eine passende Belegung ist es dann, wenn
+sie jeder atomaren Formel, die in F vorkommt,
+
+0:01:32.430,0:01:34.520
+einen Wahrheitswert zuordnet.
+
+0:01:34.520,0:01:39.720
+In dem Fall wäre eine passende Belegung,
+jede Belegung, die A einen Wahrheitswert zuordnet,
+
+0:01:39.720,0:01:41.420
+da wir hier nur A haben.
+
+0:01:41.420,0:01:46.140
+Hätten wir eine Formel mit A und B, wie auch
+immer die miteinander verbunden sind, könnte
+
+0:01:46.140,0:01:53.970
+auch A impliziert B sein oder A und B oder
+nicht A oder B, bräuchten wir eine Belegung,
+
+0:01:53.970,0:01:58.590
+die sowohl A als auch B einen Wahrheitswert
+zuordnet.
+
+0:01:58.590,0:01:59.860
+Welcher das ist, ist egal.
+
+0:01:59.860,0:02:03.660
+Hätten wir noch ein C, müssten wir auch
+noch ein C hinzufügen.
+
+0:02:03.660,0:02:08.060
+Wenn wir noch ein D hinzufügen würden, dann
+wäre das auch für diese Formel eine passende
+
+0:02:08.060,0:02:11.580
+Belegung, auch wenn D hier gar nicht vorkommt.
+
+0:02:11.580,0:02:16.060
+Aber jede vorkommende atomare Formel bekommt
+einen Wahrheitswert und das genügt.

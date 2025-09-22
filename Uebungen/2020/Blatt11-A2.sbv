@@ -1,0 +1,307 @@
+0:00:01.564,0:00:06.240
+Bei Aufgabe 2 haben wir eine prädikatenlogische
+Aussage gegeben, die gleiche aus der Vorlesung:
+
+0:00:06.240,0:00:14.520
+Für alle x gilt nicht M(x), x impliziert
+M(k,x). Hier sollen wir drei nicht bereits
+
+0:00:14.520,0:00:19.080
+in der Vorlesung vorkommende passende
+Strukturen für diese Aussage angeben und
+
+0:00:19.080,0:00:23.280
+zwei der Strukturen sollen dabei ein Modell
+der Aussage sein. Die dritte Struktur soll
+
+0:00:23.280,0:00:27.960
+passend aber kein Modell sein. Schauen wir uns
+das zunächst einmal an. Nur zur Erinnerung,
+
+0:00:27.960,0:00:35.220
+in der Vorlesung wurden folgende passende
+Strukturen vorgestellt. Achtung bei der zweiten,
+
+0:00:35.220,0:00:40.920
+das war kein Modell, die wurde im Video irrtümlich
+als Modell bezeichnet. Und diese sollen wir nicht
+
+0:00:40.920,0:00:45.120
+nehmen, sondern wir sollen uns noch einmal eigene
+überlegen. Das heißt, wir schauen erst einmal, was
+
+0:00:45.120,0:00:51.000
+sind mögliche Modelle? Da wäre zum Beispiel eine
+Möglichkeit, dass wir die Grundmenge U mit Klaus
+
+0:00:51.000,0:00:58.740
+definieren und dann sagen I(k) ist Klaus und I(M)
+ist Klaus, Klaus. Eine weitere Möglichkeit wäre,
+
+0:00:58.740,0:01:04.980
+wenn wir hier als Grundmenge Gabi und
+Klaus nehmen und I(k) als Klaus setzen,
+
+0:01:04.980,0:01:12.060
+so wie hier. Dann gibt es neben dem Modell I(M),
+so wie hier, nicht nur die Möglichkeit mit Klaus,
+
+0:01:12.060,0:01:18.480
+Klaus. Sondern es gibt auch noch die Möglichkeit
+mit Klaus, Gabi oder Gabi, Klaus. Und im Gesamten
+
+0:01:18.480,0:01:23.880
+kann man dann folgende Möglichkeiten als Modell
+machen, die sind dann hier alle aufgelistet. Das
+
+0:01:23.880,0:01:28.800
+ist das, was ich gerade erklärt habe, hier ist
+das alles aufgelistet. Einfach Gabi, Gabi, Klaus,
+
+0:01:28.800,0:01:34.980
+Gabi. Gabi, Gabi, Klaus. Gabi, Gabi, Klaus, Gabi,
+Gabi, Klaus. Da sind wir jetzt natürlich nicht nur
+
+0:01:34.980,0:01:40.440
+auf Klaus und Gabi beschränkt, sondern wir können
+ja dieses Universum, die Grundmenge hier, können
+
+0:01:40.440,0:01:45.240
+wir ja beliebig wählen. Die Struktur muss dabei
+auch nicht zwangsläufig mit unserem beabsichtigtem
+
+0:01:45.240,0:01:50.760
+Szenario zu tun haben. Das heißt, wir könnten zum
+Beispiel auch für das Universum so etwas wie Hund,
+
+0:01:50.760,0:01:56.520
+Katze und Maus nehmen. Dann haben wir Hund,
+Katze, Maus als Universum. I(k) ist Maus und I(M)
+
+0:01:57.060,0:02:04.920
+könnte dann sein: Maus, Maus. Hund, Katze, Katze,
+Katze. Maus, Hund. Das ist alles möglich. Oder wir
+
+0:02:04.920,0:02:09.960
+könnten es auch noch abstrakter machen, mit einem
+unendlichen Universum und hätten als Universum
+
+0:02:09.960,0:02:15.720
+alle natürlichen Zahlen. I(k) gleich null, I(M)
+gleich, und dann zum Beispiel diese Formel hier:
+
+0:02:15.720,0:02:24.540
+x, y und x kleiner gleich y. Das sind also alles
+Modelle für diese Aussage. Davon oder irgendwelche
+
+0:02:24.540,0:02:29.940
+zwei weiteren beliebigen Modelle solltet ihr jetzt
+in der Aufgabe angeben. Und dann sollte noch die
+
+0:02:29.940,0:02:35.880
+dritte Struktur kein Modell sein. Das heißt,
+das schauen wir uns noch einmal an, was haben
+
+0:02:35.880,0:02:39.660
+wir für passende Strukturen, die keine Modelle
+sind? Wenn wir jetzt beim Beispiel von vorher
+
+0:02:39.660,0:02:45.540
+bleiben mit U gleich Gabi, Klaus. Dann können wir
+hier passende Strukturen, die keine Modelle sind.
+
+0:02:46.800,0:02:52.560
+Hier können wir sagen: Für U gleich Gabi, Klaus
+und I(k) gleich Klaus, also wie eben, da haben
+
+0:02:52.560,0:02:59.340
+wir 16 verschiedene mögliche Interpretationen
+von I und M. Und davon sind alle außer den oben
+
+0:02:59.340,0:03:04.920
+gegebenen sechs Modellen zwar passend, aber
+kein Modell. Insbesondere sind alle Strukturen
+
+0:03:04.920,0:03:11.340
+mit (Klaus, Klaus) ist nicht Element von I(M) kein
+Modell. Das gucken wir uns gleich in Aufgabenteil
+
+0:03:11.340,0:03:16.020
+(b) an. Aber wir können natürlich auch, wie bei
+den Modellen, ein anderes Universum wählen und
+
+0:03:16.020,0:03:20.340
+eine andere Interpretation der Symbole nutzen,
+wie wir es gerade getan haben. Zum Beispiel mit
+
+0:03:20.340,0:03:27.840
+U gleich Hund, Katze, Maus. I(k) ist Maus, I(M)
+ist (Hund, Katze) und (Katze, Katze). Auch eine
+
+0:03:27.840,0:03:32.160
+passende Struktur, die kein Modell ist. Oder
+wir nehmen eben das ganz abstrakte Beispiel,
+
+0:03:32.160,0:03:36.180
+das letzte, was wir gerade hatten, bei den
+Modellen und sagen, dass wir das so ändern,
+
+0:03:36.180,0:03:41.700
+dass I(k), I(k) in diesem Fall dann 0,
+0. Ich decke das noch einmal eben auf.
+
+0:03:41.700,0:03:50.580
+Hier hatten wir das, I(k) ist null, in diesem
+Fall also 0,0 und dass das nicht in I(M) ist.
+
+0:03:53.700,0:03:59.100
+Und haben dann wieder das Universum mit den
+natürlichen Zahlen. I(k) ist null, I(M). Und
+
+0:03:59.100,0:04:06.240
+dann sagen wir zum Beispiel x, y und dann x
+kleiner als y, also nicht kleiner gleich. Bei
+
+0:04:06.240,0:04:14.040
+Aufgabe (b) sollten wir sagen, gibt es ein Modell
+der Aussage, in dem nicht I(k), I(k) aus der Menge
+
+0:04:14.040,0:04:20.640
+I(M) gilt? Begründen Sie Ihre Antwort. Und hier
+auch noch einmal der Hinweis, das Beispiel für
+
+0:04:20.640,0:04:25.380
+ein Modell im Video der Vorlesung ist inkorrekt!
+Die PDF-Folien enthalten eine korrigierte Version.
+
+0:04:25.380,0:04:36.240
+Und nein, es gibt kein Modell der Aussage, in
+dem nicht I(k), I(k) aus I(M) gilt, und jetzt
+
+0:04:36.240,0:04:40.320
+decke ich das einmal auf und dann gehen wir das
+einmal durch. Jede zur Aussage passende Struktur
+
+0:04:40.320,0:04:46.500
+muss eine Interpretation für die Konstante
+k enthalten. Das heißt, k muss ein Element
+
+0:04:46.500,0:04:52.200
+des Universums zugeordnet werden und das darf
+eben nicht leer sein. Es gibt also ein Element
+
+0:04:53.520,0:05:00.660
+e aus dem Universum, für das I(k) gleich e gilt.
+Wenn wir die Implikation in der Aussage in eine
+
+0:05:00.660,0:05:06.360
+Disjunktion umschreiben, dann erhält man
+folgendes: F ist gleich für alle x gilt
+
+0:05:06.360,0:05:13.140
+M(x,x) oder M(k,x). Das können wir uns auch
+noch einmal anschauen. Hier ist die Aussage.
+
+0:05:14.760,0:05:19.020
+Wenn wir die in eine Disjunktion
+umschreiben, dann erhalten wir das.
+
+0:05:22.380,0:05:26.820
+Und für ein Modell benötigen wir, dass die
+passende Struktur von F den Wahrheitswert
+
+0:05:26.820,0:05:34.260
+1 erhält. Das Auswerten der Eilquantorformel zu
+eins setzt aber voraus, dass A x ersetzt durch d
+
+0:05:35.520,0:05:45.900
+von dieser Formel für eins. Für alle d als Element
+aus der Grundmenge gilt, d ist das wodurch x
+
+0:05:45.900,0:05:51.240
+ersetzt wurde, also für unsere Elemente, die wir
+hier verwenden. Insbesondere muss da auch gelten,
+
+0:05:51.240,0:05:58.500
+dass A x ersetzt durch e mit dieser Formel für
+eins ausgewertet wird. Weil wir haben hier:
+
+0:05:58.500,0:06:06.780
+Es gibt ein Element aus der Grundmenge, sodass
+gilt I(k) gleich e. Wobei eben A x ersetzt durch
+
+0:06:06.780,0:06:13.260
+e bedeutet, dass eine Interpretation nunmehr
+(x) gleich e gesetzt wird. Wegen der Definition
+
+0:06:13.260,0:06:19.140
+von A für die Disjunktion muss auch A von x
+ersetzt durch e und dann M(x,x) gleich eins.
+
+0:06:20.280,0:06:28.200
+A von x ersetzt durch e, M (k,x), also jeweils
+das Einzelne hier gleich eins gelten. Weil das
+
+0:06:28.200,0:06:32.520
+bei Disjunktionen so ist, dass eines von beiden
+dann eine 1 ist. Das eine bedeutet letztlich,
+
+0:06:32.520,0:06:41.760
+dass (I(x), I(x)) aus der Menge I(M) Das andere,
+I(k), I(x) aus der Menge von I(M)sein muss. Wegem
+
+0:06:41.760,0:06:48.600
+I(x) gleich e gleich I(k) wären aber beide
+diese Möglichkeiten unzutreffend. Wenn I(k),
+
+0:06:49.680,0:06:56.100
+I(k) nicht aus der Menge I(M) wäre. Deswegen gibt
+es kein Modell der Aussage, in dem nicht I(k)
+
+0:06:57.420,0:07:03.960
+aus der Menge I(M) ist. Bei Aufgabe sollen wir
+sagen, wie verändert sich der Status der Aussage,
+
+0:07:03.960,0:07:09.960
+Tautologie, erfüllbar oder unerfüllbar, wenn
+die Implikation durch eine Biimplikation ersetzt
+
+0:07:09.960,0:07:14.040
+wird? Also hier haben wir eine Biimplikation
+stehen. Diese Antwort sollen wir auch wieder
+
+0:07:14.040,0:07:17.820
+begründen. Ich decke das wieder einmal auf,
+weil dann können wir das zusammen durchgehen,
+
+0:07:17.820,0:07:22.020
+das ist wahrscheinlich einfacher. Und dann können
+wir einmal sagen: Analog zur Begründung (b) können
+
+0:07:22.020,0:07:27.840
+wir sehen, dass für ein Modell der geänderten
+Aussage unter Anderem A x ersetzt durch e,
+
+0:07:27.840,0:07:36.540
+nicht M(x,x) gleich A x ersetzt durch e,
+M(k,x) gelten muss. Also dieser Teil und
+
+0:07:36.540,0:07:43.560
+dieser Teil. Wobei I(x) gleich e gleich
+I(k). Es muss also I(x), I(x) nicht aus
+
+0:07:43.560,0:07:47.760
+der Menge I(M) und, in dem Fall und, I(k),
+X(k) aus der Menge I(M) gelten. Oder I(x),
+
+0:07:47.760,0:08:01.380
+I(x) aus der Menge I(M) und I(k), I(x) nicht
+aus der Menge I(M). Und wegen I(x) gleich
+
+0:08:01.380,0:08:07.920
+e gleich I(k) heißt das eben auch in beiden
+Fällen, dass e,e gleichzeitig in der Relation I(M)
+
+0:08:07.920,0:08:14.040
+sein muss. Aber nicht sein darf. Und das ist ein
+Widerspruch, deswegen ist die Aussage unerfüllbar.

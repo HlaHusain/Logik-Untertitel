@@ -1,0 +1,120 @@
+0:00:02.230,0:00:08.049
+In Teilaufgabe (c) soll der tatsächlich erzeugte
+SLD Resolutionsbaum für dieselbe Anfrage
+
+0:00:08.049,0:00:09.049
+gezeichnet werden.
+
+0:00:09.049,0:00:12.950
+Bei Prolog wird immer nur das erste Literal
+gewählt.
+
+0:00:12.950,0:00:16.850
+Deshalb wird der Resolutionsbaum kleiner.
+
+0:00:16.850,0:00:21.529
+Im ersten Schritt notieren wir die Anfrageklausel:
+„faehrt(X,a)".
+
+0:00:21.529,0:00:24.240
+Das resolvieren wir mit Zeile elf.
+
+0:00:24.240,0:00:25.560
+Wir hatten keine andere Wahl.
+
+0:00:25.560,0:00:28.130
+Wir erhalten mit "hatFuehrerschein(X,a)" und
+"besitzt(X,a)" dasselbe Ergebnis wie vorher,
+
+0:00:28.130,0:00:32.759
+nur jetzt in der Prolog-Syntax.
+
+0:00:32.759,0:00:42.719
+Jetzt nehmen wir aber nur das erste Literal,
+also "hatFuehrerschein(X,a)" und gehen damit
+
+0:00:42.719,0:00:43.719
+weiter.
+
+0:00:43.719,0:00:47.280
+Wir schauen, womit wir das resolvieren können.
+
+0:00:47.280,0:00:52.519
+Auch dabei arbeiten wir von oben nach unten,
+da Prolog immer von oben nach unten vorgeht.
+
+0:00:52.519,0:01:00.300
+Die erste passende Zeile ist daher Zeile acht:
+"besitzt(K,a)" Hier kommen wir nicht weiter,
+
+0:01:00.300,0:01:01.429
+weshalb das hier bereits endet.
+
+0:01:01.429,0:01:04.940
+Wir schauen dann, wo wir die nächste Auswahl
+gehabt hätten.
+
+0:01:04.940,0:01:07.970
+Das war nur eine Zeile darüber: "hatFuehrerschein(X,a)",
+"besitzt(X,a)".
+
+0:01:07.970,0:01:16.700
+Das können wir jetzt mit Zeile neun resolvieren
+und erhalten "besitzt(N,a)" Das können wir
+
+0:01:16.700,0:01:21.140
+wiederum in Zeile drei resolvieren und erhalten
+dann die leere Klausel.
+
+0:01:21.140,0:01:24.520
+Die notieren wir in dieser Syntax in Form
+dieses Kästchens.
+
+0:01:24.520,0:01:29.270
+Hier müsst ihr aufpassen, dass ihr nicht
+die Klauselschreibweise verwendet.
+
+0:01:29.270,0:01:33.250
+Also, dass ihr nicht für die leere Menge
+oder die leere Klausel das nehmt, was wir
+
+0:01:33.250,0:01:37.550
+vorhin genommen haben, die leeren Klammern
+oder das Symbol für die leere Menge.
+
+0:01:37.550,0:01:39.440
+Stattdessen verwenden wir hier dieses Kästchen.
+
+0:01:39.440,0:01:44.150
+Dann können wir nochmal nach oben gehen,
+wo wir die nächste Auswahl hatten.
+
+0:01:44.150,0:01:48.620
+Bei "besitzt(N,a)" gab es nichts Weiteres,
+womit wir das resolvieren könnten.
+
+0:01:48.620,0:01:51.280
+Daher gehen wir eine weitere Zeile nach oben:
+"hatFuehrerschein(X,a)", "besitzt(X,a)".
+
+0:01:51.280,0:01:59.250
+Das können wir wiederum mit Zeile zehn resolvieren:
+"besitzt(C,a)".
+
+0:01:59.250,0:02:04.280
+Das können wir, wie auch im Beispiel davor,
+mit Zeile fünf resolvieren und erhalten dann
+
+0:02:04.280,0:02:06.020
+auch hier wieder die leere Klausel.
+
+0:02:06.020,0:02:12.459
+Der komplette rechte Teil mit "besitzt(X,a)"
+und die gesamte Resolution, die danach folgt,
+
+0:02:12.459,0:02:18.040
+fällt hier weg, da wir bei Prolog nur das
+erste Literal für die Resolution benutzen.
+
+0:02:18.040,0:02:20.069
+Deshalb sind wir hier bereits fertig.

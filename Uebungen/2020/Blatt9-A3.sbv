@@ -1,0 +1,221 @@
+0:00:05.900,0:00:11.030
+Bei Aufgabe 3 haben wir zwei Formeln gegeben,
+G und H und sollen im ersten Schritt entscheiden,
+
+0:00:11.030,0:00:13.620
+ob es sich dabei um Hornformeln handelt oder
+nicht.
+
+0:00:13.620,0:00:18.270
+Falls es sich um eine Hornformel handelt,
+sollen wir diese in Implikationsschreibweise
+
+0:00:18.270,0:00:19.570
+darstellen.
+
+0:00:19.570,0:00:22.259
+Schauen wir uns zunächst die Formel G an.
+
+0:00:22.259,0:00:25.179
+Die Voraussetzung für eine Hornformel ist
+einmal, dass wir KNF vorliegt, das haben wir
+
+0:00:25.179,0:00:30.769
+hier, weil wir und-Verknüpfungen haben, die
+Disjunktionen miteinander verbinden, das heißt,
+
+0:00:30.769,0:00:31.919
+wir haben eine KNF.
+
+0:00:31.919,0:00:36.290
+Außerdem darf in jeder Klausel maximal ein
+positives Literal vorkommen.
+
+0:00:36.290,0:00:41.260
+In der ersten Klausel haben wir nur B als
+positives Literal, in der zweiten nur C, in
+
+0:00:41.260,0:00:45.300
+der dritten haben wir gar kein positives Literal
+und die vierte Klausel hat nur A.
+
+0:00:45.300,0:00:50.350
+Das heißt, wir haben sowohl ein KNF, als
+auch maximal ein positives Literal in jeder
+
+0:00:50.350,0:00:51.670
+Klausel.
+
+0:00:51.670,0:00:53.670
+Deswegen ist es eine Hornformel.
+
+0:00:53.670,0:01:07.210
+Bei der Formel H haben wir und-Verknüpfungen,
+welche Disjunktionen miteinander verknüpfen,
+
+0:01:07.210,0:01:10.490
+wodurch eine KNF vorliegt.
+
+0:01:10.490,0:01:17.520
+Jetzt müssen wir noch schauen, haben wir
+in jeder Klausel maximal ein positives Literal
+
+0:01:17.520,0:01:18.520
+vorliegt.
+
+0:01:18.520,0:01:24.080
+In der ersten Klausel haben wir keines, in
+der zweiten nur das A, in der dritten nur
+
+0:01:24.080,0:01:30.990
+das C, in der vierten nur das D, in der fünften
+nur das B, in der sechsten nur das E und in
+
+0:01:30.990,0:01:34.830
+der siebten haben wir E und F als positives
+Literal.
+
+0:01:34.830,0:01:44.680
+Deswegen handelt es sich nicht um eine Hornformel,
+da in der letzten Klausel mehr als ein positives
+
+0:01:44.680,0:01:46.410
+Literal vorkommt.
+
+0:01:46.410,0:01:53.950
+Jetzt sollen wir für die Hornformel, also
+für G, die Implikationsschreibweise angeben.
+
+0:01:53.950,0:02:02.979
+Hier haben wir A impliziert B und B impliziert
+C.
+
+0:02:02.979,0:02:05.320
+Hier müsst ihr auf jeden Fall aufpassen.
+
+0:02:05.320,0:02:08.679
+Ich habe in den Übungsdateien gesehen, dass
+einige sich mit der Reihenfolge vertun.
+
+0:02:08.679,0:02:11.230
+Also die hätten dann zum Beispiel C impliziert
+B geschrieben.
+
+0:02:11.230,0:02:14.209
+Da müsst ihr auf jeden Fall deutlich aufpassen,
+was wo hinkommt.
+
+0:02:14.209,0:02:18.109
+Hier haben wir immer den negierten Teil, der
+kommt vor die Implikation, also nach links.
+
+0:02:18.109,0:02:22.170
+Und der nicht negierte Teil kommt hinter die
+Implikation nach rechts.
+
+0:02:22.170,0:02:24.810
+Dann sind wir schon bei der dritten.
+
+0:02:24.810,0:02:31.519
+Wenn wir hier kein positives Literal haben,
+dann haben wir diese negierten Literale, die
+
+0:02:31.519,0:02:33.220
+dann null implizieren.
+
+0:02:33.220,0:02:40.030
+Hier haben wir A und C, dabei ist das und
+ganz wichtig, es liegt kein oder vor.
+
+0:02:40.030,0:02:42.480
+A und C impliziert null.
+
+0:02:42.480,0:02:43.909
+Und für das letzte A.
+
+0:02:43.909,0:02:48.189
+Wenn wir kein negatives Literal haben sondern
+nur ein alleinstehendes positives Literal,
+
+0:02:48.189,0:02:50.510
+dann haben wir eins impliziert A.
+
+0:02:50.510,0:02:54.709
+Das ist die Implikationsschreibweise zur Formel
+G.
+
+0:02:54.709,0:03:00.410
+Bei Aufgabe 3(b) sollen wir jetzt mittels
+aussagenlogischer Resolution zeigen, dass
+
+0:03:00.410,0:03:04.189
+G unerfüllbar ist und das Ergebnis wieder
+in einem Antwortsatz kommentieren.
+
+0:03:04.189,0:03:06.849
+Das markiere ich mir wieder, um es nicht zu
+vergessen.
+
+0:03:06.849,0:03:11.790
+Um die Resolution durchzuführen, müssen
+wir G zunächst in Klauselschreibweise überführen.
+
+0:03:11.790,0:03:15.450
+Das heißt, wir verwenden hier die geschweiften
+Klammern, was besonders wichtig ist.
+
+0:03:15.450,0:03:30.719
+Dann haben wir nicht A Komma B Komma nicht
+B Komma C Komma nicht A Komma nicht C und
+
+0:03:30.719,0:03:31.959
+A.
+
+0:03:31.959,0:03:37.290
+Die Kommata in den geschweiften Klammern bilden
+dabei das Oder und die Kommata zwischen den
+
+0:03:37.290,0:03:40.669
+geschweiften Klammern bilden das Und ab, die
+Konjunktion.
+
+0:03:40.669,0:03:44.379
+Jetzt schauen wir, was wir miteinander resolvieren
+können.
+
+0:03:44.379,0:03:47.180
+Fangen wir direkt mit den ersten beiden Klauseln
+an.
+
+0:03:47.180,0:03:53.799
+Nicht A Komma B und nicht B Komma C wird zu
+nicht A Komma C.
+
+0:03:53.799,0:04:00.919
+Das B und das nicht B werden zusammen eliminiert
+und das nicht A Komma C können wir dann wieder
+
+0:04:00.919,0:04:02.940
+mit der dritten Klausel resolvieren.
+
+0:04:02.940,0:04:09.439
+Dann erhalten wir nicht A, was nicht mit dem
+anderen nicht A eliminiert werden kann, wir
+
+0:04:09.439,0:04:11.349
+schreiben es auch nicht doppelt auf.
+
+0:04:11.349,0:04:21.190
+C und nicht C heben sich auf, so ergibt sich
+das nicht A, welches wir mit der letzten Klausel
+
+0:04:21.190,0:04:23.100
+resolvieren können und wir erhalten die leere
+Menge.
+
+0:04:23.100,0:04:27.891
+Dann brauchen wir noch einen Antwortsatz:
+Weil die leere Klausel herleitbar ist, ist
+
+0:04:27.891,0:04:29.340
+G unerfüllbar.

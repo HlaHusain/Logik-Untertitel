@@ -1,0 +1,174 @@
+0:00:01.969,0:00:06.589
+Bei Teilaufgabe (b) soll ein einstelliges
+Prolog-Prädikat summer geschrieben werden,
+
+0:00:06.589,0:00:13.750
+welches bestimmt, ob ein Datum im Sommer liegt.
+Wir sagen, Sommer gilt vom 21. Juni bis zum
+
+0:00:13.750,0:00:20.330
+21. September. Die beiden folgenden Anfragen
+sollten dann gelten: Der 15. August 1985 liegt
+
+0:00:20.330,0:00:24.529
+innerhalb dieses Zeitraums, weshalb wir für
+diese Anfrage die Antwort „true“ bekommen
+
+0:00:24.529,0:00:30.050
+sollten. Beim 26. Mai 2033 sollte die Antwort
+„false“ sein, da Mai nicht zum Sommer
+
+0:00:30.050,0:00:37.250
+zählt. Wir sollen ein einstelliges Prädikat
+schreiben. Das ist etwas schwierig, da wir
+
+0:00:37.250,0:00:42.110
+dafür mehr als eine Regel benötigen und
+zwar für jeden Monat eine, da es verschiedene
+
+0:00:42.110,0:00:49.900
+Variationen gibt. Wir beginnen im Juni: Da
+gilt es erst ab dem 21. Juni. Deshalb schreiben
+
+0:00:49.900,0:00:56.960
+wir: Summer von X ist dann, wenn X ein valides
+Datum ist, wie wir in Aufgabe (a) festgelegt
+
+0:00:56.960,0:01:07.230
+haben. Das heißt, valid X. X gleich Date
+von irgendwas. Das bedeutet, dass wir hier
+
+0:01:07.230,0:01:13.040
+prüfen, ob beide Argumente unifizierbar sind.
+Wenn es unifizierbar ist, wird die Variante
+
+0:01:13.040,0:01:21.920
+entsprechend instanziert. X gleich Date, Day,
+großes D. Months, June, da wir zuerst den
+
+0:01:21.920,0:01:28.990
+Juni machen. Dann machen wir den Unterstrich
+für eine anonyme Variable. Denn das Jahr
+
+0:01:28.990,0:01:34.520
+ist für den Sommer irrelevant. Das brauchen
+wir nicht extra in einer Variable speichern,
+
+0:01:34.520,0:01:40.790
+da es egal ist. Wenn wir es nicht speichern,
+können wir diesen Unterstrich verwenden.
+
+0:01:40.790,0:01:47.200
+Der Tag muss außerdem mindestens der 21.
+sein, also größer gleich. Das schreiben
+
+0:01:47.200,0:01:53.531
+wir in Prolog mit einem Größer-Zeichen,
+gleich 21. Hiermit ist die erste Regel für
+
+0:01:53.531,0:02:00.630
+den Juni beendet. Prolog schaut jetzt, ob
+das X, das wir vorher hatten, in dieses Schema
+
+0:02:00.630,0:02:09.479
+eingefügt werden kann. Für X wird hier ein
+Datum eingegeben in der Form Day 18, Month
+
+0:02:09.479,0:02:18.000
+June und Jahr 2003 zum Beispiel. Prolog prüft
+dann zunächst, ob es sich dabei um ein valides
+
+0:02:18.000,0:02:24.290
+Datum handelt. Im nächsten Schritt prüft
+es, ob es zu dieser Form passt, die dahintersteht.
+
+0:02:24.290,0:02:31.069
+Also einmal in der Form Date und einmal mit
+D größer gleich 21. Wenn das der Fall ist,
+
+0:02:31.069,0:02:34.140
+erhalten wir die Antwort „true“. Wenn
+das nicht der Fall ist, schauen wir weiter,
+
+0:02:34.140,0:02:38.930
+ob es eine andere passende Regel gibt. Daher
+müssen wir noch die Regeln für die anderen
+
+0:02:38.930,0:02:44.690
+drei Monate eingeben. Die haben zunächst
+den gleichen Aufbau: Summer X, wenn X ein
+
+0:02:44.690,0:02:53.880
+valides Datum ist und X gleich und dann Date.
+Der Tag ist im Juli egal, da es null bis 31
+
+0:02:53.880,0:03:00.370
+Tage gibt. Wenn jemand 40 eingeben würde,
+würde bereits die Valid-Prüfung fehlschlagen,
+
+0:03:00.370,0:03:08.230
+da 40 als Tageszahl im Juli nicht existiert.
+Alles, was zwischen eins und 31 eingegeben
+
+0:03:08.230,0:03:13.450
+wird, in Ordnung. Es muss auch positiv sein,
+also größer als null. Das heißt, eins bis
+
+0:03:13.450,0:03:19.730
+31 wäre möglich. Hier können wir auch wieder
+den Unterstrich verwenden, weil es nicht wichtig
+
+0:03:19.730,0:03:24.000
+ist, welcher Tag genau eingegeben wird und
+wir das nicht speichern müssen. Wir haben
+
+0:03:24.000,0:03:28.260
+Month July, da wir gesagt haben, wir machen
+die Regel für den Juli. Das Jahr ist wie
+
+0:03:28.260,0:03:35.019
+bei Juni als Unterstrich notiert, da es irrelevant
+ist. Am Ende kommt ein Punkt. Das gleiche
+
+0:03:35.019,0:03:42.190
+machen wir für den August analog dazu. Wir
+ersetzen Juli durch August. Als letztes brauchen
+
+0:03:42.190,0:03:50.319
+wir die Regel für den September mit der Vorgabe,
+dass der Tag maximal der 21. sein darf. Wir
+
+0:03:50.319,0:03:56.349
+stellen also die folgende Regel auf: Summer
+X, wenn valid X. Dann definieren wir: Wenn
+
+0:03:56.349,0:04:02.600
+X gleich Date, dann Day und dann die Variable
+D, auf die wir gleich wieder eingehen. Da
+
+0:04:02.600,0:04:06.230
+wir diese Variable gleich noch brauchen, müssen
+wir sie hier definieren und können sie nicht
+
+0:04:06.230,0:04:09.420
+mit dem Unterstrich machen. Wenn wir hier
+den Unterstrich verwenden würden, würde
+
+0:04:09.420,0:04:13.900
+sie nicht gespeichert werden und wir könnten
+sie nicht weiterverwenden. Dann kommt der
+
+0:04:13.900,0:04:20.390
+Monat September. Die Jahreszahl ist wieder
+egal. Wir notieren die folgende Regel: Es
+
+0:04:20.390,0:04:27.060
+darf maximal der 21. sein. Das heißt, wir
+könnten kleiner gleich 21 schreiben oder
+
+0:04:27.060,0:04:32.280
+großes D kleiner 22. Das macht keinen Unterschied.
+Das könnt ihr euch aussuchen. Wir schließen
+
+0:04:32.280,0:04:32.970
+mit einem Punkt.

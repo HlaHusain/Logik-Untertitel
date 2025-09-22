@@ -1,0 +1,199 @@
+0:00:00.329,0:00:05.959
+Bei Aufgabe 3 geht es darum, ein Krypto-Arithmetik-Problem
+zu lösen. Dabei stehen Buchstaben für bestimmte
+
+0:00:05.959,0:00:11.210
+Ziffern. Und zwar eindeutig. Jedem Buchstaben
+soll eine Ziffer zugeordnet werden und jede
+
+0:00:11.210,0:00:15.201
+Ziffer kann nur für einen Buchstaben benutzt
+werden. Das heißt, wenn das A einer 1 entspricht
+
+0:00:15.201,0:00:19.850
+kann B nicht auch 1 entsprechen. Die Idee
+ist, dass man eine ganz normale Rechenaufgabe
+
+0:00:19.850,0:00:24.901
+erhält, hier in diesem Fall eine Summenaufgabe
+und diese nach dem Ersetzen der Ziffern auch
+
+0:00:24.901,0:00:30.189
+aufgeht. Dabei soll ein allgemeines Konzept
+zur Lösung solcher Aufgaben angewendet werden,
+
+0:00:30.189,0:00:35.870
+welches Generate-and-Test heißt. Bei Generate-and-Test
+geht es darum, dass man im ersten Schritt
+
+0:00:35.870,0:00:40.860
+einen Generator schreibt, der mögliche Lösungen
+generiert. Im zweiten Schritt werden diese
+
+0:00:40.860,0:00:45.670
+Lösungen daraufhin getestet, ob sie wirklich
+als reale Lösungen in Frage kommen. Dazu
+
+0:00:45.670,0:00:50.430
+ist hier bereits etwas vorbereitet, ein genereller
+Lösungsmechanismus. Das Solve-Prädikat,
+
+0:00:50.430,0:00:57.370
+welches hier aus dem Generate-und dem Test-Prädikat
+besteht. Das heißt, zunächst wird das Generate-Prädikat
+
+0:00:57.370,0:01:02.542
+auf Wahrheit überprüft und dann das Test-Prädikat.
+Kommen wir als erstes zum Generator. Als Generator
+
+0:01:02.542,0:01:07.560
+haben wir, wie bei der vorherigen Aufgabe,
+das Permutation built-in-Prädikat. Da wir
+
+0:01:07.560,0:01:12.450
+alle Ziffern ersetzen wollen, brauchen wir
+alle Ziffern von 0 bis 9 und setzen für die
+
+0:01:12.450,0:01:16.760
+zweite Liste die Buchstaben als Variablen
+ein, denn diese werden letztendlich mit den
+
+0:01:16.760,0:01:21.260
+Ziffern belegt. Hier müssen wir auch eine
+anonyme Variable setzen, da wir zehn Ziffern
+
+0:01:21.260,0:01:27.150
+aber nur neun Buchstaben haben. Beim Permutationprädikat
+müssen beide Listen gleich lang sein, sonst
+
+0:01:27.150,0:01:31.620
+schlägt das Ganze fehl. Jetzt haben wir das
+Generate schon fertig. Das Generate ist sehr
+
+0:01:31.620,0:01:37.500
+einfach, hier muss nur das Permutationprädikat
+gewählt und die Ziffern aufgeführt werden.
+
+0:01:37.500,0:01:42.230
+Um den Test durchzuführen, muss überprüft
+werden, ob die krypto-arithmetische Aufgabe
+
+0:01:42.230,0:01:48.060
+lösbar ist im Sinne von einer normalen Summenbildung.
+Das heißt, um dies hier aufzuschreiben, müssen
+
+0:01:48.060,0:01:52.030
+wir einen kleinen Exkurs in die Darstellung
+von natürlichen Zahlen durchführen. Nehmen
+
+0:01:52.030,0:01:58.210
+wir beispielsweise die 423. Im Dezimalsystem,
+also dem gängigen Zahlsystem mit Ziffern
+
+0:01:58.210,0:02:03.180
+von 0 bis 9 funktioniert dies so, dass die
+letzte Ziffer, in diesem Fall die 3, der Einer-Stelle
+
+0:02:03.180,0:02:10.009
+entspricht. Und diese kann als Produkt von
+3·10º dargestellt werden. Oder eben als
+
+0:02:10.009,0:02:15.730
+Produkt der Ziffer mal 10º.10º ergibt nämlich
+1, also die Einer-Stelle. Die nächste Ziffer,
+
+0:02:15.730,0:02:22.400
+die 2 ist die Zehner-Stelle und das kann man
+darstellen als 2·10¹ . Die dritte Stelle,
+
+0:02:22.400,0:02:27.660
+die 4, ist die Hunderter-Stelle. Einhundert
+entspricht 10², also kann man das darstellen
+
+0:02:27.660,0:02:36.150
+als 4·10². Wenn wir das Ganze als Variable
+abstrahiert darstellen und eine Zahl hätten,
+
+0:02:36.150,0:02:41.319
+die ABC entspricht, eine dreistellige Zahl,
+dann können wir uns überlegen, dass C der
+
+0:02:41.319,0:02:48.020
+Einer-Stelle entspricht, wodurch sich C·10º,
+B·10¹ für die Zehner-Stelle und A·10²
+
+0:02:48.020,0:02:51.569
+für die Hunderter-Stelle ergibt. Und das
+Ganze übertragen wir nun auf die Krypto-Arithmetik.
+
+0:02:51.569,0:03:04.170
+Die erste Zeile ist dann HDGAB, was B·10º
++ A ·10¹ + G ·10² + D ·10³ + H ·10^4
+
+0:03:04.170,0:03:09.440
+entspricht. Und wenn man die Zahlen jeweils
+ausschreibt, ergibt sich dadurch die Zahlendarstellung
+
+0:03:09.440,0:03:15.170
+von HDGAB. Wir müssen uns jetzt vorstellen,
+dass hinterher die Buchstaben durch die Ziffern
+
+0:03:15.170,0:03:19.170
+ersetzt werden, so kann man dann auch damit
+rechnen. Das Ganze macht man analog für das
+
+0:03:19.170,0:03:25.989
+IHA und das CFFFE auch, wodurch sich drei
+Gleichungen ergeben. Wenn wir diese in Prolog
+
+0:03:25.989,0:03:32.030
+übertragen wollen, können wir mit den jeweiligen
+Buchstaben unser Testprädikat machen. Die
+
+0:03:32.030,0:03:35.920
+erste Zeile ist hier dieses V1, welches auf
+folgende Weise unifiziert wird. Genau wie
+
+0:03:35.920,0:03:42.860
+zuvor mit dem Gleichheitszeichen. V2 ist dann
+die zweite Zeile. Dann haben wir eine Summe,
+
+0:03:42.860,0:03:48.990
+die V1 + V2 darstellen muss, wenn wir die
+Arithmetik übertragen. Da ist das Ergebnis
+
+0:03:48.990,0:03:55.860
+die dritte Zeile. Wichtig ist hierbei Folgendes:
+Das Gleichheitszeichen ist der Unifikationsoperator.
+
+0:03:55.860,0:04:01.051
+Das heißt, da wird keine direkte arithmetische
+Zuweisung gemacht. Es gibt in Prolog auch
+
+0:04:01.051,0:04:06.910
+das Is-Prädikat, das ist eigentlich genau
+dafür zuständig. Aber dieses =:= ist ein
+
+0:04:06.910,0:04:12.180
+arithmetischer Vergleich, durch den die arithmetische
+Zuweisung auch erzwungen wird. So haben wir
+
+0:04:12.180,0:04:16.199
+jetzt diese Zeilen in Prologcode gegossen.
+Das Ganze sieht in Prolog nun folgendermaßen
+
+0:04:16.199,0:04:21.729
+aus: Das Solve war bereits gegeben, der einfach
+nur aus Generate-and-Test besteht. Das Generate
+
+0:04:21.729,0:04:26.120
+war der Permutation-Aufruf und das Test war
+entsprechend diese arithmetische Rechnung.
+
+0:04:26.120,0:04:32.009
+Jetzt probieren wir das Ganze auch noch einmal
+aus, um der Frage nachzugehen, wie viele Lösungen
+
+0:04:32.009,0:04:35.870
+sind vorhanden? Und wir kommen auf insgesamt
+sechs verschiedene Lösungen.

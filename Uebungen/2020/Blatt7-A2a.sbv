@@ -1,0 +1,287 @@
+0:00:01.140,0:00:05.280
+Bei Aufgabe Zwei von Logik geht es um
+Rekursion. Hier haben wir verschiedene
+
+0:00:05.280,0:00:09.540
+Definitionen gegeben und sollen diese jeweils
+vervollständigen. Bei Aufgabe A haben wir
+
+0:00:09.540,0:00:14.640
+dieses Prolog-Prädikat greaterThan. Das ist
+zweistellig und das soll genau dann gelten,
+
+0:00:14.640,0:00:20.520
+wenn A größer als B ist. Rekursionen sind Regeln,
+die sich selber wieder aufrufen. Und das sehen wir
+
+0:00:20.520,0:00:25.680
+auch schon in dieser einen Programmzeile,
+die wir haben, greaterThan S von X Komma S
+
+0:00:25.680,0:00:31.980
+von Y gilt genau dann, wenn greaterThan X von
+Y. Das heißt, diese greaterThan-Funktion ruft
+
+0:00:31.980,0:00:35.940
+sich selber wieder auf. Und da sich die
+Funktionen selber immer wieder aufrufen,
+
+0:00:35.940,0:00:41.280
+muss es einen Fall geben, wo das Ganze aufhört,
+damit das nicht unendlich lange weitergeht. Und
+
+0:00:41.280,0:00:45.720
+deshalb brauchen wir eine Abbruchbedingung. Um
+herauszufinden, was die Abbruchbedingung ist,
+
+0:00:45.720,0:00:51.060
+hilft es meistens zu überlegen, was der
+kleinstmögliche Fall ist. Wir haben hier
+
+0:00:51.060,0:00:56.760
+in dem Fall wieder diese S von X-Struktur.
+Also, zum Beispiel könnte X von Z oder auch
+
+0:00:56.760,0:01:02.760
+nur Z sein, dann würde S von Z oder S von S von Z
+da stehen. Und das Gleiche gilt für Y. Das heißt,
+
+0:01:02.760,0:01:07.320
+wir haben hier wieder diese Zahlen-Struktur, die
+wir schon aus dem symbolischen Rechnen von dem
+
+0:01:07.320,0:01:13.500
+Übungsblatt Sechs kannten. Und da geht es um die
+Peano-Zahlen und da ist die kleinstmögliche Zahl
+
+0:01:13.500,0:01:20.400
+das Z, also, Zero. Negative Zahlen haben wir in
+diesem Zahlen-System nicht. Und daher können wir
+
+0:01:20.400,0:01:25.680
+uns schon mal erahnen, dass es irgendwie irgendwas
+mit Z zu tun haben muss. Z kann niemals größer als
+
+0:01:25.680,0:01:30.000
+irgendetwas anderes sein, da wir keine negativen
+Zahlen haben. Und Z ist auch nicht größer als Z,
+
+0:01:30.000,0:01:34.560
+sondern gleichgroß. Daher wissen wir auch schon,
+dass Z auf der rechten Seite stehen muss. Das
+
+0:01:34.560,0:01:39.480
+heißt, wir müssen irgendeine Zahl oder irgendetwas
+finden, sodass wir sagen können, dass die linke
+
+0:01:39.480,0:01:45.840
+Seite größer als die rechte ist. Für welche Zahlen
+gilt das denn, dass die größer als Z sind? Im
+
+0:01:45.840,0:01:49.560
+Endeffekt für alle Zahlen, die hier definiert
+sind. Da wir keine negativen Zahlen haben,
+
+0:01:49.560,0:01:55.230
+S von Z ist größer als Z, S von Z steht
+für Eins, S von S von Z ist größer als Z,
+
+0:01:55.230,0:02:00.540
+S von S von S von Z ist größer als Z. Also,
+schlussendlich jede mögliche beliebige Zahl ist
+
+0:02:00.540,0:02:08.940
+größer als Z. Und daher ist es eigentlich egal,
+was hier in dieser Klammer drin steht, weil
+
+0:02:08.940,0:02:15.300
+jede Zahl, die diese Struktur S von hat, größer
+als Z ist. Aber S von ist schon wichtig, weil Z
+
+0:02:15.300,0:02:19.380
+selber nicht größer als Z ist. Und so könnte
+man darauf kommen, dass die Abbruchbedingung
+
+0:02:19.380,0:02:26.820
+greaterThan S von und dann Unterstrich Komma Z
+sein muss, weil das eben genau das wiederspiegelt,
+
+0:02:26.820,0:02:31.200
+was wir gerade gesagt haben. Unterstrich bedeutet,
+dass es eine freie Variable ist. Das ist egal,
+
+0:02:31.200,0:02:37.860
+was da rein kommt. Das hat keine Auswirkungen.
+Falls es aber so noch nicht ersichtlich ist,
+
+0:02:37.860,0:02:44.040
+warum das so ist, können wir uns das auch mal
+mit einem Beispielaufruf anschauen. Ich habe
+
+0:02:44.040,0:02:47.940
+hier jetzt nicht exakt den genommen, der auf dem
+Übungsblatt steht, sondern einen etwas anderen,
+
+0:02:47.940,0:02:50.580
+weil ich es etwas anschaulicher finde,
+weil wir da einen Schritt mehr haben.
+
+0:02:50.580,0:02:55.440
+Das werdet ihr hier jetzt sehen. Funktioniert
+aber genauso mit dem Aufruf auf dem Übungsblatt.
+
+0:02:56.820,0:03:03.420
+Und zwar habe ich den Aufruf genommen, greaterThan
+S von S von S von Z Komma S von S von Z. Prolog
+
+0:03:03.420,0:03:07.500
+schaut, kann es hier irgendwo matchen? Da wir nur
+eine Zeile Programmcode haben, wissen wir direkt,
+
+0:03:07.500,0:03:11.940
+wir müssen in diese Zeile rein springen. Und
+die passt auch sofort. Und dann ist es wie
+
+0:03:11.940,0:03:17.220
+bei der SLD-Resolution. Es handelt sich auch
+wieder um Prolog. Es ist wieder so, dass hier
+
+0:03:17.220,0:03:22.080
+wieder ersetzt wird. Das X wird mit S von S von
+Z unifiziert, weil wir hier wieder diese Struktur
+
+0:03:22.080,0:03:28.320
+S von X und S von irgendwas haben. Dann ist
+irgendwas das X. Und S von Y genau das gleiche,
+
+0:03:28.320,0:03:36.600
+Y ist S von Z. Und das ist dann der Fall bei
+greaterThan und X von Y mit dem ersetzen X von Y.
+
+0:03:36.600,0:03:46.560
+Das sieht so aus, wenn greaterThan X der innere
+Teil Y der innere Teil gilt l. Gilt das denn?
+
+0:03:46.560,0:03:52.290
+Um das herauszufinden, muss Prolog wieder in den
+Programmcode reingehen, weil das so noch kein true
+
+0:03:52.290,0:03:57.540
+oder false ist. Das heißt, wir gehen wieder rein
+und schauen, ob wir das matchen können. Ja, können
+
+0:03:57.540,0:04:03.960
+wir wieder mit der Regel hier matchen. Und wir
+ersetzen dann wieder X Zwei S von Z und Y Z. Und
+
+0:04:03.960,0:04:12.960
+dann gilt wieder greaterThan X, X war S von Z und
+Y war Z, greaterThan S von Z und Z. Und um jetzt
+
+0:04:12.960,0:04:18.480
+zu schauen, ob das matcht, würde Prolog wieder
+hier rein gehen. Jetzt haben wir aber das Problem,
+
+0:04:18.480,0:04:27.600
+S von X und S von Z. Dann wäre X Z, aber S von Y
+kann ich nicht mit Z unifizieren. Genauso wie in
+
+0:04:27.600,0:04:33.720
+Aufgabe Eins. Und deswegen würde der Programmcode
+so an dieser Stelle false ausgeben. Aber ist denn
+
+0:04:33.720,0:04:40.680
+S von Z größer als Z? S von Z steht für Eins,
+Z steht für Zero, Eins ist größer als Zero,
+
+0:04:40.680,0:04:46.200
+als Null, also, ist es größer. Das heißt, es wäre
+nicht richtig. Also, fehlt hier etwas. Und was
+
+0:04:46.200,0:04:52.080
+fehlt? Die Abbruchbedingung. Und wir haben gerade
+schon gesagt, die kleinstmögliche Zahl ist Null.
+
+0:04:52.080,0:04:55.740
+Hier sind wir bei der Null angekommen.
+Das heißt, wir erkennen hier schon mal,
+
+0:04:55.740,0:05:00.360
+das ist ziemlich nah an der Abbruchbedingung.
+Jetzt müssen wir nur noch überlegen. Wir wissen,
+
+0:05:00.360,0:05:05.040
+der rechte Teil muss Null sein und der Teil
+davor, S von Z ist größer als Z, stimmt.
+
+0:05:05.040,0:05:11.280
+Theoretisch könnte man jetzt meinen, man schreibt
+die Abbruchbedingung genau so. Aber dieses S von
+
+0:05:11.280,0:05:17.280
+S von Z ist auch größer als Z. Und wenn das hier
+stünde, muss das auch gelten. Oder dieses S von
+
+0:05:17.280,0:05:22.380
+S von S von Z. Das ist auch größer als Z. Und das
+heißt, wir müssen einen Fall finden, sodass diese
+
+0:05:22.380,0:05:28.440
+linke Seite alle diese Möglichkeiten abdeckt.
+Und damit das alle diese Möglichkeiten abdeckt,
+
+0:05:29.940,0:05:34.200
+müssen wir das so schreiben, und zwar mit diesem
+Unterstrich. Dieser Unterstrich bedeutet freie
+
+0:05:34.200,0:05:38.940
+Variable, diese Variable wird nicht gespeichert,
+wir können hier alle möglichen Variationen von
+
+0:05:38.940,0:05:43.440
+S von Z oder auch nur Z einsetzen. Das heißt, wenn
+wir hier jetzt beispielsweise das Obere einsetzen,
+
+0:05:43.440,0:05:48.720
+dann hätten wir S von S von S von Z. Wir haben
+das für diesen Unterstrich eingesetzt. Das heißt,
+
+0:05:48.720,0:05:52.620
+mit dieser Abbruchbedingung funktioniert
+das immer. Und diese Abbruchbedingung muss
+
+0:05:52.620,0:05:57.900
+aber vor dem Programmcode stehen, weil Prolog
+immer von oben nach unten durchgeht. Das heißt,
+
+0:05:57.900,0:06:03.900
+der schlussendliche Code würde so aussehen,
+greaterThan S Unterstrich Komma Z greaterThan S
+
+0:06:03.900,0:06:09.660
+von X Komma S von Y gilt dann, wenn greaterThan X
+Komma Y. Wenn Prolog jetzt mit dem letzten Aufruf,
+
+0:06:09.660,0:06:12.780
+den wir gerade erzeugt hatten, in diesen
+Programmcode wieder reingehen würde,
+
+0:06:12.780,0:06:18.120
+dann würde er es zuerst hier oben versuchen zu
+matchen. Und dann hätten wir, greaterThan S von Z,
+
+0:06:18.120,0:06:23.520
+dann könnten wir hier diesen Unterstrich
+durch Z ersetzen, Komma Z. Ja, das stimmt.
+
+0:06:24.480,0:06:29.700
+Das passt. Das ist ein Fakt. Und weil das
+ein Fakt ist und das stimmt, gibt Prolog
+
+0:06:29.700,0:06:35.820
+true aus. Und das gilt eben für alle möglichen
+Kombinationen von Anfragen, wo hier eine größere
+
+0:06:35.820,0:06:40.920
+Zahl als hier steht. Das könnt ihr gerne nochmal
+mit einer anderen Variation von S durchgehen.

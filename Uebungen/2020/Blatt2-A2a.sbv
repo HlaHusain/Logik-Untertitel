@@ -1,0 +1,121 @@
+0:00:00.089,0:00:04.520
+Bei Aufgabe 2 sollen wir Wahrheitstafeln zu
+den folgenden Formeln aufstellen und dann
+
+0:00:04.520,0:00:07.200
+noch kurz begründen, ob es KNF oder DNF ist.
+
+0:00:07.200,0:00:10.550
+Wir sollen dabei aber keine Umformung durchführen.
+
+0:00:10.550,0:00:15.190
+Ich habe mir hier schon mal das Schema für
+die Wahrheitstabellen reinkopiert, damit es
+
+0:00:15.190,0:00:17.160
+einfach ein bisschen ordentlicher ist.
+
+0:00:17.160,0:00:21.690
+Bei Formel A haben wir A oder B und B oder
+C.
+
+0:00:21.690,0:00:25.760
+Und ich habe ja beim letzten Mal schon gesagt,
+dass ich euch auf jeden Fall raten würde,
+
+0:00:25.760,0:00:27.650
+dass ihr Zwischenschritte in die Wahrheitstabelle
+einfügt.
+
+0:00:27.650,0:00:30.869
+Und dass ihr die Wahrheitstabelle mit Nullen
+beginnt.
+
+0:00:30.869,0:00:31.970
+Und dann eben mit Einsen.
+
+0:00:31.970,0:00:35.800
+Falls ihr das nicht mehr genau wisst, schaut
+gerne noch mal ins erste Video rein.
+
+0:00:35.800,0:00:39.250
+Das heißt, in der Formel kommt jetzt hier
+vor: A oder B, das steht hier links in der
+
+0:00:39.250,0:00:41.300
+Spalte, und B oder C, das ist die rechte Spalte.
+
+0:00:41.300,0:00:46.430
+Da können wir einfach gucken, beim Oder reicht
+es ja, wenn eine von beiden eine 1 ist, damit
+
+0:00:46.430,0:00:48.469
+im Gesamten eine 1 rauskommt.
+
+0:00:48.469,0:00:50.550
+Das heißt, ich schaue hier: A oder B, ist
+da eine 1?
+
+0:00:50.550,0:00:52.350
+Nein, nein, ja.
+
+0:00:52.350,0:00:58.270
+Hier ist B eine 1, hier ist B eine 1, hier
+ist A 1, A 1, und hier unten sind beide eine
+
+0:00:58.270,0:00:59.270
+1.
+
+0:00:59.270,0:01:00.270
+Dann kommt auch 1 raus.
+
+0:01:00.270,0:01:01.789
+Das Gleiche mache ich jetzt für B oder C.
+
+0:01:01.789,0:01:05.570
+Jetzt habe ich in der rechten Spalte die beiden
+mit einer Konjunktion verbunden.
+
+0:01:05.570,0:01:10.649
+Das heißt ja, dass beide Teile eine 1 sein
+müssen, damit im Gesamten eine 1 herauskommt.
+
+0:01:10.649,0:01:13.029
+Dann schaue ich einfach, für welche Fälle
+das gegeben ist.
+
+0:01:13.029,0:01:14.600
+Das ist hier unten der Fall.
+
+0:01:14.600,0:01:15.600
+1, 1, 1.
+
+0:01:15.600,0:01:16.600
+Hier nicht.
+
+0:01:16.600,0:01:20.049
+Hier ist das der Fall, hier ist das der Fall,
+hier ist das der Fall, hier nicht und hier
+
+0:01:20.049,0:01:21.049
+nicht.
+
+0:01:21.049,0:01:22.979
+Und damit habe ich auch schon die Wahrheitstabelle
+erstellt.
+
+0:01:22.979,0:01:26.689
+Jetzt müssen wir noch sagen, ob es eine KNF
+oder DNF ist.
+
+0:01:26.689,0:01:30.039
+Eine KNF Ist ja eine Konjunktion von Disjunktionen.
+
+0:01:30.039,0:01:33.999
+Und wir haben ja hier die Konjunktion.
+
+0:01:33.999,0:01:37.079
+Die verbindet ja die Disjunktion.
+
+0:01:37.079,0:01:39.409
+Deswegen ist diese Formel eine KNF.

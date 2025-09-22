@@ -1,0 +1,284 @@
+0:00:00.420,0:00:03.130
+Bei Aufgabe drei geht es um den Markierungsalgorithmus.
+
+0:00:03.130,0:00:06.110
+Dieser soll auf die zwei folgenden Hornformeln
+angewandt werden.
+
+0:00:06.110,0:00:09.400
+Dafür werden diese zunächst in Implikationsschreibweise
+dargestellt.
+
+0:00:09.400,0:00:13.830
+Dazu soll beim Markierungsalgorithmus die
+Notation der Markierungsreihenfolge verwendet
+
+0:00:13.830,0:00:14.830
+werden.
+
+0:00:14.830,0:00:18.410
+Zuerst stellen wir die Formeln in Implikationsschreibweise
+dar.
+
+0:00:18.410,0:00:23.570
+Bei solchen Aufgaben markiere ich immer die
+Teile, die ich machen muss, sodass ich am
+
+0:00:23.570,0:00:26.640
+Ende sehe, ob ich alle Teile der Aufgabe erfüllt
+habe.
+
+0:00:26.640,0:00:28.960
+Insbesondere, wenn noch ein Antwortsatz geschrieben
+werden soll oder Ähnliches, markiere ich
+
+0:00:28.960,0:00:29.960
+das immer.
+
+0:00:29.960,0:00:33.289
+So vergesse ich das nicht und schaue am Schluss
+nochmal, ob ich alles erfüllt habe, das ich
+
+0:00:33.289,0:00:34.289
+zuvor markiert hatte.
+
+0:00:34.289,0:00:37.460
+Bei Aufgabe (a) beginnen wir mit der Implikationsschreibweise.
+
+0:00:37.460,0:00:40.920
+Das ist analog zu dem, was wir in der letzten
+Aufgabe gemacht haben.
+
+0:00:40.920,0:00:46.149
+Da hatte ich bereits gesagt, dass die negierte
+Form immer vor die Implikation kommt.
+
+0:00:46.149,0:00:50.149
+Wenn wir also A oder nicht B haben, haben
+wir B impliziert A.
+
+0:00:50.149,0:00:52.519
+Hier dürfen wir das Und nicht vergessen.
+
+0:00:52.519,0:00:57.489
+Ein positives einfaches Literal wird zu eins
+impliziert.
+
+0:00:57.489,0:00:59.500
+In diesem Fall impliziert es B.
+
+0:00:59.500,0:01:00.769
+Es folgt wieder ein Und.
+
+0:01:00.769,0:01:03.100
+Das C ist negiert und kommt daher vor die
+Implikation.
+
+0:01:03.100,0:01:06.020
+Es ist irrelevant, auf welcher Seite der Disjunktion
+es stand.
+
+0:01:06.020,0:01:08.720
+Es ist negiert, weshalb es vor die Implikation
+kommt.
+
+0:01:08.720,0:01:10.039
+C impliziert A.
+
+0:01:10.039,0:01:15.520
+Wenn wir nur ein negiertes Literal haben,
+ohne positives Literal in der Klausel, dann
+
+0:01:15.520,0:01:18.600
+wird es in diesem Fall zu C impliziert null.
+
+0:01:18.600,0:01:23.101
+Jetzt schauen wir, ob wir irgendwo eine Stelle
+haben, an der steht, dass eins irgendwas impliziert.
+
+0:01:23.101,0:01:24.101
+Das ist hier bei B der Fall.
+
+0:01:24.101,0:01:27.719
+Das heißt, wir können alle Bs mit einer
+Eins markieren.
+
+0:01:27.719,0:01:34.700
+Unten schreiben wir auf: Schritt eins, B.
+Weiterhin sehen wir in Klausel eins, B impliziert
+
+0:01:34.700,0:01:35.700
+A.
+
+0:01:35.700,0:01:37.749
+Das heißt, wir können auch die As markieren.
+
+0:01:37.749,0:01:39.560
+Schritt zwei, A.
+
+0:01:39.560,0:01:40.939
+Hier haben wir noch ein A.
+
+0:01:40.939,0:01:43.679
+Jetzt schauen wir, ob wir noch eine Klausel
+haben, in der links etwas markiert ist, aber
+
+0:01:43.679,0:01:44.679
+rechts nicht.
+
+0:01:44.679,0:01:45.740
+Das ist nicht der Fall.
+
+0:01:45.740,0:01:49.679
+Wir haben nur noch die Klausel mit C impliziert
+A. Da ist aber A rechts und nicht links.
+
+0:01:49.679,0:01:50.859
+C impliziert null.
+
+0:01:50.859,0:01:54.909
+Wenn das nicht der Fall ist, wissen wir, dass
+die Formel erfüllbar ist.
+
+0:01:54.909,0:01:56.020
+Das schreiben wir auf.
+
+0:01:56.020,0:01:57.690
+Das ist sehr wichtig.
+
+0:01:57.690,0:02:00.409
+Jetzt sollen wir noch das Modell angeben.
+
+0:02:00.409,0:02:04.479
+Dafür bekommt alles, was wir markiert haben,
+eine Eins zugewiesen.
+
+0:02:04.479,0:02:07.539
+Alles, was wir nicht markiert haben, bekommt
+eine Null.
+
+0:02:07.539,0:02:10.479
+Wir sehen hier, dass wir in Schritt eins und
+zwei A und B markiert haben.
+
+0:02:10.479,0:02:12.450
+Das heißt, Alpha von A bekommt eine Eins.
+
+0:02:12.450,0:02:15.180
+Alpha von B bekommt auch eine Eins.
+
+0:02:15.180,0:02:19.470
+Alpha von C ist das letzte, was von der Formel
+noch übrig ist, das nicht markiert ist.
+
+0:02:19.470,0:02:21.580
+Deshalb bekommt Alpha von C den Wahrheitswert
+null.
+
+0:02:21.580,0:02:22.900
+Wir fahren fort mit Aufgabe (b).
+
+0:02:22.900,0:02:27.090
+Auch diese Formel überführen wir zunächst
+in die Implikationsschreibweise und wenden
+
+0:02:27.090,0:02:30.360
+dieselben Regeln an wie gerade eben.
+
+0:02:30.360,0:02:31.830
+Hier ist das A negiert.
+
+0:02:31.830,0:02:33.180
+Das A kommt nach vorn.
+
+0:02:33.180,0:02:38.170
+A impliziert B. Ein einfaches A ergibt eins
+impliziert A.
+
+0:02:38.170,0:02:40.360
+Hier sind beide negiert.
+
+0:02:40.360,0:02:44.360
+Das bedeutet, dass B und A null implizieren.
+
+0:02:44.360,0:02:49.549
+Vorher wurde nicht B zu B impliziert null.
+
+0:02:49.549,0:02:53.770
+B und A impliziert null, weil beide negiert
+sind.
+
+0:02:53.770,0:02:56.810
+In der letzten Klausel ist das D negiert.
+
+0:02:56.810,0:02:58.709
+Das heißt, D impliziert C.
+
+0:02:58.709,0:03:01.490
+Jetzt wenden wir den Markierungsalgorithmus
+an.
+
+0:03:01.490,0:03:04.970
+Also wo haben wir eine Klausel, in der steht,
+dass eins irgendwas impliziert?
+
+0:03:04.970,0:03:06.799
+Das ist hier in der zweiten Klausel der Fall.
+
+0:03:06.799,0:03:10.970
+Wir können also A markieren und eine Eins
+hinschreiben.
+
+0:03:10.970,0:03:13.819
+Das heißt: Schritt eins, A.
+
+0:03:13.819,0:03:15.760
+Das zweite A ist hier in der dritten Klausel.
+
+0:03:15.760,0:03:16.760
+Auch das markieren wir.
+
+0:03:16.760,0:03:19.720
+Hier vorn ist auch noch ein A, das wir markieren.
+
+0:03:19.720,0:03:23.400
+Dann schauen wir, ob wir eine Klausel, in
+der steht, dass A irgendwas impliziert.
+
+0:03:23.400,0:03:24.689
+Das ist in der ersten Klausel der Fall.
+
+0:03:24.689,0:03:28.080
+Deshalb können wir alle Bs mit einer Zwei
+markieren.
+
+0:03:28.080,0:03:31.360
+Das ist hier und da der Fall.
+
+0:03:31.360,0:03:35.439
+Haben wir jetzt eine Klausel, in der links
+alles markiert ist, aber rechts nicht?
+
+0:03:35.439,0:03:37.560
+Das ist bei der dritten Klausel der Fall.
+
+0:03:37.560,0:03:39.530
+Hier haben wir B und A markiert.
+
+0:03:39.530,0:03:40.610
+Das impliziert null.
+
+0:03:40.610,0:03:43.680
+Das heißt, es ist ein anderer Fall als gerade
+eben.
+
+0:03:43.680,0:03:46.340
+Hier haben wir: Irgendwas impliziert null.
+
+0:03:46.340,0:03:50.400
+Das sorgt dafür, dass die Formel unerfüllbar
+ist.
+
+0:03:50.400,0:03:52.870
+Grade eben war sie erfüllbar, da wir nichts
+weiter markieren konnten.

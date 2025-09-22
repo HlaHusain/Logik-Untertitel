@@ -1,0 +1,731 @@
+0:00:00.000,0:00:05.790
+Lassen Sie uns noch einmal ein kleines
+Prolog-Programm als Beispiel betrachten.
+
+0:00:05.790,0:00:11.220
+Und zwar möchte ich das einerseits nutzen, um
+noch einmal Syntaxbegriffe in Erinnerung zu rufen
+
+0:00:11.220,0:00:14.790
+oder übersichtsartig hier anzugeben. Das sind
+alles Begriffe, die wir schon hatten.
+
+0:00:14.790,0:00:20.730
+Aber ich würde sie auf dieser Folie gern noch
+einmal explizit, jeweils beispielhaft festhalten.
+
+0:00:20.730,0:00:26.490
+Dann möchte ich dieses gleiche Beispiel auch nutzen,
+um die Intuition der Ausführung eines Prolog-Programms zu
+
+0:00:27.840,0:00:32.640
+besprechen. Wir wissen, dass eigentlich Resolution
+im Hintergrund stattfindet und werden uns später noch
+
+0:00:32.640,0:00:38.280
+genauer anschauen, wie Resolution denn für solche nicht
+rein aussagenlogischen Formeln/ Programme/ Klauseln funktioniert.
+
+0:00:38.280,0:00:44.280
+Aber wenn man einfache Beispiele verstehen möchte
+oder Sie auch im Übungsbetrieb verstehen möchten,
+
+0:00:44.280,0:00:48.000
+warum Ihr Programm vielleicht nicht das tut,
+was Sie erwarten oder wie Sie es dazu bringen können,
+
+0:00:48.000,0:00:53.640
+da ist ganz nett, eine schrittweise, intuitive
+Erklärung oder Verständnis davon zu haben,
+
+0:00:53.640,0:00:59.940
+wie eine Anfrage abläuft. Da muss man
+nicht unbedingt den "Hammer Resolution" herausholen.
+
+0:00:59.940,0:01:10.410
+Hier haben wir ein kleines Programm.
+Wieder so eine binäre Relation definiert: istVaterVon(Subjekt, Objekt).
+
+0:01:10.410,0:01:17.100
+Subjekt, Objekt sozusagen und Prädikat.
+Und hier gibt es ein paar Regeln. In dem Fall sind hier so
+
+0:01:17.100,0:01:25.740
+ein paar Verwandtschaftsbeziehungen angegeben oder erklärt,
+wann jemand Großvater von jemanden ist.
+
+0:01:25.740,0:01:30.750
+Man kann Großvater sein, wenn man Vater des Vaters ist
+oder Vater der Mutter von jemanden.
+
+0:01:30.750,0:01:37.590
+Und hier unten stehen ein paar mögliche Anfragen.
+Also wie benennen wir die Teile hier? Wir haben das Prädikat.
+
+0:01:37.590,0:01:46.110
+Dann haben wir Argumente. Das sind im Moment hier Konstanten,
+die wir als Argumente nehmen. Also Objekte sozusagen.
+
+0:01:46.110,0:01:50.250
+Die werden wir erst mal mit solchen klein geschrieben
+Konstanten benennen. Da kann man später auch noch
+
+0:01:50.250,0:01:54.900
+andere Strukturen stehen haben. In dem Einsteinrätsel-Beispiel
+hatten wir zum Beispiel Listen da stehen.
+
+0:01:54.900,0:02:02.310
+Also Datenstrukturen. Hier haben wir erstmal nur Konstanten.
+So etwas wie wir hier haben, also Prädikate angewandt
+
+0:02:02.310,0:02:08.160
+auf Konstanten mit Punkt ohne irgendwelche Vorbedingungen,
+sind Fakten. So ein Prädikat kann natürlich auch dreistellig sein.
+
+0:02:08.160,0:02:12.270
+Da würden hier drei Konstanten stehen. Aber hier ist das eine
+binäre Relation. Und letztlich wird die hier durch
+
+0:02:12.270,0:02:16.940
+diese drei Fakten vollständig definiert für
+den Zweck dieses Programms. Wann jemand Vater
+
+0:02:16.940,0:02:21.560
+von jemand anderes ist, das wäre hier genau für diese
+drei Paarungen der Fall. Und das nennt man Fakten,
+
+0:02:21.560,0:02:28.310
+weil es keine Vorbedingung gibt. Dann mit Implikation können
+wir allgemeine Regeln bilden. Also dann hätten wir
+
+0:02:28.310,0:02:35.750
+einen Kopf und dann mehrere möglicherweise Literale im Rumpf.
+Wir arbeiten vor allem mit Konjunktion. Ich hatte
+
+0:02:35.750,0:02:40.640
+gesagt, es gibt auch das ; als Disjunktion. Aber in
+der Regel werde ich Beispiele nur mit Konjunktionen bilden.
+
+0:02:40.640,0:02:44.750
+Wenn ich Alternativen haben will, dann
+werde ich eher alternative Regeln angeben, statt
+
+0:02:44.750,0:02:50.960
+im Rumpf einer Regel Disjunktionen zu verwenden.
+Regeln sind eben solche Konstruktoren, wo wir einen Kopf
+
+0:02:50.960,0:02:56.630
+haben und dann möglicherweise mehrere Literale im Rumpf.
+Wenn wir gar keine Literale hätten, wäre es einfach nur ein Fakt
+
+0:02:56.630,0:03:03.260
+und keine Regel. Da dürfen Variablen drin vorkommen.
+Es hätte hier oben auch schon sein dürfen.
+
+0:03:03.260,0:03:08.930
+Also auch in einem Fakt darf eine Variable vorkommen,
+aber häufiger werden Variablen sicher in Regeln vorkommen,
+
+0:03:08.930,0:03:14.630
+weil Regeln in der Regel allgemeiner sein sollen.
+Also viele Fälle erfassen sollen. Anders als nur
+
+0:03:14.630,0:03:25.490
+einzelne Fakten. Vorkommen haben wir da Literale.
+Sei es, dass die Faktliste Literale sind. Oder Kopf und Rumpfteile
+
+0:03:25.490,0:03:30.710
+von Regeln sind Literale. Was wir nicht haben, und zwar ganz
+bewusst nicht haben oder auch nicht haben werden ist,
+
+0:03:30.710,0:03:38.240
+dass wir negative Literale im Kopf haben.
+Im Rumpf erlaubt Prolog negative Literale. Also auch
+
+0:03:38.240,0:03:43.100
+dieses ungleich bei unserer "jealous" Definition
+war letztlich ein negatives Literal/ eine negative Aussage.
+
+0:03:43.100,0:03:50.300
+Tatsächlich werden im Rumpf von Regeln auch negative Literale
+erlaubt in Prolog, aber auf keinen Fall
+
+0:03:50.300,0:03:56.870
+kann ein Fakt negativ sein oder kann
+der Kopf einer Regel ein negatives Literal sein.
+
+0:03:58.190,0:04:07.660
+Das ist einfach eine generelle Prolog-Einschränkung.
+Dann gibt es Anfragen. Das ist das, was wir je nach dem
+
+0:04:07.660,0:04:13.060
+im Interpreter, in der Kommandozeile oder in der Shell eingeben würden
+oder in dem Online-Tool in diesem extra Anfrage-Fenster.
+
+0:04:13.060,0:04:20.530
+Das ist von der Art her einfach genauso aufgebaut,
+wie rechten Seiten von Regeln. Also hier können
+
+0:04:20.530,0:04:26.320
+Konjunktion von Literalen stehen. Und auch da
+wären prinzipiell negative Literale erlaubt in Prolog.
+
+0:04:26.320,0:04:32.740
+Und das alles nennt man Klauseln. Auch das
+tauchte schon auf bei der Hornformel-Betrachtung.
+
+0:04:32.740,0:04:37.870
+Also Fakten, Regeln und Anfragen, das alles
+sind Klauseln. Insbesondere würde man diese Sicht als
+
+0:04:37.870,0:04:43.960
+Klauseln verwenden, wenn man Resolution verwendet
+zum Auswerten/ zum Beschreiben der Semantik von Prolog.
+
+0:04:43.960,0:04:54.520
+Semantik heißt ja für uns letztlich Ausführung.
+Was bedeutet ein Programm auszuführen oder was
+
+0:04:54.520,0:04:59.350
+bedeutet eine Anfrage? Nehmen wir dieses Programm wie
+wir es gerade hatten. Also die Fakten und Regeln als
+
+0:04:59.350,0:05:06.070
+Programmklauseln und stellen eine konkrete Anfrage.
+Dann ist es in Prolog so: Eine Anfrage ist nicht
+
+0:05:06.070,0:05:11.170
+wie im Taschenrechner. Ich tippe einen arithmetischen Ausdruck
+ein und kriege eine Zahl heraus. Sondern bei Prolog
+
+0:05:11.170,0:05:16.090
+kann man entweder Wahr, Falsch zurückkriegen für
+eine Anfrage, weil es um Logik geht oder Belegungen
+
+0:05:16.090,0:05:23.590
+von Variablen. Man gibt eine Anfrage ein. Das könnten
+auch mehrere Literale sein. Dann wird resolviert im
+
+0:05:23.590,0:05:29.860
+Hintergrund. Das kann vielleicht eine Weile dauern, viele Schritte nehmen.
+Die sieht man nicht alle. Außer man benutzt den Trace-Modus.
+
+0:05:29.860,0:05:34.930
+Aber da passiert irgendwas im Hintergrund.
+Und dann kriegt man Antworten. Und das sind Variablensubstitutionen.
+
+0:05:34.930,0:05:41.680
+So werden wir das nennen. Diese Belegung X = paul.
+Wenn mir zum Beispiel diese Antwort nicht reicht und
+
+0:05:41.680,0:05:47.500
+ich nach einer weiteren Frage, X = hans, dann sind
+das jeweils Variablensubstitutionen. Es können auch
+
+0:05:47.500,0:05:52.360
+mehrere Variablen sein, die substituiert werden. Hier haben wir
+einfach zwei Substitutionen für die gleiche Variable X,
+
+0:05:52.360,0:06:03.340
+weil das alternative Lösungen sind, von wem Kurt alles der
+Großvater sein könnte bei dieser Wissensbasis.
+
+0:06:03.340,0:06:09.670
+Jetzt können wir mal schauen wie das sozusagen schrittweise abläuft,
+für diesen konkreten Fall/ für so eine Anfrage und
+
+0:06:09.670,0:06:19.610
+dieses Programm. Da wird im Prinzip probiert. Es wird
+probiert, ob denn unsere Anfrage auf irgendwelche
+
+0:06:19.610,0:06:25.220
+Fakten oder Regeln passt. In unserem Fall ist "istGrossvaterVon"
+unsere Anfrage und es gibt keine Fakten über
+
+0:06:25.220,0:06:30.740
+"istGrossvaterVon". Deswegen kann in diesem
+Fall nur ein Vergleich mit den Regeln stattfinden.
+
+0:06:30.740,0:06:38.000
+Und zwar mit den Regelköpfen. Wir wollen diese Aussage
+gerne beantwortet haben. Und wir haben Regeln, aus
+
+0:06:38.000,0:06:42.410
+denen irgendetwas folgt über "istGrossvaterVon".
+Also ein möglicher Ansatz wäre die Anfrage
+
+0:06:42.410,0:06:50.150
+zu vergleichen mit den Köpfen der vorhanden Regeln, ob
+da etwas passt. Dann könnten wir das zurückführen auf,
+
+0:06:50.150,0:06:53.840
+was auch immer auf der rechten Seite der entsprechenden Regel steht.
+Also letztlich Rückführung auf Unterprobleme oder
+
+0:06:53.840,0:06:58.970
+wir wissen, das ist im Grunde genommen Resolution.
+Die Anfrageklausel wird mit einer Programmklausel resolviert.
+
+0:06:58.970,0:07:06.230
+In dem Fall würde zum Beispiel hier
+die erste Regel prinzipiell passen.
+
+0:07:06.230,0:07:11.540
+Kurt und X könnten G und E sein. Hier stehen Variablen.
+Die kann man beliebig belegen. Warum nicht auch
+
+0:07:11.540,0:07:17.270
+mit Kurt und X? Also im Grunde genommen werden hier
+die Parameter/ die Argumente aus der Anfrage
+
+0:07:17.270,0:07:23.930
+an die Regel übergeben/ an den Regelkopf.
+Das heißt es würde hier jetzt für den Rest der Regel gelten,
+
+0:07:23.930,0:07:29.660
+G ist Kurt und E und X sind dasselbe. Also E und X sind einfach
+zwei Variablen, die dann verschieden benannt sind.
+
+0:07:29.660,0:07:36.860
+Interessanter ist, dass G zu Kurt wird. Also
+aus der Variable G wird die ganz konkrete Person Kurt.
+
+0:07:36.860,0:07:44.420
+Die erste Resolution wäre dann schon,
+dass man das ersetzt durch die rechte Seite.
+
+0:07:44.420,0:07:51.320
+Bei der Resolution wäre das ja eine negative Klausel/
+ein negatives Literal. Und in dieser Klausel
+
+0:07:51.320,0:07:56.600
+taucht das als positives und die beiden als negative
+Literale auf. Das heißt Resolution würde dazu führen,
+
+0:07:56.600,0:08:04.040
+dass wir die rechte Seite als neues Teilziel haben.
+In Klauselform negiert dargestellt.
+
+0:08:04.040,0:08:10.310
+Aber wir werden jetzt hier die Literale einfach
+einzeln betrachten, ohne uns über die Negation oder
+
+0:08:10.310,0:08:17.990
+die genaue Mengendarstellung explizit Gedanken zu machen.
+Also wenn G Kurt ist und E X ist,
+
+0:08:17.990,0:08:24.680
+dann heißt das, dass diese erste Teilformel/
+dieses erste Teilliteral nicht allgemein mehr
+
+0:08:24.680,0:08:30.320
+"istVaterVon(G, V)" ist, sondern G ist jetzt Kurt wegen dieser
+Parameterübergabe, wegen dieses Matchings/ dem Vergleich.
+
+0:08:30.320,0:08:36.680
+Also hieße dass, wir müssten uns jetzt überlegen,
+ob denn "istVaterVon(kurt,V)" wahr sein kann, für ein V.
+
+0:08:36.680,0:08:42.230
+Das V ist eine frische Variable.
+Die tauchte links gar nicht auf. Das hatten wir
+
+0:08:42.230,0:08:48.200
+in unseren "jealous"-Beispiel auch schon. Es muss ein V
+geben, sodass das hier rechts wahr ist. Also es muss
+
+0:08:48.200,0:08:57.050
+ein V geben, dessen Vater Kurt ist. Damit Kurt Großvater
+von jemanden sein kann. Wer kommt da in Frage?
+
+0:08:57.050,0:09:02.510
+Jetzt würde eben dieses neue Teilziel/ dieses
+Literal wiederum versucht werden zu lösen.
+
+0:09:02.510,0:09:07.190
+Diesmal kann man das tatsächlich mit den Fakten vergleichen.
+Es gibt zwar keine Regeln für "istVaterVon",
+
+0:09:07.190,0:09:12.470
+aber es gibt Fakten dazu. Da kann man hier schauen:
+"istVaterVon(kurt, V)" das kann nur sein,
+
+0:09:12.470,0:09:19.550
+wenn V = fritz ist. Das kann man an dieser Regel/
+an diesem Fakt sehen. Wenn wir etwas über "istVaterVon(kurt, V)"
+
+0:09:20.600,0:09:26.270
+haben oder wissen wollen, dann muss V = fritz sein.
+Das sehen wir hier. Also wird hiermit verglichen.
+
+0:09:26.270,0:09:36.830
+Dann wird gesagt: "V muss eben fritz sein."
+Dann allerdings stellt sich die Frage, was ist denn mit
+
+0:09:36.830,0:09:43.910
+dem zweiten Literal hier? Wenn V Fritz ist, dann muss
+V auch hier Fritz sein. Das heißt das nächste Ziel wäre,
+
+0:09:43.910,0:09:50.990
+diese Information wurde hier weitergereicht, und das nächste Ziel
+wäre dann: "istVaterVon(fritz, E)" zu resolvieren mit irgendetwas.
+
+0:09:51.620,0:09:58.700
+Das wäre unser neues Teilziel. Das Teilziel wäre erledigt
+durch den Vergleich mit diesem Fakt.
+
+0:09:58.700,0:10:05.570
+Das wäre auch ein Resolutionsschritt.
+Dann bliebe danach noch übrig, sich mit diesem Teilziel
+
+0:10:05.570,0:10:17.010
+zu beschäftigen. Geht das? Ja "istVaterVon(fritz, E)"
+das passt wiederum zu diesem Fakt.
+
+0:10:17.010,0:10:23.070
+Also E = paul wäre eine Antwort. Und das kann dann auch
+direkt als Lösung zurückgegeben werden. Wir wissen
+
+0:10:23.070,0:10:28.980
+dann hier E = paul. Dann ist dieses E natürlich
+auch Paul. Und E und X waren das Gleiche bei
+
+0:10:28.980,0:10:37.440
+diesen Matching. Im Grunde genommen heißt das dann,
+dass X als Rückgabe Parameter = paul hat.
+
+0:10:37.440,0:10:43.440
+Wir hätten also unsere erste erfüllende Belegung/ Besetzung
+der Variablen. Unsere erste Variablensubstitution.
+
+0:10:43.440,0:10:56.310
+Als Antwort wäre X = paul wegen dieser
+schrittweisen, letztlich Lösungssuche.
+
+0:10:56.310,0:11:00.390
+Jetzt könnte man sagen, dass das nicht die einzige
+Möglichkeit war. Wenn wir hier genau hinschauen,
+
+0:11:00.390,0:11:07.680
+würden wir sehen, dass Fritz auch Vater von Hans ist.
+Warum haben wir das nicht betrachtet? Warum haben wir genau Paul genommen?
+
+0:11:07.680,0:11:15.330
+Die Antwort ist, weil Prolog immer die matchenden Regeln oder Fakten
+von oben nach unten durchsucht oder betrachtet.
+
+0:11:15.330,0:11:23.430
+Also bei dieser Unteranfrage, die wir hatten "istVaterVon(fritz, E)"
+wurde in den Fakten gesucht und
+
+0:11:23.430,0:11:28.500
+da gab es den Fakt (Der erste passte natürlich nicht,
+weil Fritz und Kurt nicht identisch sind.),
+
+0:11:28.500,0:11:34.680
+aber "istVaterVon(fritz, paul)" passte. Deswegen
+war E die Lösung. Und das unsere Antwort.
+
+0:11:34.680,0:11:39.780
+Jetzt haben wir im vorigen Video schon gesehen,
+dass Prolog ja mehrere Lösung liefern kann.
+
+0:11:39.780,0:11:44.700
+Also was ist, wenn wir hier sagen: Entweder die Lösung
+gefällt uns nicht oder wir wollen eine weitere Lösung haben.
+
+0:11:44.700,0:11:51.300
+Also aus Nutzer auslösen würden: Nein, wir hätten gern andere Lösungen.
+Das ist ja möglich, denn dieses Prädikat "istVaterVon"
+
+0:11:51.300,0:11:56.400
+ist ja keine Funktion/ keine Abbildung. Das ist eine
+allgemeine Relation. Es kann noch weitere Lösungen geben.
+
+0:11:56.400,0:12:04.620
+Wenn wir das auslösen durch Eingabe des ; in der Anfrage bei Prolog,
+also in dem Interpreter zum Beispiel oder
+
+0:12:04.620,0:12:09.930
+in dem Anfragefenster, dann würde Prolog sagen:
+"Dann muss ich mir was anderes überlegen."
+
+0:12:11.910,0:12:17.250
+Da würde Prolog sozusagen diese Lösung verwerfen und
+nach weiteren Lösungen suchen. Das nennt man Backtracking,
+
+0:12:17.250,0:12:23.820
+dass dann einfach an anderer Stelle oder an der nächsten
+Alternativstelle nach einer weiteren Lösung gesucht wird,
+
+0:12:23.820,0:12:28.170
+weil ich diese Lösung zurückgewiesen oder verworfen oder
+als nicht ausreichend gekennzeichnet habe als Nutzer.
+
+0:12:28.170,0:12:35.850
+Dann würde man "istVaterVon(fritz, E)"
+noch einmal auswerten müssen,
+
+0:12:35.850,0:12:41.730
+aber jetzt diese Lösung "istVaterVon(fritz, paul)"
+nicht mehr zulassen. Dann würde Prolog wieder
+
+0:12:41.730,0:12:45.300
+von oben nach unten die nächste Variante nehmen/
+die nächste mögliche Lösung/ die nächste Stelle,
+
+0:12:45.300,0:12:54.240
+wo ein Rückgabewert sein könnte. Also weitere
+Antworten auf die aktuelle Unteranfrage.
+
+0:12:54.240,0:13:00.750
+In dem Fall wäre natürlich der nächste Fakt auch zutreffend.
+Dann würde Prolog einfach von der letzten Position,
+
+0:13:00.750,0:13:05.580
+wo die Lösung gefunden wurde, einfach weitersuchen und dann sagen:
+"Das ist auch eine Lösung für diese Unteranfrage."
+
+0:13:05.580,0:13:12.450
+Tatsächlich würde das dann auch als Gesamtantwort für die komplexeren
+Anfragen, die wir gestartet haben, anwendbar sein.
+
+0:13:12.450,0:13:22.170
+Das heißt die Alternativlösung Hans
+würde dann auch nach oben gegeben werden
+
+0:13:22.170,0:13:27.540
+und wäre dann auf der obersten Ebene
+eine zweite, mögliche Antwort für X.
+
+0:13:27.540,0:13:34.500
+Daher käme also nach der Antwort X = paul, auch die
+Antwort X = hans. Da hätten wir unsere zweite Lösung gefunden.
+
+0:13:34.500,0:13:42.520
+Solang könnten wir auch sagen: Wir wollen weitere Lösung haben.
+Dann würde sich schnell zeigen, dass von "istVaterVon"
+
+0:13:42.520,0:13:48.430
+keine weiteren, irgendwie Beiträge zu erwarten sind.
+Da haben wir jetzt alles betrachtet. Aber wir
+
+0:13:48.430,0:13:53.200
+hatten uns ganz am Anfang für die erste Regel
+entschieden, als ich diese Anfrage gestellt hatte.
+
+0:13:53.200,0:13:57.760
+Wenn jetzt der Nutzer sagt: "Ich möchte weitere Lösung
+haben." , dann muss Prolog auch hier noch mal die
+
+0:13:57.760,0:14:04.600
+Alternativen betrachten. Also Prolog müsste sagen:
+Ich habe am Anfang die erste Regel benutzt. Dann habe ich alle Fakten exploriert.
+
+0:14:04.600,0:14:11.050
+Habe die Lösungen paul und hans gefunden. Aber, wenn
+noch weitere Lösungen von mir erwartet werden,
+
+0:14:11.050,0:14:15.310
+dann muss ich auch diese Entscheidung noch mal
+überdenken oder revidieren oder anders treffen,
+
+0:14:15.310,0:14:20.410
+dass ich vorhin die erste Regel genommen hab.
+Also dieses Backtracking bezieht sich auch auf
+
+0:14:20.410,0:14:25.930
+die Regelauswahl. Dann würde Prolog eben sagen: "Ich such so weiter.
+Vielleicht hätte ja auch die zweite Regel gepasst."
+
+0:14:25.930,0:14:32.740
+Und in der Tat ist dem ja so. Das ist ja der gleiche Regelkopf.
+Also würde dann noch einmal resolviert werden.
+
+0:14:32.740,0:14:40.960
+Jetzt mit der zweiten Regel. Was heißt das?
+G würde wieder Kurt werden. E und X würden als gleich
+
+0:14:40.960,0:14:49.090
+angesehen werden. Und dann würde die rechte
+Seite untersucht werden. Also G wäre dann Kurt.
+
+0:14:49.090,0:14:59.790
+Dann würden wir also wieder nach "istVaterVon(kurt,M)" fragen.
+Für M gibt es Lösungen. Wir wissen zum Beispiel,
+
+0:14:59.790,0:15:09.990
+das fritz eine Lösung hier wäre. Aber was passiert dann?
+Dann müsste auch dieses M zu fritz werden.
+
+0:15:09.990,0:15:16.350
+Dann wäre also die Frage "istMutterVon(fritz, E)", weil hier
+jetzt nicht mehr "istVaterVon", sondern "istMutterVon" steht.
+
+0:15:16.350,0:15:22.740
+Dann wissen wir schon, da es für "istMutterVon" gar keine
+Regeln im Programm gibt, dass das also fehlschlagen wird.
+
+0:15:22.740,0:15:30.630
+Also da gibt es keine weiteren Lösungen in dem Fall.
+Deswegen wüssten wir in dem Fall, dass tatsächlich
+
+0:15:30.630,0:15:35.910
+paul und hans unsere einzigen Lösung sind, weil
+sie aus der ersten Regel und Betrachtung aller
+
+0:15:35.910,0:15:42.090
+Fakten als Alternativen ausgeschieden sind.
+Für die zweite Regel können wir zwar noch eine
+
+0:15:42.090,0:15:48.300
+Resolution durchführen, landen dann aber bei etwas,
+was nicht weiter auflösbar ist. Deswegen wäre hier ein Fehlschlag.
+
+0:15:48.300,0:15:51.900
+Und dann würde Prolog wissen, dass diese zweite
+Alternative in dem Fall nicht zum Erfolg geführt hat.
+
+0:15:51.900,0:15:56.880
+Das heißt, es gibt wirklich nur die ersten beiden Lösungen,
+die wir schon gesehen hatten. Es hätte auch sein können,
+
+0:15:56.880,0:16:01.170
+wenn es noch Regeln oder Fakten für "istMutterVon" gibt,
+dass wir hier noch weitersuchen würden und eventuell würde
+
+0:16:01.170,0:16:09.720
+das zu weiteren Lösungen führen. Nur in dem konkreten Fall
+eben nicht. Diese Suche kann man auch nochmal
+
+0:16:09.720,0:16:17.760
+linear darstellen. Ich hab das jetzt hier immer
+durch Pfeile in dem Programm visualisiert.
+
+0:16:17.760,0:16:22.950
+Wenn man das Prolog-Programm tatsächlich ausführt,
+sieht man das ja nicht, was hier schrittweise passiert.
+
+0:16:22.950,0:16:28.260
+Man kann das ein bisschen erahnen, wenn man den Trace-Modus
+anschaltet. Das hatte ich glaube ich im letzten
+
+0:16:28.260,0:16:33.750
+Video der vergangenen Woche ganz kurz auch schon
+mal getan. Man kann im dem Prolog-System Trace anschalten.
+
+0:16:33.750,0:16:38.250
+Und dann sieht man so ein bisschen Zwischenschritte.
+Damit kann so ein bisschen diese Lösungssuche nachvollziehen.
+
+0:16:38.250,0:16:42.990
+Ich mach das hier noch mal stilisiert auch für
+das Programm und diese Anfrage.
+
+0:16:42.990,0:16:49.230
+Was passiert dann? Im Grunde genommen würde man
+dann sehen können, in einer etwas anderen Darstellung,
+
+0:16:49.230,0:16:56.970
+diese Suche nach weiteren Teilzielen oder
+der Ablauf und die Betrachtung nacheinander
+
+0:16:56.970,0:17:03.720
+verschiedener Teilziele. Also hier hatten wir zuerst
+auf den Folien davor "istGroßvaterVon" mit
+
+0:17:03.720,0:17:10.250
+der ersten Regel für "istGroßvaterVon" gematched.
+Dann hatte ich gesagt G wird zu kurt. V ist noch unbekannt.
+
+0:17:10.250,0:17:15.620
+Das E ist im Wesentlichen das X.
+Also unsere Ergebnisvariable sozusagen würde dann
+
+0:17:15.620,0:17:22.820
+hier stehen, an der stelle, wo in der Regel das E steht,
+weil wir hier X in unserer eigentlichen Anfrage haben.
+
+0:17:22.820,0:17:31.310
+Dann würde jetzt von diesen beiden Konjunkten, von
+diesen beiden Teilliteralen das Erste zuerst
+
+0:17:31.310,0:17:37.460
+betrachtet werden. Und zwar würde versucht werden,
+das zu lösen anhand von Programmklauseln.
+
+0:17:37.460,0:17:49.580
+Da hatten wir gesagt: in dem Fall wäre das möglich für V = fritz.
+Das heißt es bliebe dann noch übrig zu suchen nach "istVaterVon(fritz,X)".
+
+0:17:49.580,0:17:57.140
+Das war der nächste Schritt auf der Folie.
+Dann war die Antwort: Ja das geht, für X = paul,
+
+0:17:57.140,0:18:04.340
+wegen diesen Fakt. Das heißt hier käme dann die erste
+Lösung heraus. Dann könnte man per Backtracking sagen:
+
+0:18:04.340,0:18:08.150
+Die Lösung gefällt mir nicht oder reicht mir nicht.
+Ich möchte weitere Lösungen haben. Dann würde ich also das ; eingeben.
+
+0:18:09.050,0:18:15.170
+Dann würde Prolog diese letzte Lösung verwerfen.
+Das habe ich hier jetzt so ein bisschen eingegraut.
+
+0:18:15.170,0:18:20.120
+Und an dem Schritt davor noch mal nach Alternativen suchen.
+Also wieder hierher zurückkehren und sagen:
+
+0:18:20.120,0:18:24.740
+Wenn X = paul noch nicht gut genug ist, was
+gibt es noch für Möglichkeiten für "istVaterVon(fritz, X)" ?
+
+0:18:24.740,0:18:31.760
+Und dann würde eben mit den nächsten Fakt verglichen werden.
+Und dann käme heraus, dass X = hans auch eine Lösung ist.
+
+0:18:31.760,0:18:37.880
+Dann könnte ich wieder sagen per Backtracking oder
+Backtracking auslösen und sagen: Das gefällt mir nicht.
+
+0:18:37.880,0:18:42.590
+Das reicht mir nicht. Ich will weitere Lösung haben.
+Und in dem Fall würde Prolog dann merken, dass es
+
+0:18:42.590,0:18:48.680
+bis zu diesem ersten Literal/ der ersten Anfrage
+zurückgehen muss, weil alle anderen Alternativen
+
+0:18:48.680,0:18:54.110
+schon ausgeschöpft waren. Also hier unten bei den anderen Regeln/
+bei den anderen Literalen gab es nichts weiter zu probieren.
+
+0:18:54.110,0:18:59.300
+Aber hier gab es noch was zu probieren. Nämlich die zweite Regel
+zu probieren. Deswegen ist hier alles ausgegraut.
+
+0:18:59.300,0:19:04.100
+Dorthin per Backtracking zurückgekehrt.
+Dann die zweite Regel verwendet, dass wir zu diesem
+
+0:19:04.100,0:19:12.050
+Teilziel "istVaterVon(kurt, M), istMutterVon(M, X)" kommen.
+Dann war wieder die Möglichkeit gegeben "istVaterVon(kurt, M)"
+
+0:19:12.050,0:19:18.830
+zu lösen, durch "M muss dann wohl fritz sein."
+Das führt zu diesem Teilziel: "istMutterVon(fritz, X)"
+
+0:19:18.830,0:19:26.200
+Und da ist unser Fehlschlag wieder, weil es dafür
+weder Fakt noch Regel gibt. Und dann wäre Prolog hier auch
+
+0:19:26.200,0:19:32.680
+wieder in der Lage sagen: false. Also X = paul und X = hans
+oder false. Und dann wäre der Ablauf hier beendet.
+
+0:19:32.680,0:19:40.000
+Und wir hätten alle Lösungen gefunden, die
+sich aus dem Programm ergeben für diese Anfrage.

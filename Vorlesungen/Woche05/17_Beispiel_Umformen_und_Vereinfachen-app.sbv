@@ -1,0 +1,195 @@
+0:00:00.000,0:00:06.570
+Noch ein Beispiel und zwar würden wir gern
+jetzt die hier gezeigte Formel in konjunktive
+
+0:00:06.570,0:00:14.610
+Normalformen bringen. Das ist sie nicht, weil wir auf
+äußerster Ebene eine Disjunktion haben. Wie könnte
+
+0:00:14.610,0:00:19.920
+man hier vorgehen? Das Besondere im Vergleich zu den
+Beispielen davor ist, dass wir jetzt tatsächlich mal auf
+
+0:00:19.920,0:00:27.330
+beiden Seiten der äußeren Disjunktion innen komplexere
+Terme haben. Und nicht immer nur einfach ein Literal dran
+
+0:00:27.330,0:00:33.120
+disjungieren oder konjugieren. Das heißt wir müssen uns
+jetzt erstmal entscheiden, was wir jetzt eigentlich, wo hineinziehen
+
+0:00:33.120,0:00:38.550
+wollen. Wir werden gleich sehen, dass das durch so eine Art
+ausmultiplizieren wie bei arithmetischen Ausdrücken
+
+0:00:38.550,0:00:44.910
+jetzt erstmal längere Terme werden/ längere Ausdrücke
+werden. Ich entscheide mich jetzt zum Beispiel mal,
+
+0:00:44.910,0:00:56.070
+dass ich diesen Teil mittels dieser Disjunktion
+über diese Konjunktion ziehen möchte. Das heißt ich
+
+0:00:56.070,0:01:11.420
+werde das umformen zu: Dieser gesamte linke Teil (A ∧ B)
+Oder C (der erste Teil von rechts). Das als Ganzes: ((A ∧ B) ∨ C)
+
+0:01:11.420,0:01:22.190
+konjugiert mit: Wieder die linke Seite (A ∧ B).
+Jetzt disjungiert mit dem nächsten Teil aus
+
+0:01:22.190,0:01:30.860
+der anderen Konjunktion: ((A ∧ B) ∨ A). Und das Ganze natürlich
+konjugiert nach dem Anwenden der Distributivität mit
+
+0:01:30.860,0:01:39.890
+was wir schon vorher hatten. Und schließlich als
+dritten Konjunkt wieder den linken Teil (A ∧ B)
+
+0:01:39.890,0:01:48.980
+jetzt disjungiert, wegen dieser Operation, mit dem letzten Teil
+aus der inneren Konjunktion: ((A ∧ B) ∨ D).
+
+0:01:48.980,0:01:55.880
+Dann ist die Formel erstmal schonmal länger geworden.
+Das ist der Grund oder Grund dafür ist das, was ich auf den
+
+0:01:55.880,0:02:00.890
+Folien genannt hatte, dass wir beim Anwenden
+von Distributivität Teilformen
+
+0:02:00.890,0:02:08.630
+verdoppeln/ duplizieren. Und wenn innen diese
+größeren Teilformeln sind, dann kann es eben dazu
+
+0:02:08.630,0:02:14.990
+führen, was wir hier jetzt sehen. In dem Fall wurde jetzt dieser
+Gesamte Teilausdruck/ diese gesamte Teilformel nicht
+
+0:02:14.990,0:02:20.150
+nur dupliziert, sondern sogar "getrippelt", weil wir hier
+eine dreifache Konjunktion hatten.
+
+0:02:20.150,0:02:27.080
+Negationen sind jetzt hier gar nicht im Spiel, das heißt
+wir haben kein de Morgan, keine Doppelnegation.
+
+0:02:27.080,0:02:30.650
+Es ist wirklich mal nur ein Zusammenspiel von
+Konjunktion und Disjunktion in diesem konkreten
+
+0:02:30.650,0:02:40.070
+Beispiel. Wie geht es weiter? Jetzt müssen wir diese einzelnen
+Terme weiterverarbeiten. Wir wollen zu einer
+
+0:02:40.070,0:02:49.770
+Konjunktion von Disjunktionen. Wir haben zwar
+außen schon eine Konjunktion, aber da drin sind
+
+0:02:49.770,0:02:56.760
+nicht einfach nur Disjunktionen von Literalen, sondern es sind
+noch weitere Terme hier. Kompliziertere Terme als einfach
+
+0:02:56.760,0:03:04.815
+nur eine Disjunktion von Literalen. Da sagen die Regeln, wir
+sollen weiter die Distributivgesetze anwenden.
+
+0:03:04.815,0:03:11.610
+Wir wollen ja eine konjunktive Normalform haben.
+Das heißt, wir müssen die Disjunktion nach innen drücken.
+
+0:03:12.120,0:03:26.280
+Das machen wir jetzt einfach weiter. Und zwar tun wir das hier.
+Das führt zu (A ∨ C) ∧ (D ∨ C). Das entspricht dem.
+
+0:03:26.280,0:03:45.900
+Und wegen dieser schon vorhanden äußeren Konjunktion:
+(A ∨ A) ∧ (B ∨ A). Dann hätten wir das abgearbeitet.
+
+0:03:45.900,0:04:01.860
+Dann gibt es noch eine äußere Konjunktion. Nämlich diese
+und da müssen wir dann haben: (A ∨ D) ∧ (B ∨ D). Das
+
+0:04:01.860,0:04:13.840
+ist eine konjunktive Normalform. Eine Konjunktion von
+Disjunktionen von Literalen. Hier gibt es jetzt
+
+0:04:13.840,0:04:18.250
+auch Potenzial zum Vereinfachen. Und zwar hätten wir das auch
+schon unterwegs machen können. Oder ich tu es eben jetzt.
+
+0:04:18.250,0:04:25.810
+Zum Beispiel ist das hier eine Instanz der
+Idempotenz der Disjunktion. (A ∨ A) ≡ A. Das gilt
+
+0:04:25.810,0:04:30.370
+mit Sicherheit für so einfache, atomare Aussagen,
+für Literale. Das würde aber auch für komplexere
+
+0:04:30.370,0:04:37.600
+Formeln gehen, die vielleicht unterwegs schon aufgetaucht
+sind. Also das können wir ersetzen zu:
+
+0:04:37.600,0:04:46.300
+Einfach nur A. Und vielleicht sehen wir dann noch
+weitere Vereinfachungspotenziale. Ja wir sehen
+
+0:04:46.300,0:04:57.490
+dann zum Beispiel diesen Teilausdruck:
+(A ∧ (B ∨ A)). Das ist eine Absorption. Wenn sie auf
+
+0:04:57.490,0:05:02.710
+die Äquivalenzen schauen, die Folie
+dazu, da gibt es eine Regel für die Absorption.
+
+0:05:02.710,0:05:08.770
+Und zwar wir haben (A ∧ (B ∨ A)). Auf der Folie war das
+mit F und G formuliert. Aber es gilt natürlich auch
+
+0:05:08.770,0:05:16.270
+für einfache, atomare Aussagen. (A ∧ (B ∨ A)) ≡ A
+Da wird also absorbiert. Das B verschwindet.
+
+0:05:16.270,0:05:22.390
+Es bleibt nur das A übrig. Und tatsächlich können wir das
+hier mehrfach machen. Das können wir nämlich auch hiermit und
+
+0:05:22.390,0:05:28.570
+hiermit machen. Wir können also dieses A, was wir hier
+nach der Idempotenzanwendung haben, benutzen,
+
+0:05:28.570,0:05:36.640
+um alle anderen Disjunktionen zu absorbieren,
+in denen ein A vorkommt. Das führt insgesamt dazu
+
+0:05:36.640,0:05:43.510
+(Da muss man jetzt den Blick für haben. Es wäre nicht notwendig,
+wenn die Aufgaben nur wäre: "Machen Sie eine KNF."
+
+0:05:43.510,0:05:48.880
+Das ist schon eine KNF. Vollkommen okay.) Aber,
+wenn wir es so einfach wie möglich haben wollen,
+
+0:05:48.880,0:06:01.780
+könnten wir hier weitergehen. Und landen bei
+(B ∨ C). Das ist dieser Teil, denn den ersten haben
+
+0:06:02.680,0:06:08.350
+wir absorbiert. Den brauchen wir also nicht. Dann
+∧ (natürlich dieses) A. Das absorbieren heißt nicht, dass
+
+0:06:08.350,0:06:15.130
+das A an sich verschwindet. Das heißt nur, dass es die anderen Disjunktionen
+absorbiert, in denen das A auch vorkommt. Also einmal muss
+
+0:06:15.130,0:06:25.850
+das A schon hier stehen. Aber dann wird das auch
+absorbiert. Das wird auch absorbiert. Und es bleibt
+
+0:06:25.850,0:06:40.220
+noch übrig: (B ∨ D). Das ist auch eine konjunktive
+Normalform. Und die ist auch äquivalent zur obigen
+
+0:06:40.220,0:06:49.790
+Ausgangsformel. Und natürlich schöner als Ergebnis,
+aber das Ergebnis dadrüber wäre auch formal korrekt.

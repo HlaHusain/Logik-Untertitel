@@ -1,0 +1,125 @@
+0:00:00.169,0:00:06.320
+Bei Aufgabe B haben wir jetzt die Formel Nicht
+A oder in Klammern B oder Nicht C gegeben.
+
+0:00:06.320,0:00:09.880
+Hier auch wieder die Wahrheitstabelle mit
+den Zwischenspalten, Nicht A und Nicht C,
+
+0:00:09.880,0:00:11.450
+weil das in der Formel gegeben ist.
+
+0:00:11.450,0:00:13.140
+Und B oder Nicht C.
+
+0:00:13.140,0:00:19.090
+Nicht A ist ja ganz einfach, ist ja immer
+das Gegenteil von A, also 1, 1, 1, 1, 0, 0,
+
+0:00:19.090,0:00:20.130
+0, 0.
+
+0:00:20.130,0:00:23.250
+Nicht C ist das Gegenteil von C.
+
+0:00:23.250,0:00:26.960
+1, 0, 1, 0, 1, 0, 1, 0.
+
+0:00:26.960,0:00:29.720
+Und B oder Nicht C.
+
+0:00:29.720,0:00:35.429
+Beim Oder muss ja wieder eins von beidem wahr
+sein, das heißt, ich schaue mir diese Spalte
+
+0:00:35.429,0:00:37.510
+an und diese Spalte.
+
+0:00:37.510,0:00:43.510
+Wenn da bei einem von beiden eine 1 rauskommt,
+dann kommt hier eine 1 rein, ansonsten eine
+
+0:00:43.510,0:00:44.510
+0.
+
+0:00:44.510,0:00:49.120
+Und für die Gesamtformel muss ich mir die
+Spalte Nicht A anschauen, das ist diese hier.
+
+0:00:49.120,0:00:52.440
+Und eben diese letzte Hilfsspalte Oder Nicht
+B und C.
+
+0:00:52.440,0:00:56.739
+Und wenn in einem von beidem wieder eine 1
+drinsteht, dann ist es im Gesamten eine 1.
+
+0:00:56.739,0:00:58.109
+Wenn nicht, dann ist es 0.
+
+0:00:58.109,0:01:02.379
+Das heißt, die Wahrheitstabelle für diese
+Formel B sieht dann so aus.
+
+0:01:02.379,0:01:05.579
+Jetzt ist noch die Frage: Ist das KNF oder
+DNF?
+
+0:01:05.579,0:01:07.740
+Da ist die Antwort: Es ist beides.
+
+0:01:07.740,0:01:11.659
+Die Klammerung ist vielleicht erst mal ein
+bisschen verwirrend, aber aufgrund der Assoziativität
+
+0:01:11.659,0:01:13.670
+könnt ihr auch die Klammern zum Beispiel
+so schreiben.
+
+0:01:13.670,0:01:18.859
+Nicht A oder B oder Nicht C.
+
+0:01:18.859,0:01:21.560
+Das heißt, ihr klammert den linken Teil.
+
+0:01:21.560,0:01:22.899
+Assoziativität.
+
+0:01:22.899,0:01:27.950
+Im Tutorium habt ihr ja bereits besprochen,
+dass ein einzelnes Literal auch immer eine
+
+0:01:27.950,0:01:29.810
+Konjunktion von Literalen ist.
+
+0:01:29.810,0:01:32.030
+Und auch eine Disjunktion von Literalen.
+
+0:01:32.030,0:01:35.261
+Weil das so ist mit der Assoziativität, kann
+man die Klammern auch weglassen, weil man
+
+0:01:35.261,0:01:36.689
+dadurch keine Bedeutung verliert.
+
+0:01:36.689,0:01:40.499
+Wenn man eine Formel hat wie hier Nicht A
+oder B oder Nicht C, dann hat man nur noch
+
+0:01:40.499,0:01:43.590
+einzelne Literale, die halt hier zweimal negiert
+sind, das ist aber egal.
+
+0:01:43.590,0:01:47.219
+Ihr habt schon im Tutorium besprochen, dass
+bei einzelnen Literalen, die ihr da habt,
+
+0:01:47.219,0:01:51.499
+dass einzelne Literale auch immer eine Konjunktion
+von Literalen sind, oder eine Disjunktion
+
+0:01:51.499,0:01:52.549
+von Literalen.
+
+0:01:52.549,0:01:55.549
+Deswegen ist es sowohl KNF als auch DNF.

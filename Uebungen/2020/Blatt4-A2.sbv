@@ -1,0 +1,139 @@
+0:00:00.459,0:00:05.080
+Bei Aufgabe zwei sollen wir für die folgenden
+Formeln entscheiden, ob sie Hornformeln sind
+
+0:00:05.080,0:00:09.990
+oder nicht. Dafür rufen wir uns die Voraussetzungen
+für eine Hornformel nochmal ins Gedächtnis:
+
+0:00:09.990,0:00:22.919
+Für eine Hornformel brauchen wir eine Formel,
+die in konjunktiver Normalform, kurz KNF,
+
+0:00:22.919,0:00:33.100
+vorliegt. In der KNF darf jede Klausel, also
+jedes Disjunktionsglied, maximal ein positives
+
+0:00:33.100,0:00:40.270
+Literal enthalten. Bei Aufgabe (a) schauen
+wir also, ob es in KNF vorliegt. Das ist hier
+
+0:00:40.270,0:00:45.120
+der Fall. Auch Konjunktionen sind vorhanden
+und sie verbinden Disjunktionen. Das heißt,
+
+0:00:45.120,0:00:51.320
+KNF ist gegeben. Zum nächsten Punkt: Jede
+Klausel darf maximal ein positives Literal
+
+0:00:51.320,0:01:00.749
+enthalten. Klauseln sind hier zum Beispiel
+das, das und das. A oder nicht B enthält
+
+0:01:00.749,0:01:06.250
+nur A als positives Literal. Nicht C enthält
+gar kein positives Literal. Gar keins ist
+
+0:01:06.250,0:01:12.750
+weniger als eins. Somit ist auch das in Ordnung.
+Bei C oder D oder nicht A haben wir zwei positive
+
+0:01:12.750,0:01:21.810
+Literale und zwar C und D. (a) ist also keine
+Hornformel, da die letzte Klausel mehr als
+
+0:01:21.810,0:01:28.140
+ein positives literal enthält. Wir kommen
+zu Teilaufgabe (b). Hier haben wir keine KNF,
+
+0:01:28.140,0:01:33.930
+da wir Disjunktionen haben. Somit ist es eine
+DNF. Für eine Hornformel muss es aber eine
+
+0:01:33.930,0:01:43.759
+KNF sein. Deshalb ist auch (b) keine Hornformel.
+Bei Teilaufgabe (c) haben wir auf jeden Fall
+
+0:01:43.759,0:01:50.000
+Konjunktionen und in den Klauseln Disjunktionen.
+Wir haben also eine KNF. Dann überprüfen
+
+0:01:50.000,0:01:55.340
+wir die Anzahl der positiven Literale: Die
+erste Klausel hat nur A, die zweite hat nur
+
+0:01:55.340,0:02:03.310
+C, die dritte hat nur B. Also ja, die Formel
+liegt in KNF vor und hat pro Klausel nur ein
+
+0:02:03.310,0:02:10.310
+positives Literal. Deshalb ist (c) eine Hornformel.
+Hier steht: (c) ist eine Hornformel, da sie
+
+0:02:10.310,0:02:16.370
+in KNF vorliegt und maximal ein positives
+Literal pro Klausel enthält. Laut Aufgabenstellung
+
+0:02:16.370,0:02:20.831
+soll die Formel, wenn sie eine Hornformel
+ist, zusätzlich in Implikationsschreibweise
+
+0:02:20.831,0:02:26.720
+dargestellt werden. Das machen wir jetzt.
+Ich schreibe die Formel zu Gunsten der Übersichtlichkeit
+
+0:02:26.720,0:02:31.941
+einmal ab. Eine Klausel wie die erste, A oder
+nicht B, wird in der Implikationsschreibweise
+
+0:02:31.941,0:02:37.690
+zu B impliziert A. Das ist genau der Schritt,
+den wir in den vorherigen Übungsblättern
+
+0:02:37.690,0:02:41.250
+auch schon gemacht haben. Nur haben wir es
+da meistens andersherum gemacht, also die
+
+0:02:41.250,0:02:46.700
+Implikationen aufgelöst. Ich schreibe das
+farbig daneben. Vorher hatten wir es so gemacht:
+
+0:02:46.700,0:02:54.400
+B impliziert A, wird zu nicht B oder A. Das
+ist das gleiche, sodass wir das einfach umdrehen
+
+0:02:54.400,0:03:03.970
+können. A oder nicht B. Der untere Teil ist
+das, was wir oben haben. Wir schreiben das
+
+0:03:03.970,0:03:06.620
+in die Implikationsschreibweise um. Dafür
+könnt ihr euch merken, dass die negierte
+
+0:03:06.620,0:03:14.560
+Form immer vor die Implikation kommt. B impliziert
+A. Hier das Und nicht vergessen. In früheren
+
+0:03:14.560,0:03:18.870
+Semestern habe ich bereits oft gesehen, dass
+Studierende hier das Und vergessen. In der
+
+0:03:18.870,0:03:22.060
+Implikationsschreibweise kommt das Und auf
+jeden Fall noch in die Konjunktion. Ein C
+
+0:03:22.060,0:03:28.680
+wird in der Implikationsschreibweise als
+einfaches Literal zu eins impliziert C. Hier
+
+0:03:28.680,0:03:35.650
+haben wir zwei negierte Formen. Die negierten
+Formen kommen, wie gesagt, immer vor die Implikation.
+
+0:03:35.650,0:03:43.560
+Wir wissen also bereits, dass C und A vor
+die Implikation kommen. Bei der Implikationsschreibweise
+
+0:03:43.560,0:03:53.980
+wird das hier ein Und. C und A implizieren
+B. Das setze ich in Klammern. Das war es schon.

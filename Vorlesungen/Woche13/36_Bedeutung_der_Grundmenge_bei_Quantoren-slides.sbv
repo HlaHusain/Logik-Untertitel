@@ -1,0 +1,974 @@
+0:00:01.400,0:00:08.250
+Also nachdem wir uns den formalen Aufbau
+von Termen und dann vor allem auch von Formeln
+
+0:00:08.250,0:00:13.290
+der Prädikatenlogik angeschaut haben,
+wo dann ja die Quantoren vorkamen,
+
+0:00:13.290,0:00:19.320
+sollten wir uns noch mit der Interpretation
+der Quantoren beschäftigen. Noch gar nicht mal
+
+0:00:19.320,0:00:25.570
+so formell, sondern einfach, was ihre intuitive Bedeutung ist.
+Und dafür ist zunächst einmal sehr essenziell,
+
+0:00:25.570,0:00:33.470
+dass wir uns immer vergegenwärtigen über welchen Bereich,
+nennt man auch Universum oder Grundmenge oder Individuenbereich,
+
+0:00:33.470,0:00:38.370
+diese Quantoren denn eigentlich quantifizieren.
+Da werden Variablen eingeführt. Worauf beziehen die sich jeweils?
+
+0:00:38.370,0:00:44.820
+Also ganz konkret schauen wir uns
+einige der Formeln an, die auf den Folien
+
+0:00:44.820,0:00:51.870
+im letzten Video vorkamen. Das ist eine gültige Formel.
+Formal laut der Syntax würde hier noch
+
+0:00:51.870,0:00:56.930
+ein äußeres Klammerpaar stehen. Das lass
+ich jetzt weg, weil ich das für die Lesbarkeit
+
+0:00:56.930,0:01:02.830
+nicht brauche. Also die Formel war: ∀x: (M(x) ⇨ S(x)),
+wobei das M für das Menschsein und das S
+
+0:01:02.830,0:01:08.300
+für die Sterblichkeit stehen sollte.
+Jetzt stellt sich natürlich noch die Frage,
+
+0:01:08.300,0:01:17.830
+wer sind denn diese "alle x", um die es da geht?
+Da steht alle x. Alle x was? Alle Fußgänger? Alle Atome?
+
+0:01:17.830,0:01:27.310
+Was ist dieses x? Also das muss man irgendwie festhalten
+oder sich vergewärtigen. Und die erste naheliegende
+
+0:01:27.310,0:01:32.940
+Möglichkeit wäre, diese Grundmenge oder Universum,
+also die möglichen Werte für x, einfach so zu
+
+0:01:32.940,0:01:38.850
+interpretieren, dass wir dafür alle Lebewesen
+betrachten. Für alle Lebewesen soll gelten,
+
+0:01:38.850,0:01:46.440
+wenn dieses Lebewesen ein Mensch ist, dann ist es sterblich.
+Dann trifft dieses M(x) aus dieser Implikation
+
+0:01:46.440,0:01:50.850
+für einige dieser x-Werte zu, für andere nicht.
+Dadurch wird die Aussage auch interessant.
+
+0:01:50.850,0:01:57.690
+Es gibt Lebewesen. Also einige Wahlen für das x
+sind solche, die M(x) erfüllen. Für die zutrifft:
+
+0:01:57.690,0:02:05.490
+ist ein Mensch. Für andere nicht. Das heißt, um
+dann diese Formel als wahr anzusehen, dass
+
+0:02:05.490,0:02:11.629
+für alle Wahlen von x, die wir aus den Lebewesen
+wählen dürfen, es gilt, dass wenn M(x) zutrifft,
+
+0:02:11.629,0:02:18.120
+auch S(x) zutrifft, dann müssten wir wissen
+oder wir würden die Formel als wahr ansehen,
+
+0:02:18.120,0:02:23.389
+wenn denn tatsächlich für alle Menschen,
+also für alle x, für die M(x) zutrifft,
+
+0:02:23.389,0:02:31.560
+auch gilt, dass sie sterblich sind. Also auch S(x) zutrifft.
+Zur Erinnerung: Die Implikation konnten wir ja interpretieren
+
+0:02:31.560,0:02:39.719
+oder haben wir gelesen als: Eine Disjunktion
+von (¬M(x) ∨ S(x)). Wäre dann die Übersetzung sozusagen.
+
+0:02:39.719,0:02:49.060
+Also für x'e, die nicht Menschen sind,
+aber Lebewesen (deswegen hier gewählt werden dürfen),
+
+0:02:49.060,0:02:56.150
+wäre diese Implikation sowieso wahr,
+denn ¬M(x) würde dann schon zutreffen
+
+0:02:56.150,0:03:03.209
+und dann ¬M(x) ∨ S(x) erst recht.
+Also es gibt durchaus in diesem Szenario auch Lebewesen,
+
+0:03:03.209,0:03:09.409
+die keine Menschen sind. Diese Lebewesen
+werden auch betrachtet
+
+0:03:09.409,0:03:14.579
+für die Interpretation dieser Formel.
+Aber für diese Lebewesen,
+
+0:03:14.579,0:03:19.120
+für diese anderen x, die keine Menschen sind,
+trifft die Formel gar keine Aussage.
+
+0:03:19.120,0:03:31.720
+Nicht zur Sterblichkeit, weil für die die Implikationen
+auch wahr ist, egal ob S(x) wahr ist.
+
+0:03:31.720,0:03:36.809
+Wir können die Formeln so interpretieren. Müssen uns dann
+einfach gewahr sein, was wir damit dann eigentlich meinen.
+
+0:03:36.809,0:03:45.409
+In dem Fall, wenn wir als Bereich für x die Lebewesen nehmen,
+dann wäre das eben so zutreffend, wie es
+
+0:03:45.409,0:03:53.639
+hier gerade diskutiert wurde. Natürlich müssen wir dann,
+wenn wir zum Beispiel Sokrates als Instanz hier interpretieren wollen,
+
+0:03:53.639,0:03:57.900
+muss Sokrates natürlich eins von diesen Lebewesen sein.
+In der Diskussion vorher tauchte auch M(sokrates) auf.
+
+0:03:57.900,0:04:02.239
+Natürlich muss dann Sokrates auch
+aus diesem Grundbereich kommen.
+
+0:04:02.239,0:04:08.219
+Aber hier haben wir uns nur mit dieser universell quantifizierten
+Formel beschäftigt. Was wäre die zweite Möglichkeit?
+
+0:04:08.219,0:04:13.159
+Die zweite Möglichkeit wäre, zu sagen:
+Als Grundmenge nehmen wir einfach alle Menschen.
+
+0:04:13.159,0:04:22.079
+Also die Werte für x sind einfach alle Menschen.
+Was hieße das für unsere Formel? Nun, dann trifft M(x)
+
+0:04:22.079,0:04:27.659
+sowieso immer zu. Wenn wir die Grundmenge schon
+einschränken auf "nur die Menschen", statt auf
+
+0:04:27.659,0:04:34.930
+alle Lebewesen, dann würde
+die Teilformel von M(x) sowieso immer zutreffen,
+
+0:04:34.930,0:04:40.800
+weil wir für x sowieso nur Menschen wählen würden.
+Das heißt, intuitiv zumindest, würde die Formel
+
+0:04:40.800,0:04:49.010
+∀x:(M(x) ⇨ S(x)) das Gleiche sagen,
+wie direkt zu sagen: ∀x: S(x).
+
+0:04:49.010,0:04:56.990
+Weil letztlich, wenn wir die Implikation wieder
+schreiben als "Nicht die Vorbedingung Oder die Nachbedingung",
+
+0:04:56.990,0:05:05.009
+also ¬M(x) ∨ S(x), dann würde das ¬M(x) ja nie zutreffen,
+weil M(x) für alle Wahlen x aus dieser neuen Grundmenge
+
+0:05:05.009,0:05:09.930
+immer zutrifft. Das heißt, wir hätten hier
+irgendwie etwas stehen, "was nie zutrifft
+
+0:05:09.930,0:05:14.740
+oder etwas anderes". Und das wissen wir
+aus der Aussagenlogik, und die gleichen Regeln
+
+0:05:14.740,0:05:20.840
+werden hier auch gelten: Das ist dann äquivalent zu S(x).
+Dann wäre also die getroffene Aussage äquivalent
+
+0:05:20.840,0:05:27.460
+zu dieser Aussage. Was auch okay wäre, denn
+wenn wir als Grundmenge sowieso nur die Menschen nehmen,
+
+0:05:27.460,0:05:37.419
+dann sagt diese Formel ja auch aus:
+"Alle Menschen sind sterblich."
+
+0:05:37.419,0:05:42.539
+Das war vorher natürlich nicht so. In der Wahl zuvor,
+wo wir als Grundmenge alle Lebewesen genommen haben,
+
+0:05:42.539,0:05:47.710
+können wir nicht einfach sagen, dass diese beiden Formeln
+das Gleiche aussagen. Hier würden jetzt einfach gar
+
+0:05:47.710,0:05:54.270
+keine anderen (als Menschen) Lebewesen mehr betrachtet.
+Natürlich sind diese
+
+0:05:54.270,0:05:58.740
+beiden Möglichkeiten nicht die einzigen beiden möglichen.
+Man kann alle möglichen Grundmengen wählen.
+
+0:05:58.740,0:06:06.270
+In dem Fall habe ich jetzt mal die beiden Grundmengen
+"alle Lebewesen" und "alle Menschen" betrachtet.
+
+0:06:06.270,0:06:12.960
+Wie ist das bei anderen Formeln? Betrachten wir mal eine
+andere Formel mit ähnlicher Grundlage. Also nehmen wir die Formel:
+
+0:06:12.960,0:06:20.879
+∀x:(M(x) ∧ S(x)). Dann können wir wieder schauen,
+was sich daraus für Feststellungen ergeben,
+
+0:06:20.879,0:06:26.639
+je nach Wahl der Grundmenge. Betrachten wir
+die erste Möglichkeit: Die Grundmenge sind die Lebewesen.
+
+0:06:26.639,0:06:37.849
+Was heißt das dann? Nun, ignorieren wir das hier unten mal noch.
+Dann würden wir dieser Aussage vermutlich nicht zustimmen.
+
+0:06:37.849,0:06:44.189
+Denn dann würde sie bedeuten: "Für alle x, für alle
+Lebewesen gilt, das Lebewesen ist menschlich und
+
+0:06:44.189,0:06:50.669
+ist sterblich." Und das stimmt eben nicht für
+alle Lebewesen. Wenn wir hingegen tatsächlich hier
+
+0:06:50.669,0:06:57.150
+schon vorweggegriffen von der Möglichkeit
+"Grundmenge = Menschen" ausgehen, dann würden
+
+0:06:57.150,0:07:02.610
+wir der Aussage wohl zustimmen. Denn dann würden
+wir für x nur Menschen wählen können.
+
+0:07:02.610,0:07:13.199
+Für die wäre M(x) natürlich wahr und S(x) auch.
+(Wenn wir davon ausgehen, dass alle Menschen sterblich sind.)
+
+0:07:13.199,0:07:19.780
+Also wahrscheinlich würden wir in dem Fall diesen Teil
+als redundant erachten. Und in der Tat wären wir dann auch
+
+0:07:19.780,0:07:25.289
+wieder bei dieser Aussage. Wenn wir als Grundmenge
+für dieses x sowieso die Menschen betrachten,
+
+0:07:25.289,0:07:33.469
+können wir die Aussage auch zu dieser Aussage verknappen:
+"Alle x sind sterblich". Was ist hier relevant?
+
+0:07:33.469,0:07:41.550
+Bei der einen Formel, die wir zunächst
+betrachtet hatten, da hatte letztlich die Wahl
+
+0:07:41.550,0:07:47.219
+der Grundmenge einen Einfluss darauf,
+wie wir die Formel lesen. Ob wir z.B. Teile davon
+
+0:07:47.219,0:07:54.060
+als redundant ansehen. Also wenn wir hier als Grundmenge
+die Menschen nehmen, dann sind diese und diese
+
+0:07:54.060,0:07:59.000
+Formel inhaltsgleich. Hingegen, wenn wir als die
+Grundmenge alle Lebewesen nehmen, wie auf der Folie zuvor,
+
+0:07:59.000,0:08:05.199
+dann ist es keinesfalls so, dass diese beiden
+Formeln das Gleiche aussagen. Das war bei der
+
+0:08:05.199,0:08:10.330
+einen Formel. Bei dieser Formel ist es letztlich sogar noch
+eklatanter. Hier ist es sogar so: Nicht nur,
+
+0:08:10.330,0:08:16.840
+dass wir irgendwie Teile davon als redundant erachten,
+sondern es ist sogar so, wenn wir die eine Wahl
+
+0:08:16.840,0:08:26.410
+für die Grundmenge treffen, dann halten
+wir die Formel für falsch. Wenn wir eine andere
+
+0:08:26.410,0:08:33.120
+Wahl der Grundmenge treffen, dann erscheint
+uns die Formel korrekt. Das heißt,
+
+0:08:33.120,0:08:36.940
+die Angabe der Grundmenge
+wird immer wichtig sein, wenn wir über den
+
+0:08:36.940,0:08:40.890
+Wahrheitsgehalt von Formeln reden. Also wenn wir tatsächlich zur
+Semantik kommen, noch nicht in diesem Video,
+
+0:08:40.890,0:08:46.890
+dann können wir nicht einfach sagen: Wir schauen uns
+die Formel an und sagen, ob sie zutrifft oder nicht.
+
+0:08:46.890,0:08:53.470
+Ob sie wahr ist oder nicht. Ob sie erfüllbar ist oder nicht.
+Ob sie eine Tautologie ist oder nicht. Zumindest
+
+0:08:53.470,0:08:59.530
+können wir das nicht immer sagen, ohne uns tatsächlich die Interpretation
+der Grundmenge und letztlich auch der Prädikate
+
+0:08:59.530,0:09:06.820
+und gegebenenfalls Funktionssymbole genauer anzuschauen.
+Das ist nicht nur für den Allquantor relevant.
+
+0:09:06.820,0:09:12.630
+Das war jetzt immer der Allquantor: "für alle", "für alle",
+"für alle". Auch beim Existenzquantor kann diese
+
+0:09:12.630,0:09:17.410
+Festlegung der Grundmenge signifikant sein.
+Externe Festlegung insofern
+
+0:09:17.410,0:09:21.640
+als wir das der Formel selber ja nicht ansehen.
+Sondern wir haben gerade eben die Formel gehabt
+
+0:09:21.640,0:09:32.020
+und dann gesagt: "Als Grundmenge meinen wir...".
+Und das kann beim Existenzquantor genauso wichtig sein.
+
+0:09:32.020,0:09:36.160
+Zur Diskussion schauen wir uns mal einen Fall an, wo wir schon
+einen Existenzquantor betrachtet hatten. Das taucht im letzten Video auf
+
+0:09:36.160,0:09:42.510
+und vorher auch schon einmal. Dieser sprachliche Syllogismus,
+den ich Ihnen vorgeben habe, wie wir den als Formeln
+
+0:09:42.510,0:09:48.450
+schreiben könnten, die einzelnen Aussagen hier.
+Und wir können das mal interpretieren. Vielleicht gehe ich
+
+0:09:48.450,0:09:53.180
+nicht alle Fälle jetzt im Video durch. Sie denken selbst
+einfach mal darüber nach. Aber wir haben hier drei Formeln.
+
+0:09:53.180,0:09:57.880
+Wir können uns jeweils fragen, wie die denn zu
+interpretieren sind. Was bedeuten die denn, je nach
+
+0:09:57.880,0:10:03.830
+Wahl der Grundmenge? Also erste Möglichkeit, die ich betrachte,
+wäre wieder: Wir nehmen als Grundmenge einfach die Lebewesen.
+
+0:10:03.830,0:10:10.140
+Hier links taucht dieser Aspekt der Grundmenge gar nicht auf.
+Hier wird gesagt: "Alle Aliens", "Einige Säugetiere"
+
+0:10:10.140,0:10:14.980
+Hier tauchen irgendwie Sachen auf, die an Quantoren erinnern:
+Alle und Einige / Für Alle, Für Einige / Alle, Existenz.
+
+0:10:14.980,0:10:24.570
+Worüber hier sozusagen quantifiziert wird,
+also diese Grundmenge, die tritt hier nicht
+
+0:10:24.570,0:10:31.640
+explizit zutage. Die können wir nur hinein
+interpretieren. Hier wollen wir darüber jeweils
+
+0:10:31.640,0:10:38.540
+explizit etwas sagen. Wenn wir uns um die Aussage
+"Aliens" kümmern, drücken wir dadurch aus, dass wir sagen:
+
+0:10:38.540,0:10:42.770
+Wir schauen uns alle x an, aus irgendeiner Grundmenge.
+Zum Beispiel Lebewesen. Und dann sagen wir:
+
+0:10:42.770,0:10:49.440
+Wenn dieses x ein Alien ist, dann möge auch gelten, dass
+es ein Säugetier ist in dem Fall. Also schauen wir uns das an
+
+0:10:49.440,0:10:57.530
+für die Grundmenge Lebewesen. Was sagt dann diese erste Formel?
+Die sagt: "Für alle Lebewesen gilt, wenn sie
+
+0:10:57.530,0:11:02.660
+ein Alien sind, dann sind sie auch Säugetiere."
+Den Wahrheitsgehalt können wir gar nicht so recht beurteilen,
+
+0:11:02.660,0:11:07.500
+weil wir noch keine Aliens kennen und deswegen auch nicht
+sagen können, dass die Wahrscheinlichkeit hoch ist, dass
+
+0:11:07.500,0:11:12.650
+auf anderen Planeten das Leben sich anders entwickelt
+hat und Aliens dann eher keine Säugetiere sein werden.
+
+0:11:12.650,0:11:18.500
+Dann würde diese Aussage also nicht zutreffen,
+wenn es Aliens gibt, die keine Säugetiere sind.
+
+0:11:18.500,0:11:26.550
+Die zweite Aussage: "Für alle Lebewesen gilt,
+wenn sie ein Alien sind, dann leben sie im Meer."
+
+0:11:26.550,0:11:31.660
+Das können wir auch nicht beurteilen. Wir wissen gar nicht,
+ob es auf anderen Planeten Meere gibt und schon gar nicht,
+
+0:11:31.660,0:11:37.980
+ob dann dort alle Lebewesen im Meer leben. Auf der Erde trifft
+das hier ja nicht zu für Erdenbewohner. Aber hier steht ja
+
+0:11:37.980,0:11:45.260
+auch für Aliens möge das zutreffen. Also es hängt eben
+davon ab, was wir über Aliens wissen oder nicht. Was ist mit der
+
+0:11:45.260,0:11:51.680
+letzten Aussage, die hier als Folgerung des Syllogismus auftauchte?
+"Es existiert ein x, so dass x Säugetier und x Meeresbewohner ist."
+
+0:11:51.680,0:11:59.660
+Wenn wir für x einfach Lebewesen wählen, als möglichen Bereich,
+aus dem hier gewählt werden kann,
+
+0:11:59.660,0:12:04.050
+dann würden wir dieser Aussage zustimmen.
+Denn es gibt Lebewesen,
+
+0:12:04.050,0:12:09.910
+wir kennen Lebewesen, die sowohl Säugetiere sind
+als auch im Meer leben. Andere Möglichkeit:
+
+0:12:09.910,0:12:19.930
+Wir könnten als Grundmenge einfach nur die Erdenbewohner
+nehmen. Und was können wir dann über diese erste Formel sagen?
+
+0:12:19.930,0:12:27.290
+"Es gibt ein x, das Erdenbewohner ist und falls
+dieses x ein Alien ist, dann ist es auch Säugetier."
+
+0:12:27.290,0:12:35.370
+Also umgekehrt. Nicht "Es existiert", sondern "für alle".
+"Für alle x muss gelten, für alle Erdenbewohner muss gelten,
+
+0:12:35.370,0:12:41.990
+wenn sie Aliens sind, dann sind sie Säugetiere."
+Darauf könnte man jetzt antworten: Das trifft zu,
+
+0:12:41.990,0:12:48.560
+wenn wir annehmen, dass Erdenbewohner eben keine Aliens sind.
+Es gibt auf der Erde keine Aliens. Das heißt, diese Aussage
+
+0:12:48.560,0:12:54.040
+würde zutreffen. Warum? Weil für alle x'e, die wir
+wählen können, nämlich die Erdenbewohner,
+
+0:12:54.040,0:12:59.240
+diese Vorbedingung nicht zutrifft. Das sind eben keine Aliens.
+Und dann ist die Implikation wiederum wahr.
+
+0:12:59.240,0:13:08.070
+Denn wenn ich sage, ich schreibe das um zu: ¬A(x) ∨ S(x),
+dann trifft dieses ¬A(x) eben immer zu.
+
+0:13:08.070,0:13:13.390
+Und dann ist auch die Disjunktion immer wahr.
+So ähnlich könnte man für den Fall diskutieren.
+
+0:13:13.390,0:13:19.160
+Und die letzte Zeile würde man auch als wahr ansehen,
+denn wir kennen ja Erdenbewohner,
+
+0:13:19.160,0:13:26.580
+die Säugetiere und Meeresbewohner sind.
+Und dann könnte man noch fragen: Was ist denn,
+
+0:13:26.580,0:13:37.620
+wenn wir als Grundmenge die Nicht-Erdenbewohner nehmen?
+Da können wir uns eben auch wieder fragen,
+
+0:13:37.620,0:13:43.790
+was es denn heißt: "Für alle Nicht-Erdenbewohner,
+wenn sie Aliens sind (was sie dann wohl sein werden,
+
+0:13:43.790,0:13:51.610
+wenn sie Nicht-Erdenbewohner sind) muss gelten,
+dass sie auch Säugetiere sind." Das wissen wir insofern nicht
+
+0:13:51.610,0:14:00.860
+als wir nicht wissen, ob sich das Leben auf anderen
+Planeten wie auf der Erde entwickelt hat.
+
+0:14:00.860,0:14:08.570
+"Es existiert ein x, ein Nicht-Erdenbewohner, das Säugetier ist
+und im Meer lebt." Das kommt unter anderem natürlich darauf an,
+
+0:14:08.570,0:14:16.140
+ob diese Grundmenge überhaupt nicht-leer ist.
+Wenn es gar keine Nicht-Erdenbewohner gibt,
+
+0:14:16.140,0:14:21.620
+dann wäre diese Grundmenge leer und dann wäre
+ein Existenzquantor immer nicht erfüllt.
+
+0:14:21.620,0:14:27.670
+Dann gibt es eben keine mögliche Wahl
+aus der Grundmenge heraus.
+
+0:14:27.670,0:14:36.070
+Andernfalls, falls es Nicht-Erdenbewohner gibt, dann
+käme es eben darauf an, wie wir Säugetier und Meeresbewohner
+
+0:14:36.070,0:14:42.820
+für Nicht-Erdenbewohner interpretieren müssen.
+Also ob es auf anderen Planeten überhaupt Säugetiere gibt.
+
+0:14:42.820,0:14:51.160
+Der Punkt hier ist vor allem: Die Wahl der
+Grundmenge kann die Interpretation stark beeinflussen.
+
+0:14:51.160,0:14:57.910
+Wir müssen also aufpassen, was wir da wählen dürfen
+bzw. wie wir diese Grundmenge setzen.
+
+0:14:57.910,0:15:04.180
+Das heißt, in der Semantik später, wird das eine
+wichtige Zutat sein, dass wir auch immer angeben,
+
+0:15:04.180,0:15:15.650
+was die Grundmenge ist. Betrachten wir noch ein paar Beispiele
+letztlich solcher Übersetzungen in die Logik.
+
+0:15:15.650,0:15:21.600
+Also so wie hier solche natürlich-sprachlichen Sätze
+in die Logik übersetzt wurden, aber eben jetzt immer mit
+
+0:15:21.600,0:15:30.200
+Quantoren und mit Bedacht auch auf die Interpretation
+der Grundmenge. Also eine jetzt etwas weniger esoterische
+
+0:15:30.200,0:15:35.890
+Aussage als diese Aussagen über die Aliens:
+Die Behauptung, "jede natürliche Zahl sei entweder
+
+0:15:35.890,0:15:43.090
+gerade oder ungerade." Wie könnten wir das
+formalisieren oder in Logik ausdrücken wollen?
+
+0:15:43.090,0:15:49.550
+Nun, das ist sicherlich eine All-Aussage. Da steht "jede Zahl".
+Wir können jetzt immer nach sprachlichen Signalworten
+
+0:15:49.550,0:15:55.370
+Ausschau halten, die einzelne Quantoren motivieren.
+Also wenn wir "Jede" sehen, dann spricht das für
+
+0:15:55.370,0:16:02.230
+eine All-Aussage. Also für alle x gilt irgendetwas.
+Und zwar: "∀x gilt,"
+
+0:16:02.230,0:16:08.850
+Und dann nehmen wir an, wir haben zwei Prädikate
+für Geradzahligkeit und Ungeradzahligkeit.
+
+0:16:08.850,0:16:15.920
+Dann könnten wir sagen: "Für alle x gilt, G(x)
+genau dann, wenn ¬U(x)." Und das ergibt Sinn,
+
+0:16:15.920,0:16:21.350
+wenn wir als die Grundmenge die natürlichen
+Zahlen nehmen. Diese Aussage hier wäre schwer
+
+0:16:21.350,0:16:26.940
+zu interpretieren, wenn wir als Grundmenge wieder
+alle Lebewesen nehmen würden. Was soll das für Lebewesen
+
+0:16:26.940,0:16:33.680
+bedeuten gerade oder ungerade zu sein? Aber wenn wir hier
+entweder explizit oder aus dem Kontext die Wahl treffen:
+
+0:16:33.680,0:16:39.620
+die Grundmenge sind die natürlichen Zahlen und
+G und U jeweils als einstellige Prädikate nehmen,
+
+0:16:39.620,0:16:53.220
+nämlich Geradzahligkeit und Ungeradzahligkeit,
+dann würde das die darüber stehende, verbale Aussage erfassen.
+
+0:16:53.220,0:16:57.010
+Interessant hier auch: Diese Menge ist unendlich.
+Die Beispiele davor mit Erdenbewohner, Lebewesen,
+
+0:16:57.010,0:17:02.570
+Menschen waren immer endliche Grundmengen, aber wir können
+auch unendliche Mengen haben. Das ist nicht eingeschränkt.
+
+0:17:02.570,0:17:09.160
+Diese All-Aussage, die kann über einen unendlichen
+Bereich Aussagen treffen. Für alle x, zum Beispiel
+
+0:17:09.160,0:17:14.949
+für alle Elemente der Menge der natürlichen Zahlen,
+und das sind eben unendlich viele.
+
+0:17:14.949,0:17:22.810
+Anderes Beispiel: "Klaus mag alle, die sich nicht
+selbst mögen." Hier wird die Grundmenge sicherlich
+
+0:17:22.810,0:17:32.370
+nicht mehr die natürlichen Zahlen sein, sondern
+eher wieder Lebewesen, Menschen, Personen.
+
+0:17:32.370,0:17:38.570
+Hier steht wieder was von "alle". Hier steht was von Klaus.
+Also irgendwie werden wir eine Konstante brauchen in unserer Formel.
+
+0:17:38.570,0:17:44.900
+Die konkrete Person Klaus. Hier steht "alle", also
+wahrscheinlich werden wir einen Allquantor
+
+0:17:44.900,0:17:51.840
+in der Formel sehen. Und hier steht das "mögen".
+Dafür werden wir ein Prädikat brauchen. Und das wird
+
+0:17:51.840,0:17:55.670
+nicht mehr ein einstelliges Prädikat sein,
+wie die Geradzahligkeit und die Ungeradzahligkeit,
+
+0:17:55.670,0:18:02.930
+die jeweils eine Aussage über eine Zahl treffen,
+sondern das "mögen", sowohl dieses "mag" hier
+
+0:18:02.930,0:18:09.790
+als auch das "mögen" hier, das sind ja jeweils sozusagen
+Relationen, die zwei Personen in Beziehung setzen.
+
+0:18:09.790,0:18:19.230
+Also wahrscheinlich werden wir dafür
+ein zweistelliges Prädikatsymbol brauchen. Und tatsächlich wäre
+
+0:18:19.230,0:18:25.360
+eine mögliche Umsetzung dieser sprachlichen
+Aussage in eine Formel, die Aussage:
+
+0:18:25.360,0:18:33.180
+"Für alle x" (wegen dieses "alle" hier). Als Grundmenge wählen wir
+die Personen. Alle Personen, die es gibt. Dann sagt eben ∀x = Für alle Personen.
+
+0:18:33.180,0:18:43.110
+Für alle Personen gilt, wenn eine Person sich
+nicht selbst mag, (betrachten wir M als Prädikat:
+
+0:18:43.110,0:18:51.110
+irgendjemand mag irgendjemand) dann haben wir,
+wenn wir so ein x haben, irgendeine Person,
+
+0:18:51.110,0:18:58.040
+so dass diese Person sich nicht selbst mag.
+Deswegen wird hier das x zweimal verwendet. Mag(x,x).
+
+0:18:58.040,0:19:07.630
+Also x mag sich selbst nicht. Wenn wir so ein x haben,
+so dass dieses x sich nicht selbst mag, dann mag Klaus dieses x.
+
+0:19:07.630,0:19:18.380
+Klaus mag alle x, die sich nicht mögen.
+k⁰ = nullstelliges Funktionssymbol, also Konstante
+
+0:19:18.380,0:19:25.570
+interpretiert als "Klaus". Natürlich muss das
+dann ein Element aus dieser Menge aller Personen sein.
+
+0:19:25.570,0:19:30.650
+Also diese Grundmenge muss so gewählt sein,
+dass wir die Konstanten da drin wiederfinden können
+
+0:19:30.650,0:19:36.510
+und dass die Quantifizierungen Sinn ergeben,
+wenn sie interpretiert werden über dieser Grundmenge.
+
+0:19:36.510,0:19:42.870
+Und das würde hier beides zutreffen. Jetzt könnte man
+sich in dem Beispiel fragen, ob den Klaus wohl
+
+0:19:42.870,0:19:49.490
+sich selber mag? Da können Sie mal überlegen,
+ob diese Formel denn etwas darüber aussagt, ob
+
+0:19:49.490,0:19:56.430
+Klaus sich selber mag und auch, ob denn diese sprachliche
+Aussage uns einen Hinweis darauf gibt, ob Klaus
+
+0:19:56.430,0:20:02.180
+sich selber mag. Aber das würde ich jetzt nicht durchdiskutieren.
+Das können Sie mal selbst überlegen, oder wir können darauf
+
+0:20:02.180,0:20:11.910
+zurückkommen, wenn wir wirklich die Semantik
+von Formeln ganz genau beschreiben. Stattdessen
+
+0:20:11.910,0:20:18.650
+noch ein paar weitere Beispiele, auch im Kontext
+letztlich dieser Wahl. Also als Grundmenge
+
+0:20:18.650,0:20:25.970
+wähle ich jetzt immer wieder alle Personen und benutze
+dieses zweistellige Prädikat des Mögen's.
+
+0:20:25.970,0:20:34.870
+Also die nächsten Beispiele sind alle mit der gleichen
+Grundmenge und diesem mögen-Prädikat.
+
+0:20:34.870,0:20:41.600
+Hier gibt es eine Aussage, nicht mehr über Klaus, sondern
+über alle. "Alle mögen irgendjemanden."
+
+0:20:41.600,0:20:46.210
+Was wären hier Signalworte? Wie können wir
+das vielleicht in eine Quantoren-Formel überführen?
+
+0:20:46.210,0:20:51.540
+Hier kommt das "alle" drin vor. Das spricht für
+einen Allquantor. Dann kommt hier noch etwas vor: "irgendjemanden".
+
+0:20:51.540,0:21:03.050
+Wofür ist "irgend" ein Signal?
+Wir sagen, irgendjemand tut etwas,
+
+0:21:03.050,0:21:09.290
+wenn es eben nicht alle tun, sondern nur eine Person.
+Also es gibt irgendjemanden, aber das trifft
+
+0:21:09.290,0:21:15.510
+noch lange nicht für alle zu. Das heißt, dieses "irgend"
+spricht eher für einen Existenzquantor.
+
+0:21:15.510,0:21:22.090
+Also was nun? Allquantor oder Existenzquantor? Beides!
+Es geht ja um das Mögen. Das bezieht sich sowieso auf zwei Personen.
+
+0:21:22.090,0:21:27.900
+Und eine von den Personen ist allquantifiziert,
+weil es da um "alle" mögen irgendjemanden geht.
+
+0:21:27.900,0:21:35.250
+Und die andere Variable, die für eine Person stehen soll,
+wäre existenzquantifiziert. Das heißt, "Alle mögen irgendjemanden"
+
+0:21:35.250,0:21:42.460
+könnten wir ausdrücken als: "Für alle x, also alle Personen, gilt:
+Es gibt ein y, also eine Person, so dass x das y mag."
+
+0:21:42.460,0:21:53.350
+Dieser Allquantor ist sozusagen motiviert
+durch dieses "alle". Alle mögen irgendjemanden.
+
+0:21:53.350,0:22:01.970
+Alle x mag. Wen? Irgendjemanden. Es gibt ein y,
+so dass x das y mag. Und das gilt für alle x.
+
+0:22:01.970,0:22:07.740
+Also alle mögen irgendjemanden. Das kann
+sehr subtil sein. Was ist zum Beispiel mit einer
+
+0:22:07.740,0:22:14.550
+sehr ähnlichen Aussage? Einfach wenn wir das sprachlich
+etwas umsortieren und den Satz betrachten:
+
+0:22:14.550,0:22:23.850
+"Irgendjemanden mögen alle." "Alle mögen irgendjemanden."
+"Irgendjemanden mögen alle." Auch hier haben wir
+
+0:22:23.850,0:22:30.680
+ein "alle" und ein "irgend". Also wahrscheinlich
+wieder ein All- und ein Existenzquantor.
+
+0:22:30.680,0:22:37.860
+Allerdings würde diese Formel das nicht gut erfassen.
+Denn "irgendjemanden mögen alle" heißt eigentlich:
+
+0:22:37.860,0:22:47.720
+"Es gibt eine Person, die von allen gemocht wird."
+Während das hier oben nur sagt: "Alle haben jemanden, den sie mögen."
+
+0:22:47.720,0:22:54.050
+Wie können wir das auf der Formel-Seite präzise fassen?
+Nun, es kommt auf die Reihenfolge dieser Quantoren an.
+
+0:22:54.050,0:23:01.020
+"Irgendjemanden mögen alle" heißt: "Es gibt jemanden, den alle mögen."
+Während das hier heißt: "Für alle gibt es jemanden, den sie mögen."
+
+0:23:01.020,0:23:06.809
+Das ist nicht das Gleiche wie "Es gibt jemanden, den alle mögen."
+"Es gibt jemanden, den alle mögen", würde man so schreiben:
+
+0:23:06.809,0:23:14.840
+Es gibt ein y, so dass für alle x gilt: x mag y.
+Das ist fast die gleiche Formel wie oben,
+
+0:23:14.840,0:23:22.630
+aber mit anderer Reihenfolge der Quantoren.
+Und ich hoffe, die sprachlichen Fassungen dieser beiden Formeln
+
+0:23:22.630,0:23:29.590
+machen klar, dass es wirklich ein Unterschied ist,
+dass diese Reihenfolge auf der formalen Ebene einen Unterschied macht,
+
+0:23:29.590,0:23:37.800
+weil eben auch die dazu entsprechenden intuitiven
+Aussagen nicht äquivalent sind.
+
+0:23:37.800,0:23:43.809
+Jetzt haben wir hier so mehrere Quantoren. Da habe ich jetzt noch
+mehr Klammern weggelassen. Formal dem Aufbau der Formeln syntaktisch
+
+0:23:43.809,0:23:50.500
+folgend, gäbe es hier Klammern und außen herum
+auch nochmal Klammern, aber wenn wir solche
+
+0:23:50.500,0:23:55.670
+direkt ineinander geschachtelten, aufeinander folgenden
+Quantoren haben, dann können wir diese wiederholten Klammern
+
+0:23:55.670,0:24:10.720
+weglassen, weil das auch so klar ist, wie das zu lesen ist,
+von außen nach innen. Worüber Sie auch nochmal
+
+0:24:10.720,0:24:16.640
+nachdenken können, wäre: Was wäre denn sprachlich
+gesehen, wenn man hier das "alle" jeweils durch "jede" ersetzt?
+
+0:24:16.640,0:24:23.070
+Also "Jeder mag irgendjemanden." oder "Irgendjemanden mag jeder."
+Ob wir dann zu den gleichen Formeln kämen oder
+
+0:24:23.070,0:24:31.590
+ob wir das dann anders interpretieren würden.
+Auf der Folie davor war sicherlich "alle" vs. "jeder" egal.
+
+0:24:31.590,0:24:39.910
+Hier, weil die Aussagen subtiler sind, ist es tatsächlich so, dass
+wenn man hier "jede" jeweils statt "alle" schreibt, es eventuell sprachlich
+
+0:24:39.910,0:24:46.250
+verschiedene Situationen geben könnte. Die Formeln treffen
+jeweils genau eine Aussage. Das ist auch der Vorteil so einer
+
+0:24:46.250,0:24:51.710
+formalen Formel, dass es da keinen Interpretationsspielraum mehr gibt,
+wenn man sich auf die Grundmenge und die Bedeutung
+
+0:24:51.710,0:25:00.080
+der Prädikate festgelegt hat, was wir hier jetzt so
+implizit getan haben. Und noch eine Formel oder
+
+0:25:00.080,0:25:09.110
+ein Beispiel auf dieser Folie: "Kein Ehemann mag seine Schwiegereltern."
+Da können wir uns auch wieder fragen, was sind da die Signalworte?
+
+0:25:09.110,0:25:15.660
+Hier gibt es einmal "kein". Das tauchte noch nicht auf.
+Also das ist weder eine All- noch eine Existenzaussage.
+
+0:25:15.660,0:25:21.790
+Das sagt ja nicht alle Ehemänner, sondern kein Ehemann.
+Sagt auch nicht "es existiert", sondern sagt gerade "es existiert nicht".
+
+0:25:21.790,0:25:28.490
+Also "kein" ist ein Signalwort für eine negative Existenz.
+Es gibt nicht einen Ehemann, so dass folgendes gilt.
+
+0:25:28.490,0:25:35.430
+Also das würden wir wahrscheinlich ausdrücken,
+als nicht-Existenz für eine Person.
+
+0:25:35.430,0:25:43.620
+Wie drücken wir aus, dass die Person Ehemann von jemandem ist?
+Nun "von jemandem" heißt, es muss eine zweite Person geben.
+
+0:25:43.620,0:25:48.920
+Das spricht für einen weiteren Existenzquantor
+über eine weitere Variable.
+
+0:25:48.920,0:25:56.280
+Nämlich die Person, deren Ehemann unser nicht existierender Ehemann ist.
+Also es gibt keinen Ehemann, also es gibt kein x,
+
+0:25:56.280,0:26:02.120
+das Ehemann von jemandem ist.
+Also wer ist dieser jemand? Ein anderes y,
+
+0:26:02.120,0:26:07.750
+eine zweite Variable, die auch eine Person sein soll.
+Dass sie Ehemann ist, lässt nicht mehr über das "mögen" ausdrücken.
+
+0:26:07.750,0:26:14.890
+Wir brauchen also ein weiteres Prädikat.
+Wahrscheinlich auch wieder ein zweistelliges Prädikat, das
+
+0:26:14.890,0:26:20.800
+Ehemänner mit ihren Gatten oder Gattinnen in Beziehung setzt.
+Und wie können wir Schwiegereltern ausdrücken?
+
+0:26:20.800,0:26:28.350
+Nun, für die Person, deren Ehemann
+wir betrachten, müssen das die Eltern sein.
+
+0:26:28.350,0:26:35.940
+Das ist die Definition von Schwiegereltern. Also brauchen wir
+auch noch ein Prädikat über Kind- oder Elternbeziehung.
+
+0:26:35.940,0:26:43.270
+Das heißt, eine Möglichkeit, das als Formel zu fassen, wäre
+wieder mit der Interpretation "Grundmenge sind alle Personen" und
+
+0:26:43.270,0:26:49.480
+M² steht für das Mögen, indem wir sagen:
+Für keinen Ehemann gilt, ...
+
+0:26:49.480,0:26:56.460
+Es gibt x, so dass es dazu ein y gibt, so dass x Ehemann von y ist
+(das wäre diese erste Verwendung dieses Prädikates hier),
+
+0:26:56.460,0:27:05.800
+und so dass es ferner ein z gibt,
+dessen Kind das y ist,
+
+0:27:05.800,0:27:13.940
+(Also hier müsste natürlich K stehen, Entschuldigung.
+Da habe ich in den Folien einen Fehler gemacht. Hier müsste K stehen.)
+
+0:27:13.940,0:27:24.770
+Also x ist Ehemann von y, und y ist Kind von z, und x mag z.
+Und es gibt keine solche Konstellation.
+
+0:27:24.770,0:27:32.780
+Es gibt kein x, so dass es ein y dazu gibt und ein z, so dass
+x Ehemann von y ist und y Kind von z und x jenes z mag.
+
+0:27:32.780,0:27:45.220
+Das würde sagen: Kein Ehemann mag die Schwiegereltern.
+Warum die Schwiegereltern? Nun, weil wir diese Aussage treffen:
+
+0:27:45.220,0:27:53.210
+Es gibt überhaupt gar kein z, dessen Kind y ist und das
+von x gemocht wird. Das heißt, weder den Schwiegervater
+
+0:27:53.210,0:28:00.660
+noch die Schwiegermutter. Das sagt diese Umsetzung hier.
+Wenn wir zum Beispiel sagen wollten, der Ehemann
+
+0:28:00.660,0:28:08.180
+mag nicht beide seine Schwiegereltern, aber vielleicht
+einen von beiden, dann muss die Formel anders sein.
+
+0:28:08.180,0:28:09.470
+Aber das wäre die Formel-Lesart dieser Aussage.

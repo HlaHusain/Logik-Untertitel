@@ -1,0 +1,1267 @@
+0:00:01.250,0:00:07.330
+Nach diesem kurzen Einschub, dem Video zur
+Erinnerung oder zusätzlichen Erläuterung
+
+0:00:07.330,0:00:14.120
+von Implikation und Biimplikation, kehren wir noch
+einmal zu dem Beispiel zurück, das ich am
+
+0:00:14.120,0:00:20.510
+Ende der letzten Vorlesungswoche durchdiskutiert
+hatte. Das war dieses kleine Logikrätsel
+
+0:00:20.510,0:00:29.869
+hier. Wir hatten das gelöst letztlich
+auf dieser Folie durch Aufstellen der zugehörigen
+
+0:00:29.869,0:00:36.630
+Wahrheitstabelle. Also zunächst Formalisierung
+dieser Formel. Dann Aufstellen der Wahrheitstabelle
+
+0:00:36.630,0:00:44.600
+bzw. Wahrheitstafel. Dann hatten wir eine
+Zeile darin identifiziert, in der am
+
+0:00:44.600,0:00:50.050
+Ende eine 1 für die Gesamtformel herauskommt.
+Das war dann die Lösung, aus der wir ablesen
+
+0:00:50.050,0:00:56.800
+konnten, dass in dem Fall Anne lügt, Bettina
+die Wahrheit sagt und Claudia lügt. Weil wir
+
+0:00:56.800,0:01:06.390
+so A B C eingeführt hatten in dem Video davor,
+wo ich das am Whiteboard gemacht hatte.
+
+0:01:06.390,0:01:13.390
+Jetzt möchte ich dieses Rätsel oder
+diese Aufgabe ein wenig variieren. Natürlich
+
+0:01:13.390,0:01:18.720
+müsste es im Prinzip immer möglich sein,
+mit der gleichen Strategie / mit dem gleichen
+
+0:01:18.720,0:01:25.659
+Verfahren die Aufgabe zu lösen. Also betrachten
+wir ein paar Variationen.
+
+0:01:25.659,0:01:30.740
+Wir werden in beiden Fällen jeweils
+die Aussage von Bettina ändern. Zum Beispiel
+
+0:01:30.740,0:01:36.770
+könnten wir als erste Variation die aus Aussage von
+Bettina dahingehend ändern, dass Bettina nun sagt,
+
+0:01:36.770,0:01:45.579
+dass Claudia lügt, aber Anne die Wahrheit sagt.
+Im Fall davor traf Bettina gar keine Aussage
+
+0:01:45.579,0:01:50.751
+über Anne. Anne sagt: „Bettina lügt.“ Bettina sagt etwas
+über Claudia. Und ob Anne die Wahrheit sagt
+
+0:01:50.751,0:01:56.500
+oder nicht, war unabhängig von irgendwelchen
+Äußerungen von Bettina. Jetzt sagt Bettina: „Claudia lügt,
+
+0:01:56.500,0:02:05.880
+aber Anne sagt die Wahrheit.“ Man könnte jetzt natürlich
+einfach die Sätze wieder hernehmen und versuchen daraus zu folgern,
+
+0:02:05.880,0:02:13.550
+was hier los ist. Also was ist, unter
+der Annahme, dass Anne lügt zum Beispiel. Dann hieße das,
+
+0:02:13.550,0:02:18.989
+dass Bettina die Wahrheit sagt.
+Und da Bettina jetzt nicht nur sagt, dass Claudia
+
+0:02:18.989,0:02:23.190
+lügt, sondern auch, dass Anne die Wahrheit sagt, hätten
+wir einen Widerspruch zur Annahme, dass Anne
+
+0:02:23.190,0:02:27.030
+lügt. Also würden wir dann wahrscheinlich
+schlussfolgern oder versuchen ausprobieren:
+
+0:02:27.030,0:02:31.780
+Was ist denn, wenn Anne die Wahrheit sagt? Dann könnten
+wir diese Sprüche durchgehen und nach einer
+
+0:02:31.780,0:02:38.530
+Lösung suchen. Oder wir können unsere vorhandene
+Lösung anschauen und gucken, ob diese kompatibel
+
+0:02:38.530,0:02:48.240
+ist mit der neuen Konstellation. Das ist sie natürlich
+nicht. Denn hier in dieser Konstellation, die
+
+0:02:48.240,0:02:54.060
+wir als Lösung vorher hatten, hätte ja Bettina
+die Wahrheit gesagt. Bettina sagt nun aber,
+
+0:02:54.060,0:02:59.500
+dass Anne auch die Wahrheit sagt. Das widerspräche
+dieser 0 hier. Wir müssten irgendwas ändern,
+
+0:02:59.500,0:03:04.610
+wenn wir das Rätsel hier ändern. Eine Möglichkeit wäre,
+zu sagen, dann ändern
+
+0:03:04.610,0:03:09.470
+wir unsere Formel. Was müssten wir hier ändern?
+Das wäre dieser Teil. Dann müssten wir eben
+
+0:03:09.470,0:03:18.740
+statt zu sagen, das Wahrheitssagen von Bettina ist
+äquivalent dazu, dass C (Claudia) lügt.
+
+0:03:18.740,0:03:24.320
+Dann kommt hinzu: „Claudia lügt und Anne sagt
+die Wahrheit.“ Wegen
+
+0:03:24.320,0:03:32.129
+dieses Zusatzes. Wir müssten hier diese Stelle
+etwas ändern. Das rote ist hinzugekommen. Das hat natürlich
+
+0:03:32.129,0:03:37.270
+Konsequenzen auch für die Wahrheitstafeln. Denn auch diesen
+Teil müssten wir dann neu auswerten. Da steht
+
+0:03:37.270,0:03:42.319
+jetzt diese kompliziertere Formel. Für
+die ist da jetzt kein Platz. Diese ...
+
+0:03:42.319,0:03:49.440
+sollen jetzt für diese neue Teilformel mit
+dem roten zugefügten A stehen. Wenn wir dann die Fälle
+
+0:03:49.440,0:03:55.530
+durchgehen, sehen wir, dass die meisten Zeilen sich
+gar nicht ändern. An zwei Stellen wird hier was geflippt.
+
+0:03:55.530,0:04:00.230
+Hier stand vorher eine 0 und eine 1. Jetzt steht hier eine
+1 und hier eine 0. Das ist einfach eine Konsequenz durch diese zusätzlichen
+
+0:04:00.230,0:04:06.810
+Konjunktion mit A. Und natürlich ändert insbesondere
+diese zweite 0 auch das Endergebnis in dieser
+
+0:04:06.810,0:04:11.909
+Zeile. Hier oben hat sich eigentlich gar nichts geändert.
+Da war sowieso eine Konjunktion von 0 ∧ 0 ∧ 0. Und Konjunktion von
+
+0:04:11.909,0:04:18.799
+0 ∧ 1 ∧ 0 bleibt immer noch 0. Aber hier unten hat sich etwas geändert.
+Und plötzlich ist unsere alte Lösung, keine Lösung mehr.
+
+0:04:18.799,0:04:23.720
+Das sehen wir daran, dass hier keine 1 mehr steht.
+Und tatsächlich ändert sich in all den anderen Zeilen nichts
+
+0:04:23.720,0:04:30.020
+weiter. Insbesondere nicht in der Ergebnisspalte
+d. h. es gibt gar keine 1. Und unsere
+
+0:04:30.020,0:04:35.280
+Strategie vom letzten Mal, wir nehmen die Zeile,
+wo die Formel als 1 bewertet wurde
+
+0:04:35.280,0:04:41.470
+am Ende, und nehmen das als unsere Lösung, geht jetzt nicht mehr.
+Hier scheint das Rätsel widersprüchlich
+
+0:04:41.470,0:04:49.310
+zu sein. Wenn uns das Rätsel so gestellt worden
+wäre, wäre es nicht lösbar gewesen, weil
+
+0:04:49.310,0:04:56.540
+es keine konsistente Aussagen oder keine konsistente
+Kombination gibt, über das Wahrheit / nicht Wahrheit sagen
+
+0:04:56.540,0:05:03.190
+von Anne, Bettina und Claudia. Wir könnten natürlich auch noch
+andere Variation betrachten. Wir können zum Beispiel
+
+0:05:03.190,0:05:09.080
+stattdessen auch die Variation betrachten:
+Was ist denn, wenn Bettina nicht nur
+
+0:05:09.080,0:05:13.681
+sagt, dass Claudia lügt? Auch nicht sagt, dass
+Claudia lügt, aber Anne die Wahrheit sagt.
+
+0:05:13.681,0:05:20.960
+Sondern, wenn Bettina sagen würde: „Claudia
+und Anne lügen beide.“ Also Anne und Claudia lügen.
+
+0:05:20.960,0:05:26.130
+Weitere Variation. Was müssten wir wieder ändern?
+Wir könnten wieder überlegen, was heißt das denn, wenn Anne
+
+0:05:26.130,0:05:32.280
+die Wahrheit sagt. Dann sagt sie, dass Bettina
+lügt. Bettina sagt aber: „Anne und Claudia lügen
+
+0:05:32.280,0:05:37.160
+beide.“ Das wäre dann falsch. D.h. die lügen nicht
+beide. Eine von beiden könnte aber noch über lügen.
+
+0:05:37.160,0:05:42.260
+Wir müssten dann durchgehen, was das für Konsequenzen
+hat. Oder wir gucken wieder auf die Formel.
+
+0:05:42.260,0:05:49.460
+Überlegen, was das bedeutet. Das bedeutet jetzt
+natürlich, dass wir hier zu dem ¬C noch
+
+0:05:49.460,0:05:56.301
+das ¬A hinzu konjugieren müssen.
+Statt wie hier das A. Jetzt ein ¬A. Das hat wieder
+
+0:05:56.301,0:06:02.550
+andere Auswirkungen auf die Wahrheitstabelle/Wahrheitstafel.
+Wir könnten jetzt durchgehen, wo ändert sich
+
+0:06:02.550,0:06:09.610
+da alles was? Das mach ich jetzt nicht im Detail. Wir würden feststellen,
+dass sich genau an diesen beiden Stellen
+
+0:06:09.610,0:06:14.240
+für diese Teilformel etwas ändert.
+Und das wiederum hat an einer Stelle eine
+
+0:06:14.240,0:06:18.539
+Konsequenz auch im Ergebnis. Nämlich hier wo
+vorher eine 0 stand, steht jetzt eine 1.
+
+0:06:18.539,0:06:24.350
+Die ursprüngliche 1 in dieser Zeile
+ist unberührt davon, weil sie durch diese
+
+0:06:24.350,0:06:30.530
+Aussage gar nicht berührt wird. Wie sich herausstellen
+würde, wenn man das einfach ausprobiert. Im Wesentlichen, weil
+
+0:06:30.530,0:06:39.840
+in der Lösung / in diesem Lösungsfall sowieso
+auch Anne log. Das passte also hierzu. Was heißt das jetzt
+
+0:06:39.840,0:06:44.310
+für unser Rätsel? Das wäre lösbar. Allerdings
+nicht eindeutig lösbar. Wir hätten, wenn das Rätsel
+
+0:06:44.310,0:06:49.690
+so gestellt worden wäre, sagen
+müssen als Antwort: Entweder sagt Bettina
+
+0:06:49.690,0:06:57.819
+die Wahrheit und Anne und Claudia lügen.
+Oder Anne sagt die Wahrheit und Bettina und Claudia lügen.
+
+0:06:57.819,0:07:07.160
+Das sind genau die beiden Konstellationen, in denen diese Sätze
+wahr sein können. Natürlich gibt es noch weitere Fälle.
+
+0:07:07.160,0:07:16.650
+Wir hatten den Fall alles 0. Wir hatten den Fall genau eine Lösung.
+Eine 1. Jetzt haben wir den Fall zwei Einsen. Also
+
+0:07:16.650,0:07:20.889
+lösbar, aber nicht eindeutig lösbar. Denkbar
+wäre zum Beispiel auch noch, dass es viel mehr Einsen
+
+0:07:20.889,0:07:26.400
+gibt. Das zum Beispiel alles 1 ist, so wie eben
+alles 0 war. Das scheint irgendwie Eigenschaften
+
+0:07:26.400,0:07:30.560
+dieser Formel zu sein. Natürlich habe ich
+das jetzt interpretiert, anhand dieses Rätsels/
+
+0:07:30.560,0:07:35.729
+an dieser Konstellation mit den drei Personen und
+ihren Aussagen über Wahrheit und lügen.
+
+0:07:35.729,0:07:42.039
+Aber im Grunde genommen ist es natürlich
+einfach eine Eigenschaft jeweils dieser
+
+0:07:42.039,0:07:48.290
+Formel hier. Das ist relevant. Das wird uns jetzt beschäftigen
+im allgemeinen Fall. Was sind das so für Formeln?
+
+0:07:48.290,0:07:53.479
+Oder was sagt das über eine Formel aus,
+wenn hier zum Beispiel nur Nullen herauskommen? Nur Einsen?
+
+0:07:53.479,0:07:59.950
+Oder ein Mischmasch davon? Gleichzeitig was
+macht diese speziellen Zeilen besonders? Wir werden
+
+0:07:59.950,0:08:04.180
+die gleich Modell nennen. Hatte ich letzte
+Woche glaube ich auch schon mal erwähnt.
+
+0:08:04.180,0:08:12.419
+Dass wir eine Lösung suchen/ ein Modell für
+etwas, was wir vorher als Formel ausgedrückt haben.
+
+0:08:12.419,0:08:17.889
+Schauen wir uns solche Eigenschaften an. Abstrakter
+und losgelöst von diesem Beispiel.
+
+0:08:17.889,0:08:23.500
+Weil es letztlich wirklich Aussagen über Formeln
+sind. Eigenschaften von Formeln und nicht von
+
+0:08:23.500,0:08:29.330
+dem Textzusammenhang, in dem die Formeln entstanden
+sind. Was brauchen wir dafür? Zunächst
+
+0:08:29.330,0:08:36.769
+müssen wir uns nochmal den Begriff der Belegung
+in Erinnerung rufen. Wir hatten immer aufgesetzt
+
+0:08:36.769,0:08:42.190
+auf einer Menge von atomaren Formeln, die in
+unserer Zielformel vorkommen dürfen. A, B, C, A1, A2, A3 oder so.
+
+0:08:42.190,0:08:48.930
+Und hatten dann jeweils diesen
+einzelnen, atomaren Formeln einen Wahrheitswert (0 oder 1)
+
+0:08:48.930,0:08:55.910
+zugewiesen. So eine Belegung
+ist passend für eine Formel, wenn alle atomaren
+
+0:08:55.910,0:09:00.959
+Formeln, die in der Formel vorkommenden (also
+alle atomaren Teile) durch das α auch belegt sind.
+
+0:09:00.959,0:09:07.750
+Also es wäre zum Beispiel ungünstig diese Formel
+auswerten zu wollen, aber nur für A und B
+
+0:09:07.750,0:09:13.279
+einen Wert vorzugeben. Dass α tatsächlich
+für A, B und C jeweils einen Wert vorgibt.
+
+0:09:13.279,0:09:20.070
+So wie in jeder Zeile hier genau für alle
+drei vorkommenden Elementaraussagen ein Wahrheitswert
+
+0:09:20.070,0:09:25.580
+angegeben wird. Das heißt, dass diese αs, die hier
+sind, die wirklich alle drei, atomaren Formeln belegen,
+
+0:09:25.580,0:09:30.730
+passend für die Formel sind. Wenn wir hier die C-Spalte
+löschen würden, könnten wir gar nichts ausrechnen, weil wir nicht genug
+
+0:09:30.730,0:09:36.610
+Information hätten. Das ist dieser Begriff des Passend-Seins.
+Eine Belegung (so ein α) ist passend
+
+0:09:36.610,0:09:41.660
+zur Formel, wenn sie genügend Aussagen trifft.
+Also alle atomaren Teilformeln / alle in F vorkommenden
+
+0:09:41.660,0:09:48.041
+Elementaraussagen belegt. Das ist eine formale Voraussetzung,
+um die weiteren Begriffe überhaupt sinnvoll
+
+0:09:48.041,0:09:56.700
+angeben zu können. Die Idee von passenden Belegungen ist:
+Genug Informationen, um die Zeilen der
+
+0:09:56.700,0:10:05.029
+Wahrheitstafel zu füllen. Angenommen wir haben so ein α,
+das passend zu einer gegebenen Formel ist. Dann
+
+0:10:05.029,0:10:12.000
+betrachten wir zunächst mal den Fall, dass wenn
+ich die Formel nehme und unter diesem α auswerte,
+
+0:10:12.000,0:10:18.290
+eine 1 herauskommt. Das wäre so etwas wie zum
+Beispiel: Diese Belegung für diese Formel
+
+0:10:18.290,0:10:26.970
+liefert 1 beim auswerten. Dann sagt man: α ist
+ein Modell für F. Man kann das auch symbolisch schreiben:
+
+0:10:26.970,0:10:34.290
+Als α und dann das Modell Zeichen. D.h. „α models F“.
+α ist ein Modell für F.
+
+0:10:34.290,0:10:39.880
+Diese konkrete Belegung lässt F zu 1
+auswerten. Das heißt hier zum Beispiel gab es zwei
+
+0:10:39.880,0:10:47.850
+Modelle. Diese Belegung war ein Modell. Und diese
+Belegung auch. Als α(A) = 1, α(B) = 0, α(C) = 0.
+
+0:10:47.850,0:10:55.790
+Das ist eine Kritik, die wir brauchen für
+eine konkrete Belegung. Dann gibt es die allgemeinere
+
+0:10:55.790,0:10:59.740
+Frage, ob es überhaupt irgendeine erfüllende
+Belegung gibt / irgend ein Modell gibt. Hier
+
+0:10:59.740,0:11:06.490
+fragen wir uns: Ist ein konkretes α das Modell
+für die Formel? Ja oder Nein? Durch Auswerten.
+
+0:11:06.490,0:11:10.500
+Wenn wir die Formel haben und uns Fragen gibt es überhaupt
+ein Modell (mindestens eins), dann ist das die Frage
+
+0:11:10.500,0:11:16.370
+nach Erfüllbarkeit der Formel. Auf die Wahrheitstafel
+übertragen: Gibt es mindestens eine Zeile, wo am Ende
+
+0:11:16.370,0:11:21.620
+eine 1 herauskommt?
+In dem Sinne wäre diese Formel erfüllbar,
+
+0:11:21.620,0:11:29.290
+weil es sogar zwei Zeilen gibt. Aber auch diese
+Formel ist erfüllbar, weil es zumindest eine
+
+0:11:29.290,0:11:37.779
+Zeile gibt, wo 1 herauskommt. Hingegen diese Formel
+ist nicht erfüllbar, weil es keine Belegung gibt, bei der 1 herauskommt.
+
+0:11:37.779,0:11:55.019
+Die ist also unerfüllbar. Das ist die Frage nach Erfüllbarkeit oder
+Unerfüllbarkeit einer Formel. Dann kann
+
+0:11:55.019,0:12:00.440
+eine Formel gültig sein. Da sagt man auch, das ist
+eine Tautologie. Oder die Formel ist tautologisch.
+
+0:12:00.440,0:12:05.690
+Oder die Formel ist allgemeingültig. Das sind
+verschiedene Begriffe, für die gleiche Idee.
+
+0:12:05.690,0:12:13.730
+Nämlich für die Idee, dass jede Belegung die Formel zu
+1 auswertet. Während hier oben die Frage ist:
+
+0:12:13.730,0:12:19.240
+Ist ein konkretes α das Modell für die
+Formel? Ja oder Nein? Durch Auswertung. War hier die
+
+0:12:19.240,0:12:25.630
+Frage: Wenn für alle zu F passenden Belegungen
+1 herauskommt, dann ist die Formel allgemeingültig.
+
+0:12:25.630,0:12:29.920
+Das hieße: In der Wahrheitstafel müssen in allen
+Zeilen 1 herauskommen. Und nicht nur: Es muss
+
+0:12:29.920,0:12:37.829
+eine Zeile geben, in der 1 herauskommt. Natürlich ist
+Unerfüllbarkeit das Gegenteil.
+
+0:12:37.829,0:12:43.860
+In dem Sinne, dass es bedeuten würde, für alle Belegungen
+muss 0 herauskommen. Gültigkeit heißt: In
+
+0:12:43.860,0:12:48.950
+allen Zeilen kommt 1 heraus. Unerfüllbarkeit heißt:
+In allen Zeilen kommt 0 heraus. Erfüllbarkeit
+
+0:12:48.950,0:12:53.970
+heißt: es gibt mindestens eine Zeile, in der 1 herauskommt.
+Im Grunde genommen entspricht jede Zeile
+
+0:12:53.970,0:13:02.730
+einer solchen Belegung. Das ist die Ebene,
+auf der die Frage nach diesen Belegungen gestellt wird.
+
+0:13:02.730,0:13:06.880
+Tautologie heißt: Jede passende Belegung
+ist ein Modell. Wir haben schon diverse
+
+0:13:06.880,0:13:12.139
+Fälle gesehen. Die hatte ich ja schon durchgesprochen. Eine Tautologie
+haben wir gerade noch nicht gesehen. Aber Erfüllbarkeit,
+
+0:13:12.139,0:13:20.360
+Unerfüllbarkeit haben wir jeweils gesehen auf den vorherigen Folien.
+Ein Begriff, der uns später
+
+0:13:20.360,0:13:26.080
+noch beschäftigen wird (nicht unmittelbar
+auf den gleich folgenden Folien) ist, dass wir
+
+0:13:26.080,0:13:32.959
+zwei Formeln haben. Dazu passenden Belegungen.
+Und für alle passenden Belegungen der gleiche
+
+0:13:32.959,0:13:38.480
+Wert herauskommt. Also nicht unbedingt überall
+1 oder überall 0. Aber für jede passende
+
+0:13:38.480,0:13:45.850
+Belegung, kommt für F und G das gleiche Ergebnis raus.
+Das heißt dann, dass die beiden Formeln äquivalent sind.
+
+0:13:45.850,0:13:53.440
+Das werden wir brauchen, wenn wir Formeln umformen.
+Aber nicht sofort. In den folgenden Folien wird es
+
+0:13:53.440,0:14:04.430
+erst mal vor allem um diese Begriffe gehen. Also erst
+mal ein Beispiel. Eine ganz konkrete Formel.
+
+0:14:04.430,0:14:13.199
+Gebaut aus den atomaren Formeln A1, A2, A3.
+Und zusammengesetzt mit Negation, Disjunktion,
+
+0:14:13.199,0:14:19.500
+Konjunktionen, Klammerung. Eine gültige Formel
+ist das. Und jetzt können wir uns fragen, was wären denn passende
+
+0:14:19.500,0:14:23.660
+Belegungen dafür. Passende Belegung heißt noch
+nicht, sie müssen die Formel wahr machen. Sondern
+
+0:14:23.660,0:14:29.010
+"passend" nur im formalen Sinne, dass überhaupt
+für alle atomaren Aussagen, die vorkommen, eine
+
+0:14:29.010,0:14:35.920
+Zuweisung gegeben ist. Also eine Information über
+0 oder 1. Also eine passende Belegung wäre diese hier:
+
+0:14:35.920,0:14:41.769
+Ein α, welches aus A1 auf 1 abbildet, A2 auf 1 und A3 auf 0.
+Das wäre eine passende Belegung.
+
+0:14:41.769,0:14:46.850
+Das sagt noch nichts darüber auf, ob mit dieser Belegung
+die Formel wahr wird. Sondern nur, dass wir
+
+0:14:46.850,0:14:54.160
+für jeden Teil in der Formel sagen können, was der Wahrheitswert ist.
+Entsprechend wäre zum Beispiel eine
+
+0:14:54.160,0:15:00.089
+nicht passende Belegung: ein α, was das
+A1 vergisst. Hier werden zwar auch drei Wahrheitswerte
+
+0:15:00.089,0:15:05.940
+zugeordnet. Für drei atomare Aussagen. Unnötigerweise
+für A4, das gar nicht in der Formel vorkommt.
+
+0:15:05.940,0:15:10.430
+Das wäre per se nicht falsch. Man dürfte hier oben
+auch A4 noch auf irgendwas abbilden. Dann wäre das immer
+
+0:15:10.430,0:15:15.100
+noch eine passende Belegung. Aber wenn wir
+für A4 dann stattdessen A1 vergessen, dann ist es
+
+0:15:15.100,0:15:20.290
+eben keine passende Belegung mehr, weil wir
+dann nicht für alle in der Formel vorkommenden
+
+0:15:20.290,0:15:27.810
+atomaren Aussagen eine Zuordnung haben. Wir könnten
+diese Formel gar nicht auswerten mit dieser
+
+0:15:27.810,0:15:33.280
+Information, weil uns etwas über A1 fehlt. Das ist der
+Begriff der Passung. Der sagt noch nichts über Wahrheit
+
+0:15:33.280,0:15:40.290
+oder Nichtwahrheit aus. Nur über "haben wir
+genug Informationen". Die Frage nach "Was
+
+0:15:40.290,0:15:45.480
+kommt denn heraus?" 0 oder 1? stellt sich erst,
+wenn wir nach Modellen fragen. Was wäre ein
+
+0:15:45.480,0:15:50.230
+Modell für F? Ein Modell muss mindestens eine
+passende Belegung sein. Also könnten wir uns schon
+
+0:15:50.230,0:15:54.860
+mal von den beiden Belegung hier oben uns
+auf die erste reduzieren. Und dann fragen, ist das denn
+
+0:15:54.860,0:16:02.160
+ein Modell? Dafür müssten wir diese Formel ausrechnen. Mit diesen
+Zuordnungen. Und da käme heraus ¬A1 wird zu 0.
+
+0:16:02.160,0:16:09.130
+Wegen der 1 für A1. Hier wäre (0 ∨ (A2 ∧ A3)).
+Da die beide nicht wahr sind, sondern A3
+
+0:16:09.130,0:16:16.050
+falsch ist, wäre diese passende
+Belegung α kein Modell für F. Das heißt natürlich nicht, dass es keine
+
+0:16:16.050,0:16:22.850
+Modelle gibt. Nur, dass dieses eine konkrete
+α von hier oben eben kein Modells ist. Was
+
+0:16:22.850,0:16:29.320
+wäre ein Modell? Diese Belegung zum Beispiel.
+Obwohl hier in der Belegung alles falsch ist sozusagen,
+
+0:16:29.320,0:16:35.509
+erhalten wir beim Einsetzen in
+die Formel und entsprechendem ausrechnen das
+
+0:16:35.509,0:16:43.529
+Endergebnis 1. Im wesentlichen, weil ¬A1 dann 1 ist. Und
+(1 ∨ irgendwas) ist immer 1.
+
+0:16:43.529,0:16:49.690
+Mit diesem α erhalten wir Ergebnis 1 beim Auswerten.
+Deswegen ist dieses α ein Modell für diese
+
+0:16:49.690,0:16:53.540
+Formel. Oder wenn wir die Wahrheitstafel
+aufgestellt hätten, dann würde in der Zeile
+
+0:16:53.540,0:17:03.550
+wo wir 0 0 0 haben, eben für diese Formel 1 herauskommen.
+Das ist die Frage nach einem konkreten
+
+0:17:03.550,0:17:08.949
+Modell. Dann gibt es diesen allgemeineren Status von Formeln.
+Also Erfüllbarkeit, Unerfüllbarkeit, Tautologie
+
+0:17:08.949,0:17:16.160
+etc. Wie stellt sich das hier dar für dieses konkrete
+F? Im Grunde genommen wissen wir das durch
+
+0:17:16.160,0:17:23.669
+diese und diese Erkenntnis, was
+der Status ist. Wir wissen: Die Formel ist erfüllbar.
+
+0:17:23.669,0:17:28.720
+Denn hier steht ja ein erfüllendes Modell. Wir wissen natürlich
+auch: Dann ist sie nicht unerfüllbar.
+
+0:17:28.720,0:17:34.799
+Erfüllbarkeit und Unerfüllbarkeit sind genau
+entgegengesetzte Begriffe. Also, weil die Formel
+
+0:17:34.799,0:17:42.350
+erfüllbar ist, ist sie natürlich nicht unerfüllbar.
+Was ist mit Tautologie? Tautologie kann die Formel
+
+0:17:42.350,0:17:47.270
+nicht sein. Sie ist nicht allgemeingültig. Warum
+nicht? Weil sie dann für jede passende Belegung
+
+0:17:47.270,0:17:52.970
+1 liefern müsste. Das ist zwar der Fall
+für diese passende Belegung. Aber nicht für diese passende
+
+0:17:52.970,0:18:00.520
+Belegung. Wie ich vor ein paar Minuten argumentiert
+hatte oder durchgesprochen hatte. Also die Formel ist
+
+0:18:00.520,0:18:06.030
+erfüllbar. Nicht unerfüllbar. Keine Tautologie.
+Nicht gültig. Nicht allgemeingültig. Das hier unten
+
+0:18:06.030,0:18:16.669
+sind jeweils einfach verschiedene Arten das
+Gleiche zu sagen. Jetzt haben wir also Beispiele
+
+0:18:16.669,0:18:23.280
+gesehen für erfüllbare Formeln. Auch für
+nicht erfüllbare Formeln auf der
+
+0:18:23.280,0:18:30.919
+vorletzten Folie, wo ich das A,B,C Rätsel mit Anne, Bettina
+und Claudia durchgesprochen hatte.
+
+0:18:30.919,0:18:35.400
+In dem einen Fall kam heraus alle Zeilen
+sind 0. Also es war eine unerfüllbare Formel. Was wir
+
+0:18:35.400,0:18:40.350
+noch nicht gesehen haben sind Tautologien.
+Wir haben allerdings
+
+0:18:40.350,0:18:44.830
+tatsächlich in der Vorlesung schon (mehrere) Tautologien
+gesehen. Tautologien sind
+
+0:18:44.830,0:18:52.210
+allgemeingültige Aussagen. Was haben wir zum Beispiel
+gesehen? Unsere Strategien, die ich erwähnt
+
+0:18:52.210,0:18:57.000
+hatte bei der Lösung des Einsteingerätes,
+die wir einerseits tatsächlich durchgeführt
+
+0:18:57.000,0:19:02.630
+hatten beim Lösen von Hand, aber die ich im Nachgang
+auch auf einer Folie festgehalten hatte. Solche gültigen
+
+0:19:02.630,0:19:06.990
+Strategien/ allgemeine Strategien sollten Tautologien
+sein. Wir sollten nicht irgendwelche allgemeinen
+
+0:19:06.990,0:19:12.620
+Rezepte für Formel anwenden, die gar nicht
+wahr sind. Im Sinne, dass sie immer wahr sind. Unabhängig
+
+0:19:12.620,0:19:19.170
+vom Inhalt der Aussage. Was mein ich damit? Wir hatten
+zum Beispiel Exploration von Alternativen.
+
+0:19:19.170,0:19:24.520
+Auch genannt "das Prinzip des ausgeschlossenen
+Dritten." Etwas ist wahr oder sein Gegenteil
+
+0:19:24.520,0:19:28.460
+ist wahr. Eine dritte Möglichkeit gibt es nicht. Die
+hatte ich an der Stelle schon gefasst als, dass
+
+0:19:28.460,0:19:35.570
+könnte man auffassen (wenn man die ganzen Symbole kennt) als:
+(A ∨ ¬A). (A ∨ ¬A) ist eine
+
+0:19:35.570,0:19:42.260
+Tautologie. Da können wir uns leicht überzeugen. Da gibt
+es nur eine atomare Aussage. Also gibt es nur zwei Zeilen 0 1.
+
+0:19:42.260,0:19:49.669
+Das negierte davon ist 1 0. Wenn ich
+die Disjunktion in jeder Zeile bilde, kommt
+
+0:19:49.669,0:19:56.730
+hier und auch hier jeweils 1 heraus. Das heißt wir
+haben eine Formel, sodass in der Ergebnisspalte
+
+0:19:56.730,0:20:01.870
+nur Einsen stehen. Damit ist das eine Tautologie.
+Das ist immer wahr. Und zwar egal was A ist. Das
+
+0:20:01.870,0:20:07.970
+macht eine Tautologie interessant, dass sie unabhängig
+vom konkreten Wahrheitsgehalt der einzelnen,
+
+0:20:07.970,0:20:14.760
+atomaren Aussagen/ insgesamt immer wahr ist.
+Das erlaubt es uns, das dann sehr allgemein zu verwenden.
+
+0:20:14.760,0:20:20.730
+Was tauchte auf der entsprechenden Folie
+an der Stelle noch auf? Wir hatten noch die
+
+0:20:20.730,0:20:27.940
+direkten Schlussfolgerungen. Also so was: „Wenn
+mein Haus grün ist. Und im grünen Haus wird
+
+0:20:27.940,0:20:35.200
+Kaffee getrunken. Dann trinke ich Kaffee.“ Das hatte ich
+formelhaft gefasst als: „Wenn A stimmt und aus
+
+0:20:35.200,0:20:42.190
+A B folgt, dann wissen wir B.“ Auch hier könnten
+wir die Wahrheitstafel aufstellen.
+
+0:20:42.190,0:20:47.950
+Das spreche ich jetzt nicht durch. Wir wissen, dass wir
+diese vier Fälle haben. Hier das ist jeweils hoffentlich
+
+0:20:47.950,0:20:53.760
+korrekt gebildet. Und wir stellen am Ende fest,
+jedes Ergebnis ist 1. Das ist also eine Tautologie.
+
+0:20:53.760,0:21:02.440
+Eine sehr alte, bekannte Tautologie. Der Modus Ponens, den die alten
+Philosophen schon als wichtiges Schlussmittel
+
+0:21:02.440,0:21:09.960
+erkannt und genutzt haben. Was hatte ich noch? Das Prinzip des ausgeschlossen
+Widerspruchs. Das hatte ich gefasst als: Es kann nicht
+
+0:21:09.960,0:21:18.240
+sein, dass sowohl eine Aussage, als auch ihr
+Gegenteil gilt. In der Wahrheitstafel für diese
+
+0:21:18.240,0:21:26.760
+Formel kommt immer 1 heraus. Egal was B ist.
+Dann hatten wir das allgemeine Ausschlussverfahren.
+
+0:21:26.760,0:21:34.790
+Das war die Idee: Wenn ich zwei Alternativen habe
+C oder D, die nicht unbedingt direkte Gegensätze
+
+0:21:34.790,0:21:41.270
+voneinander sind, sondern ich weiß nur "das Haus ist gelb
+oder rot". Und ich Stelle dann auch noch fest, es ist aber
+
+0:21:41.270,0:21:47.930
+nicht gelb. Dann muss es rot sein. Das war diese Aussage:
+((C ∨ D) ∧ ¬C) => D.
+
+0:21:47.930,0:21:58.380
+Alle Kombinationen aufgestellt. Wahrheitstafel
+gebildet. Und es kommt überall
+
+0:21:58.380,0:22:05.850
+1 heraus. Das ist eine Tautologie. Eine weitere
+Tautologie, die ich auf der damaligen Folie
+
+0:22:05.850,0:22:13.640
+nicht direkt angegeben hatte, die ich aber dann
+im Rätsel der Zweistein-Logelei
+
+0:22:13.640,0:22:18.920
+benutzt habe, war dass transitive
+Schließen. Das hatte ich da nicht extra hingeschrieben.
+
+0:22:18.920,0:22:23.240
+Aber die Idee war: Wenn aus irgendetwas etwas
+anderes folgt, aus diesem Anderen eine dritte
+
+0:22:23.240,0:22:30.400
+Sache folgt, dann folgt auch aus der ersten Sache direkt die Dritte.
+Transitives Schließen:
+
+0:22:30.400,0:22:36.830
+(((A => B) ∧ (B => C)) => (A => C)). Das kann man sich überlegen,
+dass das eine sinnvolle Schlussweise ist. Man
+
+0:22:36.830,0:22:42.780
+kann es nachprüfen, ob es eine Tautologie ist. Jetzt wird
+die Tabelle größer, weil wir drei Elementaraussagen
+
+0:22:42.780,0:22:50.180
+zu belegen haben. Deswegen gibt es hier acht Möglichkeiten. Aber
+für alle diese kommt am Ende heraus, dass die
+
+0:22:50.180,0:22:58.100
+Formel für jede Belegung gilt. Und deswegen
+auch allgemein gilt. Also eine Tautologie ist.
+
+0:22:58.100,0:23:04.130
+Wieder ganz wichtig hier: Das ist unabhängig. Das ist ein
+Prinzip, das unabhängig ist von den konkreten
+
+0:23:04.130,0:23:09.170
+Belegungen von A, B, C, weil immer 1 rauskommt.
+Egal was die konkrete Belegung ist. In dem Sinne
+
+0:23:09.170,0:23:17.780
+ist das allgemeingültig. Wie verhalten sich jetzt
+diese verschiedenen Möglichkeiten zueinander? Eine
+
+0:23:17.780,0:23:25.690
+Formel kann jetzt offenbar
+mehrere Eigenschaften haben. Sie kann erfüllbar oder
+
+0:23:25.690,0:23:31.220
+unerfüllbar sein. Natürlich nicht beides gleichzeitig.
+Eine Formel ist entweder erfüllbar oder unerfüllbar.
+
+0:23:31.220,0:23:38.440
+Die Formeln verfallen sozusagen in diese zwei Mengen.
+Ein Beispiel für eine unerfüllbare Formel wäre (A ∧ ¬A)
+
+0:23:38.440,0:23:45.940
+Wir hatten vorhin auch schon andere gesehen.
+Die erfüllbaren Formeln können tautologisch
+
+0:23:45.940,0:23:51.090
+oder nicht tautologisch sein. Eine unerfüllbare
+Formel kann keine Tautologie sein. Eine unerfüllbare
+
+0:23:51.090,0:23:57.360
+Formel kann Tautologie sein oder auch nicht.
+Das zerfällt in diese beiden Möglichkeiten.
+
+0:23:57.360,0:24:02.270
+Ein Beispiel für eine erfüllbare aber nicht
+tautologische Formel wäre einfach nur A. A ist
+
+0:24:02.270,0:24:06.720
+erfüllbar. Wenn wir uns eine Belegung raussuchen
+dürfen, könnten wir die nehmen, welche A auf 1 setzt.
+
+0:24:06.720,0:24:14.500
+Dann ist die Formel insgesamt auch 1. Sie ist aber
+nicht tautologisch, weil nicht jede Belegung
+
+0:24:14.500,0:24:20.529
+zu 1 führt. Die Belegung A auf 0 zu setzten führt nämlich
+gerade nicht zu 1. Dann gibt es Formeln, die sind tautologisch. Die sind
+
+0:24:20.529,0:24:24.929
+automatisch auch erfüllbar. Wenn eine Formel
+immer wahr ist, dann gibt es ja auch einen Fall,
+
+0:24:24.929,0:24:30.549
+wo sie wahr ist. Wenn es mindestens eine atomare
+Aussage gibt, dann gibt es eben eine Belegung
+
+0:24:30.549,0:24:37.669
+dafür, die die Formel wahr macht, weil alle Belegungen
+das tun. Beispiele hatten wir gerade schon gesehen:
+
+0:24:37.669,0:24:44.450
+(A ∨ ¬A). Was genau dem Prinzip des
+ausgeschlossen Dritten entspricht. Das war unsere erste
+
+0:24:44.450,0:24:49.080
+Tautologie. Wir haben auch schon diverse
+weitere gesehen. Jede von denen ist natürlich
+
+0:24:49.080,0:25:00.820
+eine erfüllbare Formel. Eine typische
+Übungsaufgabe wird sein, von Formeln den Status
+
+0:25:00.820,0:25:09.290
+zu ermitteln. Hier sind mal so ein paar Beispiele. Einige davon
+haben wir gerade schon gesehen. Hierfür wüssten
+
+0:25:09.290,0:25:15.280
+wir schon, wo das Häkchen machen müssen. Nämlich
+bei gültig. Deswegen auch bei erfüllbar. Aber
+
+0:25:15.280,0:25:20.370
+nicht bei unerfüllbar. Hier sind einige weitere
+Beispiele. Ich würde die jetzt nicht hier durchsprechen.
+
+0:25:20.370,0:25:26.049
+Sie können die mal durchdenken. Wie gesagt
+auch in den Übungen werden ähnliche oder vielleicht
+
+0:25:26.049,0:25:34.340
+Teile davon auftreten. Interessant sind sicherlich
+vor allem die Aussagen, die mehrere Operationen oder
+
+0:25:34.340,0:25:42.830
+mehrere atomare Aussagen verknüpfen.
+Während diese einfachen Fälle eben einfach
+
+0:25:42.830,0:25:50.610
+sind. Aber letztlich muss es für jede dieser Formeln
+möglich sein, diese Fragen zu beantworten Das sind
+
+0:25:50.610,0:25:55.610
+also Aussagen über einzelne Formeln. Die einfach
+einzuordnen. Das sollten Sie beherrschen und
+
+0:25:55.610,0:26:03.029
+entsprechend vorher üben. Natürlich werden
+Ihnen dann Dinge / bestimmte Beziehungen auffallen,
+
+0:26:03.029,0:26:10.080
+die man auch nochmal allgemeiner Fragen kann.
+Ein offensichtlicher Zusammenhang war,
+
+0:26:10.080,0:26:14.740
+wenn wir hier ein Häkchen in der
+ersten Spalte machen in einer Zeile, können
+
+0:26:14.740,0:26:20.750
+wir auch direkt das Häkchen in der zweiten Spalte
+machen. Und das in der Dritten bleibt mit Sicherheit frei.
+
+0:26:20.750,0:26:26.909
+Weil jede gültige Formel auch erfüllbar ist.
+Solche Zusammenhänge kann man auch nochmal
+
+0:26:26.909,0:26:31.240
+allgemeiner fragen. Das ist dann interessant
+für das Verständnis. Auch für die relative
+
+0:26:31.240,0:26:37.429
+Kraft dieser verschiedenen Eigenschaften was
+der Status sein. Das würde ich jetzt auch
+
+0:26:37.429,0:26:45.740
+gern hier anreisen. Allerdings auch ohne jetzt
+jeden Fall zu diskutieren.
+
+0:26:45.740,0:26:50.150
+Sie sollten auch hier einfach mal das Video anhalten.
+und über die Fälle nachdenken. Oder sich das
+
+0:26:50.150,0:26:56.400
+im Nachgang jeweils überlegen, ob diese
+Aussage, wie sie hier steht, stimmt. Ja oder
+
+0:26:56.400,0:27:00.980
+Nein? Und wenn nicht, vielleicht ein Gegenbeispiel /
+eine konkrete Formel finden, für die diese
+
+0:27:00.980,0:27:09.230
+Aussage hier nicht gilt. Und damit dann diese
+Begriffe verfestigen. Interessant ist
+
+0:27:09.230,0:27:14.429
+hier, dass das jetzt Aussagen über beliebige Formeln
+sind. Während auf der Folie davor, für konkrete
+
+0:27:14.429,0:27:22.690
+Formeln gefragt wurde, sind die denn gültig, erfüllbar, etc.
+Es sind im gewissen Sinne metalogische Aussagen.
+
+0:27:22.690,0:27:27.900
+Also eine Wenn-dann-Aussage über eine Formel.
+Und diese Formel selbst kann natürlich auch eine
+
+0:27:27.900,0:27:33.650
+Wenn-dann-Aussage sein. Also schauen wir mal.
+Das hatten wir gerade schon gehabt. Wenn eine Formel gültig ist,
+
+0:27:33.650,0:27:40.220
+dann ist natürlich auch erfüllbar. Hier würde man
+das Kreuz sicherlich setzen. Wenn eine Formel gültig ist,
+
+0:27:40.220,0:27:48.820
+dann ist die Negation dieser Formel unerfüllbar.
+Das sollte auch stimmen. Aber
+
+0:27:48.820,0:27:54.380
+zum Beispiel wenn eine Formel erfüllbar ist,
+dann muss es nicht unbedingt sein, dass die
+
+0:27:54.380,0:28:01.200
+negierte Formel unerfüllbar ist. Da können sie überlegen,
+warum wir hier kein Kreuz setzen sollten. Bzw. zunächst
+
+0:28:01.200,0:28:06.659
+kein Ja-Kreuz setzen sollten, sondern stattdessen
+ein Gegenbeispiel angeben könnten. Eine konkrete
+
+0:28:06.659,0:28:12.500
+Formel. Ich rate Ihnen, füllen Sie die Tabelle
+mal im Kopf oder tatsächlich auf Papier aus.
+
+0:28:12.500,0:28:19.290
+Wenn ihnen zu einer Zeile gar nichts einfällt, wäre das
+vielleicht ein guter Ansatzpunkt für
+
+0:28:19.290,0:28:32.590
+das Tutorium.
+Letztlich auch ein Zugang zu diesen
+
+0:28:32.590,0:28:38.960
+Fragen wäre, dass man sich die Begriffe Gültigkeit,
+Erfüllbarkeit, Unerfüllbarkeit schematisch
+
+0:28:38.960,0:28:45.120
+nochmal vorgefertigt. Hier sind die Verbindungen durch
+verbale Aussagen hergestellt.
+
+0:28:45.120,0:28:53.740
+Man kann sich das auch in so einer schematischen
+Sicht verdeutlichen. Es gibt so ein gewisses
+
+0:28:53.740,0:29:02.190
+Spektrum letztlich von Formeln, die allgemeingültig
+sind. Also immer wahr sind. Zu Formeln die unerfüllbar
+
+0:29:02.190,0:29:08.560
+sind. Also nie wahr sind. Und dazwischen gibt
+es Formeln, die zwar erfüllbar sind. Also Modelle
+
+0:29:08.560,0:29:16.950
+haben, aber nicht für jede Belegung wahr sind.
+Das heißt, wir haben so ein Spektrum von (wenn wir jetzt mal an die
+
+0:29:16.950,0:29:26.150
+Wahrheitstafeln denken) nur Nullen in den
+Zeilen. Viele Nullen, aber auch ein paar Einsen.
+
+0:29:26.150,0:29:33.610
+Sehr viele Einsen den Zeilen, aber nicht nur
+Einsen. Und nur Einsen in Zeilen. Wenn sie sich das Spektrum
+
+0:29:33.610,0:29:39.679
+vorstellen, könnten Sie jede Formel irgendwo
+einordnen. Dann gibt es hier so eine Spiegelungsachse,
+
+0:29:39.679,0:29:46.970
+weil man natürlich durch Negation einer Formel
+sozusagen diese Position im Spektrum umdreht.
+
+0:29:46.970,0:29:55.860
+Also wenn ich eine Formeln mit vielen Einsen
+habe und ich negiere sie, dann mache ich ja in
+
+0:29:55.860,0:30:00.520
+der Wahrheitstafel sozusagen aus den Einsen
+Nullen und aus den Nullen Einsen in der Ergebnisspalte.
+
+0:30:00.520,0:30:05.960
+Also eine Formel mit vielen Einsen wird dann
+durch Negation zu einer mit wenigen Einsen.
+
+0:30:05.960,0:30:13.539
+Oder eine Formel mit nur Nullen wird durch Negation
+zu einer Formel mit nur Einsen. Dann kann man sich auch anhand
+
+0:30:13.539,0:30:24.559
+Spektrums diesen Fragen nähren. Nehmen wir einfach mal
+irgend eine Zeile heraus. Wenn F nicht gültig ist,
+
+0:30:24.559,0:30:34.560
+dann ist F unerfüllbar. Das sehen wir hier. "Wenn
+F nicht gültig ist,..." müsste sich irgendwo in
+
+0:30:34.560,0:30:42.720
+dem Bereich bewegen. "... dann ist F unerfüllbar."
+Das stimmt nicht. Denn es gibt in diesem Bereich
+
+0:30:42.720,0:30:48.860
+auch Formeln, die nicht unerfüllbar sind. Nämlich die in
+in diesem Bereich. Oder eine Frage wie
+
+0:30:48.860,0:30:57.030
+diese hier: Wenn F unerfüllbar ist, dann ist
+¬F erfüllbar. "Wenn F unerfüllbar ist,..."
+
+0:30:57.030,0:31:11.840
+also hier ist, "... dann ist ¬F (laut Spiegelung lag
+dieser Bereich hier) erfüllbar."
+
+0:31:11.840,0:31:20.330
+Das stimmt, da die erfüllbaren Formeln genau
+die hier sind. Die Gültigen und die Erfüllbaren, aber nicht gültigen.
+
+0:31:20.330,0:31:29.110
+Das ist ein gutes Schaubild sich
+zu merken im Zusammenhang letztlich auch mit
+
+0:31:29.110,0:31:44.920
+dieser Klassifizierung. Das sind sozusagen
+die Begrifflichkeiten illustriert. Dann
+
+0:31:44.920,0:31:49.610
+gibt es natürlich die Frage für eine konkrete
+Formel, wie ordne ich die den ein? Das haben wir vorhin
+
+0:31:49.610,0:31:55.830
+schon an Beispielen getan. Da hatte ich immer schon
+gesagt oder Ihnen durch die Wahrheitstafeln gezeigt ,
+
+0:31:55.830,0:32:01.500
+was jeweils der Status der Formel ist. Wenn
+wir eine gegebene Formel F kriegen, wie stellen
+
+0:32:01.500,0:32:09.940
+wir fest, ob Sie gültig ist, ob sie erfüllbar ist ob sie
+unerfüllbar ist? Eine Möglichkeit ist offenbar mit der Wahrheitstafel
+
+0:32:09.940,0:32:15.680
+zu arbeiten. So wie ich das bisher getan hab. Ich hatte immer die
+Wahrheitstafel angegeben. Dann konnte man an der Ergebnisspalte
+
+0:32:15.680,0:32:20.919
+eben ablesen, welchen Status die Formel hat. Das ist
+natürlich ein gültiger Weg. Der ist nur nicht immer
+
+0:32:20.919,0:32:27.120
+gangbar. Für einfache Beispiele in den Übungen
+zum Beispiel wird der möglich sein. Außer
+
+0:32:27.120,0:32:32.290
+wir sagen sie sollen es bewusst nicht tun. Welchen Grund
+könnte geben, nicht immer mit der Wahrheitstafel arbeiten
+
+0:32:32.290,0:32:37.539
+zu wollen? Das Problem ist, die können
+sehr groß werden diese Wahrheitstafeln. Insbesondere,
+
+0:32:37.539,0:32:43.430
+wenn wir viele atomare Formen haben. Woran
+liegt das? Wir hatten jetzt Beispiele mit einer, zwei, drei
+
+0:32:43.430,0:32:49.299
+atomaren Formeln A, B, C. Man könnte sich aber auch den allgemeinen
+Fall anschauen: Man hat n verschiedene atomare
+
+0:32:49.299,0:32:56.440
+Formen A1, A2, A3, A4 etc. Wie groß ist dann die Wahrheitstafel?
+Man kann sich sehr leicht überlegen, wie viele Zeilen
+
+0:32:56.440,0:33:02.010
+die Wahrheitstafel hat. Nämlich 2^n. Wir hatten bei
+drei A, B, C schon acht Zeilen. Wenn wir A1,
+
+0:33:02.010,0:33:07.960
+A2, A3, A4 hätten, hätten wir schon 16 Zeilen.
+Also 2^n. Und in jeder Zeile müssen dann ja auch
+
+0:33:07.960,0:33:14.019
+noch diverse Einträge befüllt werden. Also
+mindestens die linken Einträge für
+
+0:33:14.019,0:33:19.929
+die Eingaben A, B, C, D zum Beispiel bei vier atomaren
+Aussagen. Und mindestens die Ergebnisspalte. Aber
+
+0:33:19.929,0:33:25.480
+oftmals ja auch noch Zwischenspalten, wo wir
+Teilformeln auswerten. Dann kriegen wir 2^n
+
+0:33:25.480,0:33:32.950
+mal noch eine weitere vielleicht von n oder
+n² abhängende Größe. Und das sind einfach
+
+0:33:32.950,0:33:42.789
+sehr viele Einträge, wenn das n nicht relativ
+klein ist. Dann stell sich die Frage: Geht es effizienter? Geht es
+
+0:33:42.789,0:33:50.610
+vielleicht auch einfach schöner oder eleganter?
+Die Antwort ist zum Glück ja. Das wird
+
+0:33:50.610,0:33:55.740
+uns ein Stück weit im weiteren Verlauf
+der Lehrveranstaltung beschäftigten. Nicht mehr
+
+0:33:55.740,0:34:01.299
+in diesem Video. Auch nicht direkt im nächsten
+Video. Aber das ist natürlich ein Ziel, auf was wir hinarbeiten
+
+0:34:01.299,0:34:06.140
+Verfahren, Methoden, Algorithmen, die den Grad
+der Gültigkeit oder Erfüllbarkeit, also so was wie
+
+0:34:06.140,0:34:11.250
+alles Einsen/ alles Nullen / irgendwas dazwischen
+einer Formel überprüfen ohne notwendigerweise
+
+0:34:11.250,0:34:15.740
+immer die vollständige Wahrheitstafel aufstellen
+zu müssen. Oder ohne überhaupt mit
+
+0:34:15.740,0:34:22.970
+diesen ausrechnen zu arbeiten, sondern mehr mit den Formen
+selbst zu arbeiten. Dabei werden sogenannte
+
+0:34:22.970,0:34:28.139
+Normalformen von Formeln eine Rolle spielen.
+Dem wird sich das nächste Video widmen.
+
+0:34:28.139,0:34:35.450
+Noch nicht direkt dieser Anwendung, aber dem
+einführen dieser Normalformen. Also nicht NormalformeLn,
+
+0:34:35.450,0:34:43.149
+sondern NormalFORMEN von Formeln.
+Im nächsten Video gehen wir das an.
