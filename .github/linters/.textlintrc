@@ -1,0 +1,18 @@
+{
+    "filters": {
+        "comments": true
+    },
+    "rules": {
+        "terminology": {
+            "defaultTerms": true,
+            "exclude": [
+                "(?<=(?:\\w+[^.?!])? )internet\\b(?! explorer)"
+            ]
+        }
+    },
+    "plugins": {
+        "@textlint/text": {
+            "extensions": [".sbv",".srt"]
+        }
+    }
+}
