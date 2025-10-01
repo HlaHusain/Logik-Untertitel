@@ -79,7 +79,7 @@ die Formeln zu bereinigen. So nennt man das.
 Das wird eine bereinigte Form sein. Und zwar geht es
 
 0:01:57.830,0:02:03.600
-dabei zunächst erstmal darum, jede denkbare Verwechslung
+dabei zunächst einmal darum, jede denkbare Verwechslung
 zwischen Variablen auszuschließen, die vielleicht
 
 0:02:03.600,0:02:08.229
@@ -92,7 +92,7 @@ dass (was der erste Punkt hier sagt) mehrere Quantoren
 
 0:02:14.560,0:02:18.990
 die gleiche Variable benutzen. Das ist ja zunächst
-erstmal syntaktisch in der Prädikatenlogik erlaubt,
+einmal syntaktisch in der Prädikatenlogik erlaubt,
 
 0:02:18.990,0:02:23.629
 dass wir an mehreren Stellen ∀x oder ∃x
@@ -208,10 +208,10 @@ wir auch diesen Fall nicht haben. Es soll einfach
 
 0:04:57.780,0:05:02.759
 nicht der Fall sein, dass eine Variable irgendwo an einem
-Quantor steht (egal ob sie danach benutzt wird oder nicht)
+Quantor steht (egal, ob sie danach benutzt wird oder nicht).
 
 0:05:02.759,0:05:11.110
-und gleichzeitig die gleiche Variable irgendwo auch
+Und gleichzeitig die gleiche Variable irgendwo auch
 frei vorkommt oder in einem anderen Quantor vorkommt.
 
 0:05:11.110,0:05:17.530
@@ -259,7 +259,7 @@ Variablen können umbenannt werden, wenn wir dabei etwas
 Disziplin anwenden. Wir können also nicht willkürlich
 
 0:06:18.780,0:06:25.030
-einfach Variablen umbenennen natürlich. Wir müssen aufpassen,
+einfach Variablen umbenennen, natürlich. Wir müssen aufpassen,
 wenn wir eine quantifizierte Variable verändern,
 
 0:06:25.030,0:06:29.490
@@ -307,7 +307,7 @@ die in F noch nicht vorkommt. Und nur in dem Beispiel hier
 sage ich jetzt, nehmen wir mal y. Also wir ersetzen x durch y.
 
 0:07:35.680,0:07:40.090
-Egal ob jetzt im Allquantor oder im Existenzquantor.
+Egal, ob jetzt im Allquantor oder im Existenzquantor.
 Natürlich müssen wir dafür auch an F "schrauben".
 
 0:07:40.090,0:07:45.520
@@ -383,16 +383,16 @@ Natürlich ist es hier drin gebunden.
 Aber die Regel oben sagt: Wenn wir ∃x : F haben,
 
 0:09:47.300,0:09:54.810
-dann ersetzen wir das durch "∃y". Und diese neue
-F-Formel, die erhalten wird durch: in dieser Formel
+Dann ersetzen wir das durch "∃y". Und diese neue
+F-Formel, die erhalten wird durch: in dieser Formel.
 
 0:09:54.810,0:10:00.700
-freie Vorkommen von x durch y ersetzen. Und das
+Freie Vorkommen von x durch y ersetzen. Und das
 liefert genau dieses Q(y). Und da sehen wir:
 
 0:10:00.700,0:10:06.680
-Hier wurde das x in y umbenannt und das geschah gebunden.
-Also wir haben sozusagen die Bindungen dabei erhalten.
+Hier wurde das x in y umbenannt, und das geschah gebunden.
+Also haben wir sozusagen die Bindungen dabei erhalten.
 
 0:10:06.680,0:10:17.660
 Deswegen heißt das gebundene Umbenennung. Was würde in
@@ -427,11 +427,11 @@ Also muss ich das umbenennen. Hier kann ich mich nicht
 entscheiden, das x umzubenennen. Das ist eine freie Variable.
 
 0:10:58.120,0:11:03.449
-Ich darf nur an den Quantoren drehen. Also ich kann dieses x
-durch y ersetzen. Dann ersetze ich auch dieses x zu y.
+Ich darf nur an den Quantoren drehen. Also kann ich dieses x
+durch y ersetzen. Dann ersetze ich auch dieses x durch y.
 
 0:11:03.449,0:11:10.300
-Das äußere natürlich nicht. Denn das ist keines, was in
+Das äußere natürlich nicht. Denn das ist keins, was in
 dieser Formel, die unter dem Quantor steht, vorkommt.
 
 0:11:10.300,0:11:23.940
@@ -443,7 +443,7 @@ Da wollte ich dieses x loswerden, weil es sich
 mit diesem x sozusagen beißt. Das äußere darf
 
 0:11:29.150,0:11:33.670
-ich nicht umbenennen. Also anders als hier kann
+ich nicht umbenennen. Also, anders als hier kann
 ich mich nicht entscheiden, welches von den x'en
 
 0:11:33.670,0:11:38.471
@@ -484,7 +484,7 @@ Dann sind wir an dieser Stelle in den Beispielen.
 
 0:12:41.009,0:12:48.790
 Die nächste Säuberung/Veränderung,
-die wir haben wollen ist: Wir möchten
+die wir haben wollen, ist: Wir möchten
 
 0:12:48.790,0:12:53.850
 nicht mehr, dass die Quantoren so relativ wild
@@ -556,7 +556,7 @@ wir so etwas, dass wir zwei Quantoren haben,
 
 0:14:34.940,0:14:38.649
 die tiefer geschachtelt sind unterhalb einer
-Konjunktion in dem ersten Fall. Und hinterher
+Konjunktion im ersten Fall. Und hinterher
 
 0:14:38.649,0:14:44.220
 steht ein Quantor außen. Das ist so eine Regel,
@@ -568,15 +568,15 @@ Allerdings sind diese beiden Äquivalenzen nicht so allgemein anwendbar.
 
 0:14:49.810,0:14:54.960
 Wir hatten schon darüber gesprochen, dass etwa diese Regel
-nur anwendbar ist, wenn da zwei Allquantoren stehen
+nur anwendbar ist, wenn da zwei Allquantoren stehen.
 
 0:14:54.960,0:14:59.199
-und die Konjunktion. Oder zwei Existenzquantoren
+Und die Konjunktion. Oder zwei Existenzquantoren
 und die Disjunktion. Also wenn wir hier verschiedene
 
 0:14:59.199,0:15:04.980
 Quantoren hätten, egal ob mit gleicher oder verschiedener
-Variable, oder Existenzquantoren aber die Konjunktion hier,
+Variable, oder Existenzquantoren, aber die Konjunktion hier,
 
 0:15:04.980,0:15:09.250
 dann könnten wir hier jeweils mit
@@ -591,7 +591,7 @@ Nebenbedingung, dass in H das x nicht frei vorkommen darf,
 aber das können wir durch Umbenennung bewerkstelligen,
 
 0:15:21.700,0:15:26.740
-Bzw., wenn wir die Formel bereinigt haben,
+bzw., wenn wir die Formel bereinigt haben,
 dann wird das schon so sein, dass etwa in dem H
 
 0:15:26.740,0:15:30.779
@@ -640,7 +640,7 @@ rechts steht von dem, was wir hereinziehen wollen.
 
 0:16:29.060,0:16:36.329
 Und wir wissen, dass wir das dürfen, wegen der Kommutativität
-der Konjunktionen und Disjunktion. Wie gesagt: Wir haben diese
+der Konjunktionen und Disjunktionen. Wie gesagt: Wir haben diese
 
 0:16:36.329,0:16:42.430
 Nebenbedingung, dass x nicht frei in H vorkommen darf.
@@ -652,7 +652,7 @@ weil wir vorher im ersten Schritt die Gesamtformel
 
 0:16:48.050,0:16:53.350
 bereinigt haben.
-Das sorgt schon dafür, dass wenn x hier an dem Quantor steht,
+Das sorgt schon dafür, dass, wenn x hier an dem Quantor steht,
 
 0:16:53.350,0:16:58.860
 es nicht irgendwie in diesem H auch auftreten kann.
@@ -708,7 +708,7 @@ wir schieben das ins Innere dieses Existenzquantors
 
 0:18:29.380,0:18:34.429
 und landen dann bei dieser Formel:
-"∀x und dann ∃y" steht weiter außen.
+„∀x und dann ∃y“ steht weiter außen.
 
 0:18:34.429,0:18:43.720
 Und das P(x) ist nach innen gewandert. Das ist
@@ -732,10 +732,10 @@ ob wir sozusagen das erst nach innen schieben und
 
 0:19:08.950,0:19:16.159
 dann Q(y) in diesen Quantor oder umgekehrt,
-kann sich hier noch ändern, ob wir "∀x : ∀y :" oder
+kann sich hier noch ändern, ob wir „∀x : ∀y :“ oder
 
 0:19:16.159,0:19:21.789
-"∀y : ∀x :" stehen haben, aber auch dazu wissen wir ja,
+„∀y : ∀x :“ stehen haben, aber auch dazu wissen wir ja,
 von unserer ursprünglichen Äquivalenzen-Folie
 
 0:19:21.789,0:19:28.200
@@ -743,7 +743,7 @@ für prädikatenlogische Formeln, dass die
 Reihenfolge zweier gleicher Quantoren egal ist.
 
 0:19:28.200,0:19:38.710
-In dem konkreten Fall wäre das relevant. Im allgemeinen
+In dem konkreten Fall wäre das relevant. Im Allgemeinen
 wenden wir einfach diese Äquivalenzen an und das
 
 0:19:38.710,0:19:48.380
@@ -783,7 +783,7 @@ weil wir keine Äquivalenz kennen,
 mit der wir etwas in einen negierten Quantor
 
 0:20:57.779,0:21:01.650
-oder irgendwo noch tiefer unter einer Negation
+oder irgendwo noch tiefer unter einem Negation
 stehenden Quantor-Ausdruck hineinschieben können.
 
 0:21:01.650,0:21:06.730
@@ -823,7 +823,7 @@ wo wir eine Negation über ein Quantor schieben.
 Und, genau genommen, kann es zusätzlich auch noch passieren,
 
 0:22:07.050,0:22:11.020
-dass wir auch noch die de Morganschen Regeln anwenden
+dass wir auch noch die de Morgan’schen Regeln anwenden
 müssen für Konjunktion und Disjunktion. Es könnte ja auch sein,
 
 0:22:11.020,0:22:16.840
@@ -935,8 +935,8 @@ Hinterher haben wir nur noch Quantoren außen und keine
 Variable wird doppelt benutzt. Bei diesem Beispiel konkret
 
 0:25:07.820,0:25:17.720
-fällt auf, dass das in gewissen Sinne auch einfacher
-gegangen wäre. Wir hätten auch direkt hier drauf
+fällt auf, dass das in gewissem Sinne auch einfacher
+gegangen wäre. Wir hätten auch direkt hierauf
 
 0:25:17.720,0:25:22.320
 diese Äquivalenz anwenden können. Dann wären wir
@@ -944,14 +944,14 @@ zu einer Formel gekommen, die auch den Quantor
 
 0:25:22.320,0:25:26.690
 ganz draußen stehen hat und auch keine Variable
-doppelt benutzt. Und die wäre sogar kürzer gewesen
+doppelt benutzt. Und die wäre sogar kürzer gewesen.
 
 0:25:26.690,0:25:38.750
 als die Formel, die wir hier erhalten haben.
 Aber das wäre sozusagen Glück gewesen.
 
 0:25:38.750,0:25:42.880
-Während diese Schritte 1 und 2 systematisch anzuwenden
+Während diese Schritte 1 und 2 systematisch anzuwenden,
 immer klappt und nicht von irgendwelchem Glück abhängig ist.
 
 0:25:42.880,0:25:50.330
@@ -968,7 +968,7 @@ sozusagen sehen, dass es diese eine Äquivalenz gibt,
 
 0:26:00.919,0:26:07.890
 die man direkt anwenden kann. Dann kommen sie eben zu:
-"∀x : (P(x) ∧ Q(x))". Aber das hier wäre auch korrekt
+"∀x : (P(x) ∧ Q(x))". Aber das hier wäre auch korrekt.
 
 0:26:07.890,0:26:15.880
 und lässt sich einfach zielgerichteter erstellen,

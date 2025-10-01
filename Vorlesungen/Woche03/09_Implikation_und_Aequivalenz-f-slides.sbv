@@ -12,15 +12,15 @@ Pfeil verwendet als Folgerung/Implikation.
 
 0:00:20.400,0:00:28.290
 Aus irgendetwas folgt irgendetwas anderes. Der ist
-tatsächlich nur abkürzend. Insofern als man ihn
+tatsächlich nur abkürzend. Insofern, als man ihn
 
 0:00:28.290,0:00:36.180
-tatsächlich interpretieren kann, und gleich
+tatsächlich interpretieren kann und gleich
 benutzen kann, wie folgenden Ausdruck: (¬F ∨ G).
 
 0:00:36.180,0:00:44.190
-Also wenn aus einer Formel, einer Aussage,
-einem Zusammenhang, ein anderer
+Also, wenn aus einer Formel, einer Aussage,
+einem Zusammenhang ein anderer
 
 0:00:44.190,0:00:53.340
 konkreter Zusammenhang folgt, dann ist
@@ -51,7 +51,7 @@ ist. Aber das ist korrekt. Das entspricht dem schon
 
 0:01:39.420,0:01:45.990
 vorher mal erwähnten Aspekt, dass man
-aus Quatsch alles folgern kann. Also wenn F nicht
+aus Quatsch alles folgern kann. Also, wenn F nicht
 
 0:01:45.990,0:01:55.110
 stimmt, dann stimmt es, dass aus F irgendein G folgt.
@@ -86,7 +86,7 @@ die irgendwie zu diesen Werten auswerten. Wir haben
 wieder vier Kombinationen, weil es ein binärer Operator ist.
 
 0:02:43.400,0:02:51.590
-Also 0 0 , 0 1, 1 0 , 1 1. Tatsächlich ist die Implikation immer
+Also 0 0, 0 1, 1 0, 1 1. Tatsächlich ist die Implikation immer
 wahr, außer wenn die Voraussetzung wahr ist, die
 
 0:02:51.590,0:03:00.710
@@ -95,7 +95,7 @@ sein, wenn B auch wahr ist", dann ist genau das die
 
 0:03:00.710,0:03:08.240
 Zeile, wo das verletzt ist. In allen anderen Zeilen ist es
-okay. Also aus falsch folgt irgendwas. Aus falsch folgt
+okay. Also, aus falsch folgt irgendwas. Aus falsch folgt
 
 0:03:08.240,0:03:15.080
 falsch, ist okay. Aus falsch folgt wahr, ist okay.
@@ -123,7 +123,7 @@ beiden sein. Entweder beide 0 oder beide 1. Sie
 
 0:03:56.750,0:04:05.120
 dürfen nicht verschieden sein. Und das würde man erhalten,
-wenn man hierfür die andere Richtung wählt. Also aus B
+wenn man hierfür die andere Richtung wählt. Also, aus B
 
 0:04:05.120,0:04:17.510
 folgt A. Dann hätte man nämlich hier 1 0, 1 0. Und dann die Konjunktion
@@ -143,7 +143,7 @@ andere Alternative gewesen, die Biimplikation zu
 
 0:04:41.160,0:04:50.670
 definieren. Was hilft uns das? Hier steht was von "abkürzend".
-Also wir müssen diesen Operator nicht verwenden. Wir könnten immer
+Also, wir müssen diesen Operator nicht verwenden. Wir könnten immer
 
 0:04:50.670,0:04:57.870
 mit ¬ und ∨ und ∧ arbeiten. Dann würden wir
@@ -154,7 +154,7 @@ Implikationspfeil könnten wir auch noch hierdurch
 ersetzen. Dann hätten wir wirklich auch in der unteren Zeile nur
 
 0:05:02.010,0:05:08.280
-¬ , ∨ und ∧. Aber natürlich ist es nett, dass wir
+¬, ∨ und ∧. Aber natürlich ist es nett, dass wir
 das auch so schreiben können, weil dann z.B.
 
 0:05:08.280,0:05:16.680
@@ -183,7 +183,7 @@ auch gesagt, gleichzeitig muss auch gelten: Wenn
 
 0:05:51.870,0:05:58.980
 Anne lügt, also wenn ¬A gilt, dann ist Bettina keine Lügnerin,
-sondern spricht die Wahrheit. Also ich hatte in der ersten Zeile
+sondern spricht die Wahrheit. Also, ich hatte in der ersten Zeile
 
 0:05:58.980,0:06:06.360
 gesagt: (A => ¬B) und (¬A => B).
@@ -199,7 +199,7 @@ für den obigen Zusammenhang. Statt der (ich glaube sechs)
 
 0:06:20.640,0:06:30.450
 mit Konjunktion zu verbindenden Teilformeln, die
-ich in dem Whiteboard Video aufgestellt hatte.
+ich in dem Whiteboard-Video aufgestellt hatte.
 
 0:06:31.240,0:06:38.500
 Anne sagt die Wahrheit genau dann, wenn B eine
@@ -235,7 +235,7 @@ hin. Wir haben drei Aussagen A, B, C. Jede könnte
 
 0:07:32.470,0:07:38.770
 In jeder Zeile hier steht letztlich so ein α.
-Und was ich immer möchte ist: α^(F) bilden.
+Und was ich immer möchte, ist: α^(F) bilden.
 
 0:07:40.810,0:07:47.860
 Dann könnte ich jedes Mal hingehen und zum Beispiel "bottom-up" mir
@@ -279,11 +279,11 @@ in dem Syntaxbaum nach außen gehen, nach oben gehen, würden wir
 
 0:08:48.590,0:08:53.360
 zum Beispiel sehen, dass wir diese Teilformel
-berechnen können müssen. Für jede der Belegungen.
+berechnen müssen. Für jede der Belegungen.
 
 0:08:53.360,0:08:59.750
 Da können wir jetzt mit den Werten, die
-hier stehen, mit dieser Spalte für A und diese
+hier stehen, mit dieser Spalte für A und dieser
 
 0:08:59.750,0:09:09.950
 Spalte für ¬B und der zweiten Wahrheitstafel
@@ -295,7 +295,7 @@ Spalte an und die ¬B Spalte und schreiben hier immer
 
 0:09:17.540,0:09:22.730
 und genau dann eine 1 hin, wenn die Einträge
-in diesen entsprechenden, beiden Spalten gleich
+in diesen entsprechenden beiden Spalten gleich
 
 0:09:22.730,0:09:31.370
 sind. Das ist genau hier der Fall. Deswegen stehen hier Einsen.
@@ -307,7 +307,7 @@ Spalte und diese Spalte. Dann ergibt sich folgendes
 
 0:09:42.320,0:09:47.450
 Bild: Das müssten Sie mir jetzt glauben oder einfach
-mal wirklich positionsweise vergleichen. Dann würden sie
+mal wirklich positionsweise vergleichen. Dann würden Sie
 
 0:09:47.450,0:09:56.420
 feststellen, dass genau diese Werte tatsächlich
@@ -322,7 +322,7 @@ und die Spalte, die sich ergeben würde (die ich aber gar nicht
 explizit hingeschrieben habe), wenn
 
 0:10:09.260,0:10:15.560
-wir die ¬A und ¬B Spalte durch Konjunktion
+wir die ¬A- und ¬B-Spalte durch Konjunktion
 verknüpfen würden. Das habe ich nicht extra
 
 0:10:15.560,0:10:19.460
@@ -359,7 +359,7 @@ F den Wahrheitswert bestimmen, indem wir diese letzten
 
 0:11:12.850,0:11:20.320
 drei Spalten mit ∧ verknüpfen. Wir hatten zwar ∧
-bisher als binäre Operation. Also wir könnten erst mal die beiden
+bisher als binäre Operation. Also, wir könnten erst mal die beiden
 
 0:11:20.320,0:11:26.410
 mit ∧ verknüpfen. Und dann den Wert, der da rauskommt, noch

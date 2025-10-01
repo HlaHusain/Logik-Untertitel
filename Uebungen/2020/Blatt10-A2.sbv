@@ -13,10 +13,10 @@ sowie Bedeutung und Stelligkeit der von Ihnen
 eingeführten Prädikate angeben.
 
 0:00:17.960,0:00:21.000
-Der erste Satz ist, jeder Mensch isst Gemüse.
+Der erste Satz ist: Jeder Mensch isst Gemüse.
 
 0:00:21.000,0:00:26.720
-Eine mögliche Lösung hierfür wäre, für
+Eine mögliche Lösung hierfür wäre: Für
 alle x gilt, der Allquantor G von x.
 
 0:00:26.720,0:00:30.550
@@ -34,7 +34,7 @@ einen Menschen.
 Als Prädikat G einstellig, isst Gemüse.
 
 0:00:40.950,0:00:42.819
-Also, irgendjemand isst Gemüse.
+Also: Irgendjemand isst Gemüse.
 
 0:00:42.819,0:00:47.280
 Und für alle x gilt, wobei x ja Menschen
@@ -55,14 +55,14 @@ fassen, zum Beispiel als Lebewesen oder Menschen
 und irgendwas anderes.
 
 0:01:04.839,0:01:08.659
-Und M bedeutet, ist ein Mensch.
+Und M bedeutet: ist ein Mensch.
 
 0:01:08.659,0:01:13.259
-G bedeutet weiterhin, isst Gemüse.
+G bedeutet weiterhin: isst Gemüse.
 
 0:01:13.259,0:01:18.329
-Dann hätten wir, für alle x, also für alle
-Lebewesen im Universum, gilt, wenn sie ein
+Dann hätten wir: Für alle x, also für alle
+Lebewesen im Universum, gilt: Wenn sie ein
 
 0:01:18.329,0:01:21.310
 Mensch sind, dann essen sie gerne Gemüse.
@@ -71,70 +71,70 @@ Mensch sind, dann essen sie gerne Gemüse.
 Jeder Mensch isst Gemüse.
 
 0:01:25.340,0:01:29.370
-Bei Satz 2) haben wir, alle Menschen lieben
+Bei Satz 2) haben wir: Alle Menschen lieben
 Katzen.
 
 0:01:29.370,0:01:35.829
 Hier können wir analog zum ersten Satz wieder
-sagen, für alle x gilt, M von x impliziert
+sagen: Für alle x gilt, M von x impliziert
 
 0:01:35.829,0:01:39.020
 K von x, mit dem Universum Lebewesen diesmal.
 
 0:01:39.020,0:01:43.600
-M bedeutet Mensch und K bedeutet Katzenliebhaber.
+M bedeutet: Mensch und K bedeutet: Katzenliebhaber.
 
 0:01:43.600,0:01:49.679
 Und wenn x ein Mensch ist, dann ist x auch
 ein Katzenliebhaber.
 
 0:01:49.679,0:01:51.640
-Das bedeutet diese Lösung hier.
+Das bedeutet: Diese Lösung hier.
 
 0:01:51.640,0:01:56.759
-Alternativ könnte man auch sagen, für alle
+Alternativ könnte man auch sagen: Für alle
 x gilt, für alle y gilt, M von x und K von
 
 0:01:56.759,0:02:00.369
 y impliziert L von x,y.
 
 0:02:00.369,0:02:06.159
-Beim Universum Lebewesen, M bedeutet, ist
-Mensch und K bedeutet, ist Katze.
+Beim Universum Lebewesen, M bedeutet: ist
+Mensch und K bedeutet: ist Katze.
 
 0:02:06.159,0:02:10.840
-Und L, zweistellig in dem Fall, bedeutet Punkt,
-Punkt, Punkt, liebt Punkt, Punkt, Punkt.
+Und L, zweistellig in dem Fall, bedeutet: Punkt,
+Punkt, Punkt liebt Punkt, Punkt, Punkt.
 
 0:02:10.840,0:02:22.720
-Das bedeutet also, wenn x ein Mensch ist und
+Das bedeutet also: Wenn x ein Mensch ist und
 y eine Katze, dann liebt der Mensch die Katze.
 
 0:02:22.720,0:02:32.040
-Oder, Alternative 2), für alle x gilt, M
-von x impliziert, es gibt ein y, sodass gilt,
+Oder: Alternative 2), für alle x gilt: M
+von x impliziert, es gibt ein y, sodass gilt:
 
 0:02:32.040,0:02:41.380
 K von y und L von x,y, mit dem Universum Lebewesen,
-M bedeutet wieder, ist Mensch, K wieder, ist
+M bedeutet wieder: ist Mensch, K wieder: ist
 
 0:02:41.380,0:02:44.650
-Katze und L bedeutet wieder Punkt, Punkt,
-Punkt, liebt Punkt, Punkt, Punkt.
+Katze und L bedeutet wieder: Punkt, Punkt,
+Punkt liebt Punkt, Punkt, Punkt.
 
 0:02:44.650,0:02:50.960
-Also, wenn x ein Mensch ist, dann gibt es
-ein y, sodass wenn y eine Katze ist, gilt,
+Also: Wenn x ein Mensch ist, dann gibt es
+ein y, sodass, wenn y eine Katze ist, gilt:
 
 0:02:50.960,0:02:52.900
 der Mensch liebt die Katze.
 
 0:02:52.900,0:02:58.880
-Der nächste Satz, wenn jemand Hunde liebt,
+Der nächste Satz: Wenn jemand Hunde liebt,
 dann liebt er keine Katzen.
 
 0:02:58.880,0:03:05.180
-Da könnten wir sagen, für alle x gilt, H
+Da könnten wir sagen: Für alle x gilt, H
 von x impliziert nicht K von x, mit dem Universum
 
 0:03:05.180,0:03:06.180
@@ -142,14 +142,14 @@ Menschen.
 
 0:03:06.180,0:03:09.320
 Das heißt, alle x sind schon mal Menschen,
-H bedeutet, ist Hundeliebhaber, K bedeutet
+H bedeutet: ist Hundeliebhaber, K bedeutet
 
 0:03:09.320,0:03:10.380
 ist Katzenliebhaber.
 
 0:03:10.380,0:03:15.780
-Das heißt also, für alle x, für alle Menschen,
-gilt, wenn jemand ein Hundeliebhaber ist,
+Das heißt also: Für alle x, für alle Menschen,
+gilt: Wenn jemand ein Hundeliebhaber ist,
 
 0:03:15.780,0:03:17.700
 dann ist er kein Katzenliebhaber.
@@ -159,7 +159,7 @@ Und für Satz 4), irgendjemand liebt keine
 Hunde, isst aber Gemüse.
 
 0:03:24.900,0:03:30.490
-Da wissen wir schon mal, das Wort irgendjemand
+Da wissen wir schon mal: Das Wort irgendjemand
 deutet darauf hin, dass wir einen Existenzquantor
 
 0:03:30.490,0:03:36.240
@@ -175,7 +175,7 @@ Wir nehmen hier das Universum Menschen und
 die Prädikate, wie in den Beispielen davor.
 
 0:03:43.910,0:03:52.640
-Das heißt also, es existiert ein x, sodass
+Das heißt also: Es existiert ein x, sodass
 x kein Hundeliebhaber ist und Gemüse isst.
 
 0:03:52.640,0:03:55.050
@@ -200,53 +200,53 @@ und Autos und die Prädikate haben folgende
 Bedeutung.
 
 0:04:11.010,0:04:13.290
-M bedeutet, ist Mensch, A bedeutet ist Auto.
+M bedeutet: ist Mensch, A bedeutet: ist Auto.
 
 0:04:13.290,0:04:17.139
-B ist zweistellig und bedeutet Punkt, Punkt,
+B ist zweistellig und bedeutet: Punkt, Punkt,
 Punkt besitzt Punkt, Punkt, Punkt.
 
 0:04:17.139,0:04:19.320
 Fangen wir an mit dem ersten Satz.
 
 0:04:19.320,0:04:28.810
-Für alle x gilt, M von x impliziert, es gibt
+Für alle x gilt: M von x impliziert, es gibt
 ein y, sodass y ein Auto ist und dieser Mensch
 
 0:04:28.810,0:04:30.160
 das Auto besitzt.
 
 0:04:30.160,0:04:36.670
-Also, x ist ein Mensch, wenn es ein y gibt,
+Also: x ist ein Mensch, wenn es ein y gibt,
 das ein Auto ist und dieser Mensch y, das
 
 0:04:36.670,0:04:38.510
-Auto, besitzt.
+Auto besitzt.
 
 0:04:38.510,0:04:44.850
-Also, für alle x gilt, wenn x ein Mensch
+Also: Für alle x gilt, wenn x ein Mensch
 ist, dann existiert ein y, sodass y ein Auto
 
 0:04:44.850,0:04:47.290
 ist und x ein Besitzer von y ist.
 
 0:04:47.290,0:04:51.050
-Oder, jeder Mensch besitzt mindestens ein
+Oder: Jeder Mensch besitzt mindestens ein
 Auto.
 
 0:04:51.050,0:04:55.420
-Denn hier steht ja, das ist nur dann, wenn
+Denn hier steht ja: Das ist nur dann, wenn
 das zutrifft.
 
 0:04:55.420,0:04:57.690
-Das heißt, x ist nur dann ein Mensch, wenn
+Das heißt: x ist nur dann ein Mensch, wenn
 x auch ein Auto hat.
 
 0:04:57.690,0:04:59.660
-Das heißt, jeder Mensch besitzt ein Auto.
+Das heißt: Jeder Mensch besitzt ein Auto.
 
 0:04:59.660,0:05:07.320
-Bei Satz 2) haben wir, für alle x gilt, x
+Bei Satz 2) haben wir: Für alle x gilt, x
 ist ein Auto, wenn es ein y gibt, für das
 
 0:05:07.320,0:05:14.490
@@ -261,11 +261,11 @@ ein Auto ist, und wenn es so ist, dass es
 von einem Menschen besessen wird.
 
 0:05:21.500,0:05:27.990
-Deswegen, für alle x gilt, wenn x ein Auto
+Deswegen gilt, für alle x, wenn x ein Auto
 ist, dann existiert ein y, sodass y ein Mensch
 
 0:05:27.990,0:05:30.170
-ist und y ein Besitzer von x.
+ist und y ein Besitzer von x ist.
 
 0:05:30.170,0:05:33.560
 Anders gesagt, jedes Auto hat mindestens einen

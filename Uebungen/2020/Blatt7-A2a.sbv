@@ -16,7 +16,7 @@ die sich selber wieder aufrufen. Und das sehen wir
 
 0:00:20.520,0:00:25.680
 auch schon in dieser einen Programmzeile,
-die wir haben, greaterThan S von X Komma S
+die wir haben: greaterThan S von X, Komma S
 
 0:00:25.680,0:00:31.980
 von Y gilt genau dann, wenn greaterThan X von
@@ -55,7 +55,7 @@ wir schon aus dem symbolischen Rechnen von dem
 Peano-Zahlen und da ist die kleinstmögliche Zahl
 
 0:01:13.500,0:01:20.400
-das Z, also, Zero. Negative Zahlen haben wir in
+das Z, also Zero. Negative Zahlen haben wir in
 diesem Zahlen-System nicht. Und daher können wir
 
 0:01:20.400,0:01:25.680
@@ -83,16 +83,16 @@ Endeffekt für alle Zahlen, die hier definiert
 sind. Da wir keine negativen Zahlen haben,
 
 0:01:49.560,0:01:55.230
-S von Z ist größer als Z, S von Z steht
+S von Z ist größer als Z. S von Z steht
 für Eins, S von S von Z ist größer als Z,
 
 0:01:55.230,0:02:00.540
 S von S von S von Z ist größer als Z. Also,
-schlussendlich jede mögliche beliebige Zahl ist
+schlussendlich ist jede beliebige Zahl
 
 0:02:00.540,0:02:08.940
 größer als Z. Und daher ist es eigentlich egal,
-was hier in dieser Klammer drin steht, weil
+was hier in dieser Klammer drinsteht, weil
 
 0:02:08.940,0:02:15.300
 jede Zahl, die diese Struktur S von hat, größer
@@ -103,8 +103,8 @@ selber nicht größer als Z ist. Und so könnte
 man darauf kommen, dass die Abbruchbedingung
 
 0:02:19.380,0:02:26.820
-greaterThan S von und dann Unterstrich Komma Z
-sein muss, weil das eben genau das wiederspiegelt,
+greaterThan S von und dann Unterstrich, Komma Z
+sein muss, weil das eben genau das widerspiegelt,
 
 0:02:26.820,0:02:31.200
 was wir gerade gesagt haben. Unterstrich bedeutet,
@@ -131,15 +131,15 @@ Das werdet ihr hier jetzt sehen. Funktioniert
 aber genauso mit dem Aufruf auf dem Übungsblatt.
 
 0:02:56.820,0:03:03.420
-Und zwar habe ich den Aufruf genommen, greaterThan
-S von S von S von Z Komma S von S von Z. Prolog
+Und zwar habe ich den Aufruf genommen: greaterThan
+S von S von S von Z, Komma S von S von Z. Prolog
 
 0:03:03.420,0:03:07.500
 schaut, kann es hier irgendwo matchen? Da wir nur
 eine Zeile Programmcode haben, wissen wir direkt,
 
 0:03:07.500,0:03:11.940
-wir müssen in diese Zeile rein springen. Und
+wir müssen in diese Zeile reinspringen. Und
 die passt auch sofort. Und dann ist es wie
 
 0:03:11.940,0:03:17.220
@@ -156,7 +156,7 @@ irgendwas das X. Und S von Y genau das gleiche,
 
 0:03:28.320,0:03:36.600
 Y ist S von Z. Und das ist dann der Fall bei
-greaterThan und X von Y mit dem ersetzen X von Y.
+greaterThan und X von Y mit dem Ersetzen X von Y.
 
 0:03:36.600,0:03:46.560
 Das sieht so aus, wenn greaterThan X der innere
@@ -172,10 +172,10 @@ und schauen, ob wir das matchen können. Ja, können
 
 0:03:57.540,0:04:03.960
 wir wieder mit der Regel hier matchen. Und wir
-ersetzen dann wieder X Zwei S von Z und Y Z. Und
+ersetzen dann wieder X durch S von Z und Y durch Z. Und
 
 0:04:03.960,0:04:12.960
-dann gilt wieder greaterThan X, X war S von Z und
+dann gilt wieder greaterThan X; X war S von Z und
 Y war Z, greaterThan S von Z und Z. Und um jetzt
 
 0:04:12.960,0:04:18.480
@@ -191,15 +191,15 @@ Aufgabe Eins. Und deswegen würde der Programmcode
 so an dieser Stelle false ausgeben. Aber ist denn
 
 0:04:33.720,0:04:40.680
-S von Z größer als Z? S von Z steht für Eins,
+S von Z größer als Z? S von Z steht für Eins;
 Z steht für Zero, Eins ist größer als Zero,
 
 0:04:40.680,0:04:46.200
-als Null, also, ist es größer. Das heißt, es wäre
+also, ist es größer. Das heißt, es wäre
 nicht richtig. Also, fehlt hier etwas. Und was
 
 0:04:46.200,0:04:52.080
-fehlt? Die Abbruchbedingung. Und wir haben gerade
+Fehlt? Die Abbruchbedingung. Und wir haben gerade
 schon gesagt, die kleinstmögliche Zahl ist Null.
 
 0:04:52.080,0:04:55.740

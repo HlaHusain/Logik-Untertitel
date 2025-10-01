@@ -4,11 +4,11 @@ Video in dieser Vorlesung.
 
 0:00:07.500,0:00:13.690
 In diesem Video soll es zunächst um etwas Motivation gehen.
-Man kann sich ja schon fragen, warum gibt
+Man kann sich ja schon fragen, warum es
 
 0:00:13.690,0:00:18.449
-es überhaupt diese Lehrveranstaltung in Ihrem
-Studiengang? Und dafür könnte man etwa einen
+überhaupt diese Lehrveranstaltung in Ihrem
+Studiengang gibt? Und dafür könnte man etwa einen
 
 0:00:18.449,0:00:22.720
 Blick in das Modulhandbuch des Komedia-Studiengangs
@@ -44,19 +44,19 @@ spielt, ist sicher nicht überraschend. Da gibt es
 
 0:00:57.030,0:01:01.719
 eben diese Anknüpfungen in den Bereich der
-künstlichen Intelligenz. Und hier steht, Studierende
+künstlichen Intelligenz. Und hier steht, dass Studierende
 
 0:01:01.719,0:01:06.490
-sollen mit logikbasierten Verfahren vertraut
-gemacht werden und sollen verschiedene
+mit logikbasierten Verfahren vertraut
+gemacht werden sollen und verschiedene
 
 0:01:06.490,0:01:11.350
-Verfahren/Kalküle kennenlernen, um Grundaufgaben zu lösen wie
+Verfahren/Kalküle kennenlernen sollen, um Grundaufgaben zu lösen wie
 die Bestimmung von Modellen oder Unerfüllbarkeit
 
 0:01:11.350,0:01:18.820
-von Formeln. Das deckt sich natürlich, oder
-findet sich wieder, in der kurzen Übersicht
+von Formeln. Das deckt sich natürlich oder
+findet sich wieder in der kurzen Übersicht
 
 0:01:18.820,0:01:25.860
 von Themen, die ich Ihnen gegen Ende des letzten
@@ -67,7 +67,7 @@ Also Aussagenlogik, Prädikatenlogik und entsprechende
 Resolutionsverfahren bilden zum Beispiel solche
 
 0:01:32.770,0:01:37.240
-Kalküle. Wenn Sie als erstes an Informatik und Logik
+Kalküle. Wenn Sie als Erstes an Informatik und Logik
 denken, denken Sie vielleicht eher an
 
 0:01:37.240,0:01:41.780
@@ -115,7 +115,7 @@ der vorigen Folie, könnten dann dem entsprechen,
 was in der Analysis etwa dem Differentiationskalkül
 
 0:02:46.240,0:02:52.610
-entspricht. Wo Sie einen Ausdruck haben, den symbolisch
+entspricht. Wo Sie einen Ausdruck haben, den Sie symbolisch
 ableiten, mit den Formeln arbeiten, Gesetze anwenden, entweder
 
 0:02:52.610,0:02:59.800
@@ -131,8 +131,8 @@ arbeiten, so wie das, was man in der Mathematik unter
 Ausdrücken und Formeln versteht.
 
 0:03:14.530,0:03:19.760
-Viel Motivation, und auch so manches Beispiel in der
-Lehrveranstaltung, wird aus dem Bereich sprachlichen
+Viel Motivation und auch so manches Beispiel in der
+Lehrveranstaltung wird aus dem Bereich sprachlichen
 
 0:03:19.760,0:03:26.069
 Schlussfolgerns kommen. Einerseits, weil Sie das kennen, weil
@@ -168,7 +168,7 @@ ich hier kurz betrachten und daran einige
 
 0:04:10.879,0:04:16.310
 Dinge illustrieren. Das sind Folien aus einer
-anderen Vorlesung, tatsächlich eine Prolog-Vorlesung, die
+anderen Vorlesung, tatsächlich einer Prolog-Vorlesung, die
 
 0:04:16.310,0:04:20.190
 ich an anderer Stelle einmal gehalten habe,
@@ -201,7 +201,7 @@ und was ihre Lieblingszigarettenmarke ist.
 
 0:04:56.340,0:05:01.080
 Daran sehen Sie auch, dass es schon ein recht altes Rätsel ist.
-Es wird Einstein zugeschriebenen oder in Verbindung
+Es wird Einstein zugeschrieben oder in Verbindung
 
 0:05:01.080,0:05:06.940
 mit ihm genannt. Heute würde man wahrscheinlich
@@ -217,7 +217,7 @@ Dafür muss man natürlich einige Gegebenheiten wissen.
 
 0:05:20.970,0:05:28.729
 Und das wird gegeben als Regeln oder Hinweise, die
-dann mit in der Zeitschrift abgedruckt waren (auch wieder
+dann in der Zeitschrift abgedruckt waren (auch wieder
 
 0:05:28.729,0:05:34.610
 auf Englisch hier). Es gibt sehr einfache Aussagen,
@@ -249,7 +249,7 @@ dann zu versuchen, weitere Erkenntnisse zu
 
 0:06:13.280,0:06:18.759
 gewinnen durch Kombinationen solcher Regeln. Am Ende will man
-irgendwas konkretes wissen. Entweder möchte man
+irgendwas Konkretes wissen. Entweder möchte man
 
 0:06:18.759,0:06:24.180
 alle Zuordnungen wissen, oder in diesem Beispiel war es so,
@@ -277,7 +277,7 @@ oder einer anderen Sprache. Man würde versuchen, möglichst
 
 0:06:55.570,0:07:00.870
 konstruktiv vorzugehen, möglichst systematisch.
-Eine Möglichkeit wäre, sich zu Hilfe vielleicht
+Eine Möglichkeit wäre, sich zur Hilfe vielleicht
 
 0:07:00.870,0:07:08.259
 eine Tabellendarstellung zu nehmen, wo man sein
@@ -342,7 +342,7 @@ Und wie auch immer: jede Lösung zumindest,
 
 0:08:33.229,0:08:42.930
 die es gibt, muss diesen Eintrag an genau der
-Stelle haben. Dann können wir weiter schauen, was wir noch aus den
+Stelle haben. Dann können wir weiterschauen, was wir noch aus den
 
 0:08:42.930,0:08:49.519
 Regeln folgern können. Es gibt zum Beispiel
@@ -373,11 +373,11 @@ Es gibt noch eine Aussage über den Milchtrinker. Nämlich,
 dass der oder die Milchtrinkerin im mittleren Haus
 
 0:09:35.970,0:09:44.240
-lebt. Also wir wissen, wer auch immer von den Personen
+lebt. Also wissen wir, wer auch immer von den Personen
 hier stehen mag, zumindest können wir festhalten, dass
 
 0:09:44.240,0:09:52.209
-der oder die Bewohnerin des dritten Hauses, des
+Der oder die Bewohnerin des dritten Hauses, des
 mittleren Hauses, Milch als Lieblingsgetränk hat.
 
 0:09:52.209,0:09:59.930
@@ -393,15 +393,15 @@ wir etwas mehr investieren müssen. Wie gesagt, diese drei Sachen
 halten wir fest. Und zum Beispiel könnten wir
 
 0:10:12.360,0:10:20.450
-Regel fünf nehmen. Da steht nämlich: das grüne
+Regel fünf nehmen. Da steht nämlich: Das grüne
 Haus ist direkt rechts vom elfenbeinfarbenen Haus.
 
 0:10:20.450,0:10:25.700
-Das erlaubt uns nicht jetzt einfach irgendwo grün
+Das erlaubt uns nicht, jetzt einfach irgendwo grün
 oder elfenbeinfarben schon hineinzuschreiben.
 
 0:10:25.700,0:10:31.820
-Allerdings nach Ausschlussprinzip sind zumindest
+Allerdings sind nach Ausschlussprinzip zumindest
 die Möglichkeiten eingeschränkt. Zum Beispiel
 
 0:10:31.820,0:10:35.450
@@ -429,7 +429,7 @@ Denn wenn das grüne Haus hier stünde, müsste hier das elfenbeinfarbene
 Haus stehen. Aber wir haben schon festgelegt,
 
 0:10:58.440,0:11:03.730
-dass hier auf jeden Fall das blaue Haus steht. Also was heißt
+dass hier auf jeden Fall das blaue Haus steht. Also, was heißt
 das? Das heißt, dass es zwei Möglichkeiten gibt
 
 0:11:03.730,0:11:10.529
@@ -438,7 +438,7 @@ nämlich hier liegen.
 
 0:11:10.529,0:11:17.470
 Genauer können wir das im Moment
-nicht sagen, aber können zumindest diese beiden
+nicht sagen, aber wir können zumindest diese beiden
 
 0:11:17.470,0:11:25.800
 Möglichkeiten betrachten. Aus der fünften Regel können
@@ -453,7 +453,7 @@ eine von beiden muss stimmen. Warum ist das
 nützlich, das vielleicht zu betrachten? Wenn wir
 
 0:11:38.800,0:11:44.940
-uns dafür (zumindest erstmal vorläufig) comitten würden,
+uns dafür (zumindest erstmal vorläufig) committen würden,
 also eine Annahme treffen würden, wo denn nun elfenbeinfarben
 
 0:11:44.940,0:11:50.339
@@ -485,7 +485,7 @@ Diese Wahl würde sich dann nach der dritten Regel
 hier unten mit Konsequenz auswirken.
 
 0:12:26.980,0:12:31.760
-Wenn wir jetzt so eine Situation haben, und Sie
+Wenn wir jetzt so eine Situation haben und Sie
 lösen so ein Rätsel von Hand, dann müssen Sie auch mal
 
 0:12:31.760,0:12:35.529
@@ -497,7 +497,7 @@ beiden Wahlen ist die erste die korrekte. Dann würden wir also das
 beides festhalten und hier den Kaffeetrinker
 
 0:12:41.649,0:12:49.170
-verorten. Und dann könnten wir weiter sehen, ob wir
+verorten. Und dann könnten wir weitersehen, ob wir
 zu einer Lösung kommen. Also nehmen wir mal an, wir entscheiden
 
 0:12:49.170,0:12:58.710
@@ -517,7 +517,7 @@ der Reihe nach tun, ist in dem Fall schon die
 erste Regel direkt hilfreich und liefert uns
 
 0:13:15.779,0:13:23.640
-neue Information. Sie sagt nämlich, dass der
+neue Informationen. Sie sagt nämlich, dass der
 Engländer im roten Haus lebt. Und mit der so gefüllten
 
 0:13:23.640,0:13:30.240
@@ -537,8 +537,8 @@ hier leben. Das wäre aber nicht so, wenn wir die andere Wahl getroffen hätten.
 Wenn wir elfenbeinfarben und grün auf 4 und 5 gesetzt hätten,
 
 0:13:48.320,0:13:56.420
-dann würde wahrscheinlich, oder sogar
-notwendigerweise, dieser Kasten an diese Stelle wandern.
+dann würde wahrscheinlich oder sogar
+notwendigerweise dieser Kasten an diese Stelle wandern.
 
 0:13:56.420,0:14:01.970
 Aber wir haben uns jetzt so entschieden und dann können
@@ -561,11 +561,11 @@ noch eine Farbe. Und da müssen wir einfach nur in dem Rätsel
 nachschauen, welche Farben es überhaupt gibt. Wir werden
 
 0:14:23.930,0:14:28.750
-feststellen, es werden genau fünf Farben genannt. Neben
+Feststellen, es werden genau fünf Farben genannt. Neben
 den vier hier schon festgelegten fehlt nur
 
 0:14:28.750,0:14:34.430
-noch gelb. D.h. die Setzung, dass hier vorne
+noch Gelb. D.h. die Setzung, dass hier vorne
 das gelbe Haus sein muss, folgt gar nicht
 
 0:14:34.430,0:14:39.980
@@ -590,7 +590,7 @@ mal gewesen, als dieses Rätsel aktuell
 
 0:15:10.540,0:15:18.990
 war - im gelben Haus wohl die präferierte
-Marke sein sollen. D.h. nachdem wir diese Annahme
+Marke sein soll. D.h. nachdem wir diese Annahme
 
 0:15:18.990,0:15:26.930
 hier getroffen haben, können wir auch hier
@@ -746,7 +746,7 @@ Aber dieses Ausprobieren und dann wirklich immer
 
 0:19:17.530,0:19:25.520
 verfolgen, was denn daraus folgt und gegebenenfalls
-auch Entscheidungen umzutreffen, das ist eine
+auch Entscheidungen zu treffen, das ist eine
 
 0:19:25.520,0:19:30.410
 allgemeine, algorithmische Vorgehensweise natürlich,
@@ -818,10 +818,10 @@ weiterverfolgen. Für das Ausschlussverfahren
 
 0:21:23.640,0:21:28.740
 für die Zuordnung von „yellow“ konnten
-wir gar nicht direkt eine Regel verwenden,
+wir gar nicht direkt eine Regel verwenden
 
 0:21:28.740,0:21:33.341
-aber es blieb für die eine Position nur noch
+Aber es blieb für die eine Position nur noch
 übrig, dass dieses Haus gelb sein muss. Unter
 
 0:21:33.341,0:21:38.010
@@ -902,7 +902,7 @@ sich beschäftigt unter anderem mit Aussagen
 
 0:23:23.090,0:23:28.500
 der folgenden Form, über einen anderen
-Philosophen in diesem Beispiel. Also:  „Wenn alle
+Philosophen in diesem Beispiel. Also: „Wenn alle
 
 0:23:28.500,0:23:33.990
 Menschen sterblich sind und Sokrates ein Mensch
@@ -942,11 +942,11 @@ dass wer immer im grünen Haus wohnt, Kaffee trinkt
 
 0:24:21.870,0:24:33.429
 dass X in dem Beispiel der Bewohner des grünen
-Hauses war (also irgendeine Angabe, die bei der Nationalität
+Hauses war (also irgendeine Angabe, die bei der Nationalität.
 
 0:24:33.429,0:24:38.510
 anzugeben ist), dann wissen wir, wer auch immer das sein
-mag, der im grünen Haus wohnt, der trinkt dann auch
+mag. Der im grünen Haus wohnt, der trinkt dann auch
 
 0:24:38.510,0:24:48.210
 Kaffee. Dann entspricht eben „sterblich
@@ -961,7 +961,7 @@ sozusagen der Sokrates. Es ist das gleiche
 Muster, nur mit anderen Begriffen. Und das ist auch
 
 0:25:05.159,0:25:11.169
-die Erkenntnis, oder die Überlegung von Aristoteles,
+die Erkenntnis oder die Überlegung von Aristoteles,
 eben solche Aussagen unabhängig von dem konkreten
 
 0:25:11.169,0:25:18.230
@@ -990,7 +990,7 @@ alle Menschen sterblich sind, dann sind auch
 
 0:25:50.720,0:25:55.210
 alle Philosophen sterblich.“ Im Beispiel eben
-war eben nur ein spezieller Philosoph betrachtet, nämlich
+war nur ein spezieller Philosoph betrachtet, nämlich
 
 0:25:55.210,0:26:09.919
 Sokrates. Das ist sehr ähnlich zu der ersten
@@ -1053,11 +1053,11 @@ man zum Beispiel nachdenkt, was es heißt, „alle“ und
 ist oder nicht. Aber genau dafür gibt es eben diese
 
 0:27:35.880,0:27:41.610
-Art Kategorisierung von solchen Aussagen.
+Art der Kategorisierung von solchen Aussagen.
 Wichtig ist: eigentlich sollen sie verwendbar
 
 0:27:41.610,0:27:48.230
-sein unabhängig natürlich vom konkreten
+sein, unabhängig natürlich vom konkreten
 Inhalt der Begriffe. Noch ein interessanter
 
 0:27:48.230,0:27:57.450
@@ -1113,7 +1113,7 @@ durch irgendwelche anderen Tiere ersetzen? Schauen wir mal, was dann passiert.
 Was wäre mit folgenden Varianten, statt diesem
 
 0:29:26.649,0:29:33.919
-eben gesehenen letzten Syllogismus. Zum Beispiel
+eben gesehenen letzten Syllogismus? Zum Beispiel
 können wir die Delfine durch Elefanten ersetzen.
 
 0:29:33.919,0:29:37.970
@@ -1129,7 +1129,7 @@ Leider stimmt es nicht, dass alle Elefanten
 im Meer leben. Heißt das deswegen, dass diese
 
 0:29:51.870,0:29:57.470
-Aussage hier falsch ist? Zunächst erstmal
+Aussage hier falsch ist? Zunächst einmal
 ist natürlich die Folgerung, also die Aussage
 
 0:29:57.470,0:30:01.940
@@ -1186,7 +1186,7 @@ Bei den Syllogismen ist wirklich die Forderung
 
 0:31:19.800,0:31:26.200
 auch von Aristoteles gewesen, dass es darum geht,
-dass man das was herauskommt aus den gegebenen
+dass man das, was herauskommt, aus den gegebenen
 
 0:31:26.200,0:31:33.200
 Dingen folgern kann und zwar aus nur diesen. Also dass man
@@ -1194,15 +1194,15 @@ nichts weiteres braucht. Sonst ist es kein überzeugender
 
 0:31:33.200,0:31:41.820
 Schlussweg, wenn man noch anderes Wissen braucht
-als das was in der Regel, in diesem Tripel hier, in
+als das, was in der Regel, in diesem Tripel hier, in
 
 0:31:41.820,0:31:49.500
 diesem Aufschrieb, festgehalten ist. Was wäre, wenn wir
-die Elefanten durch noch was anderes ersetzen? Wenn denn die Begriffe
+die Elefanten durch noch etwas anderes ersetzen? Wenn denn die Begriffe
 
 0:31:49.500,0:31:54.710
 austauschbar sein sollen in solcher Schlussweise, könnten wir
-für Elefanten auch was absurdes nehmen? Wie wäre es mit
+für Elefanten auch etwas Absurdes nehmen? Wie wäre es mit
 
 0:31:54.710,0:32:01.149
 Tomaten? Also „Wenn alle Tomaten Säugetiere
@@ -1229,7 +1229,7 @@ steht einfach Quatsch oben drüber. Aber eine
 wichtige Erkenntnis oder Tatsache, die uns auch
 
 0:32:35.110,0:32:38.350
-auf formaler Ebene wieder begegnen wird: aus
+auf formaler Ebene wieder begegnen wird: Aus
 Quatsch kann man eigentlich alles folgern.
 
 0:32:38.350,0:32:45.409
@@ -1250,7 +1250,7 @@ wäre denn, wenn wir die Tomaten noch durch größeren Quatsch
 
 0:33:10.649,0:33:15.669
 ersetzen, der vielleicht gar nicht existiert? Was ist, wenn ich
-betrachten würde: ich nehme nicht Delfine, nicht Elefanten,
+betrachten würde: Ich nehme nicht Delfine, nicht Elefanten,
 
 0:33:15.669,0:33:21.049
 nicht Tomaten, ich nehme Aliens. „Alle Aliens sind
@@ -1321,7 +1321,7 @@ plötzlich ausgestorben wären, könnte
 ich plötzlich mit diesem Syllogismus, über
 
 0:35:05.290,0:35:12.359
-die gar nicht existieren Aliens, doch argumentieren,
+die gar nicht existierenden Aliens, doch argumentieren,
 dass es Säugetiere im Meer gibt. Was folgt daraus? Daraus
 
 0:35:12.359,0:35:16.470
@@ -1329,7 +1329,7 @@ folgt, dass diese Art Schlussweise eigentlich
 eingeschränkt werden muss. Diese dritte Art
 
 0:35:16.470,0:35:24.820
-Syllogismus, die darf nur angewendet werden,
+Syllogismus darf nur angewendet werden,
 wenn tatsächlich diese als Zeugen genannten
 
 0:35:24.820,0:35:32.470
@@ -1369,8 +1369,8 @@ zu argumentieren und zu versuchen, wann das
 gleichen Sinne noch etwas andere, auch in gewisser Weise
 
 0:36:30.460,0:36:37.680
-bizarre Aussagen so wie eben mit den nicht existierenden
-Aliens. Einfach um das Bewusstsein zu schärfen
+bizarre Aussagen, so wie eben mit den nicht existierenden
+Aliens. Einfach, um das Bewusstsein zu schärfen
 
 0:36:37.680,0:36:46.910
 dafür, was mit Sprache passiert, und was eigentlich
@@ -1381,23 +1381,23 @@ wäre in einer Live-Vorlesung natürlich schöner, weil ich Sie
 dann fragen könnte, was Sie denn von folgender
 
 0:36:50.730,0:36:58.430
-Aussage halten. „Wenn der Mond grün
+Aussage halten: „Wenn der Mond grün 
 ist, haben wir Donnerstag.“ Ich nehme das
 
 0:36:58.430,0:37:02.570
 Video in diesem konkreten Fall jetzt tatsächlich auch
-an einem Donnerstagmorgen auf, zu dem Zeitpunkt
+an einem Donnerstagmorgen auf, zu dem Zeitpunkt,
 
 0:37:02.570,0:37:11.560
 wo sonst die Vorlesung wäre. Also könnte man sagen,
-ja diese Aussage ist wahr. Wir haben ja Donnerstag.
+ja, diese Aussage ist wahr. Wir haben ja Donnerstag.
 
 0:37:11.560,0:37:15.349
 Jetzt könnte man sich dennoch immer noch fragen: „Wenn
 der Mond grün ist, haben wir Donnerstag. Ist denn
 
 0:37:15.349,0:37:24.670
-diese Aussage so sinnvoll?“ Nun, es kommt drauf an.
+diese Aussage so sinnvoll?“ Nun, es kommt darauf an.
 Also meine Argumentation wäre,
 
 0:37:24.670,0:37:31.550
@@ -1481,7 +1481,7 @@ wie Sie mir denn, wenn Sie dem nicht zustimmen
 (denn irgendwie ist diese Aussage schon komisch, zu sagen
 
 0:39:34.240,0:39:41.079
-„Weil der Mond nicht grün ist, haben Donnerstag.“),
+„Weil der Mond nicht grün ist, haben wir Donnerstag.“),
 da könnten Sie auch mal überlegen, wie Sie mir denn einen
 
 0:39:41.079,0:39:47.550
@@ -1489,15 +1489,15 @@ Gegenbeweis führen würden. Also wenn Sie dieser
 Aussage nicht zustimmen, wie würden Sie mich denn
 
 0:39:47.550,0:39:54.211
-vom Gegenteil zu überzeugen versuchen?
+vom Gegenteil überzeugen versuchen?
 Würden Sie mir etwa anführen, dass ja
 
 0:39:54.211,0:40:01.250
-gestern Mittwoch war, und da war der Mond auch
+gestern Mittwoch war und da war der Mond auch
 nicht grün, also wäre es irgendwie unlogisch
 
 0:40:01.250,0:40:07.540
-zu folgern, dass weil der Mond nicht grün ist,
+zu folgern, dass, weil der Mond nicht grün ist,
 wir Donnerstag haben, da ja am Mittwoch der
 
 0:40:07.540,0:40:16.500
@@ -1505,8 +1505,8 @@ Mond auch nicht grün war? Oder müssten Sie
 mir eine andere Welt zeigen, wo der Mond manchmal
 
 0:40:16.500,0:40:25.050
-doch grün ist und es trotzdem Donnerstage gibt, so dass
-die Argumentation, dass man Donnerstag hat als Folge aus der Tatsache
+doch grün ist und es trotzdem Donnerstage gibt, sodass
+die Argumentation, dass man Donnerstag hat, als Folge aus der Tatsache
 
 0:40:25.050,0:40:37.550
 "der Mond ist nicht grün", dann widerlegt wäre?
@@ -1545,7 +1545,7 @@ etwas formaler, etwas abstrakter auch unabhängig
 von konkreten Begriffen fasst, kann man solche
 
 0:41:28.839,0:41:34.869
-Wortbedeutung solcher sprachlichen Konstrukte
+Wortbedeutungen solcher sprachlichen Konstrukte
 besser verstehen. Auch für andere Arten der
 
 0:41:34.869,0:41:40.450
@@ -1569,7 +1569,7 @@ indem man sich mit symbolischer Logik beschäftigt.
 Ein anderer Grund, symbolische Logik oder
 
 0:42:11.680,0:42:19.109
-Aussagenlogik zu betreiben ist, dass tatsächlich
+Aussagenlogik zu betreiben, ist, dass tatsächlich
 neben diesen bizarren Aussagen, wo einfach die
 
 0:42:19.109,0:42:26.200
@@ -1590,14 +1590,14 @@ durchführen wollen. Das diskutiere ich hier noch kurz
 
 0:42:43.650,0:42:48.910
 mit einem Beispiel, das auch bekannt ist, und Sie vielleicht auch
-schon in einem anderem Kontext gesehen haben. Also ein einfacher
+schon in einem anderen Kontext gesehen haben. Also ein einfacher
 
 0:42:48.910,0:42:56.910
 Satz wie „Ich sah den Mann auf dem Berg mit dem
 Fernrohr.“ Das ist sprachlich nicht so schwer zu verstehen
 
 0:42:56.910,0:43:02.150
-auf den ersten Blick. Aber, wenn man
+auf den ersten Blick. Aber wenn man
 etwas genauer drüber nachdenkt, was denn überhaupt
 
 0:43:02.150,0:43:08.880
@@ -1614,7 +1614,7 @@ was das überhaupt bedeuten kann.
 
 0:43:21.780,0:43:25.250
 Vielleicht überlegen Sie auch selbst erstmal
-kurz. Halten das Video kurz an, überlegen was
+kurz. Halten Sie das Video kurz an, überlegen Sie, was
 
 0:43:25.250,0:43:30.480
 die genaue Konstellation von Personen, Objekten,
@@ -1641,7 +1641,7 @@ dem Berg, mit dem Fernrohr. Das ist eine Interpretation
 des Satzes. Wie haben wir diesen Satz dabei
 
 0:44:07.090,0:44:10.640
-interpretiert? Wenn man da ein bisschen Struktur hinein bringt,
+interpretiert? Wenn man da ein bisschen Struktur hineinbringt,
 die der Satz an sich erstmal nicht hat, weil er keine
 
 0:44:10.640,0:44:16.020
@@ -1653,12 +1653,12 @@ zusammenzufassen. Man würde feststellen, ich sah den Mann.
 Ich sah den, während ich auf dem Berg war.
 
 0:44:21.910,0:44:27.450
-Die Tatsache, dass ich den Mann sah, die
-fand auf dem Berg statt, und die fand mit dem
+Die Tatsache, dass ich den Mann sah, fand auf dem Berg statt,
+und die fand mit dem
 
 0:44:27.450,0:44:33.120
 Fernrohr statt. „Mit dem Fernrohr“ bezieht sich hier
-darauf, wie ich den Mann gesehen habe. Nämlich mit
+darauf, wie ich den Mann gesehen habe, nämlich mit
 
 0:44:33.120,0:44:39.240
 dem Fernrohr. In dem Satz wären hier sogar das
@@ -1670,7 +1670,7 @@ Mann war nicht auf dem Berg, ich war auf dem Berg. Die Tatsache, dass
 
 0:44:46.280,0:44:51.660
 ich den sah, fand auf dem Berg statt. Das ist aber
-nur einen mögliche Interpretation dieses Satzes. Wenn man den
+nur eine mögliche Interpretation dieses Satzes. Wenn man den
 
 0:44:51.660,0:44:56.790
 anders zusammenfasst, bzw. in gewissem Sinne anders klammert,
@@ -1709,12 +1709,12 @@ Hier kann man das „auf dem Berg“ und „mit dem
 Fernrohr“ natürlich nicht mehr tauschen. Der
 
 0:45:41.930,0:45:46.720
-Zusammenhang wäre ein anderer, wenn man sagen würde
+Zusammenhang wäre ein anderer, wenn man sagen würde:
 „Ich sah den Mann mit dem Fernrohr, auf
 
 0:45:46.720,0:45:55.339
 dem Berg.“ Dann hätte der Mann ein Fernrohr, statt auf
-dem Berg zu sein. Das sind also mindestens schonmal zwei Möglichkeiten.
+dem Berg zu sein. Das sind also mindestens schon mal zwei Möglichkeiten.
 
 0:45:55.339,0:46:03.510
 Aber es gibt noch weitere. Zum Beispiel könnte es sein, dass der
@@ -1749,8 +1749,8 @@ würde diese Interpretation wegfallen. Des Sinnes halber,
 nicht der sprachlichen Form halber. Während
 
 0:46:52.420,0:46:57.420
-das immer noch möglich wäre. Wenn man sagen würde, ich sah
-den Mann auf dem Berg mit der Hütte, und sich so vorstellen
+das immer noch möglich wäre. Wenn man sagen würde: „Ich sah
+den Mann auf dem Berg mit der Hütte,“ und sich so vorstellen
 
 0:46:57.420,0:47:01.510
 kann, dass hier die Hütte steht, dann sollte
@@ -1777,7 +1777,7 @@ Baumstruktur statt nur dieser Klammerstruktur, um das zu unterscheiden.
 Aber die Sprache an sich gibt das nicht her. Damit nicht genug, es gibt
 
 0:47:33.119,0:47:43.809
-noch weitere Interpretationen. Ich hab insgesamt fünf gefunden. Zum
+noch weitere Interpretationen. Ich habe insgesamt fünf gefunden. Zum
 Beispiel könnte es auch so sein: Der Mann war auf dem Berg und
 
 0:47:43.809,0:47:49.309
@@ -1785,7 +1785,7 @@ er benutzte ein Fernrohr. Vielleicht guckte er sich eine
 entfernte Stadt an, und ich sah das Ganze.
 
 0:47:49.309,0:47:52.500
-Weder befand ich mich auf den Berg. Also das „auf
+Weder befand ich mich auf dem Berg. Also das „auf
 dem Berg“ bezieht sich nicht auf mich, auf mein
 
 0:47:52.500,0:48:00.060
@@ -1809,7 +1809,7 @@ der das Fernrohr benutzt. Und hier stattdessen geht es nur um
 
 0:48:29.960,0:48:36.280
 den Mann. Der befindet sich auf dem Berg mit dem Fernrohr.
-Hier wäre der Punkt, wenn hier Hütte stünde statt
+Hier wäre der Punkt: Wenn hier Hütte stünde statt
 
 0:48:36.280,0:48:40.059
 Fernrohr, dann gäbe es eben diesen Berg mit der Hütte
@@ -1828,7 +1828,7 @@ macht man in der gesprochenen Sprache erst mal gar nicht.
 Da liefert die Aussagenlogik mit der Form von Formeln,
 
 0:49:03.200,0:49:09.150
-die eben mehr Struktur haben als eine Aneinanderreihung
+die eben mehr Struktur haben, als eine Aneinanderreihung
 von Dingen zu sein, die Chance, Sachen präzise
 
 0:49:09.150,0:49:15.480
@@ -1841,11 +1841,11 @@ hätten. Das unterstreicht ja aber nur den Punkt, dass
 
 0:49:22.540,0:49:30.270
 eben natürliche Sprache nicht eindeutig
-ist, sondern man andere Mittel braucht mitunter, wenn
+ist, sondern man andere Mittel braucht, wenn
 
 0:49:30.270,0:49:37.190
 man präzise sein möchte. Ich hatte auch schon davon
-gesprochen: vielleicht braucht man auch mehr Struktur. Vielleicht
+gesprochen: Vielleicht braucht man auch mehr Struktur. Vielleicht
 
 0:49:37.190,0:49:41.349
 bräuchte man eine Baumstruktur statt nur so einer

@@ -7,7 +7,7 @@ Fangen wir direkt mit Aufgabe 1 an.
 
 0:00:05.470,0:00:10.139
 Hier sollen wir für die folgenden Zusammenhänge
-eine passende Aussagenlogische Formel angeben.
+eine passende aussagenlogische Formel angeben.
 
 0:00:10.139,0:00:14.610
 Bei Aufgabe A haben wir den Satz: Wenn A nicht
@@ -52,7 +52,7 @@ Hier muss man aufpassen, weil ein Fehlerpotenzial
 gegeben ist.
 
 0:00:49.989,0:00:55.579
-Wenn weder A noch B gelten, dann muss genau
+Wenn weder A noch B gelten, dann muss man genau
 überlegen, wie man die Negation macht.
 
 0:00:55.579,0:01:02.139
@@ -85,7 +85,7 @@ vor die Klammer setzt, dann bedeutet das,
 dass nicht beides gleichzeitig gilt.
 
 0:01:30.090,0:01:31.940
-Aber es würde okay sein, wenn eins von beiden
+Aber es wäre okay, wenn eins von beiden
 gilt.
 
 0:01:31.940,0:01:35.710
@@ -124,14 +124,14 @@ Hier gibt es auch zwei richtige Lösungsansätze.
 
 0:02:09.530,0:02:13.870
 Ihr könnt einmal sagen: Wenn A wahr ist,
-dann kann ja B nicht wahr sein.
+dann kann B nicht wahr sein.
 
 0:02:13.870,0:02:19.370
 Also A impliziert Nicht B. Oder was wahrscheinlich
 hier anhand des Textes ersichtlicher wäre,
 
 0:02:19.370,0:02:27.080
-wenn man von vorne anfängt die Formel aufzuschreiben,
+wenn man von vorne anfängt, die Formel aufzuschreiben,
 hätte man: B kann nur wahr sein, wenn Nicht
 
 0:02:27.080,0:02:28.080

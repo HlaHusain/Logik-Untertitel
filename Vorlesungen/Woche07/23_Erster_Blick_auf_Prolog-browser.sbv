@@ -24,10 +24,10 @@ bzw. deren Unerfüllbarkeit nachgewiesen wurde.
 
 0:00:41.730,0:00:50.250
 Und ich würde Ihnen gern kurz Prolog zeigen.
-Ich mach das an dem Beispiel und
+Ich mache das an dem Beispiel und
 
 0:00:50.250,0:00:54.930
-insbesondere, weil ich ihnen zeigen will, wie Sie dann auch
+insbesondere, weil ich Ihnen zeigen will, wie Sie dann auch
 selber mit Prolog-Programmen arbeiten können.
 
 0:00:54.930,0:01:01.080
@@ -39,15 +39,15 @@ auch einfach ein Webinterface nutzen, das eigentlich
 alles unterstützt, was wir brauchen werden.
 
 0:01:07.800,0:01:13.890
-Das können sie unter dieser URL hier finden.
+Das können Sie unter dieser URL hier finden.
 Und da werde ich direkt mal dieses Beispiel hier ausprobieren
 
 0:01:13.890,0:01:20.250
-und dabei ein, zwei, drei vier Anmerkung machen.
+und dabei ein, zwei, drei, vier Anmerkungen machen.
 Also was haben wir hier? Hier können wir ein Programm eingeben
 
 0:01:20.250,0:01:26.130
-und dann hier eine Query erstellen. Denken Sie dran: Bei
+und dann hier eine Query erstellen. Denken Sie daran: Bei
 den Klauseln hatte ich von Programmklauseln und
 
 0:01:26.130,0:01:35.880
@@ -99,7 +99,7 @@ diese Implikation andersrum aufgeschrieben und dann
 statt dieses grafischen Symbols wird dieses :-
 
 0:02:44.680,0:02:56.200
-verwendet als stilisierter Pfeil. Dann hab ich wie gesagt
+verwendet als stilisierter Pfeil. Dann habe ich wie gesagt
 Kleinbuchstaben für B und A und C. Und statt des "Und's" wird hier
 
 0:02:56.200,0:03:06.790
@@ -116,7 +116,7 @@ Und wir schreiben das einfach als Regel darunter.
 
 0:03:20.020,0:03:28.600
 Also letztlich wird alles, was wir hier in einzelnen
-Zeilen hinschreiben, noch Und verknüpft, um die
+Zeilen hinschreiben, noch und verknüpft, um die
 
 0:03:28.600,0:03:33.640
 gesamte Formel zu ergeben. Wir haben hier einzelne Regeln/
@@ -124,7 +124,7 @@ einzelne Klauseln. Wir schreiben hier
 
 0:03:33.640,0:03:38.590
 einfach die Klauseln auf. Und die gelten dann alle.
-Insofern entspricht das dann der Und-Verknüpfung hier.
+Insofern entspricht das dann der und-Verknüpfung hier.
 
 0:03:38.590,0:03:45.850
 Und dann kommt hier (B => 0). Wie schreiben wir das auf?
@@ -143,7 +143,7 @@ Also schauen wir die anderen Sachen noch an. (D => A) würden
 wir schreiben als: "A wird impliziert von D."
 
 0:04:05.590,0:04:13.120
-Und was ist mit diesen Fakt hier? (1 => C). Also C ist ein
+Und was ist mit diesem Fakt hier? (1 => C). Also C ist ein
 Fakt, gilt immer. Das schreiben wir einfach als "c.".
 
 0:04:13.120,0:04:18.670
@@ -160,10 +160,10 @@ wir die Programmklauseln, die vier abgedeckt, und dann
 
 0:04:32.370,0:04:37.380
 müssten wir was mit der Anfrageklausel machen.
-Aber diese Zielklausel gehört in das Query Fenster hier unten.
+Aber diese Zielklausel gehört in das Query-Fenster hier unten.
 
 0:04:37.380,0:04:48.570
-(Jetzt mach ich das mal wieder ein bisschen kleiner,
+(Jetzt mache ich das mal wieder ein bisschen kleiner,
 damit ich an die Knöpfe drankomme.)
 
 0:04:48.570,0:04:56.820
@@ -192,10 +192,10 @@ Da im Hintergrund ist letztlich diese Resolution abgelaufen.
 
 0:05:36.660,0:05:45.270
 Das können wir auch etwas genauer sehen bzw.
-ein bisschen zum Markierungsalorithmus in Beziehung setzen,
+ein bisschen zum Markierungsalgorithmus in Beziehung setzen.
 
 0:05:45.270,0:05:49.470
-wenn wir hier sagen, wir würden das gerne Ausführen in einem
+Wenn wir hier sagen, wir würden das gerne ausführen in einem
 sogenannten Debug-Modus.
 
 0:05:49.470,0:05:54.960
@@ -208,10 +208,10 @@ so schrittweise Sachen ausführen. Jetzt müssen Sie
 
 0:06:00.720,0:06:05.280
 nicht ganz genau verstehen, was hier Exit und Call etc. bedeutet.
-Aber was wir sehen können ist
+Aber was wir sehen können, ist
 
 0:06:05.280,0:06:11.790
-eine Reihenfolge b , a, d, c und das entspricht nicht
+eine Reihenfolge b, a, d, c und das entspricht nicht
 zufällig der Reihenfolge von positiven Literalen
 
 0:06:11.790,0:06:21.860
@@ -232,14 +232,14 @@ also daraus lernen. Wie gesagt, wenn ich b nur so frage,
 
 0:06:45.530,0:06:51.740
 erhalte ich true. Was könnten wir noch machen? Wir könnten zum Beispiel mal
-das Programm etwas ändern. Also nehmen wir an die Formel
+das Programm etwas ändern. Also nehmen wir an, die Formel
 
 0:06:51.740,0:07:00.410
 wäre anders gewesen. Vielleicht machen wir hier aus d folgt nicht a,
 sondern zum Beispiel c.
 
 0:07:00.410,0:07:10.910
-Nehmen wir an wir hätten irgendwie diese Regel gehabt.
+Nehmen wir an, wir hätten irgendwie diese Regel gehabt.
 Lassen das ablaufen. Dann kommt eine Fehlermeldung.
 
 0:07:10.910,0:07:18.740
@@ -264,14 +264,14 @@ In Prolog heißen diese Dinger eben Prozeduren oder es wird so
 
 0:07:46.910,0:07:52.160
 darüber geredet. Deswegen nennt man das eine Prozedurklausel.
-Wenn ich das hier Überschreibe, dann gibt es für a
+Wenn ich das hier überschreibe, dann gibt es für a
 
 0:07:52.160,0:07:59.190
 keine Prozedurklausel. Und das ist hier die Beschwerde.
 Dann könnten wir sagen, dann führen wir eben für a etwas anderes ein.
 
 0:07:59.190,0:08:08.100
-Sagen wir zum Beispiel a folgt aus c. Das wäre von der
+Sagen wir zum Beispiel, a folgt aus c. Das wäre von der
 Form her immer noch eine Hornklausel.
 
 0:08:08.100,0:08:14.160
@@ -279,7 +279,7 @@ Und wenn wir das hier "ver-unden" mit Konjunktionen, dann wäre
 das immer noch eine Hornformel. Alles, was wir hinschreiben,
 
 0:08:14.160,0:08:20.130
-entspricht auf die Art und Weise solchen Hornformeln
+entspricht auf die Art und Weise solchen Hornformeln,
 wie in der Vorlesung eingeführt.
 
 0:08:20.130,0:08:28.860
@@ -327,15 +327,15 @@ Aber das zu verstehen führt hier zu weit. Das wird uns in
 den folgenden Wochen beschäftigen. Jetzt ging es ja nur
 
 0:09:32.820,0:09:39.420
-darum überhaupt diese Lesart der Hornformeln
+darum, überhaupt diese Lesart der Hornformeln
 als Prolog-Programme zumindest schon mal anzudeuten
 
 0:09:39.420,0:09:48.510
 und auch diese Trennung in Programmklauseln,
-Prozedurklauseln, Regeln, Fakten, Tatsachenklausel
+Prozedurklauseln, Regeln, Fakten, Tatsachenklauseln
 
 0:09:48.510,0:09:55.830
-einerseits und Anfrageklauseln/ Query andererseits
+einerseits und Anfrageklauseln/Query andererseits
 zu sehen. Die hier in der Hornformel einfach nur
 
 0:09:55.830,0:09:59.790
@@ -356,8 +356,8 @@ Aber vielleicht können Sie auch schon mal mit dieser
 
 0:10:15.990,0:10:20.670
 Webseite spielen. Oder sich zumindest damit vertraut
-machen, wie sie die erreichen und Sachen eingeben können etc.
+machen, wie Sie die erreichen und Sachen eingeben können etc.
 
 0:10:20.670,0:10:26.550
-Das hilft ihnen dann sicherlich bei
+Das hilft Ihnen dann sicherlich bei
 den echten Programmen, die wir betrachten wollen.

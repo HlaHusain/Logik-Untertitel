@@ -12,7 +12,7 @@ Ich hatte gerade in dem anderen Video w und f als
 
 0:00:24.480,0:00:31.740
 Elementaraussagen A, B, C jeweils festgehalten hatte, ob sie wahr
-oder falsch sind. Statt diese Buchstaben w und f verwendet man
+oder falsch sind. Statt dieser Buchstaben w und f verwendet man
 
 0:00:31.740,0:00:36.600
 auch Zahlen 1 für wahr und 0 für falsch.
@@ -20,10 +20,10 @@ Die Menge dieser beiden Wahrheitswerte
 
 0:00:36.600,0:00:44.550
 würde man dann zum Beispiel W nennen. Manchmal auch
-B für Boole'sch. Jeweils als Menge der Werte, die man
+B für Boolesch. Jeweils als Menge der Werte, die man
 
 0:00:44.550,0:00:49.080
-zur Auswahl hat. Und wegen ausgeschlossenem Dritten gibt
+zur Auswahl hat. Und wegen des ausgeschlossenen Dritten gibt
 es nur zwei Werte. Nämlich 0 und 1, falsch und
 
 0:00:49.080,0:00:57.030
@@ -82,7 +82,7 @@ Element aus der Menge M einen Wert aus W angibt.
 Also die letzte Belegung, die ich in dem letzten Video grün
 
 0:02:22.980,0:02:31.920
-mit einen Kasten am Ende versehen hatte, war die
+mit einem Kasten am Ende versehen hatte, war die
 Festlegung, dass A falsch sei, B wahr sei und C falsch
 
 0:02:31.920,0:02:38.040
@@ -99,7 +99,7 @@ Belegung legen wir fest und nennen die α. Wir haben da
 
 0:02:51.450,0:02:58.980
 verschiedene Wahlen. Das ist ein Beispiel. Und dann wollen
-wir folgendes machen: Dann wollen wir für Formeln
+wir Folgendes machen: Dann wollen wir für Formeln
 
 0:02:58.980,0:03:04.410
 über dieser Menge, in denen also diese Elementaraussagen
@@ -115,7 +115,7 @@ aller Formeln, die nur aus den atomaren Formeln aus M
 
 0:03:17.940,0:03:24.390
 aufgebaut sind. Also wenn ich mit M = \{A, B, C\}
-starte, dann stecken in diesem „M^“ so Formeln drin
+starte, dann stecken in diesem „M^“ so Formeln drin,
 
 0:03:24.390,0:03:36.600
 wie: (A ∧ B), ((A ∨ ¬B) ∧ C) etc. Aber keine Formeln, in
@@ -123,14 +123,14 @@ denen irgendwie D oder F oder A1 vorkommt. Dann habe ich diese
 
 0:03:36.600,0:03:44.160
 Menge M^ und jetzt erweitere ich diese Zuordnung A bzw.
-α auch zu einem „α^“ , was eben den
+α auch zu einem „α^“, was eben den
 
 0:03:44.160,0:03:50.640
 Formeln aus dieser größeren Menge jeweils einen Wahrheitswert
-zuordnet. Das würden wir dann so schreiben: α^: M^ → W „also α^ geht
+zuordnet. Das würden wir dann so schreiben: α^: M^ → W, also α^ geht
 
 0:03:50.640,0:03:56.910
-von M^ nach W.“ Statt nur von M nach W.
+von M^ nach W. Statt nur von M nach W.
 Das Ziel ist jetzt, für jede Formel, natürlich aus
 
 0:03:56.910,0:04:04.800
@@ -187,11 +187,11 @@ können selbst komplexere, zusammengebaute Formeln sein.
 
 0:05:14.820,0:05:21.180
 Wenn wir eine Formel haben (F ∧ G) und wir wollen
-wissen, welcher Wahrheitswert wird der zugeordnet
+wissen, welcher Wahrheitswert wird der zugeordnet.
 
 0:05:21.180,0:05:27.330
-mit unserer erweiterten Zuordnung, dann können
-wir nachschlagen: welcher Wahrheitswert wurde
+Mit unserer erweiterten Zuordnung können wir
+nachschlagen: welcher Wahrheitswert wurde
 
 0:05:27.330,0:05:36.240
 F zugeordnet, welcher wurde G zugeordnet. Und nur
@@ -218,7 +218,7 @@ dann wäre auch für die kombinierte Formel der
 zugeordnete Wahrheitswert 1. Andernfalls, in
 
 0:06:08.760,0:06:17.700
-allen anderen Fällen, 0. Bei der Negation wird
+allen anderen Fällen 0. Bei der Negation wird
 einfach 0 und 1 vertauscht. Also falls
 
 0:06:17.700,0:06:24.750
@@ -243,7 +243,7 @@ denn das α definiert war für die Basisformeln.
 
 0:06:49.740,0:06:57.480
 Also wenn wir eine Formel haben, und wir wollen wissen, was ist der
-α^-Wert dafür, dann hängt das ab davon, wie
+α^-Wert dafür, dann hängt das davon ab, wie
 
 0:06:57.480,0:07:02.040
 denn das ursprüngliche α auf den atomaren
@@ -263,7 +263,7 @@ einfach das, was in diesen Fallunterscheidungen
 
 0:07:21.870,0:07:29.730
 steht, in Tabellenform aus. Also das sind die Regeln,
-die wir verwendet haben gerade. Das ist jetzt hier
+die wir gerade verwendet haben. Das ist jetzt hier
 
 0:07:29.730,0:07:34.080
 aufgeschrieben für A und B. Da könnten natürlich auch F und
@@ -306,7 +306,7 @@ Für die Negation sieht die Tabelle ein wenig anders
 aus, weil es da ja keine zwei beteiligten Partner gibt.
 
 0:08:43.020,0:08:47.820
-Die Negation war ja auch in dem Syntaxbaum. Da hatte es nur
+Die Negation war ja auch in dem Syntaxbaum. Da hatte sie nur
 einen Nachfolger. Wir haben nur einen Nachfolger, für
 
 0:08:47.820,0:08:53.940
@@ -335,7 +335,7 @@ gebe ich auch gleich an, weil wir auch gleich an
 
 0:09:32.580,0:09:39.600
 einem Beispiel beide Möglichkeiten durchprobieren wollen.
-Das wichtige dabei ist, die beiden Möglichkeiten sind
+Das Wichtige dabei ist, die beiden Möglichkeiten sind
 
 0:09:39.600,0:09:43.500
 äquivalent. Also man kann das so oder so machen.
@@ -378,7 +378,7 @@ auch hätte ausrechnen können. Das ist nämlich immer
 das Produkt der beiden Werte hiervon. 0 × 0 = 0, 0 × 1 = 0,
 
 0:10:45.120,0:10:53.310
-1 × 0 = 0 und 1 × 1 = 1. Da könnte man sagen, ist Zufall. Man kann
+1 × 0 = 0 und 1 × 1 = 1. Da könnte man sagen, das ist Zufall. Man kann
 es aber auch einfach ausnutzen wollen. Man könnte also auch sagen,
 
 0:10:53.310,0:11:01.020
@@ -443,7 +443,7 @@ einer Tabelle oder Fallunterscheidung. Dann hat man
 
 0:12:33.790,0:12:41.410
 diese Zuordnung so definiert. Ist aber mathematisch
-aquivälent. Davon werden wir uns gleich überzeugen, wenn Sie es nicht
+äquivalent. Davon werden wir uns gleich überzeugen, wenn Sie es nicht
 
 0:12:41.410,0:12:46.960
 sowieso schon glauben, indem wir an einem Beispiel,

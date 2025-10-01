@@ -17,7 +17,7 @@ Wir wissen, Prolog arbeitet von oben nach
 unten.
 
 0:00:17.450,0:00:22.561
-Das heißt, wir haben hier die Anfrage: „faehrt(X,Y)“
+Das heißt, wir haben hier die Anfrage: „faehrt(X,Y)“.
 Das heißt, Prolog guckt von oben nach unten
 
 0:00:22.561,0:00:23.561
@@ -32,7 +32,7 @@ vier Mal.
 
 0:00:28.430,0:00:33.739
 Da erkennen wir, dass das die passende Regel
-ist: „faehrt(X,Y)“ Dass da P und F steht,
+ist: „faehrt(X,Y)“. Dass da P und F steht,
 
 0:00:33.739,0:00:35.909
 ist egal, da es Variablen sind.
@@ -45,7 +45,7 @@ Die Regel dazu lautet „hatFuehrerschein(P,F),
 besitzt(P,F)“.
 
 0:00:41.680,0:00:45.090
-Jetzt muss Prolog zu nächst nach "hatFuehrerschein"
+Jetzt muss Prolog zunächst nach "hatFuehrerschein"
 suchen.
 
 0:00:45.090,0:00:46.850
@@ -68,7 +68,7 @@ und F mit Motorrad.
 F ist Motorrad.
 
 0:01:03.089,0:01:05.810
-„besitzt(klaus,motorrad)“ Prolog geht
+„besitzt(klaus,motorrad)“. Prolog geht
 erneut nach oben und fängt von vorn an.
 
 0:01:05.810,0:01:09.580
@@ -92,7 +92,7 @@ Diese wollen wir belegen.
 Es könnte aber noch mehr Lösungen geben.
 
 0:01:26.270,0:01:29.300
-Das heißt, wir suchen erneut nach "Hat Führerschein".
+Das heißt, wir suchen erneut nach "hatFuehrerschein".
 
 0:01:29.300,0:01:31.770
 Prolog geht von der Stelle aus weiter, an
@@ -106,7 +106,7 @@ In der nächsten Zeile steht: "hatFuehrerschein(klaus,auto)".
 
 0:01:36.090,0:01:40.620
 Prolog beginnt erneut von oben und liest:
-"Besitzt, Klaus, Auto".
+"besitzt(klaus,auto)".
 
 0:01:40.620,0:01:42.090
 Haben wir das irgendwo?
@@ -121,7 +121,7 @@ Es gibt keine valide Lösung.
 Deshalb gehen wir eine Zeile weiter.
 
 0:01:46.350,0:01:47.980
-"Hat Führerschein, Nilo, Auto".
+"hatFuehrerschein(nilo,auto)".
 
 0:01:47.980,0:01:50.450
 Er guckt wieder oben: "besitzt(klaus,auto)".
@@ -137,7 +137,7 @@ Das heißt, auch Nilo und Auto ist eine richtige
 Lösung.
 
 0:01:57.350,0:02:00.270
-In der nächsten Zeile steht: " hatFuehrerschein(charlotte,auto".
+In der nächsten Zeile steht: "hatFuehrerschein(charlotte,auto)".
 
 0:02:00.270,0:02:02.692
 Das heißt, P ist Charlotte und F ist Auto.
@@ -168,7 +168,7 @@ und überprüfen.
 Ich habe das Programm bereits eingelesen.
 
 0:02:22.060,0:02:26.579
-Wenn ich jetzt eingebe " faehrt(X,Y)", dann
+Wenn ich jetzt eingebe "faehrt(X,Y)", dann
 sehen wir das Ergebnis, das wir erwartet haben:
 
 0:02:26.579,0:02:29.230

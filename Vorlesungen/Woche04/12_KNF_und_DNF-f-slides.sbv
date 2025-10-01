@@ -96,7 +96,7 @@ auch in einer Anwendung. Dafür möchte ich tatsächlich
 
 0:02:21.790,0:02:27.920
 ein kleines Beispiel geben. Eine wahre Geschichte
-im Zusammenhang mit dem Moodle-Kurs/ meinen Moddle-Kursen.
+im Zusammenhang mit dem Moodle-Kurs/meinen Moodle-Kursen.
 
 0:02:27.920,0:02:34.249
 Da werden wir genau so etwas sehen. Das ist also ein
@@ -243,7 +243,7 @@ Operatoren zur Kombination. Zum Beispiel kann
 man so einen Block auswählen und sagen: Der/die Teilnehmer/in
 
 0:05:49.810,0:05:55.210
-muss von den folgenden Bedingung alle erfüllen.
+muss alle der folgenden Bedingungen erfüllen.
 Und dann könnten hier unten in dem Kasten
 
 0:05:55.210,0:06:00.970
@@ -271,11 +271,11 @@ hat man verschiedene atomare Formeln. Das waren gerade
 Beispiele auf der Folie davor. Also
 
 0:06:29.480,0:06:34.880
-Sachen wie "der Zeitpunkt ist ab dem soundso" oder
-ist "vor dem soundso" als Negation dieser atomaren
+Sachen wie "der Zeitpunkt ist ab dem Soundso" oder
+ist "vor dem Soundso" als Negation dieser atomaren
 
 0:06:34.880,0:06:39.660
-Aussage. Aktivität soundso wurde abgeschlossen
+Aussage. Aktivität Soundso wurde abgeschlossen
 oder nicht abgeschlossen. Und tatsächlich
 
 0:06:39.660,0:06:48.900
@@ -336,15 +336,15 @@ Und nicht nur irgendwie eine Schachtelungsebene. Das könnte
 
 0:08:05.150,0:08:12.710
 uns ja auf die Füße fallen.
-Ein Problem, das ich im vergangen Semestern hatte:
+Ein Problem, das ich im vergangenen Semester hatte:
 
 0:08:12.710,0:08:18.830
 Da wollte ich ausdrücken, dass eine Umfrage, im Prinzip
-so etwas ähnliches wie die Startumfrage,
+so etwas Ähnliches wie die Startumfrage,
 
 0:08:18.830,0:08:23.980
 die sie auch ausgefüllt haben, (allerdings war das in
-dem Mathematik-Moodlekurs)
+dem Mathematik-Moodle-Kurs)
 
 0:08:23.980,0:08:31.540
 und da habe ich noch mehr Fragen zu den Vorkenntnissen
@@ -371,47 +371,47 @@ die Umfrage vor dem 8. September abgeschlossen
 ist. Das war einfach der Prüfungstermin.
 
 0:08:55.340,0:09:01.270
-Es schien mir nicht sinnvoll weiter nach Vorkenntnissen
+Es schien mir nicht sinnvoll, weiter nach Vorkenntnissen
 der Studierenden zu fragen, wenn die Klausur
 
 0:09:01.270,0:09:09.700
-bereits geschrieben ist. Es war irgendwie sinnvoll
+bereits geschrieben ist. Es war irgendwie sinnvoll,
 bis spätestens zum Klausurtermin das da auszufüllen.
 
 0:09:09.700,0:09:16.640
-Danach wäre es irrelevant gewesen. Eine weiterer Punkt (vielleicht etwas sehr
+Danach wäre es irrelevant gewesen. Ein weiterer Punkt (vielleicht etwas sehr
 spezifisch): Ich wollte nicht, dass die Umfrage
 
 0:09:16.640,0:09:22.590
-geöffnet ist am 21. April zwischen 8:30 und 10:00Uhr. Warum?
-Weil da eigentlich ein live Termin
+geöffnet ist am 21. April zwischen 8:30 und 10:00 Uhr. Warum?
+Weil da eigentlich ein Live-Termin
 
 0:09:22.590,0:09:28.650
 für die Vorlesung ist. Und ich in der Vergangenheit die Erfahrung
-gemacht habe, wenn während des live Termins der
+gemacht habe, wenn während des Live-Termins der.
 
 0:09:28.650,0:09:33.630
 Moodle-Kurs mit der Umfrage geöffnet ist und ich
-sage dann: "Füllen Sie doch irgendwann man die Umfrage aus.",
+sage dann: "Füllen Sie doch irgendwann mal die Umfrage aus.",
 
 0:09:33.630,0:09:38.060
 dann verschwindet die Hälfte der Studierenden
-erst mal gedanklich bei der Umfrage. Statt
+erstmal gedanklich bei der Umfrage. Statt
 
 0:09:38.060,0:09:45.070
 mit zuzuhören, wird dann eben Moodle geöffnet
 und die Umfrage ausgefüllt. Das wollte ich vermeiden. Deswegen
 
 0:09:45.070,0:09:52.920
-hatte ich vor diese Bedingungen an das Umfrageobjekt
+hatte ich vor, diese Bedingungen an das Umfrageobjekt
 zu setzen. Reichen denn dafür die
 
 0:09:52.920,0:09:58.070
-vorhanden Ausdrucksmittel? Kann ich das zusammenklicken
+vorhandenen Ausdrucksmittel? Kann ich das zusammenklicken
 mit den Zutaten, die ich Ihnen gerade auf den
 
 0:09:58.070,0:10:07.040
-Vorfolien skizziert hatte? Ich hab dann ein bisschen rumprobiert und bin direkt
+Vorfolien skizziert hatte? Ich habe dann ein bisschen rumprobiert und bin direkt
 auf ein erstes Problem gestoßen. Und zwar so
 
 0:10:07.040,0:10:12.900
@@ -419,32 +419,32 @@ etwas wie diese dritte atomare Aussage, also
 "das Datum oder die aktuelle Zeit ist zwischen
 
 0:10:12.900,0:10:19.440
-soundso und soundso" , wird in Moodle gar nicht
-unterstützt. Was man in Moodle nur sagen kann als atomare
+soundso und soundso", wird in Moodle gar nicht
+unterstützt. Was man in Moodle nur sagen kann, als atomare
 
 0:10:19.440,0:10:24.190
 Bedingungen sind die, die wir vorhin gesehen haben bzgl. der Zeit.
-Also etwas ist vor dem soundso
+Also, etwas ist vor dem soundso
 
 0:10:24.190,0:10:29.830
 vielten um soundsoviel Uhr oder nach dem soundso vielten um
-soundsoviel Uhr. Das heißt das sind gar nicht
+soundsoviel Uhr. Das heißt, das sind gar nicht
 
 0:10:29.830,0:10:35.860
 drei atomare Aussagen hier, denn die dritte
-ist keine Elementaraussagen in dem System.
+ist keine Elementaraussage in dem System.
 
 0:10:35.860,0:10:41.790
 Bei unseren sprachlichen Beispielen haben wir
 meist irgendwie A, B, C gewählt. Wir hatten Anne, Bettina, Claudia.
 
 0:10:41.790,0:10:47.200
-Dann haben wir uns entschieden, was soll A, B, C, was sollen die Grundaussagen
+Dann haben wir uns entschieden, was sollen A, B, C, was sollen die Grundaussagen
 sein. Hier ist das System so, die Grundaussagen sind vorgegeben.
 
 0:10:47.200,0:10:51.560
 Ich kann nicht einfach sagen, das ist meine dritte Grundaussage.
-Ich muss das aus dem zusammenbauen,
+Ich muss das zusammenbauen,
 
 0:10:51.560,0:10:57.960
 was Moodle mir als Elementaraussagen liefert.
@@ -455,7 +455,7 @@ die letzte Bedingung aus etwas zusammenbauen,
 was es schon gibt. Was ist das? Das ist eine
 
 0:11:03.130,0:11:11.570
-Konjunktionen von zwei Aussagen der Form "von"
+Konjunktion von zwei Aussagen der Form "von"
 und "bis". Was ich zur Verfügung hatte, waren
 
 0:11:11.570,0:11:17.500
@@ -464,10 +464,10 @@ nicht abgeschlossen B: Zeitpunkt vor dem 8. September
 
 0:11:17.500,0:11:25.140
 (und noch irgendeine Uhrzeit vielleicht) C: Zeitpunkt nach
-8:30Uhr am besagten April Tag und D: Zeitpunkt vor
+8:30 Uhr am besagten April-Tag und D: Zeitpunkt vor
 
 0:11:25.140,0:11:30.760
-10:00 Uhr am besagten April Tag. Was ich dann gerne
+10:00 Uhr am besagten April-Tag. Was ich dann gerne
 ausdrücken wollte, war diese Konjunktion.
 
 0:11:30.760,0:11:38.980
@@ -484,11 +484,11 @@ das wäre meine Formel gewesen. Kann ich aufschreiben.
 
 0:11:50.089,0:11:54.930
 Die Frage ist, kann ich die auch zusammenklicken? Und
-tatsächlich hatte schon angedeutet, dass könnte
+tatsächlich hatte ich schon angedeutet, dass ich das
 
 0:11:54.930,0:12:01.839
-ich so nicht zusammenklicken, weil es in Moodle
-nicht möglich ist, diese Operatoren also alle oder
+so nicht zusammenklicken kann, weil es in Moodle
+nicht möglich ist, diese Operatoren, also alle oder
 
 0:12:01.839,0:12:08.160
 mindestens einen dieser Operatorenblöcke
@@ -500,11 +500,11 @@ aber nicht einen weiteren solchen Kasten. Das
 
 0:12:16.250,0:12:24.080
 bedeutet, während es syntaktisch ganz einfach
-ist als Formelbaum in eine Formel der Form
+ist, als Formelbaum in eine Formel der Form
 
 0:12:24.080,0:12:29.740
 A und B und irgendwas für dieses irgendwas
-eine andere komplexe Formen einzusetzen. Das
+eine andere komplexe Form einzusetzen. Das
 
 0:12:29.740,0:12:36.410
 ist dann eine Teilformel dieser Gesamtformel
@@ -512,7 +512,7 @@ und das ist insgesamt ein gültiger Ausdruck. Eine gültige
 
 0:12:36.410,0:12:43.460
 Formel. Kann ich aber in Moodle nicht so zusammenklicken.
-Was habe ich dann probiert? Dann hab ich überlegt, ob ich das,
+Was habe ich dann probiert? Dann habe ich überlegt, ob ich das,
 
 0:12:43.460,0:12:48.089
 was ich möchte, irgendwie anders ausdrücken kann.
@@ -523,7 +523,7 @@ ganz anderen Operator außen starten. Mit dem Operator
 "es soll nicht eine der folgenden Bedingungen
 
 0:12:54.100,0:12:59.060
-erfüllt sein." Und dann versuchen das sozusagen
+erfüllt sein." Und dann versuchen, das sozusagen
 negiert im Wesentlichen auszudrücken. Oder
 
 0:12:59.060,0:13:06.000
@@ -547,15 +547,15 @@ zusammenklicken. Wenn wir das probieren, mit den Mitteln, die
 Moodle da liefert, kriegt man auch diese Formel
 
 0:13:36.290,0:13:46.330
-nicht zusammengeklickt. Was hab ich dann gemacht?
-Ich hab ein bisschen getrickst. Also ich habe eine Lösung hingekriegt.
+nicht zusammengeklickt. Was habe ich dann gemacht?
+Ich habe ein bisschen getrickst. Also, ich habe eine Lösung hingekriegt.
 
 0:13:46.330,0:13:51.730
 Und die entspricht einer speziellen Normalform.
-Das ist das interessante hier. Was habe ich getan?
+Das ist das Interessante hier. Was habe ich getan?
 
 0:13:51.730,0:13:57.620
-Ich habe folgendes getan: Man kann zwar nicht
+Ich habe Folgendes getan: Man kann zwar nicht
 die Formen beliebig zusammenklicken in Moodle.
 
 0:13:57.620,0:14:05.089
@@ -579,24 +579,24 @@ einfach sagen: In diesem Objekt (das Objekt
 ist sozusagen nur eine Hülle)
 
 0:14:28.020,0:14:32.180
-gibt es ein geschachteltes weiteres Objekt, was
+gibt es ein geschachteltes weiteres Objekt, das
 die eigentliche Umfrage erst ist. Und es hat
 
 0:14:32.180,0:14:39.220
-eine andere Bedingung. Was es letzlich bedeutet:
+eine andere Bedingung. Was es letztlich bedeutet:
 Wenn das äußere Objekt nicht zu
 
 0:14:39.220,0:14:44.020
 sehen ist für Studierende, also ausgeschaltet ist,
-dann ist automatisch auch das Innere Objekt
+dann ist automatisch auch das innere Objekt
 
 0:14:44.020,0:14:50.050
-nicht sichtbar, weil die geschachtelt sind. Oder
-umgekehrt: Um das Innere Objekt sehen zu können,
+nicht sichtbar, weil sie geschachtelt sind. Oder
+umgekehrt: Um das innere Objekt sehen zu können,
 
 0:14:50.050,0:14:56.280
-muss man, sowohl das äußere, als auch das
-innere Objekt, sehen können. Dann habe ich einfach
+muss man sowohl das äußere als auch das
+innere Objekt sehen können. Dann habe ich einfach
 
 0:14:56.280,0:15:04.080
 die Bedingungen A und B an das äußere Objekt
@@ -608,7 +608,7 @@ Es müssen diese Bedingungen beide erfüllt sein.
 
 0:15:09.830,0:15:15.420
 Und hier steht: Es muss mindestens eine Bedingung
-erfüllt sein. Das heißt hier unten habe ich eine Disjunktion
+erfüllt sein. Das heißt, hier unten habe ich eine Disjunktion
 
 0:15:15.420,0:15:26.200
 zwischen den negierten Aussagen C und D.
@@ -632,7 +632,7 @@ Das hat funktioniert. Was lernen wir
 
 0:15:52.840,0:16:01.890
 daraus? Oder warum ist es hier eine Beziehung zu Normalformen?
-Zum einem klappt das nur mit der Konjunktion.
+Zum einen klappt das nur mit der Konjunktion.
 
 0:16:01.890,0:16:06.810
 Das kann man feststellen, wenn man mit Moodle experimentiert.
@@ -640,11 +640,11 @@ Ich hätte nicht einen ähnlichen Trick verwenden
 
 0:16:06.810,0:16:14.140
 können für diese Formel mit der Disjunktion,
-weil es irgendwie nicht möglich ist die Objekte
+weil es irgendwie nicht möglich ist, die Objekte
 
 0:16:14.140,0:16:19.519
 so zu schachteln, dass das innere Objekt sichtbar
-ist, wenn die äußeren ODER die inneren Bedingungen
+ist, wenn die äußeren oder die inneren Bedingungen
 
 0:16:19.519,0:16:25.089
 zutreffen. Also es geht darum, dass die Bedingungen sich bei dieser
@@ -660,7 +660,7 @@ Formeln ist, die tatsächlich einen Namen hat.
 
 0:16:37.240,0:16:45.380
 Nämlich konjunktive Normalform. Ist
-das Zufall oder hat Moodle/ die Moodle Entwickler
+das Zufall oder haben die Moodle-Entwickler
 
 0:16:45.380,0:16:50.839
 dafür gesorgt, dass man zwar nicht beliebige
@@ -672,10 +672,10 @@ zumindest immer Formeln dieser Form ausdrücken
 
 0:16:56.480,0:17:02.390
 kann? Plus dem Wissen aus der Aussagenlogik,
-(wenn die Moodle Entwickler mal eine Logikvorlesung
+(wenn die Moodle-Entwickler mal eine Logikvorlesung
 
 0:17:02.390,0:17:09.449
-gehört haben) dass jede Formel in diese konjunktive
+gehört haben), dass jede Formel in diese konjunktive
 Normalform gebracht werden kann. Das wäre
 
 0:17:09.449,0:17:15.959
@@ -687,7 +687,7 @@ sind, ich die am Ende in Moodle immer ausdrücken
 werden können. Warum? Weil selbst meine ursprüngliche
 
 0:17:22.040,0:17:28.950
-Formel nicht sich mit Moodle zusammenklicken
+Formel sich nicht mit Moodle zusammenklicken
 lässt. Das weiß ich und werden sie bald auch
 
 0:17:28.950,0:17:35.460
@@ -704,7 +704,7 @@ weiß ich, dass sich alles irgendwie ausdrücken
 
 0:17:46.030,0:17:56.440
 lässt in Moodle. Das erfordert natürlich, dass
-wir uns mit dieser Art Formeln beschäftigen.
+wir uns mit dieser Art von Formeln beschäftigen.
 
 0:17:56.440,0:18:01.200
 Also konjunktive Normalform. Und tatsächlich gibt es
@@ -712,7 +712,7 @@ auch eine disjunktive Normalform, die allerdings
 
 0:18:01.200,0:18:09.830
 bei Moodle nicht unterstützt zu werden scheint.
-Nach diesen kurzen Exkurs, was hat es
+Nach diesem kurzen Exkurs, was hat es
 
 0:18:09.830,0:18:19.270
 mit diesen speziellen KNF und DNF auf sich?
@@ -732,7 +732,7 @@ Aber irgendwie eine größere
 
 0:18:39.920,0:18:45.620
 Teilformel, wo mehr als eine atomare Aussage
-und eventuell noch eine Negation drin vorkommt, wäre
+und eventuell noch eine Negation vorkommt, wäre
 
 0:18:45.620,0:18:54.420
 kein Literal mehr. Also das hier ist kein Literal.
@@ -755,11 +755,11 @@ von Disjunktionen von Literalen. Also die Formel
 F besteht irgendwie aus mehreren Teilen, die mit
 
 0:19:23.670,0:19:30.179
-∧ verknüpft werden. Neben dieser
-Klammerausdrücke steht irgendwie ein Ausdruck.
+∧ verknüpft werden. Neben diesen
+Klammerausdrücken steht irgendwie ein Ausdruck.
 
 0:19:30.179,0:19:37.870
-Und die werden insgesamt alle mit ∧ verknüpft
+Und die werden insgesamt alle mit ∧ verknüpft.
 Jeder dieser geschachtelten Ausdrücke muss
 
 0:19:37.870,0:19:46.179
@@ -780,7 +780,7 @@ weil hier alle möglichen Anzahlen von geschachtelten
 
 0:20:08.410,0:20:14.200
 Literalen und auch von auftretenden
-Konjunktion berücksichtigt werden sollen. Es kann durchaus
+Konjunktionen berücksichtigt werden sollen. Es kann durchaus
 
 0:20:14.200,0:20:20.160
 sein, dass m zum Beispiel zwei ist. Dann gibt es nur
@@ -816,7 +816,7 @@ muss eine Konjunktion sein. Also hier drin dürfen immer nur
 
 0:21:11.080,0:21:20.030
 ∧ stehen. Und die einzelnen Bestandteile
-dieser inneren Konjunktion, müssen wieder Literale sein.
+dieser inneren Konjunktion müssen wieder Literale sein.
 
 0:21:20.030,0:21:27.450
 Das sind also zwei ganz spezielle Formen von Formeln.
@@ -827,7 +827,7 @@ Normalform. Es ist eine Konjunktion von mehreren
 Teilen. Jeder dieser Teile ist eine Disjunktion.
 
 0:21:34.120,0:21:38.419
-Es kann auch eine sehr kruze Disjunktion sein, die nur
+Es kann auch eine sehr kurze Disjunktion sein, die nur
 aus einem Element besteht. Aber im allgemeinen Fall
 
 0:21:38.419,0:21:47.840
@@ -844,7 +844,7 @@ Satz der Aussagenlogik: Nämlich zu jeder
 
 0:22:04.460,0:22:10.620
 Formel gibt es eine äquivalente Formel in konjunktiver Normalform
-und eine äquivalente Formel disjunktiver Normalform.
+und eine äquivalente Formel in disjunktiver Normalform.
 
 0:22:10.620,0:22:15.650
 Äquivalent meint hier semantisch äquivalent,
@@ -852,7 +852,7 @@ wie in einem der anderen Videos dieser Woche
 
 0:22:15.650,0:22:24.340
 eingeführt. Also die Ursprungsformel und ihre
-äquivalente Formel in KNF, haben die gleiche Wahrheitstabelle,
+äquivalente Formel in KNF haben die gleiche Wahrheitstabelle,
 
 0:22:24.340,0:22:32.811
 wenn man jeweils eine passende Belegung nimmt.
@@ -864,15 +864,15 @@ alle Belegungen betrachtet. Dann kriegt man jeweils eine
 
 0:22:42.049,0:22:50.720
 Wahrheitstafel und die wird für die Ursprungsformel und für
-ihre äquivalente KNF Formel die gleiche Tafel sein.
+ihre äquivalente KNF-Formel die gleiche Tafel sein.
 
 0:22:50.720,0:22:57.830
 Hier steht eine äquivalente Formel. Es kann auch mehrere
-geben. Man kann zu jeder Formel eine KNF Formel
+geben. Man kann zu jeder Formel eine KNF-Formel
 
 0:22:57.830,0:23:04.130
 finden. Man kann dabei vielleicht auch die Auswahl haben, zwischen
-verschiedenen KNF Formeln, aber eine gibt
+verschiedenen KNF-Formeln, aber eine gibt
 
 0:23:04.130,0:23:16.740
 es immer, die äquivalent ist. Es kann auch zwei äquivalente
@@ -886,20 +886,20 @@ Formeln in KNF oder DNF ein. Und anschließend wird es
 dann darum gehen, wie man
 
 0:23:30.919,0:23:39.100
-zu so einer äquivaleten Formel in KNF oder DNF kommen kann.
-Ohne, dass wir das mathematisch Beweisen, dass das
+zu so einer äquivalenten Formel in KNF oder DNF kommen kann.
+Ohne dass wir das mathematisch beweisen, dass das
 
 0:23:39.100,0:23:45.800
 immer geht. Wir werden das ganz einfach tun. Zunächst für
-dieses Video noch, die Anwendung dieser Definition
+dieses Video noch die Anwendung dieser Definition
 
 0:23:45.800,0:23:51.850
-auf ein Beispiele. Dann haben wir hier einfach
+auf ein Beispiel. Dann haben wir hier einfach
 ein paar Formeln. Ein paar Kandidaten. Und ich werde jetzt
 
 0:23:51.850,0:23:58.160
 einfach die einzelnen durchsprechen. Und immer
-entscheiden (und das sollten sie dann auch können im Übungsbetrieb),
+entscheiden (und das sollten Sie dann auch können im Übungsbetrieb),
 
 0:23:58.160,0:24:06.429
 ob eine Formel eben in konjunktiver
@@ -907,14 +907,14 @@ oder disjunktiver Normalform ist. Also wie ist das mit dieser
 
 0:24:06.429,0:24:14.840
 Formel? Ist die in konjunktiver Normalform?
-Sicher nicht, denn wir sehen hier der äußerste
+Sicher nicht, denn wir sehen hier, der äußerste
 
 0:24:14.840,0:24:20.830
 Operator ist ein ∨. Wenn wir diese Formel als Syntaxbaum
 malen würden, dann hätte der an der Wurzel ein
 
 0:24:20.830,0:24:27.170
-∨ und darunter zwei Teilbäumen jeweils
+∨ und darunter zwei Teilbäume jeweils
 mit einem ∧. Das ist genau nicht, was die konjunktive
 
 0:24:27.170,0:24:35.250
@@ -942,11 +942,11 @@ Ich hatte gesagt, es muss eine Disjunktion sein
 von Konjunktionen. Aber diese Konjunktionen, die können
 
 0:25:09.430,0:25:15.340
-auch so kurz sein, dass sie nur aus einen Literal
+auch so kurz sein, dass sie nur aus einem Literal
 bestehen. Das wäre hier der Fall. Also Konjunktion mit
 
 0:25:15.340,0:25:24.510
-nur einen Literal, Konjunktion mit nur einen Literal,
+nur einem Literal, Konjunktion mit nur einem Literal,
 Konjunktion mit zwei Literalen. Also disjunktive Normalform.
 
 0:25:24.510,0:25:32.110
@@ -958,28 +958,28 @@ Operator hier. Es könnte eine disjunktive
 Normalform sein. Das ist eine Disjunktion von Konjunktionen.
 
 0:25:40.160,0:25:44.660
-Allerdings die zweite Konjunktion hier
-hat nicht die Form, dass sie einfach nur Literale
+Allerdings hat die zweite Konjunktion hier
+nicht die Form, dass sie einfach nur Literale
 
 0:25:44.660,0:25:50.630
 konjugiert. Hier haben wir eine Disjunktion. Eine Konjunktion
 von Literalen. Eine weitere Konjunktion, aber in dieser
 
 0:25:50.630,0:25:55.900
-Konjunktion sind nicht alle Bestandteile direkt
-Literale. Das ist ein Literal. Aber das ist ein komplexerer
+Konjunktionen sind nicht alle Bestandteile direkt
+Literale. Das ist ein Literal. Aber das ist ein komplexerer.
 
 0:25:55.900,0:26:03.240
 Ausdruck. Das ist in einer DNF nicht erlaubt
 und wäre es in einer KNF auch nicht.
 
 0:26:03.240,0:26:14.980
-Also weder KNF, noch DNF. Was ist mit diesem Beispiel?
-Das ist mal keine DNF. Anders als die beiden
+Also weder KNF noch DNF. Was ist mit diesem Beispiel?
+Das ist mal keine DNF, anders als die beiden
 
 0:26:14.980,0:26:21.230
 Beispiele hier oben. Weil der äußere Operator eine
-Konjunktion ist. Es aber tatsächlich eine KNF,
+Konjunktion ist. Es ist aber tatsächlich eine KNF,
 
 0:26:21.230,0:26:29.820
 denn es ist eine Konjunktion von Disjunktionen
@@ -995,19 +995,19 @@ dem nächsten Beispiel? Auch das ist eine gültige
 
 0:26:44.360,0:26:49.880
 Normalform. Hier haben wir mal den Fall, dass eine der
-geschachtelten Disjunktion etwas länger ist.
+geschachtelten Disjunktionen etwas länger ist.
 
 0:26:49.880,0:27:02.240
 Aber es ist eine Konjunktion von Disjunktionen
-von Literalen. Was mit diesem Beispiel? Offensichtlich
+von Literalen. Was ist mit diesem Beispiel? Offensichtlich
 
 0:27:02.240,0:27:07.710
-keine Konjunktion auf äußere Ebene. Also
+keine Konjunktion auf äußerer Ebene. Also
 keine konjunktive Normalform. Es könnte eine
 
 0:27:07.710,0:27:12.590
 disjunktive Normalform sein. Dann dürfte
-allerdings hier nicht so etwas komplexeres
+allerdings hier nicht so etwas Komplexeres
 
 0:27:12.590,0:27:20.470
 vorkommen. Also die inneren Elemente in der
@@ -1026,7 +1026,7 @@ Das ist weder KNF noch DNF. Wenn man dieses
 wäre es eine DNF. So wie es hier syntaktisch steht,
 
 0:27:39.360,0:27:44.030
-ist es aber weder, noch. Man muss die Formel wirklich so nehmen,
+ist es aber weder noch. Man muss die Formel wirklich so nehmen,
 wie sie wirklich da steht syntaktisch. Und nicht irgendwie
 
 0:27:44.030,0:27:47.809
@@ -1035,7 +1035,7 @@ Dann würde man die Formel umwandeln. Vielleicht
 
 0:27:47.809,0:27:53.220
 in KNF oder DNF bringen. Aber um einzuschätzen,
-ist die Formel in KNF oder DNF, muss man
+ob die Formel in KNF oder DNF ist, muss man
 
 0:27:53.220,0:28:02.480
 sie so nehmen, wie sie da steht. Dann muss man hier eben feststellen, dass
@@ -1050,7 +1050,7 @@ Konjunktionen, die jeweils sehr kurz sind. Ist das
 auch eine konjunktive Normalform? Da mag man
 
 0:28:21.500,0:28:26.480
-zunächst meinen: Nein ist es nicht, weil hier ja Disjunktion
+zunächst meinen: Nein, ist es nicht, weil hier ja Disjunktionen
 stehen. Aber tatsächlich ist es als Ganzes
 
 0:28:26.480,0:28:33.030
@@ -1058,12 +1058,12 @@ durchaus eine Konjunktion von Disjunktionen.
 Es ist auf äußerster Ebene eine Konjunktion mit
 
 0:28:33.030,0:28:40.740
-nur genau einem Element/ nur einer Formel. Nämlich
+nur genau einem Element, nur einer Formel. Nämlich
 dieser Formel, die ihrerseits eine Disjunktion ist.
 
 0:28:40.740,0:28:52.680
 Also das ist insgesamt eine Konjunktion von Disjunktionen.
-So wie hier ich auch an einigen dieser Stellen
+So wie ich hier an einigen dieser Stellen
 
 0:28:52.680,0:28:58.090
 gesagt hatte, dass hier ist zum Beispiel
@@ -1074,7 +1074,7 @@ sehr kurze. So ist das hier insgesamt eine Konjunktion
 aus genau einer Disjunktion bestehend. Deswegen
 
 0:29:05.400,0:29:15.130
-ist das sowohl in KNF, als auch in DNF.
+ist das sowohl in KNF als auch in DNF.
 Dieses Beispiel ist nichts von beidem. Das
 
 0:29:15.130,0:29:19.350
@@ -1086,48 +1086,48 @@ Formel auswirkt. Negationen dürfen in KNF
 und DNF immer nur in der Form auftauchen,
 
 0:29:27.730,0:29:34.990
-dass sie als Literal, als negatives Literal also
+dass sie als Literal, als negatives Literal, also
 als negiertes Grundatom auftreten. Das
 
 0:29:34.990,0:29:40.000
-ist hier verletzt. Also wir dürfen die Negation
+ist hier verletzt. Also dürfen wir die Negation
 nicht auf irgendwie einen komplexeren Formelteil
 
 0:29:40.000,0:29:48.520
-anwenden. Deswegen weder KNF, noch DNF.
+anwenden. Deswegen weder KNF noch DNF.
 Und das letzte Beispiel ist sehr trivial. Einfach
 
 0:29:48.520,0:29:53.990
-nur ein Literal selbst, ist auf triviale Weise
-sowohl KNF, als auch DNF. Denn es ist eine
+nur ein Literal selbst ist auf triviale Weise
+sowohl KNF als auch DNF. Denn es ist eine
 
 0:29:53.990,0:30:02.140
 Konjunktion von einer Disjunktion von genau
-nur einem Element. Das heißt die ganzen UND'S und ODER'S
+nur einem Element. Das heißt, die ganzen UND'S und ODER'S
 
 0:30:02.140,0:30:07.500
 schrumpfen zusammen, weil wir eine Konjunktion mit
 nur einem Term haben, der wiederum eine Disjunktion
 
 0:30:07.500,0:30:12.040
-mit nur einem Term ist. Nämlich mit dem Literal. Und
-auf gleiche Art und Weise ist es auch eine Disjunktion von
+mit nur einem Term ist, nämlich mit dem Literal. Und
+auf die gleiche Art und Weise ist es auch eine Disjunktion von
 
 0:30:12.040,0:30:22.750
 Konjunktionen von genau einem Literal. Deswegen ist das
-sowohl in KNF, als auch in DNF. Das ist also sozusagen
+sowohl in KNF als auch in DNF. Das ist also sozusagen
 
 0:30:22.750,0:30:29.400
 die Eingruppierung von existierenden Formeln
 in KNF und DNF. Unser Ziel wird sein, beliebige
 
 0:30:29.400,0:30:35.860
-Formeln in KNF oder DNF Form zu bringen.
+Formeln in KNF oder DNF-Form zu bringen.
 Weil man dann manchmal in bestimmten Systemen besser damit umgehen
 
 0:30:35.860,0:30:45.909
-kann. Weil Algorithmen besser funktionieren. Etc. Zunächst
-müssem sie einfach diese Beobachtung/ diese Klassifizierungen
+kann. Weil Algorithmen besser funktionieren, etc. Zunächst
+müssen sie einfach diese Beobachtung, diese Klassifizierungen
 
 0:30:45.909,0:30:46.409
 verstehen.

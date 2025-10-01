@@ -1,9 +1,9 @@
 0:00:01.120,0:00:09.060
 Zum Abschluss möchte ich die prädikatenlogische
-Resolution nochmal rückkoppeln an das,
+Resolution nochmal rückkoppeln an das.
 
 0:00:09.060,0:00:13.969
-was wir bei Prolog getan hatten. Denn Prolog und
+Was wir bei Prolog getan hatten. Denn Prolog und
 Prädikatenlogik sind ja nicht völlig verschiedene
 
 0:00:13.969,0:00:19.220
@@ -48,7 +48,7 @@ Es gibt jetzt natürlich ein paar syntaktische Unterschiede.
 
 0:01:08.820,0:01:16.130
 Zum einen, weil die Variablen in der Prädikatenlogik
-kleingeschriebenen sind. Die sind in Prolog groß.
+kleingeschrieben sind. Die sind in Prolog groß.
 
 0:01:16.130,0:01:20.240
 Umgekehrt die Prädikate wiederum: in Prolog kleingeschrieben,
@@ -104,11 +104,11 @@ alle Variablen, die darin vorkommen, allquantifiziert sind.
 
 0:02:33.910,0:02:40.319
 Also, was diese Regel sagt, ist: „Für alle x, y, z gilt:
-Wenn die Addition von x und y = z ergibt
+Wenn die Addition von x und y = z ergibt,
 
 0:02:40.319,0:02:46.549
 (das steht hier), dann gilt auch die Gegenrichtung,
-sozusagen. Also andersherum aufgeschriebenen: Wenn das gilt,
+sozusagen. Also andersherum aufgeschrieben: Wenn das gilt,
 
 0:02:46.549,0:02:55.680
 dann gilt auch das. Wenn A(x,y,z) gilt, dann gilt auch,
@@ -144,7 +144,7 @@ so dass deren Summe 2 ist? Also mit expliziten Quantoren
 
 0:03:37.579,0:03:42.730
 würden wir das aufschreiben. Also wir wollen wissen, ob es
-N und M gibt (jetzt nehme ich wieder n, m als Variablennnamen
+N und M gibt (jetzt nehme ich wieder n, m als Variablennamen
 
 0:03:42.730,0:03:49.090
 hier), so dass die Addition von diesen
@@ -184,7 +184,7 @@ auch fragen, ob die Negation dieser Implikation
 
 0:04:42.490,0:04:50.610
 (also aus der Implikation: aus dem folgt das),
-ob die Negation davon unerfüllbar ist. Was ist
+ob die Negation davon unerfüllbar ist. Was ist,
 
 0:04:50.610,0:04:55.900
 die Negation der Implikation dieser Konjunktion und
@@ -196,7 +196,7 @@ es müsste das gelten, aber das dürfte nicht gelten.
 
 0:05:04.030,0:05:10.259
 Also diese Folgerung zu untersuchen, ist äquivalent
-dazu, Unerfüllbarkeit dieser etwas größeren Konjunktion
+dazu, die Unerfüllbarkeit dieser etwas größeren Konjunktion
 
 0:05:10.259,0:05:18.770
 zu fragen (wo wir das negierte Ziel hinzugefügt haben).
@@ -244,7 +244,7 @@ auch eine Disjunktion ist, die Implikation.
 
 0:06:14.280,0:06:19.300
 Also lange Rede kurzer Sinn: Wenn wir einfach jetzt
-das Programm abspulen, was wir in den vorigen Videos hatten,
+das Programm abspielen, was wir in den vorigen Videos hatten,
 
 0:06:19.300,0:06:28.150
 wie wir eine prädikatenlogische Formel normalisieren,
@@ -252,7 +252,7 @@ dann landen wir bei dieser Matrixklauselform.
 
 0:06:28.150,0:06:35.419
 Das ist einfach so. Ganz systematisch erhalten
-aus dem Programm und der Anfrage mit diesem Vorgehen.
+wir aus dem Programm und der Anfrage mit diesem Vorgehen.
 
 0:06:35.419,0:06:41.800
 Und jetzt wäre die Frage: Wenn wir dafür jetzt
@@ -260,7 +260,7 @@ prädikatenlogische Resolution machen,
 
 0:06:41.800,0:06:47.379
 hat das irgendwas damit zu tun, wie dieser
-Prolog-Ableitungsbaum aussah? Die Antwort wird Ja sein.
+Prolog-Ableitungsbaum aussah? Die Antwort wird ja sein.
 
 0:06:47.379,0:06:55.189
 Die Frage ist aber: Was ist genau die Verbindung dazu?
@@ -291,7 +291,7 @@ gesehenen Matrixklauselform. Jetzt habe ich mehrere
 Möglichkeiten zu resolvieren. Ich könnte zum Beispiel
 
 0:07:35.729,0:07:40.509
-versuchen das hiermit zu resolvieren. Aber nehmen wir
+versuchen, das hiermit zu resolvieren. Aber nehmen wir
 mal an, ich möchte möglichst schnell zum Ziel kommen.
 
 0:07:40.509,0:07:46.090
@@ -404,7 +404,7 @@ gefunden hatten, durch Anwendung anderer Schritte
 
 0:10:33.930,0:10:40.720
 auch durch prädikatenlogische Resolution finden?
-Die Antwort ist hoffentlich Ja. Schauen wir mal:
+Die Antwort ist hoffentlich ja. Schauen wir mal:
 
 0:10:40.720,0:10:45.100
 Fangen wir einfach neu an, wieder mit unseren Klauseln,
@@ -560,11 +560,11 @@ Was entspricht in prädikatenlogischer Resolutionsweise
 
 0:14:55.860,0:15:01.550
 diesem Lösungspfad? Finden wir den denn auch?
-Und sicherlich sollte die Antwort Ja sein.
+Und sicherlich sollte die Antwort ja sein.
 
 0:15:01.550,0:15:06.899
 Wir müssen einfach schauen: Was hätten wir denn hiervon
-ausgehend auch anders machen können, als tatsächlich
+ausgehend auch anders machen können, als tatsächlich,
 
 0:15:06.899,0:15:14.009
 den Fakt zu verwenden? Also letztlich an der Stelle,
@@ -576,7 +576,7 @@ als zweites (nach der rekursiven Regel)
 
 0:15:19.680,0:15:25.319
 den Fakt zu verwenden. Die Möglichkeit, stattdessen
-hier weiterzumachen, entspricht nicht unbedingt,
+hier weiterzumachen, entspricht nicht unbedingt
 
 0:15:25.319,0:15:31.240
 hier vollkommen von null anzufangen. Sondern wir können
@@ -800,7 +800,7 @@ Denn dafür hätten wir das hiermit unifizieren müssen.
 
 0:21:36.510,0:21:42.870
 Gegebenenfalls nach Umbenennen einiger Variablen.
-Aber egal was wir mit dem x, y, z machen,
+Aber egal, was wir mit dem x, y, z machen,
 
 0:21:42.870,0:21:47.960
 durch Umbenennung, wir werden es niemals schaffen,
@@ -820,10 +820,10 @@ sondern da gibt es wirklich eine sehr gute Entsprechung
 
 0:22:06.490,0:22:14.970
 zwischen dem, was Prolog macht, und was die prädikatenlogische
-Resolution tut. Also das ist kein Zufall. Das ist "by design" sozusagen.
+Resolution tut. Also das ist kein Zufall. Das ist "by design", sozusagen.
 
 0:22:14.970,0:22:21.450
-Natürlich weil Prolog-Programme bei geeigneter Lesart auch
+Natürlich, weil Prolog-Programme bei geeigneter Lesart auch
 prädikatenlogische Formeln sind.
 
 0:22:21.450,0:22:29.809

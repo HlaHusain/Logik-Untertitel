@@ -120,7 +120,7 @@ Normalform (KNF) bringen. Und die dann in
 
 0:03:02.590,0:03:09.260
 Klauselform darstellen. Also in dieser "Menge von
-Mengen" Darstellung. Das waren in der Aussagenlogik
+Mengen"-Darstellung. Das waren in der Aussagenlogik
 
 0:03:09.260,0:03:14.900
 einfach Mengen von Mengen von Literalen.
@@ -175,7 +175,7 @@ Disjunktionen hier, und die wiederum durch die
 Im allgemeinen Fall kann natürlich da noch mehr
 
 0:04:28.080,0:04:33.310
-Mehrschrittigkeit nötig sein. Also Distributivitäts-Gesetze
+Mehrschrittigkeit nötig sein. Also Distributivitätsgesetze
 anwenden. Doppelnegation anwenden.
 
 0:04:33.310,0:04:40.039
@@ -215,7 +215,7 @@ Was hieß das in der Aussagenlogik? Wir hielten sozusagen Ausschau
 nach Klauseln, wobei in der einen Klausel
 
 0:05:35.569,0:05:43.469
-ein bestimmtes Literal vorkomme und in der
+ein bestimmtes Literal vorkommt und in der
 anderen dessen Komplement, also die Negation.
 
 0:05:43.469,0:05:46.439
@@ -260,7 +260,7 @@ wo wir sozusagen durch Verbindungslinien gezeigt haben,
 
 0:06:41.300,0:06:44.729
 was wo benutzt wird. Und da konnte eben auch eine Klausel mehrfach
-genutzt werden. Es müssen nicht alle Klausel benutzt werden.
+genutzt werden. Es müssen nicht alle Klauseln benutzt werden.
 
 0:06:44.729,0:06:48.880
 In jedem Schritt darf nur genau ein Literal
@@ -283,7 +283,7 @@ auch Literale, die doppelt auftauchen
 (weil sie hier und in K2 drin waren, auch ohne
 
 0:07:14.199,0:07:23.279
-das L und das L-quer), zusammen fielen
+das L und das L-quer), zusammenfielen
 durch Idempotenz. Und diese Ergebnismenge kleiner war
 
 0:07:23.279,0:07:32.759
@@ -327,7 +327,7 @@ dann können wir ja auch einen Spezialfall betrachten,
 wo wir das y auf irgendwas instantiieren,
 
 0:08:31.689,0:08:38.550
-und dann eben danach die Komplementarität sehen,
+und dann eben danach die Komplementarität sehen
 und deswegen dann resolvieren dürfen.
 
 0:08:38.550,0:08:51.029
@@ -380,14 +380,14 @@ Der ist von der Einsicht her mindestens so wertvoll
 
 0:09:55.470,0:10:01.220
 wie Skolems Beobachtung über den Umgang mit
-Existenzquantoren. Und zwar geht dieser Schritt
+Existenzquantoren. Und zwar geht dieser Schritt.
 
 0:10:01.220,0:10:06.589
-jetzt auf Herbrand, einen anderen Logiker, zurück.
+Jetzt auf Herbrand, einen anderen Logiker, zurück.
 Und wurde von weiteren Logikern dann noch untersucht.
 
 0:10:06.589,0:10:13.120
-Insbesondere weil Herbrand sehr jung gestorben ist.
+Insbesondere, weil Herbrand sehr jung gestorben ist.
 Er hat also diese Theorie nicht zu Ende entwickelt.
 
 0:10:13.120,0:10:21.470
@@ -419,7 +419,7 @@ Das ist eine ganz wesentliche Einschränkung.
 Das erlaubt uns, rein syntaktisch mit diesen
 
 0:10:56.380,0:11:01.390
-Formeln umzugehen, ohne großartige Interpretation
+Formeln umzugehen, ohne großartige Interpretationen
 und dem Aufbau von spezifischen Strukturen.
 
 0:11:01.390,0:11:07.190
@@ -475,7 +475,7 @@ um dann mit denen operieren zu können. Jetzt heißt
 Grundresolution eben, dass wir im Prinzip so arbeiten
 
 0:12:11.660,0:12:16.500
-wie bei der aussagenlogischen Resolution, aber wenn
+wie bei der aussagenlogischen Resolution. Aber wenn
 wir Variablen in den Klauseln stehen haben,
 
 0:12:16.500,0:12:22.290
@@ -540,7 +540,7 @@ Das könnten wir, wenn dieses z und v irgendwie durch
 
 0:13:51.779,0:13:58.769
 den gleichen Term ersetzt wären. Zum Beispiel könnten wir
-sagen: wir wählen hier die Grundterme für [z / a] und
+sagen: Wir wählen hier die Grundterme für [z / a] und
 
 0:13:58.769,0:14:05.010
 für v auch. Dann hätten wir diese beiden
@@ -556,11 +556,11 @@ und übrig bleiben dieses Literal und dieses Literal.
 
 0:14:18.149,0:14:26.540
 Wieder jetzt ganz genau wie in der Aussagenlogik,
-außer eben dass jetzt diese Literale so aussehen.
+außer eben, dass jetzt diese Literale so aussehen.
 
 0:14:26.540,0:14:33.231
 Aber keine Variablen mehr enthalten, weil wir solche
-Grundinstantiierung vorgenommen haben. Dann könnte man
+Grundinstantiierungen vorgenommen haben. Dann könnte man
 
 0:14:33.231,0:14:39.649
 weitermachen. Dann sieht man: Hier gibt es komplementäre Literale.
@@ -572,7 +572,7 @@ resolvieren. Wir brauchen dafür keine
 
 0:14:44.990,0:14:51.100
 weiteren Variablenbelegungen. Das sind direkt
-komplementäre Literale. Und wir hätten tatsächlich
+komplementäre Literale. Und wir hätten tatsächlich.
 
 0:14:51.100,0:14:55.759
 die leere Klausel hergeleitet. Und wissen deswegen,
@@ -803,7 +803,7 @@ und in dem Fall auch machen muss: Ich muss diese Klausel
 nochmal anders instantiieren. Also mich zum Beispiel
 
 0:20:29.700,0:20:36.470
-entscheiden: Ich möchte auch y durch die von g(b,a) ersetzen.
+entscheiden: Ich möchte auch y durch g(b,a) ersetzen.
 Das darf ich auch. Dann kommt eben eine andere Klausel heraus,
 
 0:20:36.470,0:20:44.050
@@ -827,7 +827,7 @@ Und dann kann ich hinterher hier auch weiter resolvieren.
 Und erhalte eben meine leere Klausel, wie gewünscht.
 
 0:21:08.910,0:21:16.240
-Also das geht auf in dem Fall.
+Also das geht in dem Fall.
 Ich habe einfach gute Entscheidungen hier getroffen.
 
 0:21:16.240,0:21:21.300

@@ -1,6 +1,6 @@
 0:00:00.060,0:00:05.880
-Heute besprechen wir Übungsblatt 11 von Logik.
-Bei Aufgabe 1 haben wir zunächst eine Prologregel
+Heute besprechen wir das Übungsblatt 11 von Logik.
+Bei Aufgabe 1 haben wir zunächst eine Prologregel.
 
 0:00:05.880,0:00:11.700
 gegeben und dann vier Versuche, die Bedeutung
@@ -28,7 +28,7 @@ Aussagen identisch sind, bis auf diesen einen
 
 0:00:40.800,0:00:51.000
 Quantor hier und den Existenzquantor. Und die
-Restformeln nach den Quantoren hier, hängen echt
+Restformeln nach den Quantoren hier hängen echt
 
 0:00:51.000,0:00:56.640
 von z ab. Das heißt, sie sind zum Beispiel nicht
@@ -84,7 +84,7 @@ Dann haben wir Formel (1). Das heißt, wir
 
 0:02:07.860,0:02:12.060
 wissen, die Formeln (1) und (4) sind äquivalent,
-die Formel (2) und (3) sind äquivalent. Und
+die Formeln (2) und (3) sind äquivalent. Und
 
 0:02:12.060,0:02:17.100
 weil die Formeln (1) und (4) und (2) und (3)
@@ -96,11 +96,11 @@ und (2), wissen wir auch, dass (1) und (3) nicht
 
 0:02:22.560,0:02:26.460
 nicht äquivalent sind, (2) und (3) aber schon,
-dann können nicht (1) und (3) äquivalent sein.
+dann können (1) und (3) nicht äquivalent sein.
 
 0:02:27.060,0:02:32.340
 Das Gleiche gilt dann für (2) und (4) und für
-(3) und (4). Die sind nicht äquivalent. Das heißt
+(3) und (4). Die sind nicht äquivalent. Das heißt,
 
 0:02:32.340,0:02:38.460
 also, (1) und (4) und (2) und (3) sind äquivalent.
@@ -139,8 +139,8 @@ in G vor, können wir jetzt das umformen zu: Für
 alle z gilt nicht F, und das in Klammern, oder G.
 
 0:03:29.700,0:03:34.140
-Weil hier liegt z sowieso nicht frei drinnen
-vor, dann können wir es auch in die Klammer
+Weil hier z sowieso nicht frei drinnen
+vorliegt, dann können wir es auch in die Klammer
 
 0:03:34.140,0:03:39.060
 stellen. Wenn wir das jetzt doppelt negieren,
@@ -187,15 +187,15 @@ es existiert ein z, für das gilt, F, und das in
 Klammern, impliziert G. Das heißt, wir können
 
 0:04:42.540,0:04:48.720
-gucken vom ersten Schritt zum letzten und können
+gucken, vom ersten Schritt zum letzten und können
 sagen, für alle z gilt F impliziert G, kann man
 
 0:04:48.720,0:04:56.040
 umformen zu: Es existiert ein z, für das gilt F
-und das impliziert G. Also mit dem Existenzquantor
+und das impliziert G. Also mit dem Existenzquantor.
 
 0:04:56.040,0:05:00.240
-hier herein gezogen vor die Implikation. Hier
+Hier herein gezogen vor die Implikation. Hier
 sehen wir den Umformungsschritt. Das funktioniert.
 
 0:05:00.240,0:05:06.960
@@ -211,15 +211,15 @@ Für alle z gilt, F impliziert G. Also diese Formel
 hier nur eben Allquantor und Existenzquantor
 
 0:05:18.660,0:05:22.980
-wieder vertauscht. Also genau ein Mal andersherum.
-Diese Umformungsschritte gelten. Und jetzt wir uns
+wieder vertauscht. Also genau einmal andersherum.
+Diese Umformungsschritte gelten. Und jetzt schauen wir uns
 
 0:05:22.980,0:05:27.300
-die vereinfacht angeschaut. Wenn man die jetzt
+die vereinfacht an. Wenn man die jetzt
 auf unsere Aussagen aus der Aufgabe überträgt,
 
 0:05:27.300,0:05:35.640
-kommen wir ein Mal zu der Ausgangsformel (1). Die
+kommen wir einmal zu der Ausgangsformel (1). Die
 war diese hier. Und daraus erkennen wir jetzt,
 
 0:05:35.640,0:05:42.240
@@ -235,8 +235,8 @@ Es existiert ein z vor die Implikation. Und das
 ist Aussage (4). Daran sehen wir, dass die beiden
 
 0:05:53.100,0:05:57.840
-äquivalent sind. Das Gleiche können wir noch ein
-Mal für Aussage (2) machen. Da haben wir hier
+äquivalent sind. Das Gleiche können wir noch einmal
+für Aussage (2) machen. Da haben wir hier
 
 0:05:57.840,0:06:04.140
 diese Aussage gegeben mit dem Existenzquantor vor
@@ -275,5 +275,5 @@ Seite der Regel gilt, dann gilt das Prädikat
 vorfahr auch für x und y. Prolog würde jetzt auch
 
 0:06:52.020,0:06:58.920
-mit einer entsprechende Query genau nach diesem
+mit einer entsprechenden Query genau nach diesem
 z suchen. Und das war es auch schon zu Aufgabe 1.

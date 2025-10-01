@@ -3,7 +3,7 @@ Beginnen wir diese Woche mit einem kurzen
 Video noch einmal über die Betrachtung der
 
 0:00:07.100,0:00:13.920
-Implikation bzw. genauere Betrachtung dieser
+Implikation bzw. genaueren Betrachtung dieser
 Notation. Wir hatten zunächst
 
 0:00:13.920,0:00:20.609
@@ -20,11 +20,11 @@ das abkürzen durch diesen Ausdruck. Das könnte
 
 0:00:32.560,0:00:38.050
 man als Definition sehen. Aber natürlich
-sollte man sich nochmal vergewissern, (Das führt bei
+sollte man sich nochmal vergewissern. (Das führt bei
 
 0:00:38.050,0:00:44.379
 Implikation manchmal zu Missverständnissen.
-Vielleicht auch in Übungen) ob das überhaupt logisch
+Vielleicht auch in Übungen), ob das überhaupt logisch
 
 0:00:44.379,0:00:50.540
 richtig ist. Also ist das hier eine angemessene
@@ -64,18 +64,18 @@ als: (A => B). „Wenn der Mond grün ist (wenn A ist),
 
 0:01:36.660,0:01:46.270
 dann auch B, nämlich: Wir haben Donnerstag.“ Jetzt könnte
-man sich auf der sprachlichen Ebene Fragen: Unter
+man sich auf der sprachlichen Ebene fragen: Unter
 
 0:01:46.270,0:01:54.960
 welchen Bedingungen oder letztlich unter welchen
 Ausprägungen von A und B, (ob oder ob nicht
 
 0:01:54.960,0:02:00.289
-jeweils wahr), wir denn diesen Satz hier oben zustimmen würden.
+jeweils wahr), würden wir denn diesem Satz hier oben zustimmen?
 Natürlich gibt es dafür letztlich vier
 
 0:02:00.289,0:02:04.880
-Konstellation. Weil A und B jeweils unabhängig
+Konstellationen. Weil A und B jeweils unabhängig
 voneinander sind. Zunächst, wenn wir die Implikation nicht
 
 0:02:04.880,0:02:12.540
@@ -107,7 +107,7 @@ eine wahre Aussage ist? Wenn wir mal schauen:
 „Der Mond ist nicht grün und wir haben nicht Donnerstag.“
 
 0:02:48.010,0:02:52.250
-Kann ich dann diesen Satz: „Wenn der Mond grün ist
+Kann ich dann diesem Satz: „Wenn der Mond grün ist,
 haben wir Donnerstag.“ zustimmen?
 
 0:02:52.250,0:02:59.260
@@ -120,10 +120,10 @@ wenn der Mond grün wäre. Der Mond ist nicht grün.
 
 0:03:04.769,0:03:11.680
 Die Aussage „Wenn der Mond grün ist,
-haben Donnerstag ist“ in dem Moment wahr.
+haben wir Donnerstag“, ist in dem Moment wahr.
 
 0:03:11.680,0:03:17.860
-Logisch heißt das, aus falschem folgt beliebiges.
+Logisch heißt das: Aus Falschem folgt Beliebiges.
 Da der Mond nicht grün ist, kann der Satz
 
 0:03:17.860,0:03:22.760
@@ -132,11 +132,11 @@ nicht falsch sein, weil er gar nicht widerlegbar ist.
 
 0:03:22.760,0:03:35.930
 Analog gilt das für die zweite Konstellation.
-Der Mond nicht grün. Dann ist der Satz
+Der Mond ist nicht grün. Dann ist der Satz
 
 0:03:35.930,0:03:45.500
 „Wenn der Mond grün ist, gilt etwas anderes.“
-auf jeden Fall wahr. Im dritten Fall „Der
+auf jeden Fall wahr. Im dritten Fall: „Der
 
 0:03:45.500,0:03:52.330
 Mond ist grün. Wir haben nicht Donnerstag.“
@@ -148,7 +148,7 @@ haben wir Donnerstag.“ Wenn wir gerade in der Situation
 
 0:03:57.860,0:04:04.220
 sind, wo der Mond grün ist und wir nicht Donnerstag
-haben, wäre dieser Satz falsch. Dann hätten wir den
+haben, wäre dieser Satz falsch. Dann hätten wir ihn
 
 0:04:04.220,0:04:09.901
 widerlegt. Ein Gegenbeispiel, könnte man sagen. Das heißt,
@@ -163,7 +163,7 @@ Mond grün ist, wir Donnerstag haben.
 Und die letzte Zeile: „Der Mond ist grün. Wir
 
 0:04:23.470,0:04:28.690
-haben Donnerstag.“ Dann stimmt auch, dass wenn
+haben Donnerstag.“ Dann stimmt es auch, dass wenn
 der Mond grün ist, wir Donnerstag haben. Genau genommen ist
 
 0:04:28.690,0:04:32.830
@@ -180,19 +180,19 @@ diese Aussage auf jeden Fall. Egal, ob der Mond
 
 0:04:40.640,0:04:47.910
 grün ist oder nicht. Außer in der
-dritten Situation hier, sollten wir dem obigen
+dritten Situation hier sollten wir dem obigen
 
 0:04:47.910,0:04:53.350
 Satz zustimmen. Hier hatte ich argumentiert,
 dass das ein Gegenbeispiel ist.
 
 0:04:53.350,0:04:58.080
-Also wenn ich in der Situation bin „Der Mond ist grün.
+Also wenn ich in der Situation bin: „Der Mond ist grün.
 Wir haben nicht Donnerstag.“, dann ist dieser Satz
 
 0:04:58.080,0:05:06.120
 von hier oben auf jeden Fall falsch. Im letzten
-Satz wiederum wäre dieser Satz „aus A folgt
+Satz wiederum wäre dieser Satz „aus A folgt“
 
 0:05:06.120,0:05:12.940
 B.“ korrekt / zutreffend. Für die ersten beiden Sätze hier
@@ -212,11 +212,11 @@ Und wir aus Falschem immer beliebiges folgern können.
 
 0:05:32.600,0:05:38.490
 Aus Falschem / aus Quatsch folgt alles
-sozusagen. Und im letzten Fall, wo wir auch gesagt haben
+sozusagen. Und im letzten Fall, wo wir auch gesagt haben,
 
 0:05:38.490,0:05:44.430
 der Satz von oben trifft zu, liegt der
-Grund im wesentlichen daran, dass wir tatsächlich
+Grund im Wesentlichen daran, dass wir tatsächlich
 
 0:05:44.430,0:05:49.610
 Donnerstag haben. Das, was jetzt hier
@@ -246,12 +246,12 @@ einer Wahrheitstabelle mit A ➝ 0, weil A nicht zutrifft.
 Und B ➝ 0, weil B auch nicht zutrifft. Tatsächlich
 
 0:06:32.520,0:06:38.910
-hätte wir dann hier 0 1, 1 0, 1 1. Das ist genau auch die
+hätten wir dann hier 0 1, 1 0, 1 1. Das ist genau auch die
 Reihenfolge, in der ich in der vergangenen Woche jeweils
 
 0:06:38.910,0:06:45.940
 die Wahrheitstabellen / Wahrheitstafeln aufgestellt hatte,
-wenn ich A und B als Eingaben hatte. Das heißt wir kämen
+wenn ich A und B als Eingaben hatte. Das heißt, wir kämen
 
 0:06:45.940,0:06:51.190
 genau auf folgende Tabelle. Das hier sind die
@@ -278,8 +278,8 @@ die Definition oder für den anderen Ausdruck,
 mit dem wir die Implikation gerne umschreiben
 
 0:07:25.110,0:07:30.340
-wollen. Da müssen einfach die gleichen vier
-Konstellationen nehmen. Können uns noch mal
+wollen. Da müssen wir einfach die gleichen vier
+Konstellationen nehmen. Können uns nochmal
 
 0:07:30.340,0:07:39.280
 ¬A festhalten in dieser Spalte. Das ist natürlich einfach die
@@ -291,7 +291,7 @@ Ausdruck (¬A ∨ B) wäre einfach die
 
 0:07:45.130,0:07:51.900
 Disjunktion dieser beiden Spalten. Da sehen wir,
-dass überall 1 herauskommt außer in der
+dass überall 1 herauskommt, außer in der
 
 0:07:51.900,0:08:00.660
 dritten Zeile, weil wir da diese beiden Nullen haben.
@@ -302,7 +302,7 @@ Ausdruck (¬A ∨ B). Es sind eben genau
 die gleichen Einträge wie hier oben. Deswegen ist es
 
 0:08:05.250,0:08:11.120
-sinnvoll zu sagen (A => B) lässt sich
+sinnvoll zu sagen, (A => B) lässt sich
 schreiben oder ist äquivalent oder wird definiert
 
 0:08:11.120,0:08:22.240
@@ -338,7 +338,7 @@ und ¬A auswerten. Das wären dann
 einfach diese beiden Spalten. (Ich habe die jetzt hier vertauscht,
 
 0:09:06.010,0:09:14.190
-weil ich ¬B gleich vorn haben möchte) Dann natürlich
+weil ich ¬B gleich vorn haben möchte.) Dann natürlich
 eben hier 0 1 0 1 wird zu 1 0 1 0. 0 0 1 1 wird zu 1 1 0 0.
 
 0:09:14.190,0:09:21.780
@@ -362,8 +362,8 @@ Einträge 1 0 hat. Also hier muss die 0 rauskommen.
 An allen anderen Stellen eine 1. Das sind zwar andere
 
 0:09:49.160,0:09:56.520
-Gründe sozusagen. Diese 1 hat einen anderen Grund, als die 1.
-Im Grunde genommen diese Zeile 0 0 -> 1, die taucht hier
+Gründe sozusagen. Diese 1 hat einen anderen Grund als die 1.
+Im Grunde genommen taucht diese Zeile 0 0 -> 1 hier
 
 0:09:56.520,0:10:03.310
 unten auf 0 0 -> 1. Und umgekehrt. Aber
@@ -371,11 +371,11 @@ entscheidend ist, dass hier am Ende exakt die
 
 0:10:03.310,0:10:10.700
 gleichen Einträge herauskommen. Also in genau den gleichen
-Fällen ist diese Implikation wahr, wie diese
+Fällen ist diese Implikation wahr wie diese
 
 0:10:10.700,0:10:22.471
 Implikation war. Deswegen sind diese beiden Formeln
-und das dahinter stehende Konzept äquivalent. Man
+und das dahinterstehende Konzept äquivalent. Man
 
 0:10:22.471,0:10:29.560
 kann die Kontraposition / diese Äquivalenz auch
@@ -412,8 +412,8 @@ das denn ausgedrückt mit Disjunktion und Negation bedeutet.
 (¬B => ¬A) steht dann für (¬¬B ∨ ¬A).
 
 0:11:21.380,0:11:26.860
-Wenn wir jetzt noch aus den sprachlichen Wissen, dass doppelte
-Negation (Wenn etwas nicht nicht der Fall ist, dann
+Wenn wir jetzt noch aus dem sprachlichen Wissen, dass doppelte
+Negation (wenn etwas nicht nicht der Fall ist, dann
 
 0:11:26.860,0:11:32.220
 ist es eben der Fall), also Doppelnegation, einfach der
@@ -480,8 +480,8 @@ Kontraposition. Kontraposition heißt (F => G) ist
 äquivalent zu (¬G => ¬F). Aber wenn ich (F => G) ∧ (G => F)
 
 0:13:13.920,0:13:20.320
-habe, dann wollte ich das mit diesen Doppelpfeil
-schreiben. Da hatte ich auch einfach angegeben wie
+habe, dann wollte ich das mit diesem Doppelpfeil
+schreiben. Da hatte ich auch einfach angegeben, wie
 
 0:13:20.320,0:13:26.000
 die Tabelle dafür aussieht. Ohne es auszurechnen.
@@ -496,7 +496,7 @@ Definition der Implikation. Sich das dann für
 die Gegenrichtung überlegt. Also was wäre,
 
 0:13:40.550,0:13:45.490
-wenn hier diese beiden Spalte vertauschen würde
+wenn hier diese beiden Spalten vertauscht würden
 und dann Implikation nehmen würde. Dann ändert
 
 0:13:45.490,0:13:50.810
@@ -504,8 +504,8 @@ das genau etwas an diesen beiden Zeilen,
 weil dann die Position von 1 0
 
 0:13:50.810,0:13:59.010
-vertauscht wären. Deswegen flippen diese beiden
-Einträge hier. Und dann das was ich hier oben
+vertauscht wäre. Deswegen flippen diese beiden
+Einträge hier. Und dann das, was ich hier oben
 
 0:13:59.010,0:14:05.650
 als Abkürzung oder wofür ich die Abkürzung verwende.
@@ -560,5 +560,5 @@ Exklusives-Oder. Was also genau dann 1 ist,
 wenn genau eine der beiden Ursprungsaussagen wahr ist. Da habe ich
 
 0:15:33.120,0:15:38.960
-jetzt kein Extrasymbol für. Das könnte man aber eben schreiben, als
+jetzt kein Extrasymbol dafür. Das könnte man aber eben schreiben, als
 als ¬(A <=> B).

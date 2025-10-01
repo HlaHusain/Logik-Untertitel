@@ -1,6 +1,6 @@
 0:00:01.564,0:00:06.240
 Bei Aufgabe 2 haben wir eine prädikatenlogische
-Aussage gegeben, die gleiche aus der Vorlesung:
+Aussage gegeben, die gleiche aus der Vorlesung,
 
 0:00:06.240,0:00:14.520
 Für alle x gilt nicht M(x), x impliziert
@@ -15,7 +15,7 @@ zwei der Strukturen sollen dabei ein Modell
 der Aussage sein. Die dritte Struktur soll
 
 0:00:23.280,0:00:27.960
-passend aber kein Modell sein. Schauen wir uns
+passend, aber kein Modell sein. Schauen wir uns
 das zunächst einmal an. Nur zur Erinnerung,
 
 0:00:27.960,0:00:35.220
@@ -68,7 +68,7 @@ ja dieses Universum, die Grundmenge hier, können
 
 0:01:40.440,0:01:45.240
 wir ja beliebig wählen. Die Struktur muss dabei
-auch nicht zwangsläufig mit unserem beabsichtigtem
+auch nicht zwangsläufig mit unserem beabsichtigten
 
 0:01:45.240,0:01:50.760
 Szenario zu tun haben. Das heißt, wir könnten zum
@@ -196,7 +196,7 @@ Wenn wir die Implikation in der Aussage in eine
 
 0:05:00.660,0:05:06.360
 Disjunktion umschreiben, dann erhält man
-folgendes: F ist gleich für alle x gilt
+folgendes: F ist gleich für alle x gilt,
 
 0:05:06.360,0:05:13.140
 M(x,x) oder M(k,x). Das können wir uns auch
@@ -216,7 +216,7 @@ eins setzt aber voraus, dass A x ersetzt durch d
 
 0:05:35.520,0:05:45.900
 von dieser Formel für eins. Für alle d als Element
-aus der Grundmenge gilt, d ist das wodurch x
+aus der Grundmenge gilt, d ist das, wodurch x
 
 0:05:45.900,0:05:51.240
 ersetzt wurde, also für unsere Elemente, die wir
@@ -232,14 +232,14 @@ gilt I(k) gleich e. Wobei eben A x ersetzt durch
 
 0:06:06.780,0:06:13.260
 e bedeutet, dass eine Interpretation nunmehr
-(x) gleich e gesetzt wird. Wegen der Definition
+I(x) gleich e gesetzt wird. Wegen der Definition
 
 0:06:13.260,0:06:19.140
 von A für die Disjunktion muss auch A von x
 ersetzt durch e und dann M(x,x) gleich eins.
 
 0:06:20.280,0:06:28.200
-A von x ersetzt durch e, M (k,x), also jeweils
+A von x ersetzt durch e, M(k,x), also jeweils
 das Einzelne hier gleich eins gelten. Weil das
 
 0:06:28.200,0:06:32.520
@@ -248,7 +248,7 @@ dann eine 1 ist. Das eine bedeutet letztlich,
 
 0:06:32.520,0:06:41.760
 dass (I(x), I(x)) aus der Menge I(M) Das andere,
-I(k), I(x) aus der Menge von I(M)sein muss. Wegem
+I(k), I(x) aus der Menge von I(M) sein muss. Wegen
 
 0:06:41.760,0:06:48.600
 I(x) gleich e gleich I(k) wären aber beide
@@ -259,12 +259,12 @@ I(k) nicht aus der Menge I(M) wäre. Deswegen gibt
 es kein Modell der Aussage, in dem nicht I(k)
 
 0:06:57.420,0:07:03.960
-aus der Menge I(M) ist. Bei Aufgabe sollen wir
-sagen, wie verändert sich der Status der Aussage,
+aus der Menge I(M) ist. Bei der Aufgabe sollen wir
+sagen, wie sich der Status der Aussage,
 
 0:07:03.960,0:07:09.960
-Tautologie, erfüllbar oder unerfüllbar, wenn
-die Implikation durch eine Biimplikation ersetzt
+Tautologie, erfüllbar oder unerfüllbar, verändert,
+wenn die Implikation durch eine Biimplikation ersetzt
 
 0:07:09.960,0:07:14.040
 wird? Also hier haben wir eine Biimplikation
@@ -280,7 +280,7 @@ wir einmal sagen: Analog zur Begründung (b) können
 
 0:07:22.020,0:07:27.840
 wir sehen, dass für ein Modell der geänderten
-Aussage unter Anderem A x ersetzt durch e,
+Aussage unter anderem A x ersetzt durch e,
 
 0:07:27.840,0:07:36.540
 nicht M(x,x) gleich A x ersetzt durch e,
@@ -291,8 +291,8 @@ dieser Teil. Wobei I(x) gleich e gleich
 I(k). Es muss also I(x), I(x) nicht aus
 
 0:07:43.560,0:07:47.760
-der Menge I(M) und, in dem Fall und, I(k),
-X(k) aus der Menge I(M) gelten. Oder I(x),
+der Menge I(M) und in dem Fall und I(k),
+I(k) aus der Menge I(M) gelten. Oder I(x),
 
 0:07:47.760,0:08:01.380
 I(x) aus der Menge I(M) und I(k), I(x) nicht

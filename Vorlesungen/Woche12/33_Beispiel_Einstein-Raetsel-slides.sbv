@@ -20,7 +20,7 @@ Each of a different colour and inhabited by a man of a different nationality.
 
 0:00:31.829,0:00:37.399
 Different pet, drink and brand of smokes."
-Also es gibt diese verschiedenen Eigenschaften,
+Also gibt es diese verschiedenen Eigenschaften,
 
 0:00:37.399,0:00:43.170
 welche die Häuser haben. Wer da drin wohnt.
@@ -47,11 +47,11 @@ und wer der Wassertrinker ist. Also bestimmte
 Eigenschaften aus diesen Hinweisen herauszufinden.
 
 0:01:14.360,0:01:20.820
-In dem Fall: wer das Zebra besitzt und wer Wasser trinkt.
+In dem Fall: Wer das Zebra besitzt und wer Wasser trinkt.
 Es könnten auch andere Sachen gefragt sein. Der Punkt ist,
 
 0:01:20.820,0:01:26.680
-man muss aus den Hinweisen genug Information ziehen,
+man muss aus den Hinweisen genug Informationen ziehen,
 um solche spezifischen Fragen beantworten zu können.
 
 0:01:26.680,0:01:32.690
@@ -63,7 +63,7 @@ zunächst erst mal wahrscheinlich überlegen sollten,
 wie wir denn den Generate-Teil umsetzen können.
 
 0:01:39.790,0:01:43.780
-Der ist jetzt tatsächlich ein wenig anders, als
+Der ist jetzt tatsächlich ein wenig anders als
 in den Beispielen zuvor. Da hatten wir immer entweder
 
 0:01:43.780,0:01:49.619
@@ -87,7 +87,7 @@ auf den man irgendetwas zieht, sondern es geht einfach darum,
 dass diese verschiedenen Konstellationen, die die Häuser
 
 0:02:13.099,0:02:18.610
-haben könnten, der Suchraum ist. Dann könnten
+haben könnten, der Suchraum sind. Dann könnten
 wir erst mal ganz abstrakt herangehen und sagen:
 
 0:02:18.610,0:02:28.370
@@ -111,11 +111,11 @@ einfach alle möglichen Ausprägungen, die es hier gibt.
 Da können wir wieder diesen _ nutzen
 
 0:02:47.379,0:02:51.849
-als anonyme Variable. Also Information, die
-noch belegt werden muss natürlich,
+als anonyme Variable. Also Informationen, die
+noch belegt werden müssen natürlich,
 
 0:02:51.849,0:02:58.620
-aber am Anfang völlig frei ist. Also der Suchraum wäre
+aber am Anfang völlig frei sind. Also der Suchraum wäre
 entsprechend groß. Wir könnten auch schon etwas spezifischer sein.
 
 0:02:58.620,0:03:05.290
@@ -128,7 +128,7 @@ Also ihre Farbe, Nationalität des Bewohners etc.
 
 0:03:12.299,0:03:17.560
 Dann können wir das auch schon etwas
-spezifischer/ verfeinerter machen und sagen:
+spezifischer/verfeinerter machen und sagen:
 
 0:03:17.560,0:03:22.840
 Wir haben diese fünf Häuser. Jedes dieser fünf Häuser
@@ -139,7 +139,7 @@ am Anfang alle sozusagen leer gesetzt sind.
 Wir könnten sagen: Der Suchraum sind einfach
 
 0:03:29.849,0:03:35.370
-alle Häuser oder alle Hauslisten der Form, dass
+alle Häuser oder alle Hauslisten in der Form, dass
 wir fünf Häuser haben. Jedes Haus hat diese fünf
 
 0:03:35.370,0:03:42.019
@@ -151,7 +151,7 @@ was wir bei unserer händischen Lösung gemacht haben.
 Da hatten wir nämlich angefangen, so eine Matrix zu füllen.
 
 0:03:45.689,0:03:57.700
-Ich erinnere da noch einmal dran.
+Ich erinnere da noch einmal daran.
 Das sah nämlich so aus. So hatten wir begonnen,
 
 0:03:57.700,0:04:03.120
@@ -192,7 +192,7 @@ die man irgendwie füllen muss.
 
 0:04:51.110,0:04:59.040
 Und der Test-Teil sorgt dann hoffentlich dafür,
-dass wir oder Prolog das Problem lösen können/ kann.
+dass wir oder Prolog das Problem lösen kann.
 
 0:04:59.040,0:05:10.280
 Wie gehen wir dann für den Test-Teil durch?
@@ -200,7 +200,7 @@ Wir schauen uns einfach die einzelnen Hinweise an.
 
 0:05:10.280,0:05:14.700
 Wir haben diese Liste von Hinweisen. Die sind natürlich
-sprachlich/ verbal ausgedrückt.
+sprachlich/verbal ausgedrückt.
 
 0:05:14.700,0:05:20.280
 Wir schauen uns jeden Einzelnen davon an und überlegen,
@@ -211,16 +211,14 @@ Natürlich über diesen Suchraum. Also bezogen auf solch
 eine Häuserliste. Zum Beispiel sagt der erste Hinweis:
 
 0:05:27.641,0:05:34.460
-"Der Engländer lebt im roten Haus."
-Dann müssen wir uns noch festlegen, wie wir denn hier
+"Der Engländer lebt im roten Haus." Dann müssen wir uns noch festlegen, wie wir denn hier
 
 0:05:34.460,0:05:38.750
 die Positionen interpretieren wollen. Also welche Position
 entspricht welcher Eigenschaft? Da würden wir uns zum
 
 0:05:38.750,0:05:47.320
-Beispiel auf die Reihenfolge festlegen:
-"color, nationality, drink, pet, smoke."
+Beispiel auf die Reihenfolge festlegen: "color, nationality, drink, pet, smoke."
 
 0:05:47.320,0:05:59.240
 Das war die Reihenfolge, wie es in der Matrix auch
@@ -228,7 +226,7 @@ von Hand sozusagen angelegt war.
 
 0:05:59.240,0:06:05.520
 Diese Reihenfolge "color, nationality, drink, pet, smoke."
-Auf die lege mich jetzt hier auch fest, wenn ich diese Listen interpretiere.
+Auf die lege ich mich jetzt hier auch fest, wenn ich diese Listen interpretiere.
 
 0:06:05.520,0:06:10.470
 Dann wäre der Hinweis, dass der Engländer
@@ -276,7 +274,7 @@ Deswegen werden sie hier auch nicht irgendwie belegt.
 
 0:07:08.380,0:07:14.880
 Wir verwenden dafür also dieses member-Prädikat,
-obwohl das jetzt im Test-Teils ist. Vorher in den anderen
+obwohl das jetzt im Test-Teil ist. Vorher in den anderen
 
 0:07:14.880,0:07:20.190
 Beispielen hatten wir member oft im Generate-Teil benutzt.
@@ -303,7 +301,7 @@ erst den zehnten Hinweis nehmen. Wir beschreiben jetzt ja noch
 gar keine Suche. Wir beschreiben ja nur, was wir wollen.
 
 0:07:51.320,0:07:57.480
-Wenn sie zurückdenken an das vorletzte Video: Was? vs. Wie?
+Wenn Sie zurückdenken an das vorletzte Video: Was? vs. Wie?
 bei dem Permutationssortieren.
 
 0:07:57.480,0:08:03.320
@@ -319,7 +317,7 @@ von Hand, müssen wir das evtl. in bestimmter Reihenfolge tun.
 Aber hier, wo wir nur beschreiben, was wir eigentlich wollen,
 
 0:08:13.150,0:08:19.920
-können wir das einfach Eins nach dem Anderen tun. Also können wir
+können wir das einfach eins nach dem anderen tun. Also können wir
 den zweiten Hinweis nehmen. Der sagte: "Der Spanier besitzt einen Hund."
 
 0:08:19.920,0:08:26.000
@@ -332,7 +330,7 @@ wir schon wissen, dass dann offenbar das nicht
 
 0:08:31.090,0:08:34.970
 das gleiche Haus sein kann. Aber das ist nicht
-unsere Aufgabe das im Moment irgendwie auszudrücken
+unsere Aufgabe, das im Moment irgendwie auszudrücken
 
 0:08:34.970,0:08:43.840
 oder zu berücksichtigen. Wir übersetzen
@@ -352,7 +350,7 @@ die Lösung zu finden. Wir drücken einfach die
 
 0:09:03.900,0:09:11.280
 einzelnen Hinweise aus. Dann ist das hier ganz analog zu
-diesen ersten Hinweis und bezieht sich natürlich wieder
+diesem ersten Hinweis und bezieht sich natürlich wieder
 
 0:09:11.280,0:09:20.170
 auf die am Anfang völlig unbeschränkte Häuserliste
@@ -360,7 +358,7 @@ von der Folie zuvor. Die nächsten Hinweise
 
 0:09:20.170,0:09:24.690
 kann man auch analog behandeln. Der dritte und vierte
-Hinweis sind auch Hinweise der Form das irgendwie
+Hinweis sind auch Hinweise der Form, dass irgendwie
 
 0:09:24.690,0:09:31.130
 genau zwei Eigenschaften von Häusern gesetzt werden.
@@ -376,7 +374,7 @@ und dort Kaffee getrunken wird. Das Gleiche gilt
 
 0:09:41.320,0:09:48.360
 für den vierten Hinweis. Also die kann man einfach ganz
-analog zu den ersten und zweiten Hinweis übersetzen.
+analog zu den ersten und zweiten Hinweisen übersetzen.
 
 0:09:48.360,0:09:56.970
 Da können wir also unsere Strategie zum Ausdrücken hier
@@ -407,15 +405,15 @@ Und zwar in der Liste aller Häuser.
 Wie könnten wir das ausdrücken? Wir könnten, wenn wir
 
 0:10:30.270,0:10:34.820
-ein Prädikat hätten, was dieses "rightOf" diese
-rechts von etwas sein, ausdrücken könnte/ würde,
+ein Prädikat hätten, das dieses "rightOf", also
+rechts von etwas sein, ausdrücken könnte/würde,
 
 0:10:34.820,0:10:42.270
-dann könnten wir folgendes schreiben:
-Wir könnten sagen, es muss ein Haus geben. Dessen Eigenschaften
+dann könnten wir Folgendes schreiben:
+Wir könnten sagen, es muss ein Haus geben, dessen Eigenschaften
 
 0:10:42.270,0:10:46.900
-bis auf die Farbe sind uns egal. Aber es ist
+bis auf die Farbe uns egal sind. Aber es ist
 das grüne Haus. Und es gibt das elfenbeinfarbene Haus,
 
 0:10:46.900,0:10:52.010
@@ -432,18 +430,18 @@ Haus in unserer Liste von Häusern, was letztlich
 
 0:11:04.670,0:11:11.250
 unser Kandidat für die Lösung des Rätsels ist.
-So ein "rightOf" Prädikat gibt es so nicht vordefiniert.
+So ein "rightOf"-Prädikat gibt es so nicht vordefiniert.
 
 0:11:11.250,0:11:15.700
 Aber wir wissen ja, wie wir Listenprädikate
-selber definieren können. Es geht hier ja einfach darum
+selber definieren können. Es geht hier ja einfach darum,
 
 0:11:15.700,0:11:21.020
 in einer Liste (in dem Fall eine Liste von Häusern)
-ausdrücken, dass zwei bestimmte Elemente
+auszudrücken, dass zwei bestimmte Elemente
 
 0:11:21.020,0:11:27.360
-genauso vorkommen, dass das Eine rechts von dem Anderen steht.
+genauso vorkommen, dass das eine rechts von dem anderen steht.
 Da definieren wir uns das einfach.
 
 0:11:27.360,0:11:34.530
@@ -472,11 +470,11 @@ der Reihenfolge stehen." Da könnte man zum Beispiel
 
 0:12:01.400,0:12:07.550
 sagen: Man greife sich von der Liste einen Präfix,
-der genau bis inklusive dieser beiden Elemente
+der genau bis einschließlich dieser beiden Elemente
 
 0:12:07.550,0:12:14.650
 gehen soll. Einen Präfix zugreifen heißt einfach,
-es muss eine "egale" / unknown Liste geben,
+es muss eine "egale"/unknown Liste geben,
 
 0:12:14.650,0:12:20.710
 sodass Präfix und dieser Rest
@@ -487,7 +485,7 @@ In diesem Präfix wollen wir gern das [L, R]
 in genau dieser Reihenfolge ganz hinten stehen.
 
 0:12:25.620,0:12:31.220
-Denn, wenn sie am Ende eines Präfixes der Liste stehen,
+Denn wenn sie am Ende eines Präfixes der Liste stehen,
 dann heißt das, sie stehen irgendwo in der Liste.
 
 0:12:31.220,0:12:36.810
@@ -540,7 +538,7 @@ Danach wird es noch einmal spannender.
 
 0:13:44.839,0:13:49.110
 Denn achter und neunter Hinweis sehen wie folgt aus:
-Die sagen auch wieder nur was über ein Haus.
+Die sagen auch wieder nur etwas über ein Haus.
 
 0:13:49.110,0:13:53.860
 Aber über die Position. Also nicht irgendwie "Kaffee im grünen Haus",
@@ -584,7 +582,7 @@ die jeweils Listen sein können. Und übrigens
 
 0:14:49.170,0:14:56.170
 beim ersten Haus, da ist es nicht völlig egal,
-welche Form das hat, sondern der Nationalitäteintrag da drin
+welche Form das hat, sondern der Nationalitäten-Eintrag da drin
 
 0:14:56.170,0:15:02.930
 muss norwegisch sein. Vorher stand hier
@@ -595,8 +593,8 @@ Oder fünf Unterstriche in einer Liste. Jetzt sage ich,
 an der zweiten Position möge der Norweger stehen.
 
 0:15:08.150,0:15:13.560
-Das ist dann der neunte Hinweis, der sag eben:
-Das linkeste Haus, also das erste Haus dieser Liste ist das,
+Das ist dann der neunte Hinweis, der sagt eben:
+Das linkeste Haus, also das erste Haus dieser Liste, ist das,
 
 0:15:13.560,0:15:18.810
 wo der Norweger lebt. Und dass Milch im mittleren Haus getrunken wird,
@@ -615,8 +613,8 @@ Milch ist. Das vierte und fünfte Haus sind wieder egal.
 Denn über die wird im achten und neunten Hinweis nichts gesagt.
 
 0:15:39.790,0:15:45.940
-Wir hätten analog oder alternativ auch, den achten und neunten Hinweis,
-statt durch Eingriff in diese Häuser Darstellung, auch
+Wir hätten analog oder alternativ auch den achten und neunten Hinweis,
+statt durch Eingriff in diese Häuserdarstellung, auch
 
 0:15:45.940,0:15:53.910
 ausdrücken können, zum Beispiel mit einem first- und third-Prädikat.
@@ -640,7 +638,7 @@ Das ist ja im Endeffekt nur eine Idee des Generate-and-Test.
 
 0:16:18.850,0:16:24.660
 Man kann damit durchaus etwas herumspielen und
-muss sich nicht ganz streng da dran halten, dass
+muss sich nicht ganz streng daran halten, dass
 
 0:16:24.660,0:16:32.430
 auf keinen Fall der achte und neunte Hinweis irgendwie
@@ -651,7 +649,7 @@ Jetzt haben wir den neunten Hinweis. Wie geht es weiter?
 Der nächste Hinweis ist dieser: "Der Mann, welcher Chesterfield raucht,
 
 0:16:41.080,0:16:55.029
-lebt in dem Haus neben dem man mit dem Fuchs."
+lebt in dem Haus neben dem, wo man mit dem Fuchs."
 Das ist so ein wenig wie das rightOf - "rechts von".
 
 0:16:55.029,0:17:01.029
@@ -664,7 +662,7 @@ weil das eben nichts über "neben" aussagt, sondern rechts neben.
 
 0:17:07.130,0:17:15.660
 Wir brauchen also ein weiteres Hilfsprädikat.
-Wir würden gern so was sagen wie: "Das Haus, wo Chesterfield
+Wir würden gern so etwas sagen wie: "Das Haus, wo Chesterfield
 
 0:17:15.660,0:17:24.920
 geraucht wird, ist neben dem Haus, wo der Fuchs lebt."
@@ -687,19 +685,19 @@ Wann ist ein Element rechts von einem anderen Element in einer Liste?
 Dass zwei Elemente einfach nebeneinander sind, heißt:
 
 0:17:46.040,0:17:56.920
-entweder ist X rechts und Y oder Y rechts von X.
+entweder ist X rechts von Y oder Y rechts von X.
 In beiden Fällen, und zwar genau in diesen beiden Fällen,
 
 0:17:56.920,0:18:07.670
 ist X neben Y in der Liste.
-Das erlaubt uns den Hinweis zehn auszudrücken.
+Das erlaubt uns, den Hinweis zehn auszudrücken.
 
 0:18:07.670,0:18:13.470
 Dann kommen vier Hinweise, die sich jetzt alle
 analog zu schon gesehenen ausdrücken lassen.
 
 0:18:13.470,0:18:18.230
-Also entweder und Verwendung von "nextTo" oder von "member".
+Also entweder eine Verwendung von "nextTo" oder von "member".
 Also der elfte Hinweis ist wieder einer mit nextTo.
 
 0:18:18.230,0:18:26.530
@@ -712,11 +710,11 @@ verknüpfen. Also die Zigarettenmarke und das Getränk.
 
 0:18:33.190,0:18:37.120
 Oder die Nationalität und die Zigarettenmarke.
-Die werden wieder mit solchen member Zeilen ausgedrückt,
+Die werden wieder mit solchen member-Zeilen ausgedrückt,
 
 0:18:37.120,0:18:47.610
 wie Hinweis 1, Hinweis 2, etc.
-Hinweis 14 ist wieder ein "nextTo" Hinweis.
+Hinweis 14 ist wieder ein "nextTo"-Hinweis.
 
 0:18:47.610,0:18:54.570
 Also der würde wieder so ähnlich wie der zehnte Hinweis
@@ -728,7 +726,7 @@ Fast. Wir müssen noch sagen, was wir eigentlich wollen.
 
 0:19:02.500,0:19:09.090
 Unsere Frage müssen wir noch stellen. Letztlich
-war die Aufgabe ja den Zebrabesitzer und den
+war die Aufgabe ja, den Zebrabesitzer und den
 
 0:19:09.090,0:19:15.110
 Wassertrinker herauszufinden/ zu bestimmen,
@@ -739,7 +737,7 @@ Wie können wir das noch sozusagen ausdrücken?
 Wir verwenden einfach Variablen für den Zebrabesitzer
 
 0:19:20.250,0:19:27.300
-und den Wassertrinker. Und schreiben Forderung/ Hinweise/
+und den Wassertrinker und schreiben Forderungen/ Hinweise/
 Ausdrücke hin, die uns letztlich dann sagen:
 
 0:19:27.300,0:19:34.180
@@ -752,7 +750,7 @@ Also wir verwenden einfach Variablen
 
 0:19:40.710,0:19:46.620
 für diese beiden Unbekannten, nach denen wir
-lösen wollen und weitere member-Aufrufe,
+lösen wollen, und weitere member-Aufrufe,
 
 0:19:46.620,0:19:52.670
 die ausdrücken, dass der Zebrabesitzer genau die Person
@@ -763,7 +761,7 @@ Dann können wir das insgesamt so aufschreiben.
 Hier sind die Hilfsprädikate "rightOf" und "nextTo".
 
 0:20:02.610,0:20:08.030
-Hier ist das Prädikat, dass wir aufrufen werden.
+Hier ist das Prädikat, das wir aufrufen werden.
 Also "solve", wir wollen lösen.
 
 0:20:08.030,0:20:12.950
@@ -772,7 +770,7 @@ herausfinden. Hier sind die Hinweise verarbeitet,
 
 0:20:12.950,0:20:20.450
 so wie es gerade auf den vergangenen Folien durchgesprochen wurde.
-Also hier z.B. der achte und neunte Hinweis in dieser Hausschreibweise.
+Also hier z. B. der achte und neunte Hinweis in dieser Hausschreibweise.
 
 0:20:20.450,0:20:26.200
 Dann jeweils die einzelnen Hinweise mit member,
@@ -795,7 +793,7 @@ Und die Nationalität des Bewohners dieses Hauses,
 die mögen wir gerne als ZebraOwner in der Variable
 
 0:20:47.260,0:20:54.920
-zurück gegeben bekommen. Und analog für den Wassertrinker.
+zurückgegeben bekommen. Und analog für den Wassertrinker.
 Jetzt können wir das Programm tatsächlich eingeben,
 
 0:20:54.920,0:21:03.390
@@ -815,8 +813,8 @@ Zu Beginn der Diskussion am Anfang in der ersten
 oder zweiten Vorlesung. Dann hätten wir unser Problem/
 
 0:21:30.380,0:21:38.980
-unsrer Rätsel auf Prolog-Weise gelöst.
-Ist das jetzt besser als die händischen Suche?
+unser Rätsel auf Prolog-Weise gelöst.
+Ist das jetzt besser als die händische Suche?
 
 0:21:38.980,0:21:42.310
 Das ist sicherlich eine Frage des Blickwinkels.
@@ -855,7 +853,7 @@ Manchmal auch Sachen revidieren müssen.
 Nehmen wir an, wir hätten uns dabei irgendwo vertan oder
 
 0:22:29.620,0:22:34.120
-wir würden im Verlaufe der Arbeit mit dem Rätsel feststellen,
+wir würden im Verlauf der Arbeit mit dem Rätsel feststellen,
 dass wir einen Hinweis falsch interpretiert haben, dass der eigentlich
 
 0:22:34.120,0:22:38.990
@@ -900,12 +898,12 @@ jeden Hinweis einzeln bearbeiten und dann einfach
 
 0:23:27.820,0:23:35.500
 Prolog das neu bearbeiten lassen. Also wenn wir einen
-der Hinweise ändern, dann müssen nur den Hinweis ändern
+der Hinweise ändern, dann müssen wir nur den Hinweis ändern
 
 0:23:35.500,0:23:41.250
 auf angemessene Art und Weise und können dann wieder
-Prolog die gesamte Arbeit überlassen die Lösung zu finden.
+Prolog die gesamte Arbeit überlassen, die Lösung zu finden.
 
 0:23:41.250,0:23:49.000
-Und das wird das natürlich tun in diesem Generate-and-Test
+Und das wird das natürlich tun, in diesem Generate-and-Test
 Prinzip, weil wir das so ausgedrückt haben.

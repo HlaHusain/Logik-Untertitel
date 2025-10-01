@@ -1,5 +1,5 @@
 0:00:00.000,0:00:06.210
-So nachdem wir uns mit der Ausführung von
+So, nachdem wir uns mit der Ausführung von
 einfachen Prolog-Programmen beschäftigt
 
 0:00:06.210,0:00:13.110
@@ -16,14 +16,14 @@ Vorstufe der Prädikatenlogik durch die Einführung
 
 0:00:24.270,0:00:31.110
 von Prädikaten. Das erlaubte uns vormals atomare
-Aussagen, die irgendwie einen Namen hatten und
+Aussagen, die irgendwie einen Namen hatten, und
 
 0:00:31.110,0:00:35.880
 dann eine komplexe Aussage waren, die aber nicht
-weiter verlegt war, die konnten wir mit Prädikaten
+weiter belegt war. Die konnten wir mit Prädikaten
 
 0:00:35.880,0:00:40.830
-zerlegen so wie man das in der natürlichen Sprache auch
+zerlegen, so wie man das in der natürlichen Sprache auch
 macht. Also etwa den Satz zerlegen in sein Subjekt
 
 0:00:40.830,0:00:46.920
@@ -44,14 +44,14 @@ Und natürlich hatten wir auch in den Übungsaufgaben
 
 0:01:06.750,0:01:11.820
 bei den Verwandtschaftsbeziehungen oder in
-den Beispielen in dem vorangegangen Video
+den Beispielen in dem vorangegangenen Video
 
 0:01:11.820,0:01:21.210
 auch mit dieser Art Mittel gearbeitet.
 Was dabei noch nicht irgendwie geschehen ist,
 
 0:01:21.210,0:01:26.460
-war dass diese Individuen selbst auch noch eine Struktur haben.
+war, dass diese Individuen selbst auch noch eine Struktur haben.
 Wir haben den Satz zerlegt in seine Struktur.
 
 0:01:26.460,0:01:33.690
@@ -59,7 +59,7 @@ Nämlich das Subjekt und ein Prädikat oder eine Relation
 zwischen zwei Subjekten und Objekten / zwischen Individuen.
 
 0:01:33.690,0:01:39.810
-Aber "der Mond" oder "Ich" oder "Mann" das
+Aber "der Mond" oder "Ich" oder "Mann", das
 waren immer feste Konstanten, die keine weitere
 
 0:01:39.810,0:01:45.870
@@ -68,11 +68,11 @@ wenn man tatsächlich mit Prolog programmieren möchte.
 
 0:01:45.870,0:01:53.250
 Also interessantere Aufgaben lösen möchte.
-Deswegen gibt eine weitere Verfeinerung und da
+Deswegen gibt es eine weitere Verfeinerung und da
 
 0:01:53.250,0:02:00.270
 ist einfach die Grundidee, dass man den Argumenten
-der Prädikate, also "dem Mond", "Ich", "Mann", den Subjekten, Objekten,
+der Prädikate, also "dem Mond", "ich", "Mann", den Subjekten, Objekten,
 
 0:02:00.270,0:02:05.730
 dass man denen auch eine innere Struktur zubilligt.
@@ -92,15 +92,15 @@ einer Person, die einen Vor- und einen Nachnamen hat.
 
 0:02:23.940,0:02:32.880
 Also wir würden Harry ersetzen durch Person, was zwei
-Argumente hat. Nämlich "harry und potter".
+Argumente hat. Nämlich "harry" und "potter".
 
 0:02:32.880,0:02:40.770
 Und "person" hier wäre kein Prädikat. Das Person hat eine andere
 Rolle als dieses "sah". Die Zeichenkette "person"
 
 0:02:40.770,0:02:45.870
-hier hat nicht den Charakter ein Prädikat zu sein,
-die irgendwie einen Harry und ein Potter verknüpft,
+hier hat nicht den Charakter, ein Prädikat zu sein,
+die irgendwie einen Harry und einen Potter verknüpft,
 
 0:02:45.870,0:02:52.860
 sondern das liefert einfach mehr Struktur
@@ -180,11 +180,11 @@ strukturierte Adressen einträgt.
 
 0:04:51.040,0:04:56.830
 Dann könnten wir uns Regeln dafür überlegen. Also zum Beispiel
-könnten wir sagen: Eine Adresse ist valide, wenn sie aus den drei
+könnten wir sagen: Eine Adresse ist valide, wenn sie aus den drei.
 
 0:04:56.830,0:05:02.440
 Komponenten besteht. Eine City und die wiederum hat als
-innere Struktur einen Zip-Code, der enthält die Postleitzahl.
+innere Struktur einen Zip-Code, der die Postleitzahl enthält.
 
 0:05:02.440,0:05:08.440
 Und einen Cityname, also den Namen der Stadt.
@@ -220,7 +220,7 @@ diese beiden Postleitzahlen. Und jetzt könnte ich mir
 
 0:05:47.950,0:05:54.130
 vorstellen, dass es hier ganz viele Einträge gibt. Also letztlich
-so ein gültiges Postleitzahl -> Stadt Zuordnungsverzeichnis.
+so ein gültiges Postleitzahl -> Stadt-Zuordnungsverzeichnis.
 
 0:05:55.630,0:06:00.820
 Und dann kann ich das benutzen, wenn ich sagen will, ob
@@ -248,7 +248,7 @@ so eine Straßenangabe darf als Hausnummer nur
 
 0:06:32.140,0:06:36.880
 etwas bis 99 haben. Zu einer Person können wir
-nicht allzu viele Einschränkung machen
+nicht allzu viele Einschränkungen machen
 
 0:06:36.880,0:06:42.190
 über die Validität der Namen. Zumindest können wir
@@ -263,7 +263,7 @@ dass hier bei der Person irgendwelche Vor- und Nachnamen stehen,
 aber zumindest verschiedene Vor- und Nachnamen.
 
 0:06:52.630,0:06:59.170
-Also Harry Harry wäre wahrscheinlich ein Eintragefehler.
+Also Harry Harry wäre wahrscheinlich ein Eintragsfehler.
 Deswegen wollen wir das auch ausschließen.
 
 0:06:59.170,0:07:05.620
@@ -287,7 +287,7 @@ erst die Straßenangaben macht und dann die Stadtangaben,
 dann würde hier nicht true herauskommen, weil dann
 
 0:07:27.010,0:07:32.380
-dieses Prädikat nicht passen würde/ nicht stimmen würde.
+dieses Prädikat nicht passen würde / nicht stimmen würde.
 Diese Regel wäre dann nicht anwendbar.
 
 0:07:32.380,0:07:38.200
@@ -303,7 +303,7 @@ Oder wenn die Vor- und Nachnamen hier gleich wären oder hier eine
 ungünstige oder nicht gewollte Hausnummer stünde.
 
 0:07:52.540,0:07:56.860
-Das wären alles Fehler, die durch diese Prädikat jetzt
+Das wären alles Fehler, die durch dieses Prädikat jetzt
 abgefangen würden. Inhaltlich überprüft das
 
 0:07:56.860,0:08:01.780
@@ -316,19 +316,19 @@ so syntaktisch vorgeht, dass jetzt natürlich
 
 0:08:09.130,0:08:17.590
 das "valide" zum Beispiel oder dieses "address" (dieser Name)
-das das vollkommen verschiedene Rollen sind.
+völlig verschiedene Rollen sind.
 
 0:08:17.590,0:08:21.700
 Da muss man also wirklich aufpassen. Die Rollen
 von Prädikaten und diesen Datenkonstruktoren, wie ich die
 
 0:08:22.390,0:08:27.970
-nennen werde, die sind völlig verschieden.
+nennen werde, sind völlig verschieden.
 So ein Prädikat kann immer nur außen auftreten.
 
 0:08:27.970,0:08:34.450
-Das "address" hier drin das ist kein Prädikat.
-Ich kann Prolog nicht Fragen: "?- address(irgendetwas)".
+Das "address" hier drin ist kein Prädikat.
+Ich kann Prolog nicht fragen: "?- address(irgendetwas)".
 
 0:08:34.450,0:08:38.920
 Ich kann Prolog fragen, ob eine Adresse valide ist.
@@ -339,7 +339,7 @@ Das würde keinen Sinn ergeben, hier als Anfrage etwas
 zu haben, wo address und dann irgendwelche Argumente stehen.
 
 0:08:44.800,0:08:51.620
-Prädikate sind die Sachen, die außen stehen und Prädikate
+Prädikate sind die Sachen, die außen stehen, und Prädikate
 treffen Aussagen über Argumente.
 
 0:08:51.620,0:08:56.510
@@ -360,10 +360,10 @@ das auf zwei Argumenten abbildet.
 
 0:09:24.720,0:09:31.620
 Nämlich einer Zahl und einem Stadtnamen.
-Es entscheidet, ob das gültig ist, oder nicht.
+Es entscheidet, ob das gültig ist oder nicht.
 
 0:09:31.620,0:09:36.255
-Also ob das wahr ist oder nicht, ob das ein gültiger/
+Also ob das wahr ist oder nicht, ob das ein gültiger /
 ein "okayer" Zip-Code für Duisburg ist.
 
 0:09:36.255,0:09:42.960
@@ -384,7 +384,7 @@ zwei Argumenten "Zahl" und "Straße" und "Stadtnamen"
 
 0:10:02.730,0:10:07.260
 auftauchen können, haben einfach verschiedene Rollen.
-Darauf müssen sie auch beim selber Programmieren aufpassen,
+Darauf müssen sie auch beim Selberprogrammieren aufpassen,
 
 0:10:07.260,0:10:13.950
 was ihre Prädikate und was einfach ihre Datenkonstruktoren sind.
@@ -400,14 +400,14 @@ Prädikate können nicht geschachtelt sein.
 
 0:10:27.930,0:10:33.810
 Also es macht keinen Sinn zu sagen: "valide" und dann in
-einen der Argumente noch mal valide zu sagen.
+einem der Argumente noch einmal valide zu sagen.
 
 0:10:33.810,0:10:47.580
 Dann würden wir plötzlich Terme, also Daten und Prädikate verwechseln.
 Was heißt das auch für die Syntax?
 
 0:10:47.580,0:10:55.200
-Vielleicht als Ergänzung einer früher gesehenen Folie:
+Vielleicht als Ergänzung zu einer früher gesehenen Folie:
 Wir hatten diese Syntaxbegriffs-Folie. Da tauchte auch auf,
 
 0:10:55.200,0:11:00.600
@@ -439,7 +439,7 @@ das zum Beispiel auch "person", was keine Konstante ist.
 Also dieses Symbol in diesem komplexeren
 
 0:11:40.770,0:11:46.950
-Datenterm, die werden (je nach dem, wo sie das Nachlesen)
+Datenterm, die werden (je nachdem, wo sie das Nachlesen)
 in Prolog oft Funktoren genannt. Manchmal auch
 
 0:11:46.950,0:11:51.330
@@ -475,7 +475,7 @@ Also wenn wir ausdrücken wollen, dass "istVaterVon"
 ein zweistelliges Prädikat ist, dann würden wir das auch so
 
 0:12:32.730,0:12:38.100
-schreiben: istVaterVon/2. Das könnte ihnen
+schreiben: istVaterVon/2. Das könnte Ihnen
 in den Fehlermeldungen von Prolog oder auch
 
 0:12:38.100,0:12:45.290
@@ -487,7 +487,7 @@ Konstruktoren, die in den Datentermen verwendet werden.
 Dann kann man sich fragen, was das für die Konstanten heißt.
 
 0:12:52.370,0:12:56.510
-Ist das dann auch so ein Konstruktor? Ja im gewissen
+Ist das dann auch so ein Konstruktor? Ja, im gewissen
 Sinne auch. Eine Konstante ist auch ein Konstruktor.
 
 0:12:56.510,0:13:01.550
@@ -511,7 +511,7 @@ und city schachtelt dann Konstanten. Das kann im
 Prinzip beliebig tief passieren. Also eine beliebte
 
 0:13:29.300,0:13:34.880
-Art das zu benutzen wäre: Nehmen wir an, wir haben
+Art, das zu benutzen, wäre: Nehmen wir an, wir haben
 einen einstelligen Konstruktor s/1 und einen nullstelligen
 
 0:13:34.880,0:13:42.500
@@ -519,12 +519,12 @@ Konstruktor z/0. Das soll stehen für successor(Nachfolger) und zero(null).
 Und dann könnten wir uns damit, wenn wir Zahlen nicht
 
 0:13:42.500,0:13:48.200
-schon hätten in Prolog, die selbst zusammen basteln sozusagen.
+schon hätten in Prolog, die selbst zusammenbasteln sozusagen.
 Also etwa die natürliche Zahl 13
 
 0:13:48.200,0:13:54.782
-könnte man auch darstellen, als
-"successor(successor(successor(successor(...(13 Mal)z)))".
+könnte man auch darstellen als
+"successor(successor(successor(successor(...(13 Mal) z)))".
 
 0:13:54.782,0:14:03.560
 Das ist ein Datenterm mit diesen beiden
@@ -540,7 +540,7 @@ entspricht der Zahl 13.
 
 0:14:15.200,0:14:21.410
 Natürlich ist das Gleiche. Das ist nur eine Repräsentation.
-Aber wir können dann symbolisch mit diesem Zahlen arbeiten.
+Aber wir können dann symbolisch mit diesen Zahlen arbeiten.
 
 0:14:21.950,0:14:27.590
 Die nennt man auch Peano-Zahlen. Nach einem Mathematiker, der sich
@@ -552,10 +552,10 @@ auch direkt verwenden. Auch das haben wir schon gesehen.
 
 0:14:33.050,0:14:40.760
 Hier tauchten ja Zahlen auch direkt auf. Da hatte ich
-nicht und 45.141 mal s(s(s(...(z)))) geschrieben,
+nicht und 45.141 mal s(s(s(...(z)))) geschrieben.
 
 0:14:40.760,0:14:47.090
-sondern Zahlen können auch direkt auftreten.
+Sondern Zahlen können auch direkt auftreten.
 Also zum Beispiel hier. Und das sind natürlich Konstanten.
 
 0:14:47.090,0:14:54.600
@@ -576,7 +576,7 @@ Direkt und ohne sie selbst programmieren.
 
 0:15:13.920,0:15:18.540
 Während wir für diese künstlichen, symbolischen Zahlen
-natürliche Operationen selbst implementieren müssen
+natürliche Operationen selbst implementieren müssen,
 
 0:15:18.540,0:15:26.400
 und das auch tun werden für Beispielbetrachtungen.
@@ -588,7 +588,7 @@ Syntax davon zeigen. Wir werden auch auf Listen Programme
 
 0:15:32.640,0:15:38.580
 haben und werden uns dann damit beschäftigen, wie wir da Prädikate
-drauf definieren können. Aber als Struktur schon
+darauf definieren können. Aber als Struktur schon
 
 0:15:38.580,0:15:44.370
 einmal, neben diesen konstanten Zahlen und
@@ -607,7 +607,7 @@ hier ja nicht auftauchen. Hier waren normale, runde Klammern.
 Also zum Beispiel eine fünfelementige Liste mit
 
 0:16:00.150,0:16:08.160
-den Zahlen 1,2,3,4,5 würde man in Prolog notieren als: [1, 2, 3, 4, 5].
+den Zahlen 1, 2, 3, 4, 5 würde man in Prolog notieren als: [1, 2, 3, 4, 5].
 Und das geht nicht nur für Zahlen.
 
 0:16:08.160,0:16:14.910
@@ -624,7 +624,7 @@ gekennzeichnet durch diese eckigen Klammern und
 
 0:16:26.880,0:16:33.090
 dann mehrere (wahrscheinlich mehrere) Elemente mit
-Kommas getrennt. Natürlich gibt es auch einelementige Liste.
+Kommas getrennt. Natürlich gibt es auch einelementige Listen.
 
 0:16:33.090,0:16:37.320
 Da gibt es dann keine Kommata, sondern nur einen Eintrag

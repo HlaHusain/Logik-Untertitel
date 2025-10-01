@@ -1,9 +1,9 @@
 0:00:00.089,0:00:04.520
 Bei Aufgabe 2 sollen wir Wahrheitstafeln zu
-den folgenden Formeln aufstellen und dann
+den folgenden Formeln aufstellen und dann.
 
 0:00:04.520,0:00:07.200
-noch kurz begründen, ob es KNF oder DNF ist.
+Noch kurz begründen, ob es KNF oder DNF ist.
 
 0:00:07.200,0:00:10.550
 Wir sollen dabei aber keine Umformung durchführen.
@@ -109,7 +109,7 @@ Jetzt müssen wir noch sagen, ob es eine KNF
 oder DNF ist.
 
 0:01:26.689,0:01:30.039
-Eine KNF Ist ja eine Konjunktion von Disjunktionen.
+Eine KNF ist ja eine Konjunktion von Disjunktionen.
 
 0:01:30.039,0:01:33.999
 Und wir haben ja hier die Konjunktion.

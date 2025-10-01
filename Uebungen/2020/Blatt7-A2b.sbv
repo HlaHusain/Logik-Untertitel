@@ -12,7 +12,7 @@ B ist.
 
 0:00:15.480,0:00:22.140
 Und hier haben wir schon die Abbruchbedingung
-gegeben, isDouble Z Komma Z Punkt.
+gegeben, isDouble Z, Komma Z.
 
 0:00:22.140,0:00:23.779
 Woran erkennen wir, dass das die Abbruchbedingung
@@ -90,7 +90,7 @@ S hinzufügen.
 Wir gehen einen höher.
 
 0:01:30.040,0:01:32.159
-Und wie viel gehen wir gleichzeitig beim Rechten
+Und wie viel gehen wir gleichzeitig beim rechten
 höher?
 
 0:01:32.159,0:01:35.700
@@ -114,7 +114,7 @@ S hinzugefügt.
 
 0:01:46.659,0:01:53.579
 Und deswegen sieht die Lösung genau so aus,
-isDouble Z Komma Z die Abbruchbedingung, und
+isDouble Z, Komma Z die Abbruchbedingung, und
 
 0:01:53.579,0:01:59.250
 darunter, isDouble S von S von X, weil die
@@ -125,7 +125,7 @@ Fall die erste, das A. Da müssen wir immer
 das Doppelte haben, da müssen wir Zwei Mal
 
 0:02:04.700,0:02:07.759
-haben, wenn wir rechts Ein Mal haben.
+haben, wenn wir rechts ein Mal haben.
 
 0:02:07.759,0:02:12.920
 Und den ersten Fall, hier mit Z und Z müssen
@@ -143,7 +143,7 @@ Und durch das X und das Y halten wir uns offen,
 dass wir beliebig tief hier reingehen.
 
 0:02:21.110,0:02:25.300
-Und das gilt genau dann, wenn isDouble X Komma
+Und das gilt genau dann, wenn isDouble X, Komma
 Y.
 
 0:02:25.300,0:02:29.340
@@ -155,16 +155,16 @@ von den höheren Zahlen zu den niedrigeren,
 nehmen wir hier in dem Fall immer bei dem
 
 0:02:33.110,0:02:41.220
-A Zwei Mal das S weg und bei dem Y Ein Mal,
-bis wir gucken, kommen wir zu Z Komma Z.
+A zwei Mal das S weg und bei dem Y ein Mal,
+bis wir gucken, kommen wir zu Z, Komma Z.
 
 0:02:41.220,0:02:45.990
 Und wenn das der Fall ist, dann ist diese
 große Zahl doppelt so groß wie die.
 
 0:02:45.990,0:02:51.370
-Kommen wir nicht bei Z Komma Z aus, weil wir
-zum Beispiel hier nochmal S von Z Komma Z
+Kommen wir nicht bei Z, Komma Z aus, weil wir
+zum Beispiel hier nochmal S von Z, Komma Z
 
 0:02:51.370,0:02:54.200
 übrig haben, dann bekommen wir auch ein false

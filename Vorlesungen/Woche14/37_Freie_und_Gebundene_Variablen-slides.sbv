@@ -7,7 +7,7 @@ Formeln beschäftigen, und zwar mit der Frage nach
 Freiheit oder Gebundenheit von Variablen. Das sehen Sie
 
 0:00:15.930,0:00:21.780
-hier schon: ich werde gleich freie und gebundene Variablen als
+hier schon: Ich werde gleich freie und gebundene Variablen als
 Definition entwickeln. Worum geht es dabei?
 
 0:00:21.780,0:00:25.740
@@ -23,12 +23,12 @@ der linken. Das ist hier nicht das gleiche, denn hier haben
 wir jetzt Quantoren. Aber es gibt tatsächlich Beziehungen
 
 0:00:36.900,0:00:43.440
-zwischen diesen Konzepten. Also worum geht es?
+zwischen diesen Konzepten. Also, worum geht es?
 Es geht letztlich darum, bis wohin bzw. wie weit ein
 
 0:00:43.440,0:00:49.560
 Quantor wirkt. Im letzten Video hatten wir
-darüber gesprochen, dass wenn man "für alle x" sagt,
+darüber gesprochen, dass, wenn man "für alle x" sagt,
 
 0:00:49.560,0:00:55.920
 und dann irgendeine Restformel kommt, es darum ging,
@@ -84,7 +84,7 @@ Und dabei geht es um diejenigen Vorkommen,
 
 0:02:05.250,0:02:10.410
 die nicht direkt hinter dem Quantor stehen.
-Also wenn wir haben "∀x : irgendwas", dann geht
+Also, wenn wir "∀x : irgendwas" haben, dann geht
 
 0:02:10.410,0:02:15.490
 es nicht um dieses x, das hinter dem "für alle" steht,
@@ -100,11 +100,10 @@ vorkommt, wird entweder als frei oder als gebunden gekennzeichnet.
 
 0:02:27.430,0:02:32.020
 Es gibt genau diese beiden Möglichkeiten.
-Also ein Vorkommen einer Variable kann
+Also, ein Vorkommen einer Variable kann
 
 0:02:32.020,0:02:38.950
-nicht beides gleichzeitig sein, aber
-kann auch nicht nichts von beiden sein.
+nicht beides gleichzeitig sein, kann aber auch nicht nichts von beiden sein.
 
 0:02:38.950,0:02:45.760
 Wie ist das definiert? Es geht darum, so ein bestimmtes
@@ -124,7 +123,7 @@ Nehmen wir an, dieses Vorkommen von x in F ist Teil einer Formel
 
 0:03:07.660,0:03:17.080
 entweder dieser Art oder dieser Art.
-Also es gibt irgendwo in der Formel F eine Teilformel,
+Also, es gibt irgendwo in der Formel F eine Teilformel,
 
 0:03:17.080,0:03:23.620
 welche die Form hat: "∀x : irgendetwas" oder "∃x : irgendetwas".
@@ -140,7 +139,7 @@ Entweder durch diesen "∀x"-Quantor oder den "∃x"-Quantor.
 
 0:03:36.970,0:03:44.830
 Wenn das die gleiche Variable x ist,
-der gleiche Variablenname. Also es kommt darauf an,
+der gleiche Variablenname. Also, es kommt darauf an,
 
 0:03:44.830,0:03:49.600
 dass dieses x dann irgendwo in diesem G vorkommt.
@@ -160,7 +159,7 @@ Und das können wir jeweils für jedes Vorkommen von Variablen in der Formel
 
 0:04:12.580,0:04:20.530
 entscheiden. Ist das etwas, das weiter außen
-durch ein "∀, gleicher Variablenname, oder ∃, gleicher Variablenname"
+durch ein "∀", gleicher Variablenname, oder "∃", gleicher Variablenname"
 
 0:04:20.530,0:04:27.990
 gebunden wurde, oder nicht?
@@ -179,7 +178,7 @@ die ganz ohne Vorkommen von freien
 Variablen sind, "geschlossene" Formeln.
 
 0:04:47.820,0:04:53.520
-Also "nichts frei" heißt dann "geschlossen". Also eine geschlossene
+Also, "nichts frei" heißt dann "geschlossen". Also, eine geschlossene
 Formel ist eine, die gar keine Vorkommen freier Variablen enthält.
 
 0:04:53.520,0:04:58.980
@@ -195,7 +194,7 @@ wenn sie keine freien Variablen enthält. In der
 Aussagenlogik waren einfach alles Aussagen.
 
 0:05:12.570,0:05:19.590
-Da gab es: A, atomare Formel, ist eine Aussage.
+Da gab es: A, eine atomare Formel, ist eine Aussage.
 Deswegen war das Aussagenlogik. Jetzt in der Prädikatenlogik
 
 0:05:19.590,0:05:26.880
@@ -303,7 +302,7 @@ Also hier kommt x gebunden vor und y frei vor.
 Wenn hier stünde "∃y, und dann der Rest",
 
 0:08:24.020,0:08:34.900
-also statt x hier y stünde, dann wäre eben x in dem Fall
+also statt x hier y stände, dann wäre eben x in dem Fall
 ein freies Vorkommen und y ein gebundenes Vorkommen.
 
 0:08:34.900,0:08:41.740
@@ -372,15 +371,15 @@ dann wäre es so, dass "P(x) und R(x)"
 
 0:10:44.240,0:10:53.120
 als Ganzes der Rest für diese Formel
-der Art "∃x : Rest" wäre. Also wenn hier eine Klammer
+der Art "∃x : Rest" wäre. Also, wenn hier eine Klammer
 
 0:10:53.120,0:10:59.720
 und hier eine Klammer stünde, dann wäre dieses x
 natürlich innerhalb des Gs für die Formel "∃x : G".
 
 0:10:59.720,0:11:08.990
-Aber so ist das die relevante Quantor-behaftete
-Formel, und das ist unabhängig davon. Also die Klammerung
+Aber so ist das die relevante quantor-behaftete
+Formel, und das ist unabhängig davon. Also, die Klammerung
 
 0:11:08.990,0:11:16.250
 ist wirklich wichtig, generell in logischen Formeln und
@@ -388,14 +387,14 @@ besonders wichtig auch zur Anzeige der Reichweite
 
 0:11:16.250,0:11:25.670
 von Quantoren (des Bereichs, auf den Quantoren sich beziehen).
-Das wäre jetzt so ein Beispiel, das was ich gerade besprochen habe.
+Das wäre jetzt so ein Beispiel, das, was ich gerade besprochen habe.
 
 0:11:27.410,0:11:35.030
 Wenn wir die Klammern anders setzen, dann sind hier beide
 Vorkommen der Variable x tatsächlich gebundene Vorkommen.
 
 0:11:35.030,0:11:47.510
-Also x kommt zweimal gebunden vor. Hier und hier.
+Also, x kommt zweimal gebunden vor. Hier und hier.
 Und was ist mit diesem Beispiel, "∀x : Restformel"?
 
 0:11:47.510,0:12:02.210
@@ -416,7 +415,7 @@ eine Teilformel der Art "Quantor x : G".
 
 0:12:26.840,0:12:32.150
 Was ist mit diesem x hier? Das taucht ja nicht innerhalb
-dieser Teilformel auf. Also das gehört nicht irgendwie
+dieser Teilformel auf. Also, das gehört nicht irgendwie
 
 0:12:32.150,0:12:39.950
 zu diesem Quantor, weil hier die Klammer zugeht,
@@ -432,7 +431,7 @@ Vorkommen von x. Anders als zum Beispiel hier.
 
 0:12:54.620,0:13:00.080
 Und die werden durch verschiedene Quantoren gebunden.
-Also dieses x wird durch diesen Quantor gebunden,
+Also, dieses x wird durch diesen Quantor gebunden,
 
 0:13:00.080,0:13:06.980
 und dieses x durch diesen Quantor. Wenn wir den
@@ -447,7 +446,7 @@ wenn es diesen Quantor hier nicht mehr gäbe. Und hier könnten
 wir das noch durch Farben/Markierungen deutlich machen.
 
 0:13:19.430,0:13:25.760
-Aber das wichtige ist: Das sind beides gebundene Vorkommen.
+Aber das Wichtige ist: Das sind beides gebundene Vorkommen.
 Es ergibt sich nur so, dass die eben
 
 0:13:25.760,0:13:40.790
@@ -464,10 +463,10 @@ von prädikatenlogischen Formeln, aber eben auch
 
 0:13:59.840,0:14:11.330
 genau der Frage nach Geschlossenheit (oder nicht) von Formeln.
-Also ich spreche die mal jeweils kurz durch.
+Also, ich spreche die mal jeweils kurz durch.
 
 0:14:11.330,0:14:18.230
-Was ist mit dieser Zeichenkette? Ist das eine Formel, oder sogar
+Was ist mit dieser Zeichenkette? Ist das eine Formel oder sogar
 eine Aussage (eine geschlossene Formel)?
 
 0:14:18.230,0:14:24.290
@@ -499,7 +498,7 @@ Das kommt darauf an, was das a hier ist. Wenn wir das a als Konstante
 sehen (was wir per Konvention wahrscheinlich tun würden,
 
 0:15:03.980,0:15:12.560
-weil es ein Kleinbuchstabe vom Beginn des Alphabetes ist),
+weil es ein Kleinbuchstabe vom Beginn des Alphabets ist),
 dann wäre das eine Aussage. Dann gibt es hier einen Quantor.
 
 0:15:12.560,0:15:19.430
@@ -523,7 +522,7 @@ Was ist damit? "∀x : ∃y :" und dann eine Teilformel,
 in der x und y vorkommen. Nun, das sieht erstmal
 
 0:15:54.040,0:16:00.670
-nach einer validen, wohl-gebauten Formel aus.
+nach einer validen, wohlgebauten Formel aus.
 Da kommen mehrere Variablenvorkommen vor.
 
 0:16:00.670,0:16:07.090
@@ -540,7 +539,7 @@ Was ist mit dieser Zeile? Erstmal vom Aufbau her auch alles okay.
 
 0:16:28.060,0:16:35.860
 Also keine irgendwie abstrusen Zeichenketten, die gar
-nicht zu syntaktisch wohl-geformten Formeln passen.
+nicht zu syntaktisch wohlgeformten Formeln passen.
 
 0:16:35.860,0:16:44.200
 Ist es eine geschlossene Formel? Gibt es hier
@@ -662,7 +661,7 @@ dann ist es zwar eine Formel, aber keine geschlossene Formel,
 also keine Aussage. Was haben wir hier? Das ist eine
 
 0:20:35.990,0:20:42.410
-wohl-gebaute Formel. Allerdings keine geschlossene Formel,
+wohlgebaute Formel. Allerdings keine geschlossene Formel,
 weil hier vorn ein freies Vorkommen von x vorliegt,
 
 0:20:42.410,0:20:48.230
@@ -715,8 +714,8 @@ Das heißt, das hier unten ist auch keine Formel,
 
 0:22:09.190,0:22:17.890
 demzufolge auch keine Aussage. Das ist jetzt natürlich unabhängig
-von der Quantoren-Interpretation. Das ist einfach schon,
+von der Quantoreninterpretation. Das ist einfach schon,
 
 0:22:17.890,0:22:24.040
-bevor wir die Quantoren anschauen, keine wohl-gebaute
-Formel, wegen dieser Stelligkeits-Problematik.
+bevor wir die Quantoren anschauen, keine wohlgebaute
+Formel, wegen dieser Stelligkeitsproblematik.

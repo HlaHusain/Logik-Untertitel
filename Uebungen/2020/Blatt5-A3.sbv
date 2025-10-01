@@ -1,9 +1,9 @@
 0:00:00.210,0:00:04.690
 Wir kommen zur dritten und letzten Aufgabe.
-Es handelt sich dabei um eine Prologaufgabe,
+Es handelt sich dabei um eine Prologaufgabe.
 
 0:00:04.690,0:00:09.790
-weshalb ich sie hier im Notepad bearbeite.
+Weshalb ich sie hier im Notepad bearbeite.
 Wir haben eine Prologwissensbasis gegeben,
 
 0:00:09.790,0:00:17.310
@@ -12,18 +12,18 @@ wir die Aufgaben. Ich habe diese mit Rautenzeichen
 
 0:00:17.310,0:00:22.220
 markiert. Dann sind es Kommentare, die nicht
-ausgewertet werden. Als erstes sollen Queries
+ausgewertet werden. Als Erstes sollen Queries
 
 0:00:22.220,0:00:27.380
 formuliert werden. Bei Teilaufgabe (a) geht
 es um die Söhne von Juliet. Ich schreibe
 
 0:00:27.380,0:00:37.150
-das hier hin. Sohne von Juliet sind auf jeden
+das hierhin. Söhne von Juliet sind auf jeden
 Fall männlich. Das heißt, wir suchen male
 
 0:00:37.150,0:00:46.890
-X. Dass es Sohne sind, müssen es auch Childs
+X. Dass es Söhne sind, müssen es auch Childs
 sein. Hier ist es sehr wichtig, dass wir wieder
 
 0:00:46.890,0:00:55.300
@@ -52,7 +52,7 @@ weshalb wir das wieder über die Eltern-Kind-Beziehung
 
 0:01:35.100,0:01:41.610
 lösen müssen. Ich gebe daher hier Child
-ein. X muss ein Kind von irgendeiner Person
+ein. X muss ein Kind von irgendeiner Person
 
 0:01:41.610,0:01:49.640
 sein. Ich nenne sie Z. Wir haben ein weiteres
@@ -75,7 +75,7 @@ wir sicherstellen, dass Y das Kind von Z,
 von dem auch X das Kind ist, weiblich ist.
 
 0:02:11.170,0:02:20.140
-Wir fügen daher als letztes female Y hinzu.
+Wir fügen daher als Letztes female Y hinzu.
 Bei Aufgabe (c) geht es um Personen mit sowohl
 
 0:02:20.140,0:02:26.200
@@ -119,7 +119,7 @@ muss auch einen Sohn haben. Dieser Sohn ist
 in diesem Fall die Variable Z. Z muss männlich
 
 0:03:27.190,0:03:31.660
-sein, dass wir sicherstellen, dass es ein
+sein, damit wir sicherstellen, dass es ein
 Sohn ist. Es soll kein Elternteil mit zwei
 
 0:03:31.660,0:03:37.180
@@ -207,11 +207,11 @@ Dann haben wir dieses und dieses abgehakt.
 Z haben wir mit Harry belegt, wie gesagt.
 
 0:05:52.230,0:06:03.469
-Wir suchen jetzt, wer noch Kind von Z ist
-und gehen von oben durch. Aha, hier: Luke
+Wir suchen jetzt, wer noch das Kind von Z ist
+und gehen von oben durch. Aha, hier: Luke.
 
 0:06:03.469,0:06:09.840
-ist Kind von Z. Wir haben nicht gesagt, dass
+Ist das Kind von Z. Wir haben nicht gesagt, dass
 Y nicht Luke sein darf. Deshalb müssen wir
 
 0:06:09.840,0:06:21.520
@@ -220,7 +220,7 @@ kann nicht die gleiche Person herauskommen.
 
 0:06:21.520,0:06:31.699
 Hier haben wir Uncle X und Y. X ist Onkel
-von Y.  Das heißt, wir können hier auf
+von Y. Das heißt, wir können hier auf
 
 0:06:31.699,0:06:37.330
 die Regel zurückgreifen, die wir gerade eben
@@ -231,7 +231,7 @@ der Bruder von einem Elternteil, der Mutter
 oder des Vaters, ist. Wir wissen also: Brother
 
 0:06:49.030,0:06:55.370
-X, X ist der Onkel und X ist der Bruder, des
+X, X ist der Onkel und X ist der Bruder des
 Elternteils Z. Dass es der Onkel von Y ist,
 
 0:06:55.370,0:07:00.370
@@ -256,7 +256,7 @@ Y, dann ist Y der Großvater oder die Großmutter,
 
 0:07:29.419,0:07:37.330
 das haben wir noch nicht definiert, von X.
-Also Child Z und Y. Das war es schon zu Aufgabe
+Also Child Z und Y. Das war es schon zur Aufgabe
 
 0:07:37.330,0:07:37.580
 drei.

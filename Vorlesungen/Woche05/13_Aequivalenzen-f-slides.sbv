@@ -1,17 +1,17 @@
 0:00:02.020,0:00:08.430
-Angenommen wir haben eine Formel und möchten
-Sie in eine äquivalente Formel in KNF umformen
+Angenommen, wir haben eine Formel und möchten
+sie in eine äquivalente Formel in KNF umformen.
 
 0:00:08.430,0:00:14.030
-oder so eine Formel finden. Ich hatte im vorigen Video
-ein Theorem zitiert, dass das immer geht. Dass es immer
+Oder so eine Formel finden. Ich hatte im vorigen Video
+ein Theorem zitiert, das das immer geht. Dass es immer
 
 0:00:14.030,0:00:19.080
 eine äquivalente Formel gibt. Wie könnten wir
 das praktisch machen? In dem Beispiel hatte
 
 0:00:19.080,0:00:24.300
-ich folgendes getan: Ich hatte diese Formel
+ich Folgendes getan: Ich hatte diese Formel
 durch diese Formel ersetzt. Das hatte ich
 
 0:00:24.300,0:00:30.060
@@ -30,11 +30,11 @@ Das ist natürlich sehr spezifisch für diese
 konkreten Aussagen. Interessant wäre, welche anderen
 
 0:00:49.100,0:00:53.559
-Umformung noch erlaubt gewesen wären. Und
+Umformungen noch erlaubt gewesen wären. Und
 ob es allgemeine Regeln dafür gibt. Und natürlich
 
 0:00:53.559,0:00:57.110
-sollte es die geben. Erinnern sie sich an die Schule.
+sollte es die geben. Erinnern Sie sich an die Schule.
 Bei arithmetischen Ausdrücken kennen Sie
 
 0:00:57.110,0:01:01.440
@@ -42,16 +42,16 @@ das auch. Sie haben eine Ableitung einer Funktion gebildet. Da
 kommt ein Ergebnis raus. Und die Aufgabenstellung
 
 0:01:01.440,0:01:07.469
-sagt: Vereinfachen Sie das Ergebnis. Das tun sie
+sagt: Vereinfachen Sie das Ergebnis. Das tun Sie
 dann. Dann gucken Sie sich den Term an. Vereinfachen
 
 0:01:07.469,0:01:14.310
-den nach irgendwelchen Regeln. Summanden zusammenfassen.
+Sie ihn nach irgendwelchen Regeln. Summanden zusammenfassen.
 Ausmultiplizieren. Ausklammern. Vielleicht Summanden
 
 0:01:14.310,0:01:20.049
 weglassen, die zu null werden. Sie wenden Regeln
-an. Arithmetische Regeln, um ihre mathematische
+an. Arithmetische Regeln, um Ihre mathematische
 
 0:01:20.049,0:01:24.560
 Formel zu vereinfachen. Auf ähnliche Weise
@@ -63,7 +63,7 @@ Dabei müssen wir beachten, dass wir natürlich wirklich
 
 0:01:30.529,0:01:34.700
 Dafür hatten wir folgenden Begriff eingeführt und auch
-noch schon eine Schreibweise. Wir hatten gesagt:
+noch eine Schreibweise. Wir hatten gesagt:
 
 0:01:34.700,0:01:41.399
 „Zwei Formeln sind äquivalent oder semantisch
@@ -82,12 +82,12 @@ Davon kann es mehrere geben. Das entspricht den
 Zeilen in Wahrheitstafeln. Und wenn zwei Formeln
 
 0:01:59.770,0:02:04.460
-für jede Belegung den gleichen Wert ergeben,(man könnte
+für jede Belegung den gleichen Wert ergeben, (man könnte
 auch sagen: Wenn sie die gleichen Wahrheitstafeln
 
 0:02:04.460,0:02:10.880
 haben. Dass die Ergebnisspalte der Wahrheitstafel in jeder
-Zeile gleich ist für F und G) dann sind sie äquivalent.
+Zeile gleich ist für F und G), dann sind sie äquivalent.
 
 0:02:10.880,0:02:20.850
 Und man schreibt das in dieser Form. Mit diesem
@@ -99,22 +99,22 @@ haben werden. Die werden wir gleich auflisten, was
 
 0:02:27.970,0:02:33.280
 da erlaubt ist. Hier oben sehen Sie schon mal so
-eine Anwendung. Wir dürfen sowas immer in Kontext
+eine Anwendung. Wir dürfen so etwas immer im Kontext
 
 0:02:33.280,0:02:38.100
 verwenden. Also wenn wir solch eine Äquivalenz
-kennen, (wissen, dass die gilt) dann dürfen
+kennen, (wissen, dass die gilt), dann dürfen
 
 0:02:38.100,0:02:43.280
 wir sie auch in einer größeren Formel
-als Teilformel verwenden. Das kennen sie auch schon
+als Teilformel verwenden. Das kennen Sie auch schon
 
 0:02:43.280,0:02:48.680
-aus der Mathematik. Da machen sie es automatisch. Wenn Sie wissen,
-sie können zwei Summanden zusammenfassen,
+aus der Mathematik. Da machen Sie es automatisch. Wenn Sie wissen,
+dass Sie zwei Summanden zusammenfassen können,
 
 0:02:48.680,0:02:53.440
-dann tun sie das auch, wenn die an irgendeiner
+dann tun Sie das auch, wenn diese an irgendeiner
 inneren Stelle eines sehr viel größeren Ausdrucks
 
 0:02:53.440,0:02:58.790
@@ -127,7 +127,7 @@ ausgeführt werden. Wie zum Beispiel das hier
 
 0:03:03.320,0:03:11.870
 der Fall war. Was ich jetzt noch machen werde in diesem
-Video, ist Ihnen ein Katalog solcher
+Video, ist Ihnen einen Katalog solcher
 
 0:03:11.870,0:03:17.870
 Äquivalenzen anzugeben. Ich werde jeweils kurz etwas
@@ -170,12 +170,12 @@ Disjunktion verknüpfe, ist das das Gleiche oder
 äquivalent dazu, die Formel nur einfach zu verwenden.
 
 0:04:20.999,0:04:26.449
-Das gilt arithmetische für Plus und Mal nicht. Es
+Das gilt arithmetisch für Plus und Mal nicht. Es
 stimmt nicht, dass 5 × 5 = 5 ist. Oder
 
 0:04:26.449,0:04:32.479
 7 + 7 = 7 ist. Aber für logische Formen
-gilt: Eine Formel und die gleiche Formel ist
+gilt: Eine Formel und die gleiche Formel sind
 
 0:04:32.479,0:04:39.949
 äquivalent dazu, die Formel nur einfach zu haben.
@@ -186,36 +186,36 @@ Kommutativitätsgesetz. Das kennen Sie da für
 die Addition und Multiplikation. Also es stimmt
 
 0:04:45.949,0:04:51.979
-das 5 × 7 = 7 × 5 ist. Das gilt nicht nur für
+dass 5 × 7 = 7 × 5 ist. Das gilt nicht nur für
 fünf und sieben. Das gilt für beliebige arithmetische
 
 0:04:51.979,0:04:59.150
-Ausdrücke. Analog gilt, sowohl für die Konjunktion,
+Ausdrücke. Analog gilt sowohl für die Konjunktion
 als auch für die Disjunktion: (F ∧ G) ist das Gleiche wie
 
 0:04:59.150,0:05:04.759
-(G ∧ F). Natürlich ist das nicht syntaktisches das Gleiche,
+(G ∧ F). Natürlich ist das nicht syntaktisch das Gleiche,
 aber semantisch äquivalent. Das gilt für die Konjunktion und
 
 0:05:04.759,0:05:11.720
-für die Disjunktion. Wenn Sie die Kommutativität
-aus der Schule erinnern, erinnern sie sich vielleicht
+für die Disjunktion. Wenn Sie sich an die Kommutativität
+aus der Schule erinnern, erinnern Sie sich vielleicht
 
 0:05:11.720,0:05:17.379
 auch noch an die Assoziativität. Das war die Regel,
-dass wenn wir drei Summanden haben z.B. fünf, drei und
+dass wenn wir drei Summanden haben, z. B. fünf, drei und
 
 0:05:17.379,0:05:22.970
-sieben, dann ist es egal, ob wir erst 5 + 3 rechnen, und dann
-das Ergebnis + 7. Oder ob wir erst sozusagen von hinten
+sieben, dann ist es egal, ob wir erst 5 + 3 rechnen und dann
+das Ergebnis + 7 oder ob wir erst sozusagen von hinten
 
 0:05:22.970,0:05:32.559
-3 + 7 rechnen, und dann 5 + jenes Ergebnis. In beiden
+3 + 7 rechnen und dann 5 + jenes Ergebnis. In beiden
 Fällen kommt 15 heraus, weil die Reihenfolge des Zusammenfassens egal ist.
 
 0:05:32.559,0:05:39.040
-Das gleiche gilt für die Konjunktion und Disjunktion.
-Also es ist egal, ob ich (F ∧ G) bilde, und dann vom
+Das Gleiche gilt für die Konjunktion und Disjunktion.
+Also ist es egal, ob ich (F ∧ G) bilde und dann vom
 
 0:05:39.040,0:05:43.889
 Ergebnis noch die Konjunktion mit H bilde. Oder
@@ -223,34 +223,34 @@ ob ich erst die Konjunktion von (G ∧ H) bilde,
 
 0:05:43.889,0:05:51.400
 und dann (F ∧ diese Teilformel). Das heißt
-Grunde auch, dass diese innere Klammerung weggelassen werden
+grundsätzlich auch, dass diese innere Klammerung weggelassen werden
 
 0:05:51.400,0:05:56.599
 kann. Das habe ich auch schon an diversen Stellen getan.
 Also bereits in
 
 0:05:56.599,0:06:01.110
-Formeln, die sie gesehen haben. Zum Beispiel
+Formeln, die Sie gesehen haben. Zum Beispiel
 bei der Beschreibung von konjunktiver und disjunktiver
 
 0:06:01.110,0:06:07.500
-Normalform, habe ich, wenn ich drei Sachen hatte,
-die ich per Konjunktion verknüpfen will, gar keine solchen
+Normalform habe ich, wenn ich drei Sachen hatte,
+die ich per Konjunktion verknüpfen wollte, gar keine solchen
 
 0:06:07.500,0:06:12.129
 inneren Klammern gesetzt. Das durfte ich deswegen
-tun. Ich hab es intuitiv getan an der Stelle, aber formal
+tun. Ich habe es intuitiv an der Stelle getan, aber formal
 
 0:06:12.129,0:06:18.080
 durfte ich das tun, weil sowieso die Konjunktion assoziativ
-ist. Also diese Reihenfolge der Klammern gar keine
+ist. Also spielt diese Reihenfolge der Klammern gar keine
 
 0:06:18.080,0:06:21.919
-Rolle spielt. Oder die Reihenfolge des Zusammenfassens
-durch Klammern keine Rolle spielt. Es geht nur
+Rolle. Oder die Reihenfolge des Zusammenfassens
+durch Klammern spielt keine Rolle. Es geht nur
 
 0:06:21.919,0:06:33.050
-darum ((F ∧ G) ∧ H) sind zu bilden. Das gleiche gilt für die
+darum, ((F ∧ G) ∧ H) zu bilden. Das Gleiche gilt für die
 Disjunktion. Ein weiteres strukturelles Gesetz, das
 
 0:06:33.050,0:06:38.999
@@ -275,7 +275,7 @@ wird. Also wenn ich fordere oder ausdrücken
 
 0:07:05.710,0:07:14.029
 möchte (F ∧ (F ∨ G)), dann steht hier, das ist äquivalent zu
-F. Intuitiv warum ist das so? Entweder ist F wahr.
+F. Intuitiv, warum ist das so? Entweder ist F wahr.
 
 0:07:14.029,0:07:23.539
 Dann steht hier (wahr ∧ (wahr ∨ G)). Das
@@ -291,7 +291,7 @@ hätte, dann würde hier stehen:
 
 0:07:38.129,0:07:43.360
 (Wahrheitswert von F ∧ irgendetwas anderes). Aber wenn
-F falsch ist, bei der Konjunktion wissen wir, falsch
+F falsch ist, wissen wir bei der Konjunktion, falsch
 
 0:07:43.360,0:07:49.699
 und etwas anderes ist immer falsch. Das heißt egal,
@@ -310,24 +310,24 @@ Das war der erste Teil. Es gibt noch einen zweiten Teil, wo noch
 weitere Regeln auftreten. Und zwar ist die
 
 0:08:13.560,0:08:20.990
-erste wieder eine strukturelle Regel. Im Sinne
+erste wieder eine strukturelle Regel. Im Sinne,
 wie es Kommutativität und Assoziativität sind.
 
 0:08:20.990,0:08:25.409
-Die sie auch schon aus der Schule kennen. Sie kennen auch
-ein Distributivitäsgesetz aus der Schule. So etwas
+Die Sie auch schon aus der Schule kennen. Sie kennen auch
+ein Distributivgesetz aus der Schule. So etwas
 
 0:08:25.409,0:08:33.840
-wie a * (b + c) = a * b + a * c
-Das gibt's auch für die Konjunktion und Disjunktion.
+wie a * (b + c) = a * b + a * c.
+Das gibt es auch für die Konjunktion und Disjunktion.
 
 0:08:33.840,0:08:44.620
-F und die Disjunktion von G und H ist gleich eine
+F und die Disjunktion von G und H ist gleich einer
 Disjunktion, wo einmal (F ∧ G) per Konjunktion
 
 0:08:44.620,0:08:50.760
-kombiniert sind. Und einmal (F ∧ H).
-Also, wenn sie hier das ∨ durch + ersetzen und das
+kombiniert ist. Und einmal (F ∧ H).
+Also, wenn Sie hier das ∨ durch + ersetzen und das
 
 0:08:50.760,0:08:59.560
 ∧ durch *, dann würde hier stehen F * (G + H) = F * G + F * H.
@@ -345,7 +345,7 @@ Operationen nicht der Fall. Es stimmt zwar, dass
 a * (b + c) = a * b + a * c ist. Es stimmt arithmetisch aber nicht, dass
 
 0:09:17.890,0:09:31.570
-a + (b * c) das gleiche sei wie a + b * a + c.
+a + (b * c) das Gleiche ist wie a + b * a + c.
 Das ist nicht das Gleiche wie a + (b * c). Für die logischen
 
 0:09:31.570,0:09:39.780
@@ -381,8 +381,7 @@ Also noch nichts, was sozusagen der logischen Negation
 entspricht. Nur Konjunktion und Disjunktion, die ich immer so
 
 0:10:28.890,0:10:35.830
-ein bisschen mit Plus und Mal verglichen habe.
-Zur Negation gibt es ja nichts, was dem arithmetisch
+ein bisschen mit Plus und Mal verglichen habe. Zur Negation gibt es ja nichts, was dem arithmetisch
 
 0:10:35.830,0:10:44.120
 direkt entspricht. Aber es gibt eine
@@ -390,10 +389,10 @@ ganz logische Regel für die Negation.
 
 0:10:44.120,0:10:49.520
 Die kennen Sie auch. Das ist das Prinzip der Doppelnegation.
-Wenn ich eine Formel habe, und ich sage: "nicht
+Wenn ich eine Formel habe und ich sage: "nicht
 
 0:10:49.520,0:10:58.170
-nicht diese Formel" soll gelten, dass es äquivalent dazu ist, dass
+nicht diese Formel", soll gelten, dass es äquivalent dazu ist, dass
 F gilt oder verwendet wird. Es ist auch so eine
 
 0:10:58.170,0:11:03.370
@@ -413,27 +412,27 @@ Negation und die Konjunktion auf. Und rechts
 die Negation und die Disjunktion. Und wenn
 
 0:11:26.810,0:11:32.380
-sie sich erinnern, in dem Moodle-Kurs
-gab es eine kurze Diskusson auf eine studentische Nachfrage
+Sie sich erinnern, in dem Moodle-Kurs
+gab es eine kurze Diskussion auf eine studentische Nachfrage
 
 0:11:32.380,0:11:42.110
 hin, für eine ganz konkrete Situation für Aussagen, wo eine
 Konjunktion negiert war. Das hatte was damit zu tun, dass
 
 0:11:42.110,0:11:48.760
-nicht beide Lügen. Was das denn bedeutet.
+nicht beide lügen. Was das denn bedeutet.
 Dann hatten wir an dem Beispiel herausgearbeitet, dass das
 
 0:11:48.760,0:11:53.390
 letztlich so etwas entspricht. Für die
-jeweiligen Aussagen C und D. Das war glaube ich
+jeweiligen Aussagen C und D. Das war, glaube ich,
 
 0:11:53.390,0:11:59.520
 Anne und Bettina lügen in dem Fall. Bzw.
 Aussagen über die Wahrheitstreue
 
 0:11:59.520,0:12:06.620
-von A und B/ von Anne und Bettina. Und das, was
+von A und B, von Anne und Bettina. Und das, was
 dort herausgearbeitet wurde, entsprach im Wesentlichen
 
 0:12:06.620,0:12:14.920
@@ -450,7 +449,7 @@ das das Gleiche wie die Disjunktion der negierten
 
 0:12:25.840,0:12:33.820
 Teilformeln. Und auch dies gilt wieder dual. Wenn ich eine Disjunktion
-negiere, dann entspricht das der Konjunktion der
+negieren, dann entspricht das der Konjunktion der
 
 0:12:33.820,0:12:40.320
 negierten Teilformeln. Diese de Morganschen Regeln werden
@@ -478,7 +477,7 @@ das durch die rechte Seite ersetzen. Oder umgekehrt.
 
 0:13:16.350,0:13:22.000
 Daneben gibt es noch mehr semantische Regeln.
-Die führ ich auch gleich noch an. Die unterscheiden
+Die führe ich auch gleich noch an. Die unterscheiden
 
 0:13:22.000,0:13:25.840
 sich dahingehend, dass man zusätzlich noch etwas über die
@@ -490,7 +489,7 @@ die Tautologieregeln. Die sagen: Eine Disjunktion
 
 0:13:34.730,0:13:43.000
 von zwei Formeln entspricht einfach einer
-davon, wenn diese eine Tautologie/ diese gültig
+davon, wenn diese eine Tautologie, diese gültig
 
 0:13:43.000,0:13:49.520
 ist. Die Idee dabei ist oder der Hintergrund
@@ -498,7 +497,7 @@ dabei ist, wenn F gültig ist, dann ist es unabhängig
 
 0:13:49.520,0:13:54.850
 von irgendwelchen Belegungen immer wahr. Dann ist es
-auch egal, ob ich F oder irgendetwas anders habe.
+auch egal, ob ich F oder irgendetwas anderes habe.
 
 0:13:54.850,0:13:59.030
 Das würde sowieso durch das F dominiert werden, weil es
@@ -517,7 +516,7 @@ ich die Konjunktion von F und G habe und F
 ist Tautologie, also immer wahr, darf ich nicht
 
 0:14:18.000,0:14:22.990
-sagen, das Ergebnis ist immer wahr. Das hängt ja immernoch
+sagen, das Ergebnis ist immer wahr. Das hängt ja immer noch
 von G ab. Aber F ist dann egal und wird in gewissen
 
 0:14:22.990,0:14:28.500
@@ -526,14 +525,14 @@ strukturell absorbiert wie in diesen beiden
 
 0:14:28.500,0:14:33.950
 Regeln, sondern aus semantischen Gründen absorbiert.
-Also wenn ich (F ∧ G) habe und ich weiß F ist
+Also wenn ich (F ∧ G) habe und ich weiß, F ist
 
 0:14:33.950,0:14:41.160
 sowieso gültig, dann kann ich das vereinfachen zu
 einfach nur noch G. Das gilt für Tautologien.
 
 0:14:41.160,0:14:45.540
-Und dann hatten wir noch die nach unseren Spiegelprinzip
+Und dann hatten wir noch die nach unserem Spiegelprinzip
 den Tautologien sozusagen entgegengesetzten
 
 0:14:45.540,0:14:54.310
@@ -554,7 +553,7 @@ ist, dann muss ich mich einfach nur weiter mit
 
 0:15:11.670,0:15:19.990
 G beschäftigen. Deswegen ist das äquivalent zu G bei der Disjunktion.
-Bei der Konjunktion ist das wieder gekippt sozusagen. Wenn
+Bei der Konjunktion ist das wieder gekippt, sozusagen. Wenn
 
 0:15:19.990,0:15:26.540
 ich die Konjunktionen (F ∧ G) habe und F
@@ -570,7 +569,7 @@ Da wird das G wieder dominiert. Es bliebe einfach nur
 
 0:15:36.590,0:15:42.260
 noch F als Formel über. Die semantischen Regeln
-sind wichtig, aber nicht für die Umformung
+sind wichtig, aber nicht für die Umformung.
 
 0:15:42.260,0:15:48.480
 von KNF oder DNF bzw. in KNF- oder DNF-Form.

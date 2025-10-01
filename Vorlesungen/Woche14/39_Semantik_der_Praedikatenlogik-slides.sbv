@@ -108,7 +108,7 @@ auch keinen Sinn ergeben. Die Prädikatenlogik
 
 0:02:48.300,0:02:51.770
 ist eine Erweiterung der Aussagenlogik, also
-wollen wir ähnlich vorgehen wie wir das für die
+wollen wir ähnlich vorgehen, wie wir das für die
 
 0:02:51.770,0:02:56.810
 Aussagenlogik schon getan haben. Allerdings ist es
@@ -192,7 +192,7 @@ prädikatenlogische Formel. Wir wollen eine
 
 0:04:53.720,0:04:59.180
 dazu passende Struktur haben. Und da verwende ich
-dieses kalligrafische, große A. Das entspricht dem,
+dieses kalligrafische, große A. Das entspricht dem.
 
 0:04:59.180,0:05:03.580
 was vorher dem α, dem griechischen Buchstaben
@@ -267,7 +267,7 @@ I(x) wird ein Element aus U sein, ein spezifisches.
 In einer passenden Struktur wird jeder frei vorkommenden
 
 0:06:42.210,0:06:48.150
-Variable x ein spezifisches Element zugewiesen.
+Variablen x ein spezifisches Element zugewiesen.
 Das muss aus der Grundmenge U kommen. Das darf nicht
 
 0:06:48.150,0:06:55.680
@@ -284,7 +284,7 @@ den Variablen Elemente aus U zugewiesen.
 
 0:07:08.919,0:07:15.210
 Aber wenn wir echte Funktionen haben, ein- oder
-zwei- oder mehr-stellige Funktionssymbole, dann
+zwei- oder mehrstellige Funktionssymbole, dann
 
 0:07:15.210,0:07:19.370
 müssen denen auch Funktionen zugewiesen werden,
@@ -343,7 +343,7 @@ aus der Grundmenge (den natürlichen Zahlen)
 jeweils einfach prüft,
 
 0:08:40.469,0:08:47.519
-ob die eine Zahl kleiner-gleich der anderen ist.
+ob die eine Zahl kleiner gleich der anderen ist.
 Aber es wären beliebige Relationen möglich.
 
 0:08:47.519,0:08:54.980
@@ -356,10 +356,10 @@ eine passende Struktur aus. Beispiel:
 
 0:09:04.089,0:09:08.680
 Nehmen wir diese Formel. Die tauchte zuvor im Kontext
-eines Beispiels auf. Nämlich: "Klaus mag alle,
+eines Beispiels auf. Nämlich: „Klaus mag alle,
 
 0:09:08.680,0:09:13.490
-die sich nicht selbst mögen". Das war
+die sich nicht selbst mögen“. Das war
 der Ursprung dieser Formel. Aber wenn wir die Formel
 
 0:09:13.490,0:09:18.660
@@ -396,7 +396,7 @@ und ich entscheide mich dafür, die Grundmenge
 
 0:09:59.930,0:10:06.550
 \{Gabi,Klaus\} zu wählen. Das wäre der vielleicht
-auch einfache Teil, aber wichtige Teil.
+auch einfache Teil, aber ein wichtiger Teil.
 
 0:10:06.550,0:10:10.839
 Nämlich die Grundmenge anzugeben. Und dann muss
@@ -411,7 +411,7 @@ Die ist aber gar nicht frei, denn die wird hier durch
 den Allquantor gebunden. Das heißt, diese Formel als Ganzes
 
 0:10:22.220,0:10:28.879
-hat keine freien Variablen. Deswegen muss ich schonmal
+hat keine freien Variablen. Deswegen muss ich schon mal
 keine Variablen interpretieren. Funktionssymbole
 
 0:10:28.879,0:10:35.550
@@ -446,19 +446,19 @@ wenn ich so eine passende Struktur angebe. Das sagt noch
 nichts darüber aus, ob die Formel zutrifft oder nicht.
 
 0:11:11.689,0:11:18.060
-Ich muss erstmal eine Struktur als Kandidaten haben.
+Ich muss erst einmal eine Struktur als Kandidaten haben.
 So wie wir in der Aussagenlogik diese α-Funktionen
 
 0:11:18.060,0:11:22.860
 gebildet haben. Das waren alle möglichen Belegungen
-der vorkommenden, atomaren Aussagen mit 0/1-Werten.
+der vorkommenden atomaren Aussagen mit 0/1-Werten.
 
 0:11:22.860,0:11:28.220
 Das sagt noch nichts darüber aus, ob diese Belegung
 jeweils die Formel wahr macht oder nicht.
 
 0:11:28.220,0:11:33.560
-Das waren erstmal nur Kandidaten. Und hier wäre jetzt
+Das waren erst einmal nur Kandidaten. Und hier wäre jetzt
 eine Kandidaten-Interpretation, dass ich sage:
 
 0:11:33.560,0:11:39.899
@@ -510,7 +510,7 @@ Das wäre eine passende Struktur.
 Ob die die Formel wahr macht oder nicht,
 
 0:12:47.649,0:12:54.019
-ist an dieser Stelle erstmal noch irrelevant.
+ist an dieser Stelle erst einmal noch irrelevant.
 Was ich gerne noch kurz diskutieren möchte, ist,
 
 0:12:54.019,0:12:58.509
@@ -559,7 +559,7 @@ muss sowohl Gabi als auch Klaus jeweils etwas zuordnen.
 
 0:13:55.209,0:14:04.800
 Und zwar was? Jeweils wieder ein Element aus U.
-Dann müssten wir  hier und hier
+Dann müssten wir hier und hier
 
 0:14:04.800,0:14:09.449
 jeweils Gabi oder Klaus hinschreiben.
@@ -587,7 +587,7 @@ unsere passenden Strukturen sind. Also
 
 0:14:43.740,0:14:52.990
 für eine Menge von atomaren Formeln A, B, C, denen jeweils
-einen Wahrheitswert aus \{0,1\} zugewiesen.
+einen Wahrheitswert aus {0,1} zugewiesen.
 
 0:14:52.990,0:15:01.940
 Und dann haben wir das erweitert zu einer
@@ -670,7 +670,7 @@ welche die Interpretation für dieses Prädikatsymbol ist,
 genau diese Werte, die da herauskommen, in Beziehung setzt
 
 0:17:09.559,0:17:18.169
-oder nicht. Wenn ja, dann sagen wir dieses
+oder nicht. Wenn ja, dann sagen wir, dieses
 "A-dach(P(t_1,...,t_k))" sei 1, ansonsten 0.
 
 0:17:18.169,0:17:27.760
@@ -718,7 +718,7 @@ Das lässt sich hier direkt übertragen,
 weil das die gleichen Arten von Operationen sind.
 
 0:18:36.110,0:18:46.110
-Also hierüber muss ich sozusagen gar nicht sprechen,
+Also darüber muss ich sozusagen gar nicht sprechen,
 das funktioniert einfach so wie in der Aussagenlogik.
 
 0:18:46.110,0:18:50.080
@@ -730,7 +730,7 @@ syntaktischen Konstrukte in der Prädikatenlogik.
 Also, wie sieht das für die aus?
 
 0:18:57.519,0:19:06.290
-Da wird jetzt expliziert, dass und auch
+Da wird jetzt explizit, dass und auch
 wie über eine bestimmte Grundmenge quantifiziert wird.
 
 0:19:06.290,0:19:12.070
@@ -802,7 +802,7 @@ weil der Quantor sozusagen gelöscht wird
 für die Restformel F. Deswegen wird I(x) auf d gesetzt,
 
 0:20:57.139,0:21:03.720
-egal was es vorher in der Struktur A
+egal, was es vorher in der Struktur A
 vielleicht schon war.
 
 0:21:03.720,0:21:08.540
@@ -846,7 +846,7 @@ für eine Gesamtformel und eine gegebene, passende
 Struktur jeweils einen Wahrheitswert 0 oder 1 berechnen.
 
 0:22:13.470,0:22:20.790
-Wie nutzen wir das? Wir können das exakt so nutzen
+Wie nutzen wir das? Wir können das exakt so nutzen,
 wie in der Aussagenlogik. Jetzt kommt also nochmal
 
 0:22:20.790,0:22:26.380
@@ -910,7 +910,7 @@ ist wie in der Aussagenlogik. Das Gleiche gilt
 für den Begriff Tautologie oder Gültigkeit.
 
 0:24:03.500,0:24:08.919
-Also, wann sagen wir eine prädikatenlogische
+Also, wann sagen wir, eine prädikatenlogische
 Formel ist gültig oder eine Tautologie?
 
 0:24:08.919,0:24:14.539
@@ -938,7 +938,7 @@ Das gilt hier weiterhin, weil ja auch diese Begriffe
 ganz analog gebildet sind. Und schließlich wird auch der
 
 0:24:50.030,0:24:55.519
-Äquivalenz-Begriff zwischen Formeln auf gleiche Weise
+Äquivalenzbegriff zwischen Formeln auf gleiche Weise
 wie in der Aussagenlogik formalisiert.
 
 0:24:55.519,0:25:01.009
@@ -1147,7 +1147,7 @@ diese Vorbedingung wahr sein, diese Nachbedingung aber nicht.
 
 0:30:31.929,0:30:38.230
 Also wir könnten die Implikation übersetzen in
-"Nicht das hier vorne Oder das hier hinten", und
+"Nicht das hier vorne oder das hier hinten", und
 
 0:30:38.230,0:30:47.549
 würden dann mit Verwendung der Regeln für Disjunktion
