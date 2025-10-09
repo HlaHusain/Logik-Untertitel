@@ -3,7 +3,7 @@ Heute besprechen wir Blatt 8 von Logik. Bei
 Aufgabe 1 sollen wir ein Prädikat without
 
 0:00:04.800,0:00:09.480
-schreiben, das ist dreistellig. Dabei soll der
+schreiben, das dreistellig ist. Dabei soll der
 erste Parameter eine Liste sein, der zweite ein
 
 0:00:09.480,0:00:14.400
@@ -20,18 +20,18 @@ Parameters. Bei der Listenverarbeitung im Prolog
 
 0:00:23.880,0:00:28.440
 gibt es ein generelles Schema, mit dem man bei
-vielen von diesen Aufgaben vorgehen kann. Man kann
+vielen dieser Aufgaben vorgehen kann. Man kann
 
 0:00:28.440,0:00:33.780
 mittels Rekursion die Liste elementweise abbauen,
-bis sie zum Beispiel leer ist oder einelementig.
+bis sie zum Beispiel leer ist oder ein-elementig.
 
 0:00:33.780,0:00:39.120
 Und dann einen Basisfall als Fakt konstruieren,
 sodass man damit die Rekursionen auflösen und
 
 0:00:39.120,0:00:43.320
-beenden kann. Dabei ist es vor Allem wichtig,
+beenden kann. Dabei ist es vor allem wichtig,
 dass man auf das Head-Element zugreifen kann,
 
 0:00:43.320,0:00:47.400
@@ -48,7 +48,7 @@ der Liste. Dann kann man das gleiche Konzept auf
 
 0:00:56.640,0:01:01.920
 die verkleinerte Liste anwenden. Und das macht
-man solange, bis man keine weiteren rekursiven
+man so lange, bis man keine weiteren rekursiven
 
 0:01:01.920,0:01:06.120
 Schritte durchführen kann. Um auf das Head-Element
@@ -59,11 +59,11 @@ kann man zum Beispiel das built-in-Prädikat append
 benutzen. Append ist ein dreistelliges Prädikat,
 
 0:01:11.640,0:01:17.580
-was eine Liste bekommt, eine zweite Liste und als
+das eine Liste bekommt, eine zweite Liste und als
 dritten Parameter die konkatenierte Liste, also
 
 0:01:17.580,0:01:21.720
-zusammengefügte Liste von beiden hat. Wenn man
+die zusammengefügte Liste von beiden hat. Wenn man
 sich zum Beispiel hier die Aufgabe anschaut,
 
 0:01:21.720,0:01:26.940
@@ -99,7 +99,7 @@ Tail anfügen und wenn wir dann als dritten
 Parameter L haben, ist das dann die konkatenierte,
 
 0:02:05.100,0:02:10.260
-also zusammengefügte Liste. Und das war ja das,
+also die zusammengefügte Liste. Und das war ja das,
 was wir aus dem Beispiel auch haben wollten. Wenn
 
 0:02:10.260,0:02:15.840
@@ -111,7 +111,7 @@ Head-Element zugreifen und jetzt gibt es zwei
 Fälle, die wir betrachten können. Der erste,
 
 0:02:20.640,0:02:24.600
-den wir betrachten ist, dass Head gleich
+den wir betrachten, ist, dass Head gleich
 dem Element ist, das wir aus der Liste
 
 0:02:24.600,0:02:29.760
@@ -120,15 +120,15 @@ Anfrage gegeben. Jetzt müssen wir als erstes den
 
 0:02:29.760,0:02:34.740
 Zugriff auf Head durch das append-Prädikat
-machen. Wenn wir jetzt also without (Xs, X,
+machen. Wenn wir jetzt also without(Xs, X,
 
 0:02:34.740,0:02:39.660
 L) in der Definition gegeben haben, dann wollen
-wir das Head-Element so da herausbekommen, dass
+wir das Head-Element so herausbekommen, dass
 
 0:02:39.660,0:02:45.420
 wir aus der Xs-Liste das erste Element nehmen. Das
-wäre in dem Fall, dass das Head-Element und jenes,
+wäre in dem Fall das Head-Element und jenes,
 
 0:02:45.420,0:02:49.860
 was wir herauslöschen wollen, gleich wären, wäre
@@ -136,14 +136,14 @@ das aus der Signatur schon das x. Das heißt,
 
 0:02:49.860,0:02:55.860
 wir haben als erstes das Element x, dann haben
-wir unbekannte Restliste, die wir bekommen
+wir eine unbekannte Restliste, die wir bekommen
 
 0:02:55.860,0:03:01.380
 wollen und dann die GesamteListe. Also wenn wir
 das Head-Element anfügen, an diese unbekannte
 
 0:03:01.380,0:03:07.860
-Tail-Liste, dann bekommen wir Xs heraus. Das heißt
+Tail-Liste, dann bekommen wir Xs heraus. Das heißt,
 Ys wäre in dem Fall unser Tail. Also in dem Fall
 
 0:03:07.860,0:03:15.060
@@ -152,14 +152,14 @@ a. Und das Xs wäre dann entsprechend die Liste a,
 
 0:03:15.060,0:03:19.620
 b, c. Der nächste Schritt ist jetzt, dass wir
-eben eine Rekursion mit der Restliste Ys machen,
+eine Rekursion mit der Restliste Ys machen,
 
 0:03:19.620,0:03:24.960
-das heißt, mit dem b, c was wir hier haben. Da ist
+das heißt, mit dem b, c, was wir hier haben. Da ist
 aber wichtig, dass das L, unsere Ergebnisliste,
 
 0:03:24.960,0:03:29.400
-unverändert bleibt. Weil im Falle der Gleichheit,
+unverändert bleibt. Weil im Falle der Gleichheit
 wollen wir das Element mehr oder weniger einfach
 
 0:03:29.400,0:03:34.500
@@ -172,15 +172,15 @@ Deswegen machen wir dann entsprechend auch den
 
 0:03:39.600,0:03:46.740
 rekursiven Aufruf mit dem Ys, der Restliste, also
-dem Tail, was wir vorhin hatten, dann dem Element
+dem Tail, das wir vorhin hatten, dann dem Element
 
 0:03:46.740,0:03:52.680
-X, was wir herauslöschen wollen und immer noch der
+X, das wir herauslöschen wollen und immer noch der
 unveränderten Ergebnisliste L. Der zweite Fall, im
 
 0:03:52.680,0:03:58.020
 Gegensatz zum ersten, ist, dass das Head-Element
-ungleich dem Element ist, was wir vergleichen
+ungleich dem Element ist, das wir vergleichen
 
 0:03:58.020,0:04:02.280
 wollen. Hier haben wir eine Beispielanfrage,
@@ -232,7 +232,7 @@ Ergebnisliste hinten angefügt werden müsste.
 
 0:05:02.520,0:05:07.740
 Das heißt, wir brauchen jetzt ein zusätzliches
-append mit dem wir das entsprechend gewährleisten
+append, mit dem wir das entsprechend gewährleisten
 
 0:05:07.740,0:05:12.480
 können. Und das Letzte, was wir uns überlegen
@@ -283,7 +283,7 @@ insert, not und member. Die Idee dabei ist, dass
 man jetzt zwei Fälle betrachtet. Beim ersten Fall
 
 0:06:04.920,0:06:10.020
-kann man sich vorstellen, dass, wenn die Liste,
+kann man sich vorstellen, dass, wenn die Liste
 das zu löschende Element nicht enthält, ist man
 
 0:06:10.020,0:06:14.880
@@ -332,7 +332,7 @@ dar. Das heißt, wenn wir das Element X an Zs,
 
 0:07:14.220,0:07:21.240
 eine bisher unbekannte Liste anfügen, das ist dann
-unsere Restliste dann kommt Xs heraus. So gesehen
+unsere Restliste, dann kommt Xs heraus. So gesehen
 
 0:07:21.240,0:07:32.304
 ist die Liste Xs die Restliste, die schon um das
@@ -368,7 +368,7 @@ verkleinerten Menge das Ergebnis ist. Jetzt muss
 
 0:08:14.520,0:08:19.500
 das Ganze wiederholt werden und es steigt erneut
-in Prolog-Wissensbasis ein. Und so sieht das dann
+in die Prolog-Wissensbasis ein. Und so sieht das dann
 
 0:08:19.500,0:08:24.180
 in der gesamten Lösung aus. Das ist eine kompakte

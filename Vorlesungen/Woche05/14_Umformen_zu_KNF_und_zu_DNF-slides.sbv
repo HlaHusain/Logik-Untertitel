@@ -64,18 +64,18 @@ Und wir wissen, dass es immer möglich ist, eine
 
 0:01:38.430,0:01:45.480
 KNF zu jeder Formel zu erhalten. Dieser Algorithmus
-wird sagen wie das geht. Der besteht aus
+wird sagen, wie das geht. Der besteht aus
 
 0:01:45.480,0:01:51.750
 mehreren Schritten. Sieben denke ich oder acht, wenn
 man den ersten bzw. nullten Schritt mitzählt. Denn
 
 0:01:51.750,0:01:59.190
-zunächst müssen wir uns erstmal fragen, was kommen denn in
+zunächst müssen wir uns erst einmal fragen, was kommen denn in
 der Formel für Operatoren vor? Negation, Konjunktion,
 
 0:01:59.190,0:02:05.760
-Disjunktion sind drei Operation, die auch in einer
+Disjunktion sind drei Operationen, die auch in einer
 KNF vorkommen können. Aber in einer allgemeinen,
 
 0:02:05.760,0:02:12.150
@@ -87,16 +87,16 @@ hatten wir so als abkürzende Schreibweisen
 letztlich für Ausdrücke eingeführt, die auch
 
 0:02:18.060,0:02:25.020
-mit den Basisoperation darstellbar sind. Der erste
+mit den Basisoperationen darstellbar sind. Der erste
 Schritt, falls wir eine Formel haben, in der Implikation
 
 0:02:25.020,0:02:31.020
-und oder Biimplikation vorkommen, wäre tatsächlich,
-dass wir die erst mal entfernen/ eliminieren. Und
+und/oder Biimplikation vorkommen, wäre tatsächlich,
+dass wir die erst mal entfernen/eliminieren. Und
 
 0:02:31.020,0:02:37.260
 zwar per Ersetzen durch ihre Definition. Also
-(A => B) zum Beispiel würden wir ersetzen, durch
+(A => B) zum Beispiel würden wir ersetzen durch
 
 0:02:37.260,0:02:44.910
 (¬A ∨ B). Und (A <=> B) könnten wir entweder in
@@ -119,16 +119,16 @@ da stand, kann man sich das auch leicht herleiten, dass
 In beiden Fällen haben wir dann
 
 0:03:15.780,0:03:22.290
-die Möglichkeit Formeln zu erstellen, in denen eben
-Implikation und Biimplikation nicht mehr vorkommt,
+die Möglichkeit, Formeln zu erstellen, in denen eben
+Implikation und Biimplikation nicht mehr vorkommen,
 
 0:03:22.290,0:03:27.570
 sondern nur noch Negation, Disjunktion und Konjunktion.
-Auf diesen Art Formeln setzen wir dann auf.
+Auf diese Art Formeln setzen wir dann auf.
 
 0:03:27.570,0:03:35.280
 Die ersten Schritte beschäftigen sich mit der
-Negation. Und zwar ist unser erstes Ziel ein paar
+Negation. Und zwar ist unser erstes Ziel, ein paar
 
 0:03:35.280,0:03:40.830
 einfache Ersetzungen durchzuführen. Also insbesondere,
@@ -167,15 +167,15 @@ einer Elementaraussage steht, dann werden wir es einfach
 als Literal stehen lassen. Was aber noch
 
 0:04:34.390,0:04:43.510
-sein könnte ist, dass eine Negation (geschachtelt) um
-eine Konjunkion auftaucht.
+sein könnte, ist, dass eine Negation (geschachtelt) um
+eine Konjunktion auftaucht.
 
 0:04:43.510,0:04:50.620
 Betrachten wir zunächst mal den Fall der Konjunktion.
 Also wir haben irgendetwas der Form ¬ und
 
 0:04:50.620,0:04:57.730
-dann (G ∧ H). Dann wissen wir, dass es die de Morgan Regeln
+dann (G ∧ H). Dann wissen wir, dass es die de Morgan-Regeln
 gibt. Da gibt es eine für Konjunktion und eine für Disjunktion.
 
 0:04:57.730,0:05:04.720
@@ -195,7 +195,7 @@ Negation nach innen und kippen dabei den Operator. Damit
 sorgen wir dafür, dass die Negation sozusagen, wenn wir uns
 
 0:05:26.950,0:05:32.110
-die Formel nochmal vorstellen als Syntaxbaum dargestellt,
+die Formel nochmal vorstellen, als Syntaxbaum dargestellt,
 dann drücken wir die Negation sozusagen
 
 0:05:32.110,0:05:38.590
@@ -260,7 +260,7 @@ wieder entfernen, also wieder Schritt 1. an der Stelle hier anwenden.
 
 0:07:04.270,0:07:11.800
 So drücken wir die Negation weiter
-nach unten oder entfernen Sie. Wie oft müssen wir
+nach unten oder entfernen sie. Wie oft müssen wir
 
 0:07:11.800,0:07:16.600
 das machen? Es reicht nicht, das genau einmal
@@ -275,7 +275,7 @@ in diesem Schritt neue Teilformeln dieser Form
 entstehen. Wenn etwa eine dieser beiden Teilformeln
 
 0:07:30.940,0:07:38.530
-eine Konjunktion gewesen ist. Das heißt beim Ausführen
+eine Konjunktion gewesen ist. Das heißt, beim Ausführen
 von Schritt 3. könnten neue Teilformeln
 
 0:07:38.530,0:07:44.260
@@ -283,7 +283,7 @@ entstehen, die durch Schritt 2. zu behandeln
 sind. Also insgesamt werden wir Schritte zwei und
 
 0:07:44.260,0:07:50.260
-drei einfach so oft durchführen wie möglich. Wie
+drei einfach so oft durchführen, wie möglich. Wie
 möglich heißt, bis nicht mehr der Fall ist, dass die
 
 0:07:50.260,0:07:56.350
@@ -299,7 +299,7 @@ und keiner dieser Schritte wäre mehr anwendbar. Und natürlich
 auch Schritt 1. nicht mehr. Das sind die
 
 0:08:12.460,0:08:18.700
-ersten Schritte, die sich mit der Negation beschäftigen .
+ersten Schritte, die sich mit der Negation beschäftigen.
 Tatsächlich wird nach diesen Schritten keine
 
 0:08:18.700,0:08:23.860
@@ -312,14 +312,14 @@ weiteren Schritte mehr im Algorithmus, die
 
 0:08:28.090,0:08:35.620
 dann mit der Negation irgendwas anstellen. Es gibt noch weitere
-Schritte. Nämlich ab Schritt fünf auf der nächsten
+Schritte, nämlich ab Schritt fünf auf der nächsten
 
 0:08:35.620,0:08:44.290
 Folie. Was haben wir da? Jetzt kommen
 die Distributivgesetze ins Spiel. So wie hier die
 
 0:08:44.290,0:08:49.120
-Doppelnegation und de Morgan Regeln, kommen hier
+Doppelnegation und de Morgan-Regeln, kommen hier
 die Distributivgesetze ins Spiel. Aber nicht alle,
 
 0:08:49.120,0:08:57.140
@@ -340,7 +340,7 @@ wir wollen Situationen vermeiden, wo außen eine
 
 0:09:15.380,0:09:23.300
 Disjunktion und innen eine Konjunktion steht. Das wäre eher etwas,
-was in Richtung einer disjunktiven Normalform geht. Also wir wollen außen
+was in Richtung einer disjunktiven Normalform geht. Also wollen wir außen
 
 0:09:23.300,0:09:28.490
 Konjunktionen haben. Das heißt, wenn wir eine Teilformel sehen,
@@ -367,7 +367,7 @@ wir nach außen die Konjunktion geschrieben haben
 und Disjunktion nach unten gedrückt haben. Das heißt, was
 
 0:09:57.950,0:10:06.620
-hier passiert ist im Wesentlichen, dass wir jetzt
+hier passiert, ist im Wesentlichen, dass wir jetzt
 Disjunktionen im Syntaxbaum nach unten drücken. Das
 
 0:10:06.620,0:10:12.290
@@ -399,8 +399,8 @@ irgendwie immer die Formel im
 Wesentlichen einfacher machten. Zumindest nicht
 
 0:10:49.190,0:10:56.270
-wesentlich komplizierter/ größer. Hier sieht
-die ersetzte Formel, also das wodurch wir die Formel
+wesentlich komplizierter / größer. Hier sieht
+die ersetzte Formel, also das, wodurch wir die Formel
 
 0:10:56.270,0:11:02.870
 ersetzen, größer aus. Insbesondere wird hier
@@ -408,7 +408,7 @@ die Teilformel G und hier die Teilformel I dupliziert.
 
 0:11:02.870,0:11:11.180
 Also, wenn das eine große Formel G ist, dann ist die hinterher
-zweimal da. Dann haben wir wirklich ein wesentliches aufblähen
+zweimal da. Dann haben wir wirklich ein wesentliches Aufblähen
 
 0:11:11.180,0:11:15.980
 von dieser Formel. Noch schlimmer: Auch fünf und
@@ -416,18 +416,18 @@ sechs müssen wir gegebenenfalls mehrfach machen.
 
 0:11:15.980,0:11:23.930
 Auch hier gilt es wieder: Durch Ausführen von
-Schritt fünf und/oder Schritt sechs, könnten neue Teilformeln
+Schritt fünf und/oder Schritt sechs könnten neue Teilformeln
 
 0:11:23.930,0:11:28.130
 entstehen, die wieder dieser Bauart sind. Es können keine
 neuen Teilformeln entstehen, die durch Schritte
 
 0:11:28.130,0:11:32.660
-1-4 zu behandeln sind. Aber weitere Teilformeln,
+1–4 zu behandeln sind. Aber weitere Teilformeln,
 die durch Schritte fünf und sechs zu behandeln sind.
 
 0:11:32.660,0:11:37.940
-Das heißt, wir müssen auch das wieder wiederholt machen,
+Das heißt, wir müssen auch das wiederholt machen,
 bis wir nichts mehr finden, was wir mit Schritt
 
 0:11:37.940,0:11:46.220
@@ -440,7 +440,7 @@ dass dann auf jeden Fall eine KNF hergestellt ist.
 
 0:11:54.140,0:12:02.270
 Ein paar Anmerkungen, die ich eigentlich schon gesagt hatte,
-(jetzt nochmal aufgeschrieben): Schritte 1-4
+(jetzt nochmal aufgeschrieben): Schritte 1–4
 
 0:12:02.270,0:12:07.100
 drücken Negation im Syntaxbaum nach unten. Und danach
@@ -448,14 +448,14 @@ wird keine Negation mehr angefasst oder neu
 
 0:12:07.100,0:12:14.030
 eingeführt. Schritte fünf und sieben drücken
-Disjunktionen nach unten. Durch dieses ditribuieren.
+Disjunktionen nach unten. Durch dieses Distribuieren.
 
 0:12:14.030,0:12:19.370
 Und das machen wir, weil wir eine KNF anstreben, wo
 außen bitteschön Konjunktionen stehen sollen und
 
 0:12:19.370,0:12:30.770
-nicht Disjunktion. Und dann (finale Bemerkung auf dieser Folie):
+nicht Disjunktionen. Und dann (finale Bemerkung auf dieser Folie):
 "Unterwegs" oder auch am Ende können
 
 0:12:30.770,0:12:34.670
@@ -468,7 +468,7 @@ gemeint wie Idempotenz. Also wenn zum Beispiel
 
 0:12:39.860,0:12:47.660
 in einem der Schritte irgendwann eine Disjunktion
-entsteht (vielleicht durch das hinein distribuieren),
+entsteht (vielleicht durch das Hinein-Distribuieren),
 
 0:12:47.660,0:12:56.060
 wo wir (A ∨ A) stehen haben für ein Literal A / für eine
@@ -492,7 +492,7 @@ Assoziativität. Wir könnten sozusagen die Sachen so im Kopf
 
 0:13:21.500,0:13:27.440
 zusammen arrangieren, dass wir so ein doppeltes A, was
-in einer Konjunktion/ einer Disjunktion auftaucht,
+in einer Konjunktion / einer Disjunktion auftaucht,
 
 0:13:27.440,0:13:32.840
 entfernen können. Das wäre eine Möglichkeit
@@ -504,10 +504,10 @@ bei der Konjunktion (also in der KNF)
 
 0:13:39.170,0:13:46.910
 am Ende eine Disjunktion, die da als
-Teilformel auftaucht, zum Beispiel soetwas wie (A ∨ ¬A)
+Teilformel auftaucht, zum Beispiel so etwas wie (A ∨ ¬A)
 
 0:13:46.910,0:13:58.190
-enthält. Wir wissen (A ∨ ¬A) ist eine eine Tautologie und die
+enthält. Wir wissen, (A ∨ ¬A) ist eine Tautologie und die
 kann man mit einer der Tautologieregeln entfernen.
 
 0:13:58.190,0:14:03.710
@@ -515,16 +515,16 @@ Tautologie und irgendeine Formel ist immer diese
 andere Formel. Das werden wir gleich in einem Beispiel
 
 0:14:03.710,0:14:11.150
-sehen. Es sind prinzipiell auch Vereinfachung
+sehen. Es sind prinzipiell auch Vereinfachungen
 mit der Absorptionsregel denkbar, die ist aber
 
 0:14:11.150,0:14:18.710
-nicht so strukturell/ sich aufdrängend, dass wir
+nicht so strukturell / sich aufdrängend, dass wir
 sie tatsächlich benutzen werden oder brauchen werden
 
 0:14:18.710,0:14:26.570
 in den Beispielen, die wir betrachten. Also wesentlich sind
-die Art Vereinfachungen, die ich gerade kurz genannt habe
+die Art der Vereinfachungen, die ich gerade kurz genannt habe
 
 0:14:26.570,0:14:34.990
 und wir auch in den Beispielen sehen werden. Das ist
@@ -539,7 +539,7 @@ Und die Antwort ist glücklicherweise ja.
 Und der ist auch sehr ähnlich. Insbesondere
 
 0:14:46.780,0:14:56.050
-sind dessen Schritte 0-4 exakt wie im Algorithmus
+sind dessen Schritte 0–4 exakt wie im Algorithmus
 zum Erzeugen einer KNF. Das heißt, diese Schritte bis hier
 
 0:14:56.050,0:15:02.230
@@ -552,23 +552,23 @@ oder im Syntaxbaum wieder nach unten drücken. Der Unterschied wird
 
 0:15:08.920,0:15:14.470
 dann sein, dass wenn wir eine DNF anstreben,
-wir auf äußerster eben eine Disjunktion haben
+wir auf äußerster Ebene eine Disjunktion haben
 
 0:15:14.470,0:15:18.760
 wollen. Das heißt, wenn wir eine Teilformel dieser Form
-sehen würden, würde es keinen Sinn ergeben, die Disjunktion jetzt nach innen
+sehen würden, würde es keinen Sinn ergeben, die Disjunktion jetzt nach innen.
 
 0:15:18.760,0:15:24.580
 zu drücken. Wenn wir eine disjunktive Normalform
-haben wollen, wollen wir außen Disjunktionen haben,
+haben wollen, wollen wir außen Disjunktionen haben.
 
 0:15:24.580,0:15:30.940
-aber nicht innen. Das heißt, wir werden beim Herstellen
+Aber nicht innen. Das heißt, wir werden beim Herstellen
 einer disjunktiven Normalform einfach die Schritte
 
 0:15:30.940,0:15:37.720
 fünf und sechs durch jeweils das duale Distributivgesetz
-ersetzen. Also wir die Konjunktion nach innen drücken
+ersetzen. Also drücken wir die Konjunktion nach innen,
 
 0:15:37.720,0:15:45.280
 können. Das sieht dann so aus: Hier sind wirklich einfach die
@@ -595,7 +595,7 @@ da am Ende eine Disjunktion herauskommt, können
 wir die Unerfüllbarkeitsregeln für Disjunktion
 
 0:16:30.690,0:16:38.430
-anwenden. Also, wenn wir soetwas stehen haben, wie eine
+anwenden. Also, wenn wir so etwas stehen haben, wie eine
 äußere Disjunktion und einer der Terme, die da mit Disjunktion
 
 0:16:38.430,0:16:46.590

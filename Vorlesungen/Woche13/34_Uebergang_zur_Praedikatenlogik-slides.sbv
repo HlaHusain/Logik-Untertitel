@@ -19,20 +19,20 @@ was wir bisher getan haben. Nicht, indem ich die
 einzelnen Teile inhaltlich wiederhole, sondern indem
 
 0:00:31.759,0:00:39.270
-ich das noch mal anspreche und auch die Brücke
+ich das noch einmal anspreche und auch die Brücke
 schlage/erkläre zu dem, was wir im Rest des
 
 0:00:39.270,0:00:45.510
-Semesters noch machen möchten. Nämlich die Prädikatenlogik.
+Semesters noch machen möchten, nämlich die Prädikatenlogik.
 Was da aus der Aussagenlogik, was aus der Prolog-Beschäftigung
 
 0:00:45.510,0:00:52.800
 übernommen wird. Was anders ist. Was Sie auch
-noch mal wiederholen sollten. Also ich werde das jetzt
+noch einmal wiederholen sollten. Also, ich werde das jetzt
 
 0:00:52.800,0:00:59.830
 inhaltlich nicht wiederholen. Ich werde darüber
-sprechen und Sie ermutigen/auffordern, das entsprechend nochmal
+sprechen und Sie ermutigen/auffordern, das entsprechend noch einmal
 
 0:00:59.830,0:01:05.950
 zu wiederholen. Damit wir dann noch in einem letzten Kraftakt
@@ -43,15 +43,15 @@ in den nächsten Wochen. Das heißt auch, dass der Plan
 für diese Woche ist, dass Sie Übungsaufgaben kriegen,
 
 0:01:11.079,0:01:17.280
-die sich noch mal vor allem mit der Aussagenlogik beschäftigen
-und noch nichts neues formal passiert.
+die sich noch einmal vor allem mit der Aussagenlogik beschäftigen
+und noch nichts Neues formal passiert.
 
 0:01:17.280,0:01:23.659
 Also, was bisher geschah:
 Sie sehen hier eine der Folien, letztlich
 
 0:01:23.659,0:01:31.619
-mehr oder weniger übernommen, vom Beginn der
+mehr oder weniger übernommen vom Beginn der
 Vorlesung in der ersten Woche. Da gab es zwei
 
 0:01:31.619,0:01:36.729
@@ -60,19 +60,19 @@ ist die erste davon. Und das, was hier steht,
 
 0:01:36.729,0:01:40.850
 haben wir tatsächlich gemacht. Das ist ja schon mal gut.
-Also der Plan ist soweit aufgegangen.
+Also, der Plan ist soweit aufgegangen.
 
 0:01:40.850,0:01:46.569
 Wir haben zum einen die Aussagenlogik betrachtet
 und uns da eben im Wesentlichen mit diesen
 
 0:01:46.569,0:01:52.880
-Unterpunkten beschäftigt. Sprache der Aussagenlogik:
+Unterpunkten beschäftigt: Sprache der Aussagenlogik.
 Da ging es um die Syntax, um die Operatoren, um die Verwendung
 
 0:01:52.880,0:01:58.179
 von Symbolen. Sie erinnern sich auch an den Ausdruck
-oder den Begriff der Teilformel. Also da ging es erstmal
+oder den Begriff der Teilformel. Also, da ging es erstmal
 
 0:01:58.179,0:02:05.090
 um den Aufbau von Formeln in der Aussagenlogik.
@@ -83,7 +83,7 @@ Dann haben wir also logische Ausdrücke betrachtet
 und uns dann auch mit deren Semantik beschäftigt.
 
 0:02:11.360,0:02:18.110
-Also wie können wir bestimmen/auswerten, ob ein Ausdruck
+Also, wie können wir bestimmen/auswerten, ob ein Ausdruck
 wahr oder falsch ist, unter bestimmten Belegungen?
 
 0:02:18.110,0:02:26.180
@@ -92,11 +92,11 @@ verwendet haben. Dann haben wir uns mit
 
 0:02:26.180,0:02:31.909
 Normalformen beschäftigt. Also bestimmten
-Arten von Formeln, und uns damit beschäftigt,
+Arten von Formeln und uns damit beschäftigt,
 
 0:02:31.909,0:02:41.900
 dass es die KNF und die DNF gibt. Zwei spezielle Normalformen.
-Und hatten auch besprochen, dass wir jede aussagenlogische
+Und wir hatten auch besprochen, dass wir jede aussagenlogische
 
 0:02:41.900,0:02:47.310
 Formel durch Äquivalenzumformungen in jede dieser
@@ -124,19 +124,19 @@ oder Erfüllbarkeit oder Unerfüllbarkeit von
 
 0:03:18.180,0:03:23.860
 aussagenlogischen Formeln zu bestimmen. Da war der
-Status von Formeln relevant. Also wir hatten darüber
+Status von Formeln relevant. Also, wir hatten darüber
 
 0:03:23.860,0:03:28.439
 gesprochen, dass eine Formel ein Modell haben kann oder
 auch keine Modelle haben kann. Dann ist sie unerfüllbar.
 
 0:03:28.439,0:03:35.150
-Wir hatten das Spiegelungs-Prinzip betrachtet.
+Wir hatten das Spiegelungsprinzip betrachtet.
 Wie es zusammenhängt, ob eine Formel unerfüllbar ist
 
 0:03:35.150,0:03:41.879
 oder ihr Gegenteil / ihre Negation zum Beispiel
-eine Tautologie ist. Also das sind alles Begriffe,
+eine Tautologie ist. Also, das sind alles Begriffe,
 
 0:03:41.879,0:03:47.480
 die Sie noch einmal wiederholen sollten,
@@ -148,11 +148,11 @@ Dann hatten wir und, im Grunde genommen als Brücke
 
 0:03:54.629,0:03:59.680
 zum zweiten Kapitel, zur Logikprogrammierung,
-mit Hornformeln beschäftigt. Das waren noch mal
+mit Hornformeln beschäftigt. Das waren noch einmal
 
 0:03:59.680,0:04:06.430
 ganz spezielle KNF-Formeln. Aussagenlogische Hornformeln.
-Und für die hatten wir kennengelernt,
+Und dafür hatten wir kennengelernt,
 
 0:04:06.430,0:04:12.269
 dass es den sogenannten Markierungsalgorithmus gibt,
@@ -164,7 +164,7 @@ Formeln in der Aussagenlogik anwendbar ist.
 
 0:04:21.709,0:04:27.720
 Das sind Sachen, die Ihnen aus der Aussagenlogik
-in Erinnerung sein sollten, oder die Sie sich in
+in Erinnerung sein sollten oder die Sie sich in
 
 0:04:27.720,0:04:31.281
 Erinnerung rufen sollten. Und dann hatten wir uns
@@ -188,7 +188,7 @@ in der Prädikatenlogik verwenden werden.
 
 0:04:54.970,0:05:03.639
 Und die Prädikate in Prolog, die wurden eben verwendet,
-um letztlich strukturiertere Aussagen zu haben
+um letztlich strukturiertere Aussagen zu haben,
 
 0:05:03.639,0:05:08.560
 als in der reinen Aussagenlogik. Das werden wir uns
@@ -219,7 +219,7 @@ Prädikaten, Variablen, Datenkonstruktoren) Formeln aufgebaut.
 Allerdings nur Hornformeln, keine beliebigen aus
 
 0:05:45.460,0:05:54.060
-Konjunktionen und Disjunktion geschachtelt
+Konjunktionen und Disjunktionen geschachtelt
 erstellten Formeln. Das war also sozusagen
 
 0:05:54.060,0:05:58.910
@@ -240,7 +240,7 @@ zu formalisieren, wie wir das in der Aussagenlogik
 
 0:06:14.449,0:06:22.020
 gemacht haben. Und dann hatten wir ganz spezielle
-Programmier-Ansätze kennengelernt,
+Programmieransätze kennengelernt,
 
 0:06:22.020,0:06:27.610
 die sich in Prolog gut einsetzen lassen, die Sie
@@ -279,7 +279,7 @@ Und das orientiert sich ganz gut an der vorab
 aufgestellten, oder aus dem vergangenen Jahr
 
 0:07:16.021,0:07:21.740
-übernommenen, Übersicht hier. Was Sie, wenn
+übernommenen Übersicht hier. Was Sie, wenn
 Sie zu der entsprechenden Folie (des WS 2020/21)
 
 0:07:21.740,0:07:27.390
@@ -388,7 +388,7 @@ einmal eine kurze Folie gehabt, um
 zu Beginn der Aussagenlogik diese abzugrenzen zur
 
 0:09:43.160,0:09:48.329
-Prädikatenlogik, die Sie zu diesen Zeitpunkt noch gar
+Prädikatenlogik, die Sie zu diesem Zeitpunkt noch gar
 nicht kannten. Aber da ging es mir zumindest darum,
 
 0:09:48.329,0:09:53.380
@@ -396,7 +396,7 @@ intuitiv kurz zu entwerfen, was der Unterschied zwischen
 Aussagen- und Prädikatenlogik ist. Und die Beispiele
 
 0:09:53.380,0:09:59.190
-habe ich jetzt hier noch mal aufgenommen, weil
+habe ich jetzt hier noch einmal aufgenommen, weil
 wir das jetzt und vor allem in Folge natürlich
 
 0:09:59.190,0:10:04.880
@@ -441,7 +441,7 @@ solcher Aussagen mit einfachen Operatoren. Und zur Prädikatenlogik
 
 0:10:53.750,0:10:58.610
 hatte ich an der früheren Stelle gesagt, dass
-da etwas hinzukommt. Zum Einen kommen da hinzu:
+da etwas hinzukommt. Zum einen kommen da hinzu:
 
 0:10:58.610,0:11:10.561
 Aussagen über Beziehungen zwischen Objekten. Statt einfach
@@ -465,11 +465,11 @@ natürlich auch schon gesehen. In der Prädikatenlogik
 
 0:11:31.430,0:11:36.639
 wird es also auch Variablen geben. Für jede natürliche Zahl x gilt,
-dass es eine natürliche Zahl y gibt, so dass x kleiner als y ist.
+dass es eine natürliche Zahl y gibt, sodass x kleiner als y ist.
 
 0:11:36.639,0:11:42.540
 Also da tauchen Variablen auf. Da tauchen solche universellen Aussagen auf:
-"Für alle natürlichen Zahlen." Oder, existentielle: "Es gibt eine Zahl y."
+"Für alle natürlichen Zahlen." Oder, existenzielle: "Es gibt eine Zahl y."
 
 0:11:42.540,0:11:47.790
 Und es gibt Beziehungen zwischen diesen Objekten.
@@ -493,7 +493,7 @@ dieses Existenzzeichen (∃), was hier für die Variablen
 
 0:12:11.240,0:12:23.670
 irgendwie eingeführt wird, das haben wir in Prolog
-nicht gesehen. Das wird also auf jeden Fall etwas neues sein.
+nicht gesehen. Das wird also auf jeden Fall etwas Neues sein.
 
 0:12:23.670,0:12:29.389
 Dann hatten wir auch, schon relativ früh in der
@@ -561,7 +561,7 @@ die irgendwie den Datenkonstruktoren aus Prolog entsprechen.
 
 0:14:12.570,0:14:20.730
 Dann gab es noch diese etwas merkwürdige Aussage.
-Das tauchte auf im Zusammenhang auf der
+Das tauchte auf im Zusammenhang mit der
 
 0:14:20.730,0:14:26.270
 Diskussion von scheinbar absurden Aussagen
@@ -572,12 +572,12 @@ wenn ich sage: "Alle Aliens sind Säugetiere. Alle
 Aliens leben im Meer." Kann ich daraus schlussfolgern,
 
 0:14:30.029,0:14:34.470
-dass einige Säugetiere in Meer leben?
+dass einige Säugetiere im Meer leben?
 Das hatten wir diskutiert für Delfine statt Aliens.
 
 0:14:34.470,0:14:43.620
 Und ich glaube noch für Elefanten und irgendeine Pflanze.
-Also was ändert es an der Aussage, wenn zum Beispiel
+Also, was ändert es an der Aussage, wenn zum Beispiel
 
 0:14:43.620,0:14:46.990
 überhaupt keine Aliens existieren? Da kommen genau
@@ -684,7 +684,7 @@ Datenkonstruktoren haben wir verwendet für strukturierte Daten.
 Sie erinnern sich: Bei der Angabe von Adressen oder
 
 0:17:25.450,0:17:30.940
-validen Datumsangaben, oder eine Person zu zerlegen in ihren Vor-
+validen Datumsangaben oder eine Person zu zerlegen in ihren Vor-
 und Nachnamen. Das war die Verwendung der Datenkonstruktoren.
 
 0:17:30.940,0:17:38.960
@@ -705,7 +705,7 @@ Rolle von Relationssymbolen und Funktionssymbolen nicht
 
 0:17:54.070,0:17:59.050
 zu verwechseln. Da mussten Sie beim Programmieren
-drauf aufpassen. Da werden Sie auch aufpassen müssen,
+darauf aufpassen. Da werden Sie auch aufpassen müssen,
 
 0:17:59.050,0:18:04.500
 wenn Sie prädikatenlogische Formeln haben
@@ -761,10 +761,10 @@ diese algorithmischen Prinzipien, die wir in Prolog
 
 0:19:20.630,0:19:27.770
 gesehen haben, wie rekursive Definition und Ausführung
-von Programmen oder der Generate-and-Test Ansatz,
+von Programmen oder der Generate-and-Test-Ansatz.
 
 0:19:27.770,0:19:34.190
-das waren wichtige Aspekte für die Prolog-Programmierung.
+Das waren wichtige Aspekte für die Prolog-Programmierung.
 Die wir aber in der Prädikatenlogik nicht
 
 0:19:34.190,0:19:41.440
@@ -794,7 +794,6 @@ nicht mehr im Vordergrund stehen in diesem
 0:20:09.630,0:20:23.070
 Kapitel zur Prädikatenlogik.
 Tatsächlich ist die Prädikatenlogik auch
-
 0:20:23.070,0:20:28.600
 in gewissem Sinne echt mehr als Prolog.
 Also nicht nur, dass wir das Ausführen der Programme
@@ -832,7 +831,7 @@ Also auch die Art, wie wir einer Formel Bedeutung geben,
 kann weder so sein wie in der Aussagenlogik
 
 0:21:20.580,0:21:26.060
-(mit Wahrheitstafeln),  weil wir jetzt diese extra
+(mit Wahrheitstafeln), weil wir jetzt diese extra
 Quantoren zu betrachten haben, noch kann die Bedeutung
 
 0:21:26.060,0:21:30.800
@@ -900,7 +899,7 @@ Jetzt gehen wir zur Prädikatenlogik,
 behalten die Prädikate und Datenkonstruktoren,
 
 0:22:56.930,0:23:04.020
-führen Quantoren ein, und verzichten auf die
+führen Quantoren ein und verzichten auf die
 Einschränkung auf Hornklauseln. Das ist auch ein
 
 0:23:04.020,0:23:11.480
@@ -948,7 +947,7 @@ wiederholen sollten. Also zur Beschreibung der Semantik
 von Formeln hatten wir mit Belegungen operiert.
 
 0:24:21.620,0:24:25.870
-Mit passenden Belegungen, zu einer Formel
+Mit passenden Belegungen zu einer Formel
 passenden Belegungen. Da ging es darum, dass
 
 0:24:25.870,0:24:30.250
@@ -965,14 +964,14 @@ Allerdings in erweiterter Form. Warum?
 
 0:24:41.060,0:24:45.420
 Weil wir jetzt Variablen haben, und weil wir die Prädikatsymbole haben,
-die Datenkonstruktoren, etc. Das heißt, wir werden auch
+die Datenkonstrukteure, etc. Das heißt, wir werden auch
 
 0:24:45.420,0:24:53.390
 mit Belegungen operieren, aber die Definitionen an sich werden
-anspruchsvoller sein. Aber Sie sollten nichtsdestotrotz, oder
+anspruchsvoller sein. Aber Sie sollten nichtsdestotrotz oder
 
 0:24:53.390,0:24:57.500
-vor allem deswegen, das aus der Aussagenlogik
+vor allem deswegen das aus der Aussagenlogik
 nochmal wiederholen.
 
 0:24:57.500,0:24:57.970
@@ -1005,7 +1004,7 @@ Dann hatten wir in der Aussagenlogik
 Äquivalenzumformungen besprochen.
 
 0:25:37.630,0:25:43.850
-Also wir hatten erst mal Äquivalenzen besprochen.
+Also, wir hatten erst mal Äquivalenzen besprochen.
 Zum Beispiel die de Morganschen Regeln, die Negation,
 
 0:25:43.850,0:25:47.660
@@ -1022,7 +1021,7 @@ also auch wieder so tun wollen.
 
 0:26:00.850,0:26:06.400
 Allerdings natürlich jetzt mit Formeln, in denen
-Prädikatsymbole und Datenkonstruktoren auftauchen.
+Prädikatsymbole und Datenkonstrukteure auftauchen.
 
 0:26:06.400,0:26:15.059
 Oder Relationssymbole und Funktionssymbole.
@@ -1113,7 +1112,7 @@ prädikatenlogische Resolution auch fordern,
 das auf korrekte Art und Weise zu tun. Da werden wir etwas
 
 0:28:27.350,0:28:37.350
-investieren müssen. Also auch das bitte wiederholen.
+investieren müssen. Also, auch das bitte wiederholen.
 Andererseits gibt es ja zwei Themen aus der Aussagenlogik,
 
 0:28:37.350,0:28:40.880
@@ -1142,14 +1141,14 @@ eine KNF oder DNF, also eine der Normalformen,
 
 0:29:08.750,0:29:14.360
 aus einer Wahrheitstafel abzulesen.
-Allerdings werden wir für die Prädikatenlogik
+Allerdings werden wir für die Prädikatenlogik,
 
 0:29:14.360,0:29:18.540
 nicht solche einfachen Wahrheitstafeln haben,
-weil wir nicht nur atomare Aussagen A, B, C haben,
+weil wir nicht nur atomare Aussagen A, B, C haben.
 
 0:29:18.540,0:29:25.850
-denen wir einen 0/1 Wert zuweisen. Sondern durch
+denen wir einen 0/1-Wert zuweisen. Sondern durch
 die Prädikatsymbole und die Datenkonstruktoren
 
 0:29:25.850,0:29:30.500

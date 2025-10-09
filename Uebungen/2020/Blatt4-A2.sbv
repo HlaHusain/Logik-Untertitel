@@ -1,6 +1,6 @@
 0:00:00.459,0:00:05.080
 Bei Aufgabe zwei sollen wir für die folgenden
-Formeln entscheiden, ob sie Hornformeln sind
+Formeln entscheiden, ob sie Hornformeln sind,
 
 0:00:05.080,0:00:09.990
 oder nicht. Dafür rufen wir uns die Voraussetzungen
@@ -43,7 +43,7 @@ Literale und zwar C und D. (a) ist also keine
 Hornformel, da die letzte Klausel mehr als
 
 0:01:21.810,0:01:28.140
-ein positives literal enthält. Wir kommen
+ein positives Literal enthält. Wir kommen
 zu Teilaufgabe (b). Hier haben wir keine KNF,
 
 0:01:28.140,0:01:33.930
@@ -100,7 +100,7 @@ farbig daneben. Vorher hatten wir es so gemacht:
 
 0:02:46.700,0:02:54.400
 B impliziert A, wird zu nicht B oder A. Das
-ist das gleiche, sodass wir das einfach umdrehen
+ist das Gleiche, sodass wir das einfach umdrehen
 
 0:02:54.400,0:03:03.970
 können. A oder nicht B. Der untere Teil ist
@@ -123,7 +123,7 @@ Implikationsschreibweise kommt das Und auf
 jeden Fall noch in die Konjunktion. Ein C
 
 0:03:22.060,0:03:28.680
-wird in der Implikationsschreibweise als
+wird in der Implikationsschreibweise als
 einfaches Literal zu eins impliziert C. Hier
 
 0:03:28.680,0:03:35.650

@@ -1,5 +1,5 @@
 0:00:01.400,0:00:08.250
-Also nachdem wir uns den formalen Aufbau
+Also, nachdem wir uns den formalen Aufbau
 von Termen und dann vor allem auch von Formeln
 
 0:00:08.250,0:00:13.290
@@ -15,7 +15,7 @@ so formell, sondern einfach, was ihre intuitive Bedeutung ist.
 Und dafür ist zunächst einmal sehr essenziell,
 
 0:00:25.570,0:00:33.470
-dass wir uns immer vergegenwärtigen über welchen Bereich,
+dass wir uns immer vergegenwärtigen, über welchen Bereich,
 nennt man auch Universum oder Grundmenge oder Individuenbereich,
 
 0:00:33.470,0:00:38.370
@@ -68,7 +68,7 @@ Dadurch wird die Aussage auch interessant.
 
 0:01:50.850,0:01:57.690
 Es gibt Lebewesen. Also einige Wahlen für das x
-sind solche, die M(x) erfüllen. Für die zutrifft:
+sind solche, die M(x) erfüllen. Für die trifft zu:
 
 0:01:57.690,0:02:05.490
 ist ein Mensch. Für andere nicht. Das heißt, um
@@ -119,7 +119,7 @@ für diese anderen x, die keine Menschen sind,
 trifft die Formel gar keine Aussage.
 
 0:03:19.120,0:03:31.720
-Nicht zur Sterblichkeit, weil für die die Implikationen
+Nicht zur Sterblichkeit, weil für die die Implikation
 auch wahr ist, egal ob S(x) wahr ist.
 
 0:03:31.720,0:03:36.809
@@ -136,7 +136,7 @@ wenn wir zum Beispiel Sokrates als Instanz hier interpretieren wollen,
 
 0:03:53.639,0:03:57.900
 muss Sokrates natürlich eins von diesen Lebewesen sein.
-In der Diskussion vorher tauchte auch M(sokrates) auf.
+In der Diskussion vorher tauchte auch M(Sokrates) auf.
 
 0:03:57.900,0:04:02.239
 Natürlich muss dann Sokrates auch
@@ -172,7 +172,7 @@ wie direkt zu sagen: ∀x: S(x).
 
 0:04:49.010,0:04:56.990
 Weil letztlich, wenn wir die Implikation wieder
-schreiben als "Nicht die Vorbedingung Oder die Nachbedingung",
+schreiben als "Nicht die Vorbedingung oder die Nachbedingung",
 
 0:04:56.990,0:05:05.009
 also ¬M(x) ∨ S(x), dann würde das ¬M(x) ja nie zutreffen,
@@ -236,10 +236,10 @@ Dann würden wir dieser Aussage vermutlich nicht zustimmen.
 
 0:06:37.849,0:06:44.189
 Denn dann würde sie bedeuten: "Für alle x, für alle
-Lebewesen gilt, das Lebewesen ist menschlich und
+Lebewesen gilt, dass Lebewesen menschlich und
 
 0:06:44.189,0:06:50.669
-ist sterblich." Und das stimmt eben nicht für
+sterblich sind." Und das stimmt eben nicht für
 alle Lebewesen. Wenn wir hingegen tatsächlich hier
 
 0:06:50.669,0:06:57.150
@@ -264,7 +264,7 @@ für dieses x sowieso die Menschen betrachten,
 
 0:07:25.289,0:07:33.469
 können wir die Aussage auch zu dieser Aussage verknappen:
-"Alle x sind sterblich". Was ist hier relevant?
+"Alle x sind sterblich." Was ist hier relevant?
 
 0:07:33.469,0:07:41.550
 Bei der einen Formel, die wir zunächst
@@ -384,7 +384,7 @@ interpretieren. Hier wollen wir darüber jeweils
 
 0:10:31.640,0:10:38.540
 explizit etwas sagen. Wenn wir uns um die Aussage
-"Aliens" kümmern, drücken wir dadurch aus, dass wir sagen:
+"Aliens" kümmern, drücken wir dadurch aus, dass wir sagen: "
 
 0:10:38.540,0:10:42.770
 Wir schauen uns alle x an, aus irgendeiner Grundmenge.
@@ -539,7 +539,7 @@ Wir müssen also aufpassen, was wir da wählen dürfen
 bzw. wie wir diese Grundmenge setzen.
 
 0:14:57.910,0:15:04.180
-Das heißt, in der Semantik später, wird das eine
+Das heißt, in der Semantik später wird das eine
 wichtige Zutat sein, dass wir auch immer angeben,
 
 0:15:04.180,0:15:15.650
@@ -547,7 +547,7 @@ was die Grundmenge ist. Betrachten wir noch ein paar Beispiele
 letztlich solcher Übersetzungen in die Logik.
 
 0:15:15.650,0:15:21.600
-Also so wie hier solche natürlich-sprachlichen Sätze
+Also so wie hier solche natürlichsprachlichen Sätze
 in die Logik übersetzt wurden, aber eben jetzt immer mit
 
 0:15:21.600,0:15:30.200
@@ -591,7 +591,7 @@ zu interpretieren, wenn wir als Grundmenge wieder
 alle Lebewesen nehmen würden. Was soll das für Lebewesen
 
 0:16:26.940,0:16:33.680
-bedeuten gerade oder ungerade zu sein? Aber wenn wir hier
+bedeuten, gerade oder ungerade zu sein? Aber wenn wir hier
 entweder explizit oder aus dem Kontext die Wahl treffen:
 
 0:16:33.680,0:16:39.620
@@ -604,7 +604,7 @@ dann würde das die darüber stehende, verbale Aussage erfassen.
 
 0:16:53.220,0:16:57.010
 Interessant hier auch: Diese Menge ist unendlich.
-Die Beispiele davor mit Erdenbewohner, Lebewesen,
+Die Beispiele davor mit Erdenbewohnern, Lebewesen,
 
 0:16:57.010,0:17:02.570
 Menschen waren immer endliche Grundmengen, aber wir können
@@ -667,7 +667,7 @@ Für alle Personen gilt, wenn eine Person sich
 nicht selbst mag, (betrachten wir M als Prädikat:
 
 0:18:43.110,0:18:51.110
-irgendjemand mag irgendjemand) dann haben wir,
+irgendjemand mag irgendjemanden) dann haben wir,
 wenn wir so ein x haben, irgendeine Person,
 
 0:18:51.110,0:18:58.040
@@ -696,7 +696,7 @@ wenn sie interpretiert werden über dieser Grundmenge.
 
 0:19:36.510,0:19:42.870
 Und das würde hier beides zutreffen. Jetzt könnte man
-sich in dem Beispiel fragen, ob den Klaus wohl
+sich in dem Beispiel fragen, ob Klaus wohl
 
 0:19:42.870,0:19:49.490
 sich selber mag? Da können Sie mal überlegen,
@@ -720,7 +720,7 @@ letztlich dieser Wahl. Also als Grundmenge
 
 0:20:18.650,0:20:25.970
 wähle ich jetzt immer wieder alle Personen und benutze
-dieses zweistellige Prädikat des Mögen's.
+dieses zweistellige Prädikat des Mögens.
 
 0:20:25.970,0:20:34.870
 Also die nächsten Beispiele sind alle mit der gleichen
@@ -735,7 +735,7 @@ Was wären hier Signalworte? Wie können wir
 das vielleicht in eine Quantoren-Formel überführen?
 
 0:20:46.210,0:20:51.540
-Hier kommt das "alle" drin vor. Das spricht für
+Hier kommt das "alle" vor. Das spricht für
 einen Allquantor. Dann kommt hier noch etwas vor: "irgendjemanden".
 
 0:20:51.540,0:21:03.050
@@ -756,14 +756,14 @@ Es geht ja um das Mögen. Das bezieht sich sowieso auf zwei Personen.
 
 0:21:22.090,0:21:27.900
 Und eine von den Personen ist allquantifiziert,
-weil es da um "alle" mögen irgendjemanden geht.
+weil es um "alle" geht, die irgendjemanden mögen.
 
 0:21:27.900,0:21:35.250
 Und die andere Variable, die für eine Person stehen soll,
 wäre existenzquantifiziert. Das heißt, "Alle mögen irgendjemanden"
 
 0:21:35.250,0:21:42.460
-könnten wir ausdrücken als: "Für alle x, also alle Personen, gilt:
+Könnten wir ausdrücken als: "Für alle x, also alle Personen, gilt:
 Es gibt ein y, also eine Person, so dass x das y mag."
 
 0:21:42.460,0:21:53.350
@@ -819,11 +819,11 @@ aber mit anderer Reihenfolge der Quantoren.
 Und ich hoffe, die sprachlichen Fassungen dieser beiden Formeln
 
 0:23:22.630,0:23:29.590
-machen klar, dass es wirklich ein Unterschied ist,
+machen klar, dass es wirklich einen Unterschied gibt,
 dass diese Reihenfolge auf der formalen Ebene einen Unterschied macht,
 
 0:23:29.590,0:23:37.800
-weil eben auch die dazu entsprechenden intuitiven
+weil eben auch die dazugehörenden intuitiven
 Aussagen nicht äquivalent sind.
 
 0:23:37.800,0:23:43.809
@@ -908,7 +908,7 @@ Also wer ist dieser jemand? Ein anderes y,
 
 0:26:02.120,0:26:07.750
 eine zweite Variable, die auch eine Person sein soll.
-Dass sie Ehemann ist, lässt nicht mehr über das "mögen" ausdrücken.
+Dass sie Ehemann ist, lässt sich nicht mehr über das "mögen" ausdrücken.
 
 0:26:07.750,0:26:14.890
 Wir brauchen also ein weiteres Prädikat.

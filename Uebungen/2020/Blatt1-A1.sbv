@@ -64,7 +64,7 @@ immer genau das Gegenteil von dem, was es
 
 0:01:25.130,0:01:30.209
 ursprünglich ist. Wenn also A gleich null
-ist, dann ist nicht A gleich 1. Wenn A gleich
+ist, dann ist nicht A gleich eins. Wenn A gleich
 
 0:01:30.209,0:01:36.329
 eins ist, dann ist nicht A gleich null. Wenn
@@ -140,7 +140,7 @@ Also zwei Nullen, zwei Einsen. Wenn wir acht
 
 0:03:11.480,0:03:15.340
 Zeilen hätten, würden wir mit vier Nullen
-starten, um dann vier Eisen anzuhängen. Bei
+starten, um dann vier Einsen anzuhängen. Bei
 
 0:03:15.340,0:03:20.110
 Teilaufgabe (b) stehen null und eins im Wechsel.
@@ -155,7 +155,7 @@ wie es auch in den Beispielaufgaben in der
 Regel dargestellt wird. Die Formeln, die wir
 
 0:03:27.901,0:03:34.150
-uns hier anschauen, ist A und B. Bei der Und-Verknüpfung
+uns hier anschauen, sind A und B. Bei der Und-Verknüpfung
 müssen beide Elemente, die mit dem Und verknüpft
 
 0:03:34.150,0:03:39.410
@@ -168,7 +168,7 @@ gesamte Aussage null. Null und eins in der
 
 0:03:44.560,0:03:49.541
 zweiten Zeile. Hier haben wir auch nicht für
-beide Zeilen eine eins. Deswegen ist es auch
+beide Zeilen eine Eins. Deswegen ist es auch
 
 0:03:49.541,0:03:52.110
 eine null. Bei eins und null in der dritten
@@ -208,11 +208,11 @@ füllen wir wieder die Zeilen aus, wie bei
 
 0:04:39.740,0:04:45.770
 Teilaufgabe b). Wir beginnen mit den Nullen,
-fahren dann mit den Einsen fort. Bei B abwechselnd
+fahren dann mit den Einsen fort. Bei B abwechselnd.
 
 0:04:45.770,0:04:52.430
 Nullen und Einsen. In Zeile eins sind A und
-B null. Das heißt, dass weder A noch B eins.
+B null. Das heißt, dass weder A noch B eins ist.
 
 0:04:52.430,0:04:57.750
 Das heißt, die Gesamtaussage ist ebenfalls
@@ -236,7 +236,7 @@ sind beide wahr. Auch das ist bei der Oder-Verknüpfung
 
 0:05:20.370,0:05:25.290
 in Ordnung, da es sich hier nicht um ein exklusives
-Oder handelt. Es ist also ok, dass entweder
+Oder handelt. Es ist also okay, dass entweder
 
 0:05:25.290,0:05:31.980
 eins von beiden wahr ist oder beide wahr sind.
@@ -303,7 +303,7 @@ Dort sehen wir, dass es mit einem Oder verknüpft
 ist: Nicht A oder A und B. Das heißt, dass
 
 0:06:53.510,0:06:56.949
-eine von beiden Spalten ein sein muss oder
+eine von beiden Spalten eins sein muss oder
 beide eins sein müssen, sodass die Gesamtaussage
 
 0:06:56.949,0:07:02.790
@@ -408,7 +408,7 @@ jetzt die Implikation mit der Und-Verknüpfung
 
 0:09:32.550,0:09:39.410
 zusammengeführt. Auch hier haben wir A und
-B, die wir zuerst mit einem Wahrheitswert
+B, die wir zuerst mit einem Wahrheitswert,
 
 0:09:39.410,0:09:46.880
 belegen müssen. Dann kommt die gesamte Formel.
@@ -439,7 +439,7 @@ bereits falsch ist, ist es egal, was der zweite
 Teil ist. So kann ich hier in den ersten beiden
 
 0:10:19.300,0:10:24.060
-Zeilen eine eins notieren und muss lediglich
+Zeilen eine Eins notieren und muss lediglich
 die letzten beiden Zeilen anschauen. Auch
 
 0:10:24.060,0:10:32.100
@@ -447,7 +447,7 @@ das ist exakt dasselbe wie in Teilaufgabe
 c). In die dritte Zeile kommt eine null, in
 
 0:10:32.100,0:10:34.640
-die vierte Zeile eine eins. Bei B impliziert
+die vierte Zeile eine Eins. Bei B impliziert
 A ist es nun genau andersherum. Hier ist B
 
 0:10:34.640,0:10:40.730
@@ -455,11 +455,11 @@ die Bedingung. Wenn B also gilt, dann gilt
 auch A. In der ersten Zeile gilt B nicht.
 
 0:10:40.730,0:10:45.340
-Das bedeutet, dass wir hier eine eins notieren
+Das bedeutet, dass wir hier eine Eins notieren
 können. In der zweiten Zeile gilt B, aber
 
 0:10:45.340,0:10:49.160
-A nicht. Das heißt, dass hier eine Null steht.
+A nicht. Das heißt, dass hier eine null steht.
 In der dritten Zeile gilt B nicht, weshalb
 
 0:10:49.160,0:10:54.920
@@ -467,7 +467,7 @@ wir hier wieder eine Eins notieren. In der
 vierten Zeile gilt B, also gilt auch A und
 
 0:10:54.920,0:11:00.060
-wir notieren den Wahrheitswert eins. Nun schauen
+wir notieren den Wahrheitswert Eins. Nun schauen
 wir uns die gesamte Formel an: A impliziert
 
 0:11:00.060,0:11:05.149
@@ -476,7 +476,7 @@ der Und-Verknüpfung müssen beide Teile wahr
 
 0:11:05.149,0:11:12.459
 sein, sodass die gesamte Formel den Wahrheitswert
-eins bekommt. In der zweiten und dritten Spalte
+Eins bekommt. In der zweiten und dritten Spalte
 
 0:11:12.459,0:11:20.790
 muss also in beiden Fällen eine Eins stehen,
@@ -516,7 +516,7 @@ Aufgaben. Diese können wir also einfach übernehmen
 
 0:12:08.700,0:12:13.300
 und müssen uns nur den letzten Teil der Wahrheitstabelle
-nochmal anschauen. Hier haben wir keine Und-Verknüpfung,
+noch einmal anschauen. Hier haben wir keine Und-Verknüpfung,
 
 0:12:13.300,0:12:19.470
 wie in der vorigen Aufgabe, sondern eine Oder-Verknüpfung.

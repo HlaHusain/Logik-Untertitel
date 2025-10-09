@@ -1,6 +1,6 @@
 0:00:00.060,0:00:06.900
 Bei Aufgabe drei soll nun der Wahrheitswert für
-die gegebene Formel mit der Bottom-up-sowie mit
+die gegebene Formel mit der Bottom-up- sowie mit
 
 0:00:06.900,0:00:12.360
 der Top-down-Methode bestimmt werden. Wir beginnen
@@ -56,10 +56,10 @@ B. Bei der Oder-Verknüpfung muss mindestens eins
 
 0:01:44.520,0:01:51.300
 von beiden eine eins sein, sodass es im Gesamten
-eine Eins wird. Das ist hier der Fall. Der zweite
+eine eins wird. Das ist hier der Fall. Der zweite
 
 0:01:51.300,0:01:55.560
-Teil ist mit einer Eins belegt, sodass wir für die
+Teil ist mit einer eins belegt, sodass wir für die
 komplette Formel auch auf einen Wahrheitswert von
 
 0:01:55.560,0:02:03.180
@@ -72,7 +72,7 @@ Ich habe hier die Folie mit den Regeln
 
 0:02:08.700,0:02:13.020
 hineinkopiert, sodass wir es nochmals in der
-Übersicht sehen. Bei der Top-Down-Methode gehen
+Übersicht sehen. Bei der Top-down-Methode gehen
 
 0:02:13.020,0:02:20.040
 wir die Formel von außen nach innen oder von oben
@@ -119,7 +119,7 @@ Maximum von eins minus Alphadach von A. Der
 zweite Teil: A und B. Da sehen wir auf der
 
 0:03:30.360,0:03:36.240
-Folie, dass A und B zur Multiplikation wird. Die
+Folie, dass A und B zur Multiplikation werden. Die
 Konjunktion wird zur Multiplikation. Das bedeutet,
 
 0:03:36.240,0:03:46.980

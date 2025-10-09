@@ -23,23 +23,23 @@ A, B und C und nicht A, nicht B und nicht C. Da
 wir hier drei atomare Formeln haben, wissen wir,
 
 0:00:36.060,0:00:41.100
-dass wir zwei hoch drei Zeilen benötigen, also,
+dass wir zwei hoch drei Zeilen benötigen, also
 acht Zeilen. Das heißt, wir fangen wieder mit
 
 0:00:41.100,0:00:46.140
-den Nullen an. Die Hälfte von Acht ist Vier,
+den Nullen an. Die Hälfte von acht ist vier,
 vier Nullen bei A, vier Einsen bei A. Dann
 
 0:00:46.140,0:00:51.780
-die Hälfte von Vier ist Zwei, zwei Nullen bei B,
-zwei Einsen, zwei B, zwei Nullen, zwei Einsen. Und
+die Hälfte von vier ist zwei, zwei Nullen bei B,
+zwei Einsen, zwei Nullen, zwei Einsen. Und
 
 0:00:51.780,0:00:56.940
-dann die Hälfte von Zwei ist Eins, also, Null und
+dann die Hälfte von zwei ist eins, also Null und
 Eins im Wechsel bei C. Und bei der negierten Form
 
 0:00:56.940,0:01:01.440
-dann genau anders herum, sodass der Anfang der
+dann genau andersherum, sodass der Anfang der
 Wahrheitstabelle dann so aussieht. Dann schaue
 
 0:01:01.440,0:01:05.640
@@ -56,7 +56,7 @@ der Formel wird mit dem rechten Teil der Formel
 
 0:01:16.080,0:01:21.000
 über das oder verknüpft. Und der linke Teil
-wiederrum besteht aus den Teilformeln nicht
+wiederum besteht aus den Teilformeln nicht
 
 0:01:21.000,0:01:29.820
 A oder nicht B und der Implikation zu nicht C.
@@ -92,7 +92,7 @@ es reicht, wenn eins von beiden eine Eins ist,
 
 0:02:12.360,0:02:18.000
 dann wird auch diese Teilformel hier Eins. Das
-ist hier überall der Fall, bis auf den letzten
+ist hier überall der Fall, bis auf die letzten
 
 0:02:18.000,0:02:22.500
 beiden Zeilen. Da haben wir zwei Nullen. Dann
@@ -115,7 +115,7 @@ was auf der rechten Seite der Implikation steht,
 dann kommt immer eine Eins heraus. Das heißt, wir
 
 0:02:48.660,0:02:51.720
-wissen schon mal, dass wir in die in die letzten
+wissen schon mal, dass wir in die letzten
 beiden Zeilen eine Eins schreiben können, denn da
 
 0:02:51.720,0:02:55.500
@@ -175,7 +175,7 @@ mehreren Fällen Eins als Wahrheitswert
 rausbekommen. Das können wir hier in der
 
 0:04:11.340,0:04:15.300
-letzte Spalte ablesen. Daher wissen wir, die
+letzten Spalte ablesen. Daher wissen wir, die
 Formel ist auf jeden Fall schon mal erfüllbar.
 
 0:04:15.300,0:04:19.320
@@ -196,7 +196,7 @@ guter Antwortsatz könnte dann zum Beispiel sein,
 
 0:04:31.680,0:04:36.300
 die Formel F ist erfüllbar, aber sie ist nicht
-tautologisch, weil sie nicht für alle passenden
+tautologisch, weil sie nicht für alle passenden.
 
 0:04:36.300,0:04:40.620
 Belegungen den Wahrheitswert Eins erhält, wie
@@ -212,14 +212,14 @@ dafür die verwendeten Umformungen angeben. Dafür
 
 0:04:52.680,0:04:57.660
 schreibe ich zunächst die Formel nochmal ab. Das
-Erste, was wir jetzt machen, wir verwenden die
+Erste, was wir jetzt machen, ist, dass wir die
 
 0:04:57.660,0:05:03.600
-Definition der Implikation. Das heißt, wir
+Definition der Implikation verwenden. Das heißt, wir
 lösen diesen vorderen Teil, diese vordere
 
 0:05:03.600,0:05:10.800
-Implikation, auf und haben dann nicht nicht A
+Implikation auf und haben dann nicht nicht A
 oder nicht B oder nicht C, und dann bleibt der
 
 0:05:10.800,0:05:15.960
@@ -228,19 +228,19 @@ und C. Und jetzt verwenden wir De Morgan und
 
 0:05:15.960,0:05:23.040
 ziehen die Negation nach innen rein. Das heißt,
-wir haben, nicht nicht A. Und ganz wichtig bei
+wir haben nicht nicht A. Und ganz wichtig bei
 
 0:05:23.040,0:05:28.620
 De Morgan ist, was häufig vergessen wird, klappt
-dieses oder zum und und stünde hier ein und würde
+dieses oder zum und und stünde hier ein und, würde
 
 0:05:28.620,0:05:36.300
-es zum oder umklappen. Das heißt, wir haben, nicht
+es zum oder umklappen. Das heißt, wir haben nicht
 nicht A und nicht nicht B oder nicht C oder A und
 
 0:05:36.300,0:05:41.280
 C. Das bleibt gleich. Und jetzt können wir die
-Doppelnegation auflösen. Das heißt, wir haben,
+Doppelnegation auflösen. Das heißt, wir haben
 
 0:05:41.880,0:05:50.520
 A und B oder nicht C oder A und C. Und jetzt
@@ -268,7 +268,7 @@ ihn jetzt zusammen mit diesem verbinden. Und
 
 0:06:27.600,0:06:37.260
 bekommen dann heraus, A oder nicht C oder A und
-C als eine Einheit das Erste mit dem Letzten,
+C als eine Einheit, das Erste mit dem Letzten,
 
 0:06:37.260,0:06:45.840
 und B oder nicht C oder A und C als hintere
@@ -319,7 +319,7 @@ C gelten. Und beim oder reicht es, wenn eins
 von beiden wahr ist. Und dadurch wissen wir,
 
 0:07:57.360,0:08:01.200
-dass der gesamte Ausdruck immer wahr ist und
+dass der gesamte Ausdruck immer wahr ist, und
 deswegen können wir den auch einfach streichen.
 
 0:08:01.200,0:08:06.600
@@ -359,8 +359,8 @@ einem oder verbunden, heißt, dass dieser Ausdruck
 immer wahr ist, da immer C oder nicht C gilt,
 
 0:09:03.420,0:09:08.100
-und es reicht, wenn eins von beiden wahr
-wird, dann wird die gesamte Teilformel wahr,
+und es reicht, wenn eins von beiden wahr ist, dann
+wird die gesamte Teilformel wahr,
 
 0:09:08.100,0:09:16.740
 wenn sie verodert ist. Das heißt, wir erhalten

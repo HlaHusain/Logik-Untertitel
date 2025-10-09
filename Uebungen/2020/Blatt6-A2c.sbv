@@ -1,6 +1,6 @@
 0:00:02.230,0:00:08.049
 In Teilaufgabe (c) soll der tatsächlich erzeugte
-SLD Resolutionsbaum für dieselbe Anfrage
+SLD-Resolutionsbaum für dieselbe Anfrage
 
 0:00:08.049,0:00:09.049
 gezeichnet werden.
@@ -14,7 +14,7 @@ Deshalb wird der Resolutionsbaum kleiner.
 
 0:00:16.850,0:00:21.529
 Im ersten Schritt notieren wir die Anfrageklausel:
-„faehrt(X,a)".
+„faehrt(X,a)“.
 
 0:00:21.529,0:00:24.240
 Das resolvieren wir mit Zeile elf.
@@ -45,7 +45,7 @@ da Prolog immer von oben nach unten vorgeht.
 
 0:00:52.519,0:01:00.300
 Die erste passende Zeile ist daher Zeile acht:
-"besitzt(K,a)" Hier kommen wir nicht weiter,
+"besitzt(K,a)". Hier kommen wir nicht weiter,
 
 0:01:00.300,0:01:01.429
 weshalb das hier bereits endet.
@@ -60,7 +60,7 @@ Das war nur eine Zeile darüber: "hatFuehrerschein(X,a)",
 
 0:01:07.970,0:01:16.700
 Das können wir jetzt mit Zeile neun resolvieren
-und erhalten "besitzt(N,a)" Das können wir
+und erhalten "besitzt(N,a)". Das können wir
 
 0:01:16.700,0:01:21.140
 wiederum in Zeile drei resolvieren und erhalten

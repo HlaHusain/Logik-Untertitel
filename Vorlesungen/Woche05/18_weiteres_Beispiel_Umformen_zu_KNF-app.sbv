@@ -1,5 +1,5 @@
 0:00:00.000,0:00:07.740
-Ein letztes Beispiel an dieser Stelle.
+Ein letztes Beispiel an dieser Stelle. 
 Dieses insbesondere deswegen verwendet, weil es
 
 0:00:07.740,0:00:14.250
@@ -7,157 +7,153 @@ im folgenden nochmal auftreten wird, wenn wir
 auf eine andere Art und Weise, als durch Umformen,
 
 0:00:14.250,0:00:25.350
-zu KNF's oder DNF's kommen wollen. Für dieses
-Beispiel konkret betrachte ich KNF. Also wir haben
+zu KNF's oder DNF's kommen wollen. Für dieses 
+Beispiel konkret betrachte ich KNF. Also, wir haben
 
 0:00:25.350,0:00:31.290
-folgende Formel. Das ist auch erstmals ein Beispiel,
+folgende Formel. Das ist auch erstmals ein Beispiel, 
 wo ich in der Ursprungsformel etwas anderes als
 
 0:00:31.290,0:00:35.790
-nur Konjunktion, Disjunktion oder Negation stehen
-habe. Hier kommt die Implikation vor. Das heißt hier muss ich
+nur Konjunktion, Disjunktion oder Negation stehen 
+habe. Hier kommt die Implikation vor. Das heißt, hier muss ich
 
 0:00:35.790,0:00:41.700
-tatsächlich auch erst mal den nullten Schritt
+tatsächlich auch erst mal den nullten Schritt 
 anwenden. Das war Ersetzen der Implikation durch
 
 0:00:41.700,0:00:49.530
-ihre Definition. Das heißt ich setze das gleich zu:
+ihre Definition. Das heißt, ich setze das gleich zu: 
 Erstmal tatsächlich nur umschreiben dieser einen
 
 0:00:49.530,0:00:57.120
-Stelle. Was war die Implikation? Das war
-(¬die Voraussetzungen ∨ die Folgerungen). Das heißt
+Stelle. Was war die Implikation? Das war 
+(¬die Voraussetzungen ∨ die Folgerungen). Das heißt,
 
 0:00:57.120,0:01:05.220
-aus diesem Klammerausruck wird: (¬B ∨ ¬A). Das ¬B, weil
+aus diesem Klammerausdruck wird: (¬B ∨ ¬A). Das ¬B, weil 
 ich die Voraussetzung negiere. Dann gibt es
 
 0:01:05.220,0:01:12.840
-dieses ∨. Und das, was vorher die Konsequenz
+dieses ∨. Und das, was vorher die Konsequenz 
 der Implikation war, also das, was in der Implikation folgte,
 
 0:01:12.840,0:01:18.600
-das bleibt unverändert stehen. Das heißt dem Fall bleibt
-das ¬A unverändert stehen. Dann hab ich also (¬B ∨ ¬A).
+das bleibt unverändert stehen. Das heißt, im Fall bleibt 
+das ¬A unverändert stehen. Dann habe ich also (¬B ∨ ¬A).
 
 0:01:18.600,0:01:25.425
-Und natürlich drumherum habe ich außen
+Und natürlich drumherum habe ich außen 
 den gleichen Kontext wie in der Ursprungsformel.
 
 0:01:25.425,0:01:33.060
-Das wäre also der erste Schritt. Wie geht es
+Das wäre also der erste Schritt. Wie geht es 
 weiter? Dann habe ich hier ein Vorkommen von
 
 0:01:33.060,0:01:37.470
-de Morgan. In dem ersten Schritt sollte ich
+de Morgan. In dem ersten Schritt sollte ich 
 Doppelnegation entfernen. Nach dem nullten Schritt würde
 
 0:01:37.470,0:01:42.810
-ich den ersten Schritt durchführen. Doppelnegation entfernen.
-Ich habe keine direkte Doppelnegation. Vielleicht kriege ich
+ich den ersten Schritt durchführen: Doppelnegation entfernen. Ich habe keine direkte Doppelnegation. Vielleicht kriege ich
 
 0:01:42.810,0:01:50.370
-aber eine, wenn ich den zweiten und/oder den dritten Schritt
-durchführe. Zweiter und dritter Schritt waren de Morgan-Regeln.
+aber eine, wenn ich den zweiten und/oder den dritten Schritt durchführe. Zweiter und dritter Schritt waren de Morgan-Regeln.
 
 0:01:50.370,0:01:58.800
-Die Negation über Disjunktion oder Konjunktion schieben.
+Die Negation über Disjunktion oder Konjunktion schieben. 
 Und hier würde ich also diese äußere Negation über
 
 0:01:58.800,0:02:04.050
-diese Disjunktion schieben. Dabei wird daraus
+diese Disjunktion schieben. Dabei wird daraus 
 eine Konjunktion und die beiden Partner links
 
 0:02:04.050,0:02:09.610
-und rechts der Disjunktion werden ihrerseits
-negiert. Das heißt ich würde hier kriegen: ¬¬B
+und rechts der Disjunktion werden ihrerseits 
+negiert. Das heißt, ich würde hier kriegen: ¬¬B
 
 0:02:09.610,0:02:14.950
-Und dann würde ich tatsächlich hier mal schon direkt
-"On the fly" das durch B ersetzen, weil
+Und dann würde ich tatsächlich hier mal schon direkt 
+"on the fly" das durch B ersetzen, weil
 
 0:02:14.950,0:02:19.000
-wenn ich im zweiten oder dritten Schritte
+wenn ich im zweiten oder dritten Schritt 
 Doppelnegation kriege, soll ich die ja eliminieren.
 
 0:02:19.000,0:02:24.670
-Und das mach ich jetzt mal ohne noch einen Zwischenschritt
-hinzuschreiben. Ich kriege hier ¬¬B also B ∧
+Und das mache ich jetzt mal, ohne noch einen Zwischenschritt hinzuschreiben. Ich kriege hier ¬¬B, also B ∧
 
 0:02:24.670,0:02:36.640
-(weil aus diesem ∨ ein ∧ wird) ¬¬A also A.
+(weil aus diesem ∨ ein ∧ wird) ¬¬A, also A. 
 Das wäre also dieser Teil. Und dann steht
 
 0:02:36.640,0:02:50.320
-noch das ∧ C. Dann habe ich das so. Jetzt würde
+noch das ∧ C. Dann habe ich das so. Jetzt würde 
 ich Distributivität anwenden. Zweiter und dritter
 
 0:02:50.320,0:02:55.630
-Schritt kann ich nicht noch mehrmals wiederholen. Es gibt
+Schritt kann ich nicht noch mehrmals wiederholen. Es gibt 
 keine Negation mehr, die ich irgendwie per de Morgan
 
 0:02:55.630,0:03:02.830
-nach unten schieben könnte. Stattdessen müsste ich jetzt
+nach unten schieben könnte. Stattdessen müsste ich jetzt 
 das distribuieren über die Konjunktion,
 
 0:03:02.830,0:03:07.000
-weil ich ja KNF haben möchte. Ich will also nicht außen
+weil ich ja KNF haben möchte. Ich will also nicht außen 
 Disjunktionen stehen haben, wie es hier jetzt ist.
 
 0:03:07.000,0:03:14.680
-Jetzt haben wir hier so eine dreifache Konjunktion, die noch
+Jetzt haben wir hier so eine dreifache Konjunktion, die noch 
 durch Klammern getrennt ist, aber zwei davon sind ausgezeichnet.
 
 0:03:14.680,0:03:21.610
-Also jetzt könnte man sagen, man möge dieses ∨ über dieses eine ∧
-ziehen. Aber geschickter und schneller ist, wenn man
+Also jetzt könnte man sagen, man möge dieses ∨ über dieses eine ∧ 
+ziehen. Aber geschickter und schneller ist es, wenn man
 
 0:03:21.610,0:03:33.460
-die Klammern, die hier stehen ignoriert. Das darf man,
+die Klammern, die hier stehen, ignoriert. Das darf man, 
 weil die Konjunktion ja assoziativ ist. Und dann
 
 0:03:33.460,0:03:43.450
-kann ich eben dieses ∨ direkt über die gesamte
+kann ich eben dieses ∨ direkt über die gesamte 
 Konjunktion ziehen. Und würde also im nächsten
 
 0:03:43.450,0:04:04.400
-Schritt kriegen: (B ∨ ¬A) ∧ (A ∨ ¬A) ∧ (C ∨ ¬A).
+Schritt kriegen: (B ∨ ¬A) ∧ (A ∨ ¬A) ∧ (C ∨ ¬A). 
 Und hier bietet sich wieder
 
 0:04:04.400,0:04:11.810
-eine Vereinfachung an. Was haben wir hier? Wir
+eine Vereinfachung an. Was haben wir hier? Wir 
 haben hier einen Teilausdruck, der eine Tautologie
 
 0:04:11.810,0:04:16.490
-ist. (A ∨ ¬A) ist eine Tautologie. D.h. ist
+ist. (A ∨ ¬A) ist eine Tautologie. D.h., ist 
 immer wahr. Und es gibt eine Tautologieregel,
 
 0:04:16.490,0:04:23.540
-also bei den Umformungen gab's eine
+also bei den Umformungen gab's eine 
 Regel, die sagte, wenn ich eine Tautologie habe und die
 
 0:04:23.540,0:04:30.290
-Und-Verknüpfe ich mit etwas anderen, dann kann
+Und-Verknüpfung ich mit etwas anderem, dann kann 
 ich sie auch einfach verschwinden lassen. Das heißt, das
 
 0:04:30.290,0:04:36.800
-kann man raustreichen. Nicht, weil es falsch ist, sondern weil man
-Vereinfachen kann bezüglich oder unter Verwendung einer
+kann man raustreichen. Nicht, weil es falsch ist, sondern weil man vereinfachen kann bezüglich oder unter Verwendung einer
 
 0:04:36.800,0:04:48.590
-der Umformungsregeln. Nämlich der Tautologieregel.
+der Umformungsregeln. Nämlich der Tautologieregel. 
 Und dann bleibt übrig als Ergebnis dieser vereinfachte
 
 0:04:48.590,0:04:59.810
-Ausdruck. Und der ist (Wenn ich ihn richtig schreiben würde
+Ausdruck. Und der ist (wenn ich ihn richtig schreiben würde, 
 zumindest. Nämlich hier die Konjunktionen hinschreiben
 
 0:04:59.810,0:05:09.530
-würde von hier und hier) Dann ist das ein Ausdruck
+würde von hier und hier) dann ist das ein Ausdruck 
 in konjunktiver Normalform. Wie gewünscht und
 
 0:05:09.530,0:05:20.600
-natürlich wegen der richtigen Ausführung dieser
-Schritte äquivalent zu Ursprungsform.
+natürlich wegen der richtigen Ausführung dieser 
+Schritte äquivalent zur Ursprungsform.

@@ -1,5 +1,5 @@
 0:00:00.000,0:00:08.670
-Unser erstes Ziel soll sein diese Formel, die
+Unser erstes Ziel soll sein, diese Formel, die
 sie hier sehen, in konjunktive Normalform zu
 
 0:00:08.670,0:00:14.250
@@ -8,15 +8,14 @@ Folien schon mal auftauchte, zusammen mit ihrem
 
 0:00:14.250,0:00:22.890
 Syntaxbaum, als wir auch Teilformeln besprochen
-haben. Also was müssten wir hier tun? Wir müssen mit
+haben. Also, was müssten wir hier tun? Wir müssen mit
 
 0:00:22.890,0:00:27.720
-unseren Schritten null, ein, zwei etc. beginnen.
+unseren Schritten null, eins, zwei etc. beginnen.
 Schritt null ist hier nicht nötig, weil gar
 
 0:00:27.720,0:00:34.590
-keine Implikation oder Biimplikation drin
-vorkommenden. Das heißt wir können direkt mit Schritt eins, zwei, drei
+keine Implikation oder Biimplikation vorkommt. Das heißt, wir können direkt mit Schritt eins, zwei, drei
 
 0:00:34.590,0:00:42.870
 beginnen. Schritt eins trifft auf Zusammentreffen von
@@ -27,8 +26,7 @@ hier nicht auf. Ist also auch nicht relevant. Also
 wären Schritt zwei und Schritt drei relevant. Das
 
 0:00:49.440,0:00:57.660
-waren die de Morgan Regeln. Also wo wir anwenden
-Negation auf Konjunktion oder Disjunktion. Und sowas
+waren die de Morgan-Regeln. Also, wo wir Negation auf Konjunktion oder Disjunktion anwenden. Und sowas
 
 0:00:57.660,0:01:03.300
 tritt hier auf. Wir haben
@@ -44,10 +42,10 @@ außen. Und da war die Intuition auf den Folien,
 
 0:01:20.520,0:01:29.880
 dass wir die Negation nach unten drücken. Oder
-anders gesagt: Wir Formen die Formel um zu
+anders gesagt: Wir formen die Formel um zu
 
 0:01:29.880,0:01:37.560
-¬(F ∧ G) ist (¬F ∨ ¬G). Also wir formen das um,
+¬(F ∧ G) ist (¬F ∨ ¬G). Also, wir formen das um,
 zu nicht und dann der linke Teil von dieser
 
 0:01:37.560,0:01:47.220
@@ -71,7 +69,7 @@ uns eigentlich nur noch mit diesem Teil weiter
 beschäftigen. Was haben wir da? Da
 
 0:02:20.130,0:02:28.320
-haben wir Negation von einer Disjunktion. Das
+haben wir die Negation von einer Disjunktion. Das
 führt zu was? (Ein ähnlicher Schritt wie hier oben)
 
 0:02:29.970,0:02:37.710
@@ -147,7 +145,7 @@ sein, weil Negation darf in der KNF nur in Literalen
 auftauchen und nicht an beliebigen Stellen in der Formel.
 
 0:04:55.290,0:05:02.400
-Das heißt wir müssen die Schritte wirklich machen.
+Das heißt, wir müssen die Schritte wirklich machen.
 Und zwar würden wir hier die Distributivität
 
 0:05:02.400,0:05:08.490
@@ -168,7 +166,7 @@ diese äußere Konjunktion. Das ist dann, was vorher
 
 0:05:38.520,0:05:49.110
 der rechte Teil der inneren Konjunktion war. Also
-¬A1. Und der Kontext dieses ∨ von außen, hätte
+¬A1. Und der Kontext dieses ∨ von außen hätte
 
 0:05:49.110,0:05:56.580
 ihn jetzt reproduziert. In dem Sinne haben wir jetzt
@@ -179,5 +177,5 @@ das ∨ von außen nach innen geschoben und das
 eine konjunktive Normalform, wie sie sich leicht durch
 
 0:06:02.910,0:06:12.810
-anschauen überzeugen können. Das heißt damit hätten
+anschauen überzeugen können. Das heißt, damit hätten
 wir hier erfolgreich die Formel in KNF überführt.

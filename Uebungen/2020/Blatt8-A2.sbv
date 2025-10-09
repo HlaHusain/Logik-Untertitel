@@ -1,10 +1,10 @@
 0:00:00.240,0:00:06.390
-Bei der Aufgabe zwei soll ein einfaches Generate-and-test-Verfahren
-angewendet werden, bei der eine Prologanfrage
+Bei der Aufgabe zwei soll ein einfaches Generate-and-Test-Verfahren
+angewendet werden, bei der eine Prolog-Anfrage
 
 0:00:06.390,0:00:11.690
 gestellt werden muss, die alle Listen aus
-den jeweils genau ein Mal vorkommenden Elementen
+den jeweils genau einmal vorkommenden Elementen
 
 0:00:11.690,0:00:13.160
 eins, zwei, drei, vier ausgibt.
@@ -35,7 +35,7 @@ ein bekanntes Listenprädikat, Permutation
 zwei.
 
 0:00:36.970,0:00:41.260
-Das Permutationprädikat ist ein zweistelliges
+Das Permutationsprädikat ist ein zweistelliges
 built-in-Prädikat.
 
 0:00:41.260,0:00:45.970
@@ -46,7 +46,7 @@ Liste und als zweiten Parameter die permutierte
 Liste.
 
 0:00:46.970,0:00:54.470
-Das heißt, die Anfrage mit dem Permutationprädikat
+Das heißt, die Anfrage mit dem Permutationsprädikat
 wird wahr, wenn L1 eine Permutation von L2
 
 0:00:54.470,0:00:55.580
@@ -57,7 +57,7 @@ Permutation ist eine Umordnung von Elementen
 in einer Liste.
 
 0:00:58.570,0:01:04.220
-Das heißt zum Beispiel beim Aufrufen von
+Das heißt, zum Beispiel beim Aufrufen von
 Permutation 1, 2, 3, 3, 2, 1 ergibt sich true,
 
 0:01:04.220,0:01:08.670
@@ -74,14 +74,14 @@ alle Permutationen von 1, 2, 3, 4.
 
 0:01:18.369,0:01:23.740
 Also zum Beispiel A ist 1, B ist 2 und C ist
-3, B ist 4 und so weiter.
+3, D ist 4 und so weiter.
 
 0:01:23.740,0:01:24.740
 Mit allen Ersetzungen.
 
 0:01:24.740,0:01:29.450
-Das heißt, man kann dieses Permutationprädikat
-benutzen werden, um mögliche Permutationen
+Das heißt, man kann dieses Permutationsprädikat
+benutzen, um mögliche Permutationen
 
 0:01:29.450,0:01:30.450
 zu generieren.
@@ -113,7 +113,7 @@ Anfragen her bearbeiten und so die Lösung
 entwickeln.
 
 0:01:59.070,0:02:01.719
-Zunächst gucken wir uns noch einmal das Permutationprädikat
+Zunächst gucken wir uns noch einmal das Permutationsprädikat
 an.
 
 0:02:01.719,0:02:07.189

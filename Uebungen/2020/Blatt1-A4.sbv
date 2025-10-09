@@ -51,7 +51,7 @@ also: Wenn A die Wahrheit sagt, dann folgt
 daraus, dass B lügt, also B nicht die Wahrheit
 
 0:01:11.450,0:01:17.301
-sagt. Dass nicht gilt: B sagt die Wahrheit.
+sagt. Das gilt nicht: B sagt die Wahrheit.
 Umgekehrt gilt aber auch: Wenn B lügt, also
 
 0:01:17.301,0:01:23.340
@@ -100,7 +100,7 @@ auch hier wieder die Doppelimplikation. Hier
 
 0:02:22.000,0:02:26.320
 beim hinteren Teil müsst ihr aufpassen. Was
-einige Studierende manchmal falschmachen,
+einige Studierende manchmal falsch machen,
 
 0:02:26.320,0:02:33.090
 dass sie Nicht A und Nicht B schreiben, dass
@@ -108,7 +108,7 @@ sie schreiben: Nicht A und B. Das ist aber
 
 0:02:33.090,0:02:37.690
 eine andere Bedeutung. Die Bedeutung von dem,
-was ich hier in Blau geschrieben habe ist,
+was ich hier in Blau geschrieben habe, ist,
 
 0:02:37.690,0:02:42.260
 dass nicht beide gleichzeitig die Wahrheit
@@ -127,7 +127,7 @@ drei Aussagen. Und wie können wir jetzt herausfinden,
 wer die Wahrheit sagt? Wir können einerseits
 
 0:02:58.590,0:03:03.660
-ein bisschen ausprobieren. Für können für
+ein bisschen ausprobieren. Wir können für
 A 1 einsetzen, für B 1. Dann können wir
 
 0:03:03.660,0:03:08.671
@@ -155,7 +155,7 @@ die Hälfte davon mit Nullen und die andere
 Hälfte mit Einsen. Damit wir das alle einheitlich
 
 0:03:47.450,0:03:57.060
-machen fangen wir mit der 0 an. Dann bei B,
+machen, fangen wir mit der 0 an. Dann bei B,
 beim zweiten können wir, wenn wir am Anfang
 
 0:03:57.060,0:04:03.100
@@ -208,7 +208,7 @@ noch mal auf, weil ich es einfach übersichtlicher
 
 0:05:06.960,0:05:12.110
 finde. Nicht A und Nicht B kann ich aus den
-Spalten davor ablesen. Und jetzt können wir
+Spalten davor ablesen. Und jetzt können wir,
 
 0:05:12.110,0:05:18.710
 anfangen, uns die erste Aussage anzuschauen.
@@ -223,7 +223,7 @@ funktioniert, könnt ihr euch das natürlich
 einerseits noch mal auf den Vorlesungen anschauen,
 
 0:05:30.910,0:05:35.810
-die ich in der Vorlesung hattet. Ihr könnt
+die ich in der Vorlesung hatte. Ihr könnt
 euch aber auch überlegen, wie die Doppelimplikation
 
 0:05:35.810,0:05:40.030
@@ -280,7 +280,7 @@ nicht. In dieser Zeile haben wir bei beidem
 
 0:06:48.130,0:06:53.820
 eine Null, das heißt, die Doppelimplikation
-ergibt 1 im Gesamten. Hier auch. hier haben
+ergibt 1 im Gesamten. Hier auch. Hier haben
 
 0:06:53.820,0:06:59.639
 wir bei beidem eine 1, hier auch. Hier nicht
@@ -319,12 +319,12 @@ wir hier oben getroffen haben, könnten wir
 diese drei Aussagen, diese drei einzelnen
 
 0:07:49.900,0:07:55.570
-Sätze in eine Aussagenlogische Formel bringen.
+Sätze in eine aussagenlogische Formel bringen.
 Das heißt, wir würden die alle mit einer
 
 0:07:55.570,0:08:05.611
 Konjunktion verbinden, mit Und. Also: A impliziert
-nicht B. Und: B impliziert C. Und: C impliziert
+Nicht B. Und: B impliziert C. Und: C impliziert
 
 0:08:05.611,0:08:12.880
 Nicht A und Nicht B. Also alle drei Teilsätze

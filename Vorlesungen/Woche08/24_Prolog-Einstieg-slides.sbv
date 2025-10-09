@@ -1,13 +1,13 @@
 0:00:00.000,0:00:07.920
 So zur Erinnerung: Wir haben in der letzten Woche
-geschlossen mit einen ersten Blick auf Prolog.
+geschlossen mit einem ersten Blick auf Prolog.
 
 0:00:07.920,0:00:15.750
 Dafür hatte ich dieses kleine Programm mit dieser
-einfachen Query laufen lassen im Browser. Ich hab hier
+einfachen Query laufen lassen im Browser. Ich habe hier
 
 0:00:15.750,0:00:25.800
-noch mal den Screenshot davon. Und zur Erinnerung: Das
+nochmal den Screenshot davon. Und zur Erinnerung: Das
 Programm entsprach dieser Formel, dieser Hornformel.
 
 0:00:25.800,0:00:36.630
@@ -28,7 +28,7 @@ Prolog mit dem negierten Ziel eine Resolution
 
 0:01:02.910,0:01:08.130
 durchführen kann. Und zwar passiert da
-im wesentlichen genau das, was ich hier auch
+im Wesentlichen genau das, was ich hier auch
 
 0:01:08.130,0:01:11.760
 vorher in den Folien als Resolution angegeben hatte.
@@ -44,14 +44,14 @@ wir den Markierungsalgorithmus anwenden können.
 
 0:01:22.140,0:01:28.770
 Das hätte man hier auch machen können. Wir hätten sagen können
-(jetzt mal auf diesen Programm, statt auf der Hornformelform)
+(jetzt mal auf diesem Programm, statt auf der Hornformelform)
 
 0:01:28.770,0:01:34.350
 der Fakt c scheint ja offenbar zu stimmen, weil hier true steht.
 Dann gibt es diese Regeln. Zur Erinnerung: Diese
 
 0:01:34.350,0:01:39.510
-Prolog-Regeln sind zu lesen von rechts nach links als Implikation.
+Prolog-Regeln sind von rechts nach links als Implikation zu lesen.
 Also (C => D) hätte man sagen können,
 
 0:01:39.510,0:01:45.780
@@ -64,7 +64,7 @@ Dann wäre die rechte Seite dieser
 
 0:01:51.030,0:01:56.580
 Regel vollständig markiert. Dann könnte man noch A markieren.
-Und wenn man C schon vorher markiert hatte
+Und wenn man C schon vorher markiert hatte,
 
 0:01:56.580,0:02:02.640
 und jetzt A markiert hat, könnte man dann auch B markieren und
@@ -76,7 +76,7 @@ dass hier true steht. Oder ich hatte gesagt, dass Prolog
 
 0:02:09.360,0:02:16.680
 in Wirklichkeit Resolution anwendet.
-Das hieße eben diese Hornformel in die
+Das hieße eben, diese Hornformel in die
 
 0:02:16.680,0:02:23.550
 normale Klauselform zu packen und die Anfrage
@@ -91,8 +91,8 @@ negierte Ziel zusammen mit diesen positiv gefassten Regeln
 unerfüllbar ist, dann wissen wir, wegen der
 
 0:02:34.260,0:02:42.180
-Unerfüllbarkeit des negativen Zieles, dass das
-eigentliche Ziel stimmt/ zutrifft. Und dann hätten wir auch B gezeigt.
+Unerfüllbarkeit des negativen Ziels, dass das
+eigentliche Ziel stimmt/zutrifft. Und dann hätten wir auch B gezeigt.
 
 0:02:42.180,0:02:48.720
 Das sehen wir hier. Also dieses ¬B wäre die Negation
@@ -131,7 +131,7 @@ die Anfrage wahr ist. So wäre das jetzt hier geschehen.
 B hätten wir nach und nach zeigen können durch den Markierungsalgorithmus.
 
 0:03:41.670,0:03:49.410
-Aber die Resolution arbeiten sozusagen umgekehrt.
+Aber die Resolution arbeitet sozusagen umgekehrt.
 Die fängt mit dem Ziel ¬B an und
 
 0:03:49.410,0:03:56.310
@@ -139,7 +139,7 @@ versucht anhand der Programmklauseln einen
 Widerspruch herzuleiten zum negierten Ziel.
 
 0:03:56.310,0:04:03.000
-Also da geht es vom Ziel aus, von dem B aus und wir arbeiten
+Also da geht es vom Ziel aus, von dem B aus, und wir arbeiten
 daraufhin irgendwann zu zeigen, dass die Annahme ¬B falsch ist.
 
 0:04:03.000,0:04:09.750
@@ -159,16 +159,16 @@ den Markierungsalgorithmus nutzt, wenn
 man den so schön vorwärts anwenden kann und so
 
 0:04:26.730,0:04:32.400
-gut auch an diesen Beispiel erklären kann? Warum muss es
-diesen Trick benutzen mit dem negieren und dann
+gut auch an diesem Beispiel erklären kann? Warum muss es
+diesen Trick benutzen mit dem Negieren und dann
 
 0:04:32.400,0:04:40.800
 Resolution anwenden, die vielleicht etwas indirekter
 erscheinen mag? Ein globaler Grund, dass wir auch
 
 0:04:40.800,0:04:45.960
-Resolution betrachtet haben, ist natürlich
-das Resolution für alle KNF's und somit letztlich
+Resolution betrachtet haben, ist natürlich,
+dass Resolution für alle KNF's und somit letztlich
 
 0:04:45.960,0:04:50.790
 für alle aussagenlogischen Formeln anwendbar ist.
@@ -180,7 +180,7 @@ allgemeiner anschauen werden und dann wird es eben nicht nur
 
 0:04:57.930,0:05:04.830
 diese Art atomarer Formeln geben, sondern da können auch
-Variablen drin vorkommen. Da gibt es eine kompliziertere Syntax,
+Variablen vorkommen. Da gibt es eine kompliziertere Syntax,
 
 0:05:04.830,0:05:11.010
 wo die Aussagen, über die wir sprechen, nicht so einfach
@@ -188,7 +188,7 @@ sozusagen immer nur konstante Buchstaben sind, so
 
 0:05:11.010,0:05:16.740
 wie bisher in der Aussagenlogik. Und für dieses
-allgemeinere Konzept, für allgemeinere Logikprogramme
+allgemeinere Konzept, für allgemeinere Logikprogramme.
 
 0:05:16.740,0:05:22.590
 (letztlich Prädikatenlogik, statt Aussagenlogik)
@@ -196,11 +196,11 @@ ist der Markierungsalgorithmus nicht so einfach
 
 0:05:22.590,0:05:28.320
 übertragbar, wohingegen wir Resolution sowohl für
-Aussagenlogik, als auch im späteren Kapitel in der
+Aussagenlogik als auch im späteren Kapitel in der
 
 0:05:28.320,0:05:35.130
 Vorlesung für die Prädikatenlogik anwenden können.
-Deswegen ist Resolution das allgemeineren Konzept und
+Deswegen ist Resolution das allgemeinere Konzept und
 
 0:05:35.130,0:05:42.720
 auch das, was Prolog im Allgemeinen verwendet.
@@ -219,7 +219,7 @@ Beispiel erinnern, an dem wir dann auch
 mal ein interessanteres, echtes Prolog-Programm
 
 0:06:03.330,0:06:08.910
-sehen können, als hier dieses sehr triviale, was
+sehen können, als hier dieses sehr triviale, das
 einfach nur einer aussagenlogischen Hornformel entspricht.
 
 0:06:08.910,0:06:14.520
@@ -240,18 +240,18 @@ aus denen wir hoffentlich folgern können.
 
 0:06:32.160,0:06:39.240
 Und ich hatte das dann in der Vorlesung an einer
-Tabelle durchgespielt, wie man da sich einer Lösung
+Tabelle durchgespielt, wie man sich einer Lösung
 
 0:06:39.240,0:06:42.900
 nähern kann. Also es gab diese Personen. Die hatten
 irgendwelche Eigenschaften, in welchem Haus sie
 
 0:06:42.900,0:06:50.130
-wohnen, in welchen wie gefärbtem Haus sie wohnen, welche
+wohnen, in welchem wie gefärbten Haus sie wohnen, welche
 Nationalität sie haben etc. Und die Frage war irgendwie
 
 0:06:50.130,0:06:55.170
-"Wer besitzt ein Zebra? und Wer trinkt Wasser?" Also irgendwie
+"Wer besitzt ein Zebra? Und wer trinkt Wasser?" Also irgendwie
 konkrete Fragen über einige dieser Eigenschaften.
 
 0:06:55.170,0:07:01.860
@@ -271,7 +271,7 @@ einer Lösung prinzipiell nähern können, auch
 wenn ich das nicht vollständig durchgezogen habe
 
 0:07:19.050,0:07:24.870
-in der Vorlesung. Und dass war kein
+in der Vorlesung. Und das war kein
 Zufall, dass ich dieses Beispiel hatte. Das ist
 
 0:07:24.870,0:07:30.990
@@ -307,8 +307,8 @@ Also die eckigen Klammern und dann Listen.
 Da sind bestimmte Positionen gefüllt und andere auch nicht.
 
 0:08:20.310,0:08:26.580
-Diese geschachtelte Struktur von Liste von Listen entspricht
-im Grunde genommen der Matrix/ der Tabelle,
+Diese geschachtelte Struktur von Listen entspricht
+im Grunde genommen der Matrix/dem Tabelle,
 
 0:08:26.580,0:08:32.460
 die ich Ihnen beim händischen Lösen
@@ -323,27 +323,27 @@ Eigenschaften drin. Also Informationen wie hier
 achter und neunter Hinweis zusammen. Was sagen die?
 
 0:08:44.920,0:08:51.370
-Im mittleren Haus wird Milch getrunken und im linkesten Haus
+Im mittleren Haus wird Milch getrunken und im linken Haus
 wohnt der Norweger. Das wäre hier eben dadurch
 
 0:08:51.370,0:08:57.850
-ausgedrückt, dass wir jede solch geschachtelte
+ausgedrückt, dass wir jede solche geschachtelte
 Struktur als ein Haus ansehen mit den jeweiligen
 
 0:08:57.850,0:09:03.490
 Eigenschaften des Bewohners dieses Hauses.
-Dann hier beim linkesten Haus an der Stelle,
+Dann hier beim linken Haus an der Stelle,
 
 0:09:03.490,0:09:09.580
-die der Nationalität entspricht (auch in unsere Tabelle war
+die der Nationalität entspricht (auch in unserer Tabelle war
 das die zweite Zeile, denke ich.) steht hier Norwegisch.
 
 0:09:09.580,0:09:14.860
 Und beim mittleren Haus, also links zwei, rechts zwei,
-hier ist das mittlere Haus. Da steht im eben Milch drin als Getränk.
+hier ist das mittlere Haus. Da steht eben Milch drin als Getränk.
 
 0:09:14.860,0:09:24.040
-Und dann sind hier im wesentlichen die einzelnen Regeln
+Und dann sind hier im Wesentlichen die einzelnen Regeln
 übersetzt in Aussagen über Einträge in diese Häuserliste.
 
 0:09:24.040,0:09:33.280
@@ -392,7 +392,7 @@ wie in einem Programm eben mit Variablen arbeiten.
 
 0:10:43.910,0:10:49.400
 Das mal wirklich als erster Eindruck, wie so ein Prolog-Programm aussieht.
-Wie werden das infolge natürlich Stück für Stück entwickeln,
+Wie wir das infolge natürlich Stück für Stück entwickeln,
 
 0:10:49.400,0:10:58.130
 wie solche Programme geschrieben werden und was

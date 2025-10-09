@@ -12,7 +12,7 @@ sollten dann gelten: Der 15. August 1985 liegt
 
 0:00:20.330,0:00:24.529
 innerhalb dieses Zeitraums, weshalb wir für
-diese Anfrage die Antwort „true“ bekommen
+diese Anfrage die Antwort „true“ bekommen
 
 0:00:24.529,0:00:30.050
 sollten. Beim 26. Mai 2033 sollte die Antwort
@@ -23,8 +23,8 @@ zählt. Wir sollen ein einstelliges Prädikat
 schreiben. Das ist etwas schwierig, da wir
 
 0:00:37.250,0:00:42.110
-dafür mehr als eine Regel benötigen und
-zwar für jeden Monat eine, da es verschiedene
+dafür mehr als eine Regel benötigen und zwar
+für jeden Monat eine, da es verschiedene
 
 0:00:42.110,0:00:49.900
 Variationen gibt. Wir beginnen im Juni: Da
@@ -111,7 +111,7 @@ da 40 als Tageszahl im Juli nicht existiert.
 Alles, was zwischen eins und 31 eingegeben
 
 0:03:08.230,0:03:13.450
-wird, in Ordnung. Es muss auch positiv sein,
+wird, ist in Ordnung. Es muss auch positiv sein,
 also größer als null. Das heißt, eins bis
 
 0:03:13.450,0:03:19.730
@@ -127,12 +127,12 @@ Month July, da wir gesagt haben, wir machen
 die Regel für den Juli. Das Jahr ist wie
 
 0:03:28.260,0:03:35.019
-bei Juni als Unterstrich notiert, da es irrelevant
-ist. Am Ende kommt ein Punkt. Das gleiche
+bei Juni als Unterstrich notiert, da es irrelevant
+ist. Am Ende kommt ein Punkt. Das Gleiche
 
 0:03:35.019,0:03:42.190
 machen wir für den August analog dazu. Wir
-ersetzen Juli durch August. Als letztes brauchen
+ersetzen Juli durch August. Als Letztes brauchen
 
 0:03:42.190,0:03:50.319
 wir die Regel für den September mit der Vorgabe,

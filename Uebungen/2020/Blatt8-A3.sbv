@@ -4,18 +4,18 @@ zu lösen. Dabei stehen Buchstaben für bestimmte
 
 0:00:05.959,0:00:11.210
 Ziffern. Und zwar eindeutig. Jedem Buchstaben
-soll eine Ziffer zugeordnet werden und jede
+soll eine Ziffer zugeordnet werden, und jede
 
 0:00:11.210,0:00:15.201
 Ziffer kann nur für einen Buchstaben benutzt
-werden. Das heißt, wenn das A einer 1 entspricht
+werden. Das heißt, wenn das A einer 1 entspricht,
 
 0:00:15.201,0:00:19.850
 kann B nicht auch 1 entsprechen. Die Idee
 ist, dass man eine ganz normale Rechenaufgabe
 
 0:00:19.850,0:00:24.901
-erhält, hier in diesem Fall eine Summenaufgabe
+erhält, hier in diesem Fall eine Summenaufgabe,
 und diese nach dem Ersetzen der Ziffern auch
 
 0:00:24.901,0:00:30.189
@@ -39,12 +39,12 @@ ist hier bereits etwas vorbereitet, ein genereller
 Lösungsmechanismus. Das Solve-Prädikat,
 
 0:00:50.430,0:00:57.370
-welches hier aus dem Generate-und dem Test-Prädikat
+welches hier aus dem Generate- und dem Test-Prädikat
 besteht. Das heißt, zunächst wird das Generate-Prädikat
 
 0:00:57.370,0:01:02.542
 auf Wahrheit überprüft und dann das Test-Prädikat.
-Kommen wir als erstes zum Generator. Als Generator
+Kommen wir als Erstes zum Generator. Als Generator
 
 0:01:02.542,0:01:07.560
 haben wir, wie bei der vorherigen Aufgabe,
@@ -91,20 +91,20 @@ wir beispielsweise die 423. Im Dezimalsystem,
 also dem gängigen Zahlsystem mit Ziffern
 
 0:01:58.210,0:02:03.180
-von 0 bis 9 funktioniert dies so, dass die
+von 0 bis 9, funktioniert dies so, dass die
 letzte Ziffer, in diesem Fall die 3, der Einer-Stelle
 
 0:02:03.180,0:02:10.009
 entspricht. Und diese kann als Produkt von
-3·10º dargestellt werden. Oder eben als
+3·10⁰ dargestellt werden. Oder eben als
 
 0:02:10.009,0:02:15.730
-Produkt der Ziffer mal 10º.10º ergibt nämlich
+Produkt der Ziffer mal 10⁰. 10⁰ ergibt nämlich
 1, also die Einer-Stelle. Die nächste Ziffer,
 
 0:02:15.730,0:02:22.400
-die 2 ist die Zehner-Stelle und das kann man
-darstellen als 2·10¹ . Die dritte Stelle,
+die 2, ist die Zehner-Stelle, und das kann man
+darstellen als 2·10¹. Die dritte Stelle,
 
 0:02:22.400,0:02:27.660
 die 4, ist die Hunderter-Stelle. Einhundert
@@ -119,7 +119,7 @@ die ABC entspricht, eine dreistellige Zahl,
 dann können wir uns überlegen, dass C der
 
 0:02:41.319,0:02:48.020
-Einer-Stelle entspricht, wodurch sich C·10º,
+Einer-Stelle entspricht, wodurch sich C·10⁰,
 B·10¹ für die Zehner-Stelle und A·10²
 
 0:02:48.020,0:02:51.569
@@ -127,8 +127,8 @@ für die Hunderter-Stelle ergibt. Und das
 Ganze übertragen wir nun auf die Krypto-Arithmetik.
 
 0:02:51.569,0:03:04.170
-Die erste Zeile ist dann HDGAB, was B·10º
-+ A ·10¹ + G ·10² + D ·10³ + H ·10^4
+Die erste Zeile ist dann HDGAB, was B·10⁰
++ A ·10¹ + G ·10² + D ·10³ + H ·10⁴
 
 0:03:04.170,0:03:09.440
 entspricht. Und wenn man die Zahlen jeweils
@@ -187,7 +187,7 @@ aus: Das Solve war bereits gegeben, der einfach
 nur aus Generate-and-Test besteht. Das Generate
 
 0:04:21.729,0:04:26.120
-war der Permutation-Aufruf und das Test war
+war der Permutation-Aufruf, und das Test war
 entsprechend diese arithmetische Rechnung.
 
 0:04:26.120,0:04:32.009
@@ -195,5 +195,5 @@ Jetzt probieren wir das Ganze auch noch einmal
 aus, um der Frage nachzugehen, wie viele Lösungen
 
 0:04:32.009,0:04:35.870
-sind vorhanden? Und wir kommen auf insgesamt
+vorhanden sind? Und wir kommen auf insgesamt
 sechs verschiedene Lösungen.

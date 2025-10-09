@@ -22,7 +22,7 @@ Tiere aus dem Tierheim zu adoptieren.
 
 0:00:28.490,0:00:32.770
 Allerdings haben die Geschwister genaue Vorstellungen
-darüber welche Tiere sie mögen und welche
+darüber, welche Tiere sie mögen und welche
 
 0:00:32.770,0:00:33.770
 nicht.
@@ -80,7 +80,7 @@ Wie können wir die Formel aufstellen?
 
 0:01:18.729,0:01:22.780
 Wir haben die erste Bedingung, die grüne
-Bedingung, Anton möchte einen Hund oder eine
+Bedingung: Anton möchte einen Hund oder eine
 
 0:01:22.780,0:01:23.780
 Katze.
@@ -90,12 +90,12 @@ Das heißt, wir haben die Formel, ich nenne
 sie einmal G, Hund oder Katze und dann haben
 
 0:01:30.979,0:01:38.860
-wir das Lilane, Lila-pinke hier, Wellensittich
+wir das Lila-pinke hier, Wellensittich
 oder Hund, das heißt W oder H. Und das Blaue,
 
 0:01:38.860,0:01:45.420
 Charlie möchte keinen Hund, und nicht H und
-noch das Orangene: Außerdem können Hund
+noch das Orange: Außerdem können Hund
 
 0:01:45.420,0:01:53.070
 und Katze nicht zusammen spielen, das heißt
@@ -112,7 +112,7 @@ Jetzt sollen wir in Aufgabe (b) beantworten,
 ob es möglich ist, alle Kinder glücklich
 
 0:02:02.210,0:02:03.210
-zu machen?
+zu machen.
 
 0:02:03.210,0:02:05.820
 Falls ja, welche Tiere müssen dazu adoptiert
@@ -188,7 +188,7 @@ ich bereits aufgeschrieben.
 Und dann habe ich nicht H und K vorliegen.
 
 0:03:25.500,0:03:32.410
-Hier würde ich ein mal H und K und nicht
+Hier würde ich ein Mal H und K und nicht
 H und K einzeln aufschreiben, weil ich das
 
 0:03:32.410,0:03:33.410
@@ -209,8 +209,8 @@ Hier habe ich ein Mal nicht H. Diese ist einfach
 und entspricht immer genau dem Gegenteil von
 
 0:03:47.280,0:03:50.010
-H, das heißt vier Mal die eins und vier Mal
-die null.
+H, das heißt vier Mal die Eins und vier Mal
+die Null.
 
 0:03:50.010,0:03:52.010
 Dann habe ich H oder K.
@@ -220,8 +220,8 @@ Das heißt, ich schaue mir die ersten beiden
 Spalten an.
 
 0:03:54.730,0:03:58.240
-Hier genügt es bei der oder-Verknüpfung
-wenn eines von beiden eins ist.
+Hier genügt es bei der oder-Verknüpfung,
+wenn eines von beiden Eins ist.
 
 0:03:58.240,0:03:59.950
 Die sieht folgendermaßen aus.
@@ -239,7 +239,7 @@ Dann haben wir H und K, hier haben wir eine
 und-Verknüpfung, das heißt, wir müssen
 
 0:04:14.630,0:04:16.691
-gucken, wo beides eine eins ist.
+gucken, wo beides eine Eins ist.
 
 0:04:16.691,0:04:21.389
 Das sind die ersten beiden Spalten, die ich
@@ -250,29 +250,29 @@ Und dieses ist in den letzten beiden Zeilen
 der Fall, ansonsten nicht.
 
 0:04:27.280,0:04:34.610
-Dann habe ich nicht H und K, das ist Gegenteil
-davon, wo eine null steht wird eine eins gesetzt.
+Dann habe ich nicht H und K, das ist das Gegenteil.
+Davon, wo eine Null steht, wird eine Eins gesetzt.
 
 0:04:34.610,0:04:39.389
 Und dann habe ich die Gesamtformel, hier muss
 ich aufpassen, weil ich mir diese Hilfsspalte
 
 0:04:39.389,0:04:41.919
-hier gemacht habe mit H und K.
+Hier habe ich mit H und K gearbeitet.
 
 0:04:41.919,0:04:49.570
-Diese brauch und darf ich nicht berücksichtigen,
-sondern ich schaue mir dies Spalte an und
+Diese brauche und darf ich nicht berücksichtigen,
+sondern ich schaue mir die Spalte an und
 
 0:04:49.570,0:04:54.009
-diese Spalte, weil die sind ja zusammen verundet.
+die Spalte, weil sie ja zusammen verbunden sind.
 
 0:04:54.009,0:05:00.909
 Bei dem Und muss überall eine eins sein,
 damit die Gesamtformel eins ergibt.
 
 0:05:00.909,0:05:04.930
-Ich schaue, habe ich eine Zeile, in der überall
+Ich schaue, ob ich eine Zeile habe, in der überall
 eine eins steht?
 
 0:05:04.930,0:05:07.280

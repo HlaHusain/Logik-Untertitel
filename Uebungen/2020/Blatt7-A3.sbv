@@ -6,7 +6,7 @@ Sieben an.
 Hier haben wir folgende Aufgabe gegeben.
 
 0:00:04.560,0:00:09.969
-Wir haben ein Prädikat first, was zweistellig
+Wir haben ein Prädikat first, das zweistellig
 ist, und das soll überprüfen, ob ein Wert
 
 0:00:09.969,0:00:12.079
@@ -17,7 +17,7 @@ Und hier haben wir direkt schon die ganze
 Definition dafür.
 
 0:00:14.980,0:00:20.840
-Anschließend sollen wir Prädikat first definieren,
+Anschließend sollen wir das Prädikat first definieren,
 das sagt, ob ein Wert an fünfter Stelle steht.
 
 0:00:20.840,0:00:25.801
@@ -39,11 +39,11 @@ Stelle der Liste steht.
 
 0:00:33.180,0:00:39.940
 Das heißt, schauen wir uns erstmal an, wir
-haben diese Regel, first X Komma Xs gilt dann,
+haben diese Regel, first X, Xs gilt dann,
 
 0:00:39.940,0:00:46.870
-wenn append die Liste mit der Menge X Komma
-und dann eine freie Variable Komma Xs Punkt.
+wenn append die Liste mit der Menge X und
+dann eine freie Variable, Xs, Punkt.
 
 0:00:46.870,0:00:49.380
 Zunächst einmal, was macht dieses append?
@@ -57,7 +57,7 @@ Dabei ist nicht wichtig, dass wir jede Stelle
 ausfüllen, sondern wir können hier zum Beispiel
 
 0:00:58.260,0:01:04.920
-auch einfach eine freie Variable nehmen und
+auch einfach eine freie Variable nehmen, und
 append würde dann hier jede mögliche Liste
 
 0:01:04.920,0:01:05.920
@@ -65,7 +65,7 @@ akzeptieren.
 
 0:01:05.920,0:01:10.830
 Das heißt, wir haben jetzt hier das append,
-die Liste mit dem Element X und woran erkennen
+die Liste mit dem Element X, und woran erkennen
 
 0:01:10.830,0:01:11.830
 wir, dass es eine Liste ist?
@@ -86,7 +86,7 @@ Würde hier zum Beispiel noch eine Liste mit
 dem Element Y stehen, würde Xs aus der Liste
 
 0:01:26.551,0:01:29.030
-X Komma Y bestehen.
+X, Y bestehen.
 
 0:01:29.030,0:01:31.210
 Das wird einfach so zusammengefügt.
@@ -95,11 +95,11 @@ Das wird einfach so zusammengefügt.
 Xs ist demnach die zusammengefügte Liste.
 
 0:01:34.299,0:01:39.920
-Und die ist so aufgebaut, dass die am Anfang
+Und die ist so aufgebaut, dass sie am Anfang
 diesen Teil hat, der hier als erster Parameter
 
 0:01:39.920,0:01:44.420
-übergeben wird und danach folgt dieser Teil,
+übergeben wird, und danach folgt dieser Teil,
 der hier als zweiter Parameter übergeben
 
 0:01:44.420,0:01:45.420
@@ -159,22 +159,22 @@ Und zwar soll X nicht mehr an erster Stelle
 stehen, so wie hier, sondern an fünfter Stelle.
 
 0:02:31.330,0:02:37.330
-Das heißt, wir brauchen vier Elemente, welche
-sind egal, und die sind hier, Eins, Zwei,
+Das heißt, wir brauchen vier Elemente, die
+egal sind, und die sind hier: Eins, Zwei,
 
 0:02:37.330,0:02:38.330
 Drei, Vier.
 
 0:02:38.330,0:02:44.580
-Welche sind Egal, aber diese Elemente müssen
+Diese Elemente sind egal, aber sie müssen
 vor X kommen, damit X an fünfter Stelle steht.
 
 0:02:44.580,0:02:49.200
-Und deswegen schreiben wir das genau so, eckige
-Klammer auf Unterstrich Komma Unterstrich
+Und deswegen schreiben wir das genau so: eckige
+Klammer auf, Unterstrich, Komma, Unterstrich,
 
 0:02:49.200,0:02:51.720
-Komma Unterstrich Komma Unterstrich Komma
+Komma, Unterstrich, Komma Unterstrich, Komma
 X.
 
 0:02:51.720,0:02:54.380

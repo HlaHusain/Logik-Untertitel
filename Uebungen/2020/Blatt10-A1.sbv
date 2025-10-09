@@ -4,10 +4,10 @@ Bei Aufgabe 1 sollen wir für die folgenden
 
 0:00:06.300,0:00:10.800
 Zeichenketten bestimmen, ob es sich um korrekt
-gebildete prädikatenlogische Formeln handelt
+gebildete prädikatenlogische Formeln handelt.
 
 0:00:10.800,0:00:16.260
-und die Entscheidung begründen. Außerdem sollen
+Und die Entscheidung begründen. Außerdem sollen
 wir für alle wohl-aufgebauten Formeln angeben,
 
 0:00:16.260,0:00:21.780
@@ -19,15 +19,15 @@ Stelligkeit dieser Symbole. Bei Aufgabe (a)
 haben wir zwei Prädikatensymbole, und zwar
 
 0:00:26.820,0:00:30.960
-haben wir einmal das P hier, Prädikatensymbole
+haben wir einmal das P hier. Prädikatensymbole
 schreibt man ja groß, daran erkennt man die
 
 0:00:30.960,0:00:37.080
 eigentlich ganz einfach, und das C. Und das C
-ist nullstellig, weil hier nichts dahintersteht,
+ist nullstellig, weil hier nichts dahintersteht.
 
 0:00:37.080,0:00:42.540
-und das P ist dreistellig, weil wir hier in
+Und das P ist dreistellig, weil wir hier in
 den Klammern drei Stellen haben. Das heißt,
 
 0:00:42.540,0:00:51.240
@@ -91,7 +91,7 @@ das a und das b, wie auch in Aufgabe (a), die
 jeweils nullstellig sind, und das z und das x
 
 0:02:22.020,0:02:26.100
-sind eben Variable. Weil wir ja gesagt haben, die
+sind eben Variablen. Weil wir ja gesagt haben, die
 hinteren Buchstaben im Alphabet sind Variablen,
 
 0:02:26.100,0:02:33.720
@@ -120,7 +120,7 @@ Funktionssymbol f. y und f sind ja wieder
 
 0:03:06.360,0:03:12.780
 hinten im Alphabet, also wieder Variablen. Also P
-vierstellig, Q nullstellig, und Funktionssymbol f,
+vierstellig, Q nullstellig und Funktionssymbol f,
 
 0:03:12.780,0:03:19.260
 und das ist wiederum nullstellig. Bei Aufgabe (e)

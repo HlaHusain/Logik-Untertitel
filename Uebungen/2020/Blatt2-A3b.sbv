@@ -1,5 +1,5 @@
 0:00:00.070,0:00:03.490
-In Aufgabe B sollen wir jetzt noch mal zeigen,
+In Aufgabe B sollen wir jetzt noch einmal zeigen,
 dass die beiden Formeln äquivalent sind,
 
 0:00:03.490,0:00:07.510
@@ -14,15 +14,15 @@ Und das können wir jetzt umformen, da sehen
 wir schon, wir haben hier eine Negation.
 
 0:00:16.070,0:00:18.710
-Da ist immer ganz praktisch, de-Morgan anzuwenden.
+Da ist es immer ganz praktisch, de Morgan anzuwenden.
 
 0:00:18.710,0:00:26.259
-Ziehen die Negation also rein, dann kippt
-der Operator um, Disjunktion wird zu Konjunktion,
+Ziehen wir die Negation also rein, dann kippt
+der Operator um, Disjunktion wird zu Konjunktion.
 
 0:00:26.259,0:00:32.550
 Nicht A wird zu A und B wird zu Nicht B. Jetzt
-können wir als nächstes das Distributivgesetz
+können wir als Nächstes das Distributivgesetz
 
 0:00:32.550,0:00:33.760
 anwenden.
@@ -42,11 +42,11 @@ oder C ist ja, wenn ihr euch erinnert, B impliziert
 C.
 
 0:00:50.610,0:00:54.739
-Wir hatten das vorher immer andersrum, B impliziert
+Wir hatten das vorher immer andersherum, B impliziert
 C, kann man auch zu Nicht B oder C auflösen.
 
 0:00:54.739,0:00:56.219
-Und hier machen wir es eben so rum.
+Und hier machen wir es eben so herum.
 
 0:00:56.219,0:00:57.640
 Und das ist G.
