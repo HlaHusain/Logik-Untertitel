@@ -3,12 +3,12 @@ Bei Aufgabe 4 ist wieder eine kleine Textaufgabe
 gegeben. Da sagen drei verschiedene Studierende,
 
 0:00:06.009,0:00:13.919
-A, B und C einem Logiker, wo der Raum LB 107
-zu finden ist. Und wir sollen jetzt herausfinden,
+A, B und C einem Logiker, wo der Raum LB 107 zu
+finden ist. Und wir sollen jetzt herausfinden,
 
 0:00:13.919,0:00:18.880
-wer von den Studierenden die Wahrheit sagt.
-Die Aussagen sind: A sagt: „B lügt.“
+wer von den Studierenden die Wahrheit
+sagt. Die Aussagen sind: A sagt: „B lügt.“
 
 0:00:18.880,0:00:24.420
 B sagt: „C sagt die Wahrheit.“ Und C sagt:
@@ -35,8 +35,8 @@ ist und klar ist, worüber wir reden: Erste
 Aussage, zweite Aussage, dritte Aussage. Die
 
 0:00:50.899,0:00:56.739
-erste Aussage ist: A sagt: „B lügt.“
-Das heißt, wir sagen jetzt, dass die Buchstaben
+erste Aussage ist: A sagt: „B lügt.“ Das
+heißt, wir sagen jetzt, dass die Buchstaben
 
 0:00:56.739,0:01:00.079
 immer bedeuten, dass die jeweilige Person
@@ -79,12 +79,12 @@ Gleiche machen wir jetzt analog für Satz
 heißt, wenn B die Wahrheit sagt, dann folgt
 
 0:01:52.560,0:01:58.230
-daraus, dass C die Wahrheit sagt. Und wenn
-C die Wahrheit sagt, dann hat ja B mit seiner
+daraus, dass C die Wahrheit sagt. Und wenn C
+die Wahrheit sagt, dann hat ja B mit seiner
 
 0:01:58.230,0:02:02.960
-Aussage „C sagt die Wahrheit“ die Wahrheit
-gesagt, deswegen auch hier wieder die Doppelimplikation.
+Aussage „C sagt die Wahrheit“ die Wahrheit gesagt,
+deswegen auch hier wieder die Doppelimplikation.
 
 0:02:02.960,0:02:10.340
 Und beim Satz 3: C sagt: „A und B lügen.“
@@ -203,8 +203,8 @@ hinteren Teil, Nicht A und Nicht B, den haben
 wir jetzt noch nicht einzeln in einer Spalte
 
 0:05:03.130,0:05:06.960
-stehen. Und das schreibe ich mir jetzt auch
-noch mal auf, weil ich es einfach übersichtlicher
+stehen. Und das schreibe ich mir jetzt auch noch
+mal auf, weil ich es einfach übersichtlicher
 
 0:05:06.960,0:05:12.110
 finde. Nicht A und Nicht B kann ich aus den
@@ -223,8 +223,8 @@ funktioniert, könn ihr euch das natürlich
 einerseits noch mal auf den Folien anschauen,
 
 0:05:30.910,0:05:35.810
-die ihr in der Vorlesung hattet. Ihr könnt
-euch aber auch überlegen, wie die Doppelimplikation
+die ihr in der Vorlesung hattet. Ihr könnt euch
+aber auch überlegen, wie die Doppelimplikation
 
 0:05:35.810,0:05:40.030
 überhaupt hergeleitet wird oder was es überhaupt
@@ -255,8 +255,8 @@ gleiche wie bei der Doppelindikation. Ihr
 werdet herausfinden, dass die Doppelimplikation
 
 0:06:12.541,0:06:17.330
-immer dann den Wahrheitswert 1 bekommt, wenn
-eben auf beiden Seiten die Teile den Wahrheitswert
+immer dann den Wahrheitswert 1 bekommt, wenn eben
+auf beiden Seiten die Teile den Wahrheitswert
 
 0:06:17.330,0:06:24.300
 1 oder auf beiden Seiten die Teile den Wahrheitswert
@@ -299,8 +299,8 @@ oder beide eine 0, ist es im Gesamten eine
 1. Und ansonsten ist es im Gesamten eine 0.
 
 0:07:21.040,0:07:27.270
-Und jetzt noch Satz 3. Dafür müssen wir
-uns zum einen die Spalte von C anschauen und
+Und jetzt noch Satz 3. Dafür müssen wir uns
+zum einen die Spalte von C anschauen und
 
 0:07:27.270,0:07:33.060
 zum anderen auch diese Hilfsspalte von Nicht
@@ -359,8 +359,8 @@ allen drei eine 1. In keiner anderen Zeile
 haben wir bei allen drei eine 1. Das heißt,
 
 0:08:50.559,0:08:56.079
-in dieser Zeile wird unsere gesamte Formel
-mit dem Wahrheitswert 1 belegt. In allen anderen
+in dieser Zeile wird unsere gesamte Formel mit
+dem Wahrheitswert 1 belegt. In allen anderen
 
 0:08:56.079,0:09:01.740
 nicht. Daher wissen wir, dass diese Belegung
@@ -375,5 +375,5 @@ B 0 und für C 0. Unter dieser Voraussetzung
 stimmen alle drei Aussagen. Das heißt also,
 
 0:09:14.360,0:09:19.410
-wir können sagen, dass A die Wahrheit sagt,
-B lügt und C lügt.
+wir können sagen, dass A die
+Wahrheit sagt, B lügt und C lügt.

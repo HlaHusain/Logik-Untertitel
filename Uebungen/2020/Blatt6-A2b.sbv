@@ -99,12 +99,12 @@ acht. So haben wir von unserer Resolvente, die wir
 das "hatFuehrerschein" weg. Das wird eliminiert.
 
 0:02:46.860,0:02:55.920
-Wir erhalten "Nicht besitzt(K,a)". Warum K?
-Weil wir die Variable X mit Klaus unifizieren konnten.
+Wir erhalten "Nicht besitzt(K,a)". Warum K? Weil
+wir die Variable X mit Klaus unifizieren konnten.
 
 0:02:55.920,0:03:02.880
-Klaus bleibt stehen. An dieser Stelle
-können wir nicht weitermachen, da wir oben keine
+Klaus bleibt stehen. An dieser Stelle können
+wir nicht weitermachen, da wir oben keine
 
 0:03:02.880,0:03:09.360
 Regel mehr haben, in der K und a so vorkommen.

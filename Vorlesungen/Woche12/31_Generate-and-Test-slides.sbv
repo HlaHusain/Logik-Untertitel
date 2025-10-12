@@ -1,38 +1,38 @@
 0:00:00.000,0:00:08.610
-Ich möchte als Nächstes mit Ihnen das sogenannte
-Generate and Test Prinzip ("Generieren und Testen Prinzip") besprechen.
+Ich möchte als Nächstes mit Ihnen das sogenannte Generate and
+Test Prinzip ("Generieren und Testen Prinzip") besprechen.
 
 0:00:08.610,0:00:16.020
 Das ist eine einfache und in
 Prolog sehr gut umsetzbare
 
 0:00:16.020,0:00:22.620
-algorithmische Herangehensweise.
-Das möchte ich zunächst motivieren durch ein
+algorithmische Herangehensweise. Das
+möchte ich zunächst motivieren durch ein
 
 0:00:22.620,0:00:29.880
-kleines Beispiel. Stellen wir uns vor, wir
-haben unsere Prolog-Listen, mit denen wir ja jetzt schon
+kleines Beispiel. Stellen wir uns vor, wir haben
+unsere Prolog-Listen, mit denen wir ja jetzt schon
 
 0:00:29.880,0:00:35.640
 gearbeitet haben, für die wir mehrere Prädikate
 kennengelernt hatten, um etwa Listen aneinander zu hängen,
 
 0:00:35.640,0:00:42.675
-auseinanderzunehmen, Elemente in Listen zu suchen, etc.
-Jetzt haben wir die Aufgabenstellung:
+auseinanderzunehmen, Elemente in Listen zu suchen,
+etc. Jetzt haben wir die Aufgabenstellung:
 
 0:00:42.675,0:00:47.610
-Wir würden gerne Listen sortieren. Also die Idee ist,
-dass wir gern ein Prädikat haben würden,
+Wir würden gerne Listen sortieren. Also die Idee
+ist, dass wir gern ein Prädikat haben würden,
 
 0:00:49.110,0:00:56.340
 um etwas zu sortieren. Das hat natürlich zwei Argumente.
 Das erste Argument würden wir zum Beispiel belegen
 
 0:00:56.340,0:01:02.040
-mit einer beliebigen Liste,
-die interessanterweise nicht sortiert ist.
+mit einer beliebigen Liste, die
+interessanterweise nicht sortiert ist.
 
 0:01:02.040,0:01:11.670
 Also ihre Elemente sind nicht irgendwie aufsteigend durchgehend.
@@ -43,36 +43,36 @@ und hier ein R, eine Resultatliste
 als Variable in dem Fall angeben,
 
 0:01:17.580,0:01:26.160
-dann hätten wir als Antwort gern, dass wir
-für R die sortierte Liste als Belegung bekommen.
+dann hätten wir als Antwort gern, dass wir für
+R die sortierte Liste als Belegung bekommen.
 
 0:01:26.160,0:01:32.370
-Also die gleichen Elemente, aber in sortierter Reihenfolge.
-Das ist ja ein klassisches Problem.
+Also die gleichen Elemente, aber in sortierter
+Reihenfolge. Das ist ja ein klassisches Problem.
 
 0:01:32.370,0:01:38.370
 Auch ein sehr altes, in der Informatik oft
 behandeltes, algorithmisches Problem. Wir haben eine
 
 0:01:38.370,0:01:48.990
-Liste und möchten sie gerne sortieren. Das tut ja
-keines von den bisher gesehenen Prädikaten, die wir haben.
+Liste und möchten sie gerne sortieren. Das tut ja keines
+von den bisher gesehenen Prädikaten, die wir haben.
 
 0:01:48.990,0:01:55.320
-Wie können wir vorgehen? Jetzt können wir sagen, dann
-versuchen wir wahrscheinlich ein rekursives
+Wie können wir vorgehen? Jetzt können wir sagen,
+dann versuchen wir wahrscheinlich ein rekursives
 
 0:01:55.320,0:02:00.630
-Prädikat zu definieren. Wir könnten ja sagen, wie die leere
-Liste sortiert ist und dann vielleicht, wie es
+Prädikat zu definieren. Wir könnten ja sagen, wie die
+leere Liste sortiert ist und dann vielleicht, wie es
 
 0:02:00.630,0:02:06.780
 mit nichtleeren Listen ist. Dafür müssten wir dann
 aber eine sehr konkrete algorithmische Idee haben.
 
 0:02:06.780,0:02:13.110
-Spätestens, wenn Sie im nächsten Semester oder im nächsten Jahr
-die Programmiervorlesung hören, werden Sie
+Spätestens, wenn Sie im nächsten Semester oder im
+nächsten Jahr die Programmiervorlesung hören, werden Sie
 
 0:02:13.110,0:02:16.860
 wahrscheinlich auch Algorithmen besprechen, zum Sortieren zum Beispiel.
@@ -83,32 +83,32 @@ wenn Sie da Informatikunterricht hatten. Und da gibt es dann ganz viele
 verschiedene Herangehensweisen, wie man eine Liste sortieren könnte.
 
 0:02:22.035,0:02:29.520
-Aber im Moment wollen wir uns damit noch gar nicht beschäftigen.
-Wir sollten zunächst erst mal festhalten, was
+Aber im Moment wollen wir uns damit noch gar nicht
+beschäftigen. Wir sollten zunächst erst mal festhalten, was
 
 0:02:29.520,0:02:36.960
 genau wir eigentlich wollen. Das ist ja leicht dahingesagt.
 "Ich will eine sortierte Liste haben." Aber wir sind eine
 
 0:02:36.960,0:02:40.800
-Logikvorlesung, also vielleicht wäre es geschickt,
-das auch mal ganz präzise auszudrücken, was das eigentlich heißt.
+Logikvorlesung, also vielleicht wäre es geschickt, das auch
+mal ganz präzise auszudrücken, was das eigentlich heißt.
 
 0:02:40.800,0:02:45.480
-Und nicht nur einfach so verbal: "Die Elemente müssen
-halt in der richtigen Reihenfolge da stehen."
+Und nicht nur einfach so verbal: "Die Elemente
+müssen halt in der richtigen Reihenfolge da stehen."
 
 0:02:45.480,0:02:51.540
-Also eine mögliche Herangehensweise hier wäre,
-erst mal überhaupt zu spezifizieren, und zwar logisch
+Also eine mögliche Herangehensweise hier wäre, erst
+mal überhaupt zu spezifizieren, und zwar logisch
 
 0:02:51.540,0:02:58.590
-zu spezifizieren, was es denn heißt, dass
-eine Liste sortiert ist. Uns also erst mal um das "Was?"
+zu spezifizieren, was es denn heißt, dass eine
+Liste sortiert ist. Uns also erst mal um das "Was?"
 
 0:02:58.590,0:03:07.140
-kümmern, statt um das "Wie?". Wie sollte denn sortiert werden?
-Also da könnte man sich erst mal überlegen, welche
+kümmern, statt um das "Wie?". Wie sollte denn sortiert
+werden? Also da könnte man sich erst mal überlegen, welche
 
 0:03:07.860,0:03:14.430
 Eigenschaften denn die Resultatliste haben muss.
@@ -135,30 +135,32 @@ Liste ist, sortiert zu sein. Und es ist tatsächlich
 nicht schwer auszudrücken in Prolog. Das ist erst mal
 
 0:03:43.170,0:03:50.400
-ein rekursives Prädikat. Dann gibt es Basisfälle. Also z.B. die leere Liste ist immer sortiert. Eine einelementige
+ein rekursives Prädikat. Dann gibt es Basisfälle. Also
+z.B. die leere Liste ist immer sortiert. Eine einelementige
 
 0:03:50.400,0:03:54.810
 Liste ist immer sortiert, egal, was das Element darin ist.
 Deswegen verwenden wir das Vorkommen einer anonymen Variable.
 
 0:03:54.810,0:04:02.460
-Eine beliebige Liste ist sortiert, insbesondere eine Liste,
-die mindestens zwei Elemente enthält.
+Eine beliebige Liste ist sortiert, insbesondere
+eine Liste, die mindestens zwei Elemente enthält.
 
 0:04:02.460,0:04:08.340
-Also wir zerlegen hier auf ähnliche Art und
-Weise, wie wir das z.B. in den Übungen getan haben
+Also wir zerlegen hier auf ähnliche Art und Weise,
+wie wir das z.B. in den Übungen getan haben
 
 0:04:08.340,0:04:15.210
 für das Beispiel, wo wir das erste Element einer Liste
 haben wollten. Hier wollen wir die ersten zwei Elemente der
 
 0:04:15.210,0:04:22.690
-Xs-Liste haben. Also zerlegen wir Xs mittels des append-Prädikats in die ersten zwei Elemente X und Y und irgendeine Restliste.
+Xs-Liste haben. Also zerlegen wir Xs mittels des append-Prädikats
+in die ersten zwei Elemente X und Y und irgendeine Restliste.
 
 0:04:22.690,0:04:29.020
-Die könnte auch leer sein. Ys könnte leer sein.
-Dann bestand das Xs eben aus
+Die könnte auch leer sein. Ys könnte
+leer sein. Dann bestand das Xs eben aus
 
 0:04:29.020,0:04:34.450
 genau zwei Elementen. Also dem nächstgrößeren
@@ -169,24 +171,24 @@ Also wir zerlegen das so. Greifen uns auf diese Weise sozusagen
 die ersten beiden Listenelemente und können dann vergleichen,
 
 0:04:41.050,0:04:48.730
-ob die in der richtigen Reihenfolge stehen. Also wenn jetzt
-das erste X, das erste Element =< dem zweiten ist,
+ob die in der richtigen Reihenfolge stehen. Also wenn
+jetzt das erste X, das erste Element =< dem zweiten ist,
 
 0:04:48.730,0:04:53.590
-dann besteht zumindest eine Chance, dass die Liste insgesamt
-sortiert ist. Wenn das hier nicht erfüllt ist,
+dann besteht zumindest eine Chance, dass die Liste
+insgesamt sortiert ist. Wenn das hier nicht erfüllt ist,
 
 0:04:53.590,0:05:01.390
-dann war die Ursprungsliste nicht sortiert. Und wir haben ja "Und".
-Wir zerlegen das, und es muss gelten, dass X =< Y ist.
+dann war die Ursprungsliste nicht sortiert. Und wir haben ja
+"Und". Wir zerlegen das, und es muss gelten, dass X =< Y ist.
 
 0:05:01.390,0:05:07.840
-Wenn das also nicht gilt, dann ist die Liste Xs nicht sortiert.
-Wenn allerdings X ≤ Y ist, dann heißt es noch nicht, dass die Liste sortiert ist.
+Wenn das also nicht gilt, dann ist die Liste Xs nicht sortiert. Wenn
+allerdings X ≤ Y ist, dann heißt es noch nicht, dass die Liste sortiert ist.
 
 0:05:07.840,0:05:13.000
-Wir müssen uns noch um den Rest kümmern. Also naheliegend ist,
-dass wir vielleicht sagen würden: "Die Restliste muss noch sortiert sein."
+Wir müssen uns noch um den Rest kümmern. Also naheliegend ist, dass
+wir vielleicht sagen würden: "Die Restliste muss noch sortiert sein."
 
 0:05:13.000,0:05:20.830
 Das reicht aber nicht. Das können wir uns überlegen:
@@ -197,8 +199,8 @@ den Restelementen verhält. Eine Möglichkeit, das
 ausdrücken, wäre zu sagen: "Nachdem wir geprüft haben, dass
 
 0:05:26.920,0:05:32.110
-das erste ≤ dem zweiten Element ist, fügen wir das
-zweite Element einfach wieder der Restliste hinzu. Bilden also
+das erste ≤ dem zweiten Element ist, fügen wir das zweite
+Element einfach wieder der Restliste hinzu. Bilden also
 
 0:05:32.110,0:05:38.500
 damit die Liste Zs. Das sind dann alle Listenelemente
@@ -225,48 +227,48 @@ wann eine Liste sortiert ist. Tatsächlich können wir
 das überprüfen. Wenn wir das z.B. aufrufen für unsere
 
 0:06:11.170,0:06:17.200
-Ursprungsliste [4, 2, 6, 9, 1], dann kommt heraus, dass sie nicht
-sortiert ist. Für die Ergebnisliste, die gewünschte
+Ursprungsliste [4, 2, 6, 9, 1], dann kommt heraus, dass sie
+nicht sortiert ist. Für die Ergebnisliste, die gewünschte
 
 0:06:17.200,0:06:27.220
-Ergebnisliste [1, 2, 4, 6, 9], käme heraus, dass sie sortiert ist.
-Wichtig ist hier erst mal vor allem auf der Folie, wie
+Ergebnisliste [1, 2, 4, 6, 9], käme heraus, dass sie sortiert
+ist. Wichtig ist hier erst mal vor allem auf der Folie, wie
 
 0:06:27.220,0:06:32.080
-das hier definiert ist. Insbesondere, dass man hier den
-rekursiven Aufruf nicht einfach auf Ys machen kann,
+das hier definiert ist. Insbesondere, dass man hier
+den rekursiven Aufruf nicht einfach auf Ys machen kann,
 
 0:06:32.080,0:06:37.180
-sondern auf einer Liste, die das Y noch mit enthält.
-Das kann man sich überlegen, warum das sonst ein Problem wäre.
+sondern auf einer Liste, die das Y noch mit enthält. Das
+kann man sich überlegen, warum das sonst ein Problem wäre.
 
 0:06:37.180,0:06:42.250
-Wenn wir mal zum Beispiel von dieser Liste die ersten beiden Elemente
-ignorieren würden und die Liste [6, 9, 1] hätten,
+Wenn wir mal zum Beispiel von dieser Liste die ersten beiden
+Elemente ignorieren würden und die Liste [6, 9, 1] hätten,
 
 0:06:42.250,0:06:50.950
-und die hier in das isSorted stecken,
-dann wäre ja X = 6 und Y = 9. Wenn wir jetzt nur prüfen
+und die hier in das isSorted stecken, dann wäre
+ja X = 6 und Y = 9. Wenn wir jetzt nur prüfen
 
 0:06:50.950,0:06:58.090
 würden, dass X ≤ Y ist, dann wäre das erfüllt. 6 ≤ 9 stimmt.
 Und wir dann prüfen würden, ob die Restliste Ys sortiert ist,
 
 0:06:58.090,0:07:03.130
-dann wäre die das, weil [1] ja sortiert ist.
-Und dann würden wir behaupten, dass [6, 9, 1] sortiert ist.
+dann wäre die das, weil [1] ja sortiert ist. Und dann
+würden wir behaupten, dass [6, 9, 1] sortiert ist.
 
 0:07:03.130,0:07:09.370
-Wenn wir allerdings so wie hier sagen:
-"Es muss 6 ≤ 9 gelten und dann 9 wieder an die
+Wenn wir allerdings so wie hier sagen: "Es
+muss 6 ≤ 9 gelten und dann 9 wieder an die
 
 0:07:09.370,0:07:10.983
 Restliste hängen, was dann diese Liste ergibt, und die muss sortiert
 sein", dann stellt sich sehr schnell und richtigerweise heraus,
 
 0:07:10.983,0:07:24.370
-dass diese Liste bzw. auch schon diese Restliste hier nicht sortiert ist.
-Also das (darüber können Sie etwas nachdenken oder
+dass diese Liste bzw. auch schon diese Restliste hier nicht
+sortiert ist. Also das (darüber können Sie etwas nachdenken oder
 
 0:07:24.370,0:07:29.650
 können es ausprobieren) wäre eine sinnvolle Beschreibung
@@ -281,32 +283,32 @@ das "Wie?" aus. Wir haben eine Liste, die ist nicht sortiert.
 Wir wissen, wie eine Liste aussehen muss, damit sie sortiert ist.
 
 0:07:43.810,0:07:49.840
-Das sagt uns ja noch nicht, wie wir algorithmisch
-von der nicht sortierten Liste zur sortierten Liste kommen.
+Das sagt uns ja noch nicht, wie wir algorithmisch von
+der nicht sortierten Liste zur sortierten Liste kommen.
 
 0:07:49.840,0:07:54.430
 Also das "Wie?" wäre dann das nächste Problem.
 Wie können wir eine solche passende Liste erhalten
 
 0:07:54.430,0:07:58.900
-beziehungsweise herstellen?
-Wir wollen ja nicht einfach irgendeine sortierte Liste haben.
+beziehungsweise herstellen? Wir wollen ja
+nicht einfach irgendeine sortierte Liste haben.
 
 0:07:58.900,0:08:03.910
 Wir haben eine Ursprungsliste und wir hätten gern eine
 sortierte Liste, die aus dieser Liste irgendwie entstanden ist.
 
 0:08:03.910,0:08:15.250
-Wir wollen ja nicht einfach irgendeine solche Liste haben.
-Das wäre einfach, da würden wir einfach die leere Liste nehmen.
+Wir wollen ja nicht einfach irgendeine solche Liste haben. Das
+wäre einfach, da würden wir einfach die leere Liste nehmen.
 
 0:08:15.250,0:08:21.310
 Die ist immer sortiert. Da kann man jetzt erst mal sehr naiv vorgehen und sagen:
 "Eigentlich will ich ja einfach eine Permutation der Ursprungsliste haben,
 
 0:08:21.310,0:08:26.890
-die sortiert ist." Die aufsteigend sortiert ist.
-Ich habe eine Ursprungsliste. Die ist vielleicht nicht sortiert.
+die sortiert ist." Die aufsteigend sortiert ist. Ich habe
+eine Ursprungsliste. Die ist vielleicht nicht sortiert.
 
 0:08:26.890,0:08:32.440
 Ich hätte gern eine Permutation dieser Ursprungsliste
@@ -321,16 +323,16 @@ Wir haben an anderer Stelle ja auch schon einfach Forderungen in Queries/Anfrage
 oder eben in Prädikaten hingeschrieben und Prolog dann nach Lösungen
 
 0:08:47.700,0:08:55.830
-suchen lassen. Also man könnte jetzt sehr naiv vorgehen und sagen:
-"Ich möchte gern Xs zu Ys sortieren." Das mache ich,
+suchen lassen. Also man könnte jetzt sehr naiv vorgehen und
+sagen: "Ich möchte gern Xs zu Ys sortieren." Das mache ich,
 
 0:08:55.830,0:09:00.660
 indem ich sage: Ys muss eine Permutation von Xs sein.
 Wir erinnern uns: Wir hatten für die Permutation
 
 0:09:00.660,0:09:09.330
-ein Prädikat gesehen. Das hatte ich auf den Folien definiert.
-Ich hatte aber auch gesagt, dass es auch ein
+ein Prädikat gesehen. Das hatte ich auf den Folien
+definiert. Ich hatte aber auch gesagt, dass es auch ein
 
 0:09:09.330,0:09:15.570
 vordefiniertes Permutationsprädikat mit
@@ -341,60 +343,60 @@ Das heißt, wir müssen das, was auf der Folie steht,
 hier gar nicht extra hinzufügen. Wir können einfach das
 
 0:09:20.460,0:09:26.850
-vordefinierte Permutationsprädikat verwenden.
-Das liefert uns tatsächlich zu einer gegebenen Eingabeliste
+vordefinierte Permutationsprädikat verwenden. Das
+liefert uns tatsächlich zu einer gegebenen Eingabeliste
 
 0:09:26.850,0:09:33.150
 alle Permutationen. Hier hatten wir jetzt eine sortierte
 Eingabeliste und die Permutation davon waren nicht unbedingt
 
 0:09:33.150,0:09:37.650
-alle sortiert. Jetzt wollen wir das umgekehrt haben.
-Wir geben irgendeine Liste vor, die nicht notwendigerweise sortiert ist.
+alle sortiert. Jetzt wollen wir das umgekehrt haben. Wir geben
+irgendeine Liste vor, die nicht notwendigerweise sortiert ist.
 
 0:09:37.650,0:09:43.620
-Dann würden wir alle Permutationen bekommen.
-So wie hier: Alles aufgezählt. Alle Permutationen dieser Eingabeliste.
+Dann würden wir alle Permutationen bekommen. So wie hier:
+Alles aufgezählt. Alle Permutationen dieser Eingabeliste.
 
 0:09:43.620,0:09:53.220
 Und dann wollen wir von den Ergebnissen eines
 herausgreifen, was dotiert ist. Im Normalfall,
 
 0:09:53.790,0:10:04.930
-bzw. immer, wird das sogar eindeutig sein.
-Es gibt zu jeder Liste genau ein sortiertes Äquivalent.
+bzw. immer, wird das sogar eindeutig sein. Es gibt
+zu jeder Liste genau ein sortiertes Äquivalent.
 
 0:10:05.980,0:10:11.560
-Also wir sagen, um Xs zu Ys zu sortieren, permutieren wir Xs zu Ys.
-Das würde auch Ergebnisse liefern, die natürlich
+Also wir sagen, um Xs zu Ys zu sortieren, permutieren wir
+Xs zu Ys. Das würde auch Ergebnisse liefern, die natürlich
 
 0:10:11.560,0:10:15.580
 nicht korrekt sind. Einfach irgendwelche Permutationen sind.
 Und dann sagen wir aber noch: Dieses Ys muss sortiert sein.
 
 0:10:15.580,0:10:22.150
-In dem Sinne wie dieses Prädikat, das wir auch in Prolog
-geschrieben haben, das ausdrückt.
+In dem Sinne wie dieses Prädikat, das wir auch
+in Prolog geschrieben haben, das ausdrückt.
 
 0:10:22.150,0:10:27.280
-Das heißt, die Arbeit steckt hier in der Beschreibung,
-was wir eigentlich wollen. Hier sagen
+Das heißt, die Arbeit steckt hier in der
+Beschreibung, was wir eigentlich wollen. Hier sagen
 
 0:10:27.280,0:10:32.470
-wir einfach nur: Wir hätten gerne eine Permutation,
-wofür wir schon ein Prädikat haben. Und die muss sortiert sein.
+wir einfach nur: Wir hätten gerne eine Permutation, wofür
+wir schon ein Prädikat haben. Und die muss sortiert sein.
 
 0:10:32.470,0:10:38.470
-Tatsächlich können wir so naiv vorgehen.
-Das funktioniert. Wir könnten jetzt dieses Prädikat
+Tatsächlich können wir so naiv vorgehen. Das
+funktioniert. Wir könnten jetzt dieses Prädikat
 
 0:10:38.470,0:10:44.380
-aufrufen, das nur aus dieser Regel besteht. Also auch nicht
-irgendwie rekursiv ist. Das sortingTo-Prädikat ist
+aufrufen, das nur aus dieser Regel besteht. Also auch
+nicht irgendwie rekursiv ist. Das sortingTo-Prädikat ist
 
 0:10:44.380,0:10:51.730
-nicht rekursiv. Das sagt einfach nur, was wir wollen.
-Und tatsächlich würde das funktionieren. Wir könnten das in Prolog
+nicht rekursiv. Das sagt einfach nur, was wir wollen. Und
+tatsächlich würde das funktionieren. Wir könnten das in Prolog
 
 0:10:51.730,0:11:00.460
 aufrufen und bekommen tatsächlich das gewünschte Ergebnis hier.
@@ -405,20 +407,20 @@ Tatsächlich steckt dahinter eben das
 allgemeine Generate-and-Test-Prinzip.
 
 0:11:08.290,0:11:16.300
-Was ist hier die Idee? Wir wollen irgendwie eine Regel
-auf Eingaben haben. In Prolog ist ja immer alles eine Eingabe,
+Was ist hier die Idee? Wir wollen irgendwie eine Regel auf
+Eingaben haben. In Prolog ist ja immer alles eine Eingabe,
 
 0:11:16.300,0:11:21.520
-wenn wir das erst mal als Prädikat schreiben.
-Hier steht nicht Ys ist das Ergebnis von sortieren Xs,
+wenn wir das erst mal als Prädikat schreiben. Hier
+steht nicht Ys ist das Ergebnis von sortieren Xs,
 
 0:11:21.520,0:11:26.830
 sondern Xs und Ys sind irgendwelche Argumente, über
 die es Bedingungen gibt. Und vielleicht rufen wir
 
 0:11:26.830,0:11:31.720
-das nachher so auf, dass wir Xs angeben und nach R suchen.
-Das muss nicht unbedingt so sein. Wir wollen
+das nachher so auf, dass wir Xs angeben und nach R
+suchen. Das muss nicht unbedingt so sein. Wir wollen
 
 0:11:31.720,0:11:37.570
 erst mal formulieren, was es überhaupt heißt,
@@ -429,16 +431,16 @@ Und natürlich geht es darum, dass wir irgendein
 Problem haben (z. B. das Sortierproblem) und
 
 0:11:42.040,0:11:46.720
-wir versuchen eine Regel aufzuschreiben, die genau dann true liefert,
-wenn wir eine gültige Lösung für das Problem hätten.
+wir versuchen eine Regel aufzuschreiben, die genau dann true
+liefert, wenn wir eine gültige Lösung für das Problem hätten.
 
 0:11:46.720,0:11:55.420
 Das war hier die Aufgabe letztlich, ein Prädikat
 zu schreiben, das korrekt ausdrückt, wann Ys eine
 
 0:11:55.420,0:12:00.310
-sortierte Version von Xs ist. Und wir haben
-das hier verlegt in zwei Teile. Hier sind die zwei Teile
+sortierte Version von Xs ist. Und wir haben das
+hier verlegt in zwei Teile. Hier sind die zwei Teile
 
 0:12:00.310,0:12:06.250
 sehr offensichtlich, weil ich auf der rechten Seite dieser
@@ -449,12 +451,12 @@ es hier den ersten Teil. Das wäre der "Generate-Teil".
 Der erzeugt irgendwie Lösungskandidaten.
 
 0:12:13.180,0:12:20.830
-Und zwar sehr viele im Fall der Permutationen.
-Und dann gibt es den "Test-Teil", der unter den Kandidaten
+Und zwar sehr viele im Fall der Permutationen. Und
+dann gibt es den "Test-Teil", der unter den Kandidaten
 
 0:12:20.830,0:12:29.380
-diejenigen herausfiltert, die gewünscht sind.
-Also irgendwie gibt es einen Suchraum. Alle möglichen Permutationen
+diejenigen herausfiltert, die gewünscht sind. Also irgendwie
+gibt es einen Suchraum. Alle möglichen Permutationen
 
 0:12:29.380,0:12:35.440
 der Ursprungsliste wären hier unser Suchraum gewesen.
@@ -465,28 +467,28 @@ Und es gibt den Testteil, der für Elemente des Suchraums
 die erfüllt sein muss. In dem Fall wollten wir etwas sortieren.
 
 0:12:40.510,0:12:51.160
-Also das Problem hier war das Sortierproblem und die Bedingung dazu war,
-dass die Liste, die rauskommt, sortiert sein muss.
+Also das Problem hier war das Sortierproblem und die Bedingung
+dazu war, dass die Liste, die rauskommt, sortiert sein muss.
 
 0:12:52.150,0:12:58.480
 Natürlich können das auch mehrere Bedingungen sein.
 Hier ist das so ganz offensichtlich, dass es genau ein
 
 0:12:58.480,0:13:03.880
-Prädikat für den Generate-Teil und für den Testteil gibt.
-Im Allgemeinen können das auch jeweils
+Prädikat für den Generate-Teil und für den Testteil
+gibt. Im Allgemeinen können das auch jeweils
 
 0:13:03.880,0:13:18.640
-mehrere Prädikatsaufrufe oder Bedingungen sein.
-Lassen Sie uns das auf ein paar weiteren
+mehrere Prädikatsaufrufe oder Bedingungen
+sein. Lassen Sie uns das auf ein paar weiteren
 
 0:13:18.640,0:13:25.630
-Beispielen vertiefen oder noch mal in Aktion sehen.
-Das sind erst mal sehr einfache, künstliche
+Beispielen vertiefen oder noch mal in Aktion
+sehen. Das sind erst mal sehr einfache, künstliche
 
 0:13:25.630,0:13:30.850
-Beispiele, wo wir einfach diese Unterscheidung
-oder dieses Prinzip mehrmals in Aktion sehen wollen,
+Beispiele, wo wir einfach diese Unterscheidung oder
+dieses Prinzip mehrmals in Aktion sehen wollen,
 
 0:13:30.850,0:13:38.440
 um das identifizieren zu können, wann wir
@@ -497,24 +499,24 @@ Und dann werde ich in späteren Videos noch anschaulichere
 oder nützlichere Beispiele machen. Interessantere Beispiele,
 
 0:13:46.330,0:13:56.710
-größere Beispiele.
-Stellen wir uns folgende Aufgabe oder stellen Sie sich
+größere Beispiele. Stellen wir uns
+folgende Aufgabe oder stellen Sie sich
 
 0:13:56.710,0:14:03.220
-vor, Ihnen sei als Aufgabe gestellt:
-Es mögen alle Möglichkeiten ermittelt werden, wie man bei
+vor, Ihnen sei als Aufgabe gestellt: Es mögen
+alle Möglichkeiten ermittelt werden, wie man bei
 
 0:14:03.220,0:14:10.390
-dreimaligem Würfeln insgesamt 15 Punkte erzielen kann.
-Also wir haben drei Würfel oder einen Würfel,
+dreimaligem Würfeln insgesamt 15 Punkte erzielen
+kann. Also wir haben drei Würfel oder einen Würfel,
 
 0:14:10.390,0:14:14.410
-den wir dreimal würfeln. Da kommt jeweils eine
-Augenzahl zwischen eins und sechs heraus.
+den wir dreimal würfeln. Da kommt jeweils
+eine Augenzahl zwischen eins und sechs heraus.
 
 0:14:14.410,0:14:19.960
-Am Ende wird zusammengezählt und die Frage ist: Auf welche
-Art und Weise könnte es sein, dass am Ende genau 15 Punkte erzielt wurden?
+Am Ende wird zusammengezählt und die Frage ist: Auf welche Art und
+Weise könnte es sein, dass am Ende genau 15 Punkte erzielt wurden?
 
 0:14:19.960,0:14:27.700
 Was hieße hier das Generieren?
@@ -525,56 +527,56 @@ Kandidaten zu erzeugen, was bei diesen drei Würfel-Würfen
 herausgekommen sein könnte. Da geht es nicht ums Permutieren.
 
 0:14:34.000,0:14:41.380
-Da ist nichts, was irgendwie permutiert wird.
-Wir müssen einfach alle Kombinationen haben, die diese
+Da ist nichts, was irgendwie permutiert wird. Wir
+müssen einfach alle Kombinationen haben, die diese
 
 0:14:41.380,0:14:47.170
-drei Würfel als Augenzahlen haben könnten.
-Und das Testen ist dann sicherlich die Überprüfung, ob denn
+drei Würfel als Augenzahlen haben könnten. Und das
+Testen ist dann sicherlich die Überprüfung, ob denn
 
 0:14:47.170,0:14:53.050
 15 Punkte herausgekommen sind. Und wenn wir genau dieser Strategie
 folgen, können wir das tatsächlich als eine Anfrage schreiben.
 
 0:14:53.050,0:14:58.150
-Wir könnten das auch in Regeln verpacken.
-Ich mache das jetzt bei diesen einfachen Beispielen so,
+Wir könnten das auch in Regeln verpacken. Ich
+mache das jetzt bei diesen einfachen Beispielen so,
 
 0:14:58.150,0:15:02.110
-dass ich einfach direkt immer die Anfrage hinschreibe,
-die man in Prolog prompt eingeben könnte.
+dass ich einfach direkt immer die Anfrage
+hinschreibe, die man in Prolog prompt eingeben könnte.
 
 0:15:02.110,0:15:07.960
-Man könnte natürlich auch ein Prädikat schreiben, "lösung"
-mit den Argumenten, und dann das, was ich jetzt als Anfrage habe,
+Man könnte natürlich auch ein Prädikat schreiben, "lösung" mit
+den Argumenten, und dann das, was ich jetzt als Anfrage habe,
 
 0:15:07.960,0:15:12.790
-als rechte Seite dieses Prädikats nehmen. Und
-der Aufruf des Prädikats würde dann die Lösungen liefern.
+als rechte Seite dieses Prädikats nehmen. Und der
+Aufruf des Prädikats würde dann die Lösungen liefern.
 
 0:15:12.790,0:15:19.720
-Ich mache das jetzt hier so durch, dass ich das direkt als Query angebe.
-Und dann kann man das hier fast wortwörtlich übersetzen,
+Ich mache das jetzt hier so durch, dass ich das direkt als Query
+angebe. Und dann kann man das hier fast wortwörtlich übersetzen,
 
 0:15:19.720,0:15:25.420
 was ich gerade so angedeutet habe. Also, wir müssen natürlich
 festhalten, was überhaupt die möglichen Augenzahlen sind.
 
 0:15:25.420,0:15:34.450
-Hier steht nur Würfeln. Ich meine einen W6. Also, es gibt die Ergebnisse [1,2,3,4,5,6].
-Da kann ich sagen, das ist sozusagen eine Komponente meines Suchraums.
+Hier steht nur Würfeln. Ich meine einen W6. Also, es gibt die Ergebnisse
+[1,2,3,4,5,6]. Da kann ich sagen, das ist sozusagen eine Komponente meines Suchraums.
 
 0:15:34.450,0:15:42.040
-Das ist nicht direkt der Suchraum. Es gibt ja nicht nur 6 Kandidaten,
-sondern wir haben ja drei Würfe.
+Das ist nicht direkt der Suchraum. Es gibt ja nicht
+nur 6 Kandidaten, sondern wir haben ja drei Würfe.
 
 0:15:42.040,0:15:46.720
-Also gibt es irgendwie 6 × 6 × 6 Kandidaten, wenn wir kombinatorisch
-darüber nachdenken. Und wie kann ich
+Also gibt es irgendwie 6 × 6 × 6 Kandidaten, wenn wir
+kombinatorisch darüber nachdenken. Und wie kann ich
 
 0:15:46.720,0:15:53.200
-den Suchraum generieren? Ich kann sagen: A sei
-das Ergebnis meines ersten Würfelwurfs. Und das muss
+den Suchraum generieren? Ich kann sagen: A sei das
+Ergebnis meines ersten Würfelwurfs. Und das muss
 
 0:15:53.200,0:15:58.480
 eine Zahl von eins bis sechs sein. Also ein Element dieser
@@ -593,28 +595,28 @@ Das heißt, wenn W eine sechselementige Liste ist, wird allein
 dieser Aufruf hier schon zu sechs verschiedenen Kandidaten führen.
 
 0:16:19.540,0:16:26.170
-Das Gleiche passiert für B und C.
-Also, B und C seien die Augenzahlen des zweiten und
+Das Gleiche passiert für B und C. Also, B
+und C seien die Augenzahlen des zweiten und
 
 0:16:26.170,0:16:32.590
-dritten Wurfes. Und das sind auch Elemente
-dieser sechselementigen Liste. Das heißt, mit diesen
+dritten Wurfes. Und das sind auch Elemente dieser
+sechselementigen Liste. Das heißt, mit diesen
 
 0:16:32.590,0:16:39.220
 drei Aufrufen hier spanne ich den Suchraum auf.
 Ich ziehe nämlich sozusagen A, B und C jeweils
 
 0:16:39.220,0:16:46.290
-unabhängig voneinander aus dieser Liste.
-Und dann prüfe ich, ob denn die Summe von A, B und C gleich 15 ist.
+unabhängig voneinander aus dieser Liste. Und dann prüfe
+ich, ob denn die Summe von A, B und C gleich 15 ist.
 
 0:16:46.290,0:16:54.330
 Jetzt muss ich kurz erklären, was das hier bedeutet.
 Das ist die sozusagen arithmetische Berechnung
 
 0:16:54.330,0:16:59.850
-und der Vergleich der Ergebnisse. Da gibt es einen kleinen Unterschied.
-Diese W = hier vorn, das berechnet ja nichts.
+und der Vergleich der Ergebnisse. Da gibt es einen kleinen
+Unterschied. Diese W = hier vorn, das berechnet ja nichts.
 
 0:16:59.850,0:17:04.110
 Da geht es nicht um Arithmetik, nicht um Zahlen,
@@ -629,148 +631,148 @@ A + B + C = 15. A + B + C, das sind ja einfach
 irgendwelche Zahlen und + ist nur ein Symbol.
 
 0:17:20.130,0:17:25.740
-Da wird also nicht gerechnet werden. Also, was ich hier sage, ist
-tatsächlich: Was auch immer hier steht, für konkrete A, B, C
+Da wird also nicht gerechnet werden. Also, was ich hier sage,
+ist tatsächlich: Was auch immer hier steht, für konkrete A, B, C
 
 0:17:25.740,0:17:31.410
-steht eine Summe. Die soll ausgerechnet werden und dann
-mit der Konstante 15 verglichen werden. Und wenn ich das so machen
+steht eine Summe. Die soll ausgerechnet werden und dann mit
+der Konstante 15 verglichen werden. Und wenn ich das so machen
 
 0:17:31.410,0:17:36.210
-möchte, kann ich nicht das normale = benutzen.
-Dieses einfache Symbol. Ich brauche dieses spezielle Symbol,
+möchte, kann ich nicht das normale = benutzen. Dieses
+einfache Symbol. Ich brauche dieses spezielle Symbol,
 
 0:17:36.210,0:17:42.390
-was eben arithmetische Vergleiche macht. Die linke und
-rechte Seite berechnet (wie ein Taschenrechner)
+was eben arithmetische Vergleiche macht. Die linke
+und rechte Seite berechnet (wie ein Taschenrechner)
 
 0:17:42.390,0:17:51.790
 und dann schaut, ob die gleiche Zahl herausgekommen ist.
 Dann hätte ich diese Aufgabe hier gelöst. Sie können das mal
 
 0:17:51.790,0:17:59.830
-ausführen, einfach in Prolog. Und dann
-würden Sie geeignete Antworten bekommen, wie denn
+ausführen, einfach in Prolog. Und dann würden
+Sie geeignete Antworten bekommen, wie denn
 
 0:17:59.830,0:18:07.570
-A, B, C aussehen könnten, sodass sie jeweils Würfel des W = 6
-sind und die Summe 15 ist.
+A, B, C aussehen könnten, sodass sie jeweils
+Würfel des W = 6 sind und die Summe 15 ist.
 
 0:18:07.570,0:18:17.710
-Zur Identifizierung noch mal: Der Generate-Teil wäre hier
-das + dem. Da wird der Suchraum aufgespannt.
+Zur Identifizierung noch mal: Der Generate-Teil wäre
+hier das + dem. Da wird der Suchraum aufgespannt.
 
 0:18:17.710,0:18:27.490
-Die einfache Bedienung hier ist einfach nur: A + B + C soll 15 ergeben.
-Machen wir das Beispiel etwas interessanter:
+Die einfache Bedienung hier ist einfach nur: A + B + C soll
+15 ergeben. Machen wir das Beispiel etwas interessanter:
 
 0:18:27.490,0:18:37.450
-Stellen wir uns vor, ich möchte gern wissen,
-für welche Möglichkeiten es so ist, dass wir bei dreimaligem
+Stellen wir uns vor, ich möchte gern wissen, für welche
+Möglichkeiten es so ist, dass wir bei dreimaligem
 
 0:18:37.450,0:18:43.480
 Würfeln verschiedene Augenzahlen hatten und
 insgesamt wieder 15 herausgekommen ist.
 
 0:18:43.480,0:18:49.270
-Wenn wir das hier aufrufen, werden wir auch Kombinationen von
-A, B, C bekommen, wo A und B zum Beispiel gleich sind
+Wenn wir das hier aufrufen, werden wir auch Kombinationen
+von A, B, C bekommen, wo A und B zum Beispiel gleich sind
 
 0:18:49.270,0:18:53.350
-oder wo alle drei einfach 5 sind. A = 5, B = 5, C = 5
-wäre hier eine Lösung.
+oder wo alle drei einfach 5 sind. A =
+5, B = 5, C = 5 wäre hier eine Lösung.
 
 0:18:53.350,0:18:59.890
 Angenommen, mein Problem ist eigentlich anders.
 Ich möchte keine wiederholten Augenzahlen haben.
 
 0:18:59.890,0:19:04.900
-Ich frage mich, wenn ich dreimal Würfel und dreimal
-etwas Verschiedenes herausgekommen ist, unter welchen Bedingungen
+Ich frage mich, wenn ich dreimal Würfel und dreimal etwas
+Verschiedenes herausgekommen ist, unter welchen Bedingungen
 
 0:19:04.900,0:19:14.620
-dann noch 15 entstanden sein kann. Wie kann ich das umsetzen?
-Ich werde einfach überlegen, ob ich entweder
+dann noch 15 entstanden sein kann. Wie kann ich das
+umsetzen? Ich werde einfach überlegen, ob ich entweder
 
 0:19:14.620,0:19:28.060
-meinen Generator oder meinen Tester erweitere.
-Man könnte sagen, statt einfach alle Kandidaten zu
+meinen Generator oder meinen Tester erweitere. Man
+könnte sagen, statt einfach alle Kandidaten zu
 
 0:19:28.060,0:19:37.120
-erzeugen, alle drei Wahlen, sozusagen A, B, C aus dem Raum 1 bis 6
-und alle Kombinationen davon, möchte ich von
+erzeugen, alle drei Wahlen, sozusagen A, B, C aus dem
+Raum 1 bis 6 und alle Kombinationen davon, möchte ich von
 
 0:19:37.120,0:19:44.410
-vorn herein nur diejenigen Kombinationen haben,
-wo A, B, C verschieden sind. Eine Möglichkeit wäre einfach
+vorn herein nur diejenigen Kombinationen haben, wo A,
+B, C verschieden sind. Eine Möglichkeit wäre einfach
 
 0:19:44.410,0:19:52.870
-zu sagen: Man macht das Gleiche wie eben, aber fügt hier noch etwas hinzu.
-Also wieder [1,2,3,4,5,6] als die Würfel-Augenzahlen.
+zu sagen: Man macht das Gleiche wie eben, aber fügt hier noch
+etwas hinzu. Also wieder [1,2,3,4,5,6] als die Würfel-Augenzahlen.
 
 0:19:52.870,0:20:00.880
-A, B, C sollen aus diesem Bereich kommen. Und es wird noch geprüft,
-dass A ungleich B, A ungleich C und B ungleich C.
+A, B, C sollen aus diesem Bereich kommen. Und es wird noch
+geprüft, dass A ungleich B, A ungleich C und B ungleich C.
 
 0:20:00.880,0:20:08.460
-Die müssen paarweise verschieden sein.
-Das kann man dieses \= hier erreichen oder ausdrücken.
+Die müssen paarweise verschieden sein. Das kann
+man dieses \= hier erreichen oder ausdrücken.
 
 0:20:08.460,0:20:18.000
 Dann wäre das hier insgesamt die Beschreibung
 des Suchraumes. Komplizierter beschrieben,
 
 0:20:18.000,0:20:24.000
-führt allerdings zu einem kleineren Suchraum.
-Und unter denen wird dann wieder diese Bedingung überprüft.
+führt allerdings zu einem kleineren Suchraum. Und
+unter denen wird dann wieder diese Bedingung überprüft.
 
 0:20:24.000,0:20:31.320
 Da wird jetzt natürlich eine echte Teilmenge
 der Ergebnisse dieser Anfrage herauskommen,
 
 0:20:31.320,0:20:44.910
-weil ja zusätzliche Einschränkungen an
-die Elemente des Suchraums getroffen worden sind.
+weil ja zusätzliche Einschränkungen an die
+Elemente des Suchraums getroffen worden sind.
 
 0:20:44.910,0:20:49.530
-Oder man kann das hier tatsächlich geschickter und kürzer ausdrücken,
-wenn man geeignete vorhandene Prädikate benutzt.
+Oder man kann das hier tatsächlich geschickter und kürzer
+ausdrücken, wenn man geeignete vorhandene Prädikate benutzt.
 
 0:20:49.530,0:20:57.420
 Was heißt das denn, dass ich drei
 verschiedene Elemente aus dieser Liste habe?
 
 0:20:57.420,0:21:05.280
-Wenn ich drei verschiedene Elemente aus dieser Liste habe,
-dann sind das drei Elemente einer Permutation.
+Wenn ich drei verschiedene Elemente aus dieser Liste
+habe, dann sind das drei Elemente einer Permutation.
 
 0:21:05.280,0:21:12.570
 Denn bei Permutationen wird ja kein Element der
 Ursprungsliste doppelt verwendet. Also eine Möglichkeit
 
 0:21:12.570,0:21:20.820
-wäre auch zu sagen, ich betrachte Permutationen von [1, 2, 3, 4, 5, 6].
-Aus der Permutation greife ich mir jeweils
+wäre auch zu sagen, ich betrachte Permutationen von [1, 2,
+3, 4, 5, 6]. Aus der Permutation greife ich mir jeweils
 
 0:21:20.820,0:21:30.390
 die ersten drei Elemente. Die anderen drei sind mir egal.
 Und das ist mein Suchraum. Das ist knapper ausgedrückt.
 
 0:21:30.390,0:21:38.160
-Vielleicht auch deklarativer ausgedrückt.
-Und gibt einfach eine kürzere Art und Weise, diesen Suchraum zu beschreiben.
+Vielleicht auch deklarativer ausgedrückt. Und gibt einfach
+eine kürzere Art und Weise, diesen Suchraum zu beschreiben.
 
 0:21:38.160,0:21:44.070
-Die Bedingung wiederum ist die gleiche wie oben.
-Ich habe hier sozusagen nur den Generate-Teil vereinfacht
+Die Bedingung wiederum ist die gleiche wie oben. Ich
+habe hier sozusagen nur den Generate-Teil vereinfacht
 
 0:21:44.070,0:21:53.280
-oder schicker gemacht. Semantisch von der Bedeutung her
-ist das genau das Gleiche. Man beachte hier auch diese Unterstriche.
+oder schicker gemacht. Semantisch von der Bedeutung her ist das
+genau das Gleiche. Man beachte hier auch diese Unterstriche.
 
 0:21:53.280,0:21:59.070
-Ich kann natürlich nicht schreiben, [A, B, C] ist eine Permutation
-von [1, 2, 3, 4, 5, 6]. Das gäbe gar keine Lösung.
+Ich kann natürlich nicht schreiben, [A, B, C] ist eine
+Permutation von [1, 2, 3, 4, 5, 6]. Das gäbe gar keine Lösung.
 
 0:21:59.070,0:22:05.340
 Denn die Permutation muss ja auch wieder sechs Elemente enthalten.
@@ -785,52 +787,52 @@ verwende hier anonyme Variablen. Das steht einfach für:
 Und wenn Sie das wieder ausprobieren würden, werden Sie feststellen,
 
 0:22:16.670,0:22:28.430
-dass Sie auch damit diese Aufgabe tatsächlich lösen können.
-Noch eine letzte Variation dieses Beispiels.
+dass Sie auch damit diese Aufgabe tatsächlich lösen
+können. Noch eine letzte Variation dieses Beispiels.
 
 0:22:28.430,0:22:33.050
-Stellen wir uns vor, das soll noch interessanter oder noch
-komplizierter sein. Und zwar geht es uns jetzt darum,
+Stellen wir uns vor, das soll noch interessanter oder
+noch komplizierter sein. Und zwar geht es uns jetzt darum,
 
 0:22:33.050,0:22:41.390
 alle Möglichkeiten zu betrachten oder zu erhalten,
 sodass bei dreimaligem Würfeln, ohne dass sich
 
 0:22:41.390,0:22:49.310
-eine Augenzahl wiederholt und wir das Glück
-haben oder die Situation haben, dass die Augenzahlen
+eine Augenzahl wiederholt und wir das Glück haben
+oder die Situation haben, dass die Augenzahlen
 
 0:22:49.310,0:22:56.000
-in aufsteigender Reihenfolge aufgetreten sind.
-Also es kann nicht mehr sein, dass wir erst 6, dann 5, dann 4
+in aufsteigender Reihenfolge aufgetreten sind. Also es
+kann nicht mehr sein, dass wir erst 6, dann 5, dann 4
 
 0:22:56.000,0:23:02.510
 gewürfelt haben. Das sind zwar drei Würfe, die
 verschieden sind und die insgesamt 15 ergeben.
 
 0:23:02.510,0:23:12.680
-Sondern wir betrachten nur Fälle, wo zum Beispiel 4, 5, 6
-gewürfelt worden. Können wir das auch ausdrücken?
+Sondern wir betrachten nur Fälle, wo zum Beispiel 4,
+5, 6 gewürfelt worden. Können wir das auch ausdrücken?
 
 0:23:12.680,0:23:17.360
 Da müssen wir irgendwie noch stärkere Aussagen über A, B, C treffen,
 als nur, dass sie verschieden sind. Was wir entweder hier oder hier
 
 0:23:17.360,0:23:24.740
-durch die Verwendung der Permutation ausgedrückt haben.
-Was könnten wir machen? Wir könnten unser isSorted-Prädikat verwenden,
+durch die Verwendung der Permutation ausgedrückt haben. Was
+könnten wir machen? Wir könnten unser isSorted-Prädikat verwenden,
 
 0:23:24.740,0:23:29.810
-das wir vorhin bei dem anderen Problem definiert haben.
-Das ist immer nett, wenn wir vorhandene Prädikate nachnutzen können.
+das wir vorhin bei dem anderen Problem definiert haben. Das ist
+immer nett, wenn wir vorhandene Prädikate nachnutzen können.
 
 0:23:29.810,0:23:39.680
 Also es geht jetzt hier um diesen Zusatz: Es sollen nur
 Konstellationen betrachtet werden, wo die verschiedenen Augenzahlen
 
 0:23:39.680,0:23:45.110
-in aufsteigender Reihenfolge waren.
-Und insgesamt sollen sie nach wie vor 15 ergeben.
+in aufsteigender Reihenfolge waren. Und
+insgesamt sollen sie nach wie vor 15 ergeben.
 
 0:23:45.710,0:23:49.340
 Eine Lösung könnte sein, dass wir eine dieser beiden Lösungen nehmen.
@@ -841,36 +843,36 @@ Und einfach noch fordern, dass [A, B, C]
 tatsächlich eine aufsteigende Sequenz ist.
 
 0:23:56.210,0:24:03.680
-Also könnten wir sagen: Wir betrachten Permutationen von [1, 2, 3, 4, 5, 6].
-Schauen uns von diesen Permutationen die ersten drei Elemente an.
+Also könnten wir sagen: Wir betrachten Permutationen von [1, 2, 3, 4,
+5, 6]. Schauen uns von diesen Permutationen die ersten drei Elemente an.
 
 0:24:03.680,0:24:09.740
-Die anderen sind uns egal, weil wir einfach
-drei Augenzahlen brauchen. Und wir fordern auch noch,
+Die anderen sind uns egal, weil wir einfach drei
+Augenzahlen brauchen. Und wir fordern auch noch,
 
 0:24:09.740,0:24:15.500
-dass A, B, C in aufsteigender Reihenfolge sind.
-Verwenden also unser isSorted-Prädikat, das wir vorhin beim
+dass A, B, C in aufsteigender Reihenfolge sind. Verwenden
+also unser isSorted-Prädikat, das wir vorhin beim
 
 0:24:15.500,0:24:20.570
-Permutations-Sortieren verwendet haben.
-Und nach wie vor soll natürlich A + B + C = 15 ergeben.
+Permutations-Sortieren verwendet haben. Und nach
+wie vor soll natürlich A + B + C = 15 ergeben.
 
 0:24:20.570,0:24:29.630
 Jetzt könnte man sich wieder überlegen, wie man das interpretiert.
 Jetzt haben wir hier drei Prädikate, drei Forderungen.
 
 0:24:29.630,0:24:36.170
-Was davon ist Generate und was davon ist Test?
-Da gibt es zumindest in diesem Beispiel tatsächlich
+Was davon ist Generate und was davon ist Test? Da
+gibt es zumindest in diesem Beispiel tatsächlich
 
 0:24:36.170,0:24:42.540
-Interpretationsspielraum. Man könnte sagen, diese beiden Sachen zusammen,
-der Permutationsaufruf und der isSorted-Aufruf zusammen,
+Interpretationsspielraum. Man könnte sagen, diese beiden Sachen
+zusammen, der Permutationsaufruf und der isSorted-Aufruf zusammen,
 
 0:24:42.540,0:24:49.410
-beschreiben den Suchraum, weil unsere Kandidaten eben
-genau drei verschiedene Augenzahlen
+beschreiben den Suchraum, weil unsere Kandidaten
+eben genau drei verschiedene Augenzahlen
 
 0:24:49.410,0:24:56.310
 in aufsteigender Reihenfolge sein sollen.
@@ -881,16 +883,16 @@ dass die Summe dieser drei Kandidatenwerte 15 ergibt.
 Oder wir könnten sagen, wir nehmen die Perspektive ein,
 
 0:25:04.350,0:25:12.600
-dass das der Generationsteil ist.
-Also unser Suchraum umfasst, wie im Beispiel davor,
+dass das der Generationsteil ist. Also unser
+Suchraum umfasst, wie im Beispiel davor,
 
 0:25:12.600,0:25:19.650
 einfach alle dreimaligen Würfe mit
 verschiedenen Ergebnissen. Und die Forderung,
 
 0:25:19.650,0:25:26.700
-dass sie in aufsteigender Reihenfolge sortiert sein sollen,
-das interpretieren wir als Teil des Tests.
+dass sie in aufsteigender Reihenfolge sortiert sein
+sollen, das interpretieren wir als Teil des Tests.
 
 0:25:26.700,0:25:36.090
 Also der Auswertung der Kandidaten. Das ändert
@@ -905,8 +907,8 @@ was unser Generator ist und was unser Test ist.
 Im Folgenden werden wir einige Beispiele sehen.
 
 0:25:52.750,0:25:58.900
-Nicht mehr in diesem Video, aber zur Zwischenzusammenfassung eine kurze
-Betrachtung, wann wir das
+Nicht mehr in diesem Video, aber zur
+Zwischenzusammenfassung eine kurze Betrachtung, wann wir das
 
 0:25:58.900,0:26:04.840
 einsetzen werden. Also, wann ist so ein Generate-and-Test-Ansatz
@@ -921,52 +923,52 @@ Wenn Sie lange Listen haben, gibt es einfach sehr viele
 Permutationen und da müsste man ja im Prinzip alle
 
 0:26:18.430,0:26:24.160
-Permutationen erzeugen und jede einzelne auf Sortiertheit testen.
-Das heißt noch nicht, dass Prolog das genauso macht.
+Permutationen erzeugen und jede einzelne auf Sortiertheit
+testen. Das heißt noch nicht, dass Prolog das genauso macht.
 
 0:26:24.160,0:26:31.900
-Prolog hat eine effiziente Implementierung.
-Kann also tatsächlich auch unter Umständen bestimmte Suchteile durch
+Prolog hat eine effiziente Implementierung. Kann also
+tatsächlich auch unter Umständen bestimmte Suchteile durch
 
 0:26:31.900,0:26:39.520
 clevere Implementierung abkürzen. Aber zumindest
 konzeptionell kann der Suchraum ja sehr groß sein.
 
 0:26:39.520,0:26:47.560
-Und beim Permutieren ist das in der Regel so, wenn die Listen
-nicht eher kurz sind. Also muss man das schon mit Augenmaß betreiben.
+Und beim Permutieren ist das in der Regel so, wenn die Listen nicht
+eher kurz sind. Also muss man das schon mit Augenmaß betreiben.
 
 0:26:47.560,0:26:52.960
-In der Vorlesung und in den Übungen werden dann natürlich Beispiele
-drankommen, wo das tatsächlich auch sinnvoll ist.
+In der Vorlesung und in den Übungen werden dann natürlich
+Beispiele drankommen, wo das tatsächlich auch sinnvoll ist.
 
 0:26:52.960,0:26:58.570
-Ein sinnvolles Kriterium ist,
-die Menge der potenziellen Lösungen, der Kandidaten,
+Ein sinnvolles Kriterium ist, die Menge
+der potenziellen Lösungen, der Kandidaten,
 
 0:26:58.570,0:27:05.740
-sollte zumindest endlich sein. Also, es darf nicht unendlich
-viele Lösungen geben. Da kommt man mit den Testen ja nicht zum Schluss.
+sollte zumindest endlich sein. Also, es darf nicht unendlich viele
+Lösungen geben. Da kommt man mit den Testen ja nicht zum Schluss.
 
 0:27:05.740,0:27:14.350
-Noch besser ist, wenn der Suchraum möglichst klein ist.
-Das ist natürlich eine Interpretationsfrage:
+Noch besser ist, wenn der Suchraum möglichst klein
+ist. Das ist natürlich eine Interpretationsfrage:
 
 0:27:14.350,0:27:19.960
-Wann ist klein genug? In den Beispielen, die wir hier gesehen
-haben, war das alles kein Problem. Also, bei einem
+Wann ist klein genug? In den Beispielen, die wir hier
+gesehen haben, war das alles kein Problem. Also, bei einem
 
 0:27:19.960,0:27:29.440
-Suchraum mit sechs Elementen ist die Anzahl der Permutationen
-noch beherrschbar. Das wäre ein Indiz dafür,
+Suchraum mit sechs Elementen ist die Anzahl der
+Permutationen noch beherrschbar. Das wäre ein Indiz dafür,
 
 0:27:29.440,0:27:36.070
-dass man mit Generate und Test arbeiten kann.
-Es kann natürlich auch sein, dass das Problem doch größer ist
+dass man mit Generate und Test arbeiten kann. Es kann
+natürlich auch sein, dass das Problem doch größer ist
 
 0:27:36.070,0:27:41.770
-oder es doch einen größeren Suchraum gibt und man dennoch
-mit Generate und Test arbeiten möchte. Warum?
+oder es doch einen größeren Suchraum gibt und man
+dennoch mit Generate und Test arbeiten möchte. Warum?
 
 0:27:41.770,0:27:46.240
 Vielleicht, weil man einfach keine andere Vorstellung hat.
@@ -977,20 +979,20 @@ dafür kennt oder das Problem tatsächlich algorithmisch
 sehr schwer systematisch zu erfassen ist.
 
 0:27:51.970,0:28:00.720
-Da kann es sein, dass man auf das Generate and Test
-zurückgreift, weil es zumindest vom Aufwand
+Da kann es sein, dass man auf das Generate and
+Test zurückgreift, weil es zumindest vom Aufwand
 
 0:28:00.720,0:28:06.900
-des Programmschreibens relativ gering ist.
-Auch wenn vielleicht die Ausführung dann länger dauert.
+des Programmschreibens relativ gering ist. Auch
+wenn vielleicht die Ausführung dann länger dauert.
 
 0:28:08.130,0:28:15.510
 Also, dann kann es auch, weil sich das Problem nicht
 auf offensichtliche Art und Weise irgendwie einer
 
 0:28:15.510,0:28:22.650
-systematischen Lösung zuführen lässt, durchaus
-lohnend sein, es mal mit Generate and Test zu probieren.
+systematischen Lösung zuführen lässt, durchaus lohnend
+sein, es mal mit Generate and Test zu probieren.
 
 0:28:22.650,0:28:26.100
 Und für Sie natürlich, da Sie noch keine
@@ -1001,21 +1003,21 @@ dedizierte Programmiervorlesung gehört haben, kann
 Generate and Test einfach mindestens im Übungsbetrieb
 
 0:28:33.840,0:28:40.560
-bei uns, aber auch in anderen Anwendungen, erst mal ein
-gut gangbarer Weg sein. Natürlich ist dieses zweite
+bei uns, aber auch in anderen Anwendungen, erst mal
+ein gut gangbarer Weg sein. Natürlich ist dieses zweite
 
 0:28:40.560,0:28:45.420
 Kriterium ein bisschen eine Ausrede. Wenn ich nichts
 anderes mehr weiß, dann mache ich eben Generate and Test.
 
 0:28:45.420,0:28:52.410
-So kann man das natürlich auffassen. Allerdings ist
-Prolog tatsächlich sehr gut geeignet, solche Lösungen knapp
+So kann man das natürlich auffassen. Allerdings ist Prolog
+tatsächlich sehr gut geeignet, solche Lösungen knapp
 
 0:28:52.410,0:29:00.000
 aufzuschreiben. Und das kann dann sicher schon ein erster
 Ansatz sein, dass man schnell zu einem Programm kommt.
 
 0:29:00.000,0:29:09.000
-Das waren hier natürlich immer noch sehr künstliche Beispiele.
-Wir schauen mal auf zwei etwas interessantere Beispiele in zwei weiteren Videos.
+Das waren hier natürlich immer noch sehr künstliche Beispiele. Wir schauen
+mal auf zwei etwas interessantere Beispiele in zwei weiteren Videos.

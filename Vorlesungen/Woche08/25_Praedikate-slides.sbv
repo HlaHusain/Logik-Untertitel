@@ -3,8 +3,8 @@ Also sprechen wir über Prädikate. Das ist
 in gewisser Weise tatsächlich ein Vorgriff
 
 0:00:07.950,0:00:16.620
-auf das spätere Kapitel zur Prädikatenlogik.
-Wenn Sie an das Inhaltsverzeichnis in einer der ersten Folien
+auf das spätere Kapitel zur Prädikatenlogik. Wenn Sie
+an das Inhaltsverzeichnis in einer der ersten Folien
 
 0:00:16.620,0:00:24.390
 in der ersten Woche denken, dann gab es da
@@ -15,44 +15,44 @@ Prädikatenlogik, und die Logikprogrammierung war
 dazwischen so als Übergangskapitel eingeordnet.
 
 0:00:29.370,0:00:35.070
-Tatsächlich werden wir anhand von Prolog
-dann schon einige Begriffe kennenlernen, die dann
+Tatsächlich werden wir anhand von Prolog dann
+schon einige Begriffe kennenlernen, die dann
 
 0:00:35.070,0:00:41.310
-formaler im Kapitel zur Prädikatenlogik relevant sind.
-Also Prädikate ist hier wirklich erst mal
+formaler im Kapitel zur Prädikatenlogik relevant
+sind. Also Prädikate ist hier wirklich erst mal
 
 0:00:41.310,0:00:48.360
 zu verstehen wie Prädikate in natürlicher Sprache.
 Also bisher haben wir reine Aussagenlogik gemacht
 
 0:00:48.360,0:00:53.790
-und hatten eben solche Aussagen atomar gefasst.
-Wie ein Satz "Der Mond ist grün." Das war für uns einfach eine
+und hatten eben solche Aussagen atomar gefasst. Wie ein
+Satz "Der Mond ist grün." Das war für uns einfach eine
 
 0:00:53.790,0:00:59.970
 Aussage A, die dann vielleicht in einem Kontext/
 in einer Implikation auftauchen konnte, unter
 
 0:00:59.970,0:01:04.680
-welchen Umständen der Mond denn grün ist.
-Oder "Die Straße ist nass, wenn es regnet." Da hatten wir dann
+welchen Umständen der Mond denn grün ist. Oder "Die
+Straße ist nass, wenn es regnet." Da hatten wir dann
 
 0:01:04.680,0:01:08.820
-die beiden Basisaussagen, also "Es regnet." und "Die Straße ist nass."
-und zwischen denen eine Beziehung hergestellt.
+die beiden Basisaussagen, also "Es regnet." und "Die Straße
+ist nass." und zwischen denen eine Beziehung hergestellt.
 
 0:01:11.250,0:01:16.470
 Wenn wir so einen Satz natürlich sprachlich sehen würden,
 dann ist er ja nicht atomar, also unzerlegbar, sondern
 
 0:01:16.470,0:01:20.820
-da gibt es mindestens ein Subjekt, nämlich den Mond
-und ein Prädikat, nämlich das grün sein.
+da gibt es mindestens ein Subjekt, nämlich den
+Mond und ein Prädikat, nämlich das grün sein.
 
 0:01:20.820,0:01:28.170
-Und vielleicht gibt es auch noch ein Objekt, wenn wir
-mehrere Nomen, mehrere Gegenstände oder Personen
+Und vielleicht gibt es auch noch ein Objekt, wenn
+wir mehrere Nomen, mehrere Gegenstände oder Personen
 
 0:01:28.170,0:01:35.520
 verknüpfen und Aussagen darüber machen. Bisher war das
@@ -67,24 +67,24 @@ Davon weichen wir jetzt ab. Davon gehen wir jetzt weg und erlauben
 mehr Struktur oder nutzen mehr Struktur über diese Aussagen.
 
 0:01:47.970,0:01:55.880
-Also werden wir auch Aussagen haben und
-wollen auch Aussagen haben, die eine innere Struktur haben.
+Also werden wir auch Aussagen haben und wollen auch
+Aussagen haben, die eine innere Struktur haben.
 
 0:01:55.880,0:02:02.330
-Während A irgendwie unzerlegbar ist. Der Mond ist grün und
-gut ist. Also zum Beispiel könnten wir sagen
+Während A irgendwie unzerlegbar ist. Der Mond ist
+grün und gut ist. Also zum Beispiel könnten wir sagen
 
 0:02:02.330,0:02:06.410
 so eine Aussage wie "Der Mond ist grün.", die ist ja
 eigentlich logisch zerlegt oder sprachlich zerlegt
 
 0:02:06.410,0:02:11.300
-in das Subjekt und ein Prädikat darauf.
-Da könnten wir auch sagen, dass schreiben wir ab jetzt lieber so.
+in das Subjekt und ein Prädikat darauf. Da könnten
+wir auch sagen, dass schreiben wir ab jetzt lieber so.
 
 0:02:11.300,0:02:17.960
-Also statt einfach nur zu sagen, A ist Gesamtaussage: "Der Mond ist grün",
-wollen wir das so schreiben und zerlegen das sozusagen in ein
+Also statt einfach nur zu sagen, A ist Gesamtaussage: "Der Mond ist
+grün", wollen wir das so schreiben und zerlegen das sozusagen in ein
 
 0:02:17.960,0:02:27.830
 Subjekt und ein Prädikat, was auf dieses Subjekt wirkt.
@@ -103,28 +103,28 @@ ich auch davon gesprochen, dass die Prädikatenlogik
 verwendet wird, wenn wir Eigenschaften und Beziehungen
 
 0:02:42.770,0:02:52.340
-zwischen Objekten ausdrücken wollen, statt nur
-atomare Aussagen zu haben, die nicht weiter zerlegbar sind.
+zwischen Objekten ausdrücken wollen, statt nur atomare
+Aussagen zu haben, die nicht weiter zerlegbar sind.
 
 0:02:52.340,0:02:56.630
-Warum ist das interessant, das so zu zerlegen und nicht zu sagen,
-ich nehme A für "Der Mond ist grün."? Interessant ist es
+Warum ist das interessant, das so zu zerlegen und nicht zu
+sagen, ich nehme A für "Der Mond ist grün."? Interessant ist es
 
 0:02:56.630,0:03:00.830
 deswegen, weil dieses "grün", dieses Prädikat dann
 wiederverwendbar ist. Ich kann dann eben auch direkt sagen,
 
 0:03:00.830,0:03:06.080
-indem ich den Mond durch den Mars ersetze, dass
-auch der Mars grün ist. Statt zu sagen, dafür müssten wir
+indem ich den Mond durch den Mars ersetze, dass auch
+der Mars grün ist. Statt zu sagen, dafür müssten wir
 
 0:03:06.080,0:03:11.990
 eine Aussage A-Strich bilden. Also diese zusätzliche
 Struktur erlaubt mir auch, diese Eigenschaften
 
 0:03:11.990,0:03:18.650
-für sich genommen zu untersuchen und vielleicht auch auf
-mehrere Objekte oder Subjekte anzuwenden.
+für sich genommen zu untersuchen und vielleicht
+auch auf mehrere Objekte oder Subjekte anzuwenden.
 
 0:03:18.650,0:03:25.160
 So eine Aussage "Wenn der Mond grün ist, dann haben wir Donnerstag."
@@ -135,24 +135,24 @@ Also "Wenn der Mond grün ist.", wäre eben diese Annahme
 grün vom Mond. Also das Prädikat "grün" angewandt auf
 
 0:03:32.270,0:03:40.910
-das Subjekt "Mond". Und das soll implizieren (zur Erinnerung:
-in Prolog war dieses Symbol sozusagen ein umgedrehter Implikationspfeil.)
+das Subjekt "Mond". Und das soll implizieren (zur Erinnerung: in
+Prolog war dieses Symbol sozusagen ein umgedrehter Implikationspfeil.)
 
 0:03:40.910,0:03:46.400
-also hieraus folgt das.
-Und natürlich dürften wir nach wie vor
+also hieraus folgt das. Und
+natürlich dürften wir nach wie vor
 
 0:03:46.400,0:03:52.040
-auch einfach Aussagen haben, die gar keine weitere
-Struktur haben. Also die Tatsache "Es ist Donnerstag." könnten
+auch einfach Aussagen haben, die gar keine weitere Struktur
+haben. Also die Tatsache "Es ist Donnerstag." könnten
 
 0:03:52.040,0:03:59.210
-wir sagen als: es ist einfach nur ein Fakt. Das ist nicht noch
-zerlegbar in ein Prädikat und ein Subjekt oder Objekt.
+wir sagen als: es ist einfach nur ein Fakt. Das ist nicht
+noch zerlegbar in ein Prädikat und ein Subjekt oder Objekt.
 
 0:04:01.890,0:04:10.380
-Das wäre sozusagen erster Schritt:
-Prädikate zu verwenden, um solche Aussagen feiner zu zerlegen,
+Das wäre sozusagen erster Schritt: Prädikate zu
+verwenden, um solche Aussagen feiner zu zerlegen,
 
 0:04:10.380,0:04:17.790
 statt sie einfach nur atomar anzusehen.
@@ -163,20 +163,20 @@ die Prädikate auf andere Objekte anzuwenden.
 Es erlaubt uns existenzielle und universelle
 
 0:04:24.330,0:04:29.760
-Aussagen zu treffen. Also zum Beispiel "Alle Sachen sind grün."
-oder irgendwie eine Aussage: "Egal was grün ist, es
+Aussagen zu treffen. Also zum Beispiel "Alle Sachen sind
+grün." oder irgendwie eine Aussage: "Egal was grün ist, es
 
 0:04:29.760,0:04:34.530
-ist Donnerstag." Wenn überhaupt irgendetwas grün
-ist, also nicht nur über den Mond zu sprechen, sondern allgemein
+ist Donnerstag." Wenn überhaupt irgendetwas grün ist, also
+nicht nur über den Mond zu sprechen, sondern allgemein
 
 0:04:34.530,0:04:39.660
-über alle Himmelskörper zum Beispiel oder über die
-Existenz von Himmelskörpern. Das würden uns
+über alle Himmelskörper zum Beispiel oder über
+die Existenz von Himmelskörpern. Das würden uns
 
 0:04:39.660,0:04:44.160
-solche atomaren Angaben wie A, B, C nicht erlauben.
-Da ist keine Struktur drin, die wir noch nutzen können,
+solche atomaren Angaben wie A, B, C nicht erlauben. Da
+ist keine Struktur drin, die wir noch nutzen können,
 
 0:04:44.160,0:04:50.340
 um Teile zu ersetzen etwa. Und wir kriegen natürlich auch
@@ -187,12 +187,12 @@ an die Begriffe von Formeln bei der Aussagenlogik.
 Da hatten wir natürlich dann Konjunktion,
 
 0:04:56.520,0:05:01.560
-Implikation etc. Operationssymbole,
-aber an den Blättern von unseren Syntaxbäumen standen
+Implikation etc. Operationssymbole, aber an
+den Blättern von unseren Syntaxbäumen standen
 
 0:05:01.560,0:05:06.060
-halt immer auch nur wieder solche atomare Aussagen A, B, C.
-Und jetzt wird eben auch die Aussage selbst, also die
+halt immer auch nur wieder solche atomare Aussagen A, B,
+C. Und jetzt wird eben auch die Aussage selbst, also die
 
 0:05:06.060,0:05:10.920
 Aussage A selber hat jetzt auch noch eine innere Struktur.
@@ -203,44 +203,44 @@ um etwa genauere Beziehungen herzustellen.
 Tatsächlich könnten wir das auch auf unser anderes
 
 0:05:17.250,0:05:22.680
-Beispiel anwenden, das auch vom Beginn der Vorlesung kommt.
-Nämlich das Beispiel mit der Mehrdeutigkeit
+Beispiel anwenden, das auch vom Beginn der Vorlesung
+kommt. Nämlich das Beispiel mit der Mehrdeutigkeit
 
 0:05:22.680,0:05:27.540
-natürlicher Sprache. "Ich sah den Mann auf dem
-Berg mit dem Fernrohr." Da hatten wir darüber gesprochen,
+natürlicher Sprache. "Ich sah den Mann auf dem Berg
+mit dem Fernrohr." Da hatten wir darüber gesprochen,
 
 0:05:27.540,0:05:32.940
 dass dieser Satz mehrdeutig ist, weil er verschiedene
 Interpretationen zulässt. Und ich habe so ein bisschen angedeutet,
 
 0:05:32.940,0:05:39.060
-dass je nachdem, wie man diesen Satz klammert, also dem
-letztlich mehr Struktur gibt, man verschiedene
+dass je nachdem, wie man diesen Satz klammert, also
+dem letztlich mehr Struktur gibt, man verschiedene
 
 0:05:39.060,0:05:44.100
 Interpretationen dann erklären kann. Man könnte auch sagen,
 dass wir vielleicht lieber mit Prädikaten arbeiten sollten.
 
 0:05:44.100,0:05:49.470
-Also den Satz tatsächlich so zerlegen, dass
-wir durch Verwendung von einem fixen
+Also den Satz tatsächlich so zerlegen,
+dass wir durch Verwendung von einem fixen
 
 0:05:49.470,0:05:56.250
 Vorrat von Prädikaten die jeweilige Situation genauer beschreiben.
 Das habe ich hier auch einmal auf der Folie gemacht, ohne
 
 0:05:56.250,0:06:02.190
-das jetzt ganz auszuarbeiten und mit dem Programm irgendwas zu tun.
-Also ich habe jetzt nicht vor, den Mann auf dem Berg
+das jetzt ganz auszuarbeiten und mit dem Programm irgendwas
+zu tun. Also ich habe jetzt nicht vor, den Mann auf dem Berg
 
 0:06:02.190,0:06:08.610
-mit dem Fernrohr zu programmieren. Aber einfach
-jeweils zu den verschiedenen Lesarten des Satzes, die wir
+mit dem Fernrohr zu programmieren. Aber einfach jeweils
+zu den verschiedenen Lesarten des Satzes, die wir
 
 0:06:08.610,0:06:13.800
-betrachtet hatten (wir hatten diese fünf betrachtet
-in der ersten Vorlesung), jeweils mal zu sehen, wie man die mit
+betrachtet hatten (wir hatten diese fünf betrachtet in der
+ersten Vorlesung), jeweils mal zu sehen, wie man die mit
 
 0:06:13.800,0:06:20.070
 strukturierten Aussagen äquivalent ausdrücken könnte.
@@ -251,16 +251,16 @@ Leseart des Satzes war, dass wir so geklammert hatten:
 Ich sah den Mann. Dann auf dem Berg. Also das tat ich,
 
 0:06:27.630,0:06:35.490
-während ich auf dem Berg war. Und ich tat das mit dem Fernrohr.
-Und das könnte man jetzt zerlegen in:
+während ich auf dem Berg war. Und ich tat das mit
+dem Fernrohr. Und das könnte man jetzt zerlegen in:
 
 0:06:35.490,0:06:42.000
-Es geht erstmal um die Aussage "Ich sah den Mann."
-Das ist vielleicht eine Aussage, die wir festhalten wollen.
+Es geht erstmal um die Aussage "Ich sah den Mann." Das
+ist vielleicht eine Aussage, die wir festhalten wollen.
 
 0:06:42.000,0:06:49.260
-Da können wir ein Prädikat benutzen, nämlich "sah" und "ich" und "man".
-Jetzt ist es nicht nur eine Eigenschaft, wie eben gruen(mond).
+Da können wir ein Prädikat benutzen, nämlich "sah" und "ich" und
+"man". Jetzt ist es nicht nur eine Eigenschaft, wie eben gruen(mond).
 
 0:06:49.260,0:06:53.460
 Das ist eine Eigenschaft des Mondes. Jemanden zu sehen,
@@ -275,32 +275,32 @@ was Primat hat. Deswegen steht hier draußen das Prädikat
 und dann stehen in Klammern die Subjekte und Objekte.
 
 0:07:07.320,0:07:13.980
-"Ich sah den Mann." könnte man fassen als: Das Prädikat ist "sah"
-und "ich" und "man" sind Subjekt und Objekt.
+"Ich sah den Mann." könnte man fassen als: Das Prädikat
+ist "sah" und "ich" und "man" sind Subjekt und Objekt.
 
 0:07:13.980,0:07:20.940
-Und da kann man vielleicht eine Konvention treffen.
-Das muss man dann jeweils, wenn man seine Aussagen formalisiert,
+Und da kann man vielleicht eine Konvention treffen. Das
+muss man dann jeweils, wenn man seine Aussagen formalisiert,
 
 0:07:20.940,0:07:26.880
-sich natürlich überlegen, welche Position welche ist.
-Man könnte sagen, wir nehmen in der Regel für
+sich natürlich überlegen, welche Position welche
+ist. Man könnte sagen, wir nehmen in der Regel für
 
 0:07:26.880,0:07:30.570
 die erste Position vielleicht das, was dem Subjekt
 in der Aussage entspricht und für die zweite Position
 
 0:07:31.230,0:07:38.640
-das Objekt. Also "Ich sah den Mann." Das wäre sozusagen die
-erste Teilaussage. Dann kommt ja auch noch die Aussage "auf dem Berg".
+das Objekt. Also "Ich sah den Mann." Das wäre sozusagen die erste
+Teilaussage. Dann kommt ja auch noch die Aussage "auf dem Berg".
 
 0:07:38.640,0:07:45.180
-Da könnte man sagen, das könnte auch ein Prädikat sein, das meinen Ort angibt.
-Also "Ich sah den Mann. Ich war auf dem Berg dabei."
+Da könnte man sagen, das könnte auch ein Prädikat sein, das meinen
+Ort angibt. Also "Ich sah den Mann. Ich war auf dem Berg dabei."
 
 0:07:45.180,0:07:51.720
-Also ich war auf dem Berg: auf(ich,berg). Ich, auf dem Berg.
-Und "ich mit dem Fernrohr." Ich tat das nicht
+Also ich war auf dem Berg: auf(ich,berg). Ich, auf dem
+Berg. Und "ich mit dem Fernrohr." Ich tat das nicht
 
 0:07:51.720,0:07:56.580
 einfach irgendwie, sondern mit dem Fernrohr. Also dieses
@@ -311,24 +311,24 @@ einfach irgendwie, sondern mit dem Fernrohr. Also dieses
 Satz in der ersten Vorlesung besprochen hatte, hatte ich
 
 0:08:04.380,0:08:08.700
-glaube ich davon geredet, dass man sich durchaus
-vorstellen könnte, dass man das "auf dem Berg" und "mit dem Fernrohr"
+glaube ich davon geredet, dass man sich durchaus vorstellen
+könnte, dass man das "auf dem Berg" und "mit dem Fernrohr"
 
 0:08:08.700,0:08:15.060
 vertauschen könnte. Ich hätte auch sagen können:
 "Ich sah den Mann mit dem Fernrohr, auf dem Berg."
 
 0:08:15.060,0:08:20.010
-Das wäre die gleiche Aussage, wenn wir das so lesen.
-Und es entspricht welcher Erkenntnis? Das entspricht der Erkenntnis,
+Das wäre die gleiche Aussage, wenn wir das so lesen. Und es
+entspricht welcher Erkenntnis? Das entspricht der Erkenntnis,
 
 0:08:20.010,0:08:27.480
-dass die Konjunktion kommutativ ist. Denn diese Kommas hier
-setze ich in Entsprechung zur Konjunktion.
+dass die Konjunktion kommutativ ist. Denn diese
+Kommas hier setze ich in Entsprechung zur Konjunktion.
 
 0:08:27.480,0:08:35.430
-Also "Ich sah den Mann, und ich war auf dem Berg, und ich
-hatte das Fernrohr dafür." Und wenn das Komma die Konjunktion ist,
+Also "Ich sah den Mann, und ich war auf dem Berg, und ich hatte
+das Fernrohr dafür." Und wenn das Komma die Konjunktion ist,
 
 0:08:35.430,0:08:40.980
 dann wissen wir, die ist kommutativ. Also man könnte auch
@@ -355,32 +355,32 @@ indem wir das mit unseren Prädikaten und den jeweiligen
 Argumenten ausdrücken, was die Situation ist.
 
 0:09:13.770,0:09:24.390
-Also der zweite Satz war gelesen als:
-"Ich sah den Mann auf dem Berg." (als Einheit) Und dann:
+Also der zweite Satz war gelesen als: "Ich sah
+den Mann auf dem Berg." (als Einheit) Und dann:
 
 0:09:24.390,0:09:31.770
-"Das tat ich mit dem Fernrohr." Da könnte man hier sagen,
-die innere Aussage ist: Der Mann ist auf dem Berg.
+"Das tat ich mit dem Fernrohr." Da könnte man hier
+sagen, die innere Aussage ist: Der Mann ist auf dem Berg.
 
 0:09:31.770,0:09:36.990
-Also "den Mann auf dem Berg", das drücke ich aus durch dieses auf(mann, berg).
-Ich sah den Mann. "Ich sah den Mann auf dem Berg"
+Also "den Mann auf dem Berg", das drücke ich aus durch dieses
+auf(mann, berg). Ich sah den Mann. "Ich sah den Mann auf dem Berg"
 
 0:09:38.250,0:09:45.270
-wäre dann diese Aussage: sah(ich, mann).
-"Und das tat ich mit dem Fernrohr" wäre dann wieder, dass ich am Ende sage, dass
+wäre dann diese Aussage: sah(ich, mann). "Und das tat ich mit
+dem Fernrohr" wäre dann wieder, dass ich am Ende sage, dass
 
 0:09:45.270,0:09:51.750
-ich das Fernrohr benutze. Und so können wir jetzt die anderen
-Lesarten eben auch ausdrücken. Aus diesen Bausteinen,
+ich das Fernrohr benutze. Und so können wir jetzt die
+anderen Lesarten eben auch ausdrücken. Aus diesen Bausteinen,
 
 0:09:51.750,0:09:58.860
 den Prädikaten "sah", "auf" und "mit" und den Subjekten
 oder Objekten "ich", "man", "berg" und "fernrohr".
 
 0:09:58.860,0:10:03.720
-Und jeweils durch verschiedene Kombinationen dieser Aussagen oder
-Verwendungen der Prädikate auf den Argumenten
+Und jeweils durch verschiedene Kombinationen dieser
+Aussagen oder Verwendungen der Prädikate auf den Argumenten
 
 0:10:03.720,0:10:11.550
 können wir alle diese Situationen ausdrücken. Und zwar
@@ -391,24 +391,24 @@ diesen Satz haben und nicht wissen, wie genau der zu lesen ist.
 Jede dieser Situationen, die jetzt hier steht, die ist sehr präzise.
 
 0:10:16.110,0:10:22.830
-Präziser als einfach nur den Satz zu nehmen
-und zu raten, was er meinen könnte.
+Präziser als einfach nur den Satz zu
+nehmen und zu raten, was er meinen könnte.
 
 0:10:22.830,0:10:29.670
-Benutzt haben wir hier binäre Prädikate. Das ist also eine wichtige
-Sache, dass wir nicht nur Eigenschaften mit einem
+Benutzt haben wir hier binäre Prädikate. Das ist also eine
+wichtige Sache, dass wir nicht nur Eigenschaften mit einem
 
 0:10:29.670,0:10:33.930
-Argument haben, sondern Prädikate, die mehrere Sachen verknüpfen.
-Wir haben hier benutzt, dass wir Prädikate
+Argument haben, sondern Prädikate, die mehrere Sachen
+verknüpfen. Wir haben hier benutzt, dass wir Prädikate
 
 0:10:33.930,0:10:38.370
-auf verschiedenen Objekten anwenden können.
-Also das gleiche Prädikat "auf" wird hier in ganz verschiedenen
+auf verschiedenen Objekten anwenden können. Also das
+gleiche Prädikat "auf" wird hier in ganz verschiedenen
 
 0:10:38.370,0:10:48.930
-Verwendungen benutzt. Manche tauchen auch mehrmals auf,
-je nachdem, wie die Situation eben ist. Und so erhalten wir
+Verwendungen benutzt. Manche tauchen auch mehrmals auf, je
+nachdem, wie die Situation eben ist. Und so erhalten wir
 
 0:10:48.930,0:10:55.500
 eben möglicherweise alle, vielleicht gibt es auch noch
@@ -419,8 +419,8 @@ Weise ausdrücken könnten mit diesem Baustein,
 wenn uns noch mehr als die fünf Sätze einfallen.
 
 0:11:02.190,0:11:13.500
-Und dann braucht man keine Bilder mehr, sondern könnte das
-mit diesen Mitteln ausdrücken. Wir haben also diese neue Art Literale.
+Und dann braucht man keine Bilder mehr, sondern könnte das mit
+diesen Mitteln ausdrücken. Wir haben also diese neue Art Literale.
 
 0:11:13.500,0:11:19.590
 Das ist erstmal flexibler. Wir müssen nicht nur von A, B, C sprechen
@@ -431,16 +431,16 @@ unseren Formeln. Dann können wir für Konjunktion, Disjunktion, für
 die Normalformen, für Hornformeln etc. diese Literale verwenden.
 
 0:11:25.440,0:11:33.090
-Oder auch Negationen davon.
-Und daneben erhalten wir eben die Verwendbarkeit
+Oder auch Negationen davon. Und daneben
+erhalten wir eben die Verwendbarkeit
 
 0:11:33.090,0:11:37.530
-der Prädikate für verschiedene Subjekte/Objekte.
-Das hatte ich auch schon gesagt, dass wir eben das gleiche
+der Prädikate für verschiedene Subjekte/Objekte. Das
+hatte ich auch schon gesagt, dass wir eben das gleiche
 
 0:11:37.530,0:11:44.670
-Prädikat mit verschiedenen Objekten/Subjekten aufrufen können
-oder ausdrücken können/ verwenden können.
+Prädikat mit verschiedenen Objekten/Subjekten aufrufen
+können oder ausdrücken können/ verwenden können.
 
 0:11:44.670,0:11:48.720
 Hinzu kommt noch, was jetzt hier noch nicht auftaucht,
@@ -451,24 +451,24 @@ Also wir können neue Regeln aufbauen/schreiben, die
 die Prädikate verwenden, vielleicht einige feste
 
 0:11:58.320,0:12:03.090
-Subjekte/Objekte verwenden, aber eben auch Variablen.
-Und da wird die Syntax sein in Prolog, darüber werden wir
+Subjekte/Objekte verwenden, aber eben auch Variablen. Und
+da wird die Syntax sein in Prolog, darüber werden wir
 
 0:12:03.090,0:12:10.470
-gleich reden, dass großgeschriebene Bezeichner
-für Variablen stehen. Ich habe jetzt hier mal J genommen für Jemand.
+gleich reden, dass großgeschriebene Bezeichner für Variablen
+stehen. Ich habe jetzt hier mal J genommen für Jemand.
 
 0:12:10.470,0:12:19.560
-Und dann könnte man diese Regel verstehen als:
-"Wenn das Fernrohr auf dem Berg ist UND (Komma steht für UND)
+Und dann könnte man diese Regel verstehen als: "Wenn
+das Fernrohr auf dem Berg ist UND (Komma steht für UND)
 
 0:12:19.560,0:12:29.070
-jemand das Fernrohr benutzt, dann muss
-jemand (zwar der gleiche Jemand) auf dem Berg sein."
+jemand das Fernrohr benutzt, dann muss jemand
+(zwar der gleiche Jemand) auf dem Berg sein."
 
 0:12:29.070,0:12:34.560
-Das ist so eine naheliegende Konsistenzforderung.
-Die könnte man benutzen, um zum Beispiel zu überprüfen,
+Das ist so eine naheliegende Konsistenzforderung. Die
+könnte man benutzen, um zum Beispiel zu überprüfen,
 
 0:12:34.560,0:12:44.880
 ob das hier jeweils zutrifft. Also wenn für einen
@@ -479,28 +479,28 @@ diese beiden Literale zutreffen, ob dann auch dieses Literal zutrifft.
 Dann könnte man das sozusagen als Konsistenzprüfung verwenden
 
 0:12:51.180,0:12:55.200
-für diese Situation.
-Oder man könnte das auch benutzen, um vielleicht
+für diese Situation. Oder man könnte
+das auch benutzen, um vielleicht
 
 0:12:55.200,0:12:59.880
-hier Sachen einzusparen. Also vielleicht tauchen
-hier drin Literale auf, die eigentlich überflüssig sind,
+hier Sachen einzusparen. Also vielleicht tauchen hier
+drin Literale auf, die eigentlich überflüssig sind,
 
 0:12:59.880,0:13:04.680
-weil sie sich bereits aus dieser Regel ergeben.
-Dann könnte man hier mit weniger Fakten arbeiten, weil
+weil sie sich bereits aus dieser Regel ergeben. Dann
+könnte man hier mit weniger Fakten arbeiten, weil
 
 0:13:04.680,0:13:11.910
-sich bestimmtes Wissen aus dieser sinnvollen Regel ergibt.
-Genau das ist das Vorgehen, was Prolog als
+sich bestimmtes Wissen aus dieser sinnvollen Regel
+ergibt. Genau das ist das Vorgehen, was Prolog als
 
 0:13:11.910,0:13:17.100
 Programmiersprache hat. Wir spezifizieren Fakten.
 Wir spezifizieren Regeln. Zum Beispiel so etwas
 
 0:13:17.100,0:13:22.740
-hier. Die also auch über Variablen gehen können und
-nicht nur über ganz feste Personen oder Dinge, Objekte sprechen.
+hier. Die also auch über Variablen gehen können und nicht
+nur über ganz feste Personen oder Dinge, Objekte sprechen.
 
 0:13:22.740,0:13:29.220
 Und dann wird aus den Fakten zusammen mit den Regeln
@@ -523,32 +523,32 @@ für eine andere Domäne/für eine andere Situation ein
 Beispiel im nächsten Video durchsprechen und dabei
 
 0:14:05.190,0:14:10.050
-werden wir mehr solche Regeln sehen und wie
-wir sie interpretieren können etc.
+werden wir mehr solche Regeln sehen und
+wie wir sie interpretieren können etc.
 
 0:14:10.050,0:14:14.790
-Orientieren werde ich mich dabei an diesem Buch: "Learn Prolog Now!"
-Das hatte ich noch nicht erwähnt in der ersten Vorlesung.
+Orientieren werde ich mich dabei an diesem Buch: "Learn Prolog
+Now!" Das hatte ich noch nicht erwähnt in der ersten Vorlesung.
 
 0:14:14.790,0:14:19.620
-Da hatte ich nur über allgemeine Logikbücher geredet.
-Das Buch finden Sie sehr leicht.
+Da hatte ich nur über allgemeine Logikbücher
+geredet. Das Buch finden Sie sehr leicht.
 
 0:14:19.620,0:14:23.700
-Da müssen Sie nur mal googeln nach "Learn Prolog Now!".
-Dann stoßen Sie genau auf dieses Buch.
+Da müssen Sie nur mal googeln nach "Learn Prolog
+Now!". Dann stoßen Sie genau auf dieses Buch.
 
 0:14:23.700,0:14:27.720
 Und zwar stoßen Sie dabei auch auf eine Online-Version
 dieses Buches. Also, Sie müssen das nicht kaufen.
 
 0:14:27.720,0:14:32.070
-Das gibt es einerseits in der Bibliothek. Zum anderen
-gibt es das auch vollständig online zu lesen.
+Das gibt es einerseits in der Bibliothek. Zum
+anderen gibt es das auch vollständig online zu lesen.
 
 0:14:32.070,0:14:37.290
-Das ist also ein sehr guter Einstieg. Wir werden nicht alles machen,
-was in dem Buch drinsteht, aber gerade die ersten Kapitel
+Das ist also ein sehr guter Einstieg. Wir werden nicht alles
+machen, was in dem Buch drinsteht, aber gerade die ersten Kapitel
 
 0:14:37.290,0:14:42.750
 entsprechen gut dem, was ich hier in der Vorlesung
@@ -559,13 +559,13 @@ in dem nächsten Video auch das Beispiel
 durchsprechen, das hier im ersten oder
 
 0:14:47.820,0:14:55.830
-zweiten Kapitel als durchgehendes Beispiel genutzt wird.
-Da können Sie auch gerne dem Beispiel
+zweiten Kapitel als durchgehendes Beispiel genutzt
+wird. Da können Sie auch gerne dem Beispiel
 
 0:14:55.830,0:15:00.660
 parallel folgen. Ich habe das ein bisschen abgewandelt,
 aber im Wesentlichen benutze ich die Beispiele, die
 
 0:15:00.660,0:15:06.360
-hier in dem ersten Kapitel dieses Buches oder mit
-denen Prolog in diesem Buch eingeführt wird.
+hier in dem ersten Kapitel dieses Buches oder
+mit denen Prolog in diesem Buch eingeführt wird.

@@ -103,8 +103,8 @@ selber nicht größer als Z ist. Und so könnte
 man darauf kommen, dass die Abbruchbedingung
 
 0:02:19.380,0:02:26.820
-greaterThan S von und dann Unterstrich, Z
-sein muss, weil das eben genau das widerspiegelt,
+greaterThan S von und dann Unterstrich, Z sein
+muss, weil das eben genau das widerspiegelt,
 
 0:02:26.820,0:02:31.200
 was wir gerade gesagt haben. Unterstrich bedeutet,
@@ -171,8 +171,8 @@ oder false ist. Das heißt, wir gehen wieder rein
 und schauen, ob wir das matchen können. Ja, können
 
 0:03:57.540,0:04:03.960
-wir wieder mit der Regel hier matchen. Und wir
-ersetzen dann wieder X durch S von Z und Y durch Z. Und
+wir wieder mit der Regel hier matchen. Und wir ersetzen
+dann wieder X durch S von Z und Y durch Z. Und
 
 0:04:03.960,0:04:12.960
 dann gilt wieder greaterThan X; X war S von Z und
@@ -195,8 +195,8 @@ S von Z größer als Z? S von Z steht für Eins;
 Z steht für Zero, Eins ist größer als Zero,
 
 0:04:40.680,0:04:46.200
-also ist es größer. Das heißt, es wäre
-nicht richtig. Also, fehlt hier etwas. Und was
+also ist es größer. Das heißt, es wäre nicht
+richtig. Also, fehlt hier etwas. Und was
 
 0:04:46.200,0:04:52.080
 fehlt? Die Abbruchbedingung. Und wir haben gerade

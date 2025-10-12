@@ -11,24 +11,24 @@ beziehen sich auf verschiedene Variablen und
 stehen ganz zu Beginn der Formel. Wenn wir
 
 0:00:19.860,0:00:25.320
-das für unser Beispiel machen, mit den Aliens oder
-Nicht-Aliens und der
+das für unser Beispiel machen, mit
+den Aliens oder Nicht-Aliens und der
 
 0:00:25.320,0:00:30.670
-hinzugenommenen Existenzaussage, dann wäre
-die Formel, mit der wir es jetzt zu tun haben,
+hinzugenommenen Existenzaussage, dann wäre die
+Formel, mit der wir es jetzt zu tun haben,
 
 0:00:30.670,0:00:35.650
-die hier abgebildete. Und das möchte ich als Beispiel
-weiterverwenden hier für
+die hier abgebildete. Und das möchte ich
+als Beispiel weiterverwenden hier für
 
 0:00:35.650,0:00:41.660
-die nächsten Schritte. Also wo kam die Formel her?
-Erinnern wir uns: Ich hatte letztlich diese
+die nächsten Schritte. Also wo kam die Formel
+her? Erinnern wir uns: Ich hatte letztlich diese
 
 0:00:41.660,0:00:48.550
-drei Varianten diskutiert/gezeigt.
-Das waren drei Möglichkeiten, diesen Syllogismus
+drei Varianten diskutiert/gezeigt. Das
+waren drei Möglichkeiten, diesen Syllogismus
 
 0:00:48.550,0:00:53.160
 bezüglich der Aliens und der Meeresbewohner
@@ -67,16 +67,16 @@ gern deren Unerfüllbarkeit nachweisen. In der
 Hoffnung, dass uns das gelingt und wir dann von der
 
 0:01:38.259,0:01:45.430
-ursprünglichen Aussage feststellen können, dass sie
-eine Tautologie war. Wir wollen die Quantoren aus dem Weg
+ursprünglichen Aussage feststellen können, dass sie eine
+Tautologie war. Wir wollen die Quantoren aus dem Weg
 
 0:01:45.430,0:01:50.320
 haben, und in der Tat besteht der vierte Schritt,
 den wir bei unserer Normalform-Herstellung
 
 0:01:50.320,0:01:56.930
-für prädikatenlogische Formeln noch machen, darin,
-dass wir die Allquantoren jetzt weglassen.
+für prädikatenlogische Formeln noch machen,
+darin, dass wir die Allquantoren jetzt weglassen.
 
 0:01:56.930,0:02:02.400
 Auch wenn wir die drei hier weglassen, aber weiterhin
@@ -87,8 +87,8 @@ das anhand dieser Restformel interpretieren,
 was denn gemeint ist. Weil wir einfach wissen:
 
 0:02:09.239,0:02:14.739
-Wenn da Variablen vorkommen (y, z und v), dann sind die
-allquantifiziert zu interpretieren. Während das a
+Wenn da Variablen vorkommen (y, z und v), dann sind
+die allquantifiziert zu interpretieren. Während das a
 
 0:02:14.739,0:02:20.480
 natürlich eine Konstante ist und deswegen nicht
@@ -171,12 +171,12 @@ als Menge von Mengen. Nämlich die einzelnen
 Disjunktionen hier, und die wiederum durch die
 
 0:04:22.450,0:04:28.080
-äußere Mengenstruktur in Konjunktionen.
-Im allgemeinen Fall kann natürlich da noch mehr
+äußere Mengenstruktur in Konjunktionen. Im
+allgemeinen Fall kann natürlich da noch mehr
 
 0:04:28.080,0:04:33.310
-Mehrschrittigkeit nötig sein. Also Distributivitätsgesetze
-anwenden. Doppelnegation anwenden.
+Mehrschrittigkeit nötig sein. Also
+Distributivitätsgesetze anwenden. Doppelnegation anwenden.
 
 0:04:33.310,0:04:40.039
 De Morgansche Regeln anwenden, etc. Aber das kennen
@@ -211,8 +211,8 @@ dass das allquantifizierte Variablen sind. Also jetzt würden
 wir gern Resolution verwenden. Zur Erinnerung nochmal:
 
 0:05:28.030,0:05:35.569
-Was hieß das in der Aussagenlogik? Wir hielten sozusagen Ausschau
-nach Klauseln, wobei in der einen Klausel
+Was hieß das in der Aussagenlogik? Wir hielten sozusagen
+Ausschau nach Klauseln, wobei in der einen Klausel
 
 0:05:35.569,0:05:43.469
 ein bestimmtes Literal vorkommt und in der
@@ -223,40 +223,40 @@ Oder wenn das Literal L selbst negiert ist,
 dann eben das entsprechende positive Literal.
 
 0:05:46.439,0:05:54.070
-Und die Resolvente, die dann gebildet wird,
-wird einfach erhalten als: aus dem K1 ein Literal herausnehmen,
+Und die Resolvente, die dann gebildet wird, wird einfach
+erhalten als: aus dem K1 ein Literal herausnehmen,
 
 0:05:54.070,0:06:01.249
-aus K2 das jeweilige Komplement dazu herausnehmen, und die Mengen,
-die dabei entstehen, vereinigen und zusammenfassen.
+aus K2 das jeweilige Komplement dazu herausnehmen, und die
+Mengen, die dabei entstehen, vereinigen und zusammenfassen.
 
 0:06:01.249,0:06:05.719
 Das machen wir nicht nur einmal. Also wir bilden nicht nur
 einmal die Resolvente, sondern immer wieder. In der Hoffnung,
 
 0:06:05.719,0:06:10.030
-irgendwie die leere Klausel/Menge herleiten zu können,
-weil wir dann wissen, dass die Ursprungsformel unerfüllbar war.
+irgendwie die leere Klausel/Menge herleiten zu können, weil
+wir dann wissen, dass die Ursprungsformel unerfüllbar war.
 
 0:06:10.030,0:06:19.949
-Das haben Sie ja auch nochmal wiederholt vor
-ein paar Wochen. Natürlich sind alle Dinge relevant,
+Das haben Sie ja auch nochmal wiederholt vor ein
+paar Wochen. Natürlich sind alle Dinge relevant,
 
 0:06:19.949,0:06:25.590
 die wir bei der aussagenlogischen Resolution
 betrachtet hatten. Da gab es diese Merkregel-Folie:
 
 0:06:25.590,0:06:30.610
-Zum Beispiel, dass wir immer zwei Klauseln resolvieren
-und nicht irgendwie mehr als zwei.
+Zum Beispiel, dass wir immer zwei Klauseln
+resolvieren und nicht irgendwie mehr als zwei.
 
 0:06:30.610,0:06:36.169
-Dass wir das beliebig oft tun dürfen.
-Dass wir eine Klausel also mehrfach benutzen können.
+Dass wir das beliebig oft tun dürfen. Dass wir
+eine Klausel also mehrfach benutzen können.
 
 0:06:36.169,0:06:41.300
-Deswegen hatten wir diese Graphen dann aufgestellt,
-wo wir sozusagen durch Verbindungslinien gezeigt haben,
+Deswegen hatten wir diese Graphen dann aufgestellt, wo
+wir sozusagen durch Verbindungslinien gezeigt haben,
 
 0:06:41.300,0:06:44.729
 was wo benutzt wird. Und da konnte eben auch eine Klausel mehrfach
@@ -271,24 +271,24 @@ nicht irgendwie mehrere Dinge auf einmal. Und wir machen das,
 bis wir hoffentlich eine leere Klausel hergeleitet haben.
 
 0:06:53.669,0:06:59.169
-Also die Sachen gelten alle weiterhin, nur dass wir es
-jetzt eben mit leicht anderen Formeln zu tun haben.
+Also die Sachen gelten alle weiterhin, nur dass wir
+es jetzt eben mit leicht anderen Formeln zu tun haben.
 
 0:06:59.169,0:07:08.169
 Was bei der aussagenlogischen Resolution schon
 passieren konnte, war, dass bei dieser Vereinigung
 
 0:07:08.169,0:07:14.199
-auch Literale, die doppelt auftauchen
-(weil sie hier und in K2 drin waren, auch ohne
+auch Literale, die doppelt auftauchen (weil
+sie hier und in K2 drin waren, auch ohne
 
 0:07:14.199,0:07:23.279
-das L und das L-quer), zusammenfielen
-durch Idempotenz. Und diese Ergebnismenge kleiner war
+das L und das L-quer), zusammenfielen durch
+Idempotenz. Und diese Ergebnismenge kleiner war
 
 0:07:23.279,0:07:32.759
-als einfach die Summe der Größen der
-beiden Ursprungsklauseln.
+als einfach die Summe der Größen
+der beiden Ursprungsklauseln.
 
 0:07:32.759,0:07:37.300
 Das konnte auftauchen und wir werden gleich sehen,
@@ -299,40 +299,40 @@ für das Zusammenfallen von Dingen entsteht. Versuchen wir das mal
 auf unser Beispiel anzuwenden. Und da sehen wir, da gibt es gar
 
 0:07:48.289,0:07:55.210
-keine offenkundig komplementären Literale. Also man kann hier
-nicht sagen: „Ich resolviere die beiden Klauseln und
+keine offenkundig komplementären Literale. Also man kann
+hier nicht sagen: „Ich resolviere die beiden Klauseln und
 
 0:07:55.210,0:07:59.999
 betrachte zum Beispiel dieses Literal und dieses Literal.“
 Das sind beides "A-Literale". Das eine ist negiert.
 
 0:07:59.999,0:08:08.499
-Aber da stehen verschiedene konkrete Dinge drin.
-Also sozusagen offenkundig ist erstmal nichts komplementär.
+Aber da stehen verschiedene konkrete Dinge drin. Also
+sozusagen offenkundig ist erstmal nichts komplementär.
 
 0:08:08.499,0:08:15.360
-Wenn hier natürlich ¬A(a) stünde, dann ja.
-Aber wenn hier ¬A(y) steht, dann ist es eben nicht
+Wenn hier natürlich ¬A(a) stünde, dann ja. Aber
+wenn hier ¬A(y) steht, dann ist es eben nicht
 
 0:08:15.360,0:08:22.289
 offenkundig komplementär. Aber wir wissen ja,
 dass die auftretenden Variablen (hier y, z, v)
 
 0:08:22.289,0:08:26.379
-implizit allquantifiziert sind. Wir dürfen die also noch instantiieren.
-Wenn die Aussage ist: „Für alle y gilt: das, das, das“,
+implizit allquantifiziert sind. Wir dürfen die also noch
+instantiieren. Wenn die Aussage ist: „Für alle y gilt: das, das, das“,
 
 0:08:26.379,0:08:31.689
-dann können wir ja auch einen Spezialfall betrachten,
-wo wir das y auf irgendwas instantiieren,
+dann können wir ja auch einen Spezialfall
+betrachten, wo wir das y auf irgendwas instantiieren,
 
 0:08:31.689,0:08:38.550
-und dann eben danach die Komplementarität sehen
-und deswegen dann resolvieren dürfen.
+und dann eben danach die Komplementarität
+sehen und deswegen dann resolvieren dürfen.
 
 0:08:38.550,0:08:51.029
-Also was heißt dieses "geeignet zu instantiieren"?
-Eigentlich heißt das erstmal,
+Also was heißt dieses "geeignet zu
+instantiieren"? Eigentlich heißt das erstmal,
 
 0:08:51.029,0:08:57.120
 dass wir mit Elementen aus einer beliebigen
@@ -347,8 +347,8 @@ Begriff der passenden Struktur. Und da ist die
 erste Zutat, zu sagen: Man wähle die Grundmenge,
 
 0:09:07.019,0:09:13.959
-und dann werden zum Beispiel die Werte für Variablen bei
-der Instantiierung über dieser Grundmenge gewählt.
+und dann werden zum Beispiel die Werte für Variablen
+bei der Instantiierung über dieser Grundmenge gewählt.
 
 0:09:13.959,0:09:20.810
 Also wäre man jetzt hier sehr frei, durch was man
@@ -359,12 +359,12 @@ Denn das ist für einen praktischen Erfüllbarkeitstest
 sozusagen zu beliebig. Ich will syntaktisch mit
 
 0:09:25.399,0:09:29.889
-dieser Formel am liebsten arbeiten. Ich will hier
-Regeln anwenden und mir nicht noch
+dieser Formel am liebsten arbeiten. Ich will
+hier Regeln anwenden und mir nicht noch
 
 0:09:29.889,0:09:36.920
-eine beliebig große Menge U ausdenken.
-Und dann auch noch das y beliebig aus dieser Menge
+eine beliebig große Menge U ausdenken. Und
+dann auch noch das y beliebig aus dieser Menge
 
 0:09:36.920,0:09:43.980
 wählen/instantiieren. Hier hätten wir
@@ -375,8 +375,8 @@ jetzt zu viele Freiheiten, wenn wir uns auch noch diese
 Grundmenge U jedes Mal völlig neu überlegen müssen.
 
 0:09:49.209,0:09:55.470
-Und jetzt kommt ein ganz wesentlicher Schritt.
-Der ist von der Einsicht her mindestens so wertvoll
+Und jetzt kommt ein ganz wesentlicher Schritt. Der
+ist von der Einsicht her mindestens so wertvoll
 
 0:09:55.470,0:10:01.220
 wie Skolems Beobachtung über den Umgang mit
@@ -391,8 +391,8 @@ Insbesondere, weil Herbrand sehr jung gestorben ist.
 Er hat also diese Theorie nicht zu Ende entwickelt.
 
 0:10:13.120,0:10:21.470
-Und zwar ist aus der Theorie der Logik bekannt,
-dass es möglich ist, für solch einen Erfüllbarkeitstest
+Und zwar ist aus der Theorie der Logik bekannt, dass
+es möglich ist, für solch einen Erfüllbarkeitstest
 
 0:10:21.470,0:10:26.649
 sich zu beschränken und nicht einfach
@@ -407,12 +407,12 @@ Also ohne uns irgendwelche Instanzmengen
 auszudenken. Und was passiert dabei?
 
 0:10:41.360,0:10:45.430
-Man betrachtet als Grundmenge einfach Terme.
-Die Dinge, die wir syntaktisch hinschreiben können,
+Man betrachtet als Grundmenge einfach Terme. Die
+Dinge, die wir syntaktisch hinschreiben können,
 
 0:10:45.430,0:10:51.279
-die wir aus Konstanten und Funktionssymbolen bauen können,
-statt uns völlig beliebige Mengen herzunehmen.
+die wir aus Konstanten und Funktionssymbolen bauen
+können, statt uns völlig beliebige Mengen herzunehmen.
 
 0:10:51.279,0:10:56.380
 Das ist eine ganz wesentliche Einschränkung.
@@ -423,8 +423,8 @@ Formeln umzugehen, ohne großartige Interpretation
 und dem Aufbau von spezifischen Strukturen.
 
 0:11:01.390,0:11:07.190
-Wir betrachten einfach sogenannte Herbrand-Strukturen,
-wo die Grundmenge festgelegt ist als variablenfreie Terme.
+Wir betrachten einfach sogenannte Herbrand-Strukturen, wo
+die Grundmenge festgelegt ist als variablenfreie Terme.
 
 0:11:07.190,0:11:13.380
 Und das nennt man dann Grundresolution, weil man diese
@@ -451,8 +451,8 @@ ist noch: Falls in der Formel überhaupt gar
 kein Konstanten-Symbol vorkommt, dann würden
 
 0:11:40.110,0:11:44.589
-wir noch ein Konstanten-Symbol hinzunehmen,
-damit wir irgendwas haben, womit wir instantiieren können.
+wir noch ein Konstanten-Symbol hinzunehmen, damit
+wir irgendwas haben, womit wir instantiieren können.
 
 0:11:44.589,0:11:48.889
 Aber in unserer Formel, die wir eben gesehen haben,
@@ -475,12 +475,12 @@ um dann mit denen operieren zu können. Jetzt heißt
 Grundresolution eben, dass wir im Prinzip so arbeiten
 
 0:12:11.660,0:12:16.500
-wie bei der aussagenlogischen Resolution. Aber wenn
-wir Variablen in den Klauseln stehen haben,
+wie bei der aussagenlogischen Resolution. Aber
+wenn wir Variablen in den Klauseln stehen haben,
 
 0:12:16.500,0:12:22.290
-dann ersetzen wir die durch variablenfreie Terme.
-Im Sinne dessen, wie wir bisher auch schon in Formeln
+dann ersetzen wir die durch variablenfreie Terme. Im
+Sinne dessen, wie wir bisher auch schon in Formeln
 
 0:12:22.290,0:12:30.210
 Variablen durch zum Beispiel Konstanten oder Terme
@@ -499,8 +499,8 @@ die möglicherweise Variablen enthält, und instantiieren
 alle darin vorkommenden Variablen durch Grundterme.
 
 0:12:47.320,0:12:54.130
-Und das kann in diesem ganz einfachen Beispiel
-einfach so sein, dass wir sagen: Wir ersetzen y durch a.
+Und das kann in diesem ganz einfachen Beispiel einfach
+so sein, dass wir sagen: Wir ersetzen y durch a.
 
 0:12:54.130,0:13:02.490
 Das tun wir dann konsistent natürlich in allen vorkommenden
@@ -511,8 +511,8 @@ weil wir diese beiden y's ersetzt haben. Und das notieren wir hier
 bei der Grundresolution, welche Wahl wir hier getroffen haben.
 
 0:13:07.370,0:13:14.779
-Und nachdem wir das getan haben, können wir tatsächlich hier resolvieren.
-Denn jetzt haben wir da zwei komplementäre Literale.
+Und nachdem wir das getan haben, können wir tatsächlich hier
+resolvieren. Denn jetzt haben wir da zwei komplementäre Literale.
 
 0:13:14.779,0:13:21.480
 Das ist dann genauso wie in der Aussagenlogik.
@@ -527,12 +527,12 @@ also können wir resolvieren. Was passiert dann?
 Wir vereinigen diese Mengen, aber ohne die
 
 0:13:33.040,0:13:40.250
-beiden resolvierten Literale. Das heißt,
-es bleibt in dem Fall einfach \{S(a)\} übrig.
+beiden resolvierten Literale. Das heißt, es
+bleibt in dem Fall einfach \{S(a)\} übrig.
 
 0:13:40.250,0:13:45.490
-Dann können wir an anderer Stelle ähnlich verfahren.
-Zum Beispiel könnten wir uns diese beiden Klauseln anschauen
+Dann können wir an anderer Stelle ähnlich verfahren. Zum
+Beispiel könnten wir uns diese beiden Klauseln anschauen
 
 0:13:45.490,0:13:51.779
 und überlegen, ob wir da Resolution anwenden können.
@@ -551,8 +551,8 @@ Und dann haben wir tatsächlich offenkundig
 komplementäre Literale. Nämlich dieses und dieses.
 
 0:14:09.980,0:14:18.149
-Können also diese beiden Klauseln resolvieren,
-und übrig bleiben dieses Literal und dieses Literal.
+Können also diese beiden Klauseln resolvieren, und
+übrig bleiben dieses Literal und dieses Literal.
 
 0:14:18.149,0:14:26.540
 Wieder jetzt ganz genau wie in der Aussagenlogik,
@@ -563,12 +563,12 @@ Aber keine Variablen mehr enthalten, weil wir solche
 Grundinstantiierungen vorgenommen haben. Dann könnte man
 
 0:14:33.231,0:14:39.649
-weitermachen. Dann sieht man: Hier gibt es komplementäre Literale.
-Da könnte man also resolvieren. Es bliebe das übrig.
+weitermachen. Dann sieht man: Hier gibt es komplementäre
+Literale. Da könnte man also resolvieren. Es bliebe das übrig.
 
 0:14:39.649,0:14:44.990
-Und dann können wir das mit der Klausel von hier oben
-resolvieren. Wir brauchen dafür keine
+Und dann können wir das mit der Klausel von
+hier oben resolvieren. Wir brauchen dafür keine
 
 0:14:44.990,0:14:51.100
 weiteren Variablenbelegungen. Das sind direkt
@@ -583,20 +583,20 @@ Was wir auch schon sehen an diesem Beispiel:
 Wenn wir in der Ursprungsformel genau
 
 0:15:05.079,0:15:10.319
-dieses Wissen über das eine
-existierende Alien nicht gehabt hätten, hätten wir
+dieses Wissen über das eine existierende
+Alien nicht gehabt hätten, hätten wir
 
 0:15:10.319,0:15:18.579
-keinen erfolgreichen Resolutionsbeweis geschafft.
-Das ist die Erklärung, warum das hier oben eben nicht
+keinen erfolgreichen Resolutionsbeweis geschafft. Das
+ist die Erklärung, warum das hier oben eben nicht
 
 0:15:18.579,0:15:23.350
 per Resolution zur leeren Klausel herleitbar ist.
 Was wiederum heißt, dass die ursprüngliche Formel,
 
 0:15:23.350,0:15:31.769
-von der das hier die Negation ist, keine Tautologie war.
-Aber so, mit dieser Zusatzklausel oder mit diesem Aussageteil,
+von der das hier die Negation ist, keine Tautologie war. Aber
+so, mit dieser Zusatzklausel oder mit diesem Aussageteil,
 
 0:15:31.769,0:15:40.170
 haben wir einen Beweis der gewünschten Art.
@@ -611,12 +611,12 @@ vorausgesehen, weil wir auf etwas kommen wollten,
 was wir hiermit und letztlich mit dem A(a) in
 
 0:15:56.750,0:16:00.160
-Übereinstimmung bringen und resolvieren können.
-Das war jetzt in diesem Fall nicht besonders schwer,
+Übereinstimmung bringen und resolvieren können. Das
+war jetzt in diesem Fall nicht besonders schwer,
 
 0:16:00.160,0:16:04.379
-so zu raten. Es gab sowieso nur diese eine Konstante a.
-Andere Konstanten oder Funktionssymbole tauchten
+so zu raten. Es gab sowieso nur diese eine Konstante
+a. Andere Konstanten oder Funktionssymbole tauchten
 
 0:16:04.379,0:16:08.540
 in der Formel ja gar nicht auf. Im Allgemeinen
@@ -627,8 +627,8 @@ dass hier mehr als ein konkreter Term infrage kommt,
 weil es mehr Konstanten oder Funktionssymbole gibt.
 
 0:16:13.560,0:16:21.620
-Und dann kann diese Grundresolution sozusagen
-einiges an Voraussicht erfordern,
+Und dann kann diese Grundresolution
+sozusagen einiges an Voraussicht erfordern,
 
 0:16:21.620,0:16:30.190
 weil man ja gute Wahlen für diese Instantiierungen treffen muss,
@@ -647,8 +647,8 @@ konkreten Sinnzusammenhang motiviert ist. Betrachten wir
 einfach mal für irgendwelche Prädikatsymbole, P und Q,
 
 0:16:54.649,0:17:02.500
-und entsprechende auch hier gegebene Konstanten a, b
-und Funktionssymbole, einstellig f, zweistellig g,
+und entsprechende auch hier gegebene Konstanten a,
+b und Funktionssymbole, einstellig f, zweistellig g,
 
 0:17:02.500,0:17:09.730
 dass das unsere Klauseln seien, mit denen wir umgehen wollen.
@@ -679,8 +679,8 @@ Dann fallen nämlich diese beiden Literale zusammen.
 Und das ist natürlich gut. Dann wird die Menge kleiner
 
 0:17:43.770,0:17:49.390
-und wir sind vielleicht schon näher
-an der leeren Klausel dran. Das gab es
+und wir sind vielleicht schon näher an
+der leeren Klausel dran. Das gab es
 
 0:17:49.390,0:17:55.470
 bei der Aussagenlogik nicht. Da konnten wir nicht
@@ -711,8 +711,8 @@ Also obwohl wir im Moment nur mit diesem P hier resolvieren
 wollen, und uns das Q noch gar nicht interessiert,
 
 0:18:23.800,0:18:30.620
-müssen wir dennoch für das y hier eine Wahl treffen.
-Jetzt treffe ich einfach die Wahl b, weil ich weiß, dass ich das später brauchen werde,
+müssen wir dennoch für das y hier eine Wahl treffen. Jetzt treffe ich
+einfach die Wahl b, weil ich weiß, dass ich das später brauchen werde,
 
 0:18:30.620,0:18:35.311
 um hier drüben damit etwas anfangen zu können.
@@ -723,16 +723,16 @@ bei Betrachtung dieser beiden Klauseln noch gar
 nicht aufdrängt, sondern da muss man sozusagen
 
 0:18:38.570,0:18:45.270
-geschickt vorausraten. Das ist eine gewisse Schwäche
-der Grundresolution, die man noch im Nachgang angehen kann.
+geschickt vorausraten. Das ist eine gewisse Schwäche der
+Grundresolution, die man noch im Nachgang angehen kann.
 
 0:18:45.270,0:18:51.550
 Aber nehmen wir an, ich hätte hier jetzt so geraten.
 Dann kann ich eben auch aus dem P(y) durch geeignete
 
 0:18:51.550,0:18:57.081
-Belegung diese Klausel erhalten,
-so dass ich schon mal hier drüben resolvieren kann.
+Belegung diese Klausel erhalten, so dass
+ich schon mal hier drüben resolvieren kann.
 
 0:18:57.081,0:19:05.130
 Dass hier und hier das y steht, das ist nicht
@@ -747,8 +747,8 @@ verwunderlich, dass das sein kann, dass da Variablen
 überlappen, denn in der Ursprungsformel könnten diese
 
 0:19:14.330,0:19:17.970
-beiden Klauseln ja unter einem gemeinsamen Allquantor
-gestanden haben. Und dann ist es eben so,
+beiden Klauseln ja unter einem gemeinsamen
+Allquantor gestanden haben. Und dann ist es eben so,
 
 0:19:17.970,0:19:25.640
 dass da die gleiche Variable auftaucht vielleicht.
@@ -763,8 +763,8 @@ Da wollte ich ja hin. Deswegen habe ich ja so ersetzt.
 Und dann würde hier \{Q(b)\} entstehen, weil diese beiden
 
 0:19:35.560,0:19:42.290
-Literale sich aufheben, sozusagen, und nur noch
-dieses Literal übrig bleibt. Wie könnte es weitergehen?
+Literale sich aufheben, sozusagen, und nur noch dieses
+Literal übrig bleibt. Wie könnte es weitergehen?
 
 0:19:42.290,0:19:45.990
 Dieses \{Q(b)\} möchte ich am Ende sicherlich
@@ -787,8 +787,8 @@ Was wir dort nicht hatten, war, dass wir dafür eventuell
 diese Klausel verschieden instantiieren müssen.
 
 0:20:05.820,0:20:11.960
-Denn mit der hier instantiierten Klausel, wo ich y durch f(a)
-ersetzt habe, können wir ja hier nichts anfangen.
+Denn mit der hier instantiierten Klausel, wo ich y durch
+f(a) ersetzt habe, können wir ja hier nichts anfangen.
 
 0:20:11.960,0:20:18.230
 Da können wir nicht resolvieren. In der Aussagenlogik
@@ -803,20 +803,20 @@ und in dem Fall auch machen muss: Ich muss diese Klausel
 nochmal anders instantiieren. Also mich zum Beispiel
 
 0:20:29.700,0:20:36.470
-entscheiden: Ich möchte auch y durch g(b,a) ersetzen.
-Das darf ich auch. Dann kommt eben eine andere Klausel heraus,
+entscheiden: Ich möchte auch y durch g(b,a) ersetzen. Das
+darf ich auch. Dann kommt eben eine andere Klausel heraus,
 
 0:20:36.470,0:20:44.050
-die ich dann auch verwenden darf. Und ich habe das jetzt
-schon so belegt, dass ich, wenn ich hier das x durch a ersetze,
+die ich dann auch verwenden darf. Und ich habe das jetzt schon
+so belegt, dass ich, wenn ich hier das x durch a ersetze,
 
 0:20:44.050,0:20:49.780
-hier wieder komplementäre Literale kriege.
-Mit dem Q(b) passiert hier in dem Fall nichts,
+hier wieder komplementäre Literale kriege. Mit
+dem Q(b) passiert hier in dem Fall nichts,
 
 0:20:49.780,0:20:55.620
-weil b ja schon eine Konstante ist. Dann hätte ich also diese
-beiden Instantiierungen vorgenommen,
+weil b ja schon eine Konstante ist. Dann hätte ich
+also diese beiden Instantiierungen vorgenommen,
 
 0:20:55.620,0:21:01.180
 um jetzt hier resolvieren zu können.
@@ -827,8 +827,8 @@ Und dann kann ich hinterher hier auch weiter resolvieren.
 Und erhalte eben meine leere Klausel, wie gewünscht.
 
 0:21:08.910,0:21:16.240
-Also das geht in dem Fall auf.
-Ich habe einfach gute Entscheidungen hier getroffen.
+Also das geht in dem Fall auf. Ich habe
+einfach gute Entscheidungen hier getroffen.
 
 0:21:16.240,0:21:21.300
 Aber tatsächlich war das nicht völlig trivial,
@@ -847,13 +847,13 @@ und dann zwar ein paar Schritte machen, aber später
 vielleicht hier nicht weiterkommen, und muss das dann
 
 0:21:38.590,0:21:46.270
-nochmal neu machen. Das ist eine Eigenschaft
-der Grundresolution, weil man immer alle Variablen
+nochmal neu machen. Das ist eine Eigenschaft der
+Grundresolution, weil man immer alle Variablen
 
 0:21:46.270,0:21:53.460
-auf einen Schlag belegen muss.
-Das wollen wir bei der allgemeinen prädikatenlogischen
+auf einen Schlag belegen muss. Das wollen
+wir bei der allgemeinen prädikatenlogischen
 
 0:21:53.460,0:21:55.010
-Resolution nicht machen,
-aber bei der Grundresolution ist das so.
+Resolution nicht machen, aber bei
+der Grundresolution ist das so.

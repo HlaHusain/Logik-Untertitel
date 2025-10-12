@@ -79,16 +79,16 @@ eins, würde es für die Wahrheitstabelle
 eine Eins ergeben. Eins oder eins würde für
 
 0:01:50.880,0:01:53.490
-die Wahrheitstabelle ebenfalls eine Eins ergeben.
-Das heißt, es müsste entweder das nicht
+die Wahrheitstabelle ebenfalls eine Eins
+ergeben. Das heißt, es müsste entweder das nicht
 
 0:01:53.490,0:01:59.249
-A oder das B eine Eins sein oder beides. Am
-einfachsten wäre hier das B, da es nicht
+A oder das B eine Eins sein oder beides.
+Am einfachsten wäre hier das B, da es nicht
 
 0:01:59.249,0:02:03.759
-negiert ist. Wenn wir jetzt auch nicht A mit
-einer eins belegen wollen würden, müsste
+negiert ist. Wenn wir jetzt auch nicht A
+mit einer eins belegen wollen würden, müsste
 
 0:02:03.759,0:02:08.830
 A eine Null sein, sodass nicht A wiederum
@@ -167,8 +167,8 @@ Eins ergibt und es ein Modell wird, ist, dass
 es nicht null ist. Das bedeutet, dass der
 
 0:04:01.660,0:04:13.310
-Teil in der Klammer, A und B oder nicht C,
-im Gesamten null ergeben muss, sodass es wieder
+Teil in der Klammer, A und B oder nicht C, im
+Gesamten null ergeben muss, sodass es wieder
 
 0:04:13.310,0:04:20.650
 eine Eins ergibt. Wir haben A und wir haben
@@ -207,8 +207,8 @@ Formel wäre also Alpha von A gleich null.
 Und Alpha von B können wir uns aussuchen.
 
 0:05:12.120,0:05:18.250
-Ich nehme hier auch eine Null. Alpha von C
-ist auch null. Aber auch hier gibt es verschiedene
+Ich nehme hier auch eine Null. Alpha von C ist
+auch null. Aber auch hier gibt es verschiedene
 
 0:05:18.250,0:05:27.660
 Möglichkeiten. Ein Modell von F. Jetzt benötigen
@@ -259,16 +259,16 @@ Wenn wir also sagen, dass B mit einer Eins
 belegt ist, ist B oder nicht C eins. Dann
 
 0:06:31.320,0:06:35.840
-ist es egal, was C ist und wir können für
-C null oder eins einsetzen. Das ist komplett
+ist es egal, was C ist und wir können für C
+null oder eins einsetzen. Das ist komplett
 
 0:06:35.840,0:06:43.760
 egal. Dann haben wir schon unsere passende
 Belegung, die kein Modell ist. Auch hier gibt
 
 0:06:43.760,0:06:48.840
-es wieder mehrere Möglichkeiten. Wenn ihr
-den Lösungsweg des Ausprobierens nicht verwenden
+es wieder mehrere Möglichkeiten. Wenn ihr den
+Lösungsweg des Ausprobierens nicht verwenden
 
 0:06:48.840,0:06:52.190
 möchtet, könnt ihr auch Wahrheitstabellen

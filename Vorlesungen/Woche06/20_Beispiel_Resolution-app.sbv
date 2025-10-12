@@ -19,56 +19,56 @@ einfaches Anschauen aller Bestandteile der Formel.
 Das ist also eine Konjunktion von Disjunktionen
 
 0:00:34.410,0:00:39.840
-von Literalen. Das heißt auch, wir können sie direkt in
-die Klauselschreibweise bringen. Das war diese Menge
+von Literalen. Das heißt auch, wir können sie direkt
+in die Klauselschreibweise bringen. Das war diese Menge
 
 0:00:39.840,0:00:46.890
 von Mengen. Wobei wir, wenn wir das Resolutionsverfahren
 durchführen wollen, einfach die inneren, die
 
 0:00:46.890,0:00:55.950
-Klauselmengen aufschreiben. Also das wäre einmal die
-Menge \{A, B, C\} wegen der ersten Disjunktion von hier oben.
+Klauselmengen aufschreiben. Also das wäre einmal die Menge
+\{A, B, C\} wegen der ersten Disjunktion von hier oben.
 
 0:00:55.950,0:01:05.220
-Dann die Menge \{A, ¬B\}. (Ich sage jetzt "A und ¬B",
-aber das steht für diese Disjunktion, weil das
+Dann die Menge \{A, ¬B\}. (Ich sage jetzt "A und
+¬B", aber das steht für diese Disjunktion, weil das
 
 0:01:05.220,0:01:09.000
-eine Konjunktion von Disjunktionen ist. Und wir schreiben
-als Klauseln immer die Disjunktionen hin.)
+eine Konjunktion von Disjunktionen ist. Und wir
+schreiben als Klauseln immer die Disjunktionen hin.)
 
 0:01:09.000,0:01:17.820
 Die dritte solche Klauselmenge hier ist
 die Menge \{¬A, ¬C\}. Das steht eben für
 
 0:01:17.820,0:01:25.110
-dieses (¬A ∨ ¬C). Und jetzt war unser Ziel
-mit der Resolution herauszufinden,
+dieses (¬A ∨ ¬C). Und jetzt war unser
+Ziel mit der Resolution herauszufinden,
 
 0:01:25.110,0:01:31.770
-dass oder ob die Formel nicht erfüllbar ist. Dafür würden
-wir daraus gern die leere Klausel ableiten, also
+dass oder ob die Formel nicht erfüllbar ist. Dafür
+würden wir daraus gern die leere Klausel ableiten, also
 
 0:01:31.770,0:01:39.870
-irgendwie Schritte ausführen, sodass am Ende
-irgendwo die leere Menge steht. Was müssen wir dafür tun?
+irgendwie Schritte ausführen, sodass am Ende irgendwo
+die leere Menge steht. Was müssen wir dafür tun?
 
 0:01:39.870,0:01:43.530
 Wir sollten immer zwei Klauseln
 resolvieren. Also wir resolvieren nicht
 
 0:01:43.530,0:01:49.290
-eine Klausel mit sich selbst oder so etwas, sondern immer zwei
-verschiedene Klauseln. Zum Beispiel könnten wir versuchen
+eine Klausel mit sich selbst oder so etwas, sondern immer
+zwei verschiedene Klauseln. Zum Beispiel könnten wir versuchen
 
 0:01:49.290,0:01:55.950
-diese ersten beiden Klauseln zu resolvieren. Zur
-Erinnerung: Was mussten wir dafür tun? Was war dabei zu beachten?
+diese ersten beiden Klauseln zu resolvieren. Zur Erinnerung:
+Was mussten wir dafür tun? Was war dabei zu beachten?
 
 0:01:55.950,0:02:01.590
-Wir mussten nach gemeinsamen Klauseln bzw. nach einem
-Komplementärklauselpaar suchen. Also zum
+Wir mussten nach gemeinsamen Klauseln bzw. nach
+einem Komplementärklauselpaar suchen. Also zum
 
 0:02:01.590,0:02:06.450
 Beispiel bezüglich A können wir hier nicht resolvieren,
@@ -79,24 +79,24 @@ beiden Klauseln positiv. Für C wiederum gibt es hier
 gar nichts. Also nach C kann man hier auch nicht
 
 0:02:12.850,0:02:19.690
-resolvieren. Aber hier kommt B positiv und hier
-B negativ vor, das heißt, genau danach könnte man hier
+resolvieren. Aber hier kommt B positiv und hier B
+negativ vor, das heißt, genau danach könnte man hier
 
 0:02:19.690,0:02:28.570
-resolvieren. Das Ergebnis wäre die neue Menge,
-in der das A nach wie vor vorkommt, entweder von hier
+resolvieren. Das Ergebnis wäre die neue Menge, in
+der das A nach wie vor vorkommt, entweder von hier
 
 0:02:28.570,0:02:33.460
-oder von hier. Wir bilden ja die Vereinigung, es ist also egal, von
-wo das kommt. Jedenfalls ist das A noch da. Das
+oder von hier. Wir bilden ja die Vereinigung, es ist also
+egal, von wo das kommt. Jedenfalls ist das A noch da. Das
 
 0:02:33.460,0:02:39.220
 B natürlich nicht, da wir gerade das B und das ¬B
 gegeneinander kürzen, sozusagen, oder resolvieren
 
 0:02:39.220,0:02:47.500
-und damit entfernen. Aber das C aus der ersten Menge
-bleibt natürlich erhalten. Dann wäre das hier
+und damit entfernen. Aber das C aus der ersten
+Menge bleibt natürlich erhalten. Dann wäre das hier
 
 0:02:47.500,0:02:53.020
 unser möglicherweise erster Resolvent, weil ich
@@ -107,24 +107,24 @@ resolvieren. Dann gab es in der Vorlesung
 das Beispiel von letzter Woche, wo wir
 
 0:02:58.930,0:03:05.470
-einfach gesagt haben, dass wir diesen dabei entstehenden
-Resolventen nehmen und dann einfach
+einfach gesagt haben, dass wir diesen dabei
+entstehenden Resolventen nehmen und dann einfach
 
 0:03:05.470,0:03:09.310
-mit der nächsten Ursprungsklausel resolvieren können.
-Das könnten wir hier auch sagen. Und
+mit der nächsten Ursprungsklausel resolvieren
+können. Das könnten wir hier auch sagen. Und
 
 0:03:10.120,0:03:17.890
 lassen uns doch mal diese beiden Klauseln genauer
 zu Gemüte führen und versuchen, da zu resolvieren.
 
 0:03:17.890,0:03:22.990
-Wir stellen fest, da können wir resolvieren. Und zwar
-sowohl nach A, als auch nach C, aber nicht nach
+Wir stellen fest, da können wir resolvieren. Und
+zwar sowohl nach A, als auch nach C, aber nicht nach
 
 0:03:22.990,0:03:33.960
-beiden gleichzeitig. Also wir könnten uns hier entscheiden,
-nach der Gestalt zu resolvieren, dass wir das
+beiden gleichzeitig. Also wir könnten uns hier
+entscheiden, nach der Gestalt zu resolvieren, dass wir das
 
 0:03:33.960,0:03:44.490
 A und das ¬A entfernen. Dann kommen wir auf
@@ -135,24 +135,24 @@ entscheiden können, die beiden gleichen Klauseln
 zu resolvieren, aber bezüglich des A und des
 
 0:03:50.610,0:03:58.950
-¬A, die ja auch komplementäre Literale sind.
-Nein, umgekehrt. Ich hatte gerade
+¬A, die ja auch komplementäre Literale
+sind. Nein, umgekehrt. Ich hatte gerade
 
 0:03:58.950,0:04:04.140
 nach A resolviert. Deswegen blieb C und ¬C übrig.
 Wir könnten uns auch entscheiden, nach C und ¬C zu
 
 0:04:04.140,0:04:11.790
-resolvieren. Dann bliebe eben die Menge \{A, ¬A\}
-übrig. Das bringt uns nicht wirklich weiter
+resolvieren. Dann bliebe eben die Menge \{A,
+¬A\} übrig. Das bringt uns nicht wirklich weiter
 
 0:04:11.790,0:04:17.700
-in Richtung der leeren Klausel. Das müssen wir leider
-feststellen. Denn solche Klauseln führen
+in Richtung der leeren Klausel. Das müssen wir
+leider feststellen. Denn solche Klauseln führen
 
 0:04:17.700,0:04:23.940
-eigentlich nirgendwohin. Denn mit einer Klausel
-wie \{C, ¬C\}, also einer Klausel, die C und ¬C enthält, was könnten
+eigentlich nirgendwohin. Denn mit einer Klausel wie \{C,
+¬C\}, also einer Klausel, die C und ¬C enthält, was könnten
 
 0:04:23.940,0:04:29.760
 wir damit tun? Die könnten wir mit Klauseln resolvieren,
@@ -163,12 +163,12 @@ Beispiel mit dieser Klausel und dieser Klausel
 resolvieren. Wir dürfen Klauseln ja wiederverwenden
 
 0:04:35.610,0:04:42.090
-von oben. Was würde passieren? Dann würden wir hier das C
-rausschmeißen. Hier das ¬C rausschmeißen. Dann
+von oben. Was würde passieren? Dann würden wir hier
+das C rausschmeißen. Hier das ¬C rausschmeißen. Dann
 
 0:04:42.090,0:04:47.700
-den Rest zusammenpacken. Dann bliebe wieder
-die Menge \{A, B, C\} übrig. Da würde also gar kein neuer Resolvent
+den Rest zusammenpacken. Dann bliebe wieder die Menge
+\{A, B, C\} übrig. Da würde also gar kein neuer Resolvent
 
 0:04:47.700,0:04:54.900
 entstehen. Und das passiert immer, wenn wir mit einer
@@ -187,128 +187,128 @@ wir weitere Möglichkeiten gehabt. Wir mussten hier oben
 ja zum Beispiel nicht diesen Resolventen direkt wieder
 
 0:05:10.740,0:05:16.110
-mit einer der Ursprungsklauseln resolvieren.
-Wir hätten auch sagen können, wir versuchen erst mal,
+mit einer der Ursprungsklauseln resolvieren. Wir
+hätten auch sagen können, wir versuchen erst mal,
 
 0:05:16.110,0:05:23.460
 von den Ursprungsklauseln mehr zu nutzen. Also auch
 diese beiden Klauseln lassen sich resolvieren, weil
 
 0:05:23.460,0:05:32.940
-sie bezüglich A komplementäre Literale enthalten.
-Was entsteht da? Da entsteht dann die Menge \{¬B, ¬C\}.
+sie bezüglich A komplementäre Literale enthalten. Was
+entsteht da? Da entsteht dann die Menge \{¬B, ¬C\}.
 
 0:05:32.940,0:05:51.580
-Da wir bezüglich des As resolvieren konnten.
-Das ist auch noch nicht die leere Klausel, aber neues
+Da wir bezüglich des As resolvieren konnten. Das
+ist auch noch nicht die leere Klausel, aber neues
 
 0:05:51.580,0:05:56.890
-Wissen, das wir gewonnen haben. So, jetzt müssen wir
-schauen. Die leere Klausel ist nicht da. Können wir noch weitermachen?
+Wissen, das wir gewonnen haben. So, jetzt müssen wir schauen.
+Die leere Klausel ist nicht da. Können wir noch weitermachen?
 
 0:05:56.890,0:06:04.930
 Wir können natürlich nach weiteren
 Gelegenheiten suchen, Dinge zu resolvieren. Zum
 
 0:06:04.930,0:06:12.640
-Beispiel könnten wir ja versucht sein, diese
-beiden Klauseln im nächsten Schritt zu
+Beispiel könnten wir ja versucht sein,
+diese beiden Klauseln im nächsten Schritt zu
 
 0:06:12.640,0:06:18.520
-resolvieren. Wohin würde das führen? Die lassen sich
-genau über das C und das ¬C resolvieren.
+resolvieren. Wohin würde das führen? Die lassen
+sich genau über das C und das ¬C resolvieren.
 
 0:06:18.520,0:06:26.590
-Dann würde die Menge \{A, ¬B\} entstehen.
-Das ist natürlich nicht falsch. Es ist aber Unsinn,
+Dann würde die Menge \{A, ¬B\} entstehen. Das
+ist natürlich nicht falsch. Es ist aber Unsinn,
 
 0:06:26.590,0:06:31.030
-das neu aufzuschreiben, denn diese Menge gibt
-es ja schon. Unser Ziel ist es, beim Resolvieren immer neue
+das neu aufzuschreiben, denn diese Menge gibt es ja
+schon. Unser Ziel ist es, beim Resolvieren immer neue
 
 0:06:31.030,0:06:35.110
 Mengen zu erzeugen. Wenn eine Menge auftaucht, die schon
 da steht, müssen wir sie nicht noch mal herstellen.
 
 0:06:35.110,0:06:40.180
-Denn was auch immer wir hier unten
-noch an weiteren Resolvierungen durchführen würden,
+Denn was auch immer wir hier unten noch an
+weiteren Resolvierungen durchführen würden,
 
 0:06:40.180,0:06:44.770
 könnten wir auch direkt mit der schon vorhandenen
 entsprechenden Menge tun. Also, das machen wir nicht:
 
 0:06:44.770,0:06:51.490
-irgendwie Mengen noch mal aufschreiben, die schon
-da sind. Wenn wir diese Regel beachten, dann stellen wir fest,
+irgendwie Mengen noch mal aufschreiben, die schon da sind.
+Wenn wir diese Regel beachten, dann stellen wir fest,
 
 0:06:51.490,0:06:57.700
-dass es hier gar nicht so viel gibt, was noch passieren
-kann. Also wie gesagt: Die beiden zu
+dass es hier gar nicht so viel gibt, was noch
+passieren kann. Also wie gesagt: Die beiden zu
 
 0:06:57.700,0:07:02.380
-resolvieren, ist nicht sinnvoll, weil da diese Menge herauskäme. Was
-könnten wir noch miteinander resolvieren? Schauen wir
+resolvieren, ist nicht sinnvoll, weil da diese Menge herauskäme.
+Was könnten wir noch miteinander resolvieren? Schauen wir
 
 0:07:02.380,0:07:13.420
-mal oben. Also diese Ursprungsmenge \{A,B,C\}, die könnte
-einzig noch resolviert werden, sinnvollerweise,
+mal oben. Also diese Ursprungsmenge \{A,B,C\}, die
+könnte einzig noch resolviert werden, sinnvollerweise,
 
 0:07:13.420,0:07:19.870
-entweder mit dieser Menge oder mit dieser Menge.
-Schauen wir uns das in beiden Fällen mal an. Was passiert,
+entweder mit dieser Menge oder mit dieser Menge. Schauen
+wir uns das in beiden Fällen mal an. Was passiert,
 
 0:07:19.870,0:07:29.890
 wenn wir diese beiden Klauseln resolvieren? Das
 ginge sowohl bezüglich des Bs als auch des Cs.
 
 0:07:29.890,0:07:47.640
-In einem Fall würde entstehen: Die Menge \{A, C, ¬C\}.
-Und im anderen Fall: Die Menge...
+In einem Fall würde entstehen: Die Menge \{A,
+C, ¬C\}. Und im anderen Fall: Die Menge...
 
 0:07:47.640,0:07:53.430
-(Dabei sehen Sie schon, dass es schnell unübersichtlich werden kann,
-wenn man sehr viele Kombinationen betrachten muss, weil
+(Dabei sehen Sie schon, dass es schnell unübersichtlich werden
+kann, wenn man sehr viele Kombinationen betrachten muss, weil
 
 0:07:53.430,0:08:06.660
-man nicht direkt den Weg zur leeren Klausel findet.)
-Also in dem Fall mache ich mal hier noch eine Resolvierung.
+man nicht direkt den Weg zur leeren Klausel findet.) Also
+in dem Fall mache ich mal hier noch eine Resolvierung.
 
 0:08:06.660,0:08:20.550
-Jetzt bezüglich des Cs zu entfernen. Da entsteht: \{A,B,¬B\}.
-Das sind jetzt wieder kompliziertere Klauseln
+Jetzt bezüglich des Cs zu entfernen. Da entsteht:
+\{A,B,¬B\}. Das sind jetzt wieder kompliziertere Klauseln
 
 0:08:20.550,0:08:25.590
-geworden. Und die führen auch nirgendwo hin.
-Das kann man auch schon erkennen, das hatte ich auch in.
+geworden. Und die führen auch nirgendwo hin. Das
+kann man auch schon erkennen, das hatte ich auch in.
 
 0:08:25.590,0:08:32.910
-der letzten Woche schon gesagt. Genauso wie diese Klausel nicht
-hilfreich ist, da wir, wenn wir damit irgendwas anderes
+der letzten Woche schon gesagt. Genauso wie diese Klausel
+nicht hilfreich ist, da wir, wenn wir damit irgendwas anderes
 
 0:08:32.910,0:08:38.130
-resolvieren, eigentlich nie einen Fortschritt machen.
-Genauso hatte ich auch gesagt, sind generell Klauseln unnütz,
+resolvieren, eigentlich nie einen Fortschritt machen. Genauso
+hatte ich auch gesagt, sind generell Klauseln unnütz,
 
 0:08:38.130,0:08:46.020
 in denen ein Literal positiv und negativ vorkommt. Also
 die Klausel \{A, B, ¬B\}, die ist genauso nutzlos wie
 
 0:08:46.020,0:08:53.040
-die Klausel \{A, C, ¬C\} oder die Klausel \{C, ¬C\}.
-Wann immer wir das mit irgendwas resolvieren würden, könnten wir
+die Klausel \{A, C, ¬C\} oder die Klausel \{C, ¬C\}. Wann
+immer wir das mit irgendwas resolvieren würden, könnten wir
 
 0:08:53.040,0:08:59.460
-das B und das ¬B vielleicht entfernen. Aber das B könnten wir
-nur dann entfernen, wenn in dem anderen Partner
+das B und das ¬B vielleicht entfernen. Aber das B könnten
+wir nur dann entfernen, wenn in dem anderen Partner
 
 0:08:59.460,0:09:03.840
 ein ¬B vorkommt, das dann verschwinden würde.
 Aber dieses ¬B würde dann übrig bleiben.
 
 0:09:03.840,0:09:11.430
-Deswegen ist es zwar korrekt, diese
-Klauseln hier zu erzeugen, aber die werden auch
+Deswegen ist es zwar korrekt, diese Klauseln
+hier zu erzeugen, aber die werden auch
 
 0:09:11.430,0:09:19.590
 nicht zu irgendeinem weiteren Fortschritt führen.
@@ -323,24 +323,24 @@ anschauen... Nein, nicht ganz. Etwas können wir noch
 tun. Wir können noch diese Klausel resolvieren mit
 
 0:09:35.370,0:09:41.670
-dieser Ursprungsklausel bezüglich des A und ¬A.
-Was entsteht dabei? Dabei entsteht
+dieser Ursprungsklausel bezüglich des A
+und ¬A. Was entsteht dabei? Dabei entsteht
 
 0:09:41.670,0:09:52.230
 die Klausel \{B, ¬B, C\}. Aber auch die wird
 uns nicht final in Richtung der leeren Klausel
 
 0:09:52.230,0:09:58.560
-führen, weil sie auch diesen Charakter hat, dass ein
-Literal und sein Komplement darin vorkommen.
+führen, weil sie auch diesen Charakter hat, dass
+ein Literal und sein Komplement darin vorkommen.
 
 0:09:58.560,0:10:03.570
 Das heißt nicht, dass man in dem gesamten Bild hier nicht
 irgendwo die leere Klausel finden würde/ vielleicht könnte,
 
 0:10:03.570,0:10:09.930
-aber diese Klausel wird nicht dazu beitragen,
-sich der leeren Klausel
+aber diese Klausel wird nicht dazu
+beitragen, sich der leeren Klausel
 
 0:10:09.930,0:10:20.040
 sinnvoll zu nähern. Ich vermute, dass das jetzt
@@ -351,8 +351,8 @@ etwas mehr Übersicht, etwas mehr Geduld auch noch
 weitere Paare von Klauseln finden, die resolviert
 
 0:10:25.200,0:10:30.180
-werden können und nicht zu etwas führen, das schon
-auf diesem Bild aktuell da ist. Aber selbst wenn Sie das
+werden können und nicht zu etwas führen, das schon auf
+diesem Bild aktuell da ist. Aber selbst wenn Sie das
 
 0:10:30.180,0:10:35.670
 tun und vielleicht noch zwei, drei weitere Knoten in diesen Graphen
@@ -363,40 +363,40 @@ Klausel kommen. Warum? Weil das ein Beispiel ist, wo
 die ursprüngliche Formel tatsächlich erfüllbar war.
 
 0:10:42.090,0:10:48.180
-Und das Resolutionsverfahren sagt ja, wir
-kommen zur leeren Klausel, wenn die Formel nicht
+Und das Resolutionsverfahren sagt ja, wir kommen
+zur leeren Klausel, wenn die Formel nicht
 
 0:10:48.180,0:10:56.370
-erfüllbar ist. Wichtig hierbei ist allerdings, dass wir das auch merken
-können. Selbst wenn wir hier noch zwei, drei Schritte vielleicht
+erfüllbar ist. Wichtig hierbei ist allerdings, dass wir das auch
+merken können. Selbst wenn wir hier noch zwei, drei Schritte vielleicht
 
 0:10:56.370,0:11:01.800
-machen können: das sind endlich viele Schritte. Es kann uns nicht passieren,
-dass wir jetzt unendlich immer weitere Resolutionsschritte
+machen können: das sind endlich viele Schritte. Es kann uns nicht
+passieren, dass wir jetzt unendlich immer weitere Resolutionsschritte
 
 0:11:01.800,0:11:09.150
-durchführen und nie irgendwann auch mal sagen können: Jetzt ist Schluss,
-die leere Klausel ist nicht erreichbar. Warum
+durchführen und nie irgendwann auch mal sagen können: Jetzt
+ist Schluss, die leere Klausel ist nicht erreichbar. Warum
 
 0:11:09.150,0:11:14.310
-kann uns das nicht passieren? Wenn ich tatsächlich nie
-etwas hinschreibe, was schon da steht, also nicht
+kann uns das nicht passieren? Wenn ich tatsächlich
+nie etwas hinschreibe, was schon da steht, also nicht
 
 0:11:14.310,0:11:21.120
-irgendeine Resolvierung durchführe, wo ich wieder
-die Menge \{A, ¬B\} hinschreibe, die ich hier oben schon
+irgendeine Resolvierung durchführe, wo ich wieder die
+Menge \{A, ¬B\} hinschreibe, die ich hier oben schon
 
 0:11:21.120,0:11:26.760
 hatte, wenn ich das nicht tue, dann wird es irgendwann
 nichts mehr geben, was ich noch hinschreiben kann. Wenn wir
 
 0:11:26.760,0:11:34.350
-uns mal überlegen: Wir haben den endlichen Vorrat an Literalen A, B, C,
-¬A, ¬B, ¬C. Darüber gibt es nur endlich viele Mengen.
+uns mal überlegen: Wir haben den endlichen Vorrat an Literalen
+A, B, C, ¬A, ¬B, ¬C. Darüber gibt es nur endlich viele Mengen.
 
 0:11:34.350,0:11:41.280
-Das heißt, das Bild, was hier entsteht, das kann nicht
-beliebig groß werden. Irgendwann haben wir alle durch Resolution
+Das heißt, das Bild, was hier entsteht, das kann nicht beliebig
+groß werden. Irgendwann haben wir alle durch Resolution
 
 0:11:41.280,0:11:48.120
 erhaltbaren Klauseln stehen. Und wenn die leere Klausel
@@ -411,20 +411,20 @@ Ursprungsformel war doch erfüllbar. Das kann man formal beweisen.
 Das werden wir nicht tun. Für uns ist wichtig: Das terminiert immer
 
 0:11:58.780,0:12:03.790
-dieses Verfahren, weil vielleicht nach sehr viel Anstrengung und
-Mühe irgendwann das Bild vollständig ist und
+dieses Verfahren, weil vielleicht nach sehr viel Anstrengung
+und Mühe irgendwann das Bild vollständig ist und
 
 0:12:03.790,0:12:08.890
-nichts mehr hinzugefügt werden kann. Und wenn bis dahin
-die leere Klausel nicht entstanden ist, dann war die Ursprungsformel
+nichts mehr hinzugefügt werden kann. Und wenn bis dahin die
+leere Klausel nicht entstanden ist, dann war die Ursprungsformel
 
 0:12:08.890,0:12:16.420
-erfüllbar. Das ist nochmal das eine, was ich zeigen wollte.
-Dann stellt sich natürlich auch noch die Frage: Wenn wir jetzt wissen,
+erfüllbar. Das ist nochmal das eine, was ich zeigen wollte. Dann
+stellt sich natürlich auch noch die Frage: Wenn wir jetzt wissen,
 
 0:12:16.420,0:12:20.440
-die Ursprungsformel ist erfüllbar, weil die
-leere Klausel nicht hergeleitet werden kann, können
+die Ursprungsformel ist erfüllbar, weil die leere
+Klausel nicht hergeleitet werden kann, können
 
 0:12:20.440,0:12:25.540
 wir dann noch eine erfüllende Belegung angeben?
@@ -443,24 +443,24 @@ Resolutionsverfahren ist dafür da, zu entscheiden, ob die Formel
 erfüllbar ist oder nicht. Es ist nicht dazu da, im Fall, dass die
 
 0:12:46.210,0:12:51.310
-Formel erfüllbar ist, uns direkt zu sagen: A muss so sein,
-B muss so sein. C muss so sein. Das ist nicht
+Formel erfüllbar ist, uns direkt zu sagen: A muss so
+sein, B muss so sein. C muss so sein. Das ist nicht
 
 0:12:51.310,0:12:59.590
-die Aufgabe des Resolutionsverfahrens, wie es hier verwendet wird.
-Dennoch können wir versuchen, aus der
+die Aufgabe des Resolutionsverfahrens, wie es hier
+verwendet wird. Dennoch können wir versuchen, aus der
 
 0:12:59.590,0:13:02.980
-Arbeit, die wir geleistet haben beim Aufstellen oder
-beim Durchführen des Resolutionsverfahrens,
+Arbeit, die wir geleistet haben beim Aufstellen
+oder beim Durchführen des Resolutionsverfahrens,
 
 0:13:02.980,0:13:13.060
 vielleicht ein Modell zu sehen oder ein
 Modell daraus zu bauen, statt das für die
 
 0:13:13.060,0:13:18.280
-Ursprungsformel tun zu müssen. Also insbesondere
-jede hier unterwegs entstehende Klausel, die irgendwie
+Ursprungsformel tun zu müssen. Also insbesondere jede
+hier unterwegs entstehende Klausel, die irgendwie
 
 0:13:18.280,0:13:23.770
 kleiner ist als was wir ursprünglich hatten, ist
@@ -475,36 +475,36 @@ sagen uns etwas über erfüllende Belegungen aus.
 Die sagen nämlich, in jeder erfüllenden Belegung
 
 0:13:33.490,0:13:40.300
-muss A oder C stimmen, wegen dieser Klausel.
-Und es muss auch nicht ¬B oder ¬C
+muss A oder C stimmen, wegen dieser
+Klausel. Und es muss auch nicht ¬B oder ¬C
 
 0:13:40.300,0:13:55.940
 stimmen, wegen dieser zweiten Klausel. Das heißt,
 wir können hier zumindest die Suche nach einer
 
 0:13:55.940,0:14:05.120
-erfüllenden Belegung vereinfachen. Wegen dieser \{A, C\}
-Klausel wissen wir, es muss eine
+erfüllenden Belegung vereinfachen. Wegen dieser
+\{A, C\} Klausel wissen wir, es muss eine
 
 0:14:05.120,0:14:13.100
 Zeile in der Wahrheitstafel geben, für welche die
 Ursprungsformel wahr ist. Und wegen dieser Klausel
 
 0:14:13.100,0:14:22.310
-wissen wir zum Beispiel, dass das nur eine Zeile
-sein könnte, in der A oder C wahr ist. Also irgendwie
+wissen wir zum Beispiel, dass das nur eine Zeile sein
+könnte, in der A oder C wahr ist. Also irgendwie
 
 0:14:22.310,0:14:29.510
-eine Zeile dieser Art kann keinesfalls ein
-Modell sein, denn die würde diese Klausel (A ∨ C)
+eine Zeile dieser Art kann keinesfalls ein Modell
+sein, denn die würde diese Klausel (A ∨ C)
 
 0:14:29.510,0:14:40.400
-nicht erfüllen. Deswegen können wir uns überlegen, dass es nur sein
-kann, dass irgendwie eine solche Zeile bzw. diese
+nicht erfüllen. Deswegen können wir uns überlegen, dass es
+nur sein kann, dass irgendwie eine solche Zeile bzw. diese
 
 0:14:40.400,0:14:46.160
-beiden möglichen Formen von Zeilen zu einem
-Modell führt. Und dann können wir uns zum Beispiel auch noch
+beiden möglichen Formen von Zeilen zu einem Modell
+führt. Und dann können wir uns zum Beispiel auch noch
 
 0:14:46.160,0:14:54.560
 diese Klausel anschauen, die darüber hinaus auch
@@ -515,16 +515,16 @@ Modell sein kann, wenn ¬B oder ¬C gilt. Das heißt
 auch, dass diese Art von Zeilen nur zu einem Modell
 
 0:15:04.460,0:15:11.660
-werden könnte, wenn B mit 0 belegt ist. Denn wenn B hier mit
-1 belegt wäre, dann würde das dieser Klausel
+werden könnte, wenn B mit 0 belegt ist. Denn wenn B
+hier mit 1 belegt wäre, dann würde das dieser Klausel
 
 0:15:11.660,0:15:18.500
-widersprechen, dass nicht ¬B oder ¬C gelten muss.
-Also können wir schon mal sagen, dass das denkbar wäre
+widersprechen, dass nicht ¬B oder ¬C gelten muss. Also
+können wir schon mal sagen, dass das denkbar wäre
 
 0:15:18.500,0:15:34.190
-als mögliches Modell. Oder für diese
-Möglichkeit der Belegung von A oder C, könnten wir
+als mögliches Modell. Oder für diese Möglichkeit
+der Belegung von A oder C, könnten wir
 
 0:15:34.190,0:15:40.430
 uns noch überlegen, ob B gelten muss oder nicht.
@@ -539,29 +539,29 @@ aus den oben durch Resolution erhaltenden Klauseln
 die Suche nach einem Modell sozusagen auf diese
 
 0:15:51.560,0:15:58.970
-drei Zeilen einschränken. Wenn wir jetzt hergehen würden
-und tatsächlich mal die Ursprungsformel auswerten
+drei Zeilen einschränken. Wenn wir jetzt hergehen
+würden und tatsächlich mal die Ursprungsformel auswerten
 
 0:15:58.970,0:16:04.280
-würden, würden wir tatsächlich feststellen, dass alle diese
-drei hier unten gezeigten Zeilen Modelle sind.
+würden, würden wir tatsächlich feststellen, dass alle
+diese drei hier unten gezeigten Zeilen Modelle sind.
 
 0:16:04.280,0:16:11.480
-Und das sind auch die einzigen Modelle, weil es weitere nicht
-geben kann, weil alle weiteren Zeilen, die anderen
+Und das sind auch die einzigen Modelle, weil es weitere
+nicht geben kann, weil alle weiteren Zeilen, die anderen
 
 0:16:11.480,0:16:22.160
 fünf Zeilen dieser Wahrheitstafel, einen dieser
 beiden Resolventen verletzen würden. Aber das ist nur
 
 0:16:22.160,0:16:26.990
-sozusagen eine heuristisch gesteuerte Suche nach einem Modell,
-nachdem wir durch Resolutionsverfahren festgestellt
+sozusagen eine heuristisch gesteuerte Suche nach einem
+Modell, nachdem wir durch Resolutionsverfahren festgestellt
 
 0:16:26.990,0:16:36.170
-haben, dass die Formel erfüllbar ist, weil wir die leere
-Klausel nicht herleiten konnten. Das ist kein allgemeines Modellsuche-
+haben, dass die Formel erfüllbar ist, weil wir die leere Klausel
+nicht herleiten konnten. Das ist kein allgemeines Modellsuche-
 
 0:16:36.170,0:16:41.420
-Verfahren. Allgemein ist das Resolutionsverfahren dafür da,
-festzustellen, ob die Formel erfüllbar ist oder nicht.
+Verfahren. Allgemein ist das Resolutionsverfahren dafür
+da, festzustellen, ob die Formel erfüllbar ist oder nicht.

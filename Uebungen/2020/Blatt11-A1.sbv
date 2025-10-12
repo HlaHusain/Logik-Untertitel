@@ -39,8 +39,8 @@ einfach nur Tautologien, deswegen sind die Formeln
 (3) wiederum sind äquivalent. Hier haben wir zwar
 
 0:01:04.080,0:01:08.940
-auch den Unterschied mit dem Existenzquantor und
-dem Allquantor. Der Allquantor ist aber hier, in dem
+auch den Unterschied mit dem Existenzquantor und dem
+Allquantor. Der Allquantor ist aber hier, in dem
 
 0:01:08.940,0:01:16.500
 Fall innerhalb der Klammer vor der Implikation.
@@ -67,8 +67,8 @@ schreiben. Das Gleiche haben wir auch bei (1) und
 dem Allquantor und dem Existenzquantor. Aber der
 
 0:01:45.060,0:01:51.420
-Existenzquantor in Aussage (4) ist im Gegensatz
-zu Aussage (2) in der Klammer vor der Implikation.
+Existenzquantor in Aussage (4) ist im Gegensatz zu
+Aussage (2) in der Klammer vor der Implikation.
 
 0:01:51.420,0:01:56.340
 Das heißt, wenn man hier gedanklich wieder die
@@ -139,8 +139,8 @@ in G vor, können wir jetzt das umformen zu: Für
 alle z gilt nicht F, und das in Klammern, oder G.
 
 0:03:29.700,0:03:34.140
-Weil hier z sowieso nicht frei drinnen
-vorliegt, dann können wir es auch in die Klammer
+Weil hier z sowieso nicht frei drinnen vorliegt,
+dann können wir es auch in die Klammer
 
 0:03:34.140,0:03:39.060
 stellen. Wenn wir das jetzt doppelt negieren,
@@ -211,12 +211,12 @@ Für alle z gilt, F impliziert G. Also diese Formel
 hier nur eben Allquantor und Existenzquantor
 
 0:05:18.660,0:05:22.980
-wieder vertauscht. Also genau einmal andersherum.
-Diese Umformungsschritte gelten. Und jetzt schauen wir uns
+wieder vertauscht. Also genau einmal andersherum. Diese
+Umformungsschritte gelten. Und jetzt schauen wir uns
 
 0:05:22.980,0:05:27.300
-die vereinfacht an. Wenn man die jetzt
-auf unsere Aussagen aus der Aufgabe überträgt,
+die vereinfacht an. Wenn man die jetzt auf
+unsere Aussagen aus der Aufgabe überträgt,
 
 0:05:27.300,0:05:35.640
 kommen wir einmal zu der Ausgangsformel (1). Das
@@ -235,8 +235,8 @@ Es existiert ein z vor die Implikation. Und das
 ist Aussage (4). Daran sehen wir, dass die beiden
 
 0:05:53.100,0:05:57.840
-äquivalent sind. Das Gleiche können wir noch einmal
-für Aussage (2) machen. Da haben wir hier
+äquivalent sind. Das Gleiche können wir noch
+einmal für Aussage (2) machen. Da haben wir hier
 
 0:05:57.840,0:06:04.140
 diese Aussage gegeben mit dem Existenzquantor vor

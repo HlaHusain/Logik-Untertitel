@@ -1,9 +1,10 @@
 0:00:00.260,0:00:05.580
-Bei Aufgabe 2 geht es jetzt um die Kontraposition
-einer Implikation.
+Bei Aufgabe 2 geht es jetzt um die
+Kontraposition einer Implikation.
 
 0:00:05.580,0:00:08.700
-Die haben wir in der Vorlesung schon kennengelernt.
+Die haben wir in der
+Vorlesung schon kennengelernt.
 
 0:00:08.700,0:00:13.600
 Die bildet sich so, wenn man sagt: A impliziert
@@ -35,16 +36,16 @@ formalisieren sollen, indem wir Variablen
 einführen.
 
 0:00:35.140,0:00:37.739
-Wir gucken uns erst mal an, woraus dieser
-Satz besteht.
+Wir gucken uns erst mal an,
+woraus dieser Satz besteht.
 
 0:00:37.739,0:00:42.600
-Er besteht aus zwei Teilen, einmal die Straße
-ist nass und einmal es regnet.
+Er besteht aus zwei Teilen, einmal die
+Straße ist nass und einmal es regnet.
 
 0:00:42.600,0:00:51.519
-Das heißt, nehmen wir jetzt mal S für die
-Straße ist nass und R für es regnet.
+Das heißt, nehmen wir jetzt mal S für
+die Straße ist nass und R für es regnet.
 
 0:00:51.519,0:00:55.940
 Es wäre auch richtig gewesen, wenn ihr N
@@ -54,8 +55,8 @@ für: die Straße ist nass genommen hättet,
 zum Beispiel.
 
 0:00:56.940,0:01:00.190
-Das müsst ihr nur genauso angeben, wie ihr
-es meint.
+Das müsst ihr nur genauso
+angeben, wie ihr es meint.
 
 0:01:00.190,0:01:04.330
 Um jetzt die ganze Implikation zu formalisieren,
@@ -65,15 +66,15 @@ fehlt noch ein Schritt, wir müssen die beiden
 in ein Verhältnis setzen.
 
 0:01:05.720,0:01:09.810
-Das ist ein Wenn-Satz, was ja die Implikation
-widerspiegelt.
+Das ist ein Wenn-Satz, was ja
+die Implikation widerspiegelt.
 
 0:01:09.810,0:01:11.890
 Und das ist jetzt ein bisschen tricky.
 
 0:01:11.890,0:01:17.290
-Anders als bei Aufgabe 1 ist es jetzt gerade
-so, dass der Wenn-Teil hinten steht.
+Anders als bei Aufgabe 1 ist es jetzt
+gerade so, dass der Wenn-Teil hinten steht.
 
 0:01:17.290,0:01:20.750
 Wenn wir den Wenn-Teil vorne stehen haben
@@ -91,19 +92,19 @@ Satz umstellen, damit wir die Implikation
 daraus bilden können.
 
 0:01:31.890,0:01:35.630
-In dem Fall ist es so, dass der hintere Teil
-eigentlich vorne stehen müsste.
+In dem Fall ist es so, dass der hintere
+Teil eigentlich vorne stehen müsste.
 
 0:01:35.630,0:01:38.280
 Wenn es regnet, dann ist die Straße nass.
 
 0:01:38.280,0:01:42.780
-Das heißt, für die Implikation haben wir:
-R impliziert S.
+Das heißt, für die Implikation
+haben wir: R impliziert S.
 
 0:01:42.780,0:01:47.140
-Der Wenn-Teil steht bei der Implikation immer
-vorne.
+Der Wenn-Teil steht bei der
+Implikation immer vorne.
 
 0:01:47.140,0:01:49.850
 Wenn es regnet, dann ist die Straße nass.
@@ -123,20 +124,20 @@ Da sehen wir oben einfach, das können wir
 ganz analog machen, A impliziert B, wird zu
 
 0:02:04.490,0:02:09.209
-Nicht B impliziert Nicht A. Rein formell ist
-es ja: Nicht S impliziert nicht R.
+Nicht B impliziert Nicht A. Rein formell
+ist es ja: Nicht S impliziert nicht R.
 
 0:02:09.209,0:02:13.670
-Also: Die Straße ist nicht nass impliziert:
-Es regnet nicht.
+Also: Die Straße ist nicht nass
+impliziert: Es regnet nicht.
 
 0:02:13.670,0:02:17.069
-Und die Implikation kann man jetzt mit diesem
-Wenn übersetzen.
+Und die Implikation kann man
+jetzt mit diesem Wenn übersetzen.
 
 0:02:17.069,0:02:22.909
-Dann heißt es: Wenn die Straße nicht nass
-ist, dann regnet es auch nicht.
+Dann heißt es: Wenn die Straße nicht
+nass ist, dann regnet es auch nicht.
 
 0:02:22.909,0:02:27.670
 Sprachlich gesehen ist "Wenn die Straße nicht
@@ -160,8 +161,8 @@ Nicht R impliziert Nicht S. Da sollen wir
 sagen, ob das ebenfalls korrekt ist.
 
 0:02:49.930,0:02:54.620
-Das würde bedeuten: Wenn es nicht regnet,
-dann ist die Straße nicht nass.
+Das würde bedeuten: Wenn es nicht
+regnet, dann ist die Straße nicht nass.
 
 0:02:54.620,0:02:58.340
 Da können wir überlegen, ob es vielleicht
@@ -171,8 +172,8 @@ noch andere Möglichkeiten gibt, warum die
 Straße nass ist, außer dass es regnet.
 
 0:03:01.340,0:03:05.549
-Ja, es gibt andere Möglichkeiten, da kann
-man viele verschiedene finden.
+Ja, es gibt andere Möglichkeiten, da
+kann man viele verschiedene finden.
 
 0:03:05.549,0:03:09.669
 Jemand hat Wasser auf der Straße verschüttet,
@@ -182,8 +183,8 @@ jemand wäscht gerade sein Auto, was auch
 immer.
 
 0:03:10.669,0:03:14.389
-Es gibt also Möglichkeiten, dass die Straße
-nass ist, obwohl es nicht regnet.
+Es gibt also Möglichkeiten, dass die
+Straße nass ist, obwohl es nicht regnet.
 
 0:03:14.389,0:03:18.200
 Das heißt, diese Aussage wäre nicht korrekt.
@@ -196,15 +197,15 @@ gibt, warum die Straße nass ist, zum Beispiel
 jemand wäscht sein Auto.
 
 0:03:25.720,0:03:29.409
-Dann schauen wir uns das Ganze noch mal für
-den zweiten Satz an.
+Dann schauen wir uns das Ganze
+noch mal für den zweiten Satz an.
 
 0:03:29.409,0:03:31.590
 In der Nacht ist es draußen dunkel.
 
 0:03:31.590,0:03:39.239
-Zuerst einmal die Formalisierung: Sagen wir:
-N bedeutet, es ist Nacht.
+Zuerst einmal die Formalisierung:
+Sagen wir: N bedeutet, es ist Nacht.
 
 0:03:39.239,0:03:47.959
 Und D bedeutet, es ist dunkel.
@@ -226,8 +227,8 @@ auch sagen: N steht dafür, dass es Nacht
 ist, D steht dafür, dass es dunkel ist.
 
 0:04:04.709,0:04:09.540
-Jetzt ist die Frage: Wie können wir daraus
-die Implikation bilden?
+Jetzt ist die Frage: Wie können
+wir daraus die Implikation bilden?
 
 0:04:09.540,0:04:14.699
 Das ist etwas schwieriger als bei Teilaufgabe
@@ -241,8 +242,8 @@ Das heißt, wir müssen uns im ersten Schritt
 wäre der Satz dann formuliert?
 
 0:04:21.100,0:04:27.130
-In dem Fall wäre es: Wenn es Nacht ist, dann
-ist es draußen dunkel.
+In dem Fall wäre es: Wenn es Nacht
+ist, dann ist es draußen dunkel.
 
 0:04:27.130,0:04:32.130
 Daher wissen wir, der Wenn-Teil kommt ja immer
@@ -260,8 +261,8 @@ Erst mal wieder als Formel wäre die Kontraposition:
 Nicht D impliziert Nicht N. Analog zu Aufgabe
 
 0:04:50.030,0:04:53.260
-A, die wir gerade hatten und analog zu dem,
-wie es da oben steht.
+A, die wir gerade hatten und analog
+zu dem, wie es da oben steht.
 
 0:04:53.260,0:04:58.000
 Das heißt, im natürlichsprachlichen Satz
@@ -271,8 +272,8 @@ wäre es: Wenn es nicht dunkel ist, dann ist
 es nicht Nacht.
 
 0:04:59.000,0:05:02.830
-Hier oben hätte man auch schreiben können:
-Es ist draußen dunkel.
+Hier oben hätte man auch schreiben
+können: Es ist draußen dunkel.
 
 0:05:02.830,0:05:10.590
 Jetzt Aufgabe C. Diskutieren Sie, ob die entsprechende
@@ -282,12 +283,12 @@ Aussage Nicht A impliziert Nicht B ebenfalls
 korrekt wäre.
 
 0:05:11.590,0:05:19.020
-Die Aussage wäre hier also: Nicht N impliziert
-Nicht D. Ist das ebenfalls korrekt?
+Die Aussage wäre hier also: Nicht N
+impliziert Nicht D. Ist das ebenfalls korrekt?
 
 0:05:19.020,0:05:24.280
-Der natürlichsprachliche Satz wäre: Wenn
-es nicht Nacht ist, ist es draußen auch nicht
+Der natürlichsprachliche Satz wäre: Wenn es
+nicht Nacht ist, ist es draußen auch nicht
 
 0:05:24.280,0:05:25.280
 dunkel.
@@ -318,20 +319,20 @@ ist es draußen auch nicht dunkel, dann würde
 sogar die Doppelimplikation gelten.
 
 0:05:47.530,0:05:50.940
-Das heißt also: Wenn es Nacht ist, dann ist
-es dunkel.
+Das heißt also: Wenn es Nacht
+ist, dann ist es dunkel.
 
 0:05:50.940,0:05:54.930
-Oder andersrum gilt auch: Wenn es dunkel ist,
-dann ist es Nacht.
+Oder andersrum gilt auch: Wenn es
+dunkel ist, dann ist es Nacht.
 
 0:05:54.930,0:06:00.300
-Und das kann man auch als Doppelimplikation schreiben,
-und das sieht dann folgendermaßen aus.
+Und das kann man auch als Doppelimplikation
+schreiben, und das sieht dann folgendermaßen aus.
 
 0:06:00.300,0:06:07.330
-Wenn ihr aber damit argumentiert, dass es
-zum Beispiel tagsüber auch bei einer Sonnenfinsternis
+Wenn ihr aber damit argumentiert, dass es zum
+Beispiel tagsüber auch bei einer Sonnenfinsternis
 
 0:06:07.330,0:06:14.440
 draußen dunkel sein könnte oder nach einem
@@ -341,5 +342,5 @@ Vulkanausbruch, wo die Luft verraucht ist,
 dann würde das hier eben nicht gelten.
 
 0:06:16.780,0:06:21.500
-Dann würdet ihr sagen: Nein, diese Aussage
-stimmt nicht.
+Dann würdet ihr sagen: Nein,
+diese Aussage stimmt nicht.

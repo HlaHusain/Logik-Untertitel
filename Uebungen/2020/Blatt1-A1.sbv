@@ -63,8 +63,8 @@ zu eins vergleichen. Die negierte Form ist
 immer genau das Gegenteil von dem, was es
 
 0:01:25.130,0:01:30.209
-ursprünglich ist. Wenn also A gleich null
-ist, dann ist nicht A gleich eins. Wenn A gleich
+ursprünglich ist. Wenn also A gleich null ist,
+dann ist nicht A gleich eins. Wenn A gleich
 
 0:01:30.209,0:01:36.329
 eins ist, dann ist nicht A gleich null. Wenn
@@ -131,8 +131,8 @@ haben, nämlich vier. Dann nehmen wir für
 die erste atomare Formel, also A, erstmal
 
 0:02:58.830,0:03:05.290
-die Hälfte von vier, also zwei. Zwei Nullen.
-Ich empfehle auch, immer mit der Null anzufangen,
+die Hälfte von vier, also zwei. Zwei Nullen. Ich
+empfehle auch, immer mit der Null anzufangen,
 
 0:03:05.290,0:03:11.480
 um dann den Rest mit Einsen aufzufüllen.
@@ -183,8 +183,8 @@ eins. Daher ist auch die gesamte Aussage wahr.
 Wenn wir das nun wieder in ein sprachliches
 
 0:04:00.620,0:04:04.831
-Konstrukt überleiten, klingt das so: Wenn
-A dafür steht, dass Anton die Wahrheit sagt
+Konstrukt überleiten, klingt das so: Wenn A
+dafür steht, dass Anton die Wahrheit sagt
 
 0:04:04.831,0:04:10.020
 und B dafür steht, dass Berta die Wahrheit
@@ -207,32 +207,32 @@ sodass die gesamte Aussage wahr wird. Zunächst
 füllen wir wieder die Zeilen aus, wie bei
 
 0:04:39.740,0:04:45.770
-Teilaufgabe b). Wir beginnen mit den Nullen,
-fahren dann mit den Einsen fort. Bei B abwechselnd.
+Teilaufgabe b). Wir beginnen mit den Nullen, fahren
+dann mit den Einsen fort. Bei B abwechselnd.
 
 0:04:45.770,0:04:52.430
-Nullen und Einsen. In Zeile eins sind A und
-B null. Das heißt, dass weder A noch B eins ist.
+Nullen und Einsen. In Zeile eins sind A und B
+null. Das heißt, dass weder A noch B eins ist.
 
 0:04:52.430,0:04:57.750
-Das heißt, die Gesamtaussage ist ebenfalls
-eine Null und die Formel bekommt den Wahrheitswert
+Das heißt, die Gesamtaussage ist ebenfalls eine
+Null und die Formel bekommt den Wahrheitswert
 
 0:04:57.750,0:05:06.100
-null. In der zweiten Zeile ist A null und
-B eins. A oder B sind zusammen also eine eins,
+null. In der zweiten Zeile ist A null und B
+eins. A oder B sind zusammen also eine eins,
 
 0:05:06.100,0:05:10.550
 da es ausreicht, wenn eines von beiden eine
 Eins ist, um die Oder-Verknüpfung wahr werden
 
 0:05:10.550,0:05:16.010
-zu lassen. In der dritten Zeile gilt dasselbe:
-Hier ist A wahr, was ausreicht, um die Oder-Verknüpfung
+zu lassen. In der dritten Zeile gilt dasselbe: Hier
+ist A wahr, was ausreicht, um die Oder-Verknüpfung
 
 0:05:16.010,0:05:20.370
-wahr werden zu lassen. In der vierten Zeile
-sind beide wahr. Auch das ist bei der Oder-Verknüpfung
+wahr werden zu lassen. In der vierten Zeile sind
+beide wahr. Auch das ist bei der Oder-Verknüpfung
 
 0:05:20.370,0:05:25.290
 in Ordnung, da es sich hier nicht um ein exklusives
@@ -271,8 +271,8 @@ A. Dann folgt der Teil A und B, welcher separat
 ausgewertet wird. Erst dann werten wir die
 
 0:06:09.460,0:06:16.949
-gesamte Formel, nicht A oder A und B, aus.
-Es ist nicht falsch, wenn ihr diese Zwischenschritte
+gesamte Formel, nicht A oder A und B, aus. Es
+ist nicht falsch, wenn ihr diese Zwischenschritte
 
 0:06:16.949,0:06:21.090
 nicht macht. Aber insbesondere dann, wenn
@@ -347,8 +347,8 @@ Implikation mit A impliziert B auszufüllen,
 könnt ihr auch nicht A oder B nehmen. Das
 
 0:08:01.190,0:08:06.020
-fällt vielen leichter. Dann könntet ihr
-als Zwischenschritt nicht A nehmen. Im Anschluss
+fällt vielen leichter. Dann könntet ihr als
+Zwischenschritt nicht A nehmen. Im Anschluss
 
 0:08:06.020,0:08:14.729
 könnt ihr dann nicht A oder B oder A impliziert
@@ -507,8 +507,8 @@ impliziert A. Es folgt die Gesamtformel, welche
 in diesem Fall beides durch eine Oder-Verknüpfung
 
 0:11:55.920,0:12:04.440
-miteinander verbindet. A impliziert B oder
-B impliziert A. In den ersten beiden Spalten
+miteinander verbindet. A impliziert B oder B
+impliziert A. In den ersten beiden Spalten
 
 0:12:04.440,0:12:08.700
 verhält es sich gleich wie in den vorigen
@@ -527,8 +527,8 @@ eines von beiden wahr sein oder beides. Wir
 schauen uns hier wieder die zweite und dritte
 
 0:12:23.850,0:12:29.300
-Spalte an, denn dafür haben wir sie gemacht.
-Wir suchen also nach Stellen, an denen mindestens
+Spalte an, denn dafür haben wir sie gemacht. Wir
+suchen also nach Stellen, an denen mindestens
 
 0:12:29.300,0:12:35.060
 eine von beiden Spalten eine Eins hat. Das

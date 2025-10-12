@@ -11,20 +11,20 @@ Die einfachste Möglichkeit hier wäre A.
 A ist erfüllbar, aber nicht tautologisch,
 
 0:00:19.650,0:00:23.080
-da A entweder den Wahrheitswert Eins oder
-Null haben kann.
+da A entweder den Wahrheitswert
+Eins oder Null haben kann.
 
 0:00:23.080,0:00:27.570
 Das heißt, es gibt mögliche, passende Belegungen,
 wo A den Wahrheitswert Eins hat, es gibt aber
 
 0:00:27.570,0:00:30.260
-auch Belegungen, wo es Null hat. Deswegen
-ist es nicht tautologisch.
+auch Belegungen, wo es Null hat.
+Deswegen ist es nicht tautologisch.
 
 0:00:30.260,0:00:31.440
-Als Nächstes sollen wir eine tautologische
-Formel nennen.
+Als Nächstes sollen wir eine
+tautologische Formel nennen.
 
 0:00:31.440,0:00:38.030
 Und bei tautologischen Formeln ist es so,
@@ -46,12 +46,12 @@ dem die beiden verknüpft sind, reicht es
 immer, wenn eins von beiden Eins hat. Und eins
 
 0:00:54.239,0:00:57.640
-von beiden ist immer Eins, und deswegen ist
-die gesamte Formel tautologisch.
+von beiden ist immer Eins, und deswegen
+ist die gesamte Formel tautologisch.
 
 0:00:57.640,0:01:01.020
-Jetzt sollen wir noch eine unerfüllbare Formel
-nennen.
+Jetzt sollen wir noch eine
+unerfüllbare Formel nennen.
 
 0:01:01.020,0:01:07.930
 Das wäre dann A und nicht A, denn A kann
@@ -86,8 +86,8 @@ sie jeder atomaren Formel, die in F vorkommt,
 einen Wahrheitswert zuordnet.
 
 0:01:34.520,0:01:39.720
-In dem Fall wäre eine passende Belegung
-jede Belegung, die A einen Wahrheitswert zuordnet,
+In dem Fall wäre eine passende Belegung jede
+Belegung, die A einen Wahrheitswert zuordnet,
 
 0:01:39.720,0:01:41.420
 da wir hier nur A haben.
@@ -101,15 +101,15 @@ auch A impliziert B sein oder A und B oder
 nicht A oder B, bräuchten wir eine Belegung,
 
 0:01:53.970,0:01:58.590
-die sowohl A als auch B einen Wahrheitswert
-zuordnet.
+die sowohl A als auch B
+einen Wahrheitswert zuordnet.
 
 0:01:58.590,0:01:59.860
 Welcher das ist, ist egal.
 
 0:01:59.860,0:02:03.660
-Hätten wir noch ein C, müssten wir auch
-noch ein C hinzufügen.
+Hätten wir noch ein C, müssten
+wir auch noch ein C hinzufügen.
 
 0:02:03.660,0:02:08.060
 Wenn wir noch ein D hinzufügen würden, dann
@@ -119,5 +119,5 @@ wäre das auch für diese Formel eine passende
 Belegung, auch wenn D hier gar nicht vorkommt.
 
 0:02:11.580,0:02:16.060
-Aber jede vorkommende atomare Formel bekommt
-einen Wahrheitswert, und das genügt.
+Aber jede vorkommende atomare Formel
+bekommt einen Wahrheitswert, und das genügt.

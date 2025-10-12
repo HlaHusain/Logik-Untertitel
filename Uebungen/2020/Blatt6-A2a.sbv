@@ -6,11 +6,12 @@ gegeben und sollen bestimmen, welche Ausgabe
 produziert wird, wenn wir diese Anfrage haben.
 
 0:00:08.070,0:00:11.550
-Das könnt ihr theoretisch mit Prolog ausprobieren.
+Das könnt ihr theoretisch
+mit Prolog ausprobieren.
 
 0:00:11.550,0:00:14.390
-Aber es wäre sinnvoller, vorher zu überlegen,
-was rauskommen sollte.
+Aber es wäre sinnvoller, vorher zu
+überlegen, was rauskommen sollte.
 
 0:00:14.390,0:00:17.450
 Wir wissen, Prolog arbeitet von oben nach
@@ -41,12 +42,12 @@ ist egal, da es Variablen sind.
 Diese können jetzt unifiziert werden.
 
 0:00:38.050,0:00:41.680
-Die Regel dazu lautet „hatFuehrerschein(P,F),
-besitzt(P,F)“.
+Die Regel dazu lautet
+„hatFuehrerschein(P,F), besitzt(P,F)“.
 
 0:00:41.680,0:00:45.090
-Jetzt muss Prolog zunächst nach "hatFuehrerschein"
-suchen.
+Jetzt muss Prolog zunächst
+nach "hatFuehrerschein" suchen.
 
 0:00:45.090,0:00:46.850
 Es beginnt wieder von oben.
@@ -55,11 +56,12 @@ Es beginnt wieder von oben.
 Bei "Besitzt" passt es nicht.
 
 0:00:48.429,0:00:50.749
-Hier lautet die erste Zeile "besitzt(klaus,motorrad)".
+Hier lautet die erste Zeile
+"besitzt(klaus,motorrad)".
 
 0:00:50.749,0:00:56.780
-Jetzt kann er das unifizieren: P mit Klaus
-und F mit Motorrad.
+Jetzt kann er das unifizieren:
+P mit Klaus und F mit Motorrad.
 
 0:00:56.780,0:01:00.379
 „besitzt(P,F)“, P ist Klaus.
@@ -72,18 +74,19 @@ F ist Motorrad.
 erneut nach oben und fängt von vorn an.
 
 0:01:05.810,0:01:09.580
-Die erste Zeile passt direkt: „besitzt(klaus,motorrad)“.
+Die erste Zeile passt direkt:
+„besitzt(klaus,motorrad)“.
 
 0:01:09.580,0:01:15.530
-Das heißt, Prolog gibt als erste Lösung
-aus: X ist gleich Klaus und Y ist gleich Motorrad.
+Das heißt, Prolog gibt als erste Lösung aus:
+X ist gleich Klaus und Y ist gleich Motorrad.
 
 0:01:15.530,0:01:18.070
 Warum steht hier X und Y anstatt P und F?
 
 0:01:18.070,0:01:21.680
-Weil in der Anfrage die Variablen X und Y
-gesetzt wurden.
+Weil in der Anfrage die
+Variablen X und Y gesetzt wurden.
 
 0:01:21.680,0:01:24.410
 Diese wollen wir belegen.
@@ -92,21 +95,23 @@ Diese wollen wir belegen.
 Es könnte aber noch mehr Lösungen geben.
 
 0:01:26.270,0:01:29.300
-Das heißt, wir suchen erneut nach "hatFuehrerschein".
+Das heißt, wir suchen erneut
+nach "hatFuehrerschein".
 
 0:01:29.300,0:01:31.770
-Prolog geht von der Stelle aus weiter, an
-der es die letzte Lösung gefunden hat.
+Prolog geht von der Stelle aus weiter,
+an der es die letzte Lösung gefunden hat.
 
 0:01:31.770,0:01:32.850
 Das war bei "hatFuehrerschein".
 
 0:01:32.850,0:01:36.090
-In der nächsten Zeile steht: "hatFuehrerschein(klaus,auto)".
+In der nächsten Zeile steht:
+"hatFuehrerschein(klaus,auto)".
 
 0:01:36.090,0:01:40.620
-Prolog beginnt erneut von oben und liest:
-"besitzt(klaus,auto)".
+Prolog beginnt erneut von oben
+und liest: "besitzt(klaus,auto)".
 
 0:01:40.620,0:01:42.090
 Haben wir das irgendwo?
@@ -133,11 +138,12 @@ Von oben gehe ich jede Zeile durch.
 In der dritten Zeile steht: "besitzt(nilo,auto)".
 
 0:01:54.280,0:01:57.350
-Das heißt, auch Nilo und Auto ist eine richtige
-Lösung.
+Das heißt, auch Nilo und Auto
+ist eine richtige Lösung.
 
 0:01:57.350,0:02:00.270
-In der nächsten Zeile steht: "hatFuehrerschein(charlotte,auto)".
+In der nächsten Zeile steht:
+"hatFuehrerschein(charlotte,auto)".
 
 0:02:00.270,0:02:02.692
 Das heißt, P ist Charlotte und F ist Auto.
@@ -147,8 +153,8 @@ Jetzt gucken wir nach "besitzt(charlotte,auto)"
 und beginnen von oben.
 
 0:02:05.510,0:02:09.379
-Wir sehen, dass in der fünften Zeile steht:
-"besitzt(charlotte,auto)".
+Wir sehen, dass in der fünften Zeile
+steht: "besitzt(charlotte,auto)".
 
 0:02:09.379,0:02:11.849
 Das heißt, auch das ist eine valide Lösung.
@@ -161,8 +167,8 @@ weiter springen kann, weshalb die Ausgabe
 beendet ist.
 
 0:02:17.659,0:02:19.989
-Wir können uns das jetzt in Prolog angucken
-und überprüfen.
+Wir können uns das jetzt in
+Prolog angucken und überprüfen.
 
 0:02:19.989,0:02:22.060
 Ich habe das Programm bereits eingelesen.
@@ -175,8 +181,8 @@ sehen wir das Ergebnis, das wir erwartet haben:
 X ist gleich Klaus und Y ist gleich Motorrad.
 
 0:02:29.230,0:02:33.300
-Hier sehen wir ein schwarzes, blinkendes Kästchen
-daneben.
+Hier sehen wir ein schwarzes,
+blinkendes Kästchen daneben.
 
 0:02:33.300,0:02:36.159
 Das bedeutet, dass es noch mehr Lösungen
@@ -190,8 +196,8 @@ Semikolon eingeben oder einmal die Tab-Taste
 drücken.
 
 0:02:42.250,0:02:46.150
-Dann kommt noch eine Lösung: X ist gleich
-Nilo und Y ist gleich Auto.
+Dann kommt noch eine Lösung: X ist
+gleich Nilo und Y ist gleich Auto.
 
 0:02:46.150,0:02:48.760
 Auch da hatten wir gesagt, dass das korrekt
@@ -218,5 +224,5 @@ Auch das hatten wir bereits vermutet.
 Jetzt steht dahinter ein Punkt.
 
 0:03:01.659,0:03:04.310
-Das bedeutet, dass nun alle möglichen Lösungen
-gelistet sind.
+Das bedeutet, dass nun alle
+möglichen Lösungen gelistet sind.

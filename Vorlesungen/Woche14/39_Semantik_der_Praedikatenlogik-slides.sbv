@@ -1,18 +1,18 @@
 0:00:01.849,0:00:09.570
-Lassen Sie uns in diesem Video die Semantik der Prädikatenlogik
-diskutieren. Zur Erinnerung:
+Lassen Sie uns in diesem Video die Semantik der
+Prädikatenlogik diskutieren. Zur Erinnerung:
 
 0:00:09.570,0:00:15.279
-In der Aussagenlogik hatten wir die Semantik
-definiert, indem wir über
+In der Aussagenlogik hatten wir die
+Semantik definiert, indem wir über
 
 0:00:15.279,0:00:22.030
-passende Belegungen gesprochen hatten. Wenn Sie nochmal auf
-die Videos zurückgehen, da waren das diese
+passende Belegungen gesprochen hatten. Wenn Sie
+nochmal auf die Videos zurückgehen, da waren das diese
 
 0:00:22.030,0:00:29.340
-α-Funktionen, wo wir den atomaren Formeln 0- oder 1-Werte
-zugeordnet haben und das dann erweitert haben,
+α-Funktionen, wo wir den atomaren Formeln 0- oder
+1-Werte zugeordnet haben und das dann erweitert haben,
 
 0:00:29.340,0:00:36.039
 um zu einer ganzen Formel, also auch einer nicht
@@ -35,8 +35,8 @@ bisher in der Prädikatenlogik einfach Äquivalenzen
 angegeben, ohne sie wirklich zu rechtfertigen.
 
 0:01:03.929,0:01:08.420
-Ich habe sie intuitiv gerechtfertigt, aber
-wir haben noch gar keine Semantik, um auch formal
+Ich habe sie intuitiv gerechtfertigt, aber wir
+haben noch gar keine Semantik, um auch formal
 
 0:01:08.420,0:01:14.369
 fragen zu können: "Stimmt das denn überhaupt in einem
@@ -51,8 +51,8 @@ auch mathematisch zu fundieren und zu sagen,
 warum ich behaupten kann, dass die stimmen.
 
 0:01:27.960,0:01:34.200
-Allgemeiner (neben Tautologien) hatten wir auch
-andere Statuszuweisungen für Formeln.
+Allgemeiner (neben Tautologien) hatten wir
+auch andere Statuszuweisungen für Formeln.
 
 0:01:34.200,0:01:40.070
 Wir hatten von erfüllbaren und unerfüllbaren Formeln gesprochen,
@@ -71,20 +71,20 @@ Und dann dafür etwa die Erfüllbarkeit oder
 Unerfüllbarkeit oder die Allgemeingültigkeit überprüfen.
 
 0:01:58.030,0:02:01.510
-Auch das wollen wir für prädikatenlogische Formeln
-tun können. Also müssen wir auch
+Auch das wollen wir für prädikatenlogische
+Formeln tun können. Also müssen wir auch
 
 0:02:01.510,0:02:06.890
-darüber sprechen, was das denn ist, die Semantik.
-Wann ist denn eine Formel erfüllbar?
+darüber sprechen, was das denn ist, die
+Semantik. Wann ist denn eine Formel erfüllbar?
 
 0:02:06.890,0:02:11.860
 Oder was ist denn dann hier ein Modell
 für eine prädikatenlogische Formel,
 
 0:02:11.860,0:02:21.810
-statt zuvor aussagenlogische Formel? Also Modelle
-finden für eine Formel. Konstellationen,
+statt zuvor aussagenlogische Formel? Also
+Modelle finden für eine Formel. Konstellationen,
 
 0:02:21.810,0:02:27.000
 die eine Formel wahr machen. Das bestand in der
@@ -99,12 +99,12 @@ Und so etwas Ähnliches brauchen wir auch für die Prädikatenlogik,
 weil wir auch darüber sprechen wollen, ob eine Formel
 
 0:02:36.620,0:02:43.650
-erfüllbar ist und Modelle hat. Und im Prinzip wollen wir
-für die Prädikatenlogik natürlich analog vorgehen.
+erfüllbar ist und Modelle hat. Und im Prinzip wollen
+wir für die Prädikatenlogik natürlich analog vorgehen.
 
 0:02:43.650,0:02:48.300
-Wir wollen nicht alles neu erfinden. Das würde ja
-auch keinen Sinn ergeben. Die Prädikatenlogik
+Wir wollen nicht alles neu erfinden. Das würde
+ja auch keinen Sinn ergeben. Die Prädikatenlogik
 
 0:02:48.300,0:02:51.770
 ist eine Erweiterung der Aussagenlogik, also
@@ -159,24 +159,24 @@ ja solche atomaren Formeln. Und wir können denen nicht
 als Ganzes eine 1 zuweisen, denn es hängt davon ab,
 
 0:03:55.400,0:04:02.960
-wie P definiert ist oder x oder was a ist, etc.
-Also irgendwie wird hier offenkundig etwas Komplexeres passieren.
+wie P definiert ist oder x oder was a ist, etc. Also
+irgendwie wird hier offenkundig etwas Komplexeres passieren.
 
 0:04:02.960,0:04:14.440
 Wie können wir diesen komplexeren
 Dingen Wahrheitswerte zuweisen?
 
 0:04:14.440,0:04:20.350
-Wir brauchen mehr als den Begriff der Belegungen.
-Der Begriff der Belegung war: A, B, C (atomaren Formeln)
+Wir brauchen mehr als den Begriff der Belegungen. Der
+Begriff der Belegung war: A, B, C (atomaren Formeln)
 
 0:04:20.350,0:04:26.190
 einfach Nullen oder Einsen zuweisen. Jetzt brauchen wir den
 Begriff der passenden Struktur. Also wir gehen von passender
 
 0:04:26.190,0:04:32.850
-Belegung zu passender Struktur über, und das wird das
-Analogon dazu sein, wie wir in der Aussagenlogik
+Belegung zu passender Struktur über, und das wird
+das Analogon dazu sein, wie wir in der Aussagenlogik
 
 0:04:32.850,0:04:40.350
 diesen atomaren Aussagen Wahrheitswerte zugewiesen haben.
@@ -199,12 +199,12 @@ was vorher dem α, dem griechischen Buchstaben
 α entsprach im Kapitel zur Aussagenlogik.
 
 0:05:03.580,0:05:10.190
-Was macht so eine Struktur aus? Die besteht
-aus zwei Komponenten. Zum einen einer Grundmenge.
+Was macht so eine Struktur aus? Die besteht aus
+zwei Komponenten. Zum einen einer Grundmenge.
 
 0:05:10.190,0:05:15.120
-Das ist genau diese Grundmenge, über
-die wir schon geredet hatten bei der Intuition
+Das ist genau diese Grundmenge, über die
+wir schon geredet hatten bei der Intuition
 
 0:05:15.120,0:05:23.070
 zur Prädikatenlogik. Also die Wahl der möglichen
@@ -219,8 +219,8 @@ Und jetzt wird diese Grundmenge eben expliziter
 Bestandteil dieser sogenannten passenden Struktur.
 
 0:05:33.800,0:05:39.430
-Das ist einfach eine nichtleere Menge. Das ist
-sozusagen der eine Teil,
+Das ist einfach eine nichtleere Menge.
+Das ist sozusagen der eine Teil,
 
 0:05:39.430,0:05:44.630
 der zu einer passenden Struktur gehört. Und zum anderen
@@ -231,8 +231,8 @@ so etwas interpretieren zu können (wo
 Variablen, Konstanten, Funktionssymbole,
 
 0:05:51.670,0:05:56.950
-Prädikatsymbole vorkommen), all diesen hier möglicherweise
-auftretenden syntaktischen Elementen
+Prädikatsymbole vorkommen), all diesen hier
+möglicherweise auftretenden syntaktischen Elementen
 
 0:05:56.950,0:06:01.780
 eine Interpretation geben. Das ist die sogenannte
@@ -247,8 +247,8 @@ vorkommenden Variablen (das ist wirklich nur
 notwendig für die in F frei vorkommenden Variablen)
 
 0:06:13.550,0:06:19.150
-irgendetwas zuweisen, eine Interpretation geben.
-Und zwar nicht einfach ganz irgendetwas.
+irgendetwas zuweisen, eine Interpretation
+geben. Und zwar nicht einfach ganz irgendetwas.
 
 0:06:19.150,0:06:26.380
 Was muss interpretiert werden? Jeder solchen
@@ -263,24 +263,24 @@ So schreiben wir das auf, wie eine Funktionsanwendung,
 weil das letztlich eine Funktion ist.
 
 0:06:37.510,0:06:42.210
-I(x) wird ein Element aus U sein, ein spezifisches.
-In einer passenden Struktur wird jeder frei vorkommenden
+I(x) wird ein Element aus U sein, ein spezifisches. In
+einer passenden Struktur wird jeder frei vorkommenden
 
 0:06:42.210,0:06:48.150
-Variablen x ein spezifisches Element zugewiesen.
-Das muss aus der Grundmenge U kommen. Das darf nicht
+Variablen x ein spezifisches Element zugewiesen. Das
+muss aus der Grundmenge U kommen. Das darf nicht
 
 0:06:48.150,0:06:55.680
-irgendwie völlig frei gewählt werden, es muss schon zur
-Struktur passen in diesem Sinne. Was ist mit den Funktionssymbolen?
+irgendwie völlig frei gewählt werden, es muss schon zur Struktur
+passen in diesem Sinne. Was ist mit den Funktionssymbolen?
 
 0:06:55.680,0:07:02.610
 Den Funktionssymbolen werden Funktionen zugewiesen.
 Speziell den Konstanten, den nullstelligen
 
 0:07:02.610,0:07:08.919
-Funktionssymbolen, werden einfach ähnlich wie
-den Variablen Elemente aus U zugewiesen.
+Funktionssymbolen, werden einfach ähnlich
+wie den Variablen Elemente aus U zugewiesen.
 
 0:07:08.919,0:07:15.210
 Aber wenn wir echte Funktionen haben, ein- oder
@@ -331,24 +331,24 @@ ein Zahlenbereich sein, sagen wir die natürlichen Zahlen.
 Und wir könnten ein zweistelliges Prädikatsymbol haben.
 
 0:08:22.900,0:08:27.010
-Dann könnte (muss zwar nicht, aber könnte)
-die Interpretation diesem zweistelligen Prädikatsymbol
+Dann könnte (muss zwar nicht, aber könnte) die
+Interpretation diesem zweistelligen Prädikatsymbol
 
 0:08:27.010,0:08:33.520
 etwa die ≤-Relation zuordnen,
 die dann eben für zwei Werte
 
 0:08:33.520,0:08:40.469
-aus der Grundmenge (den natürlichen Zahlen)
-jeweils einfach prüft,
+aus der Grundmenge (den natürlichen
+Zahlen) jeweils einfach prüft,
 
 0:08:40.469,0:08:47.519
-ob die eine Zahl kleiner oder gleich der anderen ist.
-Aber es wären beliebige Relationen möglich.
+ob die eine Zahl kleiner oder gleich der anderen
+ist. Aber es wären beliebige Relationen möglich.
 
 0:08:47.519,0:08:54.980
-Die Interpretation legt das fest. Wenn wir die Grundmenge und
-diese Interpretation für alle syntaktischen Bestandteile
+Die Interpretation legt das fest. Wenn wir die Grundmenge
+und diese Interpretation für alle syntaktischen Bestandteile
 
 0:08:54.980,0:09:04.089
 der Formel haben, dann macht das insgesamt
@@ -359,8 +359,8 @@ Nehmen wir diese Formel. Die tauchte zuvor im Kontext
 eines Beispiels auf. Nämlich: „Klaus mag alle,
 
 0:09:08.680,0:09:13.490
-die sich nicht selbst mögen“. Das war
-der Ursprung dieser Formel. Aber wenn wir die Formel
+die sich nicht selbst mögen“. Das war der
+Ursprung dieser Formel. Aber wenn wir die Formel
 
 0:09:13.490,0:09:18.660
 für sich nehmen, ist das einfach nur eine Formel.
@@ -387,12 +387,12 @@ Also sagen wir zum Beispiel in dem Fall: Wir nehmen
 jetzt nicht alle Personen, die es gibt, sondern wir
 
 0:09:48.279,0:09:53.990
-nehmen einfach eine endliche Grundmenge. Unsere Grundmenge U
-sei einfach die Menge, die aus Gabi und Klaus besteht.
+nehmen einfach eine endliche Grundmenge. Unsere Grundmenge
+U sei einfach die Menge, die aus Gabi und Klaus besteht.
 
 0:09:53.990,0:09:59.930
-Die Wahl habe ich. Ich gebe die passende Struktur an,
-und ich entscheide mich dafür, die Grundmenge
+Die Wahl habe ich. Ich gebe die passende Struktur
+an, und ich entscheide mich dafür, die Grundmenge
 
 0:09:59.930,0:10:06.550
 \{Gabi,Klaus\} zu wählen. Das wäre der vielleicht
@@ -407,31 +407,32 @@ Variablen, etc. auftauchen, denn die muss ich ja
 alle interpretieren. Hier gibt es eine Variable x.
 
 0:10:17.619,0:10:22.220
-Die ist aber gar nicht frei, denn die wird hier durch
-den Allquantor gebunden. Das heißt, diese Formel als Ganzes
+Die ist aber gar nicht frei, denn die wird hier durch den
+Allquantor gebunden. Das heißt, diese Formel als Ganzes
 
 0:10:22.220,0:10:28.879
-hat keine freien Variablen. Deswegen muss ich schon mal
-keine Variablen interpretieren. Funktionssymbole
+hat keine freien Variablen. Deswegen muss ich schon
+mal keine Variablen interpretieren. Funktionssymbole
 
 0:10:28.879,0:10:35.550
 gibt es, bzw. es gibt genau ein nullstelliges Funktionssymbol:
 dieses Konstantensymbol k. Das muss ich interpretieren.
 
 0:10:35.550,0:10:40.980
-Wie muss ich das interpretieren? Ich muss dem einen
-Wert aus der Grundmenge zuordnen.
+Wie muss ich das interpretieren? Ich muss
+dem einen Wert aus der Grundmenge zuordnen.
 
 0:10:40.980,0:10:46.380
-Und eine mögliche, und in diesem Kontext sinnvolle,
+Und eine mögliche, und in
+diesem Kontext sinnvolle,
 
 0:10:46.380,0:10:52.079
 Interpretation wäre hier, zu sagen: Meine Interpretation
 für das Konstantensymbol k soll genau das
 
 0:10:52.079,0:10:56.639
-Element "Klaus" aus der Grundmenge sein.
-Ich hätte da auch I(k) = Gabi hinschreiben können.
+Element "Klaus" aus der Grundmenge sein. Ich
+hätte da auch I(k) = Gabi hinschreiben können.
 
 0:10:56.639,0:11:01.029
 Das hätte auch zu einer passenden Struktur führen können.
@@ -454,36 +455,36 @@ gebildet haben. Das waren alle möglichen Belegungen
 der vorkommenden atomaren Aussagen mit 0/1-Werten.
 
 0:11:22.860,0:11:28.220
-Das sagt noch nichts darüber aus, ob diese Belegung
-jeweils die Formel wahr macht oder nicht.
+Das sagt noch nichts darüber aus, ob diese
+Belegung jeweils die Formel wahr macht oder nicht.
 
 0:11:28.220,0:11:33.560
-Das waren erst einmal nur Kandidaten. Und hier wäre jetzt
-eine Kandidaten-Interpretation, dass ich sage:
+Das waren erst einmal nur Kandidaten. Und hier wäre
+jetzt eine Kandidaten-Interpretation, dass ich sage:
 
 0:11:33.560,0:11:39.899
-I(k) soll Klaus sein. Weitere Funktionssymbole gibt es nicht.
-Allerdings gibt es ein Prädikatsymbol,
+I(k) soll Klaus sein. Weitere Funktionssymbole gibt
+es nicht. Allerdings gibt es ein Prädikatsymbol,
 
 0:11:39.899,0:11:45.059
-dieses M. Das muss ich auch interpretieren. Das heißt,
-ich muss das M, weil es ein zweistelliges Prädikatsymbol ist,
+dieses M. Das muss ich auch interpretieren. Das heißt, ich
+muss das M, weil es ein zweistelliges Prädikatsymbol ist,
 
 0:11:45.059,0:11:50.579
-als eine zweistellige Relation
-über dieser Grundmenge U interpretieren. Und da könnte ich das
+als eine zweistellige Relation über dieser
+Grundmenge U interpretieren. Und da könnte ich das
 
 0:11:50.579,0:11:56.619
-natürlich so interpretieren, dass ich da jetzt einfach
-ein paar Paare angebe, für die intuitiv meine
+natürlich so interpretieren, dass ich da jetzt
+einfach ein paar Paare angebe, für die intuitiv meine
 
 0:11:56.619,0:12:01.509
 "mögen-Relation" zutreffen soll. Das "irgendjemand
 mag irgendjemand" ist ja eine zweistellige Relation.
 
 0:12:01.509,0:12:09.009
-Also ich könnte festlegen, für meine
-gerade betrachtete Struktur,
+Also ich könnte festlegen, für
+meine gerade betrachtete Struktur,
 
 0:12:09.009,0:12:14.610
 dass I(M) diejenige zweistellige Relation über
@@ -494,8 +495,8 @@ welche genau die Paare (Gabi,Klaus) und (Klaus,Gabi) enthält.
 Also Gabi mag Klaus und Klaus mag Gabi. Das ist eine Wahl,
 
 0:12:20.689,0:12:29.040
-die ich hier treffen kann, die Relation genau so
-zu interpretieren. Also auch ohne, dass wir den Begriff
+die ich hier treffen kann, die Relation genau so zu
+interpretieren. Also auch ohne, dass wir den Begriff
 
 0:12:29.040,0:12:33.800
 der Relation mathematisch präzise eingeführt haben,
@@ -506,8 +507,8 @@ Relation dadurch repräsentieren können, dass wir einfach
 Paare aufzählen, für die die Beziehung zutrifft.
 
 0:12:39.319,0:12:47.649
-Das wäre eine passende Struktur.
-Ob die die Formel wahr macht oder nicht,
+Das wäre eine passende Struktur. Ob
+die die Formel wahr macht oder nicht,
 
 0:12:47.649,0:12:54.019
 ist an dieser Stelle erst einmal noch irrelevant.
@@ -522,52 +523,52 @@ da außer dem Konstantensymbol kein Funktionssymbol auftritt.
 Stellen wir uns vor, es gäbe noch ein einstelliges
 
 0:13:03.230,0:13:11.910
-Funktionssymbol bff. Das soll einem Element der Grundmenge
-einen besten Freund/Freundin zuordnen.
+Funktionssymbol bff. Das soll einem Element der
+Grundmenge einen besten Freund/Freundin zuordnen.
 
 0:13:11.910,0:13:17.110
-Dann müssten zusätzliche Angaben gemacht werden.
-Also wenn die Formel irgendwie so wäre,
+Dann müssten zusätzliche Angaben gemacht
+werden. Also wenn die Formel irgendwie so wäre,
 
 0:13:17.110,0:13:23.009
 dann käme da immer noch keine freie Variable drin vor.
 Deswegen müssten wir keine Variablen interpretieren.
 
 0:13:23.009,0:13:27.660
-Wir müssten das k nach wie vor interpretieren, und
-könnten das wie hier oben tun, wenn wir U als
+Wir müssten das k nach wie vor interpretieren,
+und könnten das wie hier oben tun, wenn wir U als
 
 0:13:27.660,0:13:32.920
 \{Gabi,Klaus\} gewählt haben. Das M könnten wir auch
 wie hier oben interpretieren. Allerdings müssten
 
 0:13:32.920,0:13:37.239
-wir zusätzlich noch das bff interpretieren. Und wie?
-Das bff ist offenkundig ein einstelliges Funktionssymbol.
+wir zusätzlich noch das bff interpretieren. Und wie? Das
+bff ist offenkundig ein einstelliges Funktionssymbol.
 
 0:13:37.239,0:13:41.579
 Das sehen wir daran, wie es hier auftritt.
 Und dann müssten wir es mathematisch
 
 0:13:41.579,0:13:49.029
-interpretieren als eine einstellige Funktion.
-Also die Interpretation von bff wäre eine Funktion
+interpretieren als eine einstellige Funktion. Also
+die Interpretation von bff wäre eine Funktion
 
 0:13:49.029,0:13:55.209
-auf der Grundmenge. Und das heißt, diese Funktion
-muss sowohl Gabi als auch Klaus jeweils etwas zuordnen.
+auf der Grundmenge. Und das heißt, diese Funktion muss
+sowohl Gabi als auch Klaus jeweils etwas zuordnen.
 
 0:13:55.209,0:14:04.800
-Und zwar was? Jeweils wieder ein Element aus U.
-Dann müssten wir hier und hier
+Und zwar was? Jeweils wieder ein Element
+aus U. Dann müssten wir hier und hier
 
 0:14:04.800,0:14:09.449
 jeweils Gabi oder Klaus hinschreiben.
 Und jede mögliche Kombination von Wahlen,
 
 0:14:09.449,0:14:16.949
-die wir treffen, würde zu einer möglichen
-passenden Struktur beitragen. Bei mehrstelligen Funktionen
+die wir treffen, würde zu einer möglichen passenden
+Struktur beitragen. Bei mehrstelligen Funktionen
 
 0:14:16.949,0:14:29.009
 wird es entsprechend komplexer. Das als Beispiel
@@ -578,32 +579,32 @@ nämlich der Begriff der passenden Struktur. Was können
 wir jetzt mit so einer passenden Struktur machen?
 
 0:14:33.390,0:14:38.879
-Wir werden wieder analog dazu vorgehen
-wie in der Aussagenlogik. Was hatten wir da getan?
+Wir werden wieder analog dazu vorgehen wie in
+der Aussagenlogik. Was hatten wir da getan?
 
 0:14:38.879,0:14:43.740
-Da hatten wir eine passende Belegung, was jetzt
-unsere passenden Strukturen sind. Also
+Da hatten wir eine passende Belegung, was
+jetzt unsere passenden Strukturen sind. Also
 
 0:14:43.740,0:14:52.990
-für eine Menge von atomaren Formeln A, B, C, denen jeweils
-einen Wahrheitswert aus \{0,1\} zugewiesen.
+für eine Menge von atomaren Formeln A, B, C, denen
+jeweils einen Wahrheitswert aus \{0,1\} zugewiesen.
 
 0:14:52.990,0:15:01.940
 Und dann haben wir das erweitert zu einer
 Zuordnung "α-dach", welche einer gesamten Formel
 
 0:15:01.940,0:15:09.279
-einen solchen Wahrheitswert zuordnet. Und da gab es
-einfach Regeln dafür, wie man das ausrechnet.
+einen solchen Wahrheitswert zuordnet. Und da gab
+es einfach Regeln dafür, wie man das ausrechnet.
 
 0:15:09.279,0:15:16.239
 Jetzt wollen wir analog dazu vorgehen. Das heißt,
 wir haben eine passende Struktur und wollen nun einer
 
 0:15:16.239,0:15:23.139
-prädikatenlogischen Formel einen Wahrheitswert zuordnen.
-Wie müssen wir das machen? Wir müssen wieder alle Fälle anschauen,
+prädikatenlogischen Formel einen Wahrheitswert zuordnen. Wie
+müssen wir das machen? Wir müssen wieder alle Fälle anschauen,
 
 0:15:23.139,0:15:31.049
 wie denn die Formel aussehen kann. Im Fall
@@ -618,8 +619,8 @@ einen Wahrheitswert zuordnet. Dann war "α-dach" auf diesen
 atomaren Formeln auch einfach der entsprechende Wahrheitswert.
 
 0:15:44.920,0:15:52.019
-Da wir es jetzt ja etwas komplizierter
-haben, wegen der Prädikatenlogik, geht das nicht
+Da wir es jetzt ja etwas komplizierter haben,
+wegen der Prädikatenlogik, geht das nicht
 
 0:15:52.019,0:15:58.420
 exakt gleich. Denn schon die atomaren Formeln
@@ -630,40 +631,40 @@ P(irgendwelche Term-Ausdrücke), also Ausdrücke
 dieser Form. Wie würden wir denen jetzt einen
 
 0:16:06.959,0:16:13.749
-Wahrheitswert zuweisen? Wir schauen uns einfach an,
-durch Ausrechnen mittels der Interpretation,
+Wahrheitswert zuweisen? Wir schauen uns einfach
+an, durch Ausrechnen mittels der Interpretation,
 
 0:16:13.749,0:16:21.029
 die wir haben, zu welchen Werten denn diese
 Terme t_1 bis t_k auswerten. Also da können
 
 0:16:21.029,0:16:25.939
-Variablen drin vorkommen. Aber für die sagt uns I,
-welches Element aus der Grundmenge U sie sind.
+Variablen drin vorkommen. Aber für die sagt uns
+I, welches Element aus der Grundmenge U sie sind.
 
 0:16:25.939,0:16:29.879
 Darin können Konstanten vorkommen. Aber auch für
 die sagt uns die Interpretation I, welche Werte
 
 0:16:29.879,0:16:35.939
-aus der Grundmenge U das sind. Da können Funktionssymbole
-drin auftauchen. Aber auch für die sagt uns die Interpretation I,
+aus der Grundmenge U das sind. Da können Funktionssymbole drin
+auftauchen. Aber auch für die sagt uns die Interpretation I,
 
 0:16:35.939,0:16:43.769
-welchen konkreten Operationen
-auf Werten der Grundmenge U sie entsprechen.
+welchen konkreten Operationen auf Werten
+der Grundmenge U sie entsprechen.
 
 0:16:43.769,0:16:48.329
 Und dann schließlich haben wir das Prädikatsymbol P.
 Aber auch für das sagt uns ja die Interpretation I,
 
 0:16:48.329,0:16:56.819
-welche konkrete Relation das ist. Das heißt,
-wir können das ausrechnen. Wir rechnen die Elemente aus,
+welche konkrete Relation das ist. Das heißt, wir
+können das ausrechnen. Wir rechnen die Elemente aus,
 
 0:16:56.819,0:17:03.061
-denen die Terme t_1 ... t_k entsprechen.
-Und dann überprüfen wir, ob denn die Relation,
+denen die Terme t_1 ... t_k entsprechen. Und
+dann überprüfen wir, ob denn die Relation,
 
 0:17:03.061,0:17:09.559
 welche die Interpretation für dieses Prädikatsymbol ist,
@@ -674,8 +675,8 @@ oder nicht. Wenn ja, dann sagen wir, dieses
 "A-dach(P(t_1,...,t_k))" sei 1, ansonsten 0.
 
 0:17:18.169,0:17:27.760
-Also das ist ein Fall, der
-komplizierter ist als in der Aussagenlogik.
+Also das ist ein Fall, der komplizierter
+ist als in der Aussagenlogik.
 
 0:17:27.760,0:17:32.740
 Aber der macht sich einfach zunutze, dass wir diese Interpretation
@@ -686,68 +687,68 @@ Dann gab es schon in der Aussagenlogik
 diverse Fälle für die Berechnung dieses
 
 0:17:43.740,0:17:51.830
-"α-dach" auf Konjunktionen, Disjunktionen, Negationen.
-Und da hatten wir zwei Berechnungsweisen (in der Vergangenheit),
+"α-dach" auf Konjunktionen, Disjunktionen, Negationen. Und
+da hatten wir zwei Berechnungsweisen (in der Vergangenheit),
 
 0:17:51.830,0:17:55.919
-nämlich die "bottom-up" und die "top-down" Berechnung.
-Aber wir verwenden hier die "bottom-up" Definition (die einzige im WS 2021/22 eingeführte).
+nämlich die "bottom-up" und die "top-down" Berechnung. Aber wir verwenden
+hier die "bottom-up" Definition (die einzige im WS 2021/22 eingeführte).
 
 0:17:55.919,0:18:03.340
 Also die Fälle für Konjunktion, Disjunktion und Negation,
 die gehen ganz analog dazu vor, wie wir in der Aussagenlogik
 
 0:18:03.340,0:18:09.659
-das "α-dach" bottom-up berechnen konnten.
-Was heißt das? Das heißt, wir haben diese drei Fälle.
+das "α-dach" bottom-up berechnen konnten. Was
+heißt das? Das heißt, wir haben diese drei Fälle.
 
 0:18:09.659,0:18:15.091
-Und tatsächlich, wenn Sie in das Kapitel zur Aussagenlogik
-zurückgehen, finden Sie eine Folie,
+Und tatsächlich, wenn Sie in das Kapitel zur
+Aussagenlogik zurückgehen, finden Sie eine Folie,
 
 0:18:15.091,0:18:21.500
-wo die fast genau so auch auftreten. Da steht einfach
-statt des "A-dach" hier jeweils ein "α-dach".
+wo die fast genau so auch auftreten. Da steht
+einfach statt des "A-dach" hier jeweils ein "α-dach".
 
 0:18:21.500,0:18:28.940
 Ansonsten ist das exakt so wie die "bottom-up"
 Berechnungsmethode für die Semantik der Aussagenlogik.
 
 0:18:28.940,0:18:36.110
-Das lässt sich hier direkt übertragen,
-weil das die gleichen Arten von Operationen sind.
+Das lässt sich hier direkt übertragen, weil
+das die gleichen Arten von Operationen sind.
 
 0:18:36.110,0:18:46.110
 Also darüber muss ich sozusagen gar nicht sprechen,
 das funktioniert einfach so wie in der Aussagenlogik.
 
 0:18:46.110,0:18:50.080
-Interessanter wird es für die Quantoren.
-Denn das waren ja die neuen
+Interessanter wird es für die
+Quantoren. Denn das waren ja die neuen
 
 0:18:50.080,0:18:57.519
 syntaktischen Konstrukte in der Prädikatenlogik.
 Also, wie sieht das für die aus?
 
 0:18:57.519,0:19:06.290
-Da wird jetzt explizit ausgedrückt, dass und auch
-wie über eine bestimmte Grundmenge quantifiziert wird.
+Da wird jetzt explizit ausgedrückt, dass und auch wie
+über eine bestimmte Grundmenge quantifiziert wird.
 
 0:19:06.290,0:19:12.070
 Also wenn wir interpretieren wollen, welchen
 Wahrheitswert die Formel (∀x : F) zu kriegen hat,
 
 0:19:12.070,0:19:17.130
-dann wissen wir intuitiv: Wir müssten überprüfen,
-ob für alle x-Wahlen F zutrifft.
+dann wissen wir intuitiv: Wir müssten
+überprüfen, ob für alle x-Wahlen F zutrifft.
 
 0:19:17.130,0:19:24.140
-Was heißt das?
-Das x quantifiziert über die Grundmenge.
+Was heißt das? Das x
+quantifiziert über die Grundmenge.
 
 0:19:24.140,0:19:28.710
-Die Grundmenge U ist ja Teil dieser passenden Struktur A.
-Die kennen wir also. Wir können also überprüfen,
+Die Grundmenge U ist ja Teil dieser passenden Struktur
+A. Die kennen wir also. Wir können also überprüfen,
 
 0:19:28.710,0:19:38.179
 ob denn für jedes konkrete Element aus der
@@ -758,28 +759,28 @@ also zu 1 auswertet. Allerdings müssen
 wir dabei natürlich diese Zuordnung,
 
 0:19:43.600,0:19:49.510
-dass das x jetzt genau als d interpretiert werden soll,
-geeignet festhalten. Und dafür gibt es
+dass das x jetzt genau als d interpretiert werden
+soll, geeignet festhalten. Und dafür gibt es
 
 0:19:49.510,0:19:54.820
 dieses Symbol. Das wird hier unten gleich erklärt.
 Das sorgt dafür, dass wir uns im Grunde genommen
 
 0:19:54.820,0:20:00.510
-diese Wahl eines Elements der Grundmenge merken können.
-Das heißt, das verändert die passende Struktur
+diese Wahl eines Elements der Grundmenge merken
+können. Das heißt, das verändert die passende Struktur
 
 0:20:00.510,0:20:07.690
-ein klein wenig, indem einfach in der
-Interpretation für die Variablen
+ein klein wenig, indem einfach in
+der Interpretation für die Variablen
 
 0:20:07.690,0:20:14.460
 zusätzlich gemerkt wird: "x ist ab jetzt,
 für die Auswertung dieser Restformel F,
 
 0:20:14.460,0:20:22.210
-als d zu interpretieren." Das ist das,
-was hier unten steht. Also, wir haben eine Variable x
+als d zu interpretieren." Das ist das, was hier
+unten steht. Also, wir haben eine Variable x
 
 0:20:22.210,0:20:30.740
 und ein Element der Grundmenge. Und dann steht A
@@ -790,24 +791,24 @@ man das lesen, für diejenige Struktur, die der
 Ursprungsstruktur A entspricht, außer dass die
 
 0:20:36.549,0:20:41.610
-Interpretation von x jetzt ist: I(x) = d.
-Egal, ob I auf x vorher bereits definiert war oder nicht.
+Interpretation von x jetzt ist: I(x) = d. Egal, ob
+I auf x vorher bereits definiert war oder nicht.
 
 0:20:41.610,0:20:45.450
 Das kommt ja darauf an, ob x vorher auch schon frei
 war oder nicht. Hier könnte x ja jetzt frei werden,
 
 0:20:45.450,0:20:57.139
-weil der Quantor sozusagen gelöscht wird
-für die Restformel F. Deswegen wird I(x) auf d gesetzt,
+weil der Quantor sozusagen gelöscht wird für die
+Restformel F. Deswegen wird I(x) auf d gesetzt,
 
 0:20:57.139,0:21:03.720
-egal, was es vorher in der Struktur A
-vielleicht schon war.
+egal, was es vorher in der
+Struktur A vielleicht schon war.
 
 0:21:03.720,0:21:08.540
-Das liefert eine neue Struktur, und die wird jetzt verwendet,
-um die Restformel F auszuwerten.
+Das liefert eine neue Struktur, und die wird
+jetzt verwendet, um die Restformel F auszuwerten.
 
 0:21:08.540,0:21:13.679
 Und das ist beim Allquantor so, das ist auch
@@ -818,8 +819,8 @@ diesen beiden Fällen ist, dass hier geprüft wird,
 ob für *alle* möglichen Wahlen aus der Grundmenge
 
 0:21:18.630,0:21:25.090
-hier 1 herauskommt; und hier geprüft wird,
-ob für *ein* Element der Grundmenge hier 1 herauskommt.
+hier 1 herauskommt; und hier geprüft wird, ob für
+*ein* Element der Grundmenge hier 1 herauskommt.
 
 0:21:25.090,0:21:32.059
 Und im jeweiligen positiven Fall ist dann
@@ -838,8 +839,8 @@ Interpretation I auf den Funktionssymbolen etc.
 gebildeten Zuweisung von Wahrheitswerten für
 
 0:21:57.399,0:22:04.740
-die atomaren Formen der Prädikatenlogik,
-also P(irgendwelche Argumente), können wir jetzt
+die atomaren Formen der Prädikatenlogik, also
+P(irgendwelche Argumente), können wir jetzt
 
 0:22:04.740,0:22:13.470
 für eine Gesamtformel und eine gegebene, passende
@@ -850,20 +851,20 @@ Wie nutzen wir das? Wir können das exakt so nutzen
 wie in der Aussagenlogik. Jetzt kommt also nochmal
 
 0:22:20.790,0:22:26.380
-eine Folie, die fast identisch ist zu einer Folie
-aus dem Aussagenlogik-Kapitel, außer dass
+eine Folie, die fast identisch ist zu einer
+Folie aus dem Aussagenlogik-Kapitel, außer dass
 
 0:22:26.380,0:22:33.000
 im Wesentlichen überall das α oder das α-dach
 durch dieses "A" oder "A-dach" ersetzt ist.
 
 0:22:33.000,0:22:39.279
-Die Begriffe sind analog zur Aussagenlogik.
-Allerdings wird eben diese
+Die Begriffe sind analog zur
+Aussagenlogik. Allerdings wird eben diese
 
 0:22:39.279,0:22:52.470
-kompliziertere
-Semantik-Funktion benutzt. Also vorher stand hier,
+kompliziertere Semantik-Funktion
+benutzt. Also vorher stand hier,
 
 0:22:52.470,0:22:58.980
 auf der Folie in der Aussagenlogik: "Ist α eine zu F
@@ -874,36 +875,36 @@ so sagen wir, dass F unter α gilt oder α ein Modell
 für F ist." Und dass wir das auch so schreiben können.
 
 0:23:06.269,0:23:11.580
-Und jetzt ist hier im Wesentlichen einfach das α
-jeweils durch diese Struktur ersetzt worden.
+Und jetzt ist hier im Wesentlichen einfach das
+α jeweils durch diese Struktur ersetzt worden.
 
 0:23:11.580,0:23:18.279
-Also: "Ist A eine zu F passende Struktur und
-es gilt, dass A-dach auf F angewandt, entsprechend
+Also: "Ist A eine zu F passende Struktur und es
+gilt, dass A-dach auf F angewandt, entsprechend
 
 0:23:18.279,0:23:23.529
-der gerade gesehenen Folien, den Wahrheitswert 1 ergibt,
-so sagen wir, dass F in dieser Struktur gilt
+der gerade gesehenen Folien, den Wahrheitswert 1
+ergibt, so sagen wir, dass F in dieser Struktur gilt
 
 0:23:23.529,0:23:28.480
 oder dass diese Struktur ein Modell für F ist.
 Und schreiben das auch auf diese Art und Weise."
 
 0:23:28.480,0:23:38.710
-Im Grunde wurde hier nur "Belegung" durch "Struktur" ersetzt.
-Eine Formel heißt erfüllbar,
+Im Grunde wurde hier nur "Belegung" durch
+"Struktur" ersetzt. Eine Formel heißt erfüllbar,
 
 0:23:38.710,0:23:43.250
 wenn sie mindestens ein Modell besitzt.
 Ansonsten heißt sie unerfüllbar.
 
 0:23:43.250,0:23:48.110
-Diese Statuszuweisung zu den Formeln ist exakt
-wie in der Aussagenlogik, nur dass eben die Formeln
+Diese Statuszuweisung zu den Formeln ist exakt wie
+in der Aussagenlogik, nur dass eben die Formeln
 
 0:23:48.110,0:23:56.070
-jetzt komplizierter sind. Aber die Situation,
-in der wir eine Formel erfüllbar oder nicht erfüllbar nennen,
+jetzt komplizierter sind. Aber die Situation, in der
+wir eine Formel erfüllbar oder nicht erfüllbar nennen,
 
 0:23:56.070,0:24:03.500
 ist wie in der Aussagenlogik. Das Gleiche gilt
@@ -918,52 +919,52 @@ Wenn für alle zu F passenden Strukturen
 die Semantikfunktion den Wert 1 ergibt.
 
 0:24:14.539,0:24:19.139
-In der Aussagenlogik stand hier: "Eine Formel F heißt
-gültig oder Tautologie, wenn für alle zu F
+In der Aussagenlogik stand hier: "Eine Formel F
+heißt gültig oder Tautologie, wenn für alle zu F
 
 0:24:19.139,0:24:30.640
-passenden Belegungen α-dach(F) = 1."
-Also die Begriffe sind analog zur Aussagenlogik,
+passenden Belegungen α-dach(F) = 1." Also
+die Begriffe sind analog zur Aussagenlogik,
 
 0:24:30.640,0:24:35.140
-natürlich auch die Zusammenhänge dazwischen.
-Also die Tatsache aus dem Spiegelungsprinzip etwa,
+natürlich auch die Zusammenhänge dazwischen. Also
+die Tatsache aus dem Spiegelungsprinzip etwa,
 
 0:24:35.140,0:24:42.049
-dass eine Formel genau dann unerfüllbar ist,
-wenn ihre Negation eine Tautologie ist.
+dass eine Formel genau dann unerfüllbar
+ist, wenn ihre Negation eine Tautologie ist.
 
 0:24:42.049,0:24:50.030
 Das gilt hier weiterhin, weil ja auch diese Begriffe
 ganz analog gebildet sind. Und schließlich wird auch der
 
 0:24:50.030,0:24:55.519
-Äquivalenzbegriff zwischen Formeln auf gleiche Weise
-wie in der Aussagenlogik formalisiert.
+Äquivalenzbegriff zwischen Formeln auf gleiche
+Weise wie in der Aussagenlogik formalisiert.
 
 0:24:55.519,0:25:01.009
-Nämlich: "Zwei Formeln (jetzt prädikatenlogische Formeln)
-heißen semantisch äquivalent,
+Nämlich: "Zwei Formeln (jetzt prädikatenlogische
+Formeln) heißen semantisch äquivalent,
 
 0:25:01.009,0:25:08.379
 wenn für alle zu F und G passenden Strukturen
 die gleichen Wahrheitswerte herauskommen."
 
 0:25:08.379,0:25:14.549
-In der Aussagenlogik stand hier: "..., wenn für alle zu
-F und G passenden Belegungen α-dach(F) = α-dach(G)."
+In der Aussagenlogik stand hier: "..., wenn für alle
+zu F und G passenden Belegungen α-dach(F) = α-dach(G)."
 
 0:25:14.549,0:25:20.920
 Dann heißen die äquivalent. Und dann schreiben
 wir das auch auf diese Weise. Diese Schreibweise
 
 0:25:20.920,0:25:26.791
-haben wir ja für die Prädikatenlogik schon verwendet.
-Nämlich genau auf dieser Folie.
+haben wir ja für die Prädikatenlogik schon
+verwendet. Nämlich genau auf dieser Folie.
 
 0:25:26.791,0:25:32.590
-Da hatte ich einfach Sachen behauptet, dass sie äquivalent sind,
-weil wir die benutzen wollen. Und ich hatte sie intuitiv
+Da hatte ich einfach Sachen behauptet, dass sie äquivalent
+sind, weil wir die benutzen wollen. Und ich hatte sie intuitiv
 
 0:25:32.590,0:25:38.639
 begründet. Aber mit den Semantikfunktionen könnten
@@ -986,8 +987,8 @@ konkrete, als äquivalent behauptete, aussagenlogische
 Formeln wirklich äquivalent sind. Indem wir einfach
 
 0:26:03.850,0:26:08.159
-eine große Wahrheitstafel aufgebaut haben (mit
-allen Belegungen) und überprüft haben,
+eine große Wahrheitstafel aufgebaut haben
+(mit allen Belegungen) und überprüft haben,
 
 0:26:08.159,0:26:14.309
 ob immer für die linke Seite und die rechte Seite
@@ -1002,20 +1003,20 @@ und im Prinzip so beweisbar wäre. Das war jetzt vielleicht
 ein Hammer. Das sind relativ allgemeine und deswegen
 
 0:26:36.250,0:26:41.980
-komplexe Definitionen. Um das nochmal sozusagen
-zu "grounden" und an ein konkretes Beispiel zu binden,
+komplexe Definitionen. Um das nochmal sozusagen zu
+"grounden" und an ein konkretes Beispiel zu binden,
 
 0:26:41.980,0:26:47.559
-würde ich gern zu Ende dieses Videos einfach nochmal
-so etwas tun für eine konkrete Formel.
+würde ich gern zu Ende dieses Videos einfach
+nochmal so etwas tun für eine konkrete Formel.
 
 0:26:47.559,0:26:52.970
-Und zwar die, die wir vorhin schon gesehen haben.
-Damit Ihnen klar ist, dass man das konkret ausrechnen kann
+Und zwar die, die wir vorhin schon gesehen haben. Damit
+Ihnen klar ist, dass man das konkret ausrechnen kann
 
 0:26:52.970,0:26:59.590
-für eine konkrete Formel und eine
-dafür konkret gegebene Struktur. Wir machen das mal,
+für eine konkrete Formel und eine dafür
+konkret gegebene Struktur. Wir machen das mal,
 
 0:26:59.590,0:27:05.250
 indem wir uns die Frage stellen, welchen Status denn
@@ -1042,8 +1043,8 @@ für die zusätzlich auch noch herauskommt, dass die
 Semantik-Funktion den Wahrheitswert 1 liefert"?
 
 0:27:31.789,0:27:37.629
-Wir haben vorhin bereits eine passende Struktur gesehen.
-Das war diese. Wir hatten gesagt, wir könnten
+Wir haben vorhin bereits eine passende Struktur
+gesehen. Das war diese. Wir hatten gesagt, wir könnten
 
 0:27:37.629,0:27:43.200
 uns entscheiden, als die Grundmenge \{Gabi,Klaus\}
@@ -1058,28 +1059,28 @@ zu nehmen, in der (Gabi,Klaus) und (Klaus,Gabi)
 in Beziehung stehen. Das ist noch kein Modell.
 
 0:27:56.879,0:28:01.419
-Das ist erstmal nur eine passende Struktur.
-Von der wissen wir a priori nicht, ob sie die Formel
+Das ist erstmal nur eine passende Struktur. Von
+der wissen wir a priori nicht, ob sie die Formel
 
 0:28:01.419,0:28:11.270
 wahr macht, also ob "A-dach" für diese Struktur und von dieser
 Formel 1 ergibt. Aber in der Tat können wir nachrechnen,
 
 0:28:11.270,0:28:17.039
-dass dem so ist. (ACHTUNG: Nur wenn I(M) noch (Klaus,Klaus) hinzugefügt wird!) Indem wir die Definitionen von den
-vorigen Folien anwenden, können wir tatsächlich
+dass dem so ist. (ACHTUNG: Nur wenn I(M) noch (Klaus,Klaus) hinzugefügt wird!)
+Indem wir die Definitionen von den vorigen Folien anwenden, können wir tatsächlich
 
 0:28:17.039,0:28:24.639
-konkret ausrechnen, dass für diese Struktur, bei
-dieser Formel, durch dieses "Ausfalten" der
+konkret ausrechnen, dass für diese Struktur,
+bei dieser Formel, durch dieses "Ausfalten" der
 
 0:28:24.639,0:28:29.529
-verschiedenen Fälle, am Ende 1 herauskommt.
-Das heißt dann, dass diese Struktur ein Modell für F ist,
+verschiedenen Fälle, am Ende 1 herauskommt. Das heißt
+dann, dass diese Struktur ein Modell für F ist,
 
 0:28:29.529,0:28:40.649
-dass jene Formel F also erfüllbar ist, nicht unerfüllbar ist.
-Sie könnte auch eine Tautologie sein.
+dass jene Formel F also erfüllbar ist, nicht
+unerfüllbar ist. Sie könnte auch eine Tautologie sein.
 
 0:28:40.649,0:28:45.919
 Eine Tautologie wäre die Formel aber eben nur,
@@ -1090,28 +1091,28 @@ Und wir können uns hier leicht überlegen,
 dass es mindestens eine Struktur A gibt,
 
 0:28:52.659,0:29:01.539
-die auch zur Formel passt, die aber leider nicht den
-Wahrheitswert 1 ergibt beim Auswerten.
+die auch zur Formel passt, die aber leider
+nicht den Wahrheitswert 1 ergibt beim Auswerten.
 
 0:29:01.539,0:29:10.190
-Folglich ist die Formel keine Tautologie.
-Die einfachste Struktur, die das zeigen würde,
+Folglich ist die Formel keine Tautologie. Die
+einfachste Struktur, die das zeigen würde,
 
 0:29:10.190,0:29:14.210
 wäre eine Struktur, in der wir a) die Grundmenge
 möglichst klein machen. Die darf ja nie leer sein,
 
 0:29:14.210,0:29:22.649
-aber die kann klein sein. Die kann z.B. genau
-nur ein Element enthalten. Und indem wir b) die Relation
+aber die kann klein sein. Die kann z.B. genau nur
+ein Element enthalten. Und indem wir b) die Relation
 
 0:29:22.649,0:29:27.929
-auch möglichst klein halten. Nämlich leer lassen.
-Also was steht hier? Eine Struktur, also ein anderes A,
+auch möglichst klein halten. Nämlich leer lassen. Also
+was steht hier? Eine Struktur, also ein anderes A,
 
 0:29:27.929,0:29:34.190
-gegeben durch eine andere Grundmenge. Nämlich nur Klaus.
-Als Interpretation für das Konstantensymbol k
+gegeben durch eine andere Grundmenge. Nämlich nur
+Klaus. Als Interpretation für das Konstantensymbol k
 
 0:29:34.190,0:29:39.480
 nehme ich weiterhin diesen Klaus. Ich hätte da sowieso keine
@@ -1122,56 +1123,56 @@ Wenn die Grundmenge nur ein Element enthält, muss es
 jenes sein. Und wie interpretiere ich das zweistellige
 
 0:29:44.749,0:29:50.370
-Prädikatsymbol M? Als die leere Relation.
-Also einfach nichts steht miteinander in Beziehung.
+Prädikatsymbol M? Als die leere Relation. Also
+einfach nichts steht miteinander in Beziehung.
 
 0:29:50.370,0:30:02.090
-Und dann kann man ausrechnen, dass für diese Struktur
-eben nicht 1 herauskommt. Warum nicht?
+Und dann kann man ausrechnen, dass für diese
+Struktur eben nicht 1 herauskommt. Warum nicht?
 
 0:30:02.090,0:30:09.410
-In dem Fall, wo wir dieses "A-dach" für so eine
-"Für alle"-Aussage ausrechnen, könnte ja nur 1 herauskommen,
+In dem Fall, wo wir dieses "A-dach" für so eine "Für
+alle"-Aussage ausrechnen, könnte ja nur 1 herauskommen,
 
 0:30:09.410,0:30:14.150
-wenn für jede Wahl, die wir für x treffen können, also für jedes
-Element der Grundmenge (und da kommt nur Klaus infrage),
+wenn für jede Wahl, die wir für x treffen können, also für
+jedes Element der Grundmenge (und da kommt nur Klaus infrage),
 
 0:30:14.150,0:30:24.129
-diese Rest-Aussage sich als wahr ergibt.
-Und da kann man feststellen: Wenn hier die leere
+diese Rest-Aussage sich als wahr ergibt. Und
+da kann man feststellen: Wenn hier die leere
 
 0:30:24.129,0:30:31.929
-Relation für M gewählt wird, dann wird
-diese Vorbedingung wahr sein, diese Nachbedingung aber nicht.
+Relation für M gewählt wird, dann wird diese
+Vorbedingung wahr sein, diese Nachbedingung aber nicht.
 
 0:30:31.929,0:30:38.230
 Also wir könnten die Implikation übersetzen in
 "Nicht das hier vorne Oder das hier hinten", und
 
 0:30:38.230,0:30:47.549
-würden dann mit Verwendung der Regeln für Disjunktion
-und Negation herausfinden, dass es insgesamt nicht stimmt,
+würden dann mit Verwendung der Regeln für Disjunktion und
+Negation herausfinden, dass es insgesamt nicht stimmt,
 
 0:30:47.549,0:30:55.990
 dass für jede Wahl von x (nämlich die Wahl Klaus für x)
 hier 1 herauskommt. Und das heißt dann aber eben auch,
 
 0:30:55.990,0:31:02.470
-weil da nicht immer für jede Wahl 1 herauskommt,
-dass diese Interpretation
+weil da nicht immer für jede Wahl 1
+herauskommt, dass diese Interpretation
 
 0:31:02.470,0:31:10.519
 für diese (∀x : F)-Formel 0 ist.
 Und das sorgt dann genau dafür,
 
 0:31:10.519,0:31:18.950
-dass hier eben A-dach(F) für diese Struktur 0 ergibt,
-also wir mindestens eine Struktur haben,
+dass hier eben A-dach(F) für diese Struktur 0
+ergibt, also wir mindestens eine Struktur haben,
 
 0:31:18.950,0:31:26.320
-die kein Modell ist. Und das macht diese Formel
-zu einer Nicht-Tautologie. Aber sie ist
+die kein Modell ist. Und das macht diese
+Formel zu einer Nicht-Tautologie. Aber sie ist
 
 0:31:26.320,0:31:27.160
 zumindest eine erfüllbare Formel.

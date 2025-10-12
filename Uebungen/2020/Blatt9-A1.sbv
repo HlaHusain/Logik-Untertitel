@@ -31,8 +31,8 @@ den Nullen an. Die Hälfte von Acht ist Vier,
 vier Nullen bei A, vier Einsen bei A. Dann
 
 0:00:46.140,0:00:51.780
-die Hälfte von Vier ist Zwei, zwei Nullen bei B,
-zwei Einsen, zwei Nullen, zwei Einsen. Und
+die Hälfte von Vier ist Zwei, zwei Nullen bei
+B, zwei Einsen, zwei Nullen, zwei Einsen. Und
 
 0:00:51.780,0:00:56.940
 dann die Hälfte von Zwei ist Eins, also Null und
@@ -115,8 +115,8 @@ was auf der rechten Seite der Implikation steht,
 dann kommt immer eine Eins heraus. Das heißt, wir
 
 0:02:48.660,0:02:51.720
-wissen schon mal, dass wir in die letzten
-beiden Zeilen eine Eins schreiben können, denn da
+wissen schon mal, dass wir in die letzten beiden
+Zeilen eine Eins schreiben können, denn da
 
 0:02:51.720,0:02:55.500
 haben wir für nicht A und nicht B eine Null. Für
@@ -215,8 +215,8 @@ schreibe ich zunächst die Formel nochmal ab. Das
 Erste, was wir jetzt machen, ist, dass wir die
 
 0:04:57.660,0:05:03.600
-Definition der Implikation verwenden. Das heißt, wir
-lösen diesen vorderen Teil, diese vordere
+Definition der Implikation verwenden. Das heißt,
+wir lösen diesen vorderen Teil, diese vordere
 
 0:05:03.600,0:05:10.800
 Implikation auf und haben dann nicht nicht A
@@ -339,8 +339,8 @@ B oder nicht C oder A und C. Jetzt können
 wir wieder das Distributivgesetz anwenden.
 
 0:08:24.540,0:08:31.680
-Dafür betrachten wir einmal diesen Teil und
-A und C gesondert. Das heißt, den ersten Teil
+Dafür betrachten wir einmal diesen Teil und A
+und C gesondert. Das heißt, den ersten Teil
 
 0:08:31.680,0:08:38.700
 schreiben wir ab, A oder nicht C und jetzt gehen
@@ -359,8 +359,8 @@ einem oder verbunden, heißt, dass dieser Ausdruck
 immer wahr ist, da immer C oder nicht C gilt,
 
 0:09:03.420,0:09:08.100
-und es reicht, wenn eins von beiden wahr ist, dann
-wird die gesamte Teilformel wahr,
+und es reicht, wenn eins von beiden wahr
+ist, dann wird die gesamte Teilformel wahr,
 
 0:09:08.100,0:09:16.740
 wenn sie verodert ist. Das heißt, wir erhalten

@@ -10,65 +10,65 @@ Hier sollen wir für die folgenden Zusammenhänge
 eine passende aussagenlogische Formel angeben.
 
 0:00:10.139,0:00:14.610
-Bei Aufgabe A haben wir den Satz: Wenn A nicht
-wahr ist, so ist B wahr.
+Bei Aufgabe A haben wir den Satz:
+Wenn A nicht wahr ist, so ist B wahr.
 
 0:00:14.610,0:00:18.250
-Hier erkennen wir von der Struktur schon wieder
-das Gleiche, was wir in den vorherigen Übungsblättern
+Hier erkennen wir von der Struktur schon wieder das
+Gleiche, was wir in den vorherigen Übungsblättern
 
 0:00:18.250,0:00:19.250
 hatten.
 
 0:00:19.250,0:00:21.880
-Zum Beispiel mit dem Satz: Wenn es Nacht ist,
-dann ist es draußen dunkel.
+Zum Beispiel mit dem Satz: Wenn es
+Nacht ist, dann ist es draußen dunkel.
 
 0:00:21.880,0:00:23.300
 Das waren ja immer Implikationen.
 
 0:00:23.300,0:00:28.870
-Wir haben also: Wenn A nicht wahr ist, dann
-ist B wahr.
+Wir haben also: Wenn A nicht
+wahr ist, dann ist B wahr.
 
 0:00:28.870,0:00:32.750
-Ich habe damals schon gesagt: Der Wenn-Teil
-steht immer vor der Applikation.
+Ich habe damals schon gesagt: Der
+Wenn-Teil steht immer vor der Applikation.
 
 0:00:32.750,0:00:39.489
 Das heißt, wir wissen: Nicht A, dann folgt
 eine Implikation, dann steht da, B ist wahr,
 
 0:00:39.489,0:00:43.199
-also Nicht A impliziert B. Dann haben wir
-es schon.
+also Nicht A impliziert B.
+Dann haben wir es schon.
 
 0:00:43.199,0:00:46.140
-Dann Aufgabe B: Wenn weder A noch B gelten,
-so gilt auch C nicht.
+Dann Aufgabe B: Wenn weder A noch
+B gelten, so gilt auch C nicht.
 
 0:00:46.140,0:00:49.989
-Hier muss man aufpassen, weil ein Fehlerpotenzial
-gegeben ist.
+Hier muss man aufpassen, weil
+ein Fehlerpotenzial gegeben ist.
 
 0:00:49.989,0:00:55.579
-Wenn weder A noch B gelten, dann muss man genau
-überlegen, wie man die Negation macht.
+Wenn weder A noch B gelten, dann muss man
+genau überlegen, wie man die Negation macht.
 
 0:00:55.579,0:01:02.139
-Weder A noch B heißt, dass sowohl A als auch
-B nicht gelten dürfen.
+Weder A noch B heißt, dass sowohl
+A als auch B nicht gelten dürfen.
 
 0:01:02.139,0:01:04.910
 Deswegen muss beides negiert werden.
 
 0:01:04.910,0:01:13.100
-Das heißt, wir schreiben in Klammern: Nicht
-A und Nicht B, weil beides nicht gelten darf,
+Das heißt, wir schreiben in Klammern: Nicht A
+und Nicht B, weil beides nicht gelten darf,
 
 0:01:13.100,0:01:17.070
-impliziert und dann steht da: So gilt auch
-nicht C. Impliziert Nicht C.
+impliziert und dann steht da: So gilt
+auch nicht C. Impliziert Nicht C.
 
 0:01:17.070,0:01:21.620
 Hier müsst ihr wirklich aufpassen, dass ihr
@@ -89,8 +89,8 @@ Aber es wäre okay, wenn eins von beiden
 gilt.
 
 0:01:31.940,0:01:35.710
-Also ganz wichtig ist, das Nicht hier in die
-Klammer zu ziehen.
+Also ganz wichtig ist, das Nicht
+hier in die Klammer zu ziehen.
 
 0:01:35.710,0:01:40.820
 Oder wenn ihr das vor die Klammer ziehen wollt,
@@ -100,8 +100,8 @@ dann entsprechend der de-Morgan-Regel, klappt
 das Oder um.
 
 0:01:41.860,0:01:47.330
-Dann habt ihr Nicht A oder B, A oder B in
-Klammern, impliziert Nicht C.
+Dann habt ihr Nicht A oder B, A oder
+B in Klammern, impliziert Nicht C.
 
 0:01:47.330,0:01:51.160
 Wenn ihr de-Morgan hier nicht sofort erkennt,
@@ -112,19 +112,19 @@ Wenn ihr von der rechten Formel die de-Morgan-Formel
 anwendet, dann habt ihr Nicht A oder B, zieht
 
 0:01:56.960,0:02:01.960
-die Negation rein, habt ihr Nicht A und Nicht
-B, also wieder die erste Formel.
+die Negation rein, habt ihr Nicht A und
+Nicht B, also wieder die erste Formel.
 
 0:02:01.960,0:02:06.250
-Dann Aufgabe C: B kann nur wahr sein, wenn
-A nicht wahr ist.
+Dann Aufgabe C: B kann nur wahr
+sein, wenn A nicht wahr ist.
 
 0:02:06.250,0:02:09.530
 Hier gibt es auch zwei richtige Lösungsansätze.
 
 0:02:09.530,0:02:13.870
-Ihr könnt einmal sagen: Wenn A wahr ist,
-dann kann B nicht wahr sein.
+Ihr könnt einmal sagen: Wenn A wahr
+ist, dann kann B nicht wahr sein.
 
 0:02:13.870,0:02:19.370
 Also A impliziert Nicht B. Oder was wahrscheinlich
@@ -138,15 +138,15 @@ hätte man: B kann nur wahr sein, wenn Nicht
 A wahr ist.
 
 0:02:28.080,0:02:32.160
-Das heißt, wenn B wahr ist, impliziert das
-automatisch, dass A nicht wahr ist.
+Das heißt, wenn B wahr ist, impliziert
+das automatisch, dass A nicht wahr ist.
 
 0:02:32.160,0:02:33.950
 Also B impliziert Nicht A.
 
 0:02:33.950,0:02:37.840
-Das sind beides korrekte Lösungen, die ihr
-hier hättet verwenden können.
+Das sind beides korrekte Lösungen,
+die ihr hier hättet verwenden können.
 
 0:02:37.840,0:02:38.840
 Bei Aufgabe D:
@@ -158,32 +158,32 @@ A gilt genau dann, wenn auch B und C gelten.
 Hier haben wir jetzt einen Sonderfall.
 
 0:02:42.890,0:02:48.680
-Wir haben nicht mehr ein Wenn Dann, sondern
-ein Genau Dann Wenn.
+Wir haben nicht mehr ein Wenn
+Dann, sondern ein Genau Dann Wenn.
 
 0:02:48.680,0:02:53.160
-Und Genau Dann Wenn ist keine normale Implikation
-mehr.
+Und Genau Dann Wenn ist keine
+normale Implikation mehr.
 
 0:02:53.160,0:02:56.510
-Sondern A gilt genau dann, wenn auch B und
-C gelten.
+Sondern A gilt genau dann,
+wenn auch B und C gelten.
 
 0:02:56.510,0:03:02.850
 Das heißt, wenn B und C gelten, gilt auch
 A. Und wenn A gilt, dann gilt auch B und C.
 
 0:03:02.850,0:03:07.630
-Genau Dann hat diese Doppelbedeutung, dass
-es in beide Richtungen geht.
+Genau Dann hat diese Doppelbedeutung,
+dass es in beide Richtungen geht.
 
 0:03:07.630,0:03:11.690
 Deswegen haben wir hier keine Implikation,
 sondern eine Doppelimplikation.
 
 0:03:11.690,0:03:17.420
-Das heißt, wir haben A und dann die Doppelimplikation,
-in Klammern B und C.
+Das heißt, wir haben A und dann die
+Doppelimplikation, in Klammern B und C.
 
 0:03:17.420,0:03:20.250
 Da steht ja, B und C müssen gelten.
@@ -200,8 +200,8 @@ wo wir einmal wieder sagen können: Wenn C
 also nicht gilt, dann gilt auch A nicht.
 
 0:03:32.849,0:03:39.670
-Das heißt, Nicht C impliziert Nicht A. Oder
-eben entsprechend des Textes: A gilt, A impliziert,
+Das heißt, Nicht C impliziert Nicht A. Oder eben
+entsprechend des Textes: A gilt, A impliziert,
 
 0:03:39.670,0:03:40.910
 C gilt.
@@ -210,15 +210,15 @@ C gilt.
 A gilt nur, falls auch C gilt.
 
 0:03:43.390,0:03:47.120
-Das Falls hat ja hier die gleiche Bedeutung
-wie das Wenn, auch wenn es da in der natürlichen
+Das Falls hat ja hier die gleiche Bedeutung wie
+das Wenn, auch wenn es da in der natürlichen
 
 0:03:47.120,0:03:49.370
 Sprache kleine Differenzen gibt.
 
 0:03:49.370,0:03:52.250
-Aber hier in dem Fall hat es die gleiche Bedeutung
-wie das Wenn.
+Aber hier in dem Fall hat es die
+gleiche Bedeutung wie das Wenn.
 
 0:03:52.250,0:03:54.920
 Wenn A gilt, dann gilt auch C.

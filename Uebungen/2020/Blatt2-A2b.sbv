@@ -47,8 +47,8 @@ Und für die Gesamtformel muss ich mir die
 Spalte Nicht A anschauen, das ist diese hier.
 
 0:00:49.120,0:00:52.440
-Und eben diese letzte Hilfsspalte Oder Nicht
-B und C.
+Und eben diese letzte
+Hilfsspalte Oder Nicht B und C.
 
 0:00:52.440,0:00:56.739
 Und wenn in einem von beidem wieder eine 1
@@ -58,8 +58,8 @@ drinsteht, dann ist es im Gesamten eine 1.
 Wenn nicht, dann ist es 0.
 
 0:00:58.109,0:01:02.379
-Das heißt, die Wahrheitstabelle für diese
-Formel B sieht dann so aus.
+Das heißt, die Wahrheitstabelle für
+diese Formel B sieht dann so aus.
 
 0:01:02.379,0:01:05.579
 Jetzt ist noch die Frage: Ist das KNF oder
@@ -69,12 +69,12 @@ DNF?
 Da ist die Antwort: Es ist beides.
 
 0:01:07.740,0:01:11.659
-Die Klammerung ist vielleicht erst mal ein
-bisschen verwirrend, aber aufgrund der Assoziativität
+Die Klammerung ist vielleicht erst mal ein bisschen
+verwirrend, aber aufgrund der Assoziativität
 
 0:01:11.659,0:01:13.670
-könnt ihr auch die Klammern zum Beispiel
-so schreiben.
+könnt ihr auch die Klammern
+zum Beispiel so schreiben.
 
 0:01:13.670,0:01:18.859
 Nicht A oder B oder Nicht C.
@@ -107,8 +107,8 @@ Wenn man eine Formel hat wie hier Nicht A
 oder B oder Nicht C, dann hat man nur noch
 
 0:01:40.499,0:01:43.590
-einzelne Literale, die halt hier zweimal negiert
-sind, das ist aber egal.
+einzelne Literale, die halt hier zweimal
+negiert sind, das ist aber egal.
 
 0:01:43.590,0:01:47.219
 Ihr habt schon im Tutorium besprochen, dass

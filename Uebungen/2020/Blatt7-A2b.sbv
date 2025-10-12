@@ -1,6 +1,6 @@
 0:00:00.070,0:00:05.130
-Bei Aufgabe B haben wir das Prolog-Prädikat
-ist double gegeben, das ist auch wieder zweistellig.
+Bei Aufgabe B haben wir das Prolog-Prädikat ist
+double gegeben, das ist auch wieder zweistellig.
 
 0:00:05.130,0:00:11.541
 Und das wird genau dann gelten, wenn A, also,
@@ -11,12 +11,12 @@ Zwei Mal B ist, also doppelt so groß wie
 B ist.
 
 0:00:15.480,0:00:22.140
-Und hier haben wir schon die Abbruchbedingung
-gegeben, isDouble Z, Z.
+Und hier haben wir schon die
+Abbruchbedingung gegeben, isDouble Z, Z.
 
 0:00:22.140,0:00:23.779
-Woran erkennen wir, dass das die Abbruchbedingung
-ist?
+Woran erkennen wir, dass das
+die Abbruchbedingung ist?
 
 0:00:23.779,0:00:28.460
 Einerseits ist es ein Fakt, das ist keine
@@ -26,12 +26,12 @@ Regel, und andererseits haben wir hier schon
 die kleinstmöglichen Zahlen drin, Z und Z.
 
 0:00:31.300,0:00:35.850
-Wenn man überlegt, was ist Zwei Mal irgendwas,
-dann ist Null gleich Zwei Mal Null.
+Wenn man überlegt, was ist Zwei Mal
+irgendwas, dann ist Null gleich Zwei Mal Null.
 
 0:00:35.850,0:00:39.449
-Und kleiner geht es nicht, weil wir keine
-negativen Zahlen haben.
+Und kleiner geht es nicht, weil
+wir keine negativen Zahlen haben.
 
 0:00:39.449,0:00:41.000
 Jetzt brauchen wir noch eine Regel dazu.
@@ -58,12 +58,12 @@ immer noch Null.
 Und das ist hier diese Bedingung.
 
 0:01:00.969,0:01:05.050
-Wenn B jetzt Eins wäre, also, S von Z, was
-wäre dann Zwei Mal B?
+Wenn B jetzt Eins wäre, also, S
+von Z, was wäre dann Zwei Mal B?
 
 0:01:05.050,0:01:08.930
-Zwei Mal B wäre dann S von S von Z, also,
-Eins und Zwei.
+Zwei Mal B wäre dann S von S
+von Z, also, Eins und Zwei.
 
 0:01:08.930,0:01:10.020
 Gehen wir noch einen größer.
@@ -73,8 +73,8 @@ Wenn B jetzt Zwei wäre, S von S von Z, wie
 wäre dann Zwei Mal B, also, A, dann wäre
 
 0:01:15.340,0:01:20.850
-das schon Vier, also, S von S von S von S
-von Z und so weiter und so fort.
+das schon Vier, also, S von S von S
+von S von Z und so weiter und so fort.
 
 0:01:20.850,0:01:22.710
 Und was erkennen wir hieran?
@@ -90,8 +90,8 @@ S hinzufügen.
 Wir gehen einen höher.
 
 0:01:30.040,0:01:32.159
-Und wie viel gehen wir gleichzeitig beim rechten
-höher?
+Und wie viel gehen wir
+gleichzeitig beim rechten höher?
 
 0:01:32.159,0:01:35.700
 Da gehen wir jedes Mal Zwei direkt höher.
@@ -109,8 +109,8 @@ Vier wäre dann Acht.
 Das sind wieder Zwei mehr als Sechs.
 
 0:01:43.399,0:01:46.659
-Das heißt, pro Schritt werden immer zwei
-S hinzugefügt.
+Das heißt, pro Schritt werden
+immer zwei S hinzugefügt.
 
 0:01:46.659,0:01:53.579
 Und deswegen sieht die Lösung genau so aus,
@@ -135,12 +135,12 @@ wir nicht abdecken, weil das hier schon in
 der Abbruchbedingung ist.
 
 0:02:13.920,0:02:15.970
-Das heißt, wir können direkt beim Zweiten
-einsteigen.
+Das heißt, wir können direkt
+beim Zweiten einsteigen.
 
 0:02:15.970,0:02:21.110
-Und durch das X und das Y halten wir uns offen,
-dass wir beliebig tief hier reingehen.
+Und durch das X und das Y halten wir uns
+offen, dass wir beliebig tief hier reingehen.
 
 0:02:21.110,0:02:25.300
 Und das gilt genau dann, wenn isDouble X,
@@ -155,17 +155,17 @@ von den höheren Zahlen zu den niedrigeren,
 nehmen wir hier in dem Fall immer bei dem
 
 0:02:33.110,0:02:41.220
-A zwei Mal das S weg und bei dem Y ein Mal,
-bis wir gucken, kommen wir zu Z, Z.
+A zwei Mal das S weg und bei dem Y ein
+Mal, bis wir gucken, kommen wir zu Z, Z.
 
 0:02:41.220,0:02:45.990
-Und wenn das der Fall ist, dann ist diese
-große Zahl doppelt so groß wie die.
+Und wenn das der Fall ist, dann ist
+diese große Zahl doppelt so groß wie die.
 
 0:02:45.990,0:02:51.370
 Kommen wir nicht bei Z, Z aus, weil wir
 zum Beispiel hier nochmal S von Z, Z
 
 0:02:51.370,0:02:54.200
-übrig haben, dann bekommen wir auch ein false
-heraus.
+übrig haben, dann bekommen
+wir auch ein false heraus.

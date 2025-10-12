@@ -11,8 +11,8 @@ nochmal den Screenshot davon. Und zur Erinnerung: Das
 Programm entsprach dieser Formel, dieser Hornformel.
 
 0:00:25.800,0:00:36.630
-Insbesondere hatte ich letztlich im Browser
-diese vier Programmklauseln, also insbesondere diesen Fakt,
+Insbesondere hatte ich letztlich im Browser diese
+vier Programmklauseln, also insbesondere diesen Fakt,
 
 0:00:36.630,0:00:45.840
 den c-Fakt hier und die drei Regeln, die
@@ -23,12 +23,12 @@ abgetippt. Und das, was in Hornformelform
 als Zielklausel oder Anfrage verstanden wird,
 
 0:00:55.560,0:01:02.910
-hatte ich hier eingegeben. Der Grund war, dass dann
-Prolog mit dem negierten Ziel eine Resolution
+hatte ich hier eingegeben. Der Grund war, dass
+dann Prolog mit dem negierten Ziel eine Resolution
 
 0:01:02.910,0:01:08.130
-durchführen kann. Und zwar passiert da
-im Wesentlichen genau das, was ich hier auch
+durchführen kann. Und zwar passiert da im
+Wesentlichen genau das, was ich hier auch
 
 0:01:08.130,0:01:11.760
 vorher in den Folien als Resolution angegeben hatte.
@@ -39,36 +39,36 @@ wenn wir eine Hornformel haben, also eine KNF,
 die sogar Hornformel ist oder sich in diese
 
 0:01:17.070,0:01:22.140
-Implikationshornformel-Schreibweise bringen lässt, dass
-wir den Markierungsalgorithmus anwenden können.
+Implikationshornformel-Schreibweise bringen lässt,
+dass wir den Markierungsalgorithmus anwenden können.
 
 0:01:22.140,0:01:28.770
 Das hätte man hier auch machen können. Wir hätten sagen können
 (jetzt mal auf diesem Programm statt auf der Hornformelform),
 
 0:01:28.770,0:01:34.350
-der Fakt c scheint ja offenbar zu stimmen, weil hier true steht.
-Dann gibt es diese Regeln. Zur Erinnerung: Diese
+der Fakt c scheint ja offenbar zu stimmen, weil hier true
+steht. Dann gibt es diese Regeln. Zur Erinnerung: Diese
 
 0:01:34.350,0:01:39.510
-Prolog-Regeln sind von rechts nach links als Implikation zu lesen.
-Also (C => D) hätte man sagen können,
+Prolog-Regeln sind von rechts nach links als Implikation
+zu lesen. Also (C => D) hätte man sagen können,
 
 0:01:39.510,0:01:45.780
-weil das c hier und hier zu markieren ist, gilt dann auch D.
-Deswegen könnte man D überall markieren.
+weil das c hier und hier zu markieren ist, gilt dann
+auch D. Deswegen könnte man D überall markieren.
 
 0:01:45.780,0:01:51.030
-Das hieße insbesondere hier das D zu markieren.
-Dann wäre die rechte Seite dieser
+Das hieße insbesondere hier das D zu
+markieren. Dann wäre die rechte Seite dieser
 
 0:01:51.030,0:01:56.580
-Regel vollständig markiert. Dann könnte man noch A markieren.
-Und wenn man C schon vorher markiert hatte,
+Regel vollständig markiert. Dann könnte man noch A
+markieren. Und wenn man C schon vorher markiert hatte,
 
 0:01:56.580,0:02:02.640
-und jetzt A markiert hat, könnte man dann auch B markieren und
-deswegen sagen: "Ja, die Anfrage B ist wahr."
+und jetzt A markiert hat, könnte man dann auch B markieren
+und deswegen sagen: "Ja, die Anfrage B ist wahr."
 
 0:02:02.640,0:02:09.360
 Das war der Grund oder eine mögliche Erklärung dafür,
@@ -87,16 +87,16 @@ Unerfüllbarkeit prüfen. Und dann würden wir, also wenn wir
 das Ziel negieren und sich dann herausstellt, dass dieses
 
 0:02:29.520,0:02:34.260
-negierte Ziel zusammen mit diesen positiv gefassten Regeln
-unerfüllbar ist, dann wissen wir, wegen der
+negierte Ziel zusammen mit diesen positiv gefassten
+Regeln unerfüllbar ist, dann wissen wir, wegen der
 
 0:02:34.260,0:02:42.180
-Unerfüllbarkeit des negativen Ziels, dass das
-eigentliche Ziel stimmt/zutrifft. Und dann hätten wir auch B gezeigt.
+Unerfüllbarkeit des negativen Ziels, dass das eigentliche
+Ziel stimmt/zutrifft. Und dann hätten wir auch B gezeigt.
 
 0:02:42.180,0:02:48.720
-Das sehen wir hier. Also dieses ¬B wäre die Negation
-dieser Anfrage hier.
+Das sehen wir hier. Also dieses ¬B
+wäre die Negation dieser Anfrage hier.
 
 0:02:48.720,0:02:54.270
 Die anderen Klauseln, die hier stehen, sind jetzt
@@ -111,28 +111,28 @@ genau den vier Programmregeln entsprechen, wenn
 wir sie als disjunktive Klauseln schreiben der Art
 
 0:03:05.610,0:03:13.380
-zum Beispiel ((A ∧ C) => B) heißt ja: (¬A ∨ ¬C ∨ B),
-also diese erste Klausel hier.
+zum Beispiel ((A ∧ C) => B) heißt ja: (¬A
+∨ ¬C ∨ B), also diese erste Klausel hier.
 
 0:03:13.380,0:03:20.490
 Gesprochen hatte ich auch schon darüber, dass der
 Markierungsalgorithmus und diese Resolution in
 
 0:03:20.490,0:03:26.910
-gewisser Weise entgegengesetzt ablaufen. Also bei
-dem Markierungsalgorithmus fängt man an und fragt sich:
+gewisser Weise entgegengesetzt ablaufen. Also bei dem
+Markierungsalgorithmus fängt man an und fragt sich:
 
 0:03:26.910,0:03:32.370
 "Was ist denn alles wahr im Programm?" und arbeitet
 daraufhin vielleicht irgendwann zu zeigen, dass
 
 0:03:32.370,0:03:41.670
-die Anfrage wahr ist. So wäre das jetzt hier geschehen.
-B hätten wir nach und nach zeigen können durch den Markierungsalgorithmus.
+die Anfrage wahr ist. So wäre das jetzt hier geschehen. B hätten
+wir nach und nach zeigen können durch den Markierungsalgorithmus.
 
 0:03:41.670,0:03:49.410
-Aber die Resolution arbeitet sozusagen umgekehrt.
-Die fängt mit dem Ziel ¬B an und
+Aber die Resolution arbeitet sozusagen
+umgekehrt. Die fängt mit dem Ziel ¬B an und
 
 0:03:49.410,0:03:56.310
 versucht anhand der Programmklauseln einen
@@ -143,32 +143,32 @@ Also da geht es vom Ziel aus, von dem B aus, und wir arbeiten
 darauf hin, irgendwann zu zeigen, dass die Annahme ¬B falsch ist.
 
 0:04:03.000,0:04:09.750
-Das hatte ich daran festgemacht, dass
-wenn wir die Ausführung des Markierungsalgorithmusses
+Das hatte ich daran festgemacht, dass wenn wir
+die Ausführung des Markierungsalgorithmusses
 
 0:04:09.750,0:04:14.730
 für dieses Beispiel mit dieser Resolution
 vergleichen, dass das in genau umgekehrter
 
 0:04:14.730,0:04:22.260
-Reihenfolge sozusagen die Regeln verwendet.
-Jetzt kann man sich fragen, warum Prolog dann nicht immer
+Reihenfolge sozusagen die Regeln verwendet. Jetzt
+kann man sich fragen, warum Prolog dann nicht immer
 
 0:04:22.260,0:04:26.730
-den Markierungsalgorithmus nutzt, wenn
-man den so schön vorwärts anwenden kann und so
+den Markierungsalgorithmus nutzt, wenn man
+den so schön vorwärts anwenden kann und so
 
 0:04:26.730,0:04:32.400
-gut auch an diesem Beispiel erklären kann? Warum muss es
-diesen Trick benutzen mit dem Negieren und dann
+gut auch an diesem Beispiel erklären kann? Warum muss
+es diesen Trick benutzen mit dem Negieren und dann
 
 0:04:32.400,0:04:40.800
 Resolution Anwenden, die vielleicht etwas indirekter
 erscheinen mag? Ein globaler Grund, dass wir auch
 
 0:04:40.800,0:04:45.960
-Resolution betrachtet haben, ist natürlich,
-dass Resolution für alle KNFs und somit letztlich
+Resolution betrachtet haben, ist natürlich, dass
+Resolution für alle KNFs und somit letztlich
 
 0:04:45.960,0:04:50.790
 für alle aussagenlogischen Formeln anwendbar ist.
@@ -183,8 +183,8 @@ diese Art atomarer Formeln geben, sondern da können auch
 Variablen vorkommen. Da gibt es eine kompliziertere Syntax,
 
 0:05:04.830,0:05:11.010
-wo die Aussagen, über die wir sprechen, nicht so einfach
-sozusagen immer nur konstante Buchstaben sind so
+wo die Aussagen, über die wir sprechen, nicht so
+einfach sozusagen immer nur konstante Buchstaben sind so
 
 0:05:11.010,0:05:16.740
 wie bisher in der Aussagenlogik. Und für dieses
@@ -207,36 +207,36 @@ auch das, was Prolog im Allgemeinen verwendet.
 Dafür werden wir uns natürlich mehr Prolog
 
 0:05:42.720,0:05:51.390
-anschauen müssen und wollen, um das zu würdigen.
-Zunächst möchte ich, da wir so einen Übergang machen müssen,
+anschauen müssen und wollen, um das zu würdigen. Zunächst
+möchte ich, da wir so einen Übergang machen müssen,
 
 0:05:51.390,0:05:56.880
-weg von der Aussagenlogik zu etwas, was schon in Richtung
-Prädikatenlogik geht, noch einmal an ein
+weg von der Aussagenlogik zu etwas, was schon in
+Richtung Prädikatenlogik geht, noch einmal an ein
 
 0:05:56.880,0:06:03.330
-Beispiel erinnern, an dem wir dann auch
-mal ein interessanteres, echtes Prolog-Programm
+Beispiel erinnern, an dem wir dann auch mal
+ein interessanteres, echtes Prolog-Programm
 
 0:06:03.330,0:06:08.910
-sehen können, als hier dieses sehr triviale, das
-einfach nur einer aussagenlogischen Hornformel entspricht.
+sehen können, als hier dieses sehr triviale, das einfach
+nur einer aussagenlogischen Hornformel entspricht.
 
 0:06:08.910,0:06:14.520
-Und zwar möchte ich dafür gern dieses
-Beispiel in Erinnerung rufen, das ich in einer der
+Und zwar möchte ich dafür gern dieses Beispiel
+in Erinnerung rufen, das ich in einer der
 
 0:06:14.520,0:06:19.350
-ersten Vorlesungen (vielleicht sogar schon in der ersten Woche)
-besprochen habe. Das war dieses Einstein-Rätsel,
+ersten Vorlesungen (vielleicht sogar schon in der ersten
+Woche) besprochen habe. Das war dieses Einstein-Rätsel,
 
 0:06:19.350,0:06:27.060
-wo wir ein bestimmtes Wissen über Personen hatten, in
-welchen Häusern die wohnten. Also indirektes
+wo wir ein bestimmtes Wissen über Personen hatten,
+in welchen Häusern die wohnten. Also indirektes
 
 0:06:27.060,0:06:32.160
-Wissen. Einige konkrete Aussagen und dann einige indirekte Regeln,
-aus denen wir hoffentlich folgern können.
+Wissen. Einige konkrete Aussagen und dann einige indirekte
+Regeln, aus denen wir hoffentlich folgern können.
 
 0:06:32.160,0:06:39.240
 Und ich hatte das dann in der Vorlesung an einer
@@ -251,12 +251,12 @@ wohnen, in welchem wie gefärbten Haus sie wohnen, welche
 Nationalität sie haben etc. Und die Frage war irgendwie:
 
 0:06:50.130,0:06:55.170
-"Wer besitzt ein Zebra? Und wer trinkt Wasser?" Also irgendwie
-konkrete Fragen über einige dieser Eigenschaften.
+"Wer besitzt ein Zebra? Und wer trinkt Wasser?" Also
+irgendwie konkrete Fragen über einige dieser Eigenschaften.
 
 0:06:55.170,0:07:01.860
-Und es gab Regeln. Und wenn Sie sich erinnern: Ich hatte das
-skizziert gelöst, indem wir eine Tabelle aufstellen
+Und es gab Regeln. Und wenn Sie sich erinnern: Ich hatte
+das skizziert gelöst, indem wir eine Tabelle aufstellen
 
 0:07:01.860,0:07:07.020
 und dann aus den Regeln, die hier so
@@ -271,8 +271,8 @@ einer Lösung prinzipiell nähern können, auch
 wenn ich das nicht vollständig durchgezogen habe
 
 0:07:19.050,0:07:24.870
-in der Vorlesung. Und das war kein
-Zufall, dass ich dieses Beispiel hatte. Das ist
+in der Vorlesung. Und das war kein Zufall,
+dass ich dieses Beispiel hatte. Das ist
 
 0:07:24.870,0:07:30.990
 ein typisches Beispiel, das man auch mit Prolog
@@ -283,16 +283,16 @@ noch nicht im Moment/sofort, weil Sie noch nicht genug
 Prolog gesehen haben. Aber ich würde das gern zumindest,
 
 0:07:36.990,0:07:43.740
-um mal den Eindruck zu vermitteln, schon
-mal zeigen, wie so ein Prolog-Programm aussehen kann dazu.
+um mal den Eindruck zu vermitteln, schon mal zeigen,
+wie so ein Prolog-Programm aussehen kann dazu.
 
 0:07:43.740,0:07:51.180
-Und möchte im Moment einfach auf einige Aspekte hier hinweisen,
-ohne das Prolog-Programm hier in Gänze zu erklären.
+Und möchte im Moment einfach auf einige Aspekte hier
+hinweisen, ohne das Prolog-Programm hier in Gänze zu erklären.
 
 0:07:51.180,0:08:00.150
-Also was sehen wir hier? Zum einen
-habe ich hier schon mal jeweils angeschrieben,
+Also was sehen wir hier? Zum einen habe
+ich hier schon mal jeweils angeschrieben,
 
 0:08:00.150,0:08:08.010
 welchen Hinweisen oder wie sich die Hinweise aus
@@ -303,16 +303,16 @@ dem Prolog-Programm wiederfinden. Also wir sehen
 hier solche verschachtelten Datenstrukturen.
 
 0:08:14.280,0:08:20.310
-Also die eckigen Klammern und dann Listen.
-Da sind bestimmte Positionen gefüllt und andere auch nicht.
+Also die eckigen Klammern und dann Listen. Da sind
+bestimmte Positionen gefüllt und andere auch nicht.
 
 0:08:20.310,0:08:26.580
-Diese geschachtelte Struktur, Liste von Listen, entspricht
-im Grunde genommen der Matrix/der Tabelle,
+Diese geschachtelte Struktur, Liste von Listen,
+entspricht im Grunde genommen der Matrix/der Tabelle,
 
 0:08:26.580,0:08:32.460
-die ich Ihnen beim händischen Lösen
-des Rätsels gezeigt hatte.
+die ich Ihnen beim händischen
+Lösen des Rätsels gezeigt hatte.
 
 0:08:33.090,0:08:38.430
 Dann kann man eben sagen, hier die Häuser sind
@@ -323,24 +323,24 @@ Eigenschaften drin. Also Informationen wie hier
 achter und neunter Hinweis zusammen. Was sagen die?
 
 0:08:44.920,0:08:51.370
-Im mittleren Haus wird Milch getrunken und im am weitesten links stehenden Haus
-wohnt der Norweger. Das wäre hier eben dadurch
+Im mittleren Haus wird Milch getrunken und im am weitesten links
+stehenden Haus wohnt der Norweger. Das wäre hier eben dadurch
 
 0:08:51.370,0:08:57.850
 ausgedrückt, dass wir jede solche geschachtelte
 Struktur als ein Haus ansehen mit den jeweiligen
 
 0:08:57.850,0:09:03.490
-Eigenschaften des Bewohners dieses Hauses.
-Dann hier beim am weitesten links stehenden Haus an der Stelle,
+Eigenschaften des Bewohners dieses Hauses. Dann hier
+beim am weitesten links stehenden Haus an der Stelle,
 
 0:09:03.490,0:09:09.580
 die der Nationalität entspricht (auch in unserer Tabelle war
 das die zweite Zeile, denke ich), steht hier Norwegisch.
 
 0:09:09.580,0:09:14.860
-Und beim mittleren Haus, also links zwei, rechts zwei,
-hier ist das mittlere Haus; da steht eben Milch drin als Getränk.
+Und beim mittleren Haus, also links zwei, rechts zwei, hier
+ist das mittlere Haus; da steht eben Milch drin als Getränk.
 
 0:09:14.860,0:09:24.040
 Und dann sind hier im Wesentlichen die einzelnen Regeln
@@ -351,12 +351,12 @@ Und dann gibt es hier ein paar Hilfsmittel,
 um etwas über rechts und links oder
 
 0:09:33.280,0:09:37.270
-nebeneinander stehende Häuser auszudrücken.
-Das müssen Sie im Moment auch nicht würdigen oder
+nebeneinander stehende Häuser auszudrücken. Das
+müssen Sie im Moment auch nicht würdigen oder
 
 0:09:37.270,0:09:44.410
-nachvollziehen können, was hier genau passiert.
-Der Punkt ist: Hier ist in einem kleinen Programm das
+nachvollziehen können, was hier genau passiert. Der
+Punkt ist: Hier ist in einem kleinen Programm das
 
 0:09:44.410,0:09:49.630
 formalisiert, was hier die natürlich sprachlichen
@@ -367,28 +367,28 @@ Zebrabesitzer zum Beispiel kann man dann in
 Prolog formulieren als eine Frage und könnte
 
 0:09:55.870,0:10:06.160
-dann tatsächlich dieses Rätsel lösen, ohne händisch
-selber die Sachen alle auszuprobieren.
+dann tatsächlich dieses Rätsel lösen, ohne
+händisch selber die Sachen alle auszuprobieren.
 
 0:10:07.960,0:10:13.990
-Also wir sehen hier Strukturen. Deutlich mehr Struktur, als in
-den aussagenlogischen Formeln bisher, wo wir einfach
+Also wir sehen hier Strukturen. Deutlich mehr Struktur,
+als in den aussagenlogischen Formeln bisher, wo wir einfach
 
 0:10:13.990,0:10:19.930
-als Grundaussagen irgendwie A, B, C oder A1, A2, A3 hatten.
-Wir sehen hier sogenannte Prädikate.
+als Grundaussagen irgendwie A, B, C oder A1, A2,
+A3 hatten. Wir sehen hier sogenannte Prädikate.
 
 0:10:19.930,0:10:24.970
-Darauf werde ich gleich näher eingehen, welche Rolle die
-haben oder was da der wesentliche Unterschied zur
+Darauf werde ich gleich näher eingehen, welche Rolle
+die haben oder was da der wesentliche Unterschied zur
 
 0:10:24.970,0:10:31.810
-reinen Aussagenlogik ist. Und wir sehen hier auch
-so Variablen. Also X, Y, das sind typische Variablennamen.
+reinen Aussagenlogik ist. Und wir sehen hier auch so
+Variablen. Also X, Y, das sind typische Variablennamen.
 
 0:10:31.810,0:10:43.910
-Also wenn wir nicht über eine konkrete Person reden, sondern
-wie in einem Programm eben mit Variablen arbeiten.
+Also wenn wir nicht über eine konkrete Person reden,
+sondern wie in einem Programm eben mit Variablen arbeiten.
 
 0:10:43.910,0:10:49.400
 Das mal wirklich als erster Eindruck, wie so ein Prolog-Programm aussieht.

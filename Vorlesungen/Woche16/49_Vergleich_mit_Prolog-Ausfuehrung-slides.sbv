@@ -27,24 +27,24 @@ Und das war auch eine Form von Resolution.
 Die Frage wäre dann ja naheliegenderweise:
 
 0:00:41.600,0:00:47.089
-Wie verhält sich das denn relativ zu der prädikatenlogischen
-Resolution? Ist das das Gleiche?
+Wie verhält sich das denn relativ zu der
+prädikatenlogischen Resolution? Ist das das Gleiche?
 
 0:00:47.089,0:00:51.210
-Gibt es da Unterschiede? Und die Antwort ist:
-Es ist im Grunde genommen das Gleiche.
+Gibt es da Unterschiede? Und die Antwort
+ist: Es ist im Grunde genommen das Gleiche.
 
 0:00:51.210,0:00:56.480
 Prolog-Programme sind spezielle prädikatenlogische
 Formeln, wenn Sie so wollen. Bzw. man kann die so
 
 0:00:56.480,0:01:02.550
-darstellen. Das würde ich jetzt hier einfach mal tun.
-Also was wir hier als Prolog-Regeln haben,
+darstellen. Das würde ich jetzt hier einfach mal
+tun. Also was wir hier als Prolog-Regeln haben,
 
 0:01:02.550,0:01:08.820
-könnte man prädikatenlogisch wie folgt fassen:
-Es gibt jetzt natürlich ein paar syntaktische Unterschiede.
+könnte man prädikatenlogisch wie folgt fassen: Es gibt
+jetzt natürlich ein paar syntaktische Unterschiede.
 
 0:01:08.820,0:01:16.130
 Zum einen, weil die Variablen in der Prädikatenlogik
@@ -55,8 +55,8 @@ Umgekehrt wiederum die Prädikate: in Prolog kleingeschrieben,
 in Prädikatenlogik groß. Und ich kürze hier jetzt Addition mal
 
 0:01:20.240,0:01:27.270
-durch das große A ab. Aber davon abgesehen, habe ich hier
-mit den expliziten Quantoren auch noch ausgedrückt:
+durch das große A ab. Aber davon abgesehen, habe ich
+hier mit den expliziten Quantoren auch noch ausgedrückt:
 
 0:01:27.270,0:01:32.820
 die erste Regel. Denn die sagt ja auch intuitiv
@@ -67,44 +67,44 @@ dass die Addition von z (was da unsere
 Darstellung für die Null war) mit U gleich U ist.
 
 0:01:39.640,0:01:46.090
-Und zwar für jede Wahl von U. Prädikatenlogisch kann
-ich das so fassen, dass ich sage: "Für alle u (quantifiziere also
+Und zwar für jede Wahl von U. Prädikatenlogisch kann ich das
+so fassen, dass ich sage: "Für alle u (quantifiziere also
 
 0:01:46.090,0:01:53.490
 über eine Variable U) gilt: Addition(0,u,u)." Ich wollte jetzt
 hier nicht z verwenden, weil ich z andererseits auch als
 
 0:01:53.490,0:01:59.630
-Variable verwenden werde, weil ich hier ja auch z als Konstante
-und Z als Variable hatte. Damit das hier dann nicht
+Variable verwenden werde, weil ich hier ja auch z als
+Konstante und Z als Variable hatte. Damit das hier dann nicht
 
 0:01:59.630,0:02:04.570
 durcheinanderkommt jetzt in der prädikatenlogischen
 Schreibweise, schreibe ich dieses nullstellige
 
 0:02:04.570,0:02:10.049
-Symbol z einfach mal wirklich als die 0.
-Nicht mehr als Buchstabe, sondern einfach als 0.
+Symbol z einfach mal wirklich als die 0. Nicht
+mehr als Buchstabe, sondern einfach als 0.
 
 0:02:10.049,0:02:16.680
 Statt a, b, c oder so, weil es dann klarer ist,
 dass ich damit die 0 meine, als wenn ich da die
 
 0:02:16.680,0:02:24.349
-Konstante a nehmen würde. Davon abgesehen ist das hier exakt das,
-was dieser Prolog-Fakt ausdrücken möchte: „Für alle U gilt: 0 + U = U.“
+Konstante a nehmen würde. Davon abgesehen ist das hier exakt das, was
+dieser Prolog-Fakt ausdrücken möchte: „Für alle U gilt: 0 + U = U.“
 
 0:02:24.349,0:02:28.959
-Und wie ist das mit der Regel? Das ist eine Implikation.
-Da wissen wir: von rechts nach links. Da kommen auch Variablen vor.
+Und wie ist das mit der Regel? Das ist eine Implikation. Da
+wissen wir: von rechts nach links. Da kommen auch Variablen vor.
 
 0:02:28.959,0:02:33.910
-Und auch diese Regeln sind so zu interpretieren, dass
-alle Variablen, die darin vorkommen, allquantifiziert sind.
+Und auch diese Regeln sind so zu interpretieren, dass alle
+Variablen, die darin vorkommen, allquantifiziert sind.
 
 0:02:33.910,0:02:40.319
-Also, was diese Regel sagt, ist: „Für alle x, y, z gilt:
-Wenn die Addition von x und y = z ergibt
+Also, was diese Regel sagt, ist: „Für alle x, y,
+z gilt: Wenn die Addition von x und y = z ergibt
 
 0:02:40.319,0:02:46.549
 (das steht hier), dann gilt auch die Gegenrichtung,
@@ -123,36 +123,36 @@ Und wir wollen natürlich dann, dass alles,
 was die sagen, stimmt. Deswegen gilt sowohl
 
 0:03:06.019,0:03:12.621
-dieser Fakt als auch diese Regel. Die Konjunktion
-davon, würden wir sagen, ist die
+dieser Fakt als auch diese Regel. Die
+Konjunktion davon, würden wir sagen, ist die
 
 0:03:12.621,0:03:18.310
 prädikatenlogische Entsprechung dieses Prolog-Programms.
 Und wie ist es dann mit der Anfrage? Der nächste Teil
 
 0:03:18.310,0:03:22.860
-war ja: In Prolog stellen wir eine Anfrage.
-Zum Beispiel diese, wo wir nach N und M fragen,
+war ja: In Prolog stellen wir eine Anfrage. Zum
+Beispiel diese, wo wir nach N und M fragen,
 
 0:03:22.860,0:03:29.219
-so dass deren Summe 2 ergeben soll, gemäß diesem Programm.
-Was heißt das prädikatenlogisch?
+so dass deren Summe 2 ergeben soll, gemäß diesem
+Programm. Was heißt das prädikatenlogisch?
 
 0:03:29.219,0:03:37.579
-Das wäre jetzt eine Existenzfrage. Gibt es N und M,
-so dass deren Summe 2 ist? Also mit expliziten Quantoren
+Das wäre jetzt eine Existenzfrage. Gibt es N und M, so
+dass deren Summe 2 ist? Also mit expliziten Quantoren
 
 0:03:37.579,0:03:42.730
-würden wir das aufschreiben. Also wir wollen wissen, ob es
-N und M gibt (jetzt nehme ich wieder n, m als Variablennamen
+würden wir das aufschreiben. Also wir wollen wissen, ob es N
+und M gibt (jetzt nehme ich wieder n, m als Variablennamen
 
 0:03:42.730,0:03:49.090
-hier), so dass die Addition von diesen
-beiden dadurch repräsentierten
+hier), so dass die Addition von
+diesen beiden dadurch repräsentierten
 
 0:03:49.090,0:03:56.919
-Werten/Termen 2 ergibt. Das wäre erst mal einfach nur
-sowohl das Programm als auch die Anfrage,
+Werten/Termen 2 ergibt. Das wäre erst mal einfach
+nur sowohl das Programm als auch die Anfrage,
 
 0:03:56.919,0:04:04.329
 prädikatenlogisch gefasst. Was passiert dann,
@@ -163,16 +163,16 @@ für diese Anfrage mit diesem Programm?
 Das heißt eigentlich, wir wollen wissen,
 
 0:04:08.639,0:04:14.959
-ob denn aus dieser Formel
-diese Formel folgt. Ob es wirklich n und m gibt,
+ob denn aus dieser Formel diese Formel
+folgt. Ob es wirklich n und m gibt,
 
 0:04:14.959,0:04:23.120
 so dass das gilt (wenn wir das hier alles über unser
 Prädikat wissen). Also wir wollen eigentlich wissen,
 
 0:04:23.120,0:04:30.199
-ob aus dieser Fassung des Programms diese Anfrage logisch folgt.
-Und wenn wir wissen wollen: Folgt aus dem das?
+ob aus dieser Fassung des Programms diese Anfrage logisch
+folgt. Und wenn wir wissen wollen: Folgt aus dem das?
 
 0:04:30.199,0:04:37.419
 Also, ist sozusagen die Implikation aus dieser
@@ -195,12 +195,12 @@ Die Negation davon heißt: Es müsste das gelten und
 es müsste das gelten, aber das dürfte nicht gelten.
 
 0:05:04.030,0:05:10.259
-Also, diese Folgerung zu untersuchen, ist äquivalent
-dazu, nach Unerfüllbarkeit dieser etwas größeren Konjunktion
+Also, diese Folgerung zu untersuchen, ist äquivalent dazu,
+nach Unerfüllbarkeit dieser etwas größeren Konjunktion
 
 0:05:10.259,0:05:18.770
-zu fragen (wo wir das negierte Ziel hinzugefügt haben).
-Jetzt haben wir eine prädikatenlogische Formel,
+zu fragen (wo wir das negierte Ziel hinzugefügt
+haben). Jetzt haben wir eine prädikatenlogische Formel,
 
 0:05:18.770,0:05:23.650
 deren Unerfüllbarkeit wir untersuchen wollen.
@@ -231,40 +231,40 @@ Quantoren alle vorn. Und dann können
 wir die Matrixklauselform bilden,
 
 0:05:58.099,0:06:03.789
-indem wir die Allquantoren alle weglassen und
-die Matrix der Formel in
+indem wir die Allquantoren alle
+weglassen und die Matrix der Formel in
 
 0:06:03.789,0:06:07.889
 konjunktive Normalform bringen. Das ist hier auch
 nicht schwer. Das ist schon eine Konjunktion von
 
 0:06:07.889,0:06:14.280
-mehreren Teilen, wovon zum Beispiel das hier letztlich
-auch eine Disjunktion ist, die Implikation.
+mehreren Teilen, wovon zum Beispiel das hier
+letztlich auch eine Disjunktion ist, die Implikation.
 
 0:06:14.280,0:06:19.300
-Also lange Rede kurzer Sinn: Wenn wir einfach jetzt
-das Programm abspulen, welches wir in den vorigen Videos hatten,
+Also lange Rede kurzer Sinn: Wenn wir einfach jetzt das
+Programm abspulen, welches wir in den vorigen Videos hatten,
 
 0:06:19.300,0:06:28.150
 wie wir eine prädikatenlogische Formel normalisieren,
 dann landen wir bei dieser Matrixklauselform.
 
 0:06:28.150,0:06:35.419
-Das ist einfach so. Ganz systematisch erhalten
-aus dem Programm und der Anfrage mit diesem Vorgehen.
+Das ist einfach so. Ganz systematisch erhalten aus
+dem Programm und der Anfrage mit diesem Vorgehen.
 
 0:06:35.419,0:06:41.800
-Und jetzt wäre die Frage: Wenn wir dafür jetzt
-prädikatenlogische Resolution machen,
+Und jetzt wäre die Frage: Wenn wir dafür
+jetzt prädikatenlogische Resolution machen,
 
 0:06:41.800,0:06:47.379
 hat das irgendwas damit zu tun, wie dieser
 Prolog-Ableitungsbaum aussah? Die Antwort wird Ja sein.
 
 0:06:47.379,0:06:55.189
-Die Frage ist aber: Was ist genau die Verbindung dazu?
-Dann machen wir das doch einfach. Nehmen wir
+Die Frage ist aber: Was ist genau die Verbindung
+dazu? Dann machen wir das doch einfach. Nehmen wir
 
 0:06:55.189,0:07:02.340
 diese Klausel-Darstellung unseres Programms
@@ -279,12 +279,12 @@ Das ist ja eine Menge, also statt "so, so, so" in der Reihenfolge,
 schreibe ich die jetzt auf den Folien genau in umgekehrter
 
 0:07:13.000,0:07:20.939
-Reihenfolge auf, einfach weil die entstehenden Bilder besser passen.
-Das ist aber nur eine Wahl, wie ich das aufschreibe.
+Reihenfolge auf, einfach weil die entstehenden Bilder besser
+passen. Das ist aber nur eine Wahl, wie ich das aufschreibe.
 
 0:07:20.939,0:07:30.620
-Also dann könnte es eben so aussehen.
-Das sind meine drei Klauseln, aus der eben
+Also dann könnte es eben so aussehen. Das
+sind meine drei Klauseln, aus der eben
 
 0:07:30.620,0:07:35.729
 gesehenen Matrixklauselform. Jetzt habe ich mehrere
@@ -299,32 +299,32 @@ Ich möchte zunächst diese Klausel mit
 dieser Klausel resolvieren, weil ich hier
 
 0:07:46.090,0:07:51.580
-ein ¬A und ein A habe und dann die Chance habe,
-direkt zur leeren Klausel zu kommen.
+ein ¬A und ein A habe und dann die Chance
+habe, direkt zur leeren Klausel zu kommen.
 
 0:07:51.580,0:07:57.300
 Was muss ich dafür tun? Muss ich irgendwas umbenennen?
 Nein, ich habe schon dafür gesorgt (im Vorfeld, sozusagen),
 
 0:07:57.300,0:08:02.880
-dass die Variablen alle verschieden sind in der und der Klausel.
-Dass es also keine gemeinsamen Variablen gibt. Ich muss also hier nichts
+dass die Variablen alle verschieden sind in der und der Klausel. Dass
+es also keine gemeinsamen Variablen gibt. Ich muss also hier nichts
 
 0:08:02.880,0:08:10.479
 von den Variablen umbenennen. Ich kann direkt unifizieren.
 Was passiert beim Unifizieren? Das n wird offenkundig 0.
 
 0:08:10.479,0:08:16.389
-Die m und u müssen auf das Gleiche abbilden. Das u muss auf
-s(s(0)) abbilden. Also der Unifikator wird dieser sein.
+Die m und u müssen auf das Gleiche abbilden. Das u muss
+auf s(s(0)) abbilden. Also der Unifikator wird dieser sein.
 
 0:08:16.389,0:08:23.389
-Das fällt einfach aus der Herleitung der Unifikation ab,
-dass das die Unifikation ist, die wir brauchen.
+Das fällt einfach aus der Herleitung der Unifikation
+ab, dass das die Unifikation ist, die wir brauchen.
 
 0:08:23.389,0:08:29.520
-Das n auf 0. Das m auf s(s(0)). Das u auf s(s(0)).
-Und was ist die Klausel, die herauskommt?
+Das n auf 0. Das m auf s(s(0)). Das u auf
+s(s(0)). Und was ist die Klausel, die herauskommt?
 
 0:08:29.520,0:08:36.349
 Natürlich die leere Klausel, weil genau unter dieser
@@ -355,8 +355,8 @@ und m = s(s(0)). Und in der Tat: Von diesem Baum
 entspricht diese prädikatenlogische Resolution
 
 0:09:19.060,0:09:23.540
-genau diesem Zweig. Also letztlich der
-Übergang von hier nach hier
+genau diesem Zweig. Also letztlich
+der Übergang von hier nach hier
 
 0:09:23.540,0:09:29.649
 zur leeren Klausel mit dieser Unifikation
@@ -367,20 +367,20 @@ Was wir nur in dem Prolog-Ableitungsbaum
 nicht eingezeichnet haben, sind sozusagen
 
 0:09:35.081,0:09:41.899
-diese Nebenklauseln. Also die Tatsache, dass wir hier
-die erste Klausel aus dem Programm
+diese Nebenklauseln. Also die Tatsache, dass
+wir hier die erste Klausel aus dem Programm
 
 0:09:41.899,0:09:46.579
-(also den Fakt) genommen haben, das haben wir hier
-in dem Baum nicht annotiert, weil wir einfach davon ausgehen:
+(also den Fakt) genommen haben, das haben wir hier in dem
+Baum nicht annotiert, weil wir einfach davon ausgehen:
 
 0:09:46.579,0:09:51.640
 Wir machen das von links nach rechts. Also wenn dieser Knoten
 mehrere Nachfolger hat, dann entspricht der linke Nachfolger
 
 0:09:51.640,0:09:56.750
-der ersten Programmklausel
-und der zweite Nachfolger entspricht dem hier.
+der ersten Programmklausel und der
+zweite Nachfolger entspricht dem hier.
 
 0:09:56.750,0:10:04.200
 Deswegen steht hier nicht dran, dass ich das damit
@@ -395,8 +395,8 @@ dieser Schritt. Jetzt wissen wir schon: In dem Ableitungsbaum
 gab es mehrere Lösungen. Da haben wir ja hier noch diese
 
 0:10:22.420,0:10:28.490
-beiden Lösungen. Das heißt, die Frage wäre
-zum Beispiel: Findet sich denn auch diese Lösung?
+beiden Lösungen. Das heißt, die Frage wäre zum
+Beispiel: Findet sich denn auch diese Lösung?
 
 0:10:28.490,0:10:33.930
 Lässt sich auch diese Lösung, die wir hier
@@ -407,40 +407,40 @@ auch durch prädikatenlogische Resolution finden?
 Die Antwort ist hoffentlich Ja. Schauen wir mal:
 
 0:10:40.720,0:10:45.100
-Fangen wir einfach neu an, wieder mit unseren Klauseln,
-und suchen nach einer anderen Lösung.
+Fangen wir einfach neu an, wieder mit unseren
+Klauseln, und suchen nach einer anderen Lösung.
 
 0:10:45.100,0:10:52.750
 Natürlich sollten wir dafür jetzt eben nicht direkt
 diese und diese Klausel resolvieren. Warum nicht?
 
 0:10:52.750,0:11:00.660
-Weil wir dann wieder bei der gleichen Lösung
-wie eben wären. Und in der Tat: Die zweite Prolog-Lösung,
+Weil wir dann wieder bei der gleichen Lösung wie
+eben wären. Und in der Tat: Die zweite Prolog-Lösung,
 
 0:11:00.660,0:11:05.269
-die resolvierte ja auch nicht direkt mit dem Fakt,
-sondern mit der rekursiven Regel.
+die resolvierte ja auch nicht direkt mit
+dem Fakt, sondern mit der rekursiven Regel.
 
 0:11:05.269,0:11:10.630
-Also ergibt es Sinn (diese rekursive Regel entspricht ja
-dieser Klausel), zunächst erst mal jetzt diese beiden
+Also ergibt es Sinn (diese rekursive Regel entspricht
+ja dieser Klausel), zunächst erst mal jetzt diese beiden
 
 0:11:10.630,0:11:16.110
 Klauseln zu resolvieren. Was ja potenziell geht,
 weil wir hier ein ¬A haben und hier ein A.
 
 0:11:16.110,0:11:21.579
-Also wir versuchen, das zu resolvieren. Wenn wir wieder
-schauen: Variablen umbenennen müssen wir nicht.
+Also wir versuchen, das zu resolvieren. Wenn wir
+wieder schauen: Variablen umbenennen müssen wir nicht.
 
 0:11:21.579,0:11:26.079
 Hier kommen n und m vor. Hier kommen x, y, z vor.
 Also kein Verwirrungs-Potenzial. Wir können direkt
 
 0:11:26.079,0:11:37.430
-unifizieren. Und zwar dieses Literal mit diesem Literal.
-Was passiert dabei? Das n muss s(x) werden. Die m und y müssen auf
+unifizieren. Und zwar dieses Literal mit diesem Literal. Was
+passiert dabei? Das n muss s(x) werden. Die m und y müssen auf
 
 0:11:37.430,0:11:45.100
 das Gleiche abgebildet werden. Also entweder m auf y oder y auf m.
@@ -459,8 +459,8 @@ welche Variablen wir verwenden. Die anderen beiden Setzungen,
 für n und z, müssen genau so sein, wie sie hier sind.
 
 0:12:01.700,0:12:08.070
-Bei m / y oder y / m hätten wir noch die Wahl.
-In der Prolog-Ausführung hatte ich eben auch m durch y ersetzt.
+Bei m / y oder y / m hätten wir noch die Wahl. In der
+Prolog-Ausführung hatte ich eben auch m durch y ersetzt.
 
 0:12:08.070,0:12:17.339
 Deswegen mache ich das hier mal auch so. Das entspricht
@@ -483,8 +483,8 @@ aber mit z durch s(0) ersetzt. Wie könnte es weitergehen?
 Ich könnte mich entscheiden, jetzt zum Beispiel diese Klausel
 
 0:12:44.579,0:12:51.389
-mit dem Fakt zu resolvieren. Auch das passierte hier ja.
-Das entspricht genau der Klausel, die wir jetzt auch
+mit dem Fakt zu resolvieren. Auch das passierte hier
+ja. Das entspricht genau der Klausel, die wir jetzt auch
 
 0:12:51.389,0:12:57.529
 gerade erzeugt haben. Und in der Prolog-Ableitung
@@ -503,36 +503,36 @@ Die x und y kommen hier vor. Kein Überlappen von Variablen,
 also muss ich nichts umbenennen. Unifizieren muss ich
 
 0:13:15.970,0:13:22.060
-natürlich. Was passiert, wenn ich das unifiziere?
-Das x muss offenbar 0 werden. Das u muss offenbar s(0) werden.
+natürlich. Was passiert, wenn ich das unifiziere? Das x
+muss offenbar 0 werden. Das u muss offenbar s(0) werden.
 
 0:13:22.060,0:13:28.230
-Weil dieses u dann natürlich auch s(0) wird,
-muss auch y zu s(0) werden.
+Weil dieses u dann natürlich auch s(0)
+wird, muss auch y zu s(0) werden.
 
 0:13:28.230,0:13:35.240
-Also ergibt sich dieser Unifikator: [x/0, y/s(0), u/s(0)].
-Und danach erhalten wir die leere Klausel,
+Also ergibt sich dieser Unifikator: [x/0, y/s(0),
+u/s(0)]. Und danach erhalten wir die leere Klausel,
 
 0:13:35.240,0:13:43.079
 weil natürlich jetzt diese beiden Literale verschwinden.
 Also hätten wir noch eine Lösung gefunden.
 
 0:13:43.079,0:13:47.449
-Was heißt "Lösung gefunden"? Wir können für das n und m
-nachvollziehen, was denn die Antwort ist.
+Was heißt "Lösung gefunden"? Wir können für das
+n und m nachvollziehen, was denn die Antwort ist.
 
 0:13:47.449,0:13:56.819
 Das n ist s(x). Das x ist 0. Also ist n = s(0).
 Das m ist y. Das y ist s(0). Also ist m auch s(0).
 
 0:13:56.819,0:14:01.959
-Das entspricht wieder dem, was wir hier an
-der Stelle herausgefunden hatten. N ist s(z). M ist s(z).
+Das entspricht wieder dem, was wir hier an der
+Stelle herausgefunden hatten. N ist s(z). M ist s(z).
 
 0:14:01.959,0:14:15.960
-Das heißt, dieser Resolutionsbeweis entspricht
-genau diesem Pfad. Das sind genau die beiden Schritte,
+Das heißt, dieser Resolutionsbeweis entspricht genau
+diesem Pfad. Das sind genau die beiden Schritte,
 
 0:14:15.960,0:14:21.630
 die wir jetzt auch gemacht haben. Nur dass
@@ -547,12 +547,12 @@ Klauseln hinzukommen, das sieht man in dem Ableitungsbaum
 eben nicht explizit. Aber davon abgesehen entspricht
 
 0:14:32.660,0:14:39.920
-dieser Resolutionsbeweis, insbesondere dieser Pfad, den wir
-dabei gebaut haben, genau diesem zweiten Lösungspfad
+dieser Resolutionsbeweis, insbesondere dieser Pfad, den
+wir dabei gebaut haben, genau diesem zweiten Lösungspfad
 
 0:14:39.920,0:14:49.860
-auf der Prolog-Seite. Und da wir wissen,
-dass es auf der Prolog-Seite noch diesen dritten
+auf der Prolog-Seite. Und da wir wissen, dass
+es auf der Prolog-Seite noch diesen dritten
 
 0:14:49.860,0:14:55.860
 Lösungsweg gab, stellt sich natürlich noch die Frage:
@@ -591,8 +591,8 @@ so anfangen wie vorher. Aber wir machen diesen
 Teil wie zuvor. Also wir fangen nicht wirklich
 
 0:15:45.089,0:15:49.790
-vollkommen neu an. Das machen wir in Prolog ja auch nicht.
-In Prolog springen wir ja sozusagen zum letzten "Choice-Point"
+vollkommen neu an. Das machen wir in Prolog ja auch nicht. In
+Prolog springen wir ja sozusagen zum letzten "Choice-Point"
 
 0:15:49.790,0:15:54.350
 zurück. Zur letzten Möglichkeit, wo wir uns entscheiden konnten
@@ -615,48 +615,48 @@ Lösung in Prolog führen. Können wir das tatsächlich tun?
 Da müssen wir schauen. Jetzt müssen wir erstmals wirklich
 
 0:16:22.720,0:16:26.329
-Variablen umbenennen. Denn jetzt hatte ich hier x und y,
-die sind in der Klausel hier entstanden aus dem
+Variablen umbenennen. Denn jetzt hatte ich hier x und
+y, die sind in der Klausel hier entstanden aus dem
 
 0:16:26.329,0:16:31.290
 vorherigen Resolutionsschritt. Wenn ich hiermit
 resolvieren wollte, war das kein Problem.
 
 0:16:31.290,0:16:35.779
-Das u ist eine andere Variable. Wenn ich jetzt nochmal mit
-dieser rekursiven Regel resolvieren möchte, habe ich
+Das u ist eine andere Variable. Wenn ich jetzt nochmal
+mit dieser rekursiven Regel resolvieren möchte, habe ich
 
 0:16:35.779,0:16:42.610
 jetzt eben hier auch x und y vorkommend. Deswegen
 entscheide ich mich (ich hätte das auch hier machen können)
 
 0:16:42.610,0:16:47.920
-mal wie in der Prolog-Ausführung,
-dass ich in dieser Programmklausel jetzt lokal für diesen
+mal wie in der Prolog-Ausführung, dass ich in
+dieser Programmklausel jetzt lokal für diesen
 
 0:16:47.920,0:16:54.870
-Schritt x durch x' und y durch y' ersetze. Damit ich hier
-kein Überlappen habe. Für z muss ich das nicht tun.
+Schritt x durch x' und y durch y' ersetze. Damit ich
+hier kein Überlappen habe. Für z muss ich das nicht tun.
 
 0:16:54.870,0:17:00.730
-Das kommt zwar hier vor, aber gar nicht hier.
-Das ist tatsächlich eine kleine Abweichung zu dem,
+Das kommt zwar hier vor, aber gar nicht hier. Das
+ist tatsächlich eine kleine Abweichung zu dem,
 
 0:17:00.730,0:17:07.730
-wie ich das zuvor in Prolog getan hatte.
-Da hatte ich nämlich tatsächlich auch das z umbenannt in z'.
+wie ich das zuvor in Prolog getan hatte. Da hatte
+ich nämlich tatsächlich auch das z umbenannt in z'.
 
 0:17:07.730,0:17:12.000
-Das sieht man hier aufscheinen. Das mache ich jetzt mal nicht,
-ist aber ein ganz kleiner Unterschied.
+Das sieht man hier aufscheinen. Das mache ich jetzt
+mal nicht, ist aber ein ganz kleiner Unterschied.
 
 0:17:12.000,0:17:20.659
-Ich hätte hier auch Z nehmen können. Das entspräche der Entscheidung,
-dass ich hier eben das z nicht umzubenennen habe,
+Ich hätte hier auch Z nehmen können. Das entspräche der
+Entscheidung, dass ich hier eben das z nicht umzubenennen habe,
 
 0:17:20.659,0:17:30.070
-weil es gar nicht in der anderen Klausel vorkommt.
-Also jetzt haben wir hier x und y durch x' und y' ersetzt.
+weil es gar nicht in der anderen Klausel vorkommt. Also
+jetzt haben wir hier x und y durch x' und y' ersetzt.
 
 0:17:30.070,0:17:38.020
 Jetzt kann ich dieses Literal unifizieren mit diesem Literal,
@@ -667,8 +667,8 @@ Die x und s(x') sind zu unifizieren. Das kann ich machen,
 indem ich eben sage, x soll durch s(x') ersetzt werden.
 
 0:17:45.850,0:17:50.480
-Jetzt sehen wir auch, warum das hier wichtig war,
-das umzubenennen, denn sonst hätte ich jetzt hier x und
+Jetzt sehen wir auch, warum das hier wichtig war, das
+umzubenennen, denn sonst hätte ich jetzt hier x und
 
 0:17:50.480,0:17:55.750
 das x gehabt, und das würde dann die Unifikation
@@ -683,20 +683,20 @@ wenn ich hier ordentlich umbenenne, wie ich soll, bei
 der prädikatenlogischen Resolution. Also x wird s(x').
 
 0:18:08.340,0:18:13.600
-Die y und y' müssen unifiziert werden. Das geht, indem ich sage:
-y wird y' oder umgekehrt. Da habe ich wieder die Wahl.
+Die y und y' müssen unifiziert werden. Das geht, indem ich
+sage: y wird y' oder umgekehrt. Da habe ich wieder die Wahl.
 
 0:18:13.600,0:18:20.780
-Ich mache es gleich so, wie ich es in dem Prolog-Beispiel auch
-getan hatte. Und s(0) und s(z) müssen unifiziert werden.
+Ich mache es gleich so, wie ich es in dem Prolog-Beispiel
+auch getan hatte. Und s(0) und s(z) müssen unifiziert werden.
 
 0:18:20.780,0:18:26.950
-Und das geht, indem man die Variable z auf 0 setzt.
-Also ich kann diesen Unifikator wählen.
+Und das geht, indem man die Variable z auf 0
+setzt. Also ich kann diesen Unifikator wählen.
 
 0:18:26.950,0:18:37.270
-Das x wird s(x'). Das y wird y'. Und z wird 0.
-Wenn ich das tue, kann ich resolvieren.
+Das x wird s(x'). Das y wird y'. Und z wird
+0. Wenn ich das tue, kann ich resolvieren.
 
 0:18:37.270,0:18:41.929
 Das heißt: Dieses Literal verschwindet. Dieses Literal verschwindet.
@@ -731,12 +731,12 @@ das hier so herauskommt, wie es auch in der
 Prolog-Fassung war. Da kam auch heraus: x', y', 0.
 
 0:19:38.070,0:19:46.559
-Und dann kann ich abschließend in dem Fall jetzt
-diese Klausel mit diesem Fakt
+Und dann kann ich abschließend in dem
+Fall jetzt diese Klausel mit diesem Fakt
 
 0:19:46.559,0:19:53.700
-aus der Prolog-Sicht resolvieren. Da tauchen jetzt
-wieder mal keine gemeinsamen Variablen auf.
+aus der Prolog-Sicht resolvieren. Da tauchen
+jetzt wieder mal keine gemeinsamen Variablen auf.
 
 0:19:53.700,0:19:58.740
 Deswegen muss ich nicht auf dem Weg dahin
@@ -763,8 +763,8 @@ indem wir nachschauen, was denn für unsere
 Anfrage-Variablen n und m hier insgesamt gesetzt wurde.
 
 0:20:33.470,0:20:44.510
-Das n wird s(x). Das x wird s(x'). Das x' wird 0. Also insgesamt n = s(s(0)).
-Das m wird y. Das y wird y'. Das y' wird 0. Also insgesamt m = 0.
+Das n wird s(x). Das x wird s(x'). Das x' wird 0. Also insgesamt n =
+s(s(0)). Das m wird y. Das y wird y'. Das y' wird 0. Also insgesamt m = 0.
 
 0:20:44.510,0:20:49.700
 Und glücklicherweise, aber natürlich nicht zufälligerweise,
@@ -791,8 +791,8 @@ weitere Möglichkeit, hier mit der rekursiven
 Programmklausel zu unifizieren, nicht gibt.
 
 0:21:22.659,0:21:28.600
-Auch das können wir hier sehen.
-Wir hätten nämlich diese Klausel hier
+Auch das können wir hier sehen. Wir
+hätten nämlich diese Klausel hier
 
 0:21:28.600,0:21:36.510
 nicht nochmals mit dieser Klausel resolvieren können.
@@ -807,8 +807,8 @@ durch Umbenennung, wir werden es niemals schaffen,
 dass hinterher s(Variable) unifizierbar ist mit 0.
 
 0:21:47.960,0:21:53.590
-Das heißt, an der Stelle konnten wir das
-nur noch hier mit dieser Klausel resolvieren.
+Das heißt, an der Stelle konnten wir das nur
+noch hier mit dieser Klausel resolvieren.
 
 0:21:53.590,0:21:59.690
 Und das führt zu dieser dritten Lösung. Und natürlich
@@ -819,25 +819,25 @@ Prolog möglich waren. Das ist also kein Zufall,
 sondern da gibt es wirklich eine sehr gute Entsprechung
 
 0:22:06.490,0:22:14.970
-zwischen dem, was Prolog macht, und was die prädikatenlogische
-Resolution tut. Also das ist kein Zufall. Das ist "by design", sozusagen.
+zwischen dem, was Prolog macht, und was die prädikatenlogische Resolution
+tut. Also das ist kein Zufall. Das ist "by design", sozusagen.
 
 0:22:14.970,0:22:21.450
-Natürlich, weil Prolog-Programme bei geeigneter Lesart auch
-prädikatenlogische Formeln sind.
+Natürlich, weil Prolog-Programme bei geeigneter
+Lesart auch prädikatenlogische Formeln sind.
 
 0:22:21.450,0:22:29.809
 Spezielle prädikatenlogische Formeln, weil ja
 Prolog-Programme nur Hornformeln enthalten dürfen.
 
 0:22:29.809,0:22:38.270
-Das schließt sozusagen den Kreis, so dass wir jetzt
-die verschiedenen Resolutionsverfahren gesehen haben für Aussagenlogik,
+Das schließt sozusagen den Kreis, so dass wir jetzt die
+verschiedenen Resolutionsverfahren gesehen haben für Aussagenlogik,
 
 0:22:38.270,0:22:43.720
 für Prolog, für Prädikatenlogik. Und das ist immer die
 gleiche Grundidee, die diese Vorlesung durchzogen hat,
 
 0:22:43.720,0:22:51.760
-eben für verschiedene spezielle Ausprägungen
-von logischen Formeln.
+eben für verschiedene spezielle
+Ausprägungen von logischen Formeln.

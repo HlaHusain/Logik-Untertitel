@@ -10,16 +10,16 @@ Ein Datum besteht aus einem Tag, der als Zahl
 angegeben wird, einem Monat, der als Name
 
 0:00:11.500,0:00:14.469
-angegeben wird, sowie einem Jahr, das wiederum
-als Zahl angegeben wird.
+angegeben wird, sowie einem Jahr,
+das wiederum als Zahl angegeben wird.
 
 0:00:14.469,0:00:19.230
-Die folgenden beiden Anfragen sollen einmal
-„true“ und einmal „false“ ergeben.
+Die folgenden beiden Anfragen sollen
+einmal „true“ und einmal „false“ ergeben.
 
 0:00:19.230,0:00:22.710
-Zudem sollen Tages- und Jahreszahlen immer
-positiv sein.
+Zudem sollen Tages- und
+Jahreszahlen immer positiv sein.
 
 0:00:22.710,0:00:24.650
 Schaltjahre sollen ignoriert werden.
@@ -33,8 +33,8 @@ Monat bereits angegeben sind: Januar hat 31
 Tage.
 
 0:00:33.640,0:00:36.640
-Februar hat 28 Tage, da Schaltjahre ignoriert
-werden.
+Februar hat 28 Tage, da
+Schaltjahre ignoriert werden.
 
 0:00:36.640,0:00:38.620
 März hat 31 Tage und so weiter.
@@ -43,8 +43,8 @@ März hat 31 Tage und so weiter.
 Zuerst schreiben wir valid auf.
 
 0:00:41.090,0:00:45.100
-So heißt unser Prädikat, welches laut Aufgabenstellung
-einstellig sein soll.
+So heißt unser Prädikat, welches laut
+Aufgabenstellung einstellig sein soll.
 
 0:00:45.100,0:00:50.399
 In der Beispielanfrage der Aufgabenstellung
@@ -67,16 +67,16 @@ da es sich hierbei um jeden möglichen Tag
 handeln kann, den der Benutzer eingibt.
 
 0:01:10.750,0:01:13.729
-Variablen werden großgeschrieben, weshalb
-wir hier ein großes D verwenden.
+Variablen werden großgeschrieben,
+weshalb wir hier ein großes D verwenden.
 
 0:01:13.729,0:01:18.909
 Es folgt ein weiteres Komma, dann Month und
 dann wieder die Variable, großes M, Year
 
 0:01:18.909,0:01:21.630
-und dann in Klammern wieder die Variable,
-ein großes Y.
+und dann in Klammern wieder
+die Variable, ein großes Y.
 
 0:01:21.630,0:01:24.810
 Wir schließen alle drei Klammern.
@@ -96,8 +96,8 @@ Zum Beispiel dürfte im Februar der Tag 29
 nicht vorkommen, da wir oben definiert haben,
 
 0:01:39.090,0:01:42.920
-dass Februar nur 28 Tage hat und wir Schaltjahre
-außen vor lassen.
+dass Februar nur 28 Tage hat und
+wir Schaltjahre außen vor lassen.
 
 0:01:42.920,0:01:45.130
 Wir haben also zuerst Days.
@@ -116,12 +116,12 @@ Dann ein großes N für Number, für die Tageszahl.
 Die Klammer wird geschlossen.
 
 0:02:04.970,0:02:07.539
-Tages- und Jahreszahlen sollen immer positiv
-sein.
+Tages- und Jahreszahlen
+sollen immer positiv sein.
 
 0:02:07.539,0:02:12.540
-Deshalb definieren wir, dass D größer als
-null sein muss.
+Deshalb definieren wir, dass
+D größer als null sein muss.
 
 0:02:12.540,0:02:19.220
 Außerdem darf D auch maximal nur so groß
@@ -147,8 +147,8 @@ so groß sein wie N.
 Das heißt kleiner gleich.
 
 0:02:39.580,0:02:45.960
-Außerdem muss auch die Jahreszahl positiv
-sein, also Y größer als null.
+Außerdem muss auch die Jahreszahl
+positiv sein, also Y größer als null.
 
 0:02:45.960,0:02:51.630
 Das können wir jetzt in Prolog testen, indem
@@ -164,12 +164,12 @@ Valid Date, Day, 18, Dezember und 2020.
 Und wir erhalten „true“.
 
 0:02:59.150,0:03:03.310
-Das gleiche testen wir für den 31. April
-2004 testen.
+Das gleiche testen wir für
+den 31. April 2004 testen.
 
 0:03:03.310,0:03:07.640
-Den gibt es nicht, da wir festgelegt haben,
-dass der April nur 30 Tage hat.
+Den gibt es nicht, da wir festgelegt
+haben, dass der April nur 30 Tage hat.
 
 0:03:07.640,0:03:10.450
 Deshalb lautet das Ergebnis „false“.

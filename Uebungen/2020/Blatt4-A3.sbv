@@ -1,13 +1,14 @@
 0:00:00.420,0:00:03.130
-Bei Aufgabe drei geht es um den Markierungsalgorithmus.
+Bei Aufgabe drei geht es um
+den Markierungsalgorithmus.
 
 0:00:03.130,0:00:06.110
-Dieser soll auf die zwei folgenden Hornformeln
-angewandt werden.
+Dieser soll auf die zwei folgenden
+Hornformeln angewandt werden.
 
 0:00:06.110,0:00:09.400
-Dafür werden diese zunächst in Implikationsschreibweise
-dargestellt.
+Dafür werden diese zunächst in
+Implikationsschreibweise dargestellt.
 
 0:00:09.400,0:00:13.830
 Dazu soll beim Markierungsalgorithmus die
@@ -17,16 +18,16 @@ Notation der Markierungsreihenfolge verwendet
 werden.
 
 0:00:14.830,0:00:18.410
-Zuerst stellen wir die Formeln in Implikationsschreibweise
-dar.
+Zuerst stellen wir die Formeln
+in Implikationsschreibweise dar.
 
 0:00:18.410,0:00:23.570
 Bei solchen Aufgaben markiere ich immer die
 Teile, die ich machen muss, sodass ich am
 
 0:00:23.570,0:00:26.640
-Ende sehe, ob ich alle Teile der Aufgabe erfüllt
-habe.
+Ende sehe, ob ich alle Teile
+der Aufgabe erfüllt habe.
 
 0:00:26.640,0:00:28.960
 Insbesondere, wenn noch ein Antwortsatz geschrieben
@@ -43,26 +44,27 @@ nochmal, ob ich alles erfüllt habe, das ich
 zuvor markiert hatte.
 
 0:00:34.289,0:00:37.460
-Bei Aufgabe (a) beginnen wir mit der Implikationsschreibweise.
+Bei Aufgabe (a) beginnen wir mit
+der Implikationsschreibweise.
 
 0:00:37.460,0:00:40.920
-Das ist analog zu dem, was wir in der letzten
-Aufgabe gemacht haben.
+Das ist analog zu dem, was wir in
+der letzten Aufgabe gemacht haben.
 
 0:00:40.920,0:00:46.149
-Da hatte ich bereits gesagt, dass die negierte
-Form immer vor die Implikation kommt.
+Da hatte ich bereits gesagt, dass die
+negierte Form immer vor die Implikation kommt.
 
 0:00:46.149,0:00:50.149
-Wenn wir also A oder nicht B haben, haben
-wir B impliziert A.
+Wenn wir also A oder nicht B
+haben, haben wir B impliziert A.
 
 0:00:50.149,0:00:52.519
 Hier dürfen wir das Und nicht vergessen.
 
 0:00:52.519,0:00:57.489
-Ein positives einfaches Literal wird zu eins
-impliziert.
+Ein positives einfaches Literal
+wird zu eins impliziert.
 
 0:00:57.489,0:00:59.500
 In diesem Fall impliziert es B.
@@ -71,16 +73,16 @@ In diesem Fall impliziert es B.
 Es folgt wieder ein Und.
 
 0:01:00.769,0:01:03.100
-Das C ist negiert und kommt daher vor die
-Implikation.
+Das C ist negiert und kommt
+daher vor die Implikation.
 
 0:01:03.100,0:01:06.020
-Es ist irrelevant, auf welcher Seite der Disjunktion
-es stand.
+Es ist irrelevant, auf welcher
+Seite der Disjunktion es stand.
 
 0:01:06.020,0:01:08.720
-Es ist negiert, weshalb es vor die Implikation
-kommt.
+Es ist negiert, weshalb es
+vor die Implikation kommt.
 
 0:01:08.720,0:01:10.039
 C impliziert A.
@@ -100,8 +102,8 @@ haben, an der steht, dass eins irgendwas impliziert.
 Das ist hier bei B der Fall.
 
 0:01:24.101,0:01:27.719
-Das heißt, wir können alle Bs mit einer
-Eins markieren.
+Das heißt, wir können alle
+Bs mit einer Eins markieren.
 
 0:01:27.719,0:01:34.700
 Unten schreiben wir auf: Schritt eins, B.
@@ -137,8 +139,8 @@ A. Da ist aber A rechts und nicht links.
 C impliziert null.
 
 0:01:50.859,0:01:54.909
-Wenn das nicht der Fall ist, wissen wir, dass
-die Formel erfüllbar ist.
+Wenn das nicht der Fall ist, wissen
+wir, dass die Formel erfüllbar ist.
 
 0:01:54.909,0:01:56.020
 Das schreiben wir auf.
@@ -150,16 +152,16 @@ Das ist sehr wichtig.
 Jetzt sollen wir noch das Modell angeben.
 
 0:02:00.409,0:02:04.479
-Dafür bekommt alles, was wir markiert haben,
-eine Eins zugewiesen.
+Dafür bekommt alles, was wir
+markiert haben, eine Eins zugewiesen.
 
 0:02:04.479,0:02:07.539
-Alles, was wir nicht markiert haben, bekommt
-eine Null.
+Alles, was wir nicht markiert
+haben, bekommt eine Null.
 
 0:02:07.539,0:02:10.479
-Wir sehen hier, dass wir in Schritt eins und
-zwei A und B markiert haben.
+Wir sehen hier, dass wir in Schritt
+eins und zwei A und B markiert haben.
 
 0:02:10.479,0:02:12.450
 Das heißt, Alpha von A bekommt eine Eins.
@@ -168,12 +170,12 @@ Das heißt, Alpha von A bekommt eine Eins.
 Alpha von B bekommt auch eine Eins.
 
 0:02:15.180,0:02:19.470
-Alpha von C ist das letzte, was von der Formel
-noch übrig ist, das nicht markiert ist.
+Alpha von C ist das letzte, was von der
+Formel noch übrig ist, das nicht markiert ist.
 
 0:02:19.470,0:02:21.580
-Deshalb bekommt Alpha von C den Wahrheitswert
-null.
+Deshalb bekommt Alpha von
+C den Wahrheitswert null.
 
 0:02:21.580,0:02:22.900
 Wir fahren fort mit Aufgabe (b).
@@ -192,8 +194,8 @@ Hier ist das A negiert.
 Das A kommt nach vorn.
 
 0:02:33.180,0:02:38.170
-A impliziert B. Ein einfaches A ergibt eins
-impliziert A.
+A impliziert B. Ein einfaches
+A ergibt eins impliziert A.
 
 0:02:38.170,0:02:40.360
 Hier sind beide negiert.
@@ -219,15 +221,15 @@ Jetzt wenden wir den Markierungsalgorithmus
 an.
 
 0:03:01.490,0:03:04.970
-Also wo haben wir eine Klausel, in der steht,
-dass eins irgendwas impliziert?
+Also wo haben wir eine Klausel, in der
+steht, dass eins irgendwas impliziert?
 
 0:03:04.970,0:03:06.799
 Das ist hier in der zweiten Klausel der Fall.
 
 0:03:06.799,0:03:10.970
-Wir können also A markieren und eine Eins
-hinschreiben.
+Wir können also A markieren
+und eine Eins hinschreiben.
 
 0:03:10.970,0:03:13.819
 Das heißt: Schritt eins, A.
@@ -249,8 +251,8 @@ der steht, dass A irgendwas impliziert.
 Das ist in der ersten Klausel der Fall.
 
 0:03:24.689,0:03:28.080
-Deshalb können wir alle Bs mit einer Zwei
-markieren.
+Deshalb können wir alle Bs
+mit einer Zwei markieren.
 
 0:03:28.080,0:03:31.360
 Das ist hier und da der Fall.
@@ -269,8 +271,8 @@ Hier haben wir B und A markiert.
 Das impliziert null.
 
 0:03:40.610,0:03:43.680
-Das heißt, es ist ein anderer Fall als gerade
-eben.
+Das heißt, es ist ein
+anderer Fall als gerade eben.
 
 0:03:43.680,0:03:46.340
 Hier haben wir: Irgendwas impliziert null.
@@ -280,5 +282,5 @@ Das sorgt dafür, dass die Formel unerfüllbar
 ist.
 
 0:03:50.400,0:03:52.870
-Gerade eben war sie erfüllbar, da wir nichts
-weiter markieren konnten.
+Gerade eben war sie erfüllbar, da
+wir nichts weiter markieren konnten.

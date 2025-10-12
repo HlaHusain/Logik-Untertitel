@@ -3,8 +3,8 @@ Unser erstes Ziel soll sein, diese Formel, die
 Sie hier sehen, in konjunktive Normalform zu
 
 0:00:08.670,0:00:14.250
-bringen. Das ist die Formel, die weiter vorn in den
-Folien schon mal auftauchte, zusammen mit ihrem
+bringen. Das ist die Formel, die weiter vorn in
+den Folien schon mal auftauchte, zusammen mit ihrem
 
 0:00:14.250,0:00:22.890
 Syntaxbaum, als wir auch Teilformeln besprochen
@@ -15,7 +15,8 @@ unseren Schritten null, eins, zwei etc. beginnen.
 Schritt null ist hier nicht nötig, weil gar
 
 0:00:27.720,0:00:34.590
-keine Implikation oder Biimplikation vorkommt. Das heißt, wir können direkt mit Schritt eins, zwei, drei
+keine Implikation oder Biimplikation vorkommt. Das
+heißt, wir können direkt mit Schritt eins, zwei, drei
 
 0:00:34.590,0:00:42.870
 beginnen. Schritt eins trifft auf Zusammentreffen von
@@ -26,15 +27,16 @@ hier nicht auf. Ist also auch nicht relevant. Also
 wären Schritt zwei und Schritt drei relevant. Das
 
 0:00:49.440,0:00:57.660
-waren die de Morgan-Regeln. Also, wo wir Negation auf Konjunktion oder Disjunktion anwenden. Und sowas
+waren die de Morgan-Regeln. Also, wo wir Negation
+auf Konjunktion oder Disjunktion anwenden. Und sowas
 
 0:00:57.660,0:01:03.300
-tritt hier auf. Wir haben
-hier die Form ¬ außen von irgendwas. Und dieses
+tritt hier auf. Wir haben hier die
+Form ¬ außen von irgendwas. Und dieses
 
 0:01:03.300,0:01:11.250
-irgendwas ist eine Konjunktion von zwei Teilen.
-Mit anderen Worten: Hier im Syntaxbaum
+irgendwas ist eine Konjunktion von zwei
+Teilen. Mit anderen Worten: Hier im Syntaxbaum
 
 0:01:11.250,0:01:20.520
 trifft die Negation auf eine Konjunktion von
@@ -45,8 +47,8 @@ dass wir die Negation nach unten drücken. Oder
 anders gesagt: Wir formen die Formel um zu
 
 0:01:29.880,0:01:37.560
-¬(F ∧ G) ist (¬F ∨ ¬G). Also, wir formen das um
-zu: nicht und dann der linke Teil von dieser
+¬(F ∧ G) ist (¬F ∨ ¬G). Also, wir formen das
+um zu: nicht und dann der linke Teil von dieser
 
 0:01:37.560,0:01:47.220
 Konjunktion. Also ¬ und dann hier (¬A4 ∨ A1).
@@ -65,32 +67,32 @@ genommen ein Stück weit fertig. Da gibt es nichts, wo
 wir die Negation noch hinschieben können. Wir müssen
 
 0:02:13.920,0:02:20.130
-uns eigentlich nur noch mit diesem Teil weiter
-beschäftigen. Was haben wir da? Da
+uns eigentlich nur noch mit diesem Teil
+weiter beschäftigen. Was haben wir da? Da
 
 0:02:20.130,0:02:28.320
 haben wir die Negation von einer Disjunktion. Das
 führt zu was? (Ein ähnlicher Schritt wie hier oben)
 
 0:02:29.970,0:02:37.710
-Wir müssen jetzt also hier sozusagen die Negation in diese beiden
-Richtungen weiter drücken. Und dann werden wir
+Wir müssen jetzt also hier sozusagen die Negation in diese
+beiden Richtungen weiter drücken. Und dann werden wir
 
 0:02:37.710,0:02:46.650
-erhalten: ¬ der linke Partner, also die Negation von
-dem linken Partner. Und der linke Partner ist dieses ¬A4.
+erhalten: ¬ der linke Partner, also die Negation von dem
+linken Partner. Und der linke Partner ist dieses ¬A4.
 
 0:02:47.370,0:02:53.970
-Hier haben wir dann ¬¬A4. Aus dem ∨ wird ein ∧.
-Und hier haben wir die Negation nochmals auf
+Hier haben wir dann ¬¬A4. Aus dem ∨ wird ein
+∧. Und hier haben wir die Negation nochmals auf
 
 0:02:53.970,0:03:01.170
 dem rechten Partner. Also auf dem A1. Diese gesamte
 Klammer hier wäre das, was wir dafür ersetzen
 
 0:03:01.170,0:03:11.130
-müssen. Natürlich bleibt der äußere Kontext noch
-erhalten. Im Syntaxbaum schieben
+müssen. Natürlich bleibt der äußere Kontext
+noch erhalten. Im Syntaxbaum schieben
 
 0:03:11.130,0:03:21.000
 wir jetzt die Negation hier nach unten. Dabei wird
@@ -105,20 +107,20 @@ sondern unterwegs beim Abarbeiten der Schritte
 zwei und drei. Und das führt dazu, dass wir das
 
 0:03:34.200,0:03:47.400
-noch entfernen müssen/ können/ sollten. Und daraus
-wird dann deswegen ((A4 ∧ ¬A1) ∨ ¬A3).
+noch entfernen müssen/ können/ sollten. Und
+daraus wird dann deswegen ((A4 ∧ ¬A1) ∨ ¬A3).
 
 0:03:48.450,0:03:59.220
-Das heißt im Grunde genommen, diese beiden Negationen hier
-verschwinden und es bleibt übrig:
+Das heißt im Grunde genommen, diese beiden
+Negationen hier verschwinden und es bleibt übrig:
 
 0:03:59.220,0:04:10.350
 ((A4 ∧ ¬A1) ∨ ¬A3). Wir können das auch an dem Syntaxbaum
 sehen, was hier passiert ist. Das ist dieses nach
 
 0:04:10.350,0:04:18.900
-unten drücken der Negation im Syntaxbaum.
-Damit wären die Schritte null, eins, zwei, drei fertig.
+unten drücken der Negation im Syntaxbaum. Damit
+wären die Schritte null, eins, zwei, drei fertig.
 
 0:04:18.900,0:04:25.260
 Wenn wir hier draufschauen, sehen wir zufälligerweise, dass
@@ -133,12 +135,12 @@ herleiten. Das heißt, wir kommen um die Schritte fünf, sechs, sieben
 nicht herum. Das waren Schritte, wo wir Disjunktionen nach innen drücken
 
 0:04:38.790,0:04:43.080
-können, damit außen eine Konjunktion stehen
-bleibt, weil wir konjunktive Normalform haben wollen.
+können, damit außen eine Konjunktion stehen bleibt,
+weil wir konjunktive Normalform haben wollen.
 
 0:04:43.080,0:04:48.750
-Natürlich stand hier auch eine Konjunktion
-außen, aber es gab auch diese Negation. Die durfte nicht
+Natürlich stand hier auch eine Konjunktion außen,
+aber es gab auch diese Negation. Die durfte nicht
 
 0:04:48.750,0:04:55.290
 sein, weil Negation darf in der KNF nur in Literalen
@@ -157,24 +159,24 @@ war das? Da nimmt man einfach jeden der Partner
 aus der Konjunktion und disjungiert ihn jeweils
 
 0:05:16.410,0:05:29.790
-mit dem Kontext. Wir kriegen einmal: (A4 ∨ ¬A3).
-Dann kriegen wir ein ∧. Das ist dieses ∧.
+mit dem Kontext. Wir kriegen einmal: (A4 ∨
+¬A3). Dann kriegen wir ein ∧. Das ist dieses ∧.
 
 0:05:29.790,0:05:38.520
-Und der andere Partner ist dann
-diese äußere Konjunktion. Das ist dann, was vorher
+Und der andere Partner ist dann diese
+äußere Konjunktion. Das ist dann, was vorher
 
 0:05:38.520,0:05:49.110
 der rechte Teil der inneren Konjunktion war. Also
 ¬A1. Und der Kontext dieses ∨ von außen hätte
 
 0:05:49.110,0:05:56.580
-ihn jetzt reproduziert. In dem Sinne haben wir jetzt
-das ∨ von außen nach innen geschoben und das
+ihn jetzt reproduziert. In dem Sinne haben wir
+jetzt das ∨ von außen nach innen geschoben und das
 
 0:05:56.580,0:06:02.910
-∧ von innen ist jetzt auf die äußere Ebene gekommen. Und das ist tatsächlich
-eine konjunktive Normalform, wie sie sich leicht durch
+∧ von innen ist jetzt auf die äußere Ebene gekommen. Und das ist
+tatsächlich eine konjunktive Normalform, wie sie sich leicht durch
 
 0:06:02.910,0:06:12.810
 anschauen überzeugen können. Das heißt, damit hätten

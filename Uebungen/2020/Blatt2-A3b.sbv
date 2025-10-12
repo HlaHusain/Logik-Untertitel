@@ -1,6 +1,6 @@
 0:00:00.070,0:00:03.490
-In Aufgabe B sollen wir jetzt noch einmal zeigen,
-dass die beiden Formeln äquivalent sind,
+In Aufgabe B sollen wir jetzt noch einmal
+zeigen, dass die beiden Formeln äquivalent sind,
 
 0:00:03.490,0:00:07.510
 indem wir sie mittels Äquivalenzumformungen
@@ -14,7 +14,8 @@ Und das können wir jetzt umformen, da sehen
 wir schon, wir haben hier eine Negation.
 
 0:00:16.070,0:00:18.710
-Da ist es immer ganz praktisch, de Morgan anzuwenden.
+Da ist es immer ganz praktisch,
+de Morgan anzuwenden.
 
 0:00:18.710,0:00:26.259
 Ziehen wir die Negation also rein, dann kippt
@@ -31,12 +32,12 @@ anwenden.
 A oder C und Nicht B oder C.
 
 0:00:38.579,0:00:41.730
-Und dann können wir jetzt noch die Definition
-der Implikation anwenden.
+Und dann können wir jetzt noch die
+Definition der Implikation anwenden.
 
 0:00:41.730,0:00:49.610
-Und dann haben wir: A oder C, denn Nicht B
-oder C ist ja, wenn ihr euch erinnert, B impliziert
+Und dann haben wir: A oder C, denn Nicht B oder
+C ist ja, wenn ihr euch erinnert, B impliziert
 
 0:00:49.610,0:00:50.610
 C.
@@ -52,5 +53,5 @@ Und hier machen wir es eben so herum.
 Und das ist G.
 
 0:00:57.640,0:01:01.969
-Das heißt, wir haben hier gezeigt, dass F
-äquivalent zu G ist.
+Das heißt, wir haben hier gezeigt,
+dass F äquivalent zu G ist.

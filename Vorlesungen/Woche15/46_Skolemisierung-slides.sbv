@@ -1,18 +1,18 @@
 0:00:00.859,0:00:10.769
-Herzlich willkommen zurück. Zur Einordnung:
-Wir befinden uns im Unterkapitel zu Normalformen
+Herzlich willkommen zurück. Zur Einordnung: Wir
+befinden uns im Unterkapitel zu Normalformen
 
 0:00:10.769,0:00:17.930
-in der Prädikatenlogik. Und warum beschäftigen
-wir uns damit? Es geht
+in der Prädikatenlogik. Und warum
+beschäftigen wir uns damit? Es geht
 
 0:00:17.930,0:00:25.550
 uns darum, den Status prädikatenlogischer
 Formeln bestimmen zu können. Status im Sinne
 
 0:00:25.550,0:00:30.820
-wie wir das in der Aussagenlogik auch hatten.
-Hier sind nochmal zwei Bilder aus
+wie wir das in der Aussagenlogik auch
+hatten. Hier sind nochmal zwei Bilder aus
 
 0:00:30.820,0:00:34.621
 dem Aussagenlogik-Kapitel. Da gab es die Formeln.
@@ -31,8 +31,8 @@ Das heißt, die Formel wäre allgemeingültig/tautologisch.
 Diese Unterscheidung hatten wir
 
 0:00:51.060,0:00:55.829
-bei der Aussagenlogik und haben wir auch bei
-der Prädikatenlogik. Und auch
+bei der Aussagenlogik und haben wir
+auch bei der Prädikatenlogik. Und auch
 
 0:00:55.829,0:01:01.240
 aus dem Aussagenlogik-Kapitel zur Erinnerung:
@@ -63,12 +63,12 @@ nicht umgehen. Das heißt, unser Ziel im Moment ist,
 dass wir aus prädikatenlogischen Formeln die Quantoren
 
 0:01:39.970,0:01:46.100
-möglichst weit entfernen oder mit denen sinnvoll umgehen,
-so dass wir in eine Normalform kommen,
+möglichst weit entfernen oder mit denen sinnvoll
+umgehen, so dass wir in eine Normalform kommen,
 
 0:01:46.100,0:01:50.130
-in der wir dann Resolution anwenden können.
-Und wir hatten bereits angefangen
+in der wir dann Resolution anwenden
+können. Und wir hatten bereits angefangen
 
 0:01:50.130,0:01:55.250
 mit dem ersten und zweiten Schritt. Nämlich Bereinigung
@@ -83,28 +83,28 @@ Also ganz so einfach wird es natürlich nicht sein.
 Aber wir sind eben dabei, mit den Quantoren umzugehen,
 
 0:02:06.150,0:02:11.110
-die aus dem Weg zu schaffen. Der nächste Schritt,
-den wir dabei machen werden, ist die sogenannte Skolemisierung.
+die aus dem Weg zu schaffen. Der nächste Schritt, den wir
+dabei machen werden, ist die sogenannte Skolemisierung.
 
 0:02:11.110,0:02:15.740
 Darum wird es also in diesem Video gehen. Und das
 möchte ich zunächst an einem Beispiel motivieren,
 
 0:02:15.740,0:02:23.710
-bzw. ein Beispiel benutzen, um diesen sogenannten
-Skolemisierungs-Schritt zu begründen.
+bzw. ein Beispiel benutzen, um diesen
+sogenannten Skolemisierungs-Schritt zu begründen.
 
 0:02:23.710,0:02:28.020
-Das ist auch Material, das Sie schon gesehen haben.
-Also dieses Beispiel tauchte zu Beginn des Prädikatenlogik-Kapitels
+Das ist auch Material, das Sie schon gesehen haben. Also
+dieses Beispiel tauchte zu Beginn des Prädikatenlogik-Kapitels
 
 0:02:28.020,0:02:36.040
-auf. Da gab es diesen Syllogismus
-hier: "Aliens, Säugetiere, Meerestiere etc."
+auf. Da gab es diesen Syllogismus hier:
+"Aliens, Säugetiere, Meerestiere etc."
 
 0:02:36.040,0:02:44.130
-Und da hatte ich dann gezeigt,
-wie man den in Prädikatenlogik erstmal hinschreiben
+Und da hatte ich dann gezeigt, wie man den
+in Prädikatenlogik erstmal hinschreiben
 
 0:02:44.130,0:02:50.690
 könnte. Also aus diesen beiden Vorbedingungen
@@ -119,12 +119,12 @@ man fasst das hier (was so in dieser Zeilenschreibweise
 vorgegeben ist) als eine Implikation auf und fragt sich,
 
 0:03:03.379,0:03:09.980
-ob denn diese Implikation gilt. Also wenn wir
-immer diese beiden Vorbedingungen wissen:
+ob denn diese Implikation gilt. Also wenn
+wir immer diese beiden Vorbedingungen wissen:
 
 0:03:09.980,0:03:16.239
-"Für alle x gilt: Alien(x) impliziert Säugetier(x); und
-für alle x wissen wir auch: Alien(x) impliziert Meeresbewohner(x)."
+"Für alle x gilt: Alien(x) impliziert Säugetier(x); und für
+alle x wissen wir auch: Alien(x) impliziert Meeresbewohner(x)."
 
 0:03:16.239,0:03:25.209
 Dann fragen wir uns: Gibt es ein x,
@@ -151,8 +151,8 @@ dass es ein Alien gibt (durch so eine Existenz-Aussage),
 oder dass wir sogar ein konkretes Alien bereits
 
 0:03:59.810,0:04:05.470
-schon einmal gesehen haben. Diese beiden Möglichkeiten
-hatte ich angegeben als Ergänzung
+schon einmal gesehen haben. Diese beiden
+Möglichkeiten hatte ich angegeben als Ergänzung
 
 0:04:05.470,0:04:09.629
 dieses potenziellen Syllogismus, damit wir von
@@ -183,20 +183,20 @@ mal vornehmen, für a) die Formel, so wie sie hier oben steht,
 ohne Extrawissen, und b) mit dieser zusätzlichen Kenntnis,
 
 0:04:48.569,0:04:54.410
-dass es ein x gibt, so dass A(x) gilt, oder c) mit dieser
-zusätzlichen Kenntnis, dass wir
+dass es ein x gibt, so dass A(x) gilt, oder
+c) mit dieser zusätzlichen Kenntnis, dass wir
 
 0:04:54.410,0:05:03.039
-eine konkrete Konstante haben, von der wir wissen,
-das ist in dem Fall ein Alien, also A(dieses Objekt) gilt.
+eine konkrete Konstante haben, von der wir wissen, das
+ist in dem Fall ein Alien, also A(dieses Objekt) gilt.
 
 0:05:03.039,0:05:09.969
 Also nehmen wir diese drei Formeln, über die ich
 gerade gesprochen habe. Wir negieren diese jeweils,
 
 0:05:09.969,0:05:14.869
-weil wir einerseits die Tautologie testen wollen,
-dies aber über einen Unerfüllbarkeitstest erreichen wollen.
+weil wir einerseits die Tautologie testen wollen, dies
+aber über einen Unerfüllbarkeitstest erreichen wollen.
 
 0:05:14.869,0:05:19.379
 (Und da wissen wir, wenn wir die Formel negieren,
@@ -215,32 +215,32 @@ zwei Schritte der Normalisierung gesehen.
 Wir haben nämlich die Bereinigte Pränexform
 
 0:05:37.309,0:05:41.559
-eingeführt. Und das wäre jetzt
-sicherlich sinnvoll, das für unsere drei Formeln auch zu tun.
+eingeführt. Und das wäre jetzt sicherlich
+sinnvoll, das für unsere drei Formeln auch zu tun.
 
 0:05:41.559,0:05:44.960
-Und wenn ich das mache für die drei Formeln,
-die hier genannt sind (Bezug nehmend auf das Beispiel
+Und wenn ich das mache für die drei Formeln, die
+hier genannt sind (Bezug nehmend auf das Beispiel
 
 0:05:44.960,0:05:52.309
 von der Vorfolie), sie jeweils in Bereinigte Pränexform
 bringe, dann erhalten wir diese drei Formeln.
 
 0:05:52.309,0:05:59.770
-Das könnten Sie einfach mal ausrechnen.
-Es ist so. Wir haben dann jeweils Quantoren,
+Das könnten Sie einfach mal ausrechnen. Es
+ist so. Wir haben dann jeweils Quantoren,
 
 0:05:59.770,0:06:10.249
 die ganz vorn stehen. Die benutzen verschiedene Variablen.
 Und hier hinten steht jeweils, was an Formel in
 
 0:06:10.249,0:06:17.520
-den Quantoren geschachtelt übrig bleibt.
-Die sind relativ ähnlich noch von der Struktur.
+den Quantoren geschachtelt übrig bleibt. Die
+sind relativ ähnlich noch von der Struktur.
 
 0:06:17.520,0:06:23.689
-Unterscheiden sich natürlich dahingehend, dass in dem
-einen Fall, wo ich diese "∃x : A(x)"-Aussage eingebracht habe,
+Unterscheiden sich natürlich dahingehend, dass in dem einen
+Fall, wo ich diese "∃x : A(x)"-Aussage eingebracht habe,
 
 0:06:23.689,0:06:28.369
 wir diesen Existenzquantor auch in der Bereinigten
@@ -251,8 +251,8 @@ für die hier gebundene Variable. Und wir im
 letzten Fall zwar keinen Existenzquantor haben,
 
 0:06:32.490,0:06:42.110
-aber diese eine Konstante hier
-als Teilformel finden,
+aber diese eine Konstante
+hier als Teilformel finden,
 
 0:06:42.110,0:06:49.479
 dass für diese Konstante eben A gilt. Also eigentlich
@@ -271,44 +271,44 @@ die Quantoren da stehen. Wenn man sich jetzt diese letzten
 beiden Formeln anschaut und insbesondere mal darüber nachdenkt,
 
 0:07:08.550,0:07:14.020
-was sie denn bedeuten, dann unterscheiden
-sie sich in ihrer Aussage nicht besonders stark.
+was sie denn bedeuten, dann unterscheiden sie
+sich in ihrer Aussage nicht besonders stark.
 
 0:07:14.020,0:07:19.659
-Die Tatsache, dass wir hier einerseits sagen:
-"∃x : A(x)" gilt,
+Die Tatsache, dass wir hier
+einerseits sagen: "∃x : A(x)" gilt,
 
 0:07:19.659,0:07:29.059
-während hier unten steht: A gilt für eine bestimmte Konstante.
-Das ist von der Aussage her sehr ähnlich.
+während hier unten steht: A gilt für eine bestimmte
+Konstante. Das ist von der Aussage her sehr ähnlich.
 
 0:07:29.059,0:07:33.449
 Diese beiden Formeln unterscheiden sich nicht
 gerade arg. Und in der Tat ist das genau die
 
 0:07:33.449,0:07:39.199
-Idee der sogenannten Skolemisierung.
-Also die Idee, ob ich nur sage: „Ich weiß,
+Idee der sogenannten Skolemisierung. Also
+die Idee, ob ich nur sage: „Ich weiß,
 
 0:07:39.199,0:07:44.259
 es gibt ein x, so dass A(x) gilt“, oder ob ich sage:
 „Es gibt übrigens eine ganz konkrete Konstante,
 
 0:07:44.259,0:07:50.349
-von der ich weiß, dass A davon gilt.“
-Das ist im Sinne der Frage nach der Erfüllbarkeit
+von der ich weiß, dass A davon gilt.“ Das
+ist im Sinne der Frage nach der Erfüllbarkeit
 
 0:07:50.349,0:07:57.569
 von Formeln äquivalent. Das ist das sogenannte
 Skolemisierungs-Prinzip. Das sagt nämlich:
 
 0:07:57.569,0:08:02.899
-Wenn wir eine Formel der Form "∃x" haben
-(das gilt für Existenzquantoren, nicht für Allquantoren!),
+Wenn wir eine Formel der Form "∃x" haben (das gilt
+für Existenzquantoren, nicht für Allquantoren!),
 
 0:08:02.899,0:08:08.330
-wenn wir eine Formel der Form "∃x" und dann
-irgendeine Formel F haben, dann ist das erfüllbarkeitsäquivalent
+wenn wir eine Formel der Form "∃x" und dann irgendeine
+Formel F haben, dann ist das erfüllbarkeitsäquivalent
 
 0:08:08.330,0:08:13.899
 zu einer Formel, wo wir den Quantor weglassen
@@ -319,8 +319,8 @@ Das wäre sowas wie dieses "theOneWeSaw". Dieses eine
 spezifische Alien, das wir schon mal gesehen haben.
 
 0:08:17.949,0:08:22.229
-Im allgemeinen Fall einfach irgendeine Konstante,
-die vorher noch nicht vorkam.
+Im allgemeinen Fall einfach irgendeine
+Konstante, die vorher noch nicht vorkam.
 
 0:08:22.229,0:08:32.510
 Das Prinzip ist benannt nach einem Logiker,
@@ -343,8 +343,8 @@ die sich aus F ergibt, wenn wir darin jedes freie
 Vorkommen von x durch diese neue Konstante a ersetzen.
 
 0:09:00.860,0:09:05.470
-Die muss wirklich neu sein. Die darf vorher noch
-nicht vorgekommen sein. Und natürlich,
+Die muss wirklich neu sein. Die darf vorher
+noch nicht vorgekommen sein. Und natürlich,
 
 0:09:05.470,0:09:09.670
 da wir vorher sogar die Formel bereinigt haben,
@@ -355,8 +355,8 @@ heißt letztlich "jedes freie Vorkommen" einfach
 was wir hier getan haben. Das ist die gleiche Idee
 
 0:09:21.720,0:09:29.500
-wie hier, wo wir x durch y ersetzt hatten.
-Jetzt ersetzen wir eben x durch eine neue Konstante a.
+wie hier, wo wir x durch y ersetzt hatten. Jetzt
+ersetzen wir eben x durch eine neue Konstante a.
 
 0:09:29.500,0:09:33.529
 Und dabei kommt Erfüllbarkeitsäquivalenz heraus.
@@ -367,44 +367,44 @@ genau dann erfüllbar, wenn es die andere auch ist.
 Die sind nicht äquivalent in dem Sinne, dass sie
 
 0:09:39.329,0:09:46.120
-die gleichen Modelle haben. Das liegt an dieser neuen Konstante a.
-Wir können nicht unbedingt erwarten, dass diese beiden Formeln
+die gleichen Modelle haben. Das liegt an dieser neuen Konstante
+a. Wir können nicht unbedingt erwarten, dass diese beiden Formeln
 
 0:09:46.120,0:09:52.470
 exakt die gleichen Modelle haben. Denn hier kommt eine
 konkrete Konstante vor und hier einfach irgendein x.
 
 0:09:52.470,0:09:58.370
-Aber die Eigenschaft, ob diese erste Formel erfüllbar ist,
-ist genau äquivalent dazu,
+Aber die Eigenschaft, ob diese erste Formel
+erfüllbar ist, ist genau äquivalent dazu,
 
 0:09:58.370,0:10:04.810
-ob denn die zweite Formel erfüllbar ist. Weil es für die
-Existenz eines Modells
+ob denn die zweite Formel erfüllbar ist.
+Weil es für die Existenz eines Modells
 
 0:10:04.810,0:10:10.079
-egal sein muss, ob wir nur sagen: „Es gibt irgendein x,
-so dass A(x) gilt" oder ob wir sagen: "Für eine
+egal sein muss, ob wir nur sagen: „Es gibt irgendein
+x, so dass A(x) gilt" oder ob wir sagen: "Für eine
 
 0:10:10.079,0:10:21.509
-konkrete Konstante, die ansonsten keine spezifische
-Rolle spielt, gilt A(diese Konstante).“
+konkrete Konstante, die ansonsten keine
+spezifische Rolle spielt, gilt A(diese Konstante).“
 
 0:10:21.509,0:10:25.589
-Das ist also der Schritt der Skolemisierung. Was machen wir,
-wenn es mehrere Existenzquantoren gibt? Das ist ja
+Das ist also der Schritt der Skolemisierung. Was machen
+wir, wenn es mehrere Existenzquantoren gibt? Das ist ja
 
 0:10:25.589,0:10:32.540
 nur ein Rezept dafür, wenn die Formel genau mit einem
 Existenzquantor beginnt. Dann machen wir das eben mehrfach.
 
 0:10:32.540,0:10:38.529
-Wenn es "∃x : ∃y" gibt, dann machen wir das mehrfach,
-nehmen aber jeweils eine neue Konstante.
+Wenn es "∃x : ∃y" gibt, dann machen wir das
+mehrfach, nehmen aber jeweils eine neue Konstante.
 
 0:10:38.529,0:10:42.529
-Wenn wir das einmal gemacht haben, dann ist a
-ja keine nicht mehr vorkommende Konstante.
+Wenn wir das einmal gemacht haben, dann ist
+a ja keine nicht mehr vorkommende Konstante.
 
 0:10:42.529,0:10:49.170
 Dann taucht a vielleicht schon auf. Nach dem Schritt wird a
@@ -419,32 +419,32 @@ sondern durch eine nächste Konstante b zum Beispiel. Noch etwas
 komplizierter wird es, wenn der Existenzquantor nicht ganz vorn steht.
 
 0:11:02.800,0:11:09.509
-Denn dieses Rezept hier ist so nur anwendbar, wenn wir genau
-eine Formel mit "∃x und dann irgendein Rest" beginnen.
+Denn dieses Rezept hier ist so nur anwendbar, wenn wir
+genau eine Formel mit "∃x und dann irgendein Rest" beginnen.
 
 0:11:09.509,0:11:16.250
-Hier steht wirklich der Existenzquantor ganz vorn.
-Oder mehrere Existenzquantoren ganz vorn,
+Hier steht wirklich der Existenzquantor ganz
+vorn. Oder mehrere Existenzquantoren ganz vorn,
 
 0:11:16.250,0:11:24.640
 für die wir dann mehrere Konstanten verwenden.
 Schauen wir uns noch ein Beispiel an, um zu sehen,
 
 0:11:24.640,0:11:31.139
-was denn zu tun wäre, wenn so ein Existenzquantor
-nach einem Allquantor auftritt. Das mache ich wieder mal
+was denn zu tun wäre, wenn so ein Existenzquantor nach
+einem Allquantor auftritt. Das mache ich wieder mal
 
 0:11:31.139,0:11:36.550
-für ein Beispiel, das mit konkreten Begriffen gefüllt ist,
-so dass wir uns darunter etwas vorstellen können.
+für ein Beispiel, das mit konkreten Begriffen gefüllt
+ist, so dass wir uns darunter etwas vorstellen können.
 
 0:11:36.550,0:11:41.629
 Also nehmen wir an, wir haben diese Formel:
 „Für alle x soll gelten: Wenn x ein Planet ist,
 
 0:11:41.629,0:11:50.240
-dann folgt: Es existiert ein y, so dass y
-ein Stern ist und x dieses y umkreist.“
+dann folgt: Es existiert ein y, so dass
+y ein Stern ist und x dieses y umkreist.“
 
 0:11:50.240,0:11:56.860
 Bzw. wenn wir das in Bereinigte Pränexform bringen,
@@ -475,12 +475,12 @@ Also ich führe eine Skolemkonstante "irgendeinStern" ein
 und ersetze überall das y durch diese neue Konstante,
 
 0:12:34.450,0:12:40.180
-und erspare mir diesen Existenzquantor.
-Aber was würde das hier bedeuten, wenn wir das
+und erspare mir diesen Existenzquantor. Aber
+was würde das hier bedeuten, wenn wir das
 
 0:12:40.180,0:12:45.839
-mal intuitiv lesen? Dann würde das bedeuten, dass
-für diese Konstante "irgendeinStern" gilt:
+mal intuitiv lesen? Dann würde das bedeuten,
+dass für diese Konstante "irgendeinStern" gilt:
 
 0:12:45.839,0:12:50.410
 Wenn wir irgendeinen Planeten haben, dann ist dieser
@@ -503,8 +503,8 @@ Das würde bedeuten, dass es einen Stern gibt. Nämlich
 diesen "irgendeinStern", den wir hier als Konstante wählen,
 
 0:13:14.310,0:13:21.009
-der von allen Planeten umkreist wird. Und das stimmt einfach
-nicht. Das ist letztlich äquivalent zu dieser Frage,
+der von allen Planeten umkreist wird. Und das stimmt
+einfach nicht. Das ist letztlich äquivalent zu dieser Frage,
 
 0:13:21.009,0:13:28.529
 die wir in einem früheren Kapitel hatten, wo es um
@@ -530,12 +530,12 @@ durch "irgendeinStern", der dann völlig
 unabhängig von x ist. Das darf also nicht sein.
 
 0:13:54.420,0:14:01.990
-Das wäre logisch und auch intuitiv/sprachlich
-nicht die gleiche Aussage wie das, was wir oben haben.
+Das wäre logisch und auch intuitiv/sprachlich nicht
+die gleiche Aussage wie das, was wir oben haben.
 
 0:14:01.990,0:14:08.839
-Und nicht einmal erfüllbarkeitsäquivalent.
-Was wäre besser? Es wäre besser, hier zu sagen,
+Und nicht einmal erfüllbarkeitsäquivalent. Was
+wäre besser? Es wäre besser, hier zu sagen,
 
 0:14:08.839,0:14:14.860
 dass es für jeden Planeten x einen Stern gibt,
@@ -554,36 +554,36 @@ seine Sonne. Denn wenn ein Planet einen Stern umkreist,
 dann ist dieser Stern eben die Sonne dieses Planeten.
 
 0:14:33.829,0:14:39.459
-Also besser wäre hier gewesen, auch um den
-Existenzquantor zu eliminieren,
+Also besser wäre hier gewesen, auch
+um den Existenzquantor zu eliminieren,
 
 0:14:39.459,0:14:44.720
 nicht eine Konstante "irgendeinStern" zu nehmen,
 sondern ein Funktionssymbol, das jedem Planeten
 
 0:14:44.720,0:14:51.569
-eine Sonne zuordnet.
-Wir könnten dann intuitiv ausdrücken:
+eine Sonne zuordnet. Wir könnten
+dann intuitiv ausdrücken:
 
 0:14:51.569,0:14:58.540
-„Für jeden Planeten x, für jedes x, das ein Planet ist,
-gibt es einen Stern.“ Das ist das, was dieser Existenzquantor sagt.
+„Für jeden Planeten x, für jedes x, das ein Planet ist, gibt
+es einen Stern.“ Das ist das, was dieser Existenzquantor sagt.
 
 0:14:58.540,0:15:04.480
 Aber das drücken wir jetzt aus, indem wir sagen: Wir
 wenden ein Funktionssymbol sonneVon() auf den Planeten an.
 
 0:15:04.480,0:15:10.589
-Dann sollen wir etwas kriegen, was ein Stern ist. Das würde
-diese Teilformel ausdrücken. Und es soll dann gelten,
+Dann sollen wir etwas kriegen, was ein Stern ist. Das
+würde diese Teilformel ausdrücken. Und es soll dann gelten,
 
 0:15:10.589,0:15:20.069
-dass x seine Sonne umkreist. Und das würde die Intention
-korrekt ausdrücken, dass es für jeden Planeten
+dass x seine Sonne umkreist. Und das würde die
+Intention korrekt ausdrücken, dass es für jeden Planeten
 
 0:15:20.069,0:15:25.420
-einen von ihm umkreisten Stern gibt, dass es aber nicht
-für alle Planeten der gleiche Stern sein muss.
+einen von ihm umkreisten Stern gibt, dass es aber
+nicht für alle Planeten der gleiche Stern sein muss.
 
 0:15:25.420,0:15:32.850
 Und was ich an diesem Beispiel jetzt
@@ -598,12 +598,12 @@ oder mehreren Allquantoren. Da müssen wir einfach sagen:
 Wir können das y nicht durch eine Konstante ersetzen,
 
 0:15:43.279,0:15:47.930
-sondern durch ein
-Funktionssymbol angewandt auf alle zuvor
+sondern durch ein Funktionssymbol
+angewandt auf alle zuvor
 
 0:15:47.930,0:15:57.019
-allquantifizierten Variablen.
-Was heißt das? Nach unserem 1. und 2. Schritt
+allquantifizierten Variablen. Was heißt
+das? Nach unserem 1. und 2. Schritt
 
 0:15:57.019,0:16:01.399
 der Normalisierung, also der Bereinigung
@@ -622,12 +622,12 @@ dann Existenzquantoren? Und entsprechend jeweils
 können wir die Skolemisierung durchführen.
 
 0:16:16.499,0:16:21.769
-Also wenn wir so eine Bereinigte Pränexform haben
-und die enthält keine Existenzquantoren, dann ist gut.
+Also wenn wir so eine Bereinigte Pränexform haben und
+die enthält keine Existenzquantoren, dann ist gut.
 
 0:16:21.769,0:16:27.910
-Dann müssen wir nichts
-von den gebundenen Variablen ersetzen.
+Dann müssen wir nichts von den
+gebundenen Variablen ersetzen.
 
 0:16:27.910,0:16:32.089
 Nehmen wir an, es gibt mindestens einen Existenzquantor.
@@ -662,36 +662,36 @@ Und dafür in der Restformel F genau diese
 hier per Existenzquantor eingeführte
 
 0:17:12.839,0:17:17.620
-Variable ersetzen durch was?
-Nicht unbedingt durch eine Konstante,
+Variable ersetzen durch was? Nicht
+unbedingt durch eine Konstante,
 
 0:17:17.620,0:17:22.400
-sondern durch einen Funktionsterm folgender Art,
-wo wir ein bisher noch nicht vorkommendes
+sondern durch einen Funktionsterm folgender
+Art, wo wir ein bisher noch nicht vorkommendes
 
 0:17:22.400,0:17:29.360
 Funktionssymbol f nehmen und das auf die
 allquantifizierten Variablen x_1 bis x_k anwenden.
 
 0:17:29.360,0:17:36.049
-Und für den Fall, dass k = 0 ist, entspricht
-das natürlich genau einem Konstanten-Funktionssymbol.
+Und für den Fall, dass k = 0 ist, entspricht das
+natürlich genau einem Konstanten-Funktionssymbol.
 
 0:17:36.049,0:17:40.570
 Dann hätten wir einen Existenzquantor eliminiert.
 Und das machen wir mehrfach. Nämlich so lange,
 
 0:17:40.570,0:17:45.130
-bis es keinen Existenzquantor mehr gibt.
-Oder von links nach rechts: Wenn wir den jetzt entfernt haben,
+bis es keinen Existenzquantor mehr gibt. Oder von
+links nach rechts: Wenn wir den jetzt entfernt haben,
 
 0:17:45.130,0:17:50.220
 könnte das F ja auch noch weitere Quantoren enthalten.
 Und wenn darunter wieder ein Existenzquantor ist,
 
 0:17:50.220,0:18:06.640
-müssen wir diesen Schritt eben nochmals tun. Wenn wir das getan haben, genügend oft, dann gibt es keine
-Existenzquantoren mehr, nur noch Allquantoren.
+müssen wir diesen Schritt eben nochmals tun. Wenn wir das getan haben,
+genügend oft, dann gibt es keine Existenzquantoren mehr, nur noch Allquantoren.
 
 0:18:06.640,0:18:10.990
 Es könnte noch freie Variablen geben. Nämlich Variablen,
@@ -702,16 +702,16 @@ und dem Vorziehen von Quantoren, einfach noch durch
 keinen Quantor erfasst sind. Mit denen müssen wir auch
 
 0:18:17.370,0:18:23.950
-noch irgendetwas tun, damit wir die nächsten Schritte
-durchführen können. Und da ist das Rezept,
+noch irgendetwas tun, damit wir die nächsten
+Schritte durchführen können. Und da ist das Rezept,
 
 0:18:23.950,0:18:29.049
 dass wir, wenn am Ende noch freie Variablen übrig sind
 (die müssen dann auch schon in der Bereinigten Pränexform
 
 0:18:29.049,0:18:34.750
-frei gewesen sein), diese
-ebenfalls durch verschiedene, neue Konstanten ersetzen.
+frei gewesen sein), diese ebenfalls durch
+verschiedene, neue Konstanten ersetzen.
 
 0:18:34.750,0:18:39.420
 Die sind jetzt nicht mehr von Allquantoren erfasst.
@@ -722,28 +722,28 @@ freien Variablen schon in der Bereinigten Pränexform
 noch ganz links durch Existenzquantoren gebunden.
 
 0:18:45.180,0:18:50.950
-Das entspricht letztlich der Frage
-nach der Erfüllbarkeit.
+Das entspricht letztlich der
+Frage nach der Erfüllbarkeit.
 
 0:18:50.950,0:18:55.440
-Die fragt nämlich auch bei freien Variablen,
-ob es für die eine Belegung gibt. Und das können
+Die fragt nämlich auch bei freien Variablen, ob
+es für die eine Belegung gibt. Und das können
 
 0:18:55.440,0:19:02.750
 wir auch durch neue Konstanten simulieren.
 Wieder neue! Das dürfen keine Konstanten sein,
 
 0:19:02.750,0:19:13.520
-die wir bereits als Skolemkonstanten genutzt haben,
-um die Existenzquantoren zu entfernen. Das ist der 3. Schritt.
+die wir bereits als Skolemkonstanten genutzt haben, um die
+Existenzquantoren zu entfernen. Das ist der 3. Schritt.
 
 0:19:13.520,0:19:19.299
 Den können wir neben dem Beispiel mit den Aliens
 (das werden wir uns im nächsten Video anschauen,
 
 0:19:19.299,0:19:25.850
-wie da die Ergebnisformel aussieht)
-auch an den künstlichen Beispielen kurz illustrieren,
+wie da die Ergebnisformel aussieht) auch an
+den künstlichen Beispielen kurz illustrieren,
 
 0:19:25.850,0:19:34.880
 die wir in dem vorigen Video benutzt hatten. Das waren
@@ -754,12 +754,12 @@ Herstellung der Pränexform erklärt hatte. Und da
 waren wir jeweils zu diesen Formeln gekommen.
 
 0:19:40.559,0:19:50.090
-Das waren die jeweiligen Bereinigten Pränexformen.
-Und jetzt können wir uns anschauen, was hier jetzt passiert,
+Das waren die jeweiligen Bereinigten Pränexformen. Und
+jetzt können wir uns anschauen, was hier jetzt passiert,
 
 0:19:50.090,0:19:53.910
-wenn wir die Skolemisierung durchführen. Jetzt sind das
-alles nur Beispiele, wo höchstens ein Existenzquantor vorkommt.
+wenn wir die Skolemisierung durchführen. Jetzt sind das alles
+nur Beispiele, wo höchstens ein Existenzquantor vorkommt.
 
 0:19:53.910,0:19:59.220
 Das heißt, wir werden das jetzt jeweils in einem Schritt tun können.
@@ -770,24 +770,24 @@ mehrfach tun, wenn es mehrere Existenzquantoren gibt.
 Was ergibt sich hier? Hier zum Beispiel haben wir
 
 0:20:05.380,0:20:10.910
-diesen einen Existenzquantor. Wir müssen
-den also ersetzen durch einen Skolemausdruck.
+diesen einen Existenzquantor. Wir müssen den
+also ersetzen durch einen Skolemausdruck.
 
 0:20:10.910,0:20:14.980
 Das kann keine Skolemkonstante sein, weil dieser
 Existenzquantor nach einem Allquantor kommt.
 
 0:20:14.980,0:20:20.970
-Das heißt, wir müssen das y ersetzen durch
-ein neues Funktionssymbol.
+Das heißt, wir müssen das y ersetzen
+durch ein neues Funktionssymbol.
 
 0:20:20.970,0:20:26.950
-Zum Beispiel f angewandt auf alle Variablen, die vor
-diesem Existenzquantor allquantifiziert werden.
+Zum Beispiel f angewandt auf alle Variablen, die
+vor diesem Existenzquantor allquantifiziert werden.
 
 0:20:26.950,0:20:36.970
-Also ersetzen wir dieses y durch f(x). Was machen wir
-in diesem Beispiel? Da taucht gar kein Existenzquantor auf.
+Also ersetzen wir dieses y durch f(x). Was machen wir in
+diesem Beispiel? Da taucht gar kein Existenzquantor auf.
 
 0:20:36.970,0:20:42.410
 Das heißt, wir müssen keine Skolemisierung durchführen.
@@ -798,8 +798,8 @@ Das heißt, hier ändert sich einfach gar nichts.
 Wir bleiben bei dieser Formel. Was haben wir hier?
 
 0:20:51.769,0:20:57.390
-Da steht ein Existenzquantor. Der steht ganz außen.
-Das heißt, das ist der einfache Fall, wo wir tatsächlich
+Da steht ein Existenzquantor. Der steht ganz außen. Das
+heißt, das ist der einfache Fall, wo wir tatsächlich
 
 0:20:57.390,0:21:06.400
 einfach das y ersetzen durch eine Konstante. Wir machen hier
@@ -810,16 +810,16 @@ Denn das x ist eine freie Variable hier. Und das bleibt
 es auch, nachdem dieser Existenzquantor eliminiert ist.
 
 0:21:12.310,0:21:16.570
-Das heißt, abschließend müssen wir noch diese freie
-Variable auch durch eine Konstante ersetzen.
+Das heißt, abschließend müssen wir noch diese
+freie Variable auch durch eine Konstante ersetzen.
 
 0:21:16.570,0:21:21.710
 Natürlich nehmen wir dafür dann eben
 nicht wieder a, sondern zum Beispiel b.
 
 0:21:21.710,0:21:31.380
-Das heißt, wir erhalten hieraus diese Formel.
-Und in dem letzten Fall, da gab es vorher auch einige
+Das heißt, wir erhalten hieraus diese Formel. Und
+in dem letzten Fall, da gab es vorher auch einige
 
 0:21:31.380,0:21:35.760
 Umwandlungen, insbesondere dieser Quantoren. Das heißt,
@@ -834,28 +834,28 @@ in der Bereinigten Pränexform die Existenzquantoren
 zu betrachten. Und dann gibt es eben hier genau
 
 0:21:45.490,0:21:50.429
-diesen y-Existenzquantor. Der führt dazu,
-dass wir y durch eine Konstante ersetzen wollen.
+diesen y-Existenzquantor. Der führt dazu, dass
+wir y durch eine Konstante ersetzen wollen.
 
 0:21:50.429,0:21:57.320
 Also würden wir hier a hinschreiben. Danach haben wir eine
 freie Variable x. Die taucht unterhalb eines "∀z"-Quantors auf.
 
 0:21:57.320,0:22:02.019
-Aber es ist eine freie Variable. Das heißt,
-die ist wie hier oben zu ersetzen, und zwar durch
+Aber es ist eine freie Variable. Das heißt, die
+ist wie hier oben zu ersetzen, und zwar durch
 
 0:22:02.019,0:22:11.220
 eine neue Konstante, zum Beispiel b. Und dann würden
 wir bei dieser Formel enden. Was erreichen wir damit?
 
 0:22:11.220,0:22:16.000
-Wir haben nach diesen Schritten (in den Beispielen,
-aber auch im Allgemeinen) keine Existenzquantoren mehr und
+Wir haben nach diesen Schritten (in den Beispielen, aber
+auch im Allgemeinen) keine Existenzquantoren mehr und
 
 0:22:16.000,0:22:22.419
-keine freien Variablen mehr. Alle Variablen,
-die noch irgendwie auftauchen, sind allquantifiziert.
+keine freien Variablen mehr. Alle Variablen, die
+noch irgendwie auftauchen, sind allquantifiziert.
 
 0:22:22.419,0:22:29.610
 Und zwar alle in Pränexform. Also alle
@@ -870,21 +870,21 @@ insbesondere natürlich keine Existenzquantoren. Und in der
 auch keine Variablen auftauchen, außer denjenigen, die zuvor
 
 0:22:43.769,0:22:47.789
-allquantifiziert wurden. Das wird uns letztlich erlauben,
-die äußeren Quantoren einfach auch wegzulassen, weil sie keine
+allquantifiziert wurden. Das wird uns letztlich erlauben, die
+äußeren Quantoren einfach auch wegzulassen, weil sie keine
 
 0:22:47.789,0:22:54.980
 zusätzliche Information mehr tragen. Und das wird wertvoll
 sein für die weitere Bearbeitung beim Erfüllbarkeitstest.
 
 0:22:54.980,0:23:00.779
-Insbesondere in diesem letzten Fall ist das natürlich wertvoll.
-Dieses "∀z" ist sowieso sinnlos. Das können wir genauso gut weglassen.
+Insbesondere in diesem letzten Fall ist das natürlich wertvoll. Dieses
+"∀z" ist sowieso sinnlos. Das können wir genauso gut weglassen.
 
 0:23:00.779,0:23:05.320
 Aber auch dieses "∀x : ∀y :" können wir weglassen,
 weil wir einfach dann wissen: Alle Variablen,
 
 0:23:05.320,0:23:08.370
-die noch auftauchen in der Formel,
-sind allquantifiziert.
+die noch auftauchen in der
+Formel, sind allquantifiziert.

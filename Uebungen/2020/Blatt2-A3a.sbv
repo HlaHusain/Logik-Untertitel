@@ -6,8 +6,8 @@ gegeben und sollen zeigen, dass sie äquivalent
 sind.
 
 0:00:05.810,0:00:08.469
-Einmal mittels Wahrheitstabelle, später dann
-mittels Äquivalenzumformung.
+Einmal mittels Wahrheitstabelle, später
+dann mittels Äquivalenzumformung.
 
 0:00:08.469,0:00:13.080
 Auch hier habe ich mir schon mal die Wahrheitstabelle
@@ -17,8 +17,8 @@ reinkopiert, damit es einfach übersichtlicher
 ist.
 
 0:00:14.080,0:00:16.119
-Hier sind auch schon die Zwischenschritte,
-die ihr machen müsst.
+Hier sind auch schon die
+Zwischenschritte, die ihr machen müsst.
 
 0:00:16.119,0:00:20.240
 Auf der rechten Seite einmal die Formel für
@@ -48,16 +48,16 @@ könnte man sich jetzt noch eine Zwischenspalte
 Nicht A hierhin machen.
 
 0:00:46.680,0:00:49.320
-Hier weiß ich schon mal, weil A 0 ist, ist
-Nicht A 1, überall.
+Hier weiß ich schon mal, weil A
+0 ist, ist Nicht A 1, überall.
 
 0:00:49.320,0:00:54.470
-Im hinteren Teil ist Nicht A überall 0, weil
-ja A überall 1 ist.
+Im hinteren Teil ist Nicht A
+überall 0, weil ja A überall 1 ist.
 
 0:00:54.470,0:00:57.199
-Das heißt, ich schaue nur, ob jetzt hier
-B noch 1 ist.
+Das heißt, ich schaue nur,
+ob jetzt hier B noch 1 ist.
 
 0:00:57.199,0:00:59.780
 Das ist hier in diesen beiden Zeilen der Fall.
@@ -94,8 +94,8 @@ Weil nur, wenn 1 1 impliziert, dann ist es
 eine 1, oder wenn 0 irgendwas impliziert.
 
 0:01:30.920,0:01:34.790
-Und jetzt kann ich mir auch schon das Gesamte
-für die Formel F angucken.
+Und jetzt kann ich mir auch schon das
+Gesamte für die Formel F angucken.
 
 0:01:34.790,0:01:39.530
 Da haben wir: Nicht Nicht A oder B. Das könnt
@@ -108,8 +108,8 @@ machen.
 Ich hatte jetzt hier nicht so viel Platz.
 
 0:01:41.530,0:01:47.320
-Also, ihr könntet dieses hier auch noch mal
-negiert aufschreiben.
+Also, ihr könntet dieses hier auch
+noch mal negiert aufschreiben.
 
 0:01:47.320,0:01:50.740
 Dann schaue ich: Ist das oder C gegeben?
@@ -123,8 +123,8 @@ eine 1 ist, mache ich es mir einfach und schreibe
 mir überall da, wo C eine 1 ist, eine 1 rein.
 
 0:02:00.940,0:02:04.430
-Weil ich dann einfach weiß, dass der gesamte
-Ausdruck sowieso 1 sein muss.
+Weil ich dann einfach weiß, dass der
+gesamte Ausdruck sowieso 1 sein muss.
 
 0:02:04.430,0:02:06.230
 Weil es ja reicht, wenn eins von beiden 1
@@ -141,27 +141,27 @@ Nicht A oder B 1 ist.
 Ist das hier irgendwo der Fall?
 
 0:02:14.680,0:02:18.060
-Hier nicht, hier nicht, hier ist das der Fall,
-hier nicht.
+Hier nicht, hier nicht, hier
+ist das der Fall, hier nicht.
 
 0:02:18.060,0:02:20.170
-Das heißt, wir haben es schon mal für F
-ausgefüllt.
+Das heißt, wir haben es
+schon mal für F ausgefüllt.
 
 0:02:20.170,0:02:24.799
-Und jetzt noch für G: A oder Nicht C, diese
-Spalte hier.
+Und jetzt noch für G: A oder
+Nicht C, diese Spalte hier.
 
 0:02:24.799,0:02:28.219
 Und B impliziert C, diese Spalte hier.
 
 0:02:28.219,0:02:33.249
-Das heißt, hier kommt nur eine 1 raus, wenn
-in beiden Spalten eine 1 ist.
+Das heißt, hier kommt nur eine 1 raus,
+wenn in beiden Spalten eine 1 ist.
 
 0:02:33.249,0:02:35.900
-Das heißt, ich kann mir schon mal angucken,
-in welchen das der Fall ist.
+Das heißt, ich kann mir schon mal
+angucken, in welchen das der Fall ist.
 
 0:02:35.900,0:02:42.280
 Hier schreibe ich es mir rein: Hier ist das
@@ -171,8 +171,8 @@ der Fall, hier, hier, hier, hier, hier nicht,
 und hier.
 
 0:02:43.280,0:02:45.500
-Und in die anderen Zeilen kann ich dann eine
-0 schreiben.
+Und in die anderen Zeilen kann
+ich dann eine 0 schreiben.
 
 0:02:45.500,0:02:50.540
 Dann sehen wir, die beiden Formeln F und G

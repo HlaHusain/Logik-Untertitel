@@ -3,16 +3,16 @@ Bei Aufgabenblatt 2 sollen wir jetzt die gegebenen
 Formeln in KNF umformen, und zwar anhand des
 
 0:00:06.289,0:00:09.090
-Algorithmus, den wir in der Vorlesung kennengelernt
-haben.
+Algorithmus, den wir in der
+Vorlesung kennengelernt haben.
 
 0:00:09.090,0:00:14.430
 Ich habe mir hier unten schon die erste Formel
 aufgeschrieben und auch schon das Äquivalenzzeichen
 
 0:00:14.430,0:00:17.520
-hingemacht, das ist ja das Gleichheitszeichen
-mit drei Strichen.
+hingemacht, das ist ja das
+Gleichheitszeichen mit drei Strichen.
 
 0:00:17.520,0:00:21.570
 Das heißt, die beiden Formeln sind äquivalent,
@@ -29,41 +29,41 @@ entlang und gucken, welche Schritte wir anwenden
 können.
 
 0:00:27.589,0:00:33.040
-Der erste Schritt, den wir kennengelernt haben,
-ist der: Eliminiere Implikation und Doppelimplikation
+Der erste Schritt, den wir kennengelernt haben, ist
+der: Eliminiere Implikation und Doppelimplikation
 
 0:00:33.040,0:00:34.430
 mittels ihrer Definition.
 
 0:00:34.430,0:00:38.370
-Und da können wir jetzt also hier Schritt
-0 anwenden.
+Und da können wir jetzt also
+hier Schritt 0 anwenden.
 
 0:00:38.370,0:00:40.000
 Könnt ihr euch noch an die Definition erinnern?
 
 0:00:40.000,0:00:47.240
-Das ist ja zum Beispiel: A impliziert B wird
-zu Nicht A oder B.
+Das ist ja zum Beispiel: A
+impliziert B wird zu Nicht A oder B.
 
 0:00:47.240,0:00:48.490
 Nur als Erinnerungshilfe.
 
 0:00:48.490,0:00:52.410
-Das heißt, der Teil vor der Implikation wird
-negiert.
+Das heißt, der Teil vor der
+Implikation wird negiert.
 
 0:00:52.410,0:00:57.380
-Das heißt, wir haben Nicht Nicht A oder B.
-Oder C.
+Das heißt, wir haben Nicht
+Nicht A oder B. Oder C.
 
 0:00:57.380,0:01:01.270
-Und jetzt ziehen wir laut Schritt 3 die Negationen
-nach innen.
+Und jetzt ziehen wir laut Schritt
+3 die Negationen nach innen.
 
 0:01:01.270,0:01:09.960
-Das heißt, wir haben Nicht Nicht A und Nicht
-B oder C.
+Das heißt, wir haben Nicht
+Nicht A und Nicht B oder C.
 
 0:01:09.960,0:01:11.110
 Jetzt kommt Schritt 1.
@@ -72,16 +72,16 @@ Jetzt kommt Schritt 1.
 Wir haben ja hier vor dem A die Doppelnegation.
 
 0:01:13.530,0:01:20.290
-Und Schritt 1 sagt: Ersetze die Doppelnegation
-durch die negierte Form.
+Und Schritt 1 sagt: Ersetze die
+Doppelnegation durch die negierte Form.
 
 0:01:20.290,0:01:24.640
 Das heißt, wir haben dann: A und Nicht B
 oder C.
 
 0:01:24.640,0:01:30.420
-Jetzt können wir noch Schritt 6 anwenden,
-da sollen wir, ich schreibe das noch mal hier
+Jetzt können wir noch Schritt 6 anwenden, da
+sollen wir, ich schreibe das noch mal hier
 
 0:01:30.420,0:01:41.390
 neben, Formeln in der Form von G und H oder
@@ -91,8 +91,8 @@ I durch G und I und H oder I ersetzen.
 Distributivgesetz.
 
 0:01:42.390,0:01:48.680
-Das heißt, wir haben hier einmal A oder C
-und Nicht B oder C.
+Das heißt, wir haben hier einmal
+A oder C und Nicht B oder C.
 
 0:01:48.680,0:01:50.240
 Und das war es auch eigentlich schon.
@@ -111,8 +111,8 @@ Die Konjunktion verbindet Disjunktion.
 Bei Aufgabe das gleiche Spiel.
 
 0:02:02.280,0:02:06.680
-Fangen wir hier mit Schritt 0 an, weil wir
-wieder eine Implikation haben.
+Fangen wir hier mit Schritt 0 an, weil
+wir wieder eine Implikation haben.
 
 0:02:06.680,0:02:09.099
 Wie bei Teilaufgabe A auch.
@@ -122,8 +122,8 @@ Das heißt, das Äquivalent zu Nicht A und
 Nicht Nicht C oder B oder D. Jetzt wenden
 
 0:02:20.240,0:02:24.319
-wir Schritt 1 direkt an, weil wir eine Doppelnegation
-haben vor dem C.
+wir Schritt 1 direkt an, weil wir
+eine Doppelnegation haben vor dem C.
 
 0:02:24.319,0:02:25.750
 Das heißt, das lösen wir einmal auf.
@@ -136,8 +136,8 @@ Jetzt wenden wir Schritt 2 an, indem wir die
 Negation nach innen ziehen.
 
 0:02:35.810,0:02:42.270
-Das heißt, wir haben Nicht A oder Nicht C
-oder B oder D.
+Das heißt, wir haben Nicht A
+oder Nicht C oder B oder D.
 
 0:02:42.270,0:02:45.400
 Hier bei dem Schritt müsst ihr auf jeden
@@ -147,12 +147,12 @@ Fall aufpassen, dass ihr die Negation hier
 vor diese Klammer setzt.
 
 0:02:47.430,0:02:52.130
-Die Negation bezieht sich einmal auf das A
-und einmal auf diese Klammer.
+Die Negation bezieht sich einmal auf
+das A und einmal auf diese Klammer.
 
 0:02:52.130,0:02:55.300
-Nicht die Negation in diesem Schritt schon
-in die Klammer reinziehen.
+Nicht die Negation in diesem Schritt
+schon in die Klammer reinziehen.
 
 0:02:55.300,0:02:57.410
 Jetzt haben wir das.
@@ -169,8 +169,8 @@ Das sind aber zwei separate Schritte, weil
 da sonst wirklich häufig Fehler passieren.
 
 0:03:07.040,0:03:10.160
-Achtet da auf jeden Fall drauf, dass ihr das
-am besten separat macht.
+Achtet da auf jeden Fall drauf, dass
+ihr das am besten separat macht.
 
 0:03:10.160,0:03:17.129
 Wir ziehen die Negation hier rein, dann haben
@@ -181,8 +181,8 @@ bei den Übungsblättern gesehen, beim Reinziehen
 der Negation wird häufig vergessen, dass
 
 0:03:21.260,0:03:25.200
-der Operator umklappt, also Oder wird zu Und
-und Und wird zu Oder.
+der Operator umklappt, also Oder
+wird zu Und und Und wird zu Oder.
 
 0:03:25.200,0:03:29.470
 Da müsst ihr auf jeden Fall drauf achten,
@@ -196,20 +196,20 @@ Oder D. Und dann können wir jetzt Schritt
 Hier habe ich noch eine Klammer vergessen.
 
 0:03:39.910,0:03:43.239
-Das Distributivgesetz wenden wir jetzt erst
-mal auf diese Klammer an.
+Das Distributivgesetz wenden wir
+jetzt erst mal auf diese Klammer an.
 
 0:03:43.239,0:03:47.569
 Auch hier wieder ein Schritt nach dem anderen,
 nicht direkt mit dem Und D am Ende verbinden.
 
 0:03:47.569,0:03:52.269
-Das heißt, wir haben erst mal Nicht A oder
-nicht C.
+Das heißt, wir haben erst
+mal Nicht A oder nicht C.
 
 0:03:52.269,0:04:00.930
-Und Nicht A oder Nicht B. Und das Ganze noch
-mal in Klammern.
+Und Nicht A oder Nicht B. Und
+das Ganze noch mal in Klammern.
 
 0:04:00.930,0:04:03.620
 Oder D. Und jetzt können wir Schritt 6 anwenden.
@@ -225,16 +225,16 @@ Hier muss ich noch eine äußere Klammer machen.
 Und Nicht A oder Nicht B oder D.
 
 0:04:27.020,0:04:30.390
-Das ist auch wieder ein Teil, das kommt auch
-wieder in Klammern.
+Das ist auch wieder ein Teil, das
+kommt auch wieder in Klammern.
 
 0:04:30.390,0:04:32.970
-Ich markiere hier mal die Klammern farblich,
-damit ihr es besser erkennt.
+Ich markiere hier mal die Klammern
+farblich, damit ihr es besser erkennt.
 
 0:04:32.970,0:04:37.050
-Wir haben eine äußere Klammer, die alles
-umklammert.
+Wir haben eine äußere
+Klammer, die alles umklammert.
 
 0:04:37.050,0:04:43.180
 Dann haben wir hier die Klammer von diesem
@@ -244,8 +244,8 @@ Teil.
 Und die Klammer von diesem Teil.
 
 0:04:47.040,0:04:54.790
-Dann haben wir die inneren Klammern, das heißt,
-dieser hier und dieser hier.
+Dann haben wir die inneren Klammern,
+das heißt, dieser hier und dieser hier.
 
 0:04:54.790,0:05:00.030
 Wenn ihr da in der Klausur oder bei den Aufgaben
@@ -256,20 +256,20 @@ Klammern, könnt ihr euch das auch so farbig
 markieren, dann habt ihr es übersichtlicher.
 
 0:05:04.150,0:05:08.680
-Hier haben wir Schritt 6 auf diese beiden
-Klammern und D angewendet.
+Hier haben wir Schritt 6 auf diese
+beiden Klammern und D angewendet.
 
 0:05:08.680,0:05:14.810
 Und dann können wir noch das Assoziativgesetz
 anwenden, um zu KNF zu kommen.
 
 0:05:14.810,0:05:17.270
-Das heißt, wir können die Klammerung auch
-weglassen.
+Das heißt, wir können die
+Klammerung auch weglassen.
 
 0:05:17.270,0:05:22.430
-Diese grünen Klammern können wir auch weglassen,
-weil das ja alles Disjunktionen sind.
+Diese grünen Klammern können wir auch
+weglassen, weil das ja alles Disjunktionen sind.
 
 0:05:22.430,0:05:31.780
 Das heißt, wir haben dann, Klammer auf, Klammer
@@ -296,5 +296,5 @@ achtet darauf, dass ihr nicht rot verwendet,
 weil das der Korrekturstift ist.
 
 0:05:50.800,0:05:57.720
-Da haben wir jetzt dann die Konjunktion von
-Disjunktion, also die KNF.
+Da haben wir jetzt dann die Konjunktion
+von Disjunktion, also die KNF.

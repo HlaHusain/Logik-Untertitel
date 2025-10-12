@@ -35,8 +35,8 @@ Lösungen daraufhin getestet, ob sie wirklich
 als reale Lösungen in Frage kommen. Dazu
 
 0:00:45.670,0:00:50.430
-ist hier bereits etwas vorbereitet, ein genereller
-Lösungsmechanismus. Das Solve-Prädikat,
+ist hier bereits etwas vorbereitet, ein
+genereller Lösungsmechanismus. Das Solve-Prädikat,
 
 0:00:50.430,0:00:57.370
 welches hier aus dem Generate- und dem Test-Prädikat
@@ -91,8 +91,8 @@ wir beispielsweise die 423. Im Dezimalsystem,
 also dem gängigen Zahlsystem mit Ziffern
 
 0:01:58.210,0:02:03.180
-von 0 bis 9, funktioniert dies so, dass die
-letzte Ziffer, in diesem Fall die 3, der Einer-Stelle
+von 0 bis 9, funktioniert dies so, dass die letzte
+Ziffer, in diesem Fall die 3, der Einer-Stelle
 
 0:02:03.180,0:02:10.009
 entspricht. Und diese kann als Produkt von
@@ -103,8 +103,8 @@ Produkt der Ziffer mal 10⁰. 10⁰ ergibt nämlich
 1, also die Einer-Stelle. Die nächste Ziffer,
 
 0:02:15.730,0:02:22.400
-die 2, ist die Zehner-Stelle, und das kann man
-darstellen als 2·10¹. Die dritte Stelle,
+die 2, ist die Zehner-Stelle, und das kann
+man darstellen als 2·10¹. Die dritte Stelle,
 
 0:02:22.400,0:02:27.660
 die 4, ist die Hunderter-Stelle. Einhundert
@@ -123,8 +123,8 @@ Einer-Stelle entspricht, wodurch sich C·10⁰,
 B·10¹ für die Zehner-Stelle und A·10²
 
 0:02:48.020,0:02:51.569
-für die Hunderter-Stelle ergibt. Und das
-Ganze übertragen wir nun auf die Krypto-Arithmetik.
+für die Hunderter-Stelle ergibt. Und das Ganze
+übertragen wir nun auf die Krypto-Arithmetik.
 
 0:02:51.569,0:03:04.170
 Die erste Zeile ist dann HDGAB, was B·10⁰
@@ -195,5 +195,5 @@ Jetzt probieren wir das Ganze auch noch einmal
 aus, um der Frage nachzugehen, wie viele Lösungen
 
 0:04:32.009,0:04:35.870
-vorhanden sind. Und wir kommen auf insgesamt
-sechs verschiedene Lösungen.
+vorhanden sind. Und wir kommen auf
+insgesamt sechs verschiedene Lösungen.

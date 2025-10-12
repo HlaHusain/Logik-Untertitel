@@ -27,8 +27,8 @@ ist dieser Teil. Wir haben nicht B und C.
 Das ist dieser Teil. Und wir haben den Teil
 
 0:00:35.880,0:00:41.400
-mit A und nicht C. Wir haben also dieselben
-Klauseln verwendet, aber zugunsten der Übersichtlichkeit
+mit A und nicht C. Wir haben also dieselben Klauseln
+verwendet, aber zugunsten der Übersichtlichkeit
 
 0:00:41.400,0:00:48.160
 die Reihenfolge verändert. Wir beginnen mit
@@ -39,20 +39,20 @@ da kann das eliminiert werden. A und C bleiben
 übrig. Dann nehmen wir die hinteren beiden.
 
 0:00:53.420,0:00:59.360
-Da kann das C eliminiert werden, sodass nicht
-B und A übrigbleiben. Die beiden können
+Da kann das C eliminiert werden, sodass
+nicht B und A übrigbleiben. Die beiden können
 
 0:00:59.360,0:01:03.590
 nicht miteinander kombiniert werden, aber
 man könnte das nicht B und das A mit dem
 
 0:01:03.590,0:01:10.289
-ersten kombinieren. Dann kann das nicht B
-und das B eliminiert werden, sodass A übrigbleibt.
+ersten kombinieren. Dann kann das nicht B und
+das B eliminiert werden, sodass A übrigbleibt.
 
 0:01:10.289,0:01:16.799
-Jetzt können wir überlegen: Wir haben keine
-Klausel mehr mit nicht A. So könnte man theoretisch
+Jetzt können wir überlegen: Wir haben keine Klausel
+mehr mit nicht A. So könnte man theoretisch
 
 0:01:16.799,0:01:22.289
 das C, das nicht C, zum Beispiel eliminieren.
@@ -83,8 +83,8 @@ noch A übrig. Darüber hinaus kann nichts
 mehr eliminiert werden. Es gibt keine zwei
 
 0:01:58.340,0:02:01.200
-Klauseln mehr, die miteinander verbunden werden
-könnten, sodass etwas Neues herauskommen
+Klauseln mehr, die miteinander verbunden
+werden könnten, sodass etwas Neues herauskommen
 
 0:02:01.200,0:02:06.759
 würde. Ich mache das A hier weg. Da wir keine
@@ -107,8 +107,8 @@ kommen zu Aufgabe (b). Auch hier werde ich
 die Reihenfolge der Klauseln wieder ändern,
 
 0:02:26.400,0:02:31.379
-sodass wir eine gute Übersicht haben und
-ihr das Ergebnis besser nachvollziehen könnt.
+sodass wir eine gute Übersicht haben und ihr
+das Ergebnis besser nachvollziehen könnt.
 
 0:02:31.379,0:02:36.069
 Wenn eure Lösung jedoch anders aussieht und

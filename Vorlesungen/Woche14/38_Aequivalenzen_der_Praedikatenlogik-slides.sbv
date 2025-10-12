@@ -7,24 +7,24 @@ in der vergangenen Woche intuitiv, vor allem
 an Beispielen, was diese Quantoren bedeuten,
 
 0:00:13.240,0:00:21.830
-welche natürlichsprachlichen Formulierungen
-sie widerspiegeln. Und zum anderen formaler, syntaktisch,
+welche natürlichsprachlichen Formulierungen sie
+widerspiegeln. Und zum anderen formaler, syntaktisch,
 
 0:00:21.830,0:00:28.430
-wie diese Quantoren auf eine Formel wirken.
-Also wie etwa in einer größeren Formel Variablen,
+wie diese Quantoren auf eine Formel wirken. Also
+wie etwa in einer größeren Formel Variablen,
 
 0:00:28.430,0:00:35.570
-die da drin vorkommen, durch welche Quantoren gebunden sind.
-Oder auch, wie man erkennt, dass eine Variable
+die da drin vorkommen, durch welche Quantoren gebunden
+sind. Oder auch, wie man erkennt, dass eine Variable
 
 0:00:35.570,0:00:44.640
-zum Beispiel durch keinen Quantor gebunden ist.
-Die sogenannten freien Variablen.
+zum Beispiel durch keinen Quantor gebunden
+ist. Die sogenannten freien Variablen.
 
 0:00:44.640,0:00:51.000
-Zupass wird uns beides kommen, wenn wir uns
-jetzt mit Äquivalenzen
+Zupass wird uns beides kommen,
+wenn wir uns jetzt mit Äquivalenzen
 
 0:00:51.000,0:00:56.900
 in der Prädikatenlogik beschäftigen wollen.
@@ -39,16 +39,16 @@ von denen wir dann wussten, dass sie für beliebige
 aussagenlogische Formeln F, G und in einigen tauchte
 
 0:01:10.469,0:01:17.909
-auch noch ein H drin auf, gelten. Das heißt, wenn man
-F oder G oder H durch beliebige aussagenlogische Formeln
+auch noch ein H drin auf, gelten. Das heißt, wenn man F
+oder G oder H durch beliebige aussagenlogische Formeln
 
 0:01:17.909,0:01:24.530
 ersetzt, die dann Teilformeln jeweils der hier
 angeführten Formelstruktur werden, dann erhält
 
 0:01:24.530,0:01:31.659
-man etwas, was logisch äquivalent ist.
-Wo also linke und rechte Seite das Gleiche bedeuten.
+man etwas, was logisch äquivalent ist. Wo also
+linke und rechte Seite das Gleiche bedeuten.
 
 0:01:31.659,0:01:36.130
 Die galten im Sinn der Semantik. Wenn man die Semantik
@@ -63,16 +63,16 @@ Und natürlich gab es diverse, weitere Gesetze, die sich
 noch dahinter verbargen. Assoziativität, Absorptionsgesetze,
 
 0:01:49.530,0:01:55.639
-Distributivität, Doppelnegation als ganz wichtiges Gesetz:
-¬¬F ist F oder ist äquivalent zu F.
+Distributivität, Doppelnegation als ganz wichtiges
+Gesetz: ¬¬F ist F oder ist äquivalent zu F.
 
 0:01:55.639,0:02:06.369
-Und einige weitere Aussagen zu Tautologien und Unerfüllbarkeit.
-Das war etwas, was wir schon gesehen haben
+Und einige weitere Aussagen zu Tautologien und
+Unerfüllbarkeit. Das war etwas, was wir schon gesehen haben
 
 0:02:06.369,0:02:12.239
-und benutzt haben. Wann hatten wir das benutzt?
-Unter anderem kann man das benutzen,
+und benutzt haben. Wann hatten wir das
+benutzt? Unter anderem kann man das benutzen,
 
 0:02:12.239,0:02:19.400
 um einfach von Formeln sich zu überlegen,
@@ -91,24 +91,24 @@ benutzt beim Umformen. Nämlich wenn wir aussagenlogische
 Formeln in die Normalformen wie KNF oder DNF bringen wollten.
 
 0:02:37.620,0:02:43.209
-Jetzt sind wir in der Prädikatenlogik. Das heißt,
-jetzt stellt sich die Frage: Gelten denn diese Äquivalenzen
+Jetzt sind wir in der Prädikatenlogik. Das heißt, jetzt
+stellt sich die Frage: Gelten denn diese Äquivalenzen
 
 0:02:43.209,0:02:49.489
-immer noch? Gelten so ähnliche? Gelten andere?
-Gelten zusätzliche? Und damit müssen wir uns jetzt beschäftigen.
+immer noch? Gelten so ähnliche? Gelten andere? Gelten
+zusätzliche? Und damit müssen wir uns jetzt beschäftigen.
 
 0:02:49.489,0:02:56.719
-Einerseits auch wieder zum besseren Verständnis letztlich
-des Gehalts von prädikatenlogischen Formeln.
+Einerseits auch wieder zum besseren Verständnis
+letztlich des Gehalts von prädikatenlogischen Formeln.
 
 0:02:56.719,0:03:01.840
 Aber später auch wieder zum Herstellen von Normalformen,
 um ein Lösungsverfahren, insbesondere die Resolution,
 
 0:03:01.840,0:03:06.660
-anwenden zu können. Was in der Aussagenlogik ja auch erst ging,
-nachdem wir eine KNF hergestellt hatten mittels
+anwenden zu können. Was in der Aussagenlogik ja auch erst
+ging, nachdem wir eine KNF hergestellt hatten mittels
 
 0:03:06.660,0:03:14.560
 solcher Äquivalenzen. Das ist also ein bisschen jetzt
@@ -123,28 +123,28 @@ die gelten auch bei prädikatenlogischen Formeln.
 Also alle Gesetze, die wir schon kennen,
 
 0:03:26.540,0:03:32.519
-behalten ihre Gültigkeit unabhängig davon, ob die Teilformeln
-wie vorher pur aussagenlogisch sind oder
+behalten ihre Gültigkeit unabhängig davon, ob die
+Teilformeln wie vorher pur aussagenlogisch sind oder
 
 0:03:32.519,0:03:41.010
 jetzt auch prädikatenlogische Anteile haben.
 Also zum Beispiel gilt für diese Formel,
 
 0:03:41.010,0:03:46.010
-die offenkundig nicht rein aussagenlogisch ist
-(da kommt ein Quantor drin vor, hier wird Bezug genommen
+die offenkundig nicht rein aussagenlogisch ist (da
+kommt ein Quantor drin vor, hier wird Bezug genommen
 
 0:03:46.010,0:03:55.120
-auf die quantifizierte Variable), aber wenn
-man sozusagen dieses P(x) und Q(x) einfach so hinnimmt,
+auf die quantifizierte Variable), aber wenn man
+sozusagen dieses P(x) und Q(x) einfach so hinnimmt,
 
 0:03:55.120,0:04:00.639
 wie sie da stehen und zum Beispiel durch F
 und G ersetzt, steht da ja doch innen etwas,
 
 0:04:00.639,0:04:04.609
-was etwa einer de Morganschen Regel entspricht.
-Wir haben hier zwar einen Allquantor. Aber dann haben
+was etwa einer de Morganschen Regel entspricht. Wir
+haben hier zwar einen Allquantor. Aber dann haben
 
 0:04:04.609,0:04:10.139
 wir etwas "¬(irgendwas ∧ irgendwas)". Und dieses
@@ -155,20 +155,20 @@ Formeln, weil da Variablen und Prädikate drin vorkommen.
 Hätten aber auch einfach (A ∧ B) oder (F ∧ G) sein können.
 
 0:04:17.600,0:04:24.060
-Also was jetzt diese Feststellung bedeuten
-soll, ist, dass wir auch hier zum Beispiel unterhalb
+Also was jetzt diese Feststellung bedeuten soll,
+ist, dass wir auch hier zum Beispiel unterhalb
 
 0:04:24.060,0:04:28.560
-dieses Quantors ein de Morgansches Gesetz anwenden können.
-Also aus "¬(irgendwas ∧ irgendwas anderes)"
+dieses Quantors ein de Morgansches Gesetz anwenden
+können. Also aus "¬(irgendwas ∧ irgendwas anderes)"
 
 0:04:28.560,0:04:35.170
 wird "(¬irgendwas ∨ ¬irgendwas anderes)".
 Wegen ¬¬ und Anwendung der auch bekannten,
 
 0:04:35.170,0:04:39.650
-aussagenlogischen Äquivalenzen zur Doppelnegation,
-wird aus dem ¬¬Q(x) dann Q(x).
+aussagenlogischen Äquivalenzen zur
+Doppelnegation, wird aus dem ¬¬Q(x) dann Q(x).
 
 0:04:39.650,0:04:47.170
 Das heißt, diese gesamte linke Formel
@@ -179,8 +179,8 @@ Wir haben unterhalb des Quantors gearbeitet.
 Den Quantor selbst gar nicht angefasst, sondern
 
 0:04:52.420,0:05:00.130
-einfach Gesetze von dieser Folie angewandt.
-Also insbesondere eines dieser Gesetze und die Doppelnegation,
+einfach Gesetze von dieser Folie angewandt. Also
+insbesondere eines dieser Gesetze und die Doppelnegation,
 
 0:05:00.130,0:05:08.920
 die sich hier oder hier noch dahinter verbirgt.
@@ -191,8 +191,8 @@ die Quantoren nicht anfassen, können wir einfach
 rechts und links davon sozusagen mit normalen,
 
 0:05:15.060,0:05:19.780
-schon bekannten Äquivalenzen arbeiten.
-Es muss uns nicht kümmern, ob jetzt die Teilformeln
+schon bekannten Äquivalenzen arbeiten. Es muss
+uns nicht kümmern, ob jetzt die Teilformeln
 
 0:05:19.780,0:05:25.070
 F und G von der vorigen Folie, ob das rein aussagenlogische
@@ -203,24 +203,24 @@ Anteile drin vorkommen. Wir können also erstmal bekannte Umformungen
 weiterhin durchführen. Natürlich stellt sich die eigentlich
 
 0:05:33.030,0:05:38.090
-interessante Frage, was es denn jetzt für zusätzliche Äquivalenzen gibt.
-Also die Tatsache, dass wir jetzt Quantoren haben,
+interessante Frage, was es denn jetzt für zusätzliche Äquivalenzen
+gibt. Also die Tatsache, dass wir jetzt Quantoren haben,
 
 0:05:38.090,0:05:43.560
-könnten die irgendwie einbezogen werden bei diesen Umformungen?
-Gibt es Gesetze über die Quantoren?
+könnten die irgendwie einbezogen werden bei diesen
+Umformungen? Gibt es Gesetze über die Quantoren?
 
 0:05:43.560,0:05:50.270
-Und da würden sich einige Fragen
-zunächst anbieten. Also zum Beispiel kann man sich fragen:
+Und da würden sich einige Fragen zunächst
+anbieten. Also zum Beispiel kann man sich fragen:
 
 0:05:50.270,0:05:54.320
-Wenn wir jetzt mit den Quantoren in einer
-Formel arbeiten, dann haben wir auch Situationen gehabt,
+Wenn wir jetzt mit den Quantoren in einer Formel
+arbeiten, dann haben wir auch Situationen gehabt,
 
 0:05:54.320,0:06:00.410
-wo mehrere Quantoren aufeinandertrafen.
-Also "∀x : ∃y :" oder so etwas. Da stellt sich die Frage:
+wo mehrere Quantoren aufeinandertrafen. Also "∀x
+: ∃y :" oder so etwas. Da stellt sich die Frage:
 
 0:06:00.410,0:06:05.120
 Lässt sich denn die Reihenfolge der Quantoren
@@ -231,24 +231,24 @@ dass wir die Reihenfolge von Quantoren vertauschen
 dürfen in einer prädikatenlogischen Formel,
 
 0:06:08.260,0:06:13.210
-dann könnten wir ja diese Feststellung
-als ein Gesetz auffassen, das wir wie auf der Vorfolie
+dann könnten wir ja diese Feststellung als ein
+Gesetz auffassen, das wir wie auf der Vorfolie
 
 0:06:13.210,0:06:20.870
 für die aussagenlogischen Äquivalenzen einfach ein für alle Mal
 festhalten und dann in verschiedenen Stationen anwenden können.
 
 0:06:20.870,0:06:26.620
-Können wir vielleicht unabhängig von der Reihenfolge
-einfach Allquantor und Existenzquantor füreinander einsetzen?
+Können wir vielleicht unabhängig von der Reihenfolge einfach
+Allquantor und Existenzquantor füreinander einsetzen?
 
 0:06:26.620,0:06:32.620
 Also gibt es Situationen, in denen wir, wo ein Allquantor
 steht, stattdessen einen Existenzquantor hinschreiben können?
 
 0:06:32.620,0:06:37.930
-Das wäre eine Frage, die sich stellen könnte,
-wenn wir eine Formel vereinfachen oder umformen wollen.
+Das wäre eine Frage, die sich stellen könnte, wenn
+wir eine Formel vereinfachen oder umformen wollen.
 
 0:06:37.930,0:06:42.000
 Lassen sich vielleicht mehrere Quantoren der
@@ -259,60 +259,60 @@ und Existenzquantor getrennt sein müssen, lassen sich ja
 vielleicht zumindest zwei Allquantoren geeignet zusammenfassen.
 
 0:06:47.930,0:06:53.110
-Und während das alles Fragen über die Quantoren
-nur für sich genommen sind, stellt sich auch die Frage,
+Und während das alles Fragen über die Quantoren nur
+für sich genommen sind, stellt sich auch die Frage,
 
 0:06:53.110,0:06:59.770
-ob es denn Interaktionen gibt
-zwischen den Quantoren und den normalen logischen Operationen.
+ob es denn Interaktionen gibt zwischen den
+Quantoren und den normalen logischen Operationen.
 
 0:06:59.770,0:07:04.050
 Also denen, die wir schon gesehen haben:
 Negation, Konjunktion, Disjunktion.
 
 0:07:04.050,0:07:11.180
-Also gibt es Gesetze, in denen irgendetwas darüber gesagt wird,
-wie sich ein Existenz- oder Allquantor verhält,
+Also gibt es Gesetze, in denen irgendetwas darüber gesagt
+wird, wie sich ein Existenz- oder Allquantor verhält,
 
 0:07:11.180,0:07:15.840
-wenn er negiert wird, wenn er mit einer
-Konjunktion oder einer Disjunktion aufeinandertrifft.
+wenn er negiert wird, wenn er mit einer Konjunktion
+oder einer Disjunktion aufeinandertrifft.
 
 0:07:15.840,0:07:20.870
 Das sind natürlich Fragen, die für die rein aussagenlogischen
 Formeln gar nicht relevant sind, weil es da keine Quantoren gibt.
 
 0:07:20.870,0:07:26.240
-Aber alles, was jetzt zusätzlich syntaktisch möglich ist
-mit den Quantoren, sollten wir eben betrachten,
+Aber alles, was jetzt zusätzlich syntaktisch möglich
+ist mit den Quantoren, sollten wir eben betrachten,
 
 0:07:26.240,0:07:38.990
-ob sich daraus neue Umformgesetze ergeben.
-Die atomaren Bestandteile, auf denen wir dann arbeiten,
+ob sich daraus neue Umformgesetze ergeben. Die
+atomaren Bestandteile, auf denen wir dann arbeiten,
 
 0:07:38.990,0:07:43.580
 das werden natürlich solche Prädikate sein.
 Vielleicht mit Variablen. Vielleicht mit Konstanten.
 
 0:07:43.580,0:07:52.950
-Vielleicht mit Funktionstermen als Argumenten.
-Die Gesetze drehen sich um die Quantoren. Unabhängig davon,
+Vielleicht mit Funktionstermen als Argumenten. Die
+Gesetze drehen sich um die Quantoren. Unabhängig davon,
 
 0:07:52.950,0:08:01.890
 wie die internen Teilformeln genau aussehen.
 Deswegen tauchen in den Beispielen gleich auch
 
 0:08:01.890,0:08:07.680
-zwar Prädikate auf, aber keine Funktionsterme
-(außer Variablen wiederum), weil das für die Betrachtung
+zwar Prädikate auf, aber keine Funktionsterme (außer
+Variablen wiederum), weil das für die Betrachtung
 
 0:08:07.680,0:08:13.570
 der Äquivalenzen gar nicht wichtig ist, wie genau die
 atomaren Formeln aussehen. Es geht wirklich um die Interaktion
 
 0:08:13.570,0:08:21.470
-der Quantoren mit dem Rest der Logik.
-Einige dieser Fragen (insbesondere die erste)
+der Quantoren mit dem Rest der Logik. Einige
+dieser Fragen (insbesondere die erste)
 
 0:08:21.470,0:08:27.190
 haben wir eigentlich intuitiv schon beantwortet
@@ -327,24 +327,24 @@ Und das spricht natürlich dagegen, dass sie sich beliebig
 vertauschen lassen. Also wir hatten dieses Beispiel.
 
 0:08:37.460,0:08:43.750
-Da hatte ich als Grundmenge "Personen"
-und dieses binäre Prädikat, was dafür stehen sollte: x mag y.
+Da hatte ich als Grundmenge "Personen" und dieses
+binäre Prädikat, was dafür stehen sollte: x mag y.
 
 0:08:43.750,0:08:50.690
 Und dann hatte ich diese beiden Formeln diskutiert,
 was die jeweils umgangssprachlich bedeuten würden,
 
 0:08:50.690,0:08:56.750
-und war auf die Beobachtung gekommen,
-dass das wirklich grundverschiedene Aussagen sind.
+und war auf die Beobachtung gekommen, dass
+das wirklich grundverschiedene Aussagen sind.
 
 0:08:56.750,0:09:04.970
-Die eine Aussage geht darum, dass alle irgendjemanden mögen.
-Also für jede Person x gibt es eine Person y,
+Die eine Aussage geht darum, dass alle irgendjemanden
+mögen. Also für jede Person x gibt es eine Person y,
 
 0:09:04.970,0:09:10.460
-die von x gemocht wird. Und das ist eben
-etwas ganz anderes, als zu sagen:
+die von x gemocht wird. Und das ist
+eben etwas ganz anderes, als zu sagen:
 
 0:09:10.460,0:09:19.000
 Es gibt eine Person y, so dass alle x
@@ -363,32 +363,32 @@ wenn es so eine Äquivalenz gäbe. Die kann es also nicht geben,
 weil wir hier schon allein an einem Beispiel gesehen haben,
 
 0:09:34.680,0:09:42.230
-dass diese beiden Formeln verschiedene Dinge aussagen. Also sollte es
-kein Gesetz geben, das erlaubt, einfach Quantoren zu wechseln.
+dass diese beiden Formeln verschiedene Dinge aussagen. Also sollte
+es kein Gesetz geben, das erlaubt, einfach Quantoren zu wechseln.
 
 0:09:42.230,0:09:47.450
-Man könnte sich auch fragen: Darf man zumindest die Variablen tauschen?
-Aber auch das ist klar. Wenn ich hier x und y vertausche,
+Man könnte sich auch fragen: Darf man zumindest die Variablen
+tauschen? Aber auch das ist klar. Wenn ich hier x und y vertausche,
 
 0:09:47.450,0:09:51.640
-und die Quantoren da stehen lasse, wo sie stehen
-(also sozusagen nicht überkreuzt die Quantoren tausche,
+und die Quantoren da stehen lasse, wo sie stehen (also
+sozusagen nicht überkreuzt die Quantoren tausche,
 
 0:09:51.640,0:09:57.420
 sondern einfach nur die Variablen verwechsele), auch das
 sollte nicht erlaubt sein, weil es einfach verschiedene
 
 0:09:57.420,0:10:04.060
-Aussagen liefert. Intuitiv gelesen,
-was die Formeln bedeuten. Also das geht nicht.
+Aussagen liefert. Intuitiv gelesen, was
+die Formeln bedeuten. Also das geht nicht.
 
 0:10:04.060,0:10:09.630
-Da müssen wir die erste Frage von der Vorfolie
-schon negativ beantworten. Allerdings gibt es zumindest
+Da müssen wir die erste Frage von der Vorfolie schon
+negativ beantworten. Allerdings gibt es zumindest
 
 0:10:09.630,0:10:15.870
-eine Situation, in der Quantoren
-in ihrer Reihenfolge vertauscht werden dürfen.
+eine Situation, in der Quantoren in ihrer
+Reihenfolge vertauscht werden dürfen.
 
 0:10:15.870,0:10:21.180
 Und zwar genau dann, wenn es eben nicht so ist,
@@ -403,40 +403,40 @@ Und zwar direkt nacheinander. Also, wenn wir gleiche,
 direkt hintereinander stehende Quantoren haben,
 
 0:10:30.680,0:10:36.230
-dann dürfen die vertauscht werden. Wie ist das gemeint?
-Zum Beispiel für irgendeine Formel F,
+dann dürfen die vertauscht werden. Wie ist das
+gemeint? Zum Beispiel für irgendeine Formel F,
 
 0:10:36.230,0:10:43.920
 das könnte so eine Formel dieser Art sein oder
 irgendetwas Komplexeres. Einfach eine prädikatenlogisch
 
 0:10:43.920,0:10:50.610
-korrekt gebildete Teilformel F, in der
-möglicherweise x und y vorkommen.
+korrekt gebildete Teilformel F, in
+der möglicherweise x und y vorkommen.
 
 0:10:50.610,0:10:56.680
 Wenn wir dann sagen: "Für alle x gilt, für alle y gilt,
 dass F gilt", dann ist das äquivalent dazu, zu sagen:
 
 0:10:56.680,0:11:03.890
-"Für alle y gilt, dass für alle x gilt, dass F gilt".
-Also gleicher Quantor ∀, ∀,
+"Für alle y gilt, dass für alle x gilt,
+dass F gilt". Also gleicher Quantor ∀, ∀,
 
 0:11:03.890,0:11:11.460
-direkt aufeinanderfolgend und
-dann irgendeine innere Formel (egal welche),
+direkt aufeinanderfolgend und dann
+irgendeine innere Formel (egal welche),
 
 0:11:11.460,0:11:18.100
 dann dürfen wir diese beiden Quantoren vertauschen.
 Das deckt sich mit der sprachlichen Interpretation.
 
 0:11:18.100,0:11:22.720
-Denn tatsächlich, so etwas wie "für alle x gilt, so dass
-für alle y gilt, so dass ..." das würde man oft auch ausdrücken als:
+Denn tatsächlich, so etwas wie "für alle x gilt, so dass für
+alle y gilt, so dass ..." das würde man oft auch ausdrücken als:
 
 0:11:22.720,0:11:29.490
-"für alle x und y gilt". Und wenn ich sage
-"für alle x und y gilt" oder "für alle y und x gilt",
+"für alle x und y gilt". Und wenn ich sage "für
+alle x und y gilt" oder "für alle y und x gilt",
 
 0:11:29.490,0:11:37.750
 ist intuitiv klar, dass es das Gleiche bedeutet.
@@ -451,12 +451,12 @@ so dass irgendein Zusammenhang gilt", dann ist es das Gleiche
 wie zu sagen: "Es existiert ein y, so dass ein x existiert,
 
 0:11:52.950,0:11:57.980
-so dass der Zusammenhang gilt". Genau deswegen, weil
-es jeweils entweder beides All- oder beides Existenzquantoren sind.
+so dass der Zusammenhang gilt". Genau deswegen, weil es jeweils
+entweder beides All- oder beides Existenzquantoren sind.
 
 0:11:57.980,0:12:06.290
-Überkreuzt ginge das nicht. Wichtig natürlich,
-dass F und F hier jeweils links und rechts dasselbe ist.
+Überkreuzt ginge das nicht. Wichtig natürlich, dass
+F und F hier jeweils links und rechts dasselbe ist.
 
 0:12:06.290,0:12:11.440
 Natürlich kann ich nicht die Quantoren vertauschen und
@@ -483,36 +483,36 @@ Da hatte ich hier drei binäre Prädikate vorgegeben
 und das sozusagen übersetzt in die logische Formel.
 
 0:12:53.550,0:13:01.450
-"Es stimmt nicht, dass es eine Person x gibt,
-so dass es dazu eine Person y gibt,
+"Es stimmt nicht, dass es eine Person x
+gibt, so dass es dazu eine Person y gibt,
 
 0:13:01.450,0:13:11.270
-die in der Beziehung steht, dass x Ehemann von y ist,
-und es eine Person z gibt, so dass die Person, deren Ehemann x ist,
+die in der Beziehung steht, dass x Ehemann von y ist, und es
+eine Person z gibt, so dass die Person, deren Ehemann x ist,
 
 0:13:11.270,0:13:19.130
-wiederum das Kind von jener Person z ist."
-(Für z kämen dann also die Schwiegereltern von x infrage),
+wiederum das Kind von jener Person z ist." (Für z
+kämen dann also die Schwiegereltern von x infrage),
 
 0:13:19.130,0:13:24.750
-und es auch noch gilt, dass x das z tatsächlich mag.
-Also so hatte ich ausgedrückt: "kein Ehemann mag seine Schwiegereltern."
+und es auch noch gilt, dass x das z tatsächlich mag. Also so
+hatte ich ausgedrückt: "kein Ehemann mag seine Schwiegereltern."
 
 0:13:24.750,0:13:33.630
-"Es stimmt nicht, dass es x, y, z gibt, so dass
-x Ehemann von y ist, y das Kind von z ist und x das z mag."
+"Es stimmt nicht, dass es x, y, z gibt, so dass x Ehemann
+von y ist, y das Kind von z ist und x das z mag."
 
 0:13:33.630,0:13:43.000
-Klar sein sollte, dass ich hier nicht einfach
-das ∃ durch ∀ ersetzen kann.
+Klar sein sollte, dass ich hier nicht
+einfach das ∃ durch ∀ ersetzen kann.
 
 0:13:43.000,0:13:51.300
-Also sobald ich sage: "es stimmt nicht,
-dass für ALLE x irgendetwas gilt", dann ändere
+Also sobald ich sage: "es stimmt nicht, dass
+für ALLE x irgendetwas gilt", dann ändere
 
 0:13:51.300,0:13:57.350
-ich auf jeden Fall den Inhalt dessen,
-was ich sagen möchte. Wenn das so einfach ginge,
+ich auf jeden Fall den Inhalt dessen, was
+ich sagen möchte. Wenn das so einfach ginge,
 
 0:13:57.350,0:14:03.130
 dass ich einfach zwischen All- und Existenzquantoren
@@ -535,16 +535,16 @@ unabhängig von der genauen Schreibweise als Formel
 uns überlegen, es durchaus eine Möglichkeit gibt,
 
 0:14:30.580,0:14:35.710
-das so zu formulieren, dass wir über "jeden Ehemann"
-oder über "alle Ehemänner" reden.
+das so zu formulieren, dass wir über "jeden
+Ehemann" oder über "alle Ehemänner" reden.
 
 0:14:35.710,0:14:46.550
 Dieses "kein Ehemann" heißt "es existiert kein x,
 so dass etc.". Wenn wir eine Aussage treffen würden
 
 0:14:46.550,0:14:51.850
-der Form: "jeder Ehemann" oder "für alle Ehemänner gilt",
-dann wäre es naheliegend, einen Allquantor
+der Form: "jeder Ehemann" oder "für alle Ehemänner
+gilt", dann wäre es naheliegend, einen Allquantor
 
 0:14:51.850,0:14:59.240
 zu verwenden. Wie kann man diese Aussage
@@ -559,16 +559,16 @@ statt zu sagen: "kein Ehemann mag seine Schwiegereltern",
 zu sagen: "Jeder Ehemann mag seine Schwiegereltern nicht."
 
 0:15:12.580,0:15:20.310
-Wenn Sie mal kurz vielleicht das Video anhalten, kurz darüber nachdenken:
-Die Aussage "kein Ehemann mag seine Schwiegereltern"
+Wenn Sie mal kurz vielleicht das Video anhalten, kurz darüber
+nachdenken: Die Aussage "kein Ehemann mag seine Schwiegereltern"
 
 0:15:20.310,0:15:26.370
 und die Aussage "jeder Ehemann mag seine Schwiegereltern nicht"
 würden Sie (hoffentlich) intuitiv als äquivalent ansehen.
 
 0:15:26.370,0:15:33.820
-Und "jeder" entspricht in der Formalisierung
-bei uns einem Allquantor.
+Und "jeder" entspricht in der
+Formalisierung bei uns einem Allquantor.
 
 0:15:33.820,0:15:40.959
 Das heißt, da eröffnet sich eine Möglichkeit,
@@ -579,60 +579,60 @@ Allerdings müssen wir das, was denn dahinter
 gesagt wird, dann negieren. Also um zu sagen:
 
 0:15:47.000,0:15:52.810
-"Kein Ehemann mag seine Schwiegereltern", müssen wir sagen
-(sozusagen im dualen Fall): "Jeder Ehemann mag seine Schwiegereltern nicht".
+"Kein Ehemann mag seine Schwiegereltern", müssen wir sagen (sozusagen
+im dualen Fall): "Jeder Ehemann mag seine Schwiegereltern nicht".
 
 0:15:52.810,0:15:58.640
-Das heißt, im Kontext einer Negation, so wie das hier
-ja ist: ¬∃, können wir tatsächlich zu einem
+Das heißt, im Kontext einer Negation, so wie das
+hier ja ist: ¬∃, können wir tatsächlich zu einem
 
 0:15:58.640,0:16:04.640
-Allquantor wechseln, müssen dafür aber den Gehalt
-der Restformel auch negieren.
+Allquantor wechseln, müssen dafür aber
+den Gehalt der Restformel auch negieren.
 
 0:16:04.640,0:16:11.140
-Das suggeriert zumindest dieses Beispiel hier.
-Und tatsächlich ergibt sich daraus
+Das suggeriert zumindest dieses Beispiel
+hier. Und tatsächlich ergibt sich daraus
 
 0:16:11.140,0:16:16.950
 ein allgemeines Gesetz. Also die Idee wäre,
 wenn wir diese Äquivalenz sprachlich gesehen
 
 0:16:16.950,0:16:23.880
-akzeptieren, dann können wir wiederum diese Aussage
-ausdrücken in der Form eines Allquantors.
+akzeptieren, dann können wir wiederum diese
+Aussage ausdrücken in der Form eines Allquantors.
 
 0:16:23.880,0:16:30.330
-"Für alle x (für jeden Ehemann) gilt, und dann
-irgendetwas Negiertes". Beziehungsweise nicht "irgendetwas"
+"Für alle x (für jeden Ehemann) gilt, und dann irgendetwas
+Negiertes". Beziehungsweise nicht "irgendetwas"
 
 0:16:30.330,0:16:38.170
-negiertes, sondern das negiert, was vorher die Restformel
-nach dem negierten Existenzquantor war.
+negiertes, sondern das negiert, was vorher die
+Restformel nach dem negierten Existenzquantor war.
 
 0:16:38.170,0:16:49.610
-Also negierter Existenzquantor führt zu Allquantor
-mit Negation der Restformel. Das ist nur ein Beispiel,
+Also negierter Existenzquantor führt zu Allquantor mit
+Negation der Restformel. Das ist nur ein Beispiel,
 
 0:16:49.610,0:16:56.610
-aber tatsächlich gilt auch das als ein allgemeines Gesetz.
-Also in der Tat gilt in der Prädikatenlogik
+aber tatsächlich gilt auch das als ein allgemeines
+Gesetz. Also in der Tat gilt in der Prädikatenlogik
 
 0:16:56.610,0:17:00.480
-(wiederum für beliebige Teilformeln und nicht nur für die konkrete,
-die jetzt hier steht; also das Gesetz soll natürlich
+(wiederum für beliebige Teilformeln und nicht nur für die
+konkrete, die jetzt hier steht; also das Gesetz soll natürlich
 
 0:17:00.480,0:17:07.059
 wieder formuliert sein, ohne eine ganz konkrete Formel
 im Sinn zu haben): Für beliebige Teilformeln F gilt,
 
 0:17:07.059,0:17:14.269
-ein negierter Existenzquantor und dann
-irgendeine Restformel,
+ein negierter Existenzquantor
+und dann irgendeine Restformel,
 
 0:17:14.269,0:17:22.179
-ist äquivalent zu einem Allquantor mit negierter Restformel.
-Und sozusagen dieses Kippen der Quantoren
+ist äquivalent zu einem Allquantor mit negierter
+Restformel. Und sozusagen dieses Kippen der Quantoren
 
 0:17:22.179,0:17:25.589
 geht in beide Richtungen. Wir können einen
@@ -643,12 +643,12 @@ die Negation kippen. Müssen dafür dann aber die
 Restformel auch negieren. Also das Nicht wandert
 
 0:17:31.549,0:17:36.710
-über den Existenzquantor und macht dabei aus
-dem Existenz- einen Allquantor. Und das geht auch
+über den Existenzquantor und macht dabei aus dem
+Existenz- einen Allquantor. Und das geht auch
 
 0:17:36.710,0:17:45.009
-in die andere Richtung. Also auch eine Aussage der Form
-"Es gilt nicht, dass für alle x ein F zutrifft" wäre äquivalent
+in die andere Richtung. Also auch eine Aussage der Form "Es
+gilt nicht, dass für alle x ein F zutrifft" wäre äquivalent
 
 0:17:45.009,0:17:52.100
 dazu, zu sagen: "Es existiert ein x, so dass F nicht zutrifft".
@@ -675,12 +675,12 @@ das mehrfach zu tun. Das war beim Umformen in der
 Aussagenlogik ja auch so, dass wenn wir eine Äquivalenz
 
 0:18:23.409,0:18:29.980
-angewandt hatten, wir oftmals danach neue Gelegenheiten hatten,
-weitere Äquivalenzen anzuwenden. Machen wir das für
+angewandt hatten, wir oftmals danach neue Gelegenheiten
+hatten, weitere Äquivalenzen anzuwenden. Machen wir das für
 
 0:18:29.980,0:18:33.669
-unser Beispiel mal: Also der erste Schritt wäre der,
-der auf der Vorfolie schon angedeutet ist.
+unser Beispiel mal: Also der erste Schritt wäre
+der, der auf der Vorfolie schon angedeutet ist.
 
 0:18:33.669,0:18:40.169
 Wir können die Negation über den Existenzquantor schieben.
@@ -703,12 +703,12 @@ Daraus können wir einen Allquantor machen und die Negation
 nach innen schieben. Dann hätten wir diese Formel,
 
 0:19:06.090,0:19:14.159
-die entsprechend diesen Regeln
-hier äquivalent zur Ausgangsformel ist.
+die entsprechend diesen Regeln hier
+äquivalent zur Ausgangsformel ist.
 
 0:19:14.159,0:19:22.419
-Was wir dann übrig haben, ist eine innere Formel,
-in der keine Quantoren mehr auftauchen.
+Was wir dann übrig haben, ist eine innere
+Formel, in der keine Quantoren mehr auftauchen.
 
 0:19:22.419,0:19:28.920
 Aber da können natürlich noch aussagenlogische
@@ -723,16 +723,16 @@ weiter vorn in der Vorlesung auftauchte, dürfen
 wir auch auf prädikatenlogische Formeln anwenden.
 
 0:19:43.149,0:19:50.309
-Und dabei dürfen dann F und G zum Beispiel auch Prädikats- und
-Funktionssymbole etc. enthalten. Also ergibt sich hier
+Und dabei dürfen dann F und G zum Beispiel auch Prädikats-
+und Funktionssymbole etc. enthalten. Also ergibt sich hier
 
 0:19:50.309,0:19:56.360
 die Möglichkeit, noch weitere Schritte durchzuführen.
 Zum Beispiel haben wir hier etwas stehen,
 
 0:19:56.360,0:20:04.340
-das an de Morgan erinnert. Denn hier steht eine Negation
-einer Konjunktion. Genau genommen sogar einer
+das an de Morgan erinnert. Denn hier steht eine
+Negation einer Konjunktion. Genau genommen sogar einer
 
 0:20:04.340,0:20:09.510
 dreifachen Konjunktion. Da kann man sich jetzt entscheiden,
@@ -743,12 +743,12 @@ Zum Beispiel könnten wir sagen, wir fassen
 diese beiden Teilformeln zu einer zusammen,
 
 0:20:19.499,0:20:27.179
-und die steht in Konjunktion mit einer weiteren
-Teilformel. Und de Morgan hieße jetzt:
+und die steht in Konjunktion mit einer
+weiteren Teilformel. Und de Morgan hieße jetzt:
 
 0:20:27.179,0:20:36.239
-"Nicht die Konjunktion aus diesen beiden, gerade markierten Teilen"
-ist äquivalent zu "die Negation
+"Nicht die Konjunktion aus diesen beiden, gerade
+markierten Teilen" ist äquivalent zu "die Negation
 
 0:20:36.239,0:20:44.409
 des ersten Teils Oder die Negation der zweiten
@@ -779,8 +779,8 @@ Jetzt haben wir eine Formel der Art "Nicht irgendetwas
 Oder irgendetwas anderes". Und da wissen wir,
 
 0:21:25.679,0:21:34.029
-das lässt sich abkürzen zu:
-"Diese Vorbedingung, ohne das Negationszeichen, impliziert das,
+das lässt sich abkürzen zu: "Diese Vorbedingung,
+ohne das Negationszeichen, impliziert das,
 
 0:21:34.029,0:21:42.200
 was hier als zweites Argument der Disjunktion steht."
@@ -807,12 +807,12 @@ Ehemann gibt, der seine Schwiegereltern mag? Nun, indem wir sagen:
 "Für alle Personen x, y, z (egal, wie die gewählt sind) gilt:
 
 0:22:14.990,0:22:26.970
-Wenn x Ehemann von y ist und y Kind von z ist,
-dann mag x das z nicht." Das ist einfach eine andere
+Wenn x Ehemann von y ist und y Kind von z ist, dann
+mag x das z nicht." Das ist einfach eine andere
 
 0:22:26.970,0:22:32.690
-Art auszudrücken, dass kein Ehemann seine
-Schwiegereltern mag.
+Art auszudrücken, dass kein
+Ehemann seine Schwiegereltern mag.
 
 0:22:32.690,0:22:41.389
 Es drückt das nämlich auf die Weise aus, dass gesagt wird:
@@ -847,8 +847,8 @@ die wir dann unabhängig von diesem Beispiel auch
 anwenden dürfen. Was fehlt dann noch von unserer
 
 0:23:39.759,0:23:43.850
-Auflistung vorher? Nun, die Frage, ob sich denn Quantoren
-auch zusammenfassen lassen, zumindest wenn sie
+Auflistung vorher? Nun, die Frage, ob sich denn
+Quantoren auch zusammenfassen lassen, zumindest wenn sie
 
 0:23:43.850,0:23:50.049
 der gleichen Art sind. Also statt nur von zwei
@@ -871,20 +871,20 @@ An den Beispielen, die ich betrachtet habe,
 aber hinführen zu allgemeinen Äquivalenzen.
 
 0:24:16.529,0:24:23.970
-Die gelten also, egal was das F ist.
-Wir dürfen Reihenfolgen gleicher Quantoren vertauschen
+Die gelten also, egal was das F ist. Wir dürfen
+Reihenfolgen gleicher Quantoren vertauschen
 
 0:24:23.970,0:24:29.179
-und wir dürfen die Negation über die Quantoren ziehen,
-wenn wir dabei den Quantor kippen.
+und wir dürfen die Negation über die Quantoren
+ziehen, wenn wir dabei den Quantor kippen.
 
 0:24:29.179,0:24:39.289
-Also jeweils die Natur des Quantors verändern.
-Es werden hier noch einige weitere Gesetze auftauchen,
+Also jeweils die Natur des Quantors verändern. Es
+werden hier noch einige weitere Gesetze auftauchen,
 
 0:24:39.289,0:24:44.929
-die ich jeweils nur kurz besprechen werde.
-Ich habe da jetzt nicht jeweils ein Beispiel mit auf den Folien,
+die ich jeweils nur kurz besprechen werde. Ich habe da
+jetzt nicht jeweils ein Beispiel mit auf den Folien,
 
 0:24:44.929,0:24:52.289
 aber man kann natürlich immer durch geeignete
@@ -895,76 +895,76 @@ anschauliches darunter vorstellen. Also schauen wir uns
 das zum Beispiel an. Da geht es genau um so einen Fall,
 
 0:25:00.450,0:25:08.210
-dass wir gern mehrere Quantoren zusammenfassen wollen.
-Und zwar steht schon als Behauptung da
+dass wir gern mehrere Quantoren zusammenfassen
+wollen. Und zwar steht schon als Behauptung da
 
 0:25:08.210,0:25:13.700
 (wir müssen das nur noch vielleicht etwas besser
 verstehen), dass, wenn wir eine All-Aussage haben,
 
 0:25:13.700,0:25:17.980
-über irgendeine Variable x, und dann eine
-beliebige Formel,
+über irgendeine Variable x,
+und dann eine beliebige Formel,
 
 0:25:17.980,0:25:23.890
 die das x benutzen darf (natürlich), und wir haben
 eine zweite All-Aussage mit der gleichen Variable,
 
 0:25:23.890,0:25:31.830
-aber im Allgemeinen einer anderen Teilformel hier
-(die etwas anderes über das x ausdrückt),
+aber im Allgemeinen einer anderen Teilformel
+hier (die etwas anderes über das x ausdrückt),
 
 0:25:31.830,0:25:36.179
-dann steht hier: Wir können das tatsächlich
-zu einem Allquantor
+dann steht hier: Wir können das
+tatsächlich zu einem Allquantor
 
 0:25:36.179,0:25:44.940
-über diese Variable zusammenfassen und einfach (F ∧ G) zusammenfassen
-als Teilformel dieses einen All-Quantors.
+über diese Variable zusammenfassen und einfach (F ∧ G)
+zusammenfassen als Teilformel dieses einen All-Quantors.
 
 0:25:44.940,0:25:51.970
-Also, wenn wir wissen, dass für alle x F gilt, und wir wissen,
-dass für alle x G gilt, dann wissen wir auch,
+Also, wenn wir wissen, dass für alle x F gilt, und wir
+wissen, dass für alle x G gilt, dann wissen wir auch,
 
 0:25:51.970,0:26:00.970
-dass für alle x (F ∧ G) gilt. So gesehen klingt das auch
-sehr einleuchtend, wenn man das so ausspricht.
+dass für alle x (F ∧ G) gilt. So gesehen klingt das
+auch sehr einleuchtend, wenn man das so ausspricht.
 
 0:26:00.970,0:26:06.059
-Denn letztlich sagt das hier, dieses "für alle x gilt F",
-das ist ja eigentlich auch sowas wie eine ganz große Konjunktion.
+Denn letztlich sagt das hier, dieses "für alle x gilt F", das
+ist ja eigentlich auch sowas wie eine ganz große Konjunktion.
 
 0:26:06.059,0:26:12.629
 Wir könnten uns jedes Element der Grundmenge
 anschauen, über die x quantifiziert, und sagen:
 
 0:26:12.629,0:26:16.700
-"F gilt für das erste und für das zweite und für das dritte, ..."
-F gilt für alle Elemente aus der Grundmenge.
+"F gilt für das erste und für das zweite und für das
+dritte, ..." F gilt für alle Elemente aus der Grundmenge.
 
 0:26:16.700,0:26:22.940
-F gilt für das erste Element, für das zweite und das dritte etc.
-Diese Aussage bedeutet letztlich intuitiv das Gleiche,
+F gilt für das erste Element, für das zweite und das dritte
+etc. Diese Aussage bedeutet letztlich intuitiv das Gleiche,
 
 0:26:22.940,0:26:30.749
-aber eben, dass der Inhalt von G
-für alle Elemente der Grundmenge gelten soll.
+aber eben, dass der Inhalt von G für
+alle Elemente der Grundmenge gelten soll.
 
 0:26:30.749,0:26:34.509
 Und hier drüben steht einfach:
 "Für alle Elemente der Grundmenge
 
 0:26:34.509,0:26:44.710
-sollen (F ∧ G) gelten", und das ist intuitiv äquivalent.
-Geht das auch für den Existenzquantor?
+sollen (F ∧ G) gelten", und das ist intuitiv
+äquivalent. Geht das auch für den Existenzquantor?
 
 0:26:44.710,0:26:53.320
-Also, können wir auch sagen, die Aussage "es existiert ein x,
-so dass F gilt" und "es existiert ein x, so dass G gilt"
+Also, können wir auch sagen, die Aussage "es existiert ein
+x, so dass F gilt" und "es existiert ein x, so dass G gilt"
 
 0:26:53.320,0:27:00.639
-sei äquivalent dazu, dass es ein x gibt, so dass (F ∧ G) gilt?
-Also, können wir das auch für Existenzquantoren machen?
+sei äquivalent dazu, dass es ein x gibt, so dass (F ∧ G)
+gilt? Also, können wir das auch für Existenzquantoren machen?
 
 0:27:00.639,0:27:07.179
 Hier, hier und hier. Also das, was nicht gehen wird, ist,
@@ -983,56 +983,56 @@ so "in Zweifel ziehend". In der Tat gilt das für den
 Existenzquantor nicht. Warum nicht? Nun, man kann sich
 
 0:27:27.529,0:27:32.269
-das an einem Beispiel verdeutlichen. Nehmen wir an,
-unsere Grundmenge wären
+das an einem Beispiel verdeutlichen.
+Nehmen wir an, unsere Grundmenge wären
 
 0:27:32.269,0:27:36.519
-die natürlichen Zahlen. Also das x soll über
-die natürlichen Zahlen quantifizieren.
+die natürlichen Zahlen. Also das x soll
+über die natürlichen Zahlen quantifizieren.
 
 0:27:36.519,0:27:40.600
 Und unsere Aussagen F und G seien welche, die wir auch
 schon mal in einem anderen Beispiel herangezogen hatten.
 
 0:27:40.600,0:27:47.539
-Nämlich Aussagen über die Geradzahligkeit oder
-Ungeradzahligkeit der jeweiligen Zahl x.
+Nämlich Aussagen über die Geradzahligkeit
+oder Ungeradzahligkeit der jeweiligen Zahl x.
 
 0:27:47.539,0:27:56.499
-Also nehmen wir an, G steht für "gerade Zahl".
-Also "x ist gerade" drückt das G aus.
+Also nehmen wir an, G steht für "gerade
+Zahl". Also "x ist gerade" drückt das G aus.
 
 0:27:56.499,0:28:03.489
-Und F, in dem das x benutzt wird, drücke aus, dass x ungerade ist.
-Dann würde hier auf der linken Seite stehen,
+Und F, in dem das x benutzt wird, drücke aus, dass x
+ungerade ist. Dann würde hier auf der linken Seite stehen,
 
 0:28:03.489,0:28:10.090
 wenn wir den Existenzquantor hier und hier hätten:
 "Es existiert ein x, so dass es gerade ist"
 
 0:28:10.090,0:28:18.450
-und "es existiert ein x, so dass es ungerade ist".
-Das stimmt. Es gibt eine ungerade Zahl und
+und "es existiert ein x, so dass es ungerade
+ist". Das stimmt. Es gibt eine ungerade Zahl und
 
 0:28:18.450,0:28:25.979
 es gibt eine gerade Zahl. Das wäre eine wahre
 Aussage, intuitiv gelesen. Was würde die entsprechende
 
 0:28:25.979,0:28:32.970
-rechte Formel sagen? Die würde behaupten: "Es
-gibt ein x, so dass x ungerade ist und x gerade ist".
+rechte Formel sagen? Die würde behaupten: "Es gibt
+ein x, so dass x ungerade ist und x gerade ist".
 
 0:28:32.970,0:28:38.739
-Und das stimmt natürlich nicht. Es gibt keine natürliche Zahl,
-die sowohl gerade als auch ungerade ist.
+Und das stimmt natürlich nicht. Es gibt keine natürliche
+Zahl, die sowohl gerade als auch ungerade ist.
 
 0:28:38.739,0:28:47.730
 Dieses Beispiel verdeutlicht, warum mit Existenzquantoren
 das hier keine logische Äquivalenz ist.
 
 0:28:47.730,0:28:51.509
-Das ist etwas bedauerlich, könnte man sagen. Hier oben ist das
-immer schön symmetrisch. Es gibt diese Gesetze immer für
+Das ist etwas bedauerlich, könnte man sagen. Hier oben ist
+das immer schön symmetrisch. Es gibt diese Gesetze immer für
 
 0:28:51.509,0:28:58.119
 All- und Existenzquantoren. Hier gibt es auch eine
@@ -1047,51 +1047,52 @@ auch noch die Konjunktion durch eine Disjunktion ersetzen.
 Diese Aussage gilt nämlich. Wenn wir, egal was F und G
 
 0:29:14.139,0:29:22.889
-genau bedeuten, die Aussage ausdrücken: "Es existiert ein x,
-so dass F zutrifft Oder es existiert ein x, so dass G zutrifft",
+genau bedeuten, die Aussage ausdrücken: "Es existiert ein x, so
+dass F zutrifft Oder es existiert ein x, so dass G zutrifft",
 
 0:29:22.889,0:29:31.570
-dann ist das äquivalent dazu, einfach mit einem Quantor zu sagen:
-"Es existiert ein x, so dass F Oder G zutrifft".
+dann ist das äquivalent dazu, einfach mit einem Quantor zu
+sagen: "Es existiert ein x, so dass F Oder G zutrifft".
 
 0:29:31.570,0:29:39.909
-Jetzt kann man sich wieder fragen: Könnte man hier
-zumindest den Existenzquantor durch einen Allquantor ersetzen?
+Jetzt kann man sich wieder fragen: Könnte man hier zumindest
+den Existenzquantor durch einen Allquantor ersetzen?
 
 0:29:39.909,0:29:44.820
 Und dann wäre die Antwort wieder Nein. Also für
 den Allquantor geht das nur mit der Konjunktion.
 
 0:29:44.820,0:29:50.249
-Für den Existenzquantor geht das nur mit der Disjunktion.
-Überkreuzt sozusagen geht es jeweils nicht.
+Für den Existenzquantor geht das nur mit der
+Disjunktion. Überkreuzt sozusagen geht es jeweils nicht.
 
 0:29:50.249,0:29:59.330
-Also wenn hier stünde: "Für alle x F Oder für alle x G", das ist
-nicht äquivalent dazu, zu sagen: "Für alle x F Oder G".
+Also wenn hier stünde: "Für alle x F Oder für alle x G", das
+ist nicht äquivalent dazu, zu sagen: "Für alle x F Oder G".
 
 0:29:59.330,0:30:03.729
-Auch das kann man sich wieder mit den geraden und ungeraden Zahlen überlegen.
-Also, nehmen wir wieder als Grundmenge den Bereich
+Auch das kann man sich wieder mit den geraden und ungeraden Zahlen
+überlegen. Also, nehmen wir wieder als Grundmenge den Bereich
 
 0:30:03.729,0:30:11.399
-der natürlichen Zahlen und für F die Feststellung,
-dass die Variable x, die dann in F eben vorkäme, ungerade ist,
+der natürlichen Zahlen und für F die Feststellung, dass
+die Variable x, die dann in F eben vorkäme, ungerade ist,
 
 0:30:11.399,0:30:16.279
-und G die entsprechende Aussage zu Geradzahligkeit von x ist.
+und G die entsprechende Aussage
+zu Geradzahligkeit von x ist.
 
 0:30:26.210,0:30:31.570
-Wenn ich hier ∀ setzen wollte,
-dann würde ich ja sagen, auf der rechten Seite:
+Wenn ich hier ∀ setzen wollte, dann würde
+ich ja sagen, auf der rechten Seite:
 
 0:30:31.570,0:30:38.650
-"Für alle x gilt, x ist ungerade Oder x ist gerade".
-Das stimmt. Also diese rechte Seite wäre dann eine wahre Aussage.
+"Für alle x gilt, x ist ungerade Oder x ist gerade". Das
+stimmt. Also diese rechte Seite wäre dann eine wahre Aussage.
 
 0:30:38.650,0:30:46.740
-Aber die linke Seite statt der Existenzquantoren
-würde bedeuten: "Es gilt für alle x, dass x ungerade ist,
+Aber die linke Seite statt der Existenzquantoren würde
+bedeuten: "Es gilt für alle x, dass x ungerade ist,
 
 0:30:46.740,0:30:56.649
 Oder es gilt für alle x, dass x gerade ist."
@@ -1101,8 +1102,8 @@ Keine von diesen beiden Aussagen stimmt.
 Also mit "∨" hier und "∀" hier ist das
 
 0:31:04.610,0:31:11.260
-keine Äquivalenz. Und das mit
-den geraden und ungeraden Zahlen kann das verdeutlichen.
+keine Äquivalenz. Und das mit den geraden
+und ungeraden Zahlen kann das verdeutlichen.
 
 0:31:11.260,0:31:24.820
 Das wären also Aussagen, so wie sie da stehen,
@@ -1113,24 +1114,24 @@ Daneben gibt es noch Äquivalenzen, die wir aus
 formalen Gründen brauchen werden, in bestimmten
 
 0:31:32.340,0:31:37.989
-Herleitungen von Normalformen. Die tauchen hier
-gleich auf. Die sind etwas einfacher
+Herleitungen von Normalformen. Die tauchen
+hier gleich auf. Die sind etwas einfacher
 
 0:31:37.989,0:31:43.659
-als diese Varianten hier. Die sagen auch was aus
-über Quantoren und deren Interaktion mit
+als diese Varianten hier. Die sagen auch was
+aus über Quantoren und deren Interaktion mit
 
 0:31:43.659,0:31:48.200
 Konjunktionen und Disjunktionen.
 Aber die Äquivalenzen,
 
 0:31:48.200,0:31:54.919
-die hier auftauchen werden, sind insofern einfacher,
-als sie jeweils nur einen Quantor
+die hier auftauchen werden, sind insofern
+einfacher, als sie jeweils nur einen Quantor
 
 0:31:54.919,0:32:03.249
-auf der linken Seite enthalten, und dass sie erlauben, sowohl
-"∀" mit "∧", "∀" mit "∨", "∃" mit "∧" und "∃" mit "∨"
+auf der linken Seite enthalten, und dass sie erlauben,
+sowohl "∀" mit "∧", "∀" mit "∨", "∃" mit "∧" und "∃" mit "∨"
 
 0:32:03.249,0:32:09.499
 sozusagen zu vereinfachen. Aber sie haben
@@ -1140,39 +1141,39 @@ eine wesentliche Einschränkung, nämlich:
 Eine Teilformel, die da drin auftaucht,
 
 0:32:13.809,0:32:18.259
-ist nicht mehr völlig beliebig, so wie F und G hier
-beliebig waren, sondern wir müssen
+ist nicht mehr völlig beliebig, so wie F und
+G hier beliebig waren, sondern wir müssen
 
 0:32:18.259,0:32:27.309
 eine Einschränkung stellen an die möglichen
 freien Variablen dieser zweiten Teilformel.
 
 0:32:27.309,0:32:33.200
-Deswegen brauchten wir von dem vorigen Video
-den Begriff der gebundenen bzw. freien Variablen.
+Deswegen brauchten wir von dem vorigen Video den
+Begriff der gebundenen bzw. freien Variablen.
 
 0:32:33.200,0:32:44.249
 Also der Punkt ist: Bei dem, was hier oben steht,
 da dürfen F und G beliebig sein. Hier unten in
 
 0:32:44.249,0:32:49.379
-diesen neuen Gesetzen ist auch das F immer noch beliebig.
-Aber das H ist nicht völlig beliebig.
+diesen neuen Gesetzen ist auch das F immer noch
+beliebig. Aber das H ist nicht völlig beliebig.
 
 0:32:49.379,0:32:58.059
 Das H darf nämlich x nicht frei enthalten.
 
 0:32:58.059,0:33:06.649
-Was heißt das dann zum Beispiel? Nehmen wir uns
-die erste Zeile vor: Wenn wir
+Was heißt das dann zum Beispiel? Nehmen
+wir uns die erste Zeile vor: Wenn wir
 
 0:33:06.649,0:33:15.789
 eine Formel haben der Form: "(∀x: F)" und F
 darf x enthalten, und außerdem gilt noch H,
 
 0:33:15.789,0:33:22.179
-H trifft über das x aber keine Aussage
-(also H enthält das x nicht frei), dann dürfen
+H trifft über das x aber keine Aussage (also
+H enthält das x nicht frei), dann dürfen
 
 0:33:22.179,0:33:26.309
 wir das H sozusagen unter den Quantor ziehen.
@@ -1183,20 +1184,20 @@ wir hier sozusagen Sachen verschmolzen haben, nur dass wir jetzt
 in H gar keinen Quantor außen haben (nicht notwendigerweise).
 
 0:33:31.629,0:33:39.830
-Wir dürfen also das H unter den "∀x"-Quantor
-ziehen und das vereinfachen zu:
+Wir dürfen also das H unter den
+"∀x"-Quantor ziehen und das vereinfachen zu:
 
 0:33:39.830,0:33:48.080
 "Für alle x gilt FUund H". Das F spricht nach wie vor
 über das x und bezieht sich auf das gleiche x wie vorher.
 
 0:33:48.080,0:33:54.190
-Das H steht jetzt unterhalb des Quantors auf der rechten
-Seite, würde sich also auch sozusagen auf dieses
+Das H steht jetzt unterhalb des Quantors auf der
+rechten Seite, würde sich also auch sozusagen auf dieses
 
 0:33:54.190,0:34:02.909
-quantifizierte x beziehen. Aber da H gar kein freies
-Vorkommen von x enthält, ist das irrelevant.
+quantifizierte x beziehen. Aber da H gar kein
+freies Vorkommen von x enthält, ist das irrelevant.
 
 0:34:02.909,0:34:07.700
 Also es schadet sozusagen nicht, dieses H unter diesen Quantor
@@ -1207,20 +1208,20 @@ In dem H kommt kein freies Vorkommen von x vor,
 das jetzt durch diesen Quantor irgendwie mit
 
 0:34:13.549,0:34:17.690
-Bedeutung gefüllt werden könnte.
-Und weil dem so ist, dürfen wir das hier tatsächlich
+Bedeutung gefüllt werden könnte. Und weil
+dem so ist, dürfen wir das hier tatsächlich
 
 0:34:17.690,0:34:23.899
-nicht nur wie hier oben verschmelzen bei Allquantor
-und Konjunktionen, sowie Existenzquantor und Disjunktion,
+nicht nur wie hier oben verschmelzen bei Allquantor und
+Konjunktionen, sowie Existenzquantor und Disjunktion,
 
 0:34:23.899,0:34:34.859
 sondern für alle Kombinationen. Also auch für den
 Allquantor und die Disjunktion gilt, wenn wir "(∀x: F)"
 
 0:34:34.859,0:34:43.659
-ausdrücken und "Oder H" gelten soll, dann ist es äquivalent dazu,
-zu sagen: "Für alle x: F Oder H". Das H trifft keine Aussagen über x.
+ausdrücken und "Oder H" gelten soll, dann ist es äquivalent dazu, zu
+sagen: "Für alle x: F Oder H". Das H trifft keine Aussagen über x.
 
 0:34:43.659,0:34:49.859
 Das x kommt in H nicht frei vor. Deswegen kann dieses
@@ -1243,8 +1244,8 @@ Während die Beispiele hier oben sich auch anschaulich an den
 gesehenen oder den hier mit den geraden und ungeraden Zahlen
 
 0:35:19.590,0:35:33.020
-durchgeführten Beispielen erklären lassen. Falls sie sich
-Sorgen machen, warum das hier sozusagen nur von rechts passiert:
+durchgeführten Beispielen erklären lassen. Falls sie sich Sorgen
+machen, warum das hier sozusagen nur von rechts passiert:
 
 0:35:33.020,0:35:39.839
 Also ist es wirklich nur so, dass ich eine
@@ -1259,16 +1260,16 @@ Natürlich geht das auch, wenn das H links steht.
 Also wenn hier stünde "(H ∧ (∀x: F))", dann dürfte
 
 0:35:51.589,0:35:57.260
-man das H auch nach innen ziehen und daraus eben machen: "(∀x: (H ∧ F))".
-Dafür gibt es aber kein extra Gesetz mehr hier.
+man das H auch nach innen ziehen und daraus eben machen: "(∀x:
+(H ∧ F))". Dafür gibt es aber kein extra Gesetz mehr hier.
 
 0:35:57.260,0:36:04.200
-Warum nicht? Weil das natürlich bereits aus diesen
-einfachen Äquivalenzen folgt. Also, da wir sowieso Kommutativität
+Warum nicht? Weil das natürlich bereits aus diesen einfachen
+Äquivalenzen folgt. Also, da wir sowieso Kommutativität
 
 0:36:04.200,0:36:11.210
-aus der Aussagenlogik auch
-auf prädikatenlogische Formeln anwenden dürfen, brauchen wir
+aus der Aussagenlogik auch auf prädikatenlogische
+Formeln anwenden dürfen, brauchen wir
 
 0:36:11.210,0:36:16.710
 von diesen letzten vier Gesetzen nicht auch
@@ -1279,9 +1280,9 @@ von der entsprechenden Quantor-Formel steht.
 Wir dürfen ja die Reihenfolge in "∧" und in "∨"
 
 0:36:23.779,0:36:30.700
-sowieso nach Belieben vertauschen. In der Aussagenlogik,
-aber auch in der Prädikatenlogik.
+sowieso nach Belieben vertauschen. In der
+Aussagenlogik, aber auch in der Prädikatenlogik.
 
 0:36:30.700,0:36:37.079
-Deswegen reicht das hier als Aufsammlung
-der Äquivalenzen, die wir anwenden können wollen.
+Deswegen reicht das hier als Aufsammlung der
+Äquivalenzen, die wir anwenden können wollen.

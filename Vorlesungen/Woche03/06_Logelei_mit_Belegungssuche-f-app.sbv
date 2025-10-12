@@ -7,12 +7,12 @@ aus der sprachlichen Beschreibung irgendwie in
 logische Formeln übersetzen, damit wir Aussagenlogik
 
 0:00:15.810,0:00:23.760
-zum Einsatz bringen können. Naheliegend
-wäre hier, Aussagen A, B, C zu nutzen, weil wir Anne, Bettina
+zum Einsatz bringen können. Naheliegend wäre hier,
+Aussagen A, B, C zu nutzen, weil wir Anne, Bettina
 
 0:00:23.760,0:00:30.810
-und Claudia haben. Und uns jeweils zu überlegen, was
-denn hier die Inhalte von unseren
+und Claudia haben. Und uns jeweils zu
+überlegen, was denn hier die Inhalte von unseren
 
 0:00:30.810,0:00:36.990
 Aussagen sind? Es geht um "lügen" oder "nicht lügen". Also
@@ -23,20 +23,20 @@ oder „Anne lügt nicht“. Wir müssen uns in eine Richtung
 entscheiden. Ich lege einfach mal fest: A soll die
 
 0:00:42.990,0:00:56.760
-Aussage sein: „Anne spricht wahr.“ Also sie spricht immer
-die Wahrheit. Und das Gleiche oder analog dazu
+Aussage sein: „Anne spricht wahr.“ Also sie spricht
+immer die Wahrheit. Und das Gleiche oder analog dazu
 
 0:00:56.760,0:01:17.710
-für B: „Bettina spricht wahr.“ Und natürlich auch für
-C, für Claudia. Dann wäre die nächste Frage,
+für B: „Bettina spricht wahr.“ Und natürlich auch
+für C, für Claudia. Dann wäre die nächste Frage,
 
 0:01:17.710,0:01:24.820
-wie wir denn unsere gegebenen Aussagen oder
-unsere Erkenntnisse über diese
+wie wir denn unsere gegebenen Aussagen
+oder unsere Erkenntnisse über diese
 
 0:01:24.820,0:01:30.880
-Elementaraussagen in Formelschreibweise
-bringen können. Schauen wir uns mal die erste Zeile an. Anne
+Elementaraussagen in Formelschreibweise bringen
+können. Schauen wir uns mal die erste Zeile an. Anne
 
 0:01:30.880,0:01:39.340
 sagt: „Bettina lügt.“ Jetzt gibt es zwei Möglichkeiten.
@@ -47,16 +47,16 @@ sprechen. Das heißt, was die erste Zeile eigentlich sagt,
 ist also: Anne sagt, „Bettina lügt.“ Wenn A Wahrheit spricht,
 
 0:01:48.850,0:01:58.900
-dann spricht B nicht die Wahrheit. Wenn Anne sagt,
-Bettina lügt, wenn A jemand ist,
+dann spricht B nicht die Wahrheit. Wenn
+Anne sagt, Bettina lügt, wenn A jemand ist,
 
 0:01:58.900,0:02:05.380
-die die Wahrheit spricht, dann ist
-Bettina offenbar nicht jemand, die die Wahrheit spricht.
+die die Wahrheit spricht, dann ist Bettina
+offenbar nicht jemand, die die Wahrheit spricht.
 
 0:02:05.380,0:02:18.460
-Also dann gilt die Negation von B. Bettina spricht nicht wahr, denn
-Bettina lügt. Und genau genommen gilt zusätzlich auch:
+Also dann gilt die Negation von B. Bettina spricht nicht wahr,
+denn Bettina lügt. Und genau genommen gilt zusätzlich auch:
 
 0:02:18.460,0:02:26.200
 Falls Anne eine lügende Person ist, also falls die
@@ -71,20 +71,20 @@ sein. Anne sagt: „Bettina lügt.“ Wenn Anne eine Lügnerin ist,
 dann stimmt natürlich nicht, dass Bettina lügt. Das heißt,
 
 0:02:37.000,0:02:47.530
-dann ist Bettina jemand, die wahr spricht. Das heißt,
-dann hätten wir B. Das sind jetzt schon unsere ersten beiden
+dann ist Bettina jemand, die wahr spricht. Das heißt, dann
+hätten wir B. Das sind jetzt schon unsere ersten beiden
 
 0:02:48.040,0:02:52.420
-Formeln. Da taucht zwar dieses Implikationssymbol drin
-auf, von dem ich gesagt habe, das ist eine Abkürzung für etwas
+Formeln. Da taucht zwar dieses Implikationssymbol drin auf,
+von dem ich gesagt habe, das ist eine Abkürzung für etwas
 
 0:02:52.420,0:02:58.750
-anderes. Ich schreibe es jetzt aber einfach mal so
-syntaktisch hin, weil wir die Umschreibung noch
+anderes. Ich schreibe es jetzt aber einfach mal
+so syntaktisch hin, weil wir die Umschreibung noch
 
 0:02:58.750,0:03:04.990
-nicht gesehen haben, und vor allem sich das intuitiv für
-dieses Rätsel jetzt hier gut eignet, das so
+nicht gesehen haben, und vor allem sich das intuitiv
+für dieses Rätsel jetzt hier gut eignet, das so
 
 0:03:04.990,0:03:13.390
 zu machen. Also die erste Zeile hier könnten wir
@@ -107,12 +107,12 @@ nicht von der Form, dass wir hätten „aus irgendwas folgt irgendetwas
 anderes“ und dann „folgt aus der Negation des Zweiten die
 
 0:03:43.630,0:03:51.010
-Implikation des Ersten.“ Das ist hier nicht der Fall. Hier haben wir zwar auch A
-und B negiert jeweils, von den Formeln sozusagen genau das
+Implikation des Ersten.“ Das ist hier nicht der Fall. Hier haben wir
+zwar auch A und B negiert jeweils, von den Formeln sozusagen genau das
 
 0:03:51.010,0:03:56.020
-Gegenstück gebildet. Aber wir haben nicht die
-linke und rechte Seite der Implikation vertauscht. Das ist also
+Gegenstück gebildet. Aber wir haben nicht die linke und
+rechte Seite der Implikation vertauscht. Das ist also
 
 0:03:56.020,0:04:02.050
 nicht Kontraposition. Das ist wichtig, sich
@@ -127,12 +127,12 @@ Wenn Bettina wahr spricht, dann ist Claudia offenbar
 eine Lügnerin, spricht also nicht wahr. Und falls
 
 0:04:14.020,0:04:21.670
-wiederum Bettina eigentlich eine Lügnerin ist, dann
-ist ihre Aussage, Claudia sei eine Lügnerin, falsch. Also dann
+wiederum Bettina eigentlich eine Lügnerin ist, dann ist
+ihre Aussage, Claudia sei eine Lügnerin, falsch. Also dann
 
 0:04:21.670,0:04:33.670
-spricht C wahr. Und die dritte Zeile: Claudia sagt: „Anne
-und Bettina lügen beide.“ Was heißt das?
+spricht C wahr. Und die dritte Zeile: Claudia sagt:
+„Anne und Bettina lügen beide.“ Was heißt das?
 
 0:04:33.670,0:04:40.300
 Wenn Claudia Recht hat, wenn Claudia also keine Lügnerin
@@ -143,8 +143,8 @@ lügt und Bettina lügt. Anne lügt, heißt: Anne spricht
 nicht wahr. Und Bettina lügt, heißt: Bettina spricht
 
 0:04:49.120,0:04:56.770
-nicht wahr. Beides zusammen soll gelten, wenn Claudia
-die Wahrheit spricht. Und natürlich auch hier
+nicht wahr. Beides zusammen soll gelten, wenn
+Claudia die Wahrheit spricht. Und natürlich auch hier
 
 0:04:56.770,0:05:04.570
 wieder das Gegenstück dazu. Also wenn Claudia
@@ -155,20 +155,20 @@ Anne und Bettina beide lügen. Das heißt, mindestens
 eine von Anne und Bettina wäre keine Lügnerin.
 
 0:05:10.510,0:05:22.260
-Das können wir ausdrücken, indem wir sagen: „A spricht wahr oder
-B spricht wahr.“ Wenn wir diese große Formel bilden,
+Das können wir ausdrücken, indem wir sagen: „A spricht wahr
+oder B spricht wahr.“ Wenn wir diese große Formel bilden,
 
 0:05:22.260,0:05:30.480
-dann würde sie unserem Zusammenhang unter dieser
-Interpretation der Elementaraussagen
+dann würde sie unserem Zusammenhang unter
+dieser Interpretation der Elementaraussagen
 
 0:05:30.480,0:05:38.250
-entsprechen. Wer lügt denn nun? Das wäre eine
-Frage der Semantik. Wir müssten uns jetzt fragen: Was hat
+entsprechen. Wer lügt denn nun? Das wäre eine Frage
+der Semantik. Wir müssten uns jetzt fragen: Was hat
 
 0:05:38.250,0:05:45.900
-es mit dieser Formel auf sich? Was können wir
-aus der vielleicht auch lernen über A, B, C? Stimmt
+es mit dieser Formel auf sich? Was können wir aus
+der vielleicht auch lernen über A, B, C? Stimmt
 
 0:05:45.900,0:05:52.710
 die Formel so? Was ist mit den Teilformeln? Ist es denn
@@ -183,8 +183,8 @@ irgendwie eine Annahme treffen. Wir können also nicht
 einfach sagen, wir schauen die Formel an und dann folgt
 
 0:06:12.390,0:06:17.970
-daraus: Anne spricht wahr. Es ist eher umgekehrt. Wir
-müssen etwas über die Elementaraussagen wissen,
+daraus: Anne spricht wahr. Es ist eher umgekehrt.
+Wir müssen etwas über die Elementaraussagen wissen,
 
 0:06:17.970,0:06:24.000
 um über die Gesamtaussage etwas herausfinden
@@ -203,8 +203,8 @@ dass Anne eine Wahr-Sprecherin ist? Also, wir nehmen an,
 Anne spricht die Wahrheit. Dann würden wir entweder aus
 
 0:06:56.700,0:07:08.610
-dieser Formulierung oder aus dieser Teilformel sehen können, dass dann
-wohl B eine Lügnerin ist. Bettina ist eine Lügnerin.
+dieser Formulierung oder aus dieser Teilformel sehen können,
+dass dann wohl B eine Lügnerin ist. Bettina ist eine Lügnerin.
 
 0:07:08.610,0:07:19.860
 Bettina spricht nicht wahr. Das folgt hieraus.
@@ -215,8 +215,8 @@ eine Lügnerin, dann sehen wir zum Beispiel hier, dass
 dann Claudia die Wahrheit sagt. Daraus würde also
 
 0:07:29.730,0:07:39.810
-folgen, dass Claudia wiederum eine Wahr-Sprecherin
-ist, weil das eine der Erkenntnisse ist, die wir hier festgehalten haben.
+folgen, dass Claudia wiederum eine Wahr-Sprecherin ist, weil
+das eine der Erkenntnisse ist, die wir hier festgehalten haben.
 
 0:07:39.810,0:07:49.830
 Wenn Claudia eine Wahr-Sprecherin ist, dann
@@ -231,12 +231,12 @@ ist. Das Entscheidende ist, dass wir
 dann hier einen Widerspruch hätten. Dann
 
 0:08:14.670,0:08:19.200
-würden wir nämlich von Anne behaupten, dass sie sowohl
-Wahr-Sprecherin als auch Lügnerin ist. Und das
+würden wir nämlich von Anne behaupten, dass sie
+sowohl Wahr-Sprecherin als auch Lügnerin ist. Und das
 
 0:08:19.200,0:08:26.580
-kann nicht sein. Das heißt, vielleicht hätten
-wir uns am Anfang anders entscheiden müssen. Das ist insbesondere
+kann nicht sein. Das heißt, vielleicht hätten wir uns am
+Anfang anders entscheiden müssen. Das ist insbesondere
 
 0:08:26.580,0:08:32.040
 der Punkt. Wir müssen über die Elementaraussagen etwas
@@ -247,12 +247,12 @@ können. Es hätte noch eine andere Möglichkeit bestanden
 am Anfang. Wir haben mit A angefangen. Wir hätten
 
 0:08:40.860,0:08:45.870
-natürlich auch mit anderen Elementaraussagen anfangen
-können. Aber da ich es vorhin mit A gemacht habe, mache ich es jetzt hier
+natürlich auch mit anderen Elementaraussagen anfangen können.
+Aber da ich es vorhin mit A gemacht habe, mache ich es jetzt hier
 
 0:08:45.870,0:08:53.250
-auch mit A. Also angenommen, wir nehmen für A
-an, dass A (Anne) eine Lügnerin ist. Hätten
+auch mit A. Also angenommen, wir nehmen für
+A an, dass A (Anne) eine Lügnerin ist. Hätten
 
 0:08:53.250,0:08:58.950
 wir also im ersten Schritt dies angenommen, dann
@@ -263,32 +263,32 @@ unserem Wissen. Das können wir zum Beispiel
 hier sehen: Also Anne wäre eine Lügnerin. Daraus
 
 0:09:07.110,0:09:16.380
-folgt, dass B (Bettina) die Wahrheit spricht. Das heißt, dann wäre Bettina
-keine Lügnerin.
+folgt, dass B (Bettina) die Wahrheit spricht.
+Das heißt, dann wäre Bettina keine Lügnerin.
 
 0:09:19.770,0:09:36.840
 Daraus würde wiederum folgen, unter anderem, dass
 Claudia eine Lügnerin ist. Und wenn Claudia eine
 
 0:09:36.840,0:09:47.910
-Lügnerin ist, dann sind Anne oder
-Bettina keine Lügnerin. Also Anne oder Bettina
+Lügnerin ist, dann sind Anne oder Bettina
+keine Lügnerin. Also Anne oder Bettina
 
 0:09:47.910,0:09:54.510
 müssen dann Wahr-Sprecherin sein. Für Anne scheint
 das nicht zu stimmen. Anne haben wir hier oben
 
 0:09:54.510,0:09:59.370
-unter Falsch stehen. Das ist aber noch
-kein Widerspruch wie in dem anderen Fall oben,
+unter Falsch stehen. Das ist aber noch kein
+Widerspruch wie in dem anderen Fall oben,
 
 0:09:59.370,0:10:06.330
 denn die Alternative ist ja, Anne oder Bettina
 müssen Wahr-Sprecherin sein. Und zum Beispiel für
 
 0:10:06.330,0:10:22.920
-die Bettina stimmt das hier. Und dann hätten
-wir die Erkenntnis, dass Bettina wahr spricht und
+die Bettina stimmt das hier. Und dann hätten wir
+die Erkenntnis, dass Bettina wahr spricht und
 
 0:10:22.920,0:10:31.890
 Anne und Claudia lügen, denn hier erhalten wir keinen Widerspruch.
@@ -299,16 +299,16 @@ die wären alle für diese Variante, die hier unten steht,
 zutreffend. Das Entscheidende hier ist, dass wir eben
 
 0:10:46.680,0:10:52.080
-solche Zuordnungen treffen müssen. Wir müssen für
-unsere Elementaraussagen A, B, C irgendwelche Zuordnungen zu
+solche Zuordnungen treffen müssen. Wir müssen für unsere
+Elementaraussagen A, B, C irgendwelche Zuordnungen zu
 
 0:10:52.080,0:10:58.350
-wahr oder falsch machen. Sei es durch Annahme oder sei es durch
-gezielte Suche oder durch starkes Überlegen.
+wahr oder falsch machen. Sei es durch Annahme oder sei
+es durch gezielte Suche oder durch starkes Überlegen.
 
 0:10:58.350,0:11:04.020
-Aber es muss so eine Zuordnung geben, um so eine Formel
-bewerten zu können. Genau diese Zuordnung,
+Aber es muss so eine Zuordnung geben, um so eine
+Formel bewerten zu können. Genau diese Zuordnung,
 
 0:11:04.020,0:11:09.060
 diese Art Belegung, werden wir gleich benutzen,

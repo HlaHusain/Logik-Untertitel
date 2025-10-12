@@ -47,8 +47,8 @@ folgendermaßen aussehen, einmal, was ist
 die kleinstmögliche Zahl? Das ist wieder
 
 0:01:06.480,0:01:13.230
-Z. Z ist even. Das heißt, wir schreiben auf,
-isEven Z. Das ist ein Fakt. Wenn wir
+Z. Z ist even. Das heißt, wir schreiben
+auf, isEven Z. Das ist ein Fakt. Wenn wir
 
 0:01:13.230,0:01:17.840
 da ankommen, kann Prolog angeben, das ist
@@ -95,8 +95,8 @@ X. Dann würde X unifiziert werden. Wir hatten
 gesagt, X wäre dann S von Z. Das heißt,
 
 0:02:08.130,0:02:13.040
-wir würden dann gucken, isEven S von Z. Das
-heißt, wir würden dann mit der Anfrage weitermachen,
+wir würden dann gucken, isEven S von Z. Das heißt,
+wir würden dann mit der Anfrage weitermachen,
 
 0:02:13.040,0:02:17.300
 isEven S von Z, X war S von Z, dann schreiben
@@ -119,8 +119,8 @@ deswegen würde Prolog false ausgeben. Wenn
 wir jetzt aber zum Beispiel die nächste Zahl
 
 0:02:35.480,0:02:43.709
-haben. Also, Zwei, dann hätten wir, isEven
-S von S und jetzt die Zahl S von S von Z und
+haben. Also, Zwei, dann hätten wir, isEven S
+von S und jetzt die Zahl S von S von Z und
 
 0:02:43.709,0:02:50.319
 das gilt dann, wenn isEven X. X ist S von
@@ -147,5 +147,5 @@ Z, das passt. Und deswegen wird true ausgegeben.
 Das könnt ihr auch im Kopf mit allen möglich
 
 0:03:20.340,0:03:23.620
-weiteren Zahlen durchspielen und kommt immer
-auf das gleiche Ergebnis.
+weiteren Zahlen durchspielen und
+kommt immer auf das gleiche Ergebnis.

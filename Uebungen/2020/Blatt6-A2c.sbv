@@ -6,15 +6,15 @@ SLD-Resolutionsbaum für dieselbe Anfrage
 gezeichnet werden.
 
 0:00:09.049,0:00:12.950
-Bei Prolog wird immer nur das erste Literal
-gewählt.
+Bei Prolog wird immer nur
+das erste Literal gewählt.
 
 0:00:12.950,0:00:16.850
 Deshalb wird der Resolutionsbaum kleiner.
 
 0:00:16.850,0:00:21.529
-Im ersten Schritt notieren wir die Anfrageklausel:
-„faehrt(X,a)“.
+Im ersten Schritt notieren wir
+die Anfrageklausel: „faehrt(X,a)“.
 
 0:00:21.529,0:00:24.240
 Das resolvieren wir mit Zeile elf.
@@ -51,28 +51,28 @@ Die erste passende Zeile ist daher Zeile acht:
 weshalb das hier bereits endet.
 
 0:01:01.429,0:01:04.940
-Wir schauen dann, wo wir die nächste Auswahl
-gehabt hätten.
+Wir schauen dann, wo wir die
+nächste Auswahl gehabt hätten.
 
 0:01:04.940,0:01:07.970
-Das war nur eine Zeile darüber: "hatFuehrerschein(X,a)",
-"besitzt(X,a)".
+Das war nur eine Zeile darüber:
+"hatFuehrerschein(X,a)", "besitzt(X,a)".
 
 0:01:07.970,0:01:16.700
 Das können wir jetzt mit Zeile neun resolvieren
 und erhalten "besitzt(N,a)". Das können wir
 
 0:01:16.700,0:01:21.140
-wiederum in Zeile drei resolvieren und erhalten
-dann die leere Klausel.
+wiederum in Zeile drei resolvieren
+und erhalten dann die leere Klausel.
 
 0:01:21.140,0:01:24.520
-Die notieren wir in dieser Syntax in Form
-dieses Kästchens.
+Die notieren wir in dieser
+Syntax in Form dieses Kästchens.
 
 0:01:24.520,0:01:29.270
-Hier müsst ihr aufpassen, dass ihr nicht
-die Klauselschreibweise verwendet.
+Hier müsst ihr aufpassen, dass ihr
+nicht die Klauselschreibweise verwendet.
 
 0:01:29.270,0:01:33.250
 Also, dass ihr nicht für die leere Menge
@@ -98,8 +98,8 @@ Daher gehen wir eine weitere Zeile nach oben:
 "hatFuehrerschein(X,a)", "besitzt(X,a)".
 
 0:01:51.280,0:01:59.250
-Das können wir wiederum mit Zeile zehn resolvieren:
-"besitzt(C,a)".
+Das können wir wiederum mit Zeile
+zehn resolvieren: "besitzt(C,a)".
 
 0:01:59.250,0:02:04.280
 Das können wir, wie auch im Beispiel davor,

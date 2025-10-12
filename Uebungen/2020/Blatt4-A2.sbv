@@ -43,8 +43,8 @@ Literale und zwar C und D. (a) ist also keine
 Hornformel, da die letzte Klausel mehr als
 
 0:01:21.810,0:01:28.140
-ein positives Literal enthält. Wir kommen
-zu Teilaufgabe (b). Hier haben wir keine KNF,
+ein positives Literal enthält. Wir kommen zu
+Teilaufgabe (b). Hier haben wir keine KNF,
 
 0:01:28.140,0:01:33.930
 da wir Disjunktionen haben. Somit ist es eine
@@ -71,16 +71,16 @@ positives Literal. Deshalb ist (c) eine Hornformel.
 Hier steht: (c) ist eine Hornformel, da sie
 
 0:02:10.310,0:02:16.370
-in KNF vorliegt und maximal ein positives
-Literal pro Klausel enthält. Laut Aufgabenstellung
+in KNF vorliegt und maximal ein positives Literal
+pro Klausel enthält. Laut Aufgabenstellung
 
 0:02:16.370,0:02:20.831
 soll die Formel, wenn sie eine Hornformel
 ist, zusätzlich in Implikationsschreibweise
 
 0:02:20.831,0:02:26.720
-dargestellt werden. Das machen wir jetzt.
-Ich schreibe die Formel zu Gunsten der Übersichtlichkeit
+dargestellt werden. Das machen wir jetzt. Ich
+schreibe die Formel zu Gunsten der Übersichtlichkeit
 
 0:02:26.720,0:02:31.941
 einmal ab. Eine Klausel wie die erste, A oder
@@ -95,12 +95,12 @@ auch schon gemacht haben. Nur haben wir es
 da meistens andersherum gemacht, also die
 
 0:02:41.250,0:02:46.700
-Implikationen aufgelöst. Ich schreibe das
-farbig daneben. Vorher hatten wir es so gemacht:
+Implikationen aufgelöst. Ich schreibe das farbig
+daneben. Vorher hatten wir es so gemacht:
 
 0:02:46.700,0:02:54.400
-B impliziert A, wird zu nicht B oder A. Das
-ist das Gleiche, sodass wir das einfach umdrehen
+B impliziert A, wird zu nicht B oder A. Das ist
+das Gleiche, sodass wir das einfach umdrehen
 
 0:02:54.400,0:03:03.970
 können. A oder nicht B. Der untere Teil ist
@@ -127,13 +127,13 @@ wird in der Implikationsschreibweise als
 einfaches Literal zu Eins impliziert C. Hier
 
 0:03:28.680,0:03:35.650
-haben wir zwei negierte Formen. Die negierten
-Formen kommen, wie gesagt, immer vor die Implikation.
+haben wir zwei negierte Formen. Die negierten Formen
+kommen, wie gesagt, immer vor die Implikation.
 
 0:03:35.650,0:03:43.560
-Wir wissen also bereits, dass C und A vor
-die Implikation kommen. Bei der Implikationsschreibweise
+Wir wissen also bereits, dass C und A vor die
+Implikation kommen. Bei der Implikationsschreibweise
 
 0:03:43.560,0:03:53.980
-wird das hier ein Und. C und A implizieren
-B. Das setze ich in Klammern. Das war es schon.
+wird das hier ein Und. C und A implizieren B.
+Das setze ich in Klammern. Das war es schon.

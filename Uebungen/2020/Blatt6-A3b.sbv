@@ -15,8 +15,8 @@ innerhalb dieses Zeitraums, weshalb wir für
 diese Anfrage die Antwort „true“ bekommen
 
 0:00:24.529,0:00:30.050
-sollten. Beim 26. Mai 2033 sollte die Antwort
-„false“ sein, da Mai nicht zum Sommer
+sollten. Beim 26. Mai 2033 sollte die
+Antwort „false“ sein, da Mai nicht zum Sommer
 
 0:00:30.050,0:00:37.250
 zählt. Wir sollen ein einstelliges Prädikat
@@ -27,8 +27,8 @@ dafür mehr als eine Regel benötigen und zwar
 für jeden Monat eine, da es verschiedene
 
 0:00:42.110,0:00:49.900
-Variationen gibt. Wir beginnen im Juni: Da
-gilt es erst ab dem 21. Juni. Deshalb schreiben
+Variationen gibt. Wir beginnen im Juni: Da gilt
+es erst ab dem 21. Juni. Deshalb schreiben
 
 0:00:49.900,0:00:56.960
 wir: Summer von X ist dann, wenn X ein valides
@@ -67,8 +67,8 @@ wir in Prolog mit einem Größer-Zeichen,
 gleich 21. Hiermit ist die erste Regel für
 
 0:01:53.531,0:02:00.630
-den Juni beendet. Prolog schaut jetzt, ob
-das X, das wir vorher hatten, in dieses Schema
+den Juni beendet. Prolog schaut jetzt, ob das
+X, das wir vorher hatten, in dieses Schema
 
 0:02:00.630,0:02:09.479
 eingefügt werden kann. Für X wird hier ein
@@ -79,16 +79,16 @@ June und Jahr 2003 zum Beispiel. Prolog prüft
 dann zunächst, ob es sich dabei um ein valides
 
 0:02:18.000,0:02:24.290
-Datum handelt. Im nächsten Schritt prüft
-es, ob es zu dieser Form passt, die dahintersteht.
+Datum handelt. Im nächsten Schritt prüft es,
+ob es zu dieser Form passt, die dahintersteht.
 
 0:02:24.290,0:02:31.069
 Also einmal in der Form Date und einmal mit
 D größer gleich 21. Wenn das der Fall ist,
 
 0:02:31.069,0:02:34.140
-erhalten wir die Antwort „true“. Wenn
-das nicht der Fall ist, schauen wir weiter,
+erhalten wir die Antwort „true“. Wenn das
+nicht der Fall ist, schauen wir weiter,
 
 0:02:34.140,0:02:38.930
 ob es eine andere passende Regel gibt. Daher
@@ -111,8 +111,8 @@ da 40 als Tageszahl im Juli nicht existiert.
 Alles, was zwischen eins und 31 eingegeben
 
 0:03:08.230,0:03:13.450
-wird, ist in Ordnung. Es muss auch positiv sein,
-also größer als null. Das heißt, eins bis
+wird, ist in Ordnung. Es muss auch positiv
+sein, also größer als null. Das heißt, eins bis
 
 0:03:13.450,0:03:19.730
 31 wäre möglich. Hier können wir auch wieder

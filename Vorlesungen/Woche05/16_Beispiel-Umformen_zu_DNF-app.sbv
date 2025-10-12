@@ -7,32 +7,32 @@ Die enthält wieder Negation und
 Konjunktion und Disjunktion. Das Verfahren
 
 0:00:22.590,0:00:29.100
-auch beim Umwandeln in DNF war ja zunächst
-die Negation entweder zu entfernen (wo das geht)
+auch beim Umwandeln in DNF war ja zunächst die
+Negation entweder zu entfernen (wo das geht)
 
 0:00:29.100,0:00:36.510
-durch Doppelnegation. Oder sie im Syntaxbaum sozusagen
-in der Formel nach unten zu drücken. Hier haben wir jetzt mal die
+durch Doppelnegation. Oder sie im Syntaxbaum sozusagen in der
+Formel nach unten zu drücken. Hier haben wir jetzt mal die
 
 0:00:36.510,0:00:42.660
-Situation, dass wir innen eine Disjunktion haben
-aus drei Partnern. Da hatte ich gesagt: Auch dafür gilt, dass
+Situation, dass wir innen eine Disjunktion haben aus drei
+Partnern. Da hatte ich gesagt: Auch dafür gilt, dass
 
 0:00:42.660,0:00:48.270
 wir die Negation darüber ziehen können, dann
 jeden einzelnen Teil in der Disjunktion negieren
 
 0:00:48.270,0:00:53.670
-und aus der Disjunktion eine Konjunktion
-machen. Das heißt, der erste Schritt hier wäre, dass
+und aus der Disjunktion eine Konjunktion machen.
+Das heißt, der erste Schritt hier wäre, dass
 
 0:00:53.670,0:01:06.690
-umzuformen zu einer Konjunktion, wo die einzelnen
-Teile sind: ¬¬A ∧ ¬¬B ∧ ¬(C ∧ D).
+umzuformen zu einer Konjunktion, wo die
+einzelnen Teile sind: ¬¬A ∧ ¬¬B ∧ ¬(C ∧ D).
 
 0:01:07.860,0:01:17.550
-Da können wir direkt
-zweimal Doppelnegation entfernen. Hier und hier.
+Da können wir direkt zweimal
+Doppelnegation entfernen. Hier und hier.
 
 0:01:19.230,0:01:28.020
 Das hinten lassen wir vielleicht erstmal so stehen,
@@ -47,8 +47,8 @@ der binären Operationen ziehen. In dem Fall über die
 Konjunktion. Dann bleibt übrig: Eine Disjunktion, die
 
 0:01:45.960,0:01:51.840
-wir klammern sollten, damit wir das nicht mit der
-äußeren Konjunktion irgendwie vermischen.
+wir klammern sollten, damit wir das nicht mit
+der äußeren Konjunktion irgendwie vermischen.
 
 0:01:51.840,0:01:57.780
 Dann hätten wir diesen Ausdruck. Der ist zum
@@ -75,8 +75,8 @@ Wie würden wir das machen? Jetzt müssen wir die andere
 Distributivität anwenden, wo wir eine Konjunktion
 
 0:02:27.420,0:02:33.000
-nach innen schieben über eine Disjunktion.
-Zum Beispiel können wir sagen, wir wenden hier drauf
+nach innen schieben über eine Disjunktion. Zum
+Beispiel können wir sagen, wir wenden hier drauf
 
 0:02:34.410,0:02:43.620
 das Distributivgesetz an. Dann würden wir was erhalten?
@@ -99,16 +99,16 @@ diese Disjunktion innen ist und diese Konjunktion
 außen. Dann müssten wir weitermachen. Wir hätten
 
 0:03:26.790,0:03:30.810
-immer noch nicht eine disjunktive Normalform. Wir hätten
-immer noch nicht Disjunktionen außen. Wir müssen
+immer noch nicht eine disjunktive Normalform. Wir
+hätten immer noch nicht Disjunktionen außen. Wir müssen
 
 0:03:30.810,0:03:37.890
-deswegen das Gleiche nochmal machen. Und
-jetzt das "A ∧" nach innen ziehen. Dann ziehen wir jetzt
+deswegen das Gleiche nochmal machen. Und jetzt das
+"A ∧" nach innen ziehen. Dann ziehen wir jetzt
 
 0:03:37.890,0:03:44.070
-also dieses ∧ über dieses ∨. Dann kriegen wir jetzt tatsächlich
-außen ein ∨. Und der linke Teil dieses ∨ ist
+also dieses ∧ über dieses ∨. Dann kriegen wir jetzt
+tatsächlich außen ein ∨. Und der linke Teil dieses ∨ ist
 
 0:03:44.070,0:03:52.590
 die Konjunktion aus diesem "A ∧ dem linken
@@ -119,20 +119,20 @@ Konjunktion von: (A ∧ B ∧ ¬C). Und natürlich
 können wir diese beiden Klammern auch weglassen.
 
 0:04:11.510,0:04:19.320
-Das wäre dann ein Teil der Disjunktion.
-Der andere Teil wird die rechte Seite/ der rechte
+Das wäre dann ein Teil der Disjunktion. Der
+andere Teil wird die rechte Seite/ der rechte
 
 0:04:19.320,0:04:26.400
-Partner, aber eben auch mit dem Kontext "A ∧"
-versehen. Also: (A ∧ B ∧ ¬D).
+Partner, aber eben auch mit dem Kontext
+"A ∧" versehen. Also: (A ∧ B ∧ ¬D).
 
 0:04:26.400,0:04:37.020
-(Das ist hier jetzt nicht besonders schön geschrieben. Das sollte ein
-∧ sein. Dann ¬D.) Und das ist eine disjunktive
+(Das ist hier jetzt nicht besonders schön geschrieben. Das
+sollte ein ∧ sein. Dann ¬D.) Und das ist eine disjunktive
 
 0:04:37.020,0:04:45.510
-Normalform. Wenn man genau hinschaut,
-hätte man hier eventuell etwas an Schritten sparen können.
+Normalform. Wenn man genau hinschaut, hätte man
+hier eventuell etwas an Schritten sparen können.
 
 0:04:45.510,0:04:50.970
 Man hat manchmal durchaus verschiedene Möglichkeiten,
@@ -143,12 +143,12 @@ auf diese Stelle hier schauen, da war es jetzt
 nicht die einzige Möglichkeit, tatsächlich das
 
 0:05:03.210,0:05:12.720
-B nach innen zu ziehen. Wir hätten auch
-an dieser Stelle sozusagen einen Abzweig nehmen
+B nach innen zu ziehen. Wir hätten auch an
+dieser Stelle sozusagen einen Abzweig nehmen
 
 0:05:12.720,0:05:31.640
-können und das lesen können als: (A ∧ B) und dieser
-rechte Teil. Also ¬(C ∧ D).
+können und das lesen können als: (A ∧ B)
+und dieser rechte Teil. Also ¬(C ∧ D).
 
 0:05:31.640,0:05:38.570
 Also statt sozusagen das zusammenzufassen, hätte
@@ -163,56 +163,56 @@ natürlich mehr Sinn gemacht, das schon auf dieser
 Stufe hier zu machen, wo ich also diesen Teil habe.
 
 0:05:56.930,0:06:11.780
-(Lassen Sie mich das ein bisschen tricksen.) Und das also hiervon
-abzweigen. Ich habe (A ∧ B). Ich fasse das
+(Lassen Sie mich das ein bisschen tricksen.) Und das
+also hiervon abzweigen. Ich habe (A ∧ B). Ich fasse das
 
 0:06:11.780,0:06:20.300
-zusammen. Und der rechte Teil
-der Konjunktion ist dieses (¬C ∨ ¬D).
+zusammen. Und der rechte Teil der
+Konjunktion ist dieses (¬C ∨ ¬D).
 
 0:06:20.300,0:06:30.680
-Dann ziehe ich das von außen über die
-innere Disjunktion. Und kann dann in einem Mal, also
+Dann ziehe ich das von außen über die innere
+Disjunktion. Und kann dann in einem Mal, also
 
 0:06:30.680,0:06:37.700
-statt hier zwei Schritte Distributivität zu
-machen, mache ich nur einen Schritt. Hier waren das
+statt hier zwei Schritte Distributivität zu machen,
+mache ich nur einen Schritt. Hier waren das
 
 0:06:37.700,0:06:51.490
 zwei solche Schritte. Jetzt mache ich einen Schritt, wo
 ich direkt diesen Teil nach innen ziehe. Dann kriege
 
 0:06:51.490,0:07:00.430
-ich also eine äußere Disjunktion und innen steht
-einmal die Konjunktion von (A ∧ B ∧ ¬C).
+ich also eine äußere Disjunktion und innen
+steht einmal die Konjunktion von (A ∧ B ∧ ¬C).
 
 0:07:00.430,0:07:10.360
 Und außen steht diese Disjunktion. Und auf
 der rechten Seite habe ich die Konjunktion
 
 0:07:10.360,0:07:22.570
-von (A ∧ B ∧ ¬D). Und dann bin ich natürlich bei
-dem gleichen Ergebnis rausgekommen.
+von (A ∧ B ∧ ¬D). Und dann bin ich natürlich
+bei dem gleichen Ergebnis rausgekommen.
 
 0:07:23.080,0:07:32.440
-Aber habe hier einen Schritt gemacht, wo ich
-hier zwei Schritte gemacht habe. Nichts von diesen
+Aber habe hier einen Schritt gemacht, wo ich hier
+zwei Schritte gemacht habe. Nichts von diesen
 
 0:07:32.440,0:07:38.560
 beiden Varianten ist besser oder richtiger oder
 falscher. Ich habe einfach mehrere Möglichkeiten,
 
 0:07:38.560,0:07:45.790
-die Regeln anzuwenden. Und jede davon, die ich korrekt
-durchführe, führt zu einem Ergebnis. Das muss
+die Regeln anzuwenden. Und jede davon, die ich
+korrekt durchführe, führt zu einem Ergebnis. Das muss
 
 0:07:45.790,0:07:50.410
 nicht mal unbedingt immer die identische Formel sein,
 die da rauskommt. Aber jede Formel, die dabei rauskommt,
 
 0:07:50.410,0:07:55.540
-wenn ich jeden einzelnen Schritt korrekt durchführe und
-alle Schritte durchgeführt habe, die
+wenn ich jeden einzelnen Schritt korrekt
+durchführe und alle Schritte durchgeführt habe, die
 
 0:07:56.050,0:08:01.930
 ich durchführen kann (bis nichts mehr geht), dann habe

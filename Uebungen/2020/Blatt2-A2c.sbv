@@ -1,22 +1,22 @@
 0:00:00.650,0:00:03.830
-Bei Aufgabe C habe ich mir wieder diese Zwischenschritte
-gemacht.
+Bei Aufgabe C habe ich mir wieder
+diese Zwischenschritte gemacht.
 
 0:00:03.830,0:00:09.280
 Wir haben ja: A oder B impliziert Nicht C
 oder A. Da habe ich mir also Nicht C einmal
 
 0:00:09.280,0:00:13.929
-rausgenommen, A oder B und halt den gesamten
-Eindruck Nicht C oder A einzeln.
+rausgenommen, A oder B und halt den
+gesamten Eindruck Nicht C oder A einzeln.
 
 0:00:13.929,0:00:16.410
-Und hier fülle ich auch wieder die Wahrheitstabelle
-aus.
+Und hier fülle ich auch wieder
+die Wahrheitstabelle aus.
 
 0:00:16.410,0:00:20.400
-Bei A oder B muss ja wieder eins von beiden
-1 sein, damit es eine 1 ist.
+Bei A oder B muss ja wieder eins von
+beiden 1 sein, damit es eine 1 ist.
 
 0:00:20.400,0:00:25.660
 Nicht C oder A, da haben wir einmal diese
@@ -30,8 +30,8 @@ Und bei der Implikation hatten wir gesagt,
 wenn der linke Teil schon falsch ist, dann
 
 0:00:31.849,0:00:35.960
-wissen wir, dass es egal ist, was rechts steht,
-dann ist der gesamte Ausdruck eine 1.
+wissen wir, dass es egal ist, was rechts
+steht, dann ist der gesamte Ausdruck eine 1.
 
 0:00:35.960,0:00:41.390
 Das heißt, ich kann mir jetzt schon rausgucken,
@@ -41,8 +41,8 @@ wo der linke Teil A oder B eine 0 ist.
 Da kann ich hier schon mal eine 1 reinschreiben.
 
 0:00:43.600,0:00:46.260
-Das ist in den ersten beiden Zeilen zufällig
-auch der Fall.
+Das ist in den ersten beiden
+Zeilen zufällig auch der Fall.
 
 0:00:46.260,0:00:50.030
 Jetzt schaue ich mir für die restlichen beiden
@@ -59,16 +59,17 @@ ist es bei der Implikation im Gesamten eine
 1.
 
 0:00:57.090,0:01:02.680
-Das heißt, ich schaue jetzt Nicht C oder
-A, 1 ist es hier, 1, 1, 1, 1.
+Das heißt, ich schaue jetzt Nicht C
+oder A, 1 ist es hier, 1, 1, 1, 1.
 
 0:01:02.680,0:01:05.620
-Dann sind wir schon fertig mit der Wahrheitstabelle.
+Dann sind wir schon fertig
+mit der Wahrheitstabelle.
 
 0:01:05.620,0:01:11.420
-Diese Formel liegt weder in KNF noch in DNF
-vor, da eine Implikation vorhanden ist.
+Diese Formel liegt weder in KNF noch in
+DNF vor, da eine Implikation vorhanden ist.
 
 0:01:11.420,0:01:14.780
-Und die gibt es in der KNF- oder DNF-Struktur
-eben nicht.
+Und die gibt es in der KNF-
+oder DNF-Struktur eben nicht.

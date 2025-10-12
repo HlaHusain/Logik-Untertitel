@@ -2,56 +2,56 @@
 Kommen wir zur Aufgabe 4.
 
 0:00:02.180,0:00:06.060
-Hier sollen wir mittels Resolution zeigen,
-dass F unerfüllbar ist.
+Hier sollen wir mittels Resolution
+zeigen, dass F unerfüllbar ist.
 
 0:00:06.060,0:00:07.540
 Und dann auch einen Antwortsatz schreiben.
 
 0:00:07.540,0:00:09.610
-Der ist ganz wichtig, der wird nämlich häufig
-vergessen.
+Der ist ganz wichtig, der
+wird nämlich häufig vergessen.
 
 0:00:09.610,0:00:13.690
-Hier auf jeden Fall darauf achten, wenn ihr
-eine Resolution macht, auch immer einen Antwortsatz
+Hier auf jeden Fall darauf achten, wenn ihr eine
+Resolution macht, auch immer einen Antwortsatz
 
 0:00:13.690,0:00:14.690
 schreiben.
 
 0:00:14.690,0:00:18.699
-Das Erste, was wir jetzt machen, ist, das
-in Klauselschreibweise zu überführen.
+Das Erste, was wir jetzt machen, ist,
+das in Klauselschreibweise zu überführen.
 
 0:00:18.699,0:00:24.739
-Das heißt, die Disjunktionen werden durch
-ein Komma ersetzt, Klammern werden durch geschweifte
+Das heißt, die Disjunktionen werden durch ein
+Komma ersetzt, Klammern werden durch geschweifte
 
 0:00:24.739,0:00:25.760
 Klammern ersetzt.
 
 0:00:25.760,0:00:31.189
-Erstmal vorweg: Bei der Resolution müsst
-ihr nicht alle Klauseln verwenden.
+Erstmal vorweg: Bei der Resolution
+müsst ihr nicht alle Klauseln verwenden.
 
 0:00:31.189,0:00:35.300
-Es reicht, wenn ihr durch irgendeine Kombination
-zu der leeren Klauselmenge kommt.
+Es reicht, wenn ihr durch irgendeine
+Kombination zu der leeren Klauselmenge kommt.
 
 0:00:35.300,0:00:38.890
 Und ihr dürft Klauseln mehrfach verwenden.
 
 0:00:38.890,0:00:41.340
-Das sind die beiden Sachen, die häufig vergessen
-werden.
+Das sind die beiden Sachen,
+die häufig vergessen werden.
 
 0:00:41.340,0:00:46.030
-Aber ihr dürft pro Resolutionsschritt immer
-nur ein Literal eliminieren.
+Aber ihr dürft pro Resolutionsschritt
+immer nur ein Literal eliminieren.
 
 0:00:46.030,0:00:52.750
-Ich fange bei sowas immer an und schaue, wo
-ich zum Beispiel einzelne Literale habe, die ich
+Ich fange bei sowas immer an und schaue, wo ich
+zum Beispiel einzelne Literale habe, die ich
 
 0:00:52.750,0:00:54.310
 sofort wegbekomme.
@@ -60,8 +60,8 @@ sofort wegbekomme.
 Hier habe ich zum Beispiel einmal das C einzeln.
 
 0:00:56.600,0:01:00.030
-Und ich sehe hier auch, es ist ein Nicht A
-und Nicht C.
+Und ich sehe hier auch, es
+ist ein Nicht A und Nicht C.
 
 0:01:00.030,0:01:04.530
 Ich würde jetzt damit anfangen, ich mache
@@ -95,8 +95,8 @@ dieser Klausel hier, weil ich hier ein Nicht
 A habe.
 
 0:01:29.299,0:01:32.840
-Das heißt, aus diesen beiden würde dann
-ein B übrigbleiben.
+Das heißt, aus diesen beiden
+würde dann ein B übrigbleiben.
 
 0:01:32.840,0:01:43.990
 Hier habe ich ein Nicht B, das heißt, ich
@@ -109,8 +109,8 @@ Dann schaue ich, wo ich ein Nicht D habe.
 Das ist dort.
 
 0:01:48.869,0:01:53.740
-Ich füge diese beiden zusammen zur leeren
-Klauselmenge.
+Ich füge diese beiden zusammen
+zur leeren Klauselmenge.
 
 0:01:53.740,0:01:57.920
 Ihr könnt hier auf mehrere verschiedene Lösungen
@@ -123,20 +123,20 @@ Lösung mit der einen richtigen Reihenfolge.
 Man kann auch mit anderen Reihenfolgen anfangen.
 
 0:02:01.549,0:02:05.340
-Hauptsache, ihr kommt bald auf die leere Klauselmenge,
-und ihr beachtet die Regeln, dass ihr
+Hauptsache, ihr kommt bald auf die leere
+Klauselmenge, und ihr beachtet die Regeln, dass ihr
 
 0:02:05.340,0:02:08.720
-immer nur ein Literal pro Resolutionsschritt
-eliminiert.
+immer nur ein Literal pro
+Resolutionsschritt eliminiert.
 
 0:02:08.720,0:02:12.640
 Dann gibt es noch eine Sache, auf die ihr
 am Ende achten müsst: Entweder schreibt ihr
 
 0:02:12.640,0:02:17.780
-nur diese leeren Klammern oder ihr gebt die
-leere Menge so an.
+nur diese leeren Klammern oder
+ihr gebt die leere Menge so an.
 
 0:02:17.780,0:02:22.390
 Aber auf gar keinen Fall die Klammern mit
@@ -149,12 +149,12 @@ schon oft gesehen, das ist falsch.
 Entweder das obere oder das untere.
 
 0:02:26.700,0:02:29.420
-Und dann braucht man natürlich noch einen
-Antwortsatz.
+Und dann braucht man natürlich
+noch einen Antwortsatz.
 
 0:02:29.420,0:02:32.710
-Ich schreibe den drüber, weil ich unten keinen
-Platz mehr habe.
+Ich schreibe den drüber, weil
+ich unten keinen Platz mehr habe.
 
 0:02:32.710,0:02:34.570
 Den Antwortsatz auf keinen Fall vergessen.
