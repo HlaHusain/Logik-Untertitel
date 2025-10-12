@@ -84,7 +84,7 @@ bisschen anders. Hier ist es ja nicht so ein Bereich,
 
 0:02:08.869,0:02:13.099
 auf den man irgendetwas zieht, sondern es geht einfach darum,
-dass diese verschiedenen Konstellationen, die die Häuser
+dass diese verschiedenen Konstellationen, welche die Häuser
 
 0:02:13.099,0:02:18.610
 haben könnten, der Suchraum sind. Dann könnten
@@ -139,7 +139,7 @@ am Anfang alle sozusagen leer gesetzt sind.
 Wir könnten sagen: Der Suchraum sind einfach
 
 0:03:29.849,0:03:35.370
-alle Häuser oder alle Hauslisten in der Form, dass
+alle Häuser oder alle Hauslisten der Form, dass
 wir fünf Häuser haben. Jedes Haus hat diese fünf
 
 0:03:35.370,0:03:42.019
@@ -151,7 +151,7 @@ was wir bei unserer händischen Lösung gemacht haben.
 Da hatten wir nämlich angefangen, so eine Matrix zu füllen.
 
 0:03:45.689,0:03:57.700
-Ich erinnere da noch einmal daran.
+Ich erinnere noch einmal daran.
 Das sah nämlich so aus. So hatten wir begonnen,
 
 0:03:57.700,0:04:03.120
@@ -192,7 +192,7 @@ die man irgendwie füllen muss.
 
 0:04:51.110,0:04:59.040
 Und der Test-Teil sorgt dann hoffentlich dafür,
-dass wir oder Prolog das Problem lösen kann.
+dass wir oder Prolog das Problem lösen können.
 
 0:04:59.040,0:05:10.280
 Wie gehen wir dann für den Test-Teil durch?
@@ -406,7 +406,7 @@ Wie könnten wir das ausdrücken? Wir könnten, wenn wir
 
 0:10:30.270,0:10:34.820
 ein Prädikat hätten, das dieses "rightOf", also
-rechts von etwas sein, ausdrücken könnte/würde,
+rechts von etwas zu sein, ausdrücken könnte/würde,
 
 0:10:34.820,0:10:42.270
 dann könnten wir Folgendes schreiben:
@@ -441,7 +441,7 @@ in einer Liste (in dem Fall eine Liste von Häusern)
 auszudrücken, dass zwei bestimmte Elemente
 
 0:11:21.020,0:11:27.360
-genauso vorkommen, dass das eine rechts von dem anderen steht.
+genau so vorkommen, dass das eine rechts von dem anderen steht.
 Da definieren wir uns das einfach.
 
 0:11:27.360,0:11:34.530
@@ -473,11 +473,11 @@ sagen: Man greife sich von der Liste einen Präfix,
 der genau bis einschließlich dieser beiden Elemente
 
 0:12:07.550,0:12:14.650
-gehen soll. Einen Präfix zugreifen heißt einfach,
+gehen soll. Einen Präfix zu greifen, heißt einfach,
 es muss eine "egale"/unknown Liste geben,
 
 0:12:14.650,0:12:20.710
-sodass Präfix und dieser Rest
+so dass Präfix und dieser Rest
 die ursprüngliche Gesamtliste ergibt.
 
 0:12:20.710,0:12:25.620
@@ -582,7 +582,7 @@ die jeweils Listen sein können. Und übrigens
 
 0:14:49.170,0:14:56.170
 beim ersten Haus, da ist es nicht völlig egal,
-welche Form das hat, sondern der Nationalitäten-Eintrag da drin
+welche Form das hat, sondern der Nationalitäten-Eintrag darin
 
 0:14:56.170,0:15:02.930
 muss norwegisch sein. Vorher stand hier
@@ -614,7 +614,7 @@ Denn über die wird im achten und neunten Hinweis nichts gesagt.
 
 0:15:39.790,0:15:45.940
 Wir hätten analog oder alternativ auch den achten und neunten Hinweis,
-statt durch Eingriff in diese Häuserdarstellung, auch
+statt durch Eingriff in diese Häuserdarstellung, anders
 
 0:15:45.940,0:15:53.910
 ausdrücken können, zum Beispiel mit einem first- und third-Prädikat.
@@ -649,7 +649,7 @@ Jetzt haben wir den neunten Hinweis. Wie geht es weiter?
 Der nächste Hinweis ist dieser: "Der Mann, welcher Chesterfield raucht,
 
 0:16:41.080,0:16:55.029
-lebt in dem Haus neben dem, wo man mit dem Fuchs."
+lebt in dem Haus neben dem Mann mit dem Fuchs."
 Das ist so ein wenig wie das rightOf - "rechts von".
 
 0:16:55.029,0:17:01.029
@@ -729,7 +729,7 @@ Unsere Frage müssen wir noch stellen. Letztlich
 war die Aufgabe ja, den Zebrabesitzer und den
 
 0:19:09.090,0:19:15.110
-Wassertrinker herauszufinden/ zu bestimmen,
+Wassertrinker zu bestimmen,
 wenn wir alle Hinweise verarbeitet haben.
 
 0:19:15.110,0:19:20.250
@@ -742,7 +742,7 @@ Ausdrücke hin, die uns letztlich dann sagen:
 
 0:19:27.300,0:19:34.180
 "Der Zebrabesitzer als Variable ist tatsächlich jemand,
-der in einem Haus wohnt, wo auch das Zebra wohnt."
+der in einem Haus wohnt, wo auch das Zebra lebt."
 
 0:19:34.180,0:19:40.710
 Analog für den Wassertrinker.
@@ -754,7 +754,7 @@ lösen wollen, und weitere member-Aufrufe,
 
 0:19:46.620,0:19:52.670
 die ausdrücken, dass der Zebrabesitzer genau die Person
-ist, die in dem Haus wohnt, wo das Zebra wohnt.
+ist, die in dem Haus wohnt, wo das Zebra lebt.
 
 0:19:52.670,0:20:02.610
 Dann können wir das insgesamt so aufschreiben.
@@ -810,7 +810,7 @@ Das ist die Lösung, die wir auch von Hand bestimmt hatten.
 
 0:21:17.820,0:21:30.380
 Zu Beginn der Diskussion am Anfang in der ersten
-oder zweiten Vorlesung. Dann hätten wir unser Problem/
+oder zweiten Vorlesung. Dann hätten wir
 
 0:21:30.380,0:21:38.980
 unser Rätsel auf Prolog-Weise gelöst.

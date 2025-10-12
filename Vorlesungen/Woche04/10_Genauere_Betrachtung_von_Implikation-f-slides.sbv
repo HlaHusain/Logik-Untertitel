@@ -3,7 +3,7 @@ Beginnen wir diese Woche mit einem kurzen
 Video noch einmal über die Betrachtung der
 
 0:00:07.100,0:00:13.920
-Implikation bzw. genaueren Betrachtung dieser
+Implikation bzw. einer genaueren Betrachtung dieser
 Notation. Wir hatten zunächst
 
 0:00:13.920,0:00:20.609
@@ -20,11 +20,11 @@ das abkürzen durch diesen Ausdruck. Das könnte
 
 0:00:32.560,0:00:38.050
 man als Definition sehen. Aber natürlich
-sollte man sich nochmal vergewissern. (Das führt bei
+sollte man sich nochmal vergewissern (das führt bei
 
 0:00:38.050,0:00:44.379
-Implikation manchmal zu Missverständnissen.
-Vielleicht auch in Übungen), ob das überhaupt logisch
+Implikation manchmal zu Missverständnissen,
+vielleicht auch in Übungen), ob das überhaupt logisch
 
 0:00:44.379,0:00:50.540
 richtig ist. Also ist das hier eine angemessene
@@ -67,8 +67,8 @@ dann auch B, nämlich: Wir haben Donnerstag.“ Jetzt könnte
 man sich auf der sprachlichen Ebene fragen: Unter
 
 0:01:46.270,0:01:54.960
-welchen Bedingungen oder letztlich unter welchen
-Ausprägungen von A und B, (ob oder ob nicht
+welchen Bedingungen, oder letztlich unter welchen
+Ausprägungen von A und B (ob oder ob nicht
 
 0:01:54.960,0:02:00.289
 jeweils wahr), würden wir denn diesem Satz hier oben zustimmen?
@@ -120,7 +120,7 @@ wenn der Mond grün wäre. Der Mond ist nicht grün.
 
 0:03:04.769,0:03:11.680
 Die Aussage „Wenn der Mond grün ist,
-haben wir Donnerstag“, ist in dem Moment wahr.
+haben wir Donnerstag“ ist in dem Moment wahr.
 
 0:03:11.680,0:03:17.860
 Logisch heißt das: Aus Falschem folgt Beliebiges.
@@ -192,7 +192,7 @@ Wir haben nicht Donnerstag.“, dann ist dieser Satz
 
 0:04:58.080,0:05:06.120
 von hier oben auf jeden Fall falsch. Im letzten
-Satz wiederum wäre dieser Satz „aus A folgt“
+Satz wiederum wäre dieser Satz „Aus A folgt
 
 0:05:06.120,0:05:12.940
 B.“ korrekt / zutreffend. Für die ersten beiden Sätze hier
@@ -211,12 +211,12 @@ Da dann schon die Vorbedingung nicht zutrifft.
 Und wir aus Falschem immer beliebiges folgern können.
 
 0:05:32.600,0:05:38.490
-Aus Falschem / aus Quatsch folgt alles
+Aus Falschem / aus Quatsch folgt alles,
 sozusagen. Und im letzten Fall, wo wir auch gesagt haben,
 
 0:05:38.490,0:05:44.430
 der Satz von oben trifft zu, liegt der
-Grund im Wesentlichen daran, dass wir tatsächlich
+Grund im Wesentlichen darin, dass wir tatsächlich
 
 0:05:44.430,0:05:49.610
 Donnerstag haben. Das, was jetzt hier
@@ -279,7 +279,7 @@ mit dem wir die Implikation gerne umschreiben
 
 0:07:25.110,0:07:30.340
 wollen. Da müssen wir einfach die gleichen vier
-Konstellationen nehmen. Können uns nochmal
+Konstellationen nehmen. Wir können uns nochmal
 
 0:07:30.340,0:07:39.280
 ¬A festhalten in dieser Spalte. Das ist natürlich einfach die
@@ -302,11 +302,11 @@ Ausdruck (¬A ∨ B). Es sind eben genau
 die gleichen Einträge wie hier oben. Deswegen ist es
 
 0:08:05.250,0:08:11.120
-sinnvoll zu sagen, (A => B) lässt sich
-schreiben oder ist äquivalent oder wird definiert
+sinnvoll zu sagen: "(A => B) lässt sich
+schreiben als (oder ist äquivalent zu, oder wird definiert
 
 0:08:11.120,0:08:22.240
-durch (¬A ∨ B). Das also für diesen
+durch): (¬A ∨ B)." Das also für diesen
 Zusammenhang. Die Rechtfertigung dieses
 
 0:08:22.240,0:08:28.720
@@ -335,11 +335,11 @@ können wir uns natürlich erst einmal das ¬B
 
 0:08:58.110,0:09:06.010
 und ¬A auswerten. Das wären dann
-einfach diese beiden Spalten. (Ich habe die jetzt hier vertauscht,
+einfach diese beiden Spalten. (Ich habe die hier jetzt vertauscht,
 
 0:09:06.010,0:09:14.190
-weil ich ¬B gleich vorn haben möchte.) Dann natürlich
-eben hier 0 1 0 1 wird zu 1 0 1 0. 0 0 1 1 wird zu 1 1 0 0.
+weil ich gleic ¬B vorn haben möchte.) Dann natürlich
+eben hier: 0 1 0 1 wird zu 1 0 1 0. 0 0 1 1 wird zu 1 1 0 0.
 
 0:09:14.190,0:09:21.780
 Das ist hier sehr einfach gebildet aus den
@@ -362,11 +362,11 @@ Einträge 1 0 hat. Also hier muss die 0 rauskommen.
 An allen anderen Stellen eine 1. Das sind zwar andere
 
 0:09:49.160,0:09:56.520
-Gründe sozusagen. Diese 1 hat einen anderen Grund als die 1.
+Gründe, sozusagen. Diese 1 hat einen anderen Grund als die 1.
 Im Grunde genommen taucht diese Zeile 0 0 -> 1 hier
 
 0:09:56.520,0:10:03.310
-unten auf 0 0 -> 1. Und umgekehrt. Aber
+unten auf: 0 0 -> 1. Und umgekehrt. Aber
 entscheidend ist, dass hier am Ende exakt die
 
 0:10:03.310,0:10:10.700
@@ -374,7 +374,7 @@ gleichen Einträge herauskommen. Also in genau den gleichen
 Fällen ist diese Implikation wahr wie diese
 
 0:10:10.700,0:10:22.471
-Implikation war. Deswegen sind diese beiden Formeln
+Implikation wahr ist. Deswegen sind diese beiden Formeln
 und das dahinterstehende Konzept äquivalent. Man
 
 0:10:22.471,0:10:29.560
@@ -417,7 +417,7 @@ Negation (wenn etwas nicht nicht der Fall ist, dann
 
 0:11:26.860,0:11:32.220
 ist es eben der Fall), also Doppelnegation, einfach der
-Aussage selbst entspricht. Dann haben wir
+Aussage selbst entspricht, dann haben wir
 
 0:11:32.220,0:11:37.380
 hier letztlich dasselbe stehen. Es kommt aufs selbe
@@ -496,8 +496,8 @@ Definition der Implikation. Sich das dann für
 die Gegenrichtung überlegt. Also was wäre,
 
 0:13:40.550,0:13:45.490
-wenn hier diese beiden Spalten vertauscht würden
-und dann Implikation nehmen würde. Dann ändert
+wenn hier diese beiden Spalten vertauscht würden,
+und wir dann die Implikation nehmen würden? Dann ändert
 
 0:13:45.490,0:13:50.810
 das genau etwas an diesen beiden Zeilen,
@@ -505,10 +505,10 @@ weil dann die Position von 1 0
 
 0:13:50.810,0:13:59.010
 vertauscht wäre. Deswegen flippen diese beiden
-Einträge hier. Und dann das, was ich hier oben
+Einträge hier. Und dann das,
 
 0:13:59.010,0:14:05.650
-als Abkürzung oder wofür ich die Abkürzung verwende.
+wofür ich hier oben  die Abkürzung verwende.
 Nämlich für die Konjunktion der Implikationen
 
 0:14:05.650,0:14:10.310
@@ -557,8 +557,8 @@ würden, dann hätten wir einen Ausdruck für
 
 0:15:26.050,0:15:33.120
 Exklusives-Oder. Was also genau dann 1 ist,
-wenn genau eine der beiden Ursprungsaussagen wahr ist. Da habe ich
+wenn genau eine der beiden Ursprungsaussagen wahr ist. Dafür habe ich
 
 0:15:33.120,0:15:38.960
-jetzt kein Extrasymbol dafür. Das könnte man aber eben schreiben, als
-als ¬(A <=> B).
+jetzt kein Extrasymbol. Das könnte man aber eben
+als ¬(A <=> B) schreiben.

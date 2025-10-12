@@ -71,16 +71,16 @@ Formeln, obwohl sie in der Definition gar nicht
 auftauchten. Da tauchten diese drei Operatoren auf.
 
 0:01:52.829,0:02:01.399
-Und hier stehen wohl-aufgebaute Formeln,
+Und hier steht "wohl-aufgebaute Formeln",
 weil wir nicht einfach beliebig atomare Formeln
 
 0:02:01.399,0:02:06.460
-und Operationssymbole durcheinanderwürfeln dürfen,
-sondern da gab es bestimmte Regeln, nach denen
+und Operationssymbole durcheinanderwerfen dürfen.
+Sondern da gab es bestimmte Regeln, nach denen
 
 0:02:06.460,0:02:11.450
 die Formeln aufgebaut sind. Und das ist genau die Syntax.
-Diese Regeln. Dieses Wohl-aufgebaut-sein.
+Diese Regeln. Dieses Wohlaufgebaut-Sein.
 
 0:02:11.450,0:02:18.640
 Dazu gehörte auch, dass wir Klammern sinnvoll
@@ -168,7 +168,7 @@ angewandt auf den Mond, dann würden wir
 
 0:04:25.340,0:04:32.819
 das jetzt zum Beispiel schreiben als G(m).
-G als das Prädikat, welches dem grün entsprechen soll.
+G als das Prädikat, welches dem "grün" entsprechen soll.
 
 0:04:32.819,0:04:39.530
 Aber eben großgeschrieben. Und für Mond
@@ -191,7 +191,7 @@ oft tatsächlich die Prädikate etwa
 nur durch einen Großbuchstaben bezeichnen.
 
 0:05:01.740,0:05:07.379
-Und ähnliche hier auch für diese Konstante Mond.
+Und ähnlich hier auch für diese Konstante Mond.
 Die zum Beispiel auch nur mit einem kleinen m abkürzen.
 
 0:05:07.379,0:05:15.379
@@ -247,11 +247,11 @@ Also in dem gleichen Prolog-Beispiel,
 wo wir auch das mit dem grünen Mond eingeführt hatten,
 
 0:06:30.669,0:06:37.080
-gab es auch das nullstellige Prädikat Donnerstag,
+gab es auch das nullstellige Prädikat donnerstag,
 weil ich da sagen wollte: "Wenn der Mond grün ist,
 
 0:06:37.080,0:06:42.360
-dann ist Donnerstag." Also Donnerstag war dann der Kopf
+dann ist Donnerstag." Also donnerstag war dann der Kopf
 der entsprechenden Prolog-Regel. Und das würden wir jetzt
 
 0:06:42.360,0:06:49.960
@@ -275,7 +275,7 @@ beziehungsweise in normalen Aussagen mit
 einfachen, aussagenlogischen Formeln.
 
 0:07:19.159,0:07:23.810
-Das ist also kein Zufall, dass wir das genauso aufschreiben,
+Das ist also kein Zufall, dass wir das genau so aufschreiben,
 damit das, wenn wir uns entscheiden, keine Argumente
 
 0:07:23.810,0:07:29.710
@@ -423,7 +423,7 @@ nochmal in der formalen Definition zutage treten,
 was da in was geschachtelt werden darf.
 
 0:12:00.230,0:12:05.410
-Natürlich ergeben sich, wenn wir an die Formeln denken, nachher
+Natürlich ergeben sich, wenn wir nachher an die Formeln denken,
 interessantere Syntaxbäume als bei der Aussagenlogik.
 
 0:12:05.410,0:12:10.480
@@ -448,7 +448,7 @@ die nur in der Prädikatenlogik vorkommen.
 
 0:12:43.610,0:12:50.100
 Und zwar führen wir sogenannte Quantoren ein.
-Sie werden Sie gleich sehen, wie die notiert werden.
+Sie werden sie gleich sehen, wie diese notiert werden.
 
 0:12:50.100,0:12:56.090
 Und die sorgen für einen präziseren Umgang mit Variablen.
@@ -547,7 +547,7 @@ Also für alle j's soll irgendetwas gelten.
 Erstmal syntaktisch einfach so notiert.
 
 0:15:24.880,0:15:33.010
-Dieser Quantoren gab es so weder in der Aussagenlogik noch
+Diese Quantoren gab es so weder in der Aussagenlogik noch
 explizit in Prolog. Und später wird es
 
 0:15:33.010,0:15:38.690
@@ -580,7 +580,7 @@ Weitere Beispiele, einfach nochmal eine Aussage,
 
 0:16:23.710,0:16:29.280
 die wir auch schon gesehen hatten und zu dem Zeitpunkt
-sehr weit zu Beginn der Vorlesung nur natürlichsprachlich.
+sehr weit zu Beginn der Vorlesung nur natürlichsprachlich
 
 0:16:29.280,0:16:35.490
 ausgedrückt haben, die wir jetzt aber hier auch in der
@@ -596,14 +596,14 @@ insbesondere. Und auch in Prolog haben wir
 
 0:16:47.990,0:16:53.650
 keine direkte Möglichkeit, so eine Aussage zu treffen.
-Jetzt mit dem Verständnis des Allquantors,
+Jetzt mit dem Verständnis des Allquantors
 
 0:16:53.650,0:16:58.880
-(bisher nur intuitiven Verständnis. Wir werden damit
-noch mehr arbeiten.) würde eben diese Aussage
+(bisher nur intuitiven Verständnis; wir werden damit
+noch mehr arbeiten) würde eben diese Aussage
 
 0:16:58.880,0:17:02.490
-"Alle Menschen sind sterblich." zum Beispiel
+"Alle Menschen sind sterblich" zum Beispiel
 dargestellt werden können als: "Für alle x gilt:
 
 0:17:02.490,0:17:09.169
@@ -767,12 +767,12 @@ Und hier sollte die Folgerung sein:
 "Es gibt Säugetiere, die im Meer leben."
 
 0:21:13.880,0:21:19.250
-Einige Säugetiere leben im Meer. Es muss also x' geben,
+Einige Säugetiere leben im Meer. Es muss also x geben,
 die Säugetier sind und im Meer leben.
 
 0:21:19.250,0:21:28.710
-Stimmt das? Nun, ich denke, auch bei dieser Diskussion,
-dieses natürlichsprachlichen Syllogismus,
+Stimmt das? Nun, ich denke, auch bei der Diskussion
+dieses natürlichsprachlichen Syllogismus
 
 0:21:28.710,0:21:34.669
 hatten wir da schon unsere Bauchschmerzen, oder
@@ -956,7 +956,7 @@ wir haben ein f mit Stelligkeit k, dann müssen wir
 
 0:26:20.950,0:26:24.480
 irgendwelche Terme haben, die schon Terme sind.
-Zum Beispiel, weil sie Variablen sind oder weil.
+Zum Beispiel, weil sie Variablen sind oder weil
 
 0:26:24.480,0:26:29.950
 wir sie in einem vorherigen Schritt dieses Prozesses
@@ -968,7 +968,7 @@ Aber das können auch völlig verschiedene Terme sein.
 
 0:26:36.600,0:26:40.860
 Aber es müssen k Stück sein. Gegebenenfalls ist eben
-t3 und t5 das Gleiche. Aber insgesamt haben wir.
+t3 und t5 das Gleiche. Aber insgesamt haben wir
 
 0:26:40.860,0:26:51.019
 uns k Terme herausgegriffen. Und dann ist eben auch f
@@ -976,35 +976,35 @@ angewandt auf diese k Unterterme, selbst ein Term.
 
 0:26:51.019,0:26:59.869
 Also das ist wie sinus(x), wäre ein Term,
-wenn Sinus ein Funktionssymbol der Stelligkeit eins ist.
+wenn Sinus ein Funktionssymbol der Stelligkeit eins ist
 
 0:26:59.869,0:27:04.440
-Und x eine Variable ist, zum Beispiel.
+und x eine Variable ist, zum Beispiel.
 Aber auch tiefere Schachtelung.
 
 0:27:04.440,0:27:09.580
 sinus(cosinus(irgendwas)) ist auch ein Term,
-weil wir das hier mehrfach tun dürfen. Da wird eben erst.
+weil wir das hier mehrfach tun dürfen. Da wird eben erst
 
 0:27:09.580,0:27:15.750
 aus der Variable durch Anwendung eines Funktionssymbols ein Term.
-Dieser Term dient dann im nächsten Schritt.
+Dieser Term dient dann im nächsten Schritt
 
 0:27:15.750,0:27:21.980
-als eines dieser t's, um zum Beispiel mit dem
-Funktionssymbol cosinus noch einen weiteren.
+als eines dieser t, um zum Beispiel mit dem
+Funktionssymbol cosinus noch einen weiteren
 
 0:27:21.980,0:27:28.090
 Schritt zu machen. Also wenn wir ein Funktionssymbol
-der Stelligkeit k haben, wobei k mindestens eins ist,
+der Stelligkeit k haben, wobei k mindestens Eins ist,
 
 0:27:28.090,0:27:33.710
 dann kriegen wir solche Schachtelungen. Dann wächst der Term sozusagen.
-Für den Spezialfall, dass f ein Funktionssymbol.
+Für den Spezialfall, dass f ein Funktionssymbol
 
 0:27:33.710,0:27:38.789
 der Stelligkeit null ist, hätten wir wieder
-eine Konstante. Also wenn wir Funktionssymbole der.
+eine Konstante. Also wenn wir Funktionssymbole der
 
 0:27:38.789,0:27:45.490
 Stelligkeit null haben, dann würden wir das hier formal
@@ -1020,15 +1020,15 @@ Das ist dann der Fall, dass wir eine Konstante haben.
 
 0:27:57.480,0:28:02.139
 Ein Funktionssymbol der Stelligkeit null ist eine
-Konstante. Und dann schreiben wir dafür in der Regel.
+Konstante. Und dann schreiben wir dafür in der Regel
 
 0:28:02.139,0:28:09.259
-auch nicht f oder g, sondern (Das gilt hier nur
-per Konvention.) dafür benutzen wir dann eher.
+auch nicht f oder g, sondern (das gilt hier nur
+per Konvention) dafür benutzen wir dann eher
 
 0:28:09.259,0:28:15.660
 Symbole direkt vom Anfang des Alphabets: a, b, c
-wären so typische Konstanten. Während wir a, b, c.
+wären so typische Konstanten. Während wir a, b, c
 
 0:28:15.660,0:28:22.390
 eher nicht für Variablen oder für mehrstellige
@@ -1043,7 +1043,7 @@ Jetzt sind nur Sachen passiert, die wir auch in
 der Arithmetik hätten. sinus(cosinus) hatte ich gerade gesagt.
 
 0:28:38.239,0:28:44.840
-Da tauchen keine logischen Operationen darin auf.
+Darin tauchen keine logischen Operationen auf.
 Die tauchen erst in den Formeln auf.
 
 0:28:44.840,0:28:51.470
@@ -1064,7 +1064,7 @@ Ganz analog zu den Funktionssymbolen.
 
 0:29:14.820,0:29:23.009
 Also eine Null, Eins oder Zwei oder größer.
-Und die sind auch nicht optional. Also Prädikatsymbole.
+Und die sind auch nicht optional. Also Prädikatsymbole
 
 0:29:23.009,0:29:28.299
 müssen Stelligkeiten haben. Wir schreiben sie nur nicht
@@ -1072,11 +1072,11 @@ immer auf die gleiche Weise hin. Auch hier:
 
 0:29:28.299,0:29:32.990
 Wir können die Stelligkeiten an die Prädikatsymbole
-dranschreiben oder wir sagen das separat oder.
+dranschreiben oder wir sagen das separat oder
 
 0:29:32.990,0:29:40.690
 schließen das aus dem Kontext. Aber es muss immer diese Stelligkeit
-geben für jedes Prädikatsymbol. In Prolog hatten wir diese Stelligkeiten.
+geben für jedes Prädikatsymbol. In Prolog hatten wir diese Stelligkeiten
 
 0:29:40.690,0:29:47.419
 angegeben, indem wir das sozusagen hinter das Prädikatsymbol
@@ -1100,7 +1100,7 @@ durch Anwendung von Prädikatsymbolen erzeugt werden.
 
 0:30:21.330,0:30:26.789
 Wenn wir ein Prädikatsymbol der Stelligkeit k haben und
-wir haben Terme, nicht Formeln, sondern Terme.
+wir haben Terme, nicht Formeln, sondern Terme
 
 0:30:26.789,0:30:34.809
 von der Vorfolie definiert: t1 bis tk, dann
@@ -1108,7 +1108,7 @@ ist P(t1,...,tk) nicht etwa ein Term, sondern eine Formel.
 
 0:30:34.809,0:30:40.090
 Also das ist hier die Brücke von den Termen,
-die aus Variablen, Konstanten, Funktionssymbolen.
+die aus Variablen, Konstanten, Funktionssymbolen
 
 0:30:40.090,0:30:47.710
 erstellt werden, hin zu den Formeln. Ein Prädikatsymbol
@@ -1116,7 +1116,7 @@ angewandt auf Terme gibt eine Formel.
 
 0:30:47.710,0:30:52.549
 Ein Prädikatsymbol darf nicht auf Formeln angewandt werden.
-Genauso wenig wie ein Funktionssymbol auf Formeln.
+Genauso wenig wie ein Funktionssymbol auf Formeln
 
 0:30:52.549,0:30:58.889
 angewandt werden darf. Funktionssymbole werden
@@ -1124,7 +1124,7 @@ auf Terme angewandt und bauen Terme.
 
 0:30:58.889,0:31:07.220
 Prädikatsymbole werden auf Terme angewandt und
-ergeben dann Formeln. Natürlich dürfen diese Terme.
+ergeben dann Formeln. Natürlich dürfen diese Terme
 
 0:31:07.220,0:31:15.109
 auch Variablen sein oder Variablen enthalten,
@@ -1132,11 +1132,11 @@ weil die Definition auf der Vorfolie das erlaubt,
 
 0:31:15.109,0:31:24.049
 dass diese t - Terme mit Variablen gebildet werden.
-Dann haben wir also einfache Formeln. Und dann können.
+Dann haben wir also einfache Formeln. Und dann können
 
 0:31:24.049,0:31:29.600
 wir aus denen komplexere Formeln bauen. So ähnlich
-wie in der Aussagenlogik. Da gab es nämlich zwei.
+wie in der Aussagenlogik. Da gab es nämlich zwei
 
 0:31:29.600,0:31:36.789
 weitere Fälle in der Definition der Syntax.
@@ -1171,7 +1171,7 @@ aus einer Formel eine Formel. Das ändert sich hier auch nicht.
 Also wenn ich eine Formel habe, zum Beispiel P (irgendwelche Terme),
 
 0:32:23.929,0:32:32.029
-dann ist auch ¬P (irgendwelche Terme) eine Formel.
+dann ist auch ¬P(irgendwelche Terme) eine Formel.
 Oder nicht nicht. Also diese Regeln, die dürfen
 
 0:32:32.029,0:32:37.640
@@ -1280,7 +1280,7 @@ Fall entspricht. Also nicht nur den Fall der
 
 0:35:35.819,0:35:41.010
 nullstelligen Prädikatsymbole, sondern wann immer
-wir ein beliebig stelliges Prädikatsymbol haben,
+wir ein beliebigstelliges Prädikatsymbol haben,
 
 0:35:41.010,0:35:47.490
 das auf Terme angewendet wird, dann werden wir das, was da rauskommt,
@@ -1315,7 +1315,7 @@ ist es unmöglich, in einer prädikatenlogischen
 Formel geschachtelte Prädikate zu haben. Warum?
 
 0:36:44.859,0:36:50.869
-Weil hier, wenn wir ein Prädikat in eine Formel einführen,
+Denn hier, wenn wir ein Prädikat in eine Formel einführen,
 dann tun wir das, indem wir es auf Terme anwenden.
 
 0:36:50.869,0:36:57.290
@@ -1332,10 +1332,10 @@ Innen stehen dann keine weiteren Prädikatsymbole.
 
 0:37:10.950,0:37:19.440
 Hier zum Beispiel kann ein Prädikatsymbol stehen,
-aber kein Funktionssymbol. Und ein Term selbst.
+aber kein Funktionssymbol. Und ein Term selbst
 
 0:37:19.440,0:37:24.700
-Oder eine Konstante oder eine Variable sind
+oder eine Konstante oder eine Variable sind
 selbst keine Formeln. Die sind nur ein Term.
 
 0:37:24.700,0:37:30.780
@@ -1344,7 +1344,7 @@ wir ein Prädikatsymbol auf Terme anwenden.
 
 0:37:30.780,0:37:39.380
 Es gibt also keine Formel irgendwie derart:
-∃x: und dann hier eine Konstante, weil das ein
+Quantor, x: und dann hier eine Konstante. Weil das ein
 
 0:37:39.380,0:37:45.960
 Term wäre, was dann hier stünde, und keine Formel.
@@ -1400,7 +1400,7 @@ Aber an ganz vielen Beispielen,
 
 0:39:13.260,0:39:17.589
 Formeln und auch bei Umformungen haben
-wir auch mit diesen Operatoren gearbeitet.
+wir mit diesen Operatoren gearbeitet.
 
 0:39:17.589,0:39:22.660
 Wie war das möglich und denkbar? Indem
@@ -1483,7 +1483,7 @@ Im gleichen Sinne wieder wie bei der Aussagenlogik:
 Das ist einfach ein Ausschnitt der gegebenen Formel,
 
 0:41:21.970,0:41:27.980
-der selbst aber auch eine wohlgebaute Formel sein muss.
+der selbst aber auch eine wohlaufgebaute Formel sein muss.
 Also wenn wir eine große Formel haben, da irgendwie
 
 0:41:27.980,0:41:34.329

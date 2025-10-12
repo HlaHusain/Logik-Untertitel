@@ -152,10 +152,10 @@ So erhaltet ihr das exakt gleiche Ergebnis,
 
 0:03:23.741,0:03:27.901
 wie es auch in den Beispielaufgaben in der
-Regel dargestellt wird. Die Formeln, die wir
+Regel dargestellt wird. Die Formel, die wir
 
 0:03:27.901,0:03:34.150
-uns hier anschauen, sind A und B. Bei der Und-Verknüpfung
+uns hier anschauen, ist "A und B". Bei der Und-Verknüpfung
 müssen beide Elemente, die mit dem Und verknüpft
 
 0:03:34.150,0:03:39.410
@@ -408,7 +408,7 @@ jetzt die Implikation mit der Und-Verknüpfung
 
 0:09:32.550,0:09:39.410
 zusammengeführt. Auch hier haben wir A und
-B, die wir zuerst mit einem Wahrheitswert,
+B, die wir zuerst mit einem Wahrheitswert
 
 0:09:39.410,0:09:46.880
 belegen müssen. Dann kommt die gesamte Formel.
@@ -459,7 +459,7 @@ Das bedeutet, dass wir hier eine Eins notieren
 können. In der zweiten Zeile gilt B, aber
 
 0:10:45.340,0:10:49.160
-A nicht. Das heißt, dass hier eine null steht.
+A nicht. Das heißt, dass hier eine Null steht.
 In der dritten Zeile gilt B nicht, weshalb
 
 0:10:49.160,0:10:54.920

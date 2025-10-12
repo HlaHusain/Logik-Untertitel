@@ -16,7 +16,7 @@ die sich selber wieder aufrufen. Und das sehen wir
 
 0:00:20.520,0:00:25.680
 auch schon in dieser einen Programmzeile,
-die wir haben: greaterThan S von X, Komma S
+die wir haben: greaterThan S von X, S
 
 0:00:25.680,0:00:31.980
 von Y gilt genau dann, wenn greaterThan X von
@@ -103,7 +103,7 @@ selber nicht größer als Z ist. Und so könnte
 man darauf kommen, dass die Abbruchbedingung
 
 0:02:19.380,0:02:26.820
-greaterThan S von und dann Unterstrich, Komma Z
+greaterThan S von und dann Unterstrich, Z
 sein muss, weil das eben genau das widerspiegelt,
 
 0:02:26.820,0:02:31.200
@@ -132,7 +132,7 @@ aber genauso mit dem Aufruf auf dem Übungsblatt.
 
 0:02:56.820,0:03:03.420
 Und zwar habe ich den Aufruf genommen: greaterThan
-S von S von S von Z, Komma S von S von Z. Prolog
+S von S von S von Z, S von S von Z. Prolog
 
 0:03:03.420,0:03:07.500
 schaut, kann es hier irgendwo matchen? Da wir nur
@@ -195,11 +195,11 @@ S von Z größer als Z? S von Z steht für Eins;
 Z steht für Zero, Eins ist größer als Zero,
 
 0:04:40.680,0:04:46.200
-also, ist es größer. Das heißt, es wäre
+also ist es größer. Das heißt, es wäre
 nicht richtig. Also, fehlt hier etwas. Und was
 
 0:04:46.200,0:04:52.080
-Fehlt? Die Abbruchbedingung. Und wir haben gerade
+fehlt? Die Abbruchbedingung. Und wir haben gerade
 schon gesagt, die kleinstmögliche Zahl ist Null.
 
 0:04:52.080,0:04:55.740

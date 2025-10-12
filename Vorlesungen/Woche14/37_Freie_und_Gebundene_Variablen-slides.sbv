@@ -159,7 +159,7 @@ Und das können wir jeweils für jedes Vorkommen von Variablen in der Formel
 
 0:04:12.580,0:04:20.530
 entscheiden. Ist das etwas, das weiter außen
-durch ein "∀", gleicher Variablenname, oder "∃", gleicher Variablenname"
+durch ein "∀, gleicher Variablenname", oder "∃, gleicher Variablenname"
 
 0:04:20.530,0:04:27.990
 gebunden wurde, oder nicht?
@@ -378,7 +378,7 @@ und hier eine Klammer stünde, dann wäre dieses x
 natürlich innerhalb des Gs für die Formel "∃x : G".
 
 0:10:59.720,0:11:08.990
-Aber so ist das die relevante quantor-behaftete
+Aber so ist das die relevante Quantor-behaftete
 Formel, und das ist unabhängig davon. Also, die Klammerung
 
 0:11:08.990,0:11:16.250
@@ -539,7 +539,7 @@ Was ist mit dieser Zeile? Erstmal vom Aufbau her auch alles okay.
 
 0:16:28.060,0:16:35.860
 Also keine irgendwie abstrusen Zeichenketten, die gar
-nicht zu syntaktisch wohlgeformten Formeln passen.
+nicht zu syntaktisch wohlgebauten Formeln passen.
 
 0:16:35.860,0:16:44.200
 Ist es eine geschlossene Formel? Gibt es hier
@@ -714,7 +714,7 @@ Das heißt, das hier unten ist auch keine Formel,
 
 0:22:09.190,0:22:17.890
 demzufolge auch keine Aussage. Das ist jetzt natürlich unabhängig
-von der Quantoreninterpretation. Das ist einfach schon,
+von der Quantoreninterpretation. Das ist einfach, schon
 
 0:22:17.890,0:22:24.040
 bevor wir die Quantoren anschauen, keine wohlgebaute

@@ -23,8 +23,8 @@ auf einen Term (in dem Fall,
 eine Konstante) festlegen, hier b.
 
 0:00:38.890,0:00:44.300
-Und ich hatte das sozusagen hier schon getan
-in weiser Vorausschau, weil ich wusste, dass ich
+Und ich hatte das hier schon getan
+in sozusagen weiser Vorausschau, weil ich wusste, dass ich
 
 0:00:44.300,0:00:49.440
 von hier rechts ein "¬Q(b)"-Literal habe,
@@ -192,7 +192,7 @@ Ich benenne dieses y um. In dem konkreten Fall
 
 0:04:37.350,0:04:43.090
 benenne ich mal das aus der rechten Klausel kommende y um.
-Das schreibe ich natürlich so. Diese Notation kennen Sie schon.
+Das schreibe ich natürlich so. Diese Notation kennen Sie schon
 
 0:04:43.090,0:04:49.200
 für Ersetzungen. Also ich ersetze y durch y'. Das heißt,
@@ -307,7 +307,7 @@ was übrig bleibt. Nämlich aus diesen beiden Mengen
 jeweils hier die unterstrichenen Literale entfernt.
 
 0:07:39.930,0:07:46.060
-Es bleibt übrig: {Q(y)}. Aber eben auch wirklich Q(y),
+Es bleibt übrig: \{Q(y)\}. Aber eben auch wirklich Q(y),
 und nicht wie in der Grundresolution Q(b).
 
 0:07:46.060,0:07:53.460
@@ -376,10 +376,10 @@ Vielleicht benutzen Sie dann verschiedene Farben,
 
 0:09:22.139,0:09:27.829
 um für verschiedene Resolutionsschritte, die Sie durchführen,
-immer sozusagen für sich selbst festzuhalten.
+immer sozusagen für sich selbst festzuhalten,
 
 0:09:27.829,0:09:37.250
-Wo jeweils welche Literale relevant waren. Auch klar: Es kann nicht sein, dass wir hier
+wo jeweils welche Literale relevant waren. Auch klar: Es kann nicht sein, dass wir hier
 
 0:09:37.250,0:09:42.279
 aus der linken Klausel zum Beispiel ein positives
@@ -397,7 +397,7 @@ benutzen. Denn sonst besteht gar keine Chance, sie durch Belegung
 von Variablen irgendwie gleichzumachen. Wo genau diese Substitution herkommt,
 
 0:10:04.740,0:10:08.870
-wie wir die finden, das wird noch zu besprechen sein. Jetzt hatte ich einfach gesagt: Das ist hier die richtige Wahl.
+wie wir diese finden, das wird noch zu besprechen sein. Jetzt hatte ich einfach gesagt: Das ist hier die richtige Wahl.
 
 0:10:08.870,0:10:15.339
 Wir werden im Folgenden dann noch sehen,
@@ -417,7 +417,7 @@ in dieser Art Resolution. Sowohl hier bei der Umbenennung der Variablen,
 
 0:10:31.949,0:10:40.470
 als auch hier, werden wir dann für Variablen Terme einsetzen.
- Das war auch nicht die einzige Wahl, die man hier
+Das war auch nicht die einzige Wahl, die man hier
 
 0:10:40.470,0:10:45.529
 treffen hätte können. Zum Beispiel hätte ich mich
@@ -561,19 +561,19 @@ Vorfolie als auch bei diesen beiden Schritten hier,
 
 0:14:21.050,0:14:30.199
 dass wir uns noch nicht für das y in dem Q
-irgendwie auf b festgelegt haben. Anders als es,
+irgendwie auf b festgelegt haben. Anders als es
 
 0:14:30.199,0:14:38.420
 die Grundresolution tat. Wenn wir jetzt nochmal
-den Schritt von der Vorfolie nehmen und das,
+den Schritt von der Vorfolie nehmen und das
 
 0:14:38.420,0:14:44.869
 Beispiel verkomplettieren, dann kann das zum
-Beispiel wie folgt ablaufen: Also, ich mache mal,
+Beispiel wie folgt ablaufen: Also, ich mache mal
 
 0:14:44.869,0:14:49.839
 alle drei Klauseln, die ich in dem Beispiel ursprünglich hatte.
-Ich mache links das, was ich,
+Ich mache links das, was ich
 
 0:14:49.839,0:14:59.300
 auch zuerst diskutiert hatte. Also wo ich hier rechts
@@ -581,7 +581,7 @@ das y durch y' ersetze. Dann hier den Unifikator,
 
 0:14:59.300,0:15:06.429
 wie wir ihn gleich nennen werden, dieser Art bilde.
-Also x und y' ersetze ich durch f(a), damit diese beiden.
+Also x und y' ersetze ich durch f(a), damit diese beiden
 
 0:15:06.429,0:15:13.679
 und dieses Literal auf einen Schlag verschwinden. Dann ist
@@ -593,15 +593,15 @@ verknüpfen. Variablen umbenennen muss man nicht.
 
 0:15:21.070,0:15:25.730
 Hier ist y. Hier ist x. Da überlappt sich nichts.
-Also brauche ich sozusagen an dieser Zusammenführung.
+Also brauche ich sozusagen an dieser Zusammenführung
 
 0:15:25.730,0:15:33.089
 der beiden Klauseln erstmal keine Variablen
-umbenennen. Dann möchte ich diese beiden Literale.
+umbenennen. Dann möchte ich diese beiden Literale
 
 0:15:33.089,0:15:38.809
 in Einklang bringen. Das kann ich machen, indem
-ich y durch g(b,x) ersetze. Anders als in der.
+ich y durch g(b,x) ersetze. Anders als in der
 
 0:15:38.809,0:15:46.889
 Grundresolution lege ich mich also für das x nicht
@@ -617,15 +617,15 @@ dieser beiden Klauseln würde ich tatsächlich feststellen,
 
 0:16:11.709,0:16:18.089
 und gezwungen sein, das y jetzt durch b zu ersetzen.
-Statt das schon vorher in vorauseilendem Gehorsam.
+Statt das schon vorher in vorauseilendem Gehorsam
 
 0:16:18.089,0:16:24.489
 hier oben getan zu haben. Also, ich möchte die beiden
-resolvieren. Variablen umbenennen muss ich nicht.
+resolvieren. Variablen umbenennen muss ich
 
 0:16:24.489,0:16:33.290
-auf dem Weg dahin, weil keine gemeinsamen Variablen vorkommen.
-Und die In-Übereinstimmung-Bringung von diesen.
+auf dem Weg dahin nicht, weil keine gemeinsamen Variablen vorkommen.
+Und die In-Übereinstimmung-Bringung dieser
 
 0:16:33.290,0:16:38.320
 beiden Literalen führt dazu, dass ich dann
@@ -649,7 +649,7 @@ früher auf bestimmte Terme festlegen müssen.
 
 0:17:15.329,0:17:21.570
 Zum Beispiel hier auf das x, dass das a sein soll.
-Das muss ich.
+Das muss ich
 
 0:17:21.570,0:17:28.280
 bei diesem Lösungsweg überhaupt nicht tun. Aber auch für das y
@@ -660,7 +660,7 @@ während sich das bei der allgemeinen Resolution im Laufe
 der Suche automatisch ergibt,
 
 0:17:35.690,0:17:42.230
-dass ich y an b knüpfen möchte, hier unten. Statt das schon
+dass ich  hier unten y an b knüpfen möchte. Statt das schon
 hier beim ersten Schritt zu raten, damit es dann hier passt.
 
 0:17:42.230,0:17:52.000
@@ -871,7 +871,7 @@ Denn jetzt ersetze ich y' durch f(a). Das heißt,
 
 0:23:08.440,0:23:12.840
 dann habe ich nur noch dieses eine Literal. Wenn ich das erreicht habe,
-dass ich nur noch einelementige Menge von Literalen habe,
+dass ich eine nur noch einelementige Menge von Literalen habe,
 
 0:23:12.840,0:23:17.980
 dann bin ich fertig. Dann gibt es nichts weiter
@@ -1086,7 +1086,7 @@ Ersetzungen festgehalten habe, dann mache ich
 in deren rechten Seiten jeweils auch v / t.
 
 0:28:15.030,0:28:23.860
-So wie wir das eben auch schon getan hatten.
+So wie wir das eben in dem Beispiel auch getan hatten.
 Das wäre das Vorgehen. Zu beachten ist dabei:
 
 0:28:23.860,0:28:28.490
@@ -1323,7 +1323,7 @@ Jetzt verschwinden diese beiden Literale.
 
 0:35:05.340,0:35:17.300
 Es kommt die leere Klausel heraus und der
-Beweis war erfolgreich. Entspricht diesem Beweis.
+Beweis war erfolgreich. Er entspricht diesem Beweis
 
 0:35:17.300,0:35:24.350
 auf gewisse Art und Weise, aber verwendet eben

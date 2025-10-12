@@ -20,7 +20,7 @@ Aussagen, die irgendwie einen Namen hatten, und
 
 0:00:31.110,0:00:35.880
 dann eine komplexe Aussage waren, die aber nicht
-weiter belegt war. Die konnten wir mit Prädikaten
+weiter zerlegt war; die konnten wir mit Prädikaten
 
 0:00:35.880,0:00:40.830
 zerlegen, so wie man das in der natürlichen Sprache auch
@@ -72,7 +72,7 @@ Deswegen gibt es eine weitere Verfeinerung und da
 
 0:01:53.250,0:02:00.270
 ist einfach die Grundidee, dass man den Argumenten
-der Prädikate, also "dem Mond", "ich", "Mann", den Subjekten, Objekten,
+der Prädikate, also "dem Mond", "Ich", "Mann", den Subjekten, Objekten,
 
 0:02:00.270,0:02:05.730
 dass man denen auch eine innere Struktur zubilligt.
@@ -180,7 +180,7 @@ strukturierte Adressen einträgt.
 
 0:04:51.040,0:04:56.830
 Dann könnten wir uns Regeln dafür überlegen. Also zum Beispiel
-könnten wir sagen: Eine Adresse ist valide, wenn sie aus den drei.
+könnten wir sagen: Eine Adresse ist valide, wenn sie aus den drei
 
 0:04:56.830,0:05:02.440
 Komponenten besteht. Eine City und die wiederum hat als
@@ -263,7 +263,7 @@ dass hier bei der Person irgendwelche Vor- und Nachnamen stehen,
 aber zumindest verschiedene Vor- und Nachnamen.
 
 0:06:52.630,0:06:59.170
-Also Harry Harry wäre wahrscheinlich ein Eintragsfehler.
+Also Harry Harry wäre wahrscheinlich ein Eintrage-Fehler.
 Deswegen wollen wir das auch ausschließen.
 
 0:06:59.170,0:07:05.620
@@ -316,7 +316,7 @@ so syntaktisch vorgeht, dass jetzt natürlich
 
 0:08:09.130,0:08:17.590
 das "valide" zum Beispiel oder dieses "address" (dieser Name)
-völlig verschiedene Rollen sind.
+vollkommen verschiedene Rollen sind.
 
 0:08:17.590,0:08:21.700
 Da muss man also wirklich aufpassen. Die Rollen
@@ -384,7 +384,7 @@ zwei Argumenten "Zahl" und "Straße" und "Stadtnamen"
 
 0:10:02.730,0:10:07.260
 auftauchen können, haben einfach verschiedene Rollen.
-Darauf müssen sie auch beim Selberprogrammieren aufpassen,
+Darauf müssen Sie auch beim Selberprogrammieren aufpassen,
 
 0:10:07.260,0:10:13.950
 was ihre Prädikate und was einfach ihre Datenkonstruktoren sind.
@@ -439,7 +439,7 @@ das zum Beispiel auch "person", was keine Konstante ist.
 Also dieses Symbol in diesem komplexeren
 
 0:11:40.770,0:11:46.950
-Datenterm, die werden (je nachdem, wo sie das Nachlesen)
+Datenterm, die werden (je nachdem, wo Sie das nachlesen)
 in Prolog oft Funktoren genannt. Manchmal auch
 
 0:11:46.950,0:11:51.330
@@ -487,7 +487,7 @@ Konstruktoren, die in den Datentermen verwendet werden.
 Dann kann man sich fragen, was das für die Konstanten heißt.
 
 0:12:52.370,0:12:56.510
-Ist das dann auch so ein Konstruktor? Ja, im gewissen
+Ist das dann auch so ein Konstruktor? Ja, in gewissem
 Sinne auch. Eine Konstante ist auch ein Konstruktor.
 
 0:12:56.510,0:13:01.550
@@ -519,7 +519,7 @@ Konstruktor z/0. Das soll stehen für successor(Nachfolger) und zero(null).
 Und dann könnten wir uns damit, wenn wir Zahlen nicht
 
 0:13:42.500,0:13:48.200
-schon hätten in Prolog, die selbst zusammenbasteln sozusagen.
+schon hätten in Prolog, diese selbst zusammenbasteln sozusagen.
 Also etwa die natürliche Zahl 13
 
 0:13:48.200,0:13:54.782
@@ -539,7 +539,7 @@ schachteln dürfen, können wir sagen: s(s(s(s(s(s(...(z)))))))
 entspricht der Zahl 13.
 
 0:14:15.200,0:14:21.410
-Natürlich ist das Gleiche. Das ist nur eine Repräsentation.
+Natürlich ist das nicht das Gleiche. Das ist nur eine Repräsentation.
 Aber wir können dann symbolisch mit diesen Zahlen arbeiten.
 
 0:14:21.950,0:14:27.590
@@ -552,10 +552,10 @@ auch direkt verwenden. Auch das haben wir schon gesehen.
 
 0:14:33.050,0:14:40.760
 Hier tauchten ja Zahlen auch direkt auf. Da hatte ich
-nicht und 45.141 mal s(s(s(...(z)))) geschrieben.
+nicht 45.141 mal s(s(s(...(z)))) geschrieben,
 
 0:14:40.760,0:14:47.090
-Sondern Zahlen können auch direkt auftreten.
+sondern Zahlen können auch direkt auftreten.
 Also zum Beispiel hier. Und das sind natürlich Konstanten.
 
 0:14:47.090,0:14:54.600
@@ -576,7 +576,7 @@ Direkt und ohne sie selbst programmieren.
 
 0:15:13.920,0:15:18.540
 Während wir für diese künstlichen, symbolischen Zahlen
-natürliche Operationen selbst implementieren müssen,
+natürlich Operationen selbst implementieren müssen,
 
 0:15:18.540,0:15:26.400
 und das auch tun werden für Beispielbetrachtungen.
@@ -587,7 +587,7 @@ auf Listen kurz eingehen. Eigentlich nur die
 Syntax davon zeigen. Wir werden auch auf Listen Programme
 
 0:15:32.640,0:15:38.580
-haben und werden uns dann damit beschäftigen, wie wir da Prädikate
+haben und werden uns dann damit beschäftigen, wie wir Prädikate
 darauf definieren können. Aber als Struktur schon
 
 0:15:38.580,0:15:44.370

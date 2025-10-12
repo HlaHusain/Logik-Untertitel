@@ -188,7 +188,7 @@ ich bereits aufgeschrieben.
 Und dann habe ich nicht H und K vorliegen.
 
 0:03:25.500,0:03:32.410
-Hier würde ich ein Mal H und K und nicht
+Hier würde ich mal "H und K" und nicht
 H und K einzeln aufschreiben, weil ich das
 
 0:03:32.410,0:03:33.410
@@ -220,7 +220,7 @@ Das heißt, ich schaue mir die ersten beiden
 Spalten an.
 
 0:03:54.730,0:03:58.240
-Hier genügt es bei der oder-Verknüpfung,
+Hier genügt es bei der Oder-Verknüpfung,
 wenn eines von beiden Eins ist.
 
 0:03:58.240,0:03:59.950
@@ -265,7 +265,7 @@ Diese brauche und darf ich nicht berücksichtigen,
 sondern ich schaue mir die Spalte an und
 
 0:04:49.570,0:04:54.009
-die Spalte, weil sie ja zusammen verbunden sind.
+die Spalte, weil sie ja zusammen ver-und-et sind.
 
 0:04:54.009,0:05:00.909
 Bei dem Und muss überall eine eins sein,
@@ -273,7 +273,7 @@ damit die Gesamtformel eins ergibt.
 
 0:05:00.909,0:05:04.930
 Ich schaue, ob ich eine Zeile habe, in der überall
-eine eins steht?
+eine Eins steht.
 
 0:05:04.930,0:05:07.280
 Das ist hier in der vierten Zeile der Fall.

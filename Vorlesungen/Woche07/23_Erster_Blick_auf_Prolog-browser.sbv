@@ -116,7 +116,7 @@ Und wir schreiben das einfach als Regel darunter.
 
 0:03:20.020,0:03:28.600
 Also letztlich wird alles, was wir hier in einzelnen
-Zeilen hinschreiben, noch und verknüpft, um die
+Zeilen hinschreiben, noch Und-verknüpft, um die
 
 0:03:28.600,0:03:33.640
 gesamte Formel zu ergeben. Wir haben hier einzelne Regeln/
@@ -124,7 +124,7 @@ einzelne Klauseln. Wir schreiben hier
 
 0:03:33.640,0:03:38.590
 einfach die Klauseln auf. Und die gelten dann alle.
-Insofern entspricht das dann der und-Verknüpfung hier.
+Insofern entspricht das dann der Und-Verknüpfung hier.
 
 0:03:38.590,0:03:45.850
 Und dann kommt hier (B => 0). Wie schreiben wir das auf?
@@ -192,10 +192,10 @@ Da im Hintergrund ist letztlich diese Resolution abgelaufen.
 
 0:05:36.660,0:05:45.270
 Das können wir auch etwas genauer sehen bzw.
-ein bisschen zum Markierungsalgorithmus in Beziehung setzen.
+ein bisschen zum Markierungsalgorithmus in Beziehung setzen,
 
 0:05:45.270,0:05:49.470
-Wenn wir hier sagen, wir würden das gerne ausführen in einem
+wenn wir hier sagen, wir würden das gerne ausführen in einem
 sogenannten Debug-Modus.
 
 0:05:49.470,0:05:54.960
@@ -279,7 +279,7 @@ Und wenn wir das hier "ver-unden" mit Konjunktionen, dann wäre
 das immer noch eine Hornformel. Alles, was wir hinschreiben,
 
 0:08:14.160,0:08:20.130
-entspricht auf die Art und Weise solchen Hornformeln,
+entspricht auf die Art und Weise solchen Hornformeln
 wie in der Vorlesung eingeführt.
 
 0:08:20.130,0:08:28.860

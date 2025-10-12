@@ -28,14 +28,14 @@ fährt(X,a)" als erste Klausel. Dann schauen wir
 
 0:00:43.740,0:00:48.600
 im Prologprogramm, wie es weitergeht. Die Regel
-sagt: "atFuehrerschein(P,F), besitzt(P,F)".
+sagt: "hatFuehrerschein(P,F), besitzt(P,F)".
 
 0:00:49.620,0:00:55.800
 Auch das negieren wir jetzt in eine Klausel.
-"Nicht hatFuehrerschein(X,a).". Weil wir hier
+"Nicht hatFuehrerschein(X,a)." Weil wir hier
 
 0:00:55.800,0:01:02.580
-oben auch "Fährt(X,a)" und "Besitzt(X,a)" haben.
+oben auch "fährt(X,a)" und "besitzt(X,a)" haben.
 Das wird jetzt ersetzt. A ist in diesem Fall eine
 
 0:01:02.580,0:01:10.260
@@ -51,12 +51,12 @@ Diese würde in Klauselschreibweise lauten: "Fährt
 oder nicht hat Führerschein und nicht besitzt P,
 
 0:01:30.540,0:01:38.400
-F.". Das heißt, das "Fährt" würde eliminiert
+F." Das heißt, das "fährt" würde eliminiert
 werden. Nicht fährt und fährt. Übrig bleibt dann:
 
 0:01:38.400,0:01:48.540
 "Nicht hatFuehrerschein(X von a)." und "nicht
-besitzt X und a.". X und a, da wir hier in
+besitzt X und a." X und a, da wir hier in
 
 0:01:48.540,0:01:55.860
 der Anfrageklausel die genaue Variable X und
@@ -68,11 +68,11 @@ wir das mit der Klausel aus Zeile elf gelöst
 
 0:02:03.060,0:02:06.480
 haben. Denn diese schreiben wir nicht mehr
-hin. Sie würde eigentlich lauten: "Fährt,
+hin. Sie würde eigentlich lauten: "fährt,
 
 0:02:07.080,0:02:11.940
-nicht hat Führerschein(X,a), nicht besitzt
-(X,a)". Diese sehen wir jetzt aber nicht mehr,
+nicht hatFührerschein(X,a), nicht besitzt(X,a)".
+Diese sehen wir jetzt aber nicht mehr,
 
 0:02:11.940,0:02:17.580
 sondern schreiben hier nur noch diese Elf und
@@ -100,10 +100,10 @@ das "hatFuehrerschein" weg. Das wird eliminiert.
 
 0:02:46.860,0:02:55.920
 Wir erhalten "Nicht besitzt(K,a)". Warum K?
-Weil wir die Variable X unifizieren konnten,
+Weil wir die Variable X mit Klaus unifizieren konnten.
 
 0:02:55.920,0:03:02.880
-mit Klaus. Klaus bleibt stehen. An dieser Stelle
+Klaus bleibt stehen. An dieser Stelle
 können wir nicht weitermachen, da wir oben keine
 
 0:03:02.880,0:03:09.360
@@ -115,7 +115,7 @@ und "Nicht besitzt(X,a)" noch weitere Schritte
 machen, zum Beispiel mit Zeile neun. Da hätten
 
 0:03:17.040,0:03:22.140
-wir "Nicht besitzt, N.". Wir können das wieder
+wir "Nicht besitzt, N". Wir können das wieder
 mit dem ersten Anfangsbuchstaben abkürzen. Nilo
 
 0:03:22.140,0:03:28.380
@@ -135,7 +135,7 @@ zum Beispiel mit Zeile zehn. Da
 steht "Hat Führerschein, Charlotte,
 
 0:03:46.740,0:03:53.520
-Auto.". Übrig bleibt: "Nicht besitzt(C,a).". Das
+Auto." Übrig bleibt: "Nicht besitzt(C,a)." Das
 können wir wiederum mit Zeile fünf resolvieren und
 
 0:03:53.520,0:04:00.120
@@ -143,16 +143,16 @@ erhalten hier erneut die leere Menge. Dann können
 wir die Resolvente mit Zeile drei resolvieren
 
 0:04:00.120,0:04:09.420
-und erhalten "Nicht hatFuehrerschein(N,a).". Wieso
+und erhalten "Nicht hatFuehrerschein(N,a)." Wieso
 können wir das mit Zeile drei resolvieren? Weil
 
 0:04:09.420,0:04:16.020
-Zeile drei die Klausel "Besitzt, Nilo, Auto." hat.
+Zeile drei die Klausel "Besitzt, Nilo, Auto" hat.
 Das "besitzt" können wir mit dem "nicht besitzt"
 
 0:04:16.020,0:04:21.360
 aus unserer Klausel hier eliminieren. Deshalb
-bleibt "Nicht hatFuehrerschein(N,a)." übrig.
+bleibt "Nicht hatFuehrerschein(N,a)" übrig.
 
 0:04:23.460,0:04:30.180
 Das können wir wiederum mit Zeile neun resolvieren

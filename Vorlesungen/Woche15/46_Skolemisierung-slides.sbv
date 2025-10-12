@@ -1,9 +1,9 @@
 0:00:00.859,0:00:10.769
 Herzlich willkommen zurück. Zur Einordnung:
-Wir befinden uns im Unterkapitel zu Normalformen.
+Wir befinden uns im Unterkapitel zu Normalformen
 
 0:00:10.769,0:00:17.930
-In der Prädikatenlogik. Und warum beschäftigen
+in der Prädikatenlogik. Und warum beschäftigen
 wir uns damit? Es geht
 
 0:00:17.930,0:00:25.550
@@ -91,7 +91,7 @@ Darum wird es also in diesem Video gehen. Und das
 möchte ich zunächst an einem Beispiel motivieren,
 
 0:02:15.740,0:02:23.710
-beziehungsweise ein Beispiel benutzen, um diesen sogenannten
+bzw. ein Beispiel benutzen, um diesen sogenannten
 Skolemisierungs-Schritt zu begründen.
 
 0:02:23.710,0:02:28.020
@@ -192,11 +192,11 @@ das ist in dem Fall ein Alien, also A(dieses Objekt) gilt.
 
 0:05:03.039,0:05:09.969
 Also nehmen wir diese drei Formeln, über die ich
-gerade gesprochen habe. Wir negieren die jeweils.
+gerade gesprochen habe. Wir negieren diese jeweils,
 
 0:05:09.969,0:05:14.869
-Weil wir einerseits die Tautologie testen wollen,
-das aber über einen Unerfüllbarkeitstest erreichen wollen.
+weil wir einerseits die Tautologie testen wollen,
+dies aber über einen Unerfüllbarkeitstest erreichen wollen.
 
 0:05:14.869,0:05:19.379
 (Und da wissen wir, wenn wir die Formel negieren,
@@ -212,7 +212,7 @@ Formeln. Und um mit denen umzugehen, haben wir bereits
 
 0:05:32.169,0:05:37.309
 zwei Schritte der Normalisierung gesehen.
-Wir haben nämlich die bereinigte Pränexform
+Wir haben nämlich die Bereinigte Pränexform
 
 0:05:37.309,0:05:41.559
 eingeführt. Und das wäre jetzt
@@ -223,7 +223,7 @@ Und wenn ich das mache für die drei Formeln,
 die hier genannt sind (Bezug nehmend auf das Beispiel
 
 0:05:44.960,0:05:52.309
-von der Vorfolie), sie jeweils in bereinigte Pränexform
+von der Vorfolie), sie jeweils in Bereinigte Pränexform
 bringe, dann erhalten wir diese drei Formeln.
 
 0:05:52.309,0:05:59.770
@@ -239,11 +239,11 @@ den Quantoren geschachtelt übrig bleibt.
 Die sind relativ ähnlich noch von der Struktur.
 
 0:06:17.520,0:06:23.689
-Unterscheiden sich natürlich dahin gehend, dass in dem
+Unterscheiden sich natürlich dahingehend, dass in dem
 einen Fall, wo ich diese "∃x : A(x)"-Aussage eingebracht habe,
 
 0:06:23.689,0:06:28.369
-wir diesen Existenzquantor auch in der bereinigten
+wir diesen Existenzquantor auch in der Bereinigten
 Pränexform noch stehen haben und hier eben A(x) auftaucht,
 
 0:06:28.369,0:06:32.490
@@ -303,12 +303,12 @@ von Formeln äquivalent. Das ist das sogenannte
 Skolemisierungs-Prinzip. Das sagt nämlich:
 
 0:07:57.569,0:08:02.899
-Wenn wir eine Formel der Form "∃x"
+Wenn wir eine Formel der Form "∃x" haben
 (das gilt für Existenzquantoren, nicht für Allquantoren!),
 
 0:08:02.899,0:08:08.330
-wenn wir eine Formel haben der Form "∃x" und dann
-irgendeine Formel F, dann ist das erfüllbarkeitsäquivalent
+wenn wir eine Formel der Form "∃x" und dann
+irgendeine Formel F haben, dann ist das erfüllbarkeitsäquivalent
 
 0:08:08.330,0:08:13.899
 zu einer Formel, wo wir den Quantor weglassen
@@ -380,7 +380,7 @@ ist genau äquivalent dazu,
 
 0:09:58.370,0:10:04.810
 ob denn die zweite Formel erfüllbar ist. Weil es für die
-Existenz eines Modells,
+Existenz eines Modells
 
 0:10:04.810,0:10:10.079
 egal sein muss, ob wir nur sagen: „Es gibt irgendein x,
@@ -392,7 +392,7 @@ Rolle spielt, gilt A(diese Konstante).“
 
 0:10:21.509,0:10:25.589
 Das ist also der Schritt der Skolemisierung. Was machen wir,
-wenn es mehrere Existenzquantoren gibt? Das ist ja sozusagen,
+wenn es mehrere Existenzquantoren gibt? Das ist ja
 
 0:10:25.589,0:10:32.540
 nur ein Rezept dafür, wenn die Formel genau mit einem
@@ -447,7 +447,7 @@ dann folgt: Es existiert ein y, so dass y
 ein Stern ist und x dieses y umkreist.“
 
 0:11:50.240,0:11:56.860
-Bzw. wenn wir das in bereinigte Pränexform bringen,
+Bzw. wenn wir das in Bereinigte Pränexform bringen,
 dann sieht das so aus. Wir hätten da drin auch noch
 
 0:11:56.860,0:12:03.720
@@ -456,7 +456,7 @@ und Disjunktion. Das spielt hier aber keine
 
 0:12:03.720,0:12:11.480
 besondere Rolle für die Formel. Das wäre
-die bereinigte Pränexform für diese Formel.
+die Bereinigte Pränexform für diese Formel.
 
 0:12:11.480,0:12:17.439
 Im Grunde genommen: das y vorgezogen. Das ist nach
@@ -575,10 +575,10 @@ wenden ein Funktionssymbol sonneVon() auf den Planeten an.
 
 0:15:04.480,0:15:10.589
 Dann sollen wir etwas kriegen, was ein Stern ist. Das würde
-diese Teilformel ausdrücken. Und es soll dann gelten.
+diese Teilformel ausdrücken. Und es soll dann gelten,
 
 0:15:10.589,0:15:20.069
-Dass x seine Sonne umkreist. Und das würde die Intention
+dass x seine Sonne umkreist. Und das würde die Intention
 korrekt ausdrücken, dass es für jeden Planeten
 
 0:15:20.069,0:15:25.420
@@ -622,7 +622,7 @@ dann Existenzquantoren? Und entsprechend jeweils
 können wir die Skolemisierung durchführen.
 
 0:16:16.499,0:16:21.769
-Also wenn wir so eine bereinigte Pränexform haben
+Also wenn wir so eine Bereinigte Pränexform haben
 und die enthält keine Existenzquantoren, dann ist gut.
 
 0:16:21.769,0:16:27.910
@@ -675,7 +675,7 @@ allquantifizierten Variablen x_1 bis x_k anwenden.
 
 0:17:29.360,0:17:36.049
 Und für den Fall, dass k = 0 ist, entspricht
-das natürlich genau einem konstanten Funktionssymbol.
+das natürlich genau einem Konstanten-Funktionssymbol.
 
 0:17:36.049,0:17:40.570
 Dann hätten wir einen Existenzquantor eliminiert.
@@ -707,7 +707,7 @@ durchführen können. Und da ist das Rezept,
 
 0:18:23.950,0:18:29.049
 dass wir, wenn am Ende noch freie Variablen übrig sind
-(die müssen dann auch schon in der bereinigten Pränexform
+(die müssen dann auch schon in der Bereinigten Pränexform
 
 0:18:29.049,0:18:34.750
 frei gewesen sein), diese
@@ -718,7 +718,7 @@ Die sind jetzt nicht mehr von Allquantoren erfasst.
 Wir können uns das so vorstellen, als hätten wir diese
 
 0:18:39.420,0:18:45.180
-freien Variablen schon in der bereinigten Pränexform
+freien Variablen schon in der Bereinigten Pränexform
 noch ganz links durch Existenzquantoren gebunden.
 
 0:18:45.180,0:18:50.950
@@ -754,7 +754,7 @@ Herstellung der Pränexform erklärt hatte. Und da
 waren wir jeweils zu diesen Formeln gekommen.
 
 0:19:40.559,0:19:50.090
-Das waren die jeweiligen bereinigten Pränexformen.
+Das waren die jeweiligen Bereinigten Pränexformen.
 Und jetzt können wir uns anschauen, was hier jetzt passiert,
 
 0:19:50.090,0:19:53.910
@@ -830,7 +830,7 @@ Es geht also nicht darum, diesen Existenzquantor der
 Ursprungsformel zu ersetzen, sondern es geht darum,
 
 0:21:40.370,0:21:45.490
-in der bereinigten Pränexform die Existenzquantoren
+in der Bereinigten Pränexform die Existenzquantoren
 zu betrachten. Und dann gibt es eben hier genau
 
 0:21:45.490,0:21:50.429

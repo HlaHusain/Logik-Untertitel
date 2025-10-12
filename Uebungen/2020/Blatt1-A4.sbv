@@ -51,7 +51,7 @@ also: Wenn A die Wahrheit sagt, dann folgt
 daraus, dass B lügt, also B nicht die Wahrheit
 
 0:01:11.450,0:01:17.301
-sagt. Das gilt nicht: B sagt die Wahrheit.
+sagt. Also dass nicht gilt: B sagt die Wahrheit.
 Umgekehrt gilt aber auch: Wenn B lügt, also
 
 0:01:17.301,0:01:23.340
@@ -208,7 +208,7 @@ noch mal auf, weil ich es einfach übersichtlicher
 
 0:05:06.960,0:05:12.110
 finde. Nicht A und Nicht B kann ich aus den
-Spalten davor ablesen. Und jetzt können wir,
+Spalten davor ablesen. Und jetzt können wir
 
 0:05:12.110,0:05:18.710
 anfangen, uns die erste Aussage anzuschauen.
@@ -219,11 +219,11 @@ wir Zeile für Zeile durch. Falls ihr nicht
 mehr wisst, wie das mit der Doppelimplikation
 
 0:05:26.990,0:05:30.910
-funktioniert, könnt ihr euch das natürlich
-einerseits noch mal auf den Vorlesungen anschauen,
+funktioniert, könn ihr euch das natürlich
+einerseits noch mal auf den Folien anschauen,
 
 0:05:30.910,0:05:35.810
-die ich in der Vorlesung hatte. Ihr könnt
+die ihr in der Vorlesung hattet. Ihr könnt
 euch aber auch überlegen, wie die Doppelimplikation
 
 0:05:35.810,0:05:40.030

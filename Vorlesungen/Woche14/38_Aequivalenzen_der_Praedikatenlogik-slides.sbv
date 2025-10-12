@@ -375,8 +375,8 @@ und die Quantoren da stehen lasse, wo sie stehen
 (also sozusagen nicht überkreuzt die Quantoren tausche,
 
 0:09:51.640,0:09:57.420
-sondern einfach nur die Variablen verwechseln), auch das
-sollte nicht erlaubt sein, weil es einfach verschiedene.
+sondern einfach nur die Variablen verwechsele), auch das
+sollte nicht erlaubt sein, weil es einfach verschiedene
 
 0:09:57.420,0:10:04.060
 Aussagen liefert. Intuitiv gelesen,
@@ -384,7 +384,7 @@ was die Formeln bedeuten. Also das geht nicht.
 
 0:10:04.060,0:10:09.630
 Da müssen wir die erste Frage von der Vorfolie
-schon negativ beantworten. Allerdings gibt es zumindest.
+schon negativ beantworten. Allerdings gibt es zumindest
 
 0:10:09.630,0:10:15.870
 eine Situation, in der Quantoren
@@ -408,7 +408,7 @@ Zum Beispiel für irgendeine Formel F,
 
 0:10:36.230,0:10:43.920
 das könnte so eine Formel dieser Art sein oder
-irgendetwas Komplexeres. Einfach eine prädikatenlogisch.
+irgendetwas Komplexeres. Einfach eine prädikatenlogisch
 
 0:10:43.920,0:10:50.610
 korrekt gebildete Teilformel F, in der
@@ -435,12 +435,12 @@ Denn tatsächlich, so etwas wie "für alle x gilt, so dass
 für alle y gilt, so dass ..." das würde man oft auch ausdrücken als:
 
 0:11:22.720,0:11:29.490
-"Für alle x und y gilt". Und wenn ich sage
+"für alle x und y gilt". Und wenn ich sage
 "für alle x und y gilt" oder "für alle y und x gilt",
 
 0:11:29.490,0:11:37.750
 ist intuitiv klar, dass es das Gleiche bedeutet.
-Deswegen ist das hier auch erlaubt, weil es den Sinn.
+Deswegen ist das hier auch erlaubt, weil es den Sinn
 
 0:11:37.750,0:11:45.930
 der Formel nicht verändert. Und das Gleiche gilt für Existenzquantoren.
@@ -460,7 +460,7 @@ dass F und F hier jeweils links und rechts dasselbe ist.
 
 0:12:06.290,0:12:11.440
 Natürlich kann ich nicht die Quantoren vertauschen und
-dabei auch noch die Formel ändern. Also diese innere Formel.
+dabei auch noch die Formel ändern. Also diese innere Formel
 
 0:12:11.440,0:12:23.700
 muss natürlich gleich bleiben. Ich darf nur die Quantoren
@@ -468,7 +468,7 @@ hier vertauschen. Und das Gleiche hier. Dieses F und dieses F
 
 0:12:23.700,0:12:33.089
 müssen gleich sein. Beantwortet einer dieser Fragen von der Vorfolie.
-Schauen wir uns eine der anderen Fragen an. Da ging es um den.
+Schauen wir uns eine der anderen Fragen an. Da ging es um den
 
 0:12:33.089,0:12:40.040
 Wechsel von All- zu Existenzquantoren. Da können wir auch
@@ -508,7 +508,7 @@ das ∃ durch ∀ ersetzen kann.
 
 0:13:43.000,0:13:51.300
 Also sobald ich sage: "es stimmt nicht,
-dass für ALLE x irgendetwas gilt", dann ändere.
+dass für ALLE x irgendetwas gilt", dann ändere
 
 0:13:51.300,0:13:57.350
 ich auf jeden Fall den Inhalt dessen,
@@ -560,11 +560,11 @@ zu sagen: "Jeder Ehemann mag seine Schwiegereltern nicht."
 
 0:15:12.580,0:15:20.310
 Wenn Sie mal kurz vielleicht das Video anhalten, kurz darüber nachdenken:
-Die Aussage "kein Ehemann mag seine Schwiegereltern".
+Die Aussage "kein Ehemann mag seine Schwiegereltern"
 
 0:15:20.310,0:15:26.370
-Und die Aussage "jeder Ehemann mag seine Schwiegereltern nicht",
-die würden Sie (hoffentlich) intuitiv als äquivalent ansehen.
+und die Aussage "jeder Ehemann mag seine Schwiegereltern nicht"
+würden Sie (hoffentlich) intuitiv als äquivalent ansehen.
 
 0:15:26.370,0:15:33.820
 Und "jeder" entspricht in der Formalisierung
@@ -746,13 +746,12 @@ diese beiden Teilformeln zu einer zusammen,
 und die steht in Konjunktion mit einer weiteren
 Teilformel. Und de Morgan hieße jetzt:
 
-
 0:20:27.179,0:20:36.239
 "Nicht die Konjunktion aus diesen beiden, gerade markierten Teilen"
 ist äquivalent zu "die Negation
 
 0:20:36.239,0:20:44.409
-des ersten Teils oder die Negation der zweiten
+des ersten Teils Oder die Negation der zweiten
 Teilformel, die markiert ist." Mit anderen Worten:
 
 0:20:44.409,0:20:52.970
@@ -777,7 +776,7 @@ die Gelegenheit bietet, die Implikation zu verwenden.
 
 0:21:18.940,0:21:25.679
 Jetzt haben wir eine Formel der Art "Nicht irgendetwas
-oder irgendetwas anderes". Und da wissen wir,
+Oder irgendetwas anderes". Und da wissen wir,
 
 0:21:25.679,0:21:34.029
 das lässt sich abkürzen zu:
@@ -1049,11 +1048,11 @@ Diese Aussage gilt nämlich. Wenn wir, egal was F und G
 
 0:29:14.139,0:29:22.889
 genau bedeuten, die Aussage ausdrücken: "Es existiert ein x,
-so dass F zutrifft oder es existiert ein x, so dass G zutrifft",
+so dass F zutrifft Oder es existiert ein x, so dass G zutrifft",
 
 0:29:22.889,0:29:31.570
 dann ist das äquivalent dazu, einfach mit einem Quantor zu sagen:
-"Es existiert ein x, so dass F oder G zutrifft".
+"Es existiert ein x, so dass F Oder G zutrifft".
 
 0:29:31.570,0:29:39.909
 Jetzt kann man sich wieder fragen: Könnte man hier
@@ -1068,8 +1067,8 @@ Für den Existenzquantor geht das nur mit der Disjunktion.
 Überkreuzt sozusagen geht es jeweils nicht.
 
 0:29:50.249,0:29:59.330
-Also wenn hier stünde: "Für alle x F oder für alle x G", das ist
-nicht äquivalent dazu, zu sagen: "Für alle x F oder G".
+Also wenn hier stünde: "Für alle x F Oder für alle x G", das ist
+nicht äquivalent dazu, zu sagen: "Für alle x F Oder G".
 
 0:29:59.330,0:30:03.729
 Auch das kann man sich wieder mit den geraden und ungeraden Zahlen überlegen.
@@ -1087,15 +1086,15 @@ Wenn ich hier ∀ setzen wollte,
 dann würde ich ja sagen, auf der rechten Seite:
 
 0:30:31.570,0:30:38.650
-"Für alle x gilt, x ist ungerade oder x ist gerade".
+"Für alle x gilt, x ist ungerade Oder x ist gerade".
 Das stimmt. Also diese rechte Seite wäre dann eine wahre Aussage.
 
 0:30:38.650,0:30:46.740
 Aber die linke Seite statt der Existenzquantoren
-würde bedeuten: "Es gilt für alle x, dass x ungerade ist
+würde bedeuten: "Es gilt für alle x, dass x ungerade ist,
 
 0:30:46.740,0:30:56.649
-oder es gilt für alle x, dass x gerade ist."
+Oder es gilt für alle x, dass x gerade ist."
 Keine von diesen beiden Aussagen stimmt.
 
 0:30:56.649,0:31:04.610
@@ -1122,16 +1121,16 @@ als diese Varianten hier. Die sagen auch was aus
 über Quantoren und deren Interaktion mit
 
 0:31:43.659,0:31:48.200
-Konjunktionen und Disjunktionen,
+Konjunktionen und Disjunktionen.
 Aber die Äquivalenzen,
 
 0:31:48.200,0:31:54.919
 die hier auftauchen werden, sind insofern einfacher,
-als sie jeweils nur einen Quantor enthalten.
+als sie jeweils nur einen Quantor
 
 0:31:54.919,0:32:03.249
-auf der linken Seite, und dass sie erlauben, sowohl
-"∀" mit "∧", "∀" mit "∨", "∃" mit "∧" und "∃" mit "∨".
+auf der linken Seite enthalten, und dass sie erlauben, sowohl
+"∀" mit "∧", "∀" mit "∨", "∃" mit "∧" und "∃" mit "∨"
 
 0:32:03.249,0:32:09.499
 sozusagen zu vereinfachen. Aber sie haben
@@ -1188,7 +1187,7 @@ Wir dürfen also das H unter den "∀x"-Quantor
 ziehen und das vereinfachen zu:
 
 0:33:39.830,0:33:48.080
-"Für alle x gilt F und H". Das F spricht nach wie vor
+"Für alle x gilt FUund H". Das F spricht nach wie vor
 über das x und bezieht sich auf das gleiche x wie vorher.
 
 0:33:48.080,0:33:54.190
@@ -1221,7 +1220,7 @@ Allquantor und die Disjunktion gilt, wenn wir "(∀x: F)"
 
 0:34:34.859,0:34:43.659
 ausdrücken und "Oder H" gelten soll, dann ist es äquivalent dazu,
-zu sagen: "Für alle x: F oder H". Das H trifft keine Aussagen über x.
+zu sagen: "Für alle x: F Oder H". Das H trifft keine Aussagen über x.
 
 0:34:43.659,0:34:49.859
 Das x kommt in H nicht frei vor. Deswegen kann dieses
@@ -1285,4 +1284,4 @@ aber auch in der Prädikatenlogik.
 
 0:36:30.700,0:36:37.079
 Deswegen reicht das hier als Aufsammlung
-der Äquivalenzen, die wir anwenden wollen.
+der Äquivalenzen, die wir anwenden können wollen.

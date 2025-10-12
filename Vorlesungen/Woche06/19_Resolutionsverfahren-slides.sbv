@@ -240,10 +240,10 @@ das eine kompaktere Darstellung ist, als immer diese
 
 0:06:21.190,0:06:27.970
 ganzen Ausdrücke so hinzuschreiben. Insbesondere werden wir
-diese Klauseln arrangieren, sozusagen auf dem
+diese Klauseln arrangieren, sozusagen auf
 
 0:06:27.970,0:06:33.610
-Blatt/ auf Papier und dann einfach neue Mengen daraus
+Papier, und dann einfach neue Mengen daraus
 ableiten, ohne jeweils immer das Operationssymbol noch
 
 0:06:33.610,0:06:40.780
@@ -260,7 +260,7 @@ bezeichnen wir mit L, mit diesem Strich obendrüber,
 
 0:06:57.250,0:07:04.240
 (L-bar sage ich dazu manchmal auch. Also Englisch für diesen Barren da
-oben drüber.) Das ist das komplementäre Literal. Und das ist einfach
+oben drüber.) das ist das komplementäre Literal. Und das ist einfach
 
 0:07:04.240,0:07:09.460
 die Negation. Außer natürlich, wenn ich ein schon
@@ -276,7 +276,7 @@ L schon ¬A ist, dann ist das komplementäre
 
 0:07:22.982,0:07:29.320
 Literal einfach A selber. Sie können sich das vorstellen als
-Negation, aber Doppelnegation direkt entfernen.
+Negieren, aber Doppelnegation direkt entfernen.
 
 0:07:29.320,0:07:35.380
 Den Begriff des komplementären Literals brauche ich
@@ -360,7 +360,7 @@ Deswegen schadet es auch nicht, nach einer
 
 0:09:42.100,0:09:49.840
 der Absorptionsregeln, das als weitere Klausel
-aufzunehmen. Und warum sollten wir das tun? Das sieht ja erst mal
+aufzunehmen. Und warum sollten wir das tun? Das sieht ja erstmal so
 
 0:09:49.840,0:09:55.510
 aus, als würden diese Klauseln größer werden,
@@ -368,11 +368,11 @@ weil wir K1 und K2 vereinigen. Aber unser Ziel wird sein,
 
 0:09:55.510,0:10:02.470
 das so lange zu machen, bis wir irgendwann die leere
-Klausel ableiten können. Also diese Menge muss ja.
+Klausel ableiten können. Also diese Menge muss ja
 
 0:10:02.470,0:10:06.850
 nicht größer werden, denn L und L-bar verschwinden ja.
-Die Menge könnte insgesamt auch mal kleiner.
+Die Menge könnte insgesamt auch mal kleiner
 
 0:10:06.850,0:10:14.530
 werden. Insbesondere wenn K1 und K2 außer zum Beispiel
@@ -396,7 +396,7 @@ ist ein Lösungsverfahren, um die Erfüllbarkeit zu
 
 0:10:34.850,0:10:42.380
 überprüfen. Dafür müssen wir sicher sein, dass dieser
-Schritt logisch sinnvoll ist und dass tatsächlich,
+Schritt logisch sinnvoll ist, und dies tatsächlich,
 
 0:10:42.380,0:10:49.550
 wenn die leere Klausel abgeleitet werden kann,
@@ -415,7 +415,7 @@ Hier werde ich Ihnen einfach das Verfahren vorstellen
 und das an Beispielen erläutern. Da kann man sich auch
 
 0:11:07.460,0:11:15.320
-überzeugen, dass das Sinn ergibt, ohne tatsächlich das
+überzeugen, dass das Sinn ergibt, ohne das tatsächlich
 mathematisch zu beweisen. Also gucken wir uns ein
 
 0:11:15.320,0:11:22.460
@@ -456,7 +456,7 @@ A, C, C und ¬D. Aber da das eh eine Menge ist, werden wir
 
 0:12:20.570,0:12:30.960
 natürlich das C nicht zweimal hinschreiben, sondern
-wir haben einfach die Menge {A, C, ¬D}. Wir nutzen hier
+wir haben einfach die Menge \{A, C, ¬D\}. Wir nutzen hier
 
 0:12:30.960,0:12:38.910
 also implizit die Idempotenz der Disjunktion aus. Also
@@ -472,11 +472,11 @@ die Reihenfolge der Elemente der Klauseln kümmern, weil
 
 0:12:51.930,0:12:59.100
 die Reihenfolge als Mengen sowieso egal ist. So wie eben auch
-die Disjunktion sowohl kommutativ als auch assoziativ ist.
+die Disjunktion sowohl kommutativ als auch assoziativ ist,
 
 0:12:59.100,0:13:07.230
-Also spielt weder die Reihenfolge noch die Klammerung
-eine Rolle. Warum ist das ein sinnvoller
+also weder die Reihenfolge noch die Klammerung
+eine Rolle spielt. Warum ist das ein sinnvoller
 
 0:13:07.230,0:13:14.670
 Schritt, von diesen beiden Formeln zu dieser zu gehen?
@@ -552,7 +552,7 @@ warum wir diesen Schritt machen. Und dann war da noch die andere
 
 0:15:17.650,0:15:22.660
 Frage: Warum heißt das denn, wenn wir am Ende
-irgendwann die leere Klausel ableiten, dass dann.
+irgendwann die leere Klausel ableiten, dass dann
 
 0:15:22.660,0:15:27.580
 tatsächlich die Ursprungsformel nicht erfüllbar
@@ -575,7 +575,7 @@ anderes in der Ursprungsklausel ist als das Literal
 und sein Komplement, wird R nicht leer sein. Und wenn jetzt
 
 0:15:51.910,0:15:56.350
-R also leer ist, muss das so etwas gewesen sein, wie
+R also leer ist, muss das so etwas gewesen sein wie
 oben zum Beispiel ¬B und B und nichts weiter. Aber was
 
 0:15:56.350,0:16:01.720
@@ -607,7 +607,7 @@ wir fest, wenn wir irgendwann die leere Klausel
 herleiten können. Und zwar genau dann. Das Wichtige
 
 0:16:44.370,0:16:49.170
-ist, dass es eben auch reicht zu überprüfen, ob die leere
+ist, dass es eben auch reicht, zu überprüfen, ob die leere
 Klausel rauskommen kann. Wenn wir uns da alle
 
 0:16:49.170,0:16:54.270
@@ -627,8 +627,8 @@ etwas aufpassen. Insbesondere ist ein beliebter Fehler, den die
 nächste Folie bewusst enthält: Ein beliebter
 
 0:17:13.740,0:17:19.440
-Fehler ist, dass man das versucht, für mehrere
-Literalpaare gleichzeitig zu machen. Ich nehme mal eine
+Fehler ist, dass man das für mehrere
+Literalpaare gleichzeitig zu machen versucht. Ich nehme mal eine
 
 0:17:19.440,0:17:25.350
 leicht andere Situation. Das sind nicht exakt die gleichen
@@ -659,11 +659,11 @@ sagen: Dann entfernen wir die doch in einem Schritt. Dann bliebe übrig:
 Von links nur A, weil wir B und C entfernen dürfen, weil es dafür
 
 0:18:08.100,0:18:13.350
-ja die Komplement in hier drüben gibt. Und
+ja die Komplemente hier drüben gibt. Und
 von K2 bliebe nur ¬D übrig, weil es eben für
 
 0:18:13.350,0:18:19.980
-B und C wieder die Komplement gibt. Dann streichen wir das
+B und C wieder die Komplemente gibt. Dann streichen wir das
 raus und es bleibt diese Resolvente übrig. Das ist
 
 0:18:19.980,0:18:29.130
@@ -843,11 +843,11 @@ Hier kommt A drin vor. Hier kommt ¬A drin vor.
 Das heißt, wir können daraus eine neue Klauselmenge/ eine
 
 0:23:32.040,0:23:38.910
-neue Klausel erzeugen. Nämlich die Klausel {B, C}. A und ¬A
+neue Klausel erzeugen. Nämlich die Klausel \{B, C\}. A und ¬A
 verschwinden und es bleibt übrig B, C und hier auch B, C,
 
 0:23:38.910,0:23:46.680
-also die Menge {B, C}. Noch nicht die leere Menge,
+also die Menge \{B, C\}. Noch nicht die leere Menge,
 aber immerhin schon mal kleiner, als wir gestartet haben.
 
 0:23:46.680,0:23:51.180
@@ -863,7 +863,7 @@ Also, zum Beispiel können wir jetzt diese Klausel nehmen und
 diese Klausel und die resolvieren. Das geht nicht
 
 0:24:02.760,0:24:07.440
-bezüglich des Bs,  aber bezüglich des Cs.  Und dann malen wir das
+bezüglich des Bs, aber bezüglich des Cs. Und dann malen wir das
 tatsächlich hier als weiteren Schritt auf.
 
 0:24:07.440,0:24:14.310
@@ -872,7 +872,7 @@ lassen. (Unter dieser und dieser Klausel.) Also irgendwo hier
 
 0:24:14.310,0:24:22.140
 muss ich das dann einzeichnen/ eine weitere Klausel
-angeben. Das ist in diesem konkreten Fall die Klausel, nur
+angeben. Das ist in diesem konkreten Fall die Klausel nur
 
 0:24:22.140,0:24:28.830
 aus dem B bestehend, da hier B und B übrig bleibt.
@@ -916,7 +916,7 @@ sie erst einfach mal das Verfahren kennenlernen und dann
 
 0:25:35.390,0:25:42.170
 in den nächsten Übungen anwenden können. Dafür habe
-ich noch eine Zusammenfassungsfolie mit ein.
+ich noch eine Zusammenfassungsfolie mit ein
 
 0:25:42.170,0:25:49.040
 paar Merkregeln. Letztlich Sachen, die ich zum Teil schon

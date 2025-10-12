@@ -123,8 +123,8 @@ Lösung mit der einen richtigen Reihenfolge.
 Man kann auch mit anderen Reihenfolgen anfangen.
 
 0:02:01.549,0:02:05.340
-Hauptsache, ihr kommt bald auf die leere Klauselmenge.
-Hauptsache, ihr beachtet die Regeln, dass ihr
+Hauptsache, ihr kommt bald auf die leere Klauselmenge,
+und ihr beachtet die Regeln, dass ihr
 
 0:02:05.340,0:02:08.720
 immer nur ein Literal pro Resolutionsschritt
@@ -136,7 +136,7 @@ am Ende achten müsst: Entweder schreibt ihr
 
 0:02:12.640,0:02:17.780
 nur diese leeren Klammern oder ihr gebt die
-leere Menge so.
+leere Menge so an.
 
 0:02:17.780,0:02:22.390
 Aber auf gar keinen Fall die Klammern mit

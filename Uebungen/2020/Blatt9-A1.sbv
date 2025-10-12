@@ -27,15 +27,15 @@ dass wir zwei hoch drei Zeilen benötigen, also
 acht Zeilen. Das heißt, wir fangen wieder mit
 
 0:00:41.100,0:00:46.140
-den Nullen an. Die Hälfte von acht ist vier,
+den Nullen an. Die Hälfte von Acht ist Vier,
 vier Nullen bei A, vier Einsen bei A. Dann
 
 0:00:46.140,0:00:51.780
-die Hälfte von vier ist zwei, zwei Nullen bei B,
+die Hälfte von Vier ist Zwei, zwei Nullen bei B,
 zwei Einsen, zwei Nullen, zwei Einsen. Und
 
 0:00:51.780,0:00:56.940
-dann die Hälfte von zwei ist eins, also Null und
+dann die Hälfte von Zwei ist Eins, also Null und
 Eins im Wechsel bei C. Und bei der negierten Form
 
 0:00:56.940,0:01:01.440
@@ -196,7 +196,7 @@ guter Antwortsatz könnte dann zum Beispiel sein,
 
 0:04:31.680,0:04:36.300
 die Formel F ist erfüllbar, aber sie ist nicht
-tautologisch, weil sie nicht für alle passenden.
+tautologisch, weil sie nicht für alle passenden
 
 0:04:36.300,0:04:40.620
 Belegungen den Wahrheitswert Eins erhält, wie
@@ -235,7 +235,7 @@ De Morgan ist, was häufig vergessen wird, klappt
 dieses oder zum und und stünde hier ein und, würde
 
 0:05:28.620,0:05:36.300
-es zum oder umklappen. Das heißt, wir haben nicht
+es zum Oder umklappen. Das heißt, wir haben nicht
 nicht A und nicht nicht B oder nicht C oder A und
 
 0:05:36.300,0:05:41.280

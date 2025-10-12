@@ -184,7 +184,7 @@ zum Auswerten/zum Beschreiben der Semantik von Prolog.
 
 0:04:43.960,0:04:54.520
 Semantik heißt ja für uns letztlich Ausführung.
-Was bedeutet es, ein Programm auszuführen oder was
+Was bedeutet es, ein Programm auszuführen, oder was
 
 0:04:54.520,0:04:59.350
 bedeutet eine Anfrage? Nehmen wir dieses Programm, wie
@@ -336,7 +336,7 @@ geben, sodass das hier rechts wahr ist. Also es muss
 
 0:08:48.200,0:08:57.050
 ein V geben, dessen Vater Kurt ist, damit Kurt Großvater
-von jemandem sein kann. Wer kommt da in Frage?
+von jemandem sein kann. Wer kommt da infrage?
 
 0:08:57.050,0:09:02.510
 Jetzt würde eben dieses neue Teilziel/ dieses
@@ -363,11 +363,11 @@ Dann wird gesagt: "V muss eben fritz sein."
 Dann allerdings stellt sich die Frage, was ist denn mit
 
 0:09:36.830,0:09:43.910
-dem zweiten Literal hier? Wenn V fritz ist, dann muss
+dem zweiten Literal hier? Wenn V = fritz ist, dann muss
 V auch hier fritz sein. Das heißt, das nächste Ziel wäre,
 
 0:09:43.910,0:09:50.990
-Diese Information wurde hier weitergereicht, und das nächste Ziel
+diese Information wurde hier weitergereicht, und das nächste Ziel
 wäre dann: "istVaterVon(fritz, E)" zu resolvieren mit irgendetwas.
 
 0:09:51.620,0:09:58.700
@@ -435,7 +435,7 @@ Also was ist, wenn wir hier sagen: Entweder die Lösung
 gefällt uns nicht oder wir wollen eine weitere Lösung haben.
 
 0:11:44.700,0:11:51.300
-Also würden wir als Nutzer auslösen: Nein, wir hätten gern andere Lösungen.
+Also wenn wir als Nutzer auslösen würden: Nein, wir hätten gern andere Lösungen.
 Das ist ja möglich, denn dieses Prädikat "istVaterVon"
 
 0:11:51.300,0:11:56.400
@@ -503,7 +503,7 @@ Daher käme also nach der Antwort X = paul auch die
 Antwort X = hans. Da hätten wir unsere zweite Lösung gefunden.
 
 0:13:34.500,0:13:42.520
-Solang könnten wir auch sagen: Wir wollen weitere Lösungen haben.
+Solange könnten wir auch sagen: Wir wollen weitere Lösungen haben.
 Dann würde sich schnell zeigen, dass von "istVaterVon"
 
 0:13:42.520,0:13:48.430
@@ -516,7 +516,7 @@ entschieden, als ich diese Anfrage gestellt hatte.
 
 0:13:53.200,0:13:57.760
 Wenn jetzt der Nutzer sagt: "Ich möchte weitere Lösungen
-haben.", dann muss Prolog auch hier noch mal die
+haben", dann muss Prolog auch hier nochmal die
 
 0:13:57.760,0:14:04.600
 Alternativen betrachten. Also Prolog müsste sagen:
@@ -687,7 +687,7 @@ Und dann würde eben mit dem nächsten Fakt verglichen werden.
 Und dann käme heraus, dass X = hans auch eine Lösung ist.
 
 0:18:31.760,0:18:37.880
-Dann könnte ich wieder sagen, per Backtracking oder
+Dann könnte ich wieder
 Backtracking auslösen und sagen: Das gefällt mir nicht.
 
 0:18:37.880,0:18:42.590
@@ -723,7 +723,7 @@ Und da ist unser Fehlschlag wieder, weil es dafür
 weder Fakt noch Regel gibt. Und dann wäre Prolog hier auch
 
 0:19:26.200,0:19:32.680
-wieder in der Lage zu sagen: false. Also X = paul und X = hans
+wieder in der Lage, zu sagen: false. Also X = paul und X = hans
 oder false. Und dann wäre der Ablauf hier beendet.
 
 0:19:32.680,0:19:40.000

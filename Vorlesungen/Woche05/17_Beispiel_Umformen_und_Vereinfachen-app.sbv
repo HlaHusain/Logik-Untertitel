@@ -59,7 +59,7 @@ Folien genannt hatte, dass wir beim Anwenden
 von Distributivität Teilformen
 
 0:02:00.890,0:02:08.630
-verdoppeln, duplizieren. Und wenn innen diese
+verdoppeln/duplizieren. Und wenn innen diese
 größeren Teilformeln sind, dann kann es eben dazu
 
 0:02:08.630,0:02:14.990
@@ -67,7 +67,7 @@ führen, was wir hier jetzt sehen. In dem Fall wurde jetzt dieser
 gesamte Teilausdruck, diese gesamte Teilformel nicht
 
 0:02:14.990,0:02:20.150
-nur dupliziert, sondern sogar "getrippelt", weil wir hier
+nur dupliziert, sondern sogar "getripelt", weil wir hier
 eine dreifache Konjunktion hatten.
 
 0:02:20.150,0:02:27.080
@@ -163,7 +163,7 @@ um alle anderen Disjunktionen zu absorbieren,
 in denen ein A vorkommt. Das führt insgesamt dazu,
 
 0:05:36.640,0:05:43.510
-da muss man jetzt den Blick dafür haben. Es wäre nicht notwendig,
+dafür muss man jetzt den Blick haben. Es wäre nicht notwendig,
 wenn die Aufgabe nur wäre: "Machen Sie eine KNF."
 
 0:05:43.510,0:05:48.880
@@ -184,11 +184,11 @@ absorbiert, in denen das A auch vorkommt. Also einmal muss
 
 0:06:15.130,0:06:25.850
 das A schon hier stehen. Aber dann wird das auch
-absorbiert. Das wird auch absorbiert. Und es bleibt.
+absorbiert. Das wird auch absorbiert. Und es bleibt
 
 0:06:25.850,0:06:40.220
 noch übrig: (B ∨ D). Das ist auch eine konjunktive
-Normalform. Und die ist auch äquivalent zur obigen.
+Normalform. Und die ist auch äquivalent zur obigen
 
 0:06:40.220,0:06:49.790
 Ausgangsformel. Und natürlich schöner als Ergebnis,

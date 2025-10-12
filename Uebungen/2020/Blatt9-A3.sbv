@@ -18,11 +18,11 @@ Schauen wir uns zunächst die Formel G an.
 
 0:00:22.259,0:00:25.179
 Die Voraussetzung für eine Hornformel ist,
-dass wir KNF vorliegt, das haben wir
+dass eine KNF vorliegt. Das haben wir
 
 0:00:25.179,0:00:30.769
 hier, weil wir Und-Verknüpfungen haben, die
-Disjunktionen miteinander verbinden, das heißt,
+Disjunktionen miteinander verbinden. Das heißt,
 
 0:00:30.769,0:00:31.919
 wir haben eine KNF.
@@ -57,7 +57,7 @@ welche Disjunktionen miteinander verknüpfen,
 wodurch eine KNF vorliegt.
 
 0:01:10.490,0:01:17.520
-Jetzt müssen wir noch schauen, ob wir
+Jetzt müssen wir noch schauen, ob
 in jeder Klausel maximal ein positives Literal
 
 0:01:17.520,0:01:18.520
@@ -125,10 +125,10 @@ dann null implizieren.
 
 0:02:33.220,0:02:40.030
 Hier haben wir A und C, dabei ist das Und
-ganz wichtig, es liegt kein Oder vor.
+ganz wichtig. Es liegt kein Oder vor.
 
 0:02:40.030,0:02:42.480
-A und C implizieren null.
+"A und C" impliziert null.
 
 0:02:42.480,0:02:43.909
 Und für das letzte A.

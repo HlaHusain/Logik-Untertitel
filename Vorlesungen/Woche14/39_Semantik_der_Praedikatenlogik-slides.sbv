@@ -192,7 +192,7 @@ prädikatenlogische Formel. Wir wollen eine
 
 0:04:53.720,0:04:59.180
 dazu passende Struktur haben. Und da verwende ich
-dieses kalligrafische, große A. Das entspricht dem.
+dieses kalligrafische, große A. Das entspricht dem,
 
 0:04:59.180,0:05:03.580
 was vorher dem α, dem griechischen Buchstaben
@@ -343,7 +343,7 @@ aus der Grundmenge (den natürlichen Zahlen)
 jeweils einfach prüft,
 
 0:08:40.469,0:08:47.519
-ob die eine Zahl kleiner gleich der anderen ist.
+ob die eine Zahl kleiner oder gleich der anderen ist.
 Aber es wären beliebige Relationen möglich.
 
 0:08:47.519,0:08:54.980
@@ -587,7 +587,7 @@ unsere passenden Strukturen sind. Also
 
 0:14:43.740,0:14:52.990
 für eine Menge von atomaren Formeln A, B, C, denen jeweils
-einen Wahrheitswert aus {0,1} zugewiesen.
+einen Wahrheitswert aus \{0,1\} zugewiesen.
 
 0:14:52.990,0:15:01.940
 Und dann haben wir das erweitert zu einer
@@ -730,7 +730,7 @@ syntaktischen Konstrukte in der Prädikatenlogik.
 Also, wie sieht das für die aus?
 
 0:18:57.519,0:19:06.290
-Da wird jetzt explizit, dass und auch
+Da wird jetzt explizit ausgedrückt, dass und auch
 wie über eine bestimmte Grundmenge quantifiziert wird.
 
 0:19:06.290,0:19:12.070
@@ -846,7 +846,7 @@ für eine Gesamtformel und eine gegebene, passende
 Struktur jeweils einen Wahrheitswert 0 oder 1 berechnen.
 
 0:22:13.470,0:22:20.790
-Wie nutzen wir das? Wir können das exakt so nutzen,
+Wie nutzen wir das? Wir können das exakt so nutzen
 wie in der Aussagenlogik. Jetzt kommt also nochmal
 
 0:22:20.790,0:22:26.380
@@ -1147,7 +1147,7 @@ diese Vorbedingung wahr sein, diese Nachbedingung aber nicht.
 
 0:30:31.929,0:30:38.230
 Also wir könnten die Implikation übersetzen in
-"Nicht das hier vorne oder das hier hinten", und
+"Nicht das hier vorne Oder das hier hinten", und
 
 0:30:38.230,0:30:47.549
 würden dann mit Verwendung der Regeln für Disjunktion

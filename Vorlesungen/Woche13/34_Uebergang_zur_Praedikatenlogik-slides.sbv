@@ -67,7 +67,7 @@ Wir haben zum einen die Aussagenlogik betrachtet
 und uns da eben im Wesentlichen mit diesen
 
 0:01:46.569,0:01:52.880
-Unterpunkten beschäftigt: Sprache der Aussagenlogik.
+Unterpunkten beschäftigt. Sprache der Aussagenlogik:
 Da ging es um die Syntax, um die Operatoren, um die Verwendung
 
 0:01:52.880,0:01:58.179
@@ -188,7 +188,7 @@ in der Prädikatenlogik verwenden werden.
 
 0:04:54.970,0:05:03.639
 Und die Prädikate in Prolog, die wurden eben verwendet,
-um letztlich strukturiertere Aussagen zu haben,
+um letztlich strukturiertere Aussagen zu haben
 
 0:05:03.639,0:05:08.560
 als in der reinen Aussagenlogik. Das werden wir uns
@@ -465,7 +465,7 @@ natürlich auch schon gesehen. In der Prädikatenlogik
 
 0:11:31.430,0:11:36.639
 wird es also auch Variablen geben. Für jede natürliche Zahl x gilt,
-dass es eine natürliche Zahl y gibt, sodass x kleiner als y ist.
+dass es eine natürliche Zahl y gibt, so dass x kleiner als y ist.
 
 0:11:36.639,0:11:42.540
 Also da tauchen Variablen auf. Da tauchen solche universellen Aussagen auf:
@@ -794,6 +794,7 @@ nicht mehr im Vordergrund stehen in diesem
 0:20:09.630,0:20:23.070
 Kapitel zur Prädikatenlogik.
 Tatsächlich ist die Prädikatenlogik auch
+
 0:20:23.070,0:20:28.600
 in gewissem Sinne echt mehr als Prolog.
 Also nicht nur, dass wir das Ausführen der Programme
@@ -832,7 +833,7 @@ kann weder so sein wie in der Aussagenlogik
 
 0:21:20.580,0:21:26.060
 (mit Wahrheitstafeln), weil wir jetzt diese extra
-Quantoren zu betrachten haben, noch kann die Bedeutung
+Quantoren zu beachten haben, noch kann die Bedeutung
 
 0:21:26.060,0:21:30.800
 von prädikatenlogischen Formeln einfach so
@@ -947,7 +948,7 @@ wiederholen sollten. Also zur Beschreibung der Semantik
 von Formeln hatten wir mit Belegungen operiert.
 
 0:24:21.620,0:24:25.870
-Mit passenden Belegungen zu einer Formel
+Mit zu einer Formel
 passenden Belegungen. Da ging es darum, dass
 
 0:24:25.870,0:24:30.250
@@ -964,7 +965,7 @@ Allerdings in erweiterter Form. Warum?
 
 0:24:41.060,0:24:45.420
 Weil wir jetzt Variablen haben, und weil wir die Prädikatsymbole haben,
-die Datenkonstrukteure, etc. Das heißt, wir werden auch
+die Datenkonstruktoren, etc. Das heißt, wir werden auch
 
 0:24:45.420,0:24:53.390
 mit Belegungen operieren, aber die Definitionen an sich werden
@@ -1004,7 +1005,7 @@ Dann hatten wir in der Aussagenlogik
 Äquivalenzumformungen besprochen.
 
 0:25:37.630,0:25:43.850
-Also, wir hatten erst mal Äquivalenzen besprochen.
+Also, wir hatten erstmal Äquivalenzen besprochen.
 Zum Beispiel die de Morganschen Regeln, die Negation,
 
 0:25:43.850,0:25:47.660
@@ -1021,7 +1022,7 @@ also auch wieder so tun wollen.
 
 0:26:00.850,0:26:06.400
 Allerdings natürlich jetzt mit Formeln, in denen
-Prädikatsymbole und Datenkonstrukteure auftauchen.
+Prädikatsymbole und Datenkonstruktoren auftauchen.
 
 0:26:06.400,0:26:15.059
 Oder Relationssymbole und Funktionssymbole.
@@ -1141,11 +1142,11 @@ eine KNF oder DNF, also eine der Normalformen,
 
 0:29:08.750,0:29:14.360
 aus einer Wahrheitstafel abzulesen.
-Allerdings werden wir für die Prädikatenlogik,
+Allerdings werden wir für die Prädikatenlogik
 
 0:29:14.360,0:29:18.540
 nicht solche einfachen Wahrheitstafeln haben,
-weil wir nicht nur atomare Aussagen A, B, C haben.
+weil wir nicht nur atomare Aussagen A, B, C haben,
 
 0:29:18.540,0:29:25.850
 denen wir einen 0/1-Wert zuweisen. Sondern durch

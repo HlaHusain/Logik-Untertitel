@@ -115,7 +115,7 @@ aller Formeln, die nur aus den atomaren Formeln aus M
 
 0:03:17.940,0:03:24.390
 aufgebaut sind. Also wenn ich mit M = \{A, B, C\}
-starte, dann stecken in diesem „M^“ so Formeln drin,
+starte, dann stecken in diesem „M^“ so Formeln drin
 
 0:03:24.390,0:03:36.600
 wie: (A ∧ B), ((A ∨ ¬B) ∧ C) etc. Aber keine Formeln, in
@@ -187,14 +187,14 @@ können selbst komplexere, zusammengebaute Formeln sein.
 
 0:05:14.820,0:05:21.180
 Wenn wir eine Formel haben (F ∧ G) und wir wollen
-wissen, welcher Wahrheitswert wird der zugeordnet.
+wissen, welcher Wahrheitswert dieser
 
 0:05:21.180,0:05:27.330
-Mit unserer erweiterten Zuordnung können wir
-nachschlagen: welcher Wahrheitswert wurde
+mit unserer erweiterten Zuordnung zugeordnet wird, dann können
+wir nachschlagen: "Welcher Wahrheitswert wurde
 
 0:05:27.330,0:05:36.240
-F zugeordnet, welcher wurde G zugeordnet. Und nur
+F zugeordnet, welcher wurde G zugeordnet?" Und nur
 wenn beide 1 sind, wäre auch der Wahrheitswert für
 
 0:05:36.240,0:05:42.600
@@ -218,7 +218,7 @@ dann wäre auch für die kombinierte Formel der
 zugeordnete Wahrheitswert 1. Andernfalls, in
 
 0:06:08.760,0:06:17.700
-allen anderen Fällen 0. Bei der Negation wird
+allen anderen Fällen: 0. Bei der Negation wird
 einfach 0 und 1 vertauscht. Also falls
 
 0:06:17.700,0:06:24.750
@@ -335,10 +335,10 @@ gebe ich auch gleich an, weil wir auch gleich an
 
 0:09:32.580,0:09:39.600
 einem Beispiel beide Möglichkeiten durchprobieren wollen.
-Das Wichtige dabei ist, die beiden Möglichkeiten sind
+Das Wichtige dabei ist, dass die beiden Möglichkeiten
 
 0:09:39.600,0:09:43.500
-äquivalent. Also man kann das so oder so machen.
+äquivalent sind. Also man kann das so oder so machen.
 Manchmal werden wir vielleicht auch sagen, machen Sie es
 
 0:09:43.500,0:09:47.940

@@ -83,7 +83,7 @@ in das Subjekt und ein Prädikat darauf.
 Da könnten wir auch sagen, dass schreiben wir ab jetzt lieber so.
 
 0:02:11.300,0:02:17.960
-Also statt einfach nur zu sagen, A ist Gesamtaussage: "Der Mond ist grün.",
+Also statt einfach nur zu sagen, A ist Gesamtaussage: "Der Mond ist grün",
 wollen wir das so schreiben und zerlegen das sozusagen in ein
 
 0:02:17.960,0:02:27.830
@@ -116,7 +116,7 @@ wiederverwendbar ist. Ich kann dann eben auch direkt sagen,
 
 0:03:00.830,0:03:06.080
 indem ich den Mond durch den Mars ersetze, dass
-auch der Mars grün ist. Statt zu sagen, dafür müsste
+auch der Mars grün ist. Statt zu sagen, dafür müssten wir
 
 0:03:06.080,0:03:11.990
 eine Aussage A-Strich bilden. Also diese zusätzliche
@@ -139,7 +139,7 @@ das Subjekt "Mond". Und das soll implizieren (zur Erinnerung:
 in Prolog war dieses Symbol sozusagen ein umgedrehter Implikationspfeil.)
 
 0:03:40.910,0:03:46.400
-also hier daraus folgt das.
+also hieraus folgt das.
 Und natürlich dürften wir nach wie vor
 
 0:03:46.400,0:03:52.040
@@ -236,11 +236,11 @@ Also ich habe jetzt nicht vor, den Mann auf dem Berg
 
 0:06:02.190,0:06:08.610
 mit dem Fernrohr zu programmieren. Aber einfach
-jeweils die verschiedenen Lesarten des Satzes, die wir
+jeweils zu den verschiedenen Lesarten des Satzes, die wir
 
 0:06:08.610,0:06:13.800
 betrachtet hatten (wir hatten diese fünf betrachtet
-in der ersten Vorlesung) jeweils mal zu sehen, wie man die mit
+in der ersten Vorlesung), jeweils mal zu sehen, wie man die mit
 
 0:06:13.800,0:06:20.070
 strukturierten Aussagen äquivalent ausdrücken könnte.
@@ -255,7 +255,7 @@ während ich auf dem Berg war. Und ich tat das mit dem Fernrohr.
 Und das könnte man jetzt zerlegen in:
 
 0:06:35.490,0:06:42.000
-Es geht erst mal um die Aussage "Ich sah den Mann."
+Es geht erstmal um die Aussage "Ich sah den Mann."
 Das ist vielleicht eine Aussage, die wir festhalten wollen.
 
 0:06:42.000,0:06:49.260
@@ -263,7 +263,7 @@ Da können wir ein Prädikat benutzen, nämlich "sah" und "ich" und "man".
 Jetzt ist es nicht nur eine Eigenschaft, wie eben gruen(mond).
 
 0:06:49.260,0:06:53.460
-Das ist eine Eigenschaft des Mondes. Jemanden zu sehen
+Das ist eine Eigenschaft des Mondes. Jemanden zu sehen,
 ist eine Eigenschaft, die zwei Personen/Dinge verbindet.
 
 0:06:53.460,0:07:01.710
@@ -336,7 +336,7 @@ schreiben: sah(ich,mann), mit(ich,fernrohr), auf(ich,berg).
 
 0:08:40.980,0:08:47.610
 Das entspräche dann der Beobachtung/der Erkenntnis,
-dass in diesem Satz, wenn wir in so Klammern:
+dass in diesem Satz, wenn wir ihn so Klammern:
 
 0:08:47.610,0:08:54.540
 (((Ich sah den Mann) auf dem Berg) mit dem Fernrohr). Das eigentlich,
@@ -364,11 +364,11 @@ die innere Aussage ist: Der Mann ist auf dem Berg.
 
 0:09:31.770,0:09:36.990
 Also "den Mann auf dem Berg", das drücke ich aus durch dieses auf(mann, berg).
-Ich sah den Mann. Ich sah den Mann auf dem Berg.
+Ich sah den Mann. "Ich sah den Mann auf dem Berg"
 
 0:09:38.250,0:09:45.270
-Wäre dann diese Aussage: sah(ich, mann).
-Und das tat ich mit dem Fernrohr, wäre dann wieder, dass ich am Ende sage, dass
+wäre dann diese Aussage: sah(ich, mann).
+"Und das tat ich mit dem Fernrohr" wäre dann wieder, dass ich am Ende sage, dass
 
 0:09:45.270,0:09:51.750
 ich das Fernrohr benutze. Und so können wir jetzt die anderen
@@ -519,7 +519,7 @@ wir solche interessanten Regeln formulieren können.
 Damit arbeitet Prolog, und ich werde im Folgenden
 
 0:13:56.460,0:14:05.190
-für eine andere Domäne/ für eine andere Situation ein
+für eine andere Domäne/für eine andere Situation ein
 Beispiel im nächsten Video durchsprechen und dabei
 
 0:14:05.190,0:14:10.050

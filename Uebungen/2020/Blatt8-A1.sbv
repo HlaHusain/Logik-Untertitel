@@ -120,19 +120,19 @@ Anfrage gegeben. Jetzt müssen wir als erstes den
 
 0:02:29.760,0:02:34.740
 Zugriff auf Head durch das append-Prädikat
-machen. Wenn wir jetzt also without(Xs, X,
+machen. Wenn wir jetzt also without(Xs, X, L)
 
 0:02:34.740,0:02:39.660
-L) in der Definition gegeben haben, dann wollen
+in der Definition gegeben haben, dann wollen
 wir das Head-Element so herausbekommen, dass
 
 0:02:39.660,0:02:45.420
 wir aus der Xs-Liste das erste Element nehmen. Das
-wäre in dem Fall das Head-Element und jenes,
+wäre in dem Fall, dass das Head-Element und jenes,
 
 0:02:45.420,0:02:49.860
-was wir herauslöschen wollen, gleich wären, wäre
-das aus der Signatur schon das x. Das heißt,
+was wir herauslöschen wollen, gleich wären,
+schon das x aus der Signatur. Das heißt,
 
 0:02:49.860,0:02:55.860
 wir haben als erstes das Element x, dann haben
@@ -140,10 +140,10 @@ wir eine unbekannte Restliste, die wir bekommen
 
 0:02:55.860,0:03:01.380
 wollen und dann die GesamteListe. Also wenn wir
-das Head-Element anfügen, an diese unbekannte
+das Head-Element an diese unbekannte
 
 0:03:01.380,0:03:07.860
-Tail-Liste, dann bekommen wir Xs heraus. Das heißt,
+Tail-Liste anfügen, dann bekommen wir Xs heraus. Das heißt,
 Ys wäre in dem Fall unser Tail. Also in dem Fall
 
 0:03:07.860,0:03:15.060
@@ -152,14 +152,14 @@ a. Und das Xs wäre dann entsprechend die Liste a,
 
 0:03:15.060,0:03:19.620
 b, c. Der nächste Schritt ist jetzt, dass wir
-eine Rekursion mit der Restliste Ys machen,
+eine Rekursion mit der Restliste Ys machen.
 
 0:03:19.620,0:03:24.960
-das heißt, mit dem b, c, was wir hier haben. Da ist
+Das heißt, mit dem b, c, was wir hier haben. Da ist
 aber wichtig, dass das L, unsere Ergebnisliste,
 
 0:03:24.960,0:03:29.400
-unverändert bleibt. Weil im Falle der Gleichheit
+unverändert bleibt. Denn im Falle der Gleichheit
 wollen wir das Element mehr oder weniger einfach
 
 0:03:29.400,0:03:34.500

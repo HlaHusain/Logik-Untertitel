@@ -377,7 +377,7 @@ lebt. Also wissen wir, wer auch immer von den Personen
 hier stehen mag, zumindest können wir festhalten, dass
 
 0:09:44.240,0:09:52.209
-Der oder die Bewohnerin des dritten Hauses, des
+der oder die Bewohnerin des dritten Hauses, des
 mittleren Hauses, Milch als Lieblingsgetränk hat.
 
 0:09:52.209,0:09:59.930
@@ -561,7 +561,7 @@ noch eine Farbe. Und da müssen wir einfach nur in dem Rätsel
 nachschauen, welche Farben es überhaupt gibt. Wir werden
 
 0:14:23.930,0:14:28.750
-Feststellen, es werden genau fünf Farben genannt. Neben
+feststellen, es werden genau fünf Farben genannt. Neben
 den vier hier schon festgelegten fehlt nur
 
 0:14:28.750,0:14:34.430
@@ -746,7 +746,7 @@ Aber dieses Ausprobieren und dann wirklich immer
 
 0:19:17.530,0:19:25.520
 verfolgen, was denn daraus folgt und gegebenenfalls
-auch Entscheidungen zu treffen, das ist eine
+auch Entscheidungen neu zu treffen, das ist eine
 
 0:19:25.520,0:19:30.410
 allgemeine, algorithmische Vorgehensweise natürlich,
@@ -818,7 +818,7 @@ weiterverfolgen. Für das Ausschlussverfahren
 
 0:21:23.640,0:21:28.740
 für die Zuordnung von „yellow“ konnten
-wir gar nicht direkt eine Regel verwenden
+wir gar nicht direkt eine Regel verwenden.
 
 0:21:28.740,0:21:33.341
 Aber es blieb für die eine Position nur noch
@@ -942,11 +942,11 @@ dass wer immer im grünen Haus wohnt, Kaffee trinkt
 
 0:24:21.870,0:24:33.429
 dass X in dem Beispiel der Bewohner des grünen
-Hauses war (also irgendeine Angabe, die bei der Nationalität.
+Hauses war (also irgendeine Angabe, die bei der Nationalität
 
 0:24:33.429,0:24:38.510
 anzugeben ist), dann wissen wir, wer auch immer das sein
-mag. Der im grünen Haus wohnt, der trinkt dann auch
+mag, der im grünen Haus wohnt, der trinkt dann auch
 
 0:24:38.510,0:24:48.210
 Kaffee. Dann entspricht eben „sterblich
@@ -1054,11 +1054,11 @@ ist oder nicht. Aber genau dafür gibt es eben diese
 
 0:27:35.880,0:27:41.610
 Art der Kategorisierung von solchen Aussagen.
-Wichtig ist: eigentlich sollen sie verwendbar
+Wichtig ist: eigentlich sollen sie
 
 0:27:41.610,0:27:48.230
-sein, unabhängig natürlich vom konkreten
-Inhalt der Begriffe. Noch ein interessanter
+unabhängig natürlich vom konkreten
+Inhalt der Begriffe verwendbar sein. Noch ein interessanter
 
 0:27:48.230,0:27:57.450
 weiterer Syllogismus, den wir gleich noch näher
@@ -1113,7 +1113,7 @@ durch irgendwelche anderen Tiere ersetzen? Schauen wir mal, was dann passiert.
 Was wäre mit folgenden Varianten, statt diesem
 
 0:29:26.649,0:29:33.919
-eben gesehenen letzten Syllogismus? Zum Beispiel
+eben gesehenen letzten Syllogismus. Zum Beispiel
 können wir die Delfine durch Elefanten ersetzen.
 
 0:29:33.919,0:29:37.970
@@ -1381,7 +1381,7 @@ wäre in einer Live-Vorlesung natürlich schöner, weil ich Sie
 dann fragen könnte, was Sie denn von folgender
 
 0:36:50.730,0:36:58.430
-Aussage halten: „Wenn der Mond grün 
+Aussage halten: „Wenn der Mond grün
 ist, haben wir Donnerstag.“ Ich nehme das
 
 0:36:58.430,0:37:02.570
@@ -1489,7 +1489,7 @@ Gegenbeweis führen würden. Also wenn Sie dieser
 Aussage nicht zustimmen, wie würden Sie mich denn
 
 0:39:47.550,0:39:54.211
-vom Gegenteil überzeugen versuchen?
+vom Gegenteil zu überzeugen versuchen?
 Würden Sie mir etwa anführen, dass ja
 
 0:39:54.211,0:40:01.250
@@ -1505,7 +1505,7 @@ Mond auch nicht grün war? Oder müssten Sie
 mir eine andere Welt zeigen, wo der Mond manchmal
 
 0:40:16.500,0:40:25.050
-doch grün ist und es trotzdem Donnerstage gibt, sodass
+doch grün ist und es trotzdem Donnerstage gibt, so dass
 die Argumentation, dass man Donnerstag hat, als Folge aus der Tatsache
 
 0:40:25.050,0:40:37.550
@@ -1713,7 +1713,7 @@ Zusammenhang wäre ein anderer, wenn man sagen würde:
 „Ich sah den Mann mit dem Fernrohr, auf
 
 0:45:46.720,0:45:55.339
-dem Berg.“ Dann hätte der Mann ein Fernrohr, statt auf
+dem Berg.“ Dann hätte der Mann ein Fernrohr statt auf
 dem Berg zu sein. Das sind also mindestens schon mal zwei Möglichkeiten.
 
 0:45:55.339,0:46:03.510
@@ -1841,7 +1841,7 @@ hätten. Das unterstreicht ja aber nur den Punkt, dass
 
 0:49:22.540,0:49:30.270
 eben natürliche Sprache nicht eindeutig
-ist, sondern man andere Mittel braucht, wenn
+ist, sondern man mitunter andere Mittel braucht, wenn
 
 0:49:30.270,0:49:37.190
 man präzise sein möchte. Ich hatte auch schon davon

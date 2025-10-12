@@ -283,7 +283,7 @@ entstehen, die durch Schritt 2. zu behandeln
 sind. Also insgesamt werden wir Schritte zwei und
 
 0:07:44.260,0:07:50.260
-drei einfach so oft durchführen, wie möglich. Wie
+drei einfach so oft wie möglich durchführen. Wie
 möglich heißt, bis nicht mehr der Fall ist, dass die
 
 0:07:50.260,0:07:56.350
@@ -439,7 +439,7 @@ eine KNF. Garantiert!, weil die Regeln dafür sorgen,
 dass dann auf jeden Fall eine KNF hergestellt ist.
 
 0:11:54.140,0:12:02.270
-Ein paar Anmerkungen, die ich eigentlich schon gesagt hatte,
+Ein paar Anmerkungen, die ich eigentlich schon gesagt hatte
 (jetzt nochmal aufgeschrieben): Schritte 1–4
 
 0:12:02.270,0:12:07.100
@@ -524,7 +524,7 @@ sie tatsächlich benutzen werden oder brauchen werden
 
 0:14:18.710,0:14:26.570
 in den Beispielen, die wir betrachten. Also wesentlich sind
-die Art der Vereinfachungen, die ich gerade kurz genannt habe
+diese Art Vereinfachungen, die ich gerade kurz genannt habe
 
 0:14:26.570,0:14:34.990
 und wir auch in den Beispielen sehen werden. Das ist
@@ -556,7 +556,7 @@ wir auf äußerster Ebene eine Disjunktion haben
 
 0:15:14.470,0:15:18.760
 wollen. Das heißt, wenn wir eine Teilformel dieser Form
-sehen würden, würde es keinen Sinn ergeben, die Disjunktion jetzt nach innen.
+sehen würden, würde es keinen Sinn ergeben, die Disjunktion jetzt nach innen
 
 0:15:18.760,0:15:24.580
 zu drücken. Wenn wir eine disjunktive Normalform
@@ -568,10 +568,10 @@ einer disjunktiven Normalform einfach die Schritte
 
 0:15:30.940,0:15:37.720
 fünf und sechs durch jeweils das duale Distributivgesetz
-ersetzen. Also drücken wir die Konjunktion nach innen,
+ersetzen. Also drücken wir die Konjunktion nach innen.
 
 0:15:37.720,0:15:45.280
-können. Das sieht dann so aus: Hier sind wirklich einfach die
+Das sieht dann so aus: Hier sind wirklich einfach die
 Operationen jeweils gekippt. Also jetzt, da wir eine
 
 0:15:45.280,0:15:52.990
@@ -595,8 +595,8 @@ da am Ende eine Disjunktion herauskommt, können
 wir die Unerfüllbarkeitsregeln für Disjunktion
 
 0:16:30.690,0:16:38.430
-anwenden. Also, wenn wir so etwas stehen haben, wie eine
-äußere Disjunktion und einer der Terme, die da mit Disjunktion
+anwenden. Also, wenn wir so etwas stehen haben wie eine
+äußere Disjunktion, und einer der Terme, die da mit Disjunktion
 
 0:16:38.430,0:16:46.590
 verknüpft werden, enthält als Konjunktion einen

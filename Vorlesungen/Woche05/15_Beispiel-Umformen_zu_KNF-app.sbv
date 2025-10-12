@@ -1,6 +1,6 @@
 0:00:00.000,0:00:08.670
 Unser erstes Ziel soll sein, diese Formel, die
-sie hier sehen, in konjunktive Normalform zu
+Sie hier sehen, in konjunktive Normalform zu
 
 0:00:08.670,0:00:14.250
 bringen. Das ist die Formel, die weiter vorn in den
@@ -45,8 +45,8 @@ dass wir die Negation nach unten drücken. Oder
 anders gesagt: Wir formen die Formel um zu
 
 0:01:29.880,0:01:37.560
-¬(F ∧ G) ist (¬F ∨ ¬G). Also, wir formen das um,
-zu nicht und dann der linke Teil von dieser
+¬(F ∧ G) ist (¬F ∨ ¬G). Also, wir formen das um
+zu: nicht und dann der linke Teil von dieser
 
 0:01:37.560,0:01:47.220
 Konjunktion. Also ¬ und dann hier (¬A4 ∨ A1).

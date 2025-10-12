@@ -380,10 +380,10 @@ Der ist von der Einsicht her mindestens so wertvoll
 
 0:09:55.470,0:10:01.220
 wie Skolems Beobachtung über den Umgang mit
-Existenzquantoren. Und zwar geht dieser Schritt.
+Existenzquantoren. Und zwar geht dieser Schritt
 
 0:10:01.220,0:10:06.589
-Jetzt auf Herbrand, einen anderen Logiker, zurück.
+hier auf Herbrand, einen anderen Logiker, zurück.
 Und wurde von weiteren Logikern dann noch untersucht.
 
 0:10:06.589,0:10:13.120
@@ -419,7 +419,7 @@ Das ist eine ganz wesentliche Einschränkung.
 Das erlaubt uns, rein syntaktisch mit diesen
 
 0:10:56.380,0:11:01.390
-Formeln umzugehen, ohne großartige Interpretationen
+Formeln umzugehen, ohne großartige Interpretation
 und dem Aufbau von spezifischen Strukturen.
 
 0:11:01.390,0:11:07.190
@@ -572,7 +572,7 @@ resolvieren. Wir brauchen dafür keine
 
 0:14:44.990,0:14:51.100
 weiteren Variablenbelegungen. Das sind direkt
-komplementäre Literale. Und wir hätten tatsächlich.
+komplementäre Literale. Und wir hätten tatsächlich
 
 0:14:51.100,0:14:55.759
 die leere Klausel hergeleitet. Und wissen deswegen,
@@ -827,7 +827,7 @@ Und dann kann ich hinterher hier auch weiter resolvieren.
 Und erhalte eben meine leere Klausel, wie gewünscht.
 
 0:21:08.910,0:21:16.240
-Also das geht in dem Fall.
+Also das geht in dem Fall auf.
 Ich habe einfach gute Entscheidungen hier getroffen.
 
 0:21:16.240,0:21:21.300

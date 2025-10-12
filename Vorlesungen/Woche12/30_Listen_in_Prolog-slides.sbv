@@ -1,6 +1,6 @@
 0:00:00.000,0:00:08.100
 In dem letzten Beispiel, eben in dem vergangenen
-Video habe ich Listen benutzt. Und zwar hatte ich
+Video, habe ich Listen benutzt. Und zwar hatte ich
 
 0:00:08.100,0:00:16.680
 da die Liste der schon besuchten Zwischenstationen
@@ -31,8 +31,8 @@ s(s(z)) zum Beispiel als Repräsentation für
 eine symbolische Zahl 2. Und auf der Folie, wo das
 
 0:00:50.580,0:00:56.820
-erstmals auftauchte, hatte ich auch erwähnt, dass es Listen-Syntax gibt,
-dass man Listen in Prolog darstellen kann.
+erstmals auftauchte, hatte ich auch erwähnt, dass es Listen-Syntax gibt.
+Dass man Listen in Prolog darstellen kann.
 
 0:00:56.820,0:01:01.350
 Also, zum Beispiel so etwas wie ein [1,2,3,4,5]
@@ -187,20 +187,20 @@ sozusagen der Modus, wo wir einfach nur wissen
 wollen für gegebene Argumente, ob denn so eine
 
 0:05:06.870,0:05:14.940
-membership vorliegt. Es gibt aber auch die Möglichkeit
-einzelne Teile in dieser Anfrage zum Beispiel durch.
+membership vorliegt. Es gibt aber auch die Möglichkeit,
+einzelne Teile in dieser Anfrage zum Beispiel durch
 
 0:05:14.940,0:05:20.340
 Variablen zu ersetzen. Also wir könnten zum Beispiel
 auch fragen: "Was sind denn alle Member von einer Liste [1,3,3]?"
 
 0:05:20.340,0:05:27.030
-Also man könnte fragen: "Gibt es denn ein X, sodass
-das Element von [1,2,3] ist?" Und wenn ja, würden wir.
+Also man könnte fragen: "Gibt es denn ein X, so dass
+das Element von [1,2,3] ist?" Und wenn ja, würden wir
 
 0:05:27.030,0:05:33.210
 gern alle Antworten bekommen. Und dann würde Prolog uns
-in dem Fall sagen: "Ja, X kann 1 sein." Und wenn wir dann durch;
+in dem Fall sagen: "Ja, X kann 1 sein." Und wenn wir dann durch ";"
 
 0:05:33.870,0:05:40.020
 nachfragen, ob es noch weitere Lösungen gibt, würde Prolog
@@ -208,7 +208,7 @@ tatsächlich alle Member aufzählen.
 
 0:05:40.020,0:05:47.370
 Also dann würden wir X = 1 bekommen oder X = 2 oder X = 3,
-weil das alle Elemente dieser Liste sind. Da könnten wir also.
+weil das alle Elemente dieser Liste sind. Da könnten wir also
 
 0:05:47.370,0:05:56.340
 eine Liste nehmen und die durchzählen und uns die
@@ -219,7 +219,7 @@ Oder wir könnten uns zum Beispiel entscheiden,
 lieber die Liste durch Variablen zu ersetzen.
 
 0:06:02.040,0:06:09.810
-oder vielleicht eine Liste zu haben, deren Elemente/
+Oder vielleicht eine Liste zu haben,
 deren aufgezählte Werte durch Variablen ersetzt sind.
 
 0:06:09.810,0:06:15.750
@@ -228,7 +228,7 @@ dreielementigen Listen die 3 enthalten.
 
 0:06:15.750,0:06:22.140
 Oder was muss vorliegen/ was muss zutreffen,
-damit 3 Element der Liste [X,Y,Z] ist, ohne dass.
+damit 3 Element der Liste [X,Y,Z] ist, ohne dass
 
 0:06:22.140,0:06:28.020
 wir vorher gesagt haben, was X, Y, Z sind? Das sind also Variablen.
@@ -240,19 +240,19 @@ Denn dann hätten wir 3 Element von [3,Y,Z].
 
 0:06:34.440,0:06:42.630
 Und egal, was Y, Z sind. Oder Y kann 3 sein.
-Oder Z kann 3 sein. Man beachte, dass in.
+Oder Z kann 3 sein. Man beachte, dass in
 
 0:06:42.630,0:06:47.730
 diesen drei Fällen jeweils immer nur genau
-eine Variable belegt wird. Hier oben gab es nur.
+eine Variable belegt wird. Hier oben gab es nur
 
 0:06:47.730,0:06:53.880
 eine Variable. Die wurde auf drei Weisen belegt.
-Hier wird jetzt jeweils eine der Variablen belegt und.
+Hier wird jetzt jeweils eine der Variablen belegt und
 
 0:06:53.880,0:07:00.090
 zwar der Reihe nach, alternativ. Und die anderen beiden
-müssen jeweils nicht belegt werden. Also wenn.
+müssen jeweils nicht belegt werden. Also wenn
 
 0:07:00.090,0:07:06.300
 zum Beispiel Y = 3 ist, ist es vollkommen egal, was X und Z sind.
@@ -260,11 +260,11 @@ Es würde dann stimmen, dass 3 Element von [X,3,Z] ist.
 
 0:07:06.300,0:07:14.550
 Hier unten gibt es irgendwie keine Konjunktion.
-Es muss nicht X, Y und Z 3 sein, sondern wirklich in jedem Fall.
+Es muss nicht X, Y und Z 3 sein, sondern wirklich in jedem Fall
 
 0:07:14.550,0:07:21.480
 muss eine der Variablen 3 sein und für die anderen beiden ist
-es egal, wird also auch nichts weiter darüber ausgesagt.
+es egal (es wird also auch nichts weiter darüber ausgesagt).
 
 0:07:21.480,0:07:25.740
 Noch allgemeiner könnte man die Frage natürlich auch stellen:
@@ -272,27 +272,27 @@ Noch allgemeiner könnte man die Frage natürlich auch stellen:
 
 0:07:25.740,0:07:31.800
 Also nicht dreielementig X, Y, Z, sondern einfach L.
-Wenn ich einfach fragen würde, für welche L gilt, dass.
+Wenn ich einfach fragen würde: Für welche L gilt, dass
 
 0:07:31.800,0:07:39.090
 3 Member von L ist? Dann müsste Prolog mit
-einer Antwort reagieren, die beschreibt oder.
+einer Antwort reagieren, die
 
 0:07:39.090,0:07:44.220
-erfasst alle Fälle aller Listen, in denen irgendwie eine 3 vorkommt,
-was natürlich noch allgemeiner ist als nur.
+alle Fälle aller Listen erfasst, in denen irgendwie eine 3 vorkommt.
+Was natürlich noch allgemeiner ist, als nur
 
 0:07:44.220,0:07:52.320
 zu fragen, unter welchen Umständen 3 Element dieser
 dreielementigen Liste ist. Das ist schon relativ mächtig,
 
 0:07:52.320,0:07:56.730
-obwohl es nur eine Definition von Member gibt,
-die wir hier jetzt nicht gesehen haben, sondern die irgendwie.
+obwohl es nur eine Definition von member gibt,
+die wir hier jetzt nicht gesehen haben, sondern die irgendwie
 
 0:07:56.730,0:08:04.050
 in Prolog eingebaut ist. Prinzipiell aber auch
-selber schreibbar wäre. Auf ähnliche Weise bekommen.
+selber schreibbar wäre. Auf ähnliche Weise bekommen
 
 0:08:04.050,0:08:08.150
 wir auch solche Aufrufmodi und interessantes
@@ -308,11 +308,11 @@ dass L die Aneinanderhängung von [1,2,3] und [4,5] ist?
 
 0:08:19.820,0:08:28.130
 Die Antwort wäre eindeutig. Es gibt genau eine Antwort darauf.
-Nämlich [1,2,3,4,5]. Das wäre einfach das.
+Nämlich [1,2,3,4,5]. Das wäre einfach das
 
 0:08:28.130,0:08:37.280
 Ausführen von append. Von einer Aneinanderhängung.
-Aber da Prolog relational arbeitet und wir nicht.
+Aber da Prolog relational arbeitet und wir nicht
 
 0:08:37.280,0:08:41.570
 unbedingt Dinge immer vorwärts interpretieren müssen,
@@ -324,7 +324,7 @@ und nach den Eingabelisten zu fragen.
 
 0:08:47.120,0:08:54.740
 Also nach den Ursprungslisten, die zusammenhängt
-die Ergebnisliste ergeben. Also eine Anfrage könnte dann etwa.
+die Ergebnisliste ergeben. Also eine Anfrage könnte dann etwa
 
 0:08:54.740,0:09:00.050
 so aussehen: Wir wollen gern wissen, unter welchen Umständen für X, Y
@@ -332,10 +332,10 @@ so aussehen: Wir wollen gern wissen, unter welchen Umständen für X, Y
 
 0:09:00.050,0:09:06.800
 unter welchen Umständen X und Y zusammengehängt
-die Liste [a,b] ergeben. a und b sind hier klein.
+die Liste [a,b] ergeben. a und b sind hier
 
 0:09:06.800,0:09:13.400
-geschrieben, sind also feste, konstante Werte.
+kleingeschrieben, sind also feste, konstante Werte.
 Und was ist die Antwort? Es sind wieder mehrere Antworten.
 
 0:09:13.400,0:09:19.790
@@ -348,23 +348,23 @@ Oder X die gesamte Liste und Y leer.
 
 0:09:28.220,0:09:34.700
 Aber auch der Fall, dass tatsächlich [a,b]
-in der Mitte zum Beispiel geteilt ist in die Liste [a].
+in der Mitte zum Beispiel geteilt ist in die Liste [a] und
 
 0:09:34.700,0:09:41.870
-die Liste mit [b]. Also die Liste [a] und [b]. Und wenn
+die Liste [b]. Also die Listen [a] und [b]. Und wenn
 hier stattdessen eine zehnelementige Liste stünde,
 
 0:09:41.870,0:09:46.040
 dann würden elf Fälle entstehen. Es würde nämlich
-alles aufgezählt werden von Prolog. Jede Möglichkeit.
+alles aufgezählt werden von Prolog. Jede Möglichkeit
 
 0:09:46.040,0:09:53.450
 einer höchstens zehnelementigen Liste
-und einer entsprechend sozusagen gegenteilig.
+und einer entsprechend sozusagen gegenteilig
 
 0:09:53.450,0:09:59.000
-kürzeren Liste, sodass die beiden Listen einander
-gehängt, genau die eine vorgegebene zehnelementige Liste ergeben.
+kürzeren Liste, so dass die beiden Listen aneinandergehängt
+genau die eine vorgegebene zehnelementige Liste ergeben.
 
 0:09:59.000,0:10:05.660
 Also letztlich verwenden wir hier append rückwärts,
@@ -372,7 +372,7 @@ nicht um zwei Listen aneinander zu hängen,
 
 0:10:05.660,0:10:12.800
 sondern um eine Liste zu zerlegen in zwei
-geeignete Listen. Nämlich sozusagen ein Cut an irgendeiner.
+geeignete Listen. Nämlich sozusagen ein Cut an irgendeiner
 
 0:10:12.800,0:10:20.710
 Stelle in der gegebenen Liste. Dann könnte man
@@ -395,7 +395,7 @@ es muss der gleiche Wert belegt sein und es gibt
 keine Möglichkeit, zwei gleiche Listen zu haben,
 
 0:10:46.090,0:10:53.920
-sodass sie aneinandergehängt [a,b] ergeben.
+so dass sie aneinandergehängt [a,b] ergeben.
 Das sehen wir hier schon, weil es hier auch kein Paar gibt,
 
 0:10:53.920,0:10:59.410
@@ -444,7 +444,7 @@ eben auch das kleine a." Was hier nicht ging.
 
 0:12:00.430,0:12:05.920
 Hier gab es einen Widerspruch, weil ich nicht zwei
-gleiche Listen aneinander hängen kann und [a,b] behalte.
+gleiche Listen aneinanderhängen kann und [a,b] behalte.
 
 0:12:05.920,0:12:11.020
 Wenn hier das Y eine Variable ist, dann kann Prolog
@@ -499,8 +499,8 @@ hier L hinschreibe und hier 3, dass nur für L
 genau diese eine Liste herauskommt. Das wäre ungewöhnlich.
 
 0:13:39.010,0:13:47.050
-Was passiert tatsächlich? Prolog antwortet mir mit einer Liste
-der Länge 3, deren Elemente die hier aufgeführt werden,
+Was passiert tatsächlich? Prolog antwortet mit einer Liste
+der Länge 3, deren Elemente, die hier aufgeführt werden,
 
 0:13:47.050,0:13:52.630
 sehr merkwürdig aussehen: _ und irgendwas.
@@ -520,7 +520,7 @@ andere Zahlen sein. Entscheidend ist: Prolog hat hier
 
 0:14:06.670,0:14:12.760
 sozusagen drei Variablen erfunden/neue eingeführt,
-die nicht in meiner Query auftauchten/in meiner Anfrage
+die nicht in meiner Query auftauchten,
 
 0:14:12.760,0:14:21.010
 und sagt, die Antwort ist eine Liste der Länge 3,
@@ -536,7 +536,7 @@ erhalten und die Elemente wären wieder Variablen gewesen,
 
 0:14:31.360,0:14:37.240
 weil man mehr darüber nicht weiß und Prolog
-auch nicht mehr Festlegung trifft, als wirklich
+auch nicht mehr an Festlegung trifft, als wirklich
 
 0:14:37.240,0:14:44.710
 aus der Anfrage und dem Programm/den definierten
@@ -563,7 +563,7 @@ Die Antwort ist false. Warum? Weil, wenn ich
 eine Liste an die gleiche Liste hänge,
 
 0:15:15.610,0:15:22.930
-immer Listen gerader Länge herauskommen und das
+immer Listen gerader Länge herauskommen. Und das
 widerspricht der Voraussetzung, dass die Liste der
 
 0:15:22.930,0:15:30.460
@@ -591,7 +591,7 @@ Allerdings stehen diesmal an der ersten und
 dritten sowie an der zweiten und vierten Stelle die
 
 0:16:04.990,0:16:11.290
-gleichen Variablen, denn um diese Forderung hier
+gleichen Variablen. Denn um diese Forderung hier
 zu erfüllen, muss es ja so sein, dass tatsächlich
 
 0:16:11.290,0:16:18.730
@@ -604,11 +604,11 @@ gleichen Variablen drin auf. Dadurch wird ausgedrückt,
 
 0:16:24.160,0:16:30.460
 dass tatsächlich irgendeine Belegung, wo wir hier
-was haben, hier etwas haben, hier das erste noch mal,
+etwas haben, hier etwas haben, hier das erste nochmal,
 
 0:16:30.460,0:16:36.550
-hier das zweite noch mal und in X auch genau
-diese beiden Objekte/ diese beiden Elemente, dann
+hier das zweite nochmal und in X auch genau
+diese beiden Objekte/diese beiden Elemente, dann
 
 0:16:36.550,0:16:44.530
 und genau dann sind das Lösungen dieser Anfrage.
@@ -639,7 +639,7 @@ Und diese drei Forderungen zusammen lassen L schon
 mal mindestens 3 Elemente enthalten.
 
 0:17:33.460,0:17:38.350
-Während, wenn man hier den letzten Wegfall lassen würde,
+Während, wenn man hier den letzten wegfallen lassen würde,
 wenn wir nur diese Anfrage stellen würden,
 
 0:17:38.350,0:17:46.420
@@ -679,7 +679,7 @@ auf vorhandene Prädikate. Also ein Beispiel hier:
 Ich würde gern ausdrücken, dass zwischen einem Element und
 
 0:18:46.090,0:18:53.380
-zwei Listen die Beziehungen bestehen, dass wenn
+zwei Listen die Beziehung besteht, dass wenn
 man X an irgendeiner Stelle in die Liste L einfügt,
 
 0:18:53.380,0:19:01.210
@@ -700,7 +700,7 @@ wie man X in L irgendwo einfügen kann und welches R dabei
 
 0:19:24.730,0:19:30.970
 entsteht als Resultatliste. Das könnte ich irgendwie
-versuchen, rekursiv zum Beispiel zu berechnen.
+zum Beispiel rekursiv zu berechnen versuchen.
 
 0:19:30.970,0:19:35.560
 Mir einen Algorithmus überlegen. Mir ein Vorgehen
@@ -743,11 +743,11 @@ Dann erhalte ich irgendeine Liste Y. Die enthält
 dann alle Elemente aus U. Dann das X. Und dann ist Schluss.
 
 0:20:35.290,0:20:42.970
-Und dann hänge ich an diese Liste, an diese Y-Liste,
-noch die zweite Hälfte sozusagen oder den zweiten Teil von L an.
+Und dann hänge ich an diese Y-Liste
+noch die zweite Hälfte sozusagen oder den zweiten Teil von L an,
 
 0:20:42.970,0:20:50.860
-Um insgesamt R zu erhalten. Und das würde mir
+um insgesamt R zu erhalten. Und das würde mir
 tatsächlich genau dieses Verhalten geben, dass ich X an
 
 0:20:50.860,0:20:59.440
@@ -815,7 +815,7 @@ erschöpfend behandelt sozusagen. Und man fragt sich dann noch,
 was denn auf nicht leeren Listen ist?
 
 0:22:42.565,0:22:46.030
-Was zeichnet nichtleere Listen aus? Nicht leere Listen zeichnen aus,
+Was zeichnet nichtleere Listen aus? Nichtleere Listen zeichnet aus,
 dass sie mit irgendwas beginnen und dann einen Rest haben.
 
 0:22:46.030,0:22:53.180
@@ -828,10 +828,10 @@ zerlegen in sein erstes Element und den Rest.
 
 0:22:59.090,0:23:06.800
 Das kann ich ausdrücken, indem ich sage, nichtleere Listen L
-lassen sich ja darstellen als die Aneinanderhängung irgend
+lassen sich ja darstellen als die Aneinanderhängung irgendeiner
 
 0:23:06.800,0:23:14.930
-einer einelementigen Liste und einer weiteren Liste.
+einelementigen Liste und einer weiteren Liste.
 Was ich implizit mit diesem Aufruf hier erreiche, ist,
 
 0:23:14.930,0:23:22.670
@@ -852,10 +852,10 @@ Liste L entnommen habe, das ich hier abgespalten habe,
 
 0:23:42.950,0:23:49.760
 wieder in die permutierte Restliste einzufügen.
-Dafür können wir unser insert-Prädikat/ unser Einfüge-Prädikat benutzen,
+Dafür können wir unser insert-Prädikatt benutzen,
 
 0:23:49.760,0:23:58.460
-das ich hier oben nicht rekursiv definiert hatte.
+das ich hier oben nichtrekursiv definiert hatte.
 Also von der Liste L, die nicht leer ist, sondern zerlegbar in X und Rest,
 
 0:23:58.460,0:24:05.450

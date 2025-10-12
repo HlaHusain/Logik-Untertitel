@@ -74,8 +74,8 @@ y mit diesem Quantor und z, hier fett gedruckt,
 als freie Variable.
 
 0:01:25.760,0:01:34.220
-Bei (b) haben wir: Es existiert ein x, sodass
-ein y existiert, sodass gilt P(x) oder Q(y)
+Bei (b) haben wir: Es existiert ein x, so dass
+ein y existiert, so dass gilt: P(x) oder Q(y)
 
 0:01:34.220,0:01:37.100
 und für alle x gilt R(y,x).
@@ -92,7 +92,7 @@ Das heißt, wir haben einmal in diesem Teil
 das x, was durch diesen Quantor gebunden wird
 
 0:01:51.751,0:01:54.630
-und das y, was durch diesen Quantor gebunden
+und das y, das durch diesen Quantor gebunden
 wird.
 
 0:01:54.630,0:01:59.110
@@ -147,7 +147,7 @@ frei.
 Nun zu (c).
 
 0:02:43.450,0:02:52.080
-Es existiert ein x, sodass gilt, für alle
+Es existiert ein x, so dass gilt, für alle
 y gilt P(x) und für alle x gilt R(x,y).
 
 0:02:52.080,0:02:56.050
@@ -214,7 +214,7 @@ Quantor gebunden und das y ist frei.
 
 0:03:52.220,0:04:01.870
 Und bei Aufgabe (d) haben wir: Für alle x
-gilt, es existiert ein y, sodass P(x) oder
+gilt, es existiert ein y, so dass P(x) oder
 
 0:04:01.870,0:04:06.819
 Q(y) und für alle z gilt R(x,z).
@@ -243,10 +243,10 @@ Diese hier bezieht sich auf diese.
 
 0:04:24.139,0:04:33.500
 Das heißt, die erste Klammer hier, also diese
-hier, sodass wir bereits sehen, alles hier
+hier, so dass wir bereits sehen, alles hier
 
 0:04:33.500,0:04:38.330
-ist geklammert und jedes x, was darin vorkommt,
+ist geklammert und jedes x, das darin vorkommt,
 wird von diesem Quantor gebunden.
 
 0:04:38.330,0:04:41.560

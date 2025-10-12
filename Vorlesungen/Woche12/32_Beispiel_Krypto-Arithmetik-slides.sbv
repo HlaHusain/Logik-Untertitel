@@ -35,7 +35,7 @@ ersetzt werden. Und natürlich soll das, was hier
 jeweils sowohl in den Zeilen als auch in
 
 0:01:00.280,0:01:05.719
-den Spalten als Rechnungen/ als Gleichungen steht,
+den Spalten als Gleichungen steht,
 erfüllt sein für eine passende Belegung.
 
 0:01:05.719,0:01:10.550
@@ -195,7 +195,7 @@ aus ihrer Zifferndarstellung erreichen.
 Dann müssten wir einfach überprüfen, ob
 
 0:05:15.880,0:05:20.120
-Denn tatsächlich gilt diese Gleichheit.
+denn tatsächlich diese Gleichheit gilt.
 Also den linken Teil ausrechnen. Die rechte Zahl
 
 0:05:20.120,0:05:23.960
@@ -416,7 +416,7 @@ konkreten Fall sind das eben die vier und die sieben,
 
 0:10:49.589,0:10:54.990
 die nicht gebraucht werden für diese Lösung.
-Was wir auch sehen, ist, dass (glücklicherweise könnte man sagen)
+Was wir auch sehen, ist, dass (glücklicherweise, könnte man sagen)
 
 0:10:54.990,0:10:59.820
 jetzt nicht irgendwie die Null für eine erste Ziffer
@@ -488,7 +488,7 @@ prinzipiell lösen. Also auch Sudoku kann man auf
 
 0:12:36.060,0:12:40.790
 ähnliche Weise letztlich ausdrücken in Prolog.
-Da dauert die Suche nur etwas länger, wahrscheinlich, weil
+Da dauert die Suche nur etwas länger, wahrscheinlich weil
 
 0:12:40.790,0:12:45.330
 Sudokus größer sind und sehr viel mehr Wahlen

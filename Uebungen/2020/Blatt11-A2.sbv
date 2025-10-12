@@ -1,6 +1,6 @@
 0:00:01.564,0:00:06.240
 Bei Aufgabe 2 haben wir eine prädikatenlogische
-Aussage gegeben, die gleiche aus der Vorlesung,
+Aussage gegeben, die gleiche aus der Vorlesung.
 
 0:00:06.240,0:00:14.520
 Für alle x gilt nicht M(x), x impliziert
@@ -196,10 +196,10 @@ Wenn wir die Implikation in der Aussage in eine
 
 0:05:00.660,0:05:06.360
 Disjunktion umschreiben, dann erhält man
-folgendes: F ist gleich für alle x gilt,
+folgendes: F ist gleich "für alle x gilt,
 
 0:05:06.360,0:05:13.140
-M(x,x) oder M(k,x). Das können wir uns auch
+M(x,x) oder M(k,x)". Das können wir uns auch
 noch einmal anschauen. Hier ist die Aussage.
 
 0:05:14.760,0:05:19.020

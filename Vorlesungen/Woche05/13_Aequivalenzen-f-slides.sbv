@@ -1,10 +1,10 @@
 0:00:02.020,0:00:08.430
 Angenommen, wir haben eine Formel und möchten
-sie in eine äquivalente Formel in KNF umformen.
+sie in eine äquivalente Formel in KNF umformen
 
 0:00:08.430,0:00:14.030
-Oder so eine Formel finden. Ich hatte im vorigen Video
-ein Theorem zitiert, das das immer geht. Dass es immer
+bzw. so eine Formel finden. Ich hatte im vorigen Video
+ein Theorem zitiert, dass dies immer geht. Dass es immer
 
 0:00:14.030,0:00:19.080
 eine äquivalente Formel gibt. Wie könnten wir
@@ -43,10 +43,10 @@ kommt ein Ergebnis raus. Und die Aufgabenstellung
 
 0:01:01.440,0:01:07.469
 sagt: Vereinfachen Sie das Ergebnis. Das tun Sie
-dann. Dann gucken Sie sich den Term an. Vereinfachen
+dann. Dann gucken Sie sich den Term an. Sie vereinfachen
 
 0:01:07.469,0:01:14.310
-Sie ihn nach irgendwelchen Regeln. Summanden zusammenfassen.
+ihn nach irgendwelchen Regeln. Summanden zusammenfassen.
 Ausmultiplizieren. Ausklammern. Vielleicht Summanden
 
 0:01:14.310,0:01:20.049
@@ -82,11 +82,11 @@ Davon kann es mehrere geben. Das entspricht den
 Zeilen in Wahrheitstafeln. Und wenn zwei Formeln
 
 0:01:59.770,0:02:04.460
-für jede Belegung den gleichen Wert ergeben, (man könnte
+für jede Belegung den gleichen Wert ergeben (man könnte
 auch sagen: Wenn sie die gleichen Wahrheitstafeln
 
 0:02:04.460,0:02:10.880
-haben. Dass die Ergebnisspalte der Wahrheitstafel in jeder
+haben; dass die Ergebnisspalte der Wahrheitstafel in jeder
 Zeile gleich ist für F und G), dann sind sie äquivalent.
 
 0:02:10.880,0:02:20.850
@@ -99,11 +99,11 @@ haben werden. Die werden wir gleich auflisten, was
 
 0:02:27.970,0:02:33.280
 da erlaubt ist. Hier oben sehen Sie schon mal so
-eine Anwendung. Wir dürfen so etwas immer im Kontext
+eine Anwendung. Wir dürfen so etwas immer in Kontext
 
 0:02:33.280,0:02:38.100
 verwenden. Also wenn wir solch eine Äquivalenz
-kennen, (wissen, dass die gilt), dann dürfen
+kennen (wenn wir wissen, dass diese gilt), dann dürfen
 
 0:02:38.100,0:02:43.280
 wir sie auch in einer größeren Formel
@@ -127,7 +127,7 @@ ausgeführt werden. Wie zum Beispiel das hier
 
 0:03:03.320,0:03:11.870
 der Fall war. Was ich jetzt noch machen werde in diesem
-Video, ist Ihnen einen Katalog solcher
+Video, ist, Ihnen einen Katalog solcher
 
 0:03:11.870,0:03:17.870
 Äquivalenzen anzugeben. Ich werde jeweils kurz etwas
@@ -183,7 +183,7 @@ Dann gibt es das aus der Schule bekannte
 
 0:04:39.949,0:04:45.949
 Kommutativitätsgesetz. Das kennen Sie da für
-die Addition und Multiplikation. Also es stimmt
+die Addition und Multiplikation. Also es stimmt,
 
 0:04:45.949,0:04:51.979
 dass 5 × 7 = 7 × 5 ist. Das gilt nicht nur für
@@ -206,15 +206,15 @@ auch noch an die Assoziativität. Das war die Regel,
 dass wenn wir drei Summanden haben, z. B. fünf, drei und
 
 0:05:17.379,0:05:22.970
-sieben, dann ist es egal, ob wir erst 5 + 3 rechnen und dann
-das Ergebnis + 7 oder ob wir erst sozusagen von hinten
+sieben, es dann egal ist, ob wir erst 5 + 3 rechnen und dann
+das Ergebnis + 7, oder ob wir erst sozusagen von hinten
 
 0:05:22.970,0:05:32.559
 3 + 7 rechnen und dann 5 + jenes Ergebnis. In beiden
 Fällen kommt 15 heraus, weil die Reihenfolge des Zusammenfassens egal ist.
 
 0:05:32.559,0:05:39.040
-Das Gleiche gilt für die Konjunktion und Disjunktion.
+Das Gleiche gilt für die Konjunktion und für di Disjunktion.
 Also ist es egal, ob ich (F ∧ G) bilde und dann vom
 
 0:05:39.040,0:05:43.889
@@ -243,11 +243,11 @@ tun. Ich habe es intuitiv an der Stelle getan, aber formal
 
 0:06:12.129,0:06:18.080
 durfte ich das tun, weil sowieso die Konjunktion assoziativ
-ist. Also spielt diese Reihenfolge der Klammern gar keine
+ist, also diese Reihenfolge der Klammern gar keine
 
 0:06:18.080,0:06:21.919
-Rolle. Oder die Reihenfolge des Zusammenfassens
-durch Klammern spielt keine Rolle. Es geht nur
+Rolle spielt, oder die Reihenfolge des Zusammenfassens
+durch Klammern keine Rolle spielt. Es geht nur
 
 0:06:21.919,0:06:33.050
 darum, ((F ∧ G) ∧ H) zu bilden. Das Gleiche gilt für die
@@ -279,7 +279,7 @@ F. Intuitiv, warum ist das so? Entweder ist F wahr.
 
 0:07:14.029,0:07:23.539
 Dann steht hier (wahr ∧ (wahr ∨ G)). Das
-ist insgesamt auf jeden Fall wahr, weil dann ist das G
+ist insgesamt auf jeden Fall wahr, denn dann ist das G
 
 0:07:23.539,0:07:31.139
 irrelevant. Wenn ich hier (wahr ∨ G) habe, dann ist das auf jeden
@@ -294,7 +294,7 @@ hätte, dann würde hier stehen:
 F falsch ist, wissen wir bei der Konjunktion, falsch
 
 0:07:43.360,0:07:49.699
-und etwas anderes ist immer falsch. Das heißt egal,
+und etwas anderes ist immer falsch. Das heißt, egal
 ob F wahr oder falsch ist, hier käme sowieso
 
 0:07:49.699,0:07:54.050
@@ -310,7 +310,7 @@ Das war der erste Teil. Es gibt noch einen zweiten Teil, wo noch
 weitere Regeln auftreten. Und zwar ist die
 
 0:08:13.560,0:08:20.990
-erste wieder eine strukturelle Regel. Im Sinne,
+erste wieder eine strukturelle Regel. In dem Sinne,
 wie es Kommutativität und Assoziativität sind.
 
 0:08:20.990,0:08:25.409
@@ -319,14 +319,14 @@ ein Distributivgesetz aus der Schule. So etwas
 
 0:08:25.409,0:08:33.840
 wie a * (b + c) = a * b + a * c.
-Das gibt es auch für die Konjunktion und Disjunktion.
+Das gibt es auch für Konjunktion und Disjunktion.
 
 0:08:33.840,0:08:44.620
 F und die Disjunktion von G und H ist gleich einer
 Disjunktion, wo einmal (F ∧ G) per Konjunktion
 
 0:08:44.620,0:08:50.760
-kombiniert ist. Und einmal (F ∧ H).
+kombiniert ist und einmal (F ∧ H).
 Also, wenn Sie hier das ∨ durch + ersetzen und das
 
 0:08:50.760,0:08:59.560
@@ -417,7 +417,7 @@ gab es eine kurze Diskussion auf eine studentische Nachfrage
 
 0:11:32.380,0:11:42.110
 hin, für eine ganz konkrete Situation für Aussagen, wo eine
-Konjunktion negiert war. Das hatte was damit zu tun, dass
+Konjunktion negiert war. Das hatte etwas damit zu tun, dass
 
 0:11:42.110,0:11:48.760
 nicht beide lügen. Was das denn bedeutet.
@@ -449,7 +449,7 @@ das das Gleiche wie die Disjunktion der negierten
 
 0:12:25.840,0:12:33.820
 Teilformeln. Und auch dies gilt wieder dual. Wenn ich eine Disjunktion
-negieren, dann entspricht das der Konjunktion der
+negiere, dann entspricht das der Konjunktion der
 
 0:12:33.820,0:12:40.320
 negierten Teilformeln. Diese de Morganschen Regeln werden
@@ -569,10 +569,10 @@ Da wird das G wieder dominiert. Es bliebe einfach nur
 
 0:15:36.590,0:15:42.260
 noch F als Formel über. Die semantischen Regeln
-sind wichtig, aber nicht für die Umformung.
+sind wichtig, aber nicht für die Umformung
 
 0:15:42.260,0:15:48.480
-von KNF oder DNF bzw. in KNF- oder DNF-Form.
+von KNF oder DNF bzw. in KNF oder DNF.
 Da werden wir rein strukturell, syntaktisch
 
 0:15:48.480,0:15:53.690

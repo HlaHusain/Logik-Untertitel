@@ -4,7 +4,7 @@ bzw. haben das gerade begonnen. In der
 
 0:00:07.910,0:00:13.340
 ursprünglichen Übersicht von Themen war
-schon etwas dazu gesagt, dass wir uns mit der Syntax
+schon etwas dazu gesagt, dass wir uns mit Syntax
 
 0:00:13.340,0:00:17.220
 und Semantik beschäftigen werden. Zunächst werden wir
@@ -76,7 +76,7 @@ sondern die Frage ist auch, ob man diesen Grad
 
 0:01:47.070,0:01:53.170
 der Gültigkeit oder der Erfüllbarkeit einer
-Formel überprüfen kann, mit Algorithmen. Informatik,
+Formel überprüfen kann, mit Algorithmen. Informatisch,
 
 0:01:53.170,0:01:59.460
 mit Verfahren, die systematisch solche Aussagen
@@ -103,7 +103,7 @@ Strategien und die Lösung des Einstein-Rätsels
 in Erinnerung gerufen hatte,
 
 0:02:33.930,0:02:39.290
-und die jeweils durch eine Formel ausgedrückt wurden. Da hatten
+und wo ich die jeweils durch eine Formel ausgedrückt hatte. Da hatten
 wir schon gesehen, dass wir mit sogenannten atomaren
 
 0:02:39.290,0:02:45.110
@@ -327,7 +327,7 @@ eine Disjunktion, wegen diesem Symbol ∨, von zwei Teilen.
 
 0:08:13.749,0:08:21.350
 Nämlich rechts einer Elementaraussage, einer elementaren
-Formel und links der Negation von wiederum einer
+Formel, und links der Negation von wiederum einer
 
 0:08:21.350,0:08:31.610
 solchen elementaren Aussage. Jede Formel entspricht einem
@@ -383,10 +383,10 @@ einfach Abkürzungen sind.
 
 0:09:39.820,0:09:44.920
 Wir werden zwar Implikation wie
-auch in den Beispielen verwenden. Auch konkret
+auch in den Beispielen verwenden, auch konkret
 
 0:09:44.920,0:09:52.441
-verwenden wir in weiteren Teilen der Vorlesung.
+in weiteren Teilen der Vorlesung.
 Aber formal würde es für die Syntax reichen,
 
 0:09:52.441,0:09:59.690
@@ -434,7 +434,7 @@ die Teilformeln davon sind. Und das sind Ausschnitte
 aus der Formel. Einfach ein Teil davon gelesen. Aber die
 
 0:10:53.230,0:10:58.649
-müssen selbst wohl aufgebaut sein. In dem Sinne,
+müssen selbst wohlaufgebaut sein. In dem Sinne,
 dass sie selbst auch nach den gleichen Schritten
 
 0:10:58.649,0:11:08.980
@@ -443,14 +443,14 @@ das als unsere Formel hätten, dann wären mögliche
 
 0:11:08.980,0:11:14.760
 Teilformeln einfach Ausschnitte daraus, die
-selber auch wieder wohl aufgebaut sind. Also
+selber auch wieder wohlaufgebaute Formeln sind. Also
 
 0:11:14.760,0:11:20.639
-¬A ist eine wohl aufgebaute Formel und taucht
+¬A ist eine wohlaufgebaute Formel und taucht
 hier drin auf. Also wäre es eine Teilformel dieser Gesamtformel.
 
 0:11:20.639,0:11:28.730
-(¬A ∨ B) ist selbst eine wohl aufgebaute
+(¬A ∨ B) ist selbst eine wohlaufgebaute
 Formel. Die ließe sich mit diesen Regeln erzeugen,
 
 0:11:28.730,0:11:34.600
@@ -463,11 +463,11 @@ konkreten Formel. Andererseits kann es auch Ausschnitte geben,
 
 0:11:39.940,0:11:45.310
 die selbst keine Teilformel sind, weil sie
-nicht wohl aufgebaut sind. Wenn wir einfach mal aus der Formel,
+nicht wohlaufgebaut sind. Wenn wir einfach mal aus der Formel,
 
 0:11:45.310,0:11:53.639
 die wir hier oben haben, dieses Stück herausgreifen,
-dann ist das keine wohl aufgebaute Formel. Dieses Stück
+dann ist das keine wohlaufgebaute Formel. Dieses Stück
 
 0:11:53.639,0:11:59.519
 "B) ∧ C" kann man nicht nach diesen Regeln
@@ -505,8 +505,8 @@ Blattknoten hier wäre der Teilbaum, der dort
 steht, einfach der Blattknoten selber. Und dann
 
 0:12:50.890,0:12:56.889
-ist das eine Teilformel. A4 ist eine Teilformel,
-der hier insgesamt gesehen Formel, weil es ein
+ist das eine Teilformel. A4 ist eine Teilformel
+der hier insgesamt gesehenen Formel, weil es ein
 
 0:12:56.889,0:13:02.980
 Teilbaum ist. Da können wir jetzt jeden Knoten einfach durchgehen
@@ -550,7 +550,7 @@ mehrfach auftauchen. Stellen wir uns vor, an dieser
 
 0:13:57.279,0:14:01.610
 Stelle A3 stünde in der Ursprungsformel auch A1.
-Das wäre auch eine wohl aufgebaute Formel. Dann würden wir hier
+Das wäre auch eine wohlaufgebaute Formel. Dann würden wir hier
 
 0:14:01.610,0:14:10.930
 2 mal A1 und A1 zählen. Aber wir können keine Teilformel dabei
@@ -566,7 +566,7 @@ wieder schwarz markieren. Das muss immer der gesamte Ausschnitt
 
 0:14:21.980,0:14:30.620
 sein. Das wäre im Schnelldurchlauf die
-Syntax. Wie gesagt, mit nur den drei Operationen.
+Syntax. Wie gesagt, mit nur den drei Operationen
 
 0:14:30.620,0:14:36.029
 hier. Wir werden noch weitere Operationen haben. Das
