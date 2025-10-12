@@ -319,7 +319,7 @@ da nach der Permutation rauskommt, sortiert ist.
 Das kann man tatsächlich so hinschreiben in Prolog.
 
 0:08:41.760,0:08:47.700
-Wir haben an anderer Stelle ja auch schon einfach Forderungen in Queries/Anfragen
+Wir haben an anderer Stelle ja auch schon einfach Forderungen in Anfragen
 oder eben in Prädikaten hingeschrieben und Prolog dann nach Lösungen
 
 0:08:47.700,0:08:55.830
@@ -564,7 +564,7 @@ festhalten, was überhaupt die möglichen Augenzahlen sind.
 
 0:15:25.420,0:15:34.450
 Hier steht nur Würfeln. Ich meine einen W6. Also, es gibt die Ergebnisse
-[1,2,3,4,5,6]. Da kann ich sagen, das ist sozusagen eine Komponente meines Suchraums.
+[1,2,3,4,5,6]. Da kann ich sagen, das ist eine Komponente meines Suchraums.
 
 0:15:34.450,0:15:42.040
 Das ist nicht direkt der Suchraum. Es gibt ja nicht
