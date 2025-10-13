@@ -19,44 +19,44 @@ ersten Parameters ohne das Element des zweiten
 Parameters. Bei der Listenverarbeitung im Prolog
 
 0:00:23.880,0:00:28.440
-gibt es ein generelles Schema, mit dem man bei
-vielen dieser Aufgaben vorgehen kann. Man kann
+gibt es ein generelles Schema, mit dem bei
+vielen dieser Aufgaben vorgegangen werden kann. Es kann
 
 0:00:28.440,0:00:33.780
-mittels Rekursion die Liste elementweise abbauen,
+mittels Rekursion die Liste elementweise abgebaut werden,
 bis sie zum Beispiel leer ist oder ein-elementig.
 
 0:00:33.780,0:00:39.120
 Und dann einen Basisfall als Fakt konstruieren,
-sodass man damit die Rekursionen auflösen und
+sodass damit die Rekursionen aufgelöst und
 
 0:00:39.120,0:00:43.320
-beenden kann. Dabei ist es vor allem wichtig,
-dass man auf das Head-Element zugreifen kann,
+beendet werden können. Dabei ist es vor allem wichtig,
+dass auf das Head-Element zugegriffen werden kann,
 
 0:00:43.320,0:00:47.400
-denn damit macht man zumeist irgendetwas. Das
-benutzt man dann für eine irgendeine Semantik,
+denn damit wird zumeist irgendetwas gemacht. Das
+wird dann für eine irgendeine Semantik benutzt,
 
 0:00:47.400,0:00:51.420
 für eine Abarbeitung, Vergleiche oder
 Ähnliches. Dann, im nächsten Schritt,
 
 0:00:51.420,0:00:56.640
-macht man einen rekursiven Aufruf mit dem Rest
-der Liste. Dann kann man das gleiche Konzept auf
+wird ein rekursiver Aufruf mit dem Rest
+der Liste gemacht. Dann kann das gleiche Konzept auf
 
 0:00:56.640,0:01:01.920
-die verkleinerte Liste anwenden. Und das macht
-man so lange, bis man keine weiteren rekursiven
+die verkleinerte Liste angewendet werden. Und das wird
+so lange gemacht, bis keine weiteren rekursiven
 
 0:01:01.920,0:01:06.120
-Schritte durchführen kann. Um auf das Head-Element
+Schritte durchgeführt werden können. Um auf das Head-Element
 von einer bestehenden Liste zuzugreifen,
 
 0:01:06.120,0:01:11.640
-kann man zum Beispiel das built-in-Prädikat append
-benutzen. Append ist ein dreistelliges Prädikat,
+kann zum Beispiel das built-in-Prädikat append
+benutzt werden. Append ist ein dreistelliges Prädikat,
 
 0:01:11.640,0:01:17.580
 das eine Liste bekommt, eine zweite Liste und als
@@ -64,15 +64,15 @@ dritten Parameter die konkatenierte Liste, also
 
 0:01:17.580,0:01:21.720
 die zusammengefügte Liste von beiden hat. Wenn
-man sich zum Beispiel hier die Aufgabe anschaut,
+hier zum Beispiel die Aufgabe angeschaut wird,
 
 0:01:21.720,0:01:26.940
-dann kann man die Liste, die wir bereits
-haben, als die Ergebnisliste betrachten und
+dann kann die Liste, die wir bereits
+haben, als die Ergebnisliste und
 
 0:01:26.940,0:01:33.420
-Head entsprechend als den ersten Teil, die erste
-Liste. Und Tail als den zweiten Teil der Liste.
+Head entsprechend als der erste Teil, die erste
+Liste, betrachtet werden. Und Tail als den zweiten Teil der Liste.
 
 0:01:33.420,0:01:40.560
 Sodass wir dann auf das Prädikat append, Head,
@@ -87,8 +87,8 @@ Liste. Deswegen müssen wir beim ersten Parameter
 Head entsprechend in die eckigen Klammern setzen,
 
 0:01:50.760,0:01:55.320
-damit wir daraus eine Liste bekommen. Wenn man
-jetzt die Beispielanfrage von hier oben sieht,
+damit wir daraus eine Liste bekommen. Wenn
+jetzt die Beispielanfrage von hier oben gesehen wird,
 
 0:01:55.320,0:02:00.540
 würde das so aussehen, dass wir append a in
@@ -211,12 +211,12 @@ wird und in dem vollständigen Resolutionsbaum eben
 das auch als eine mögliche Lösung erscheint. Das
 
 0:04:38.340,0:04:42.600
-könnte man dann unter Umständen auch durch das
-Backtracking herausbekommen. Was man auf der
+könnte dann unter Umständen auch durch das
+Backtracking herausbekommen werden. Was auf der
 
 0:04:42.600,0:04:47.040
 Anfrageebene durch das Drücken der Semikolontaste
-erzwingen könnte. Der nächste Schritt ist,
+erzwungen werden könnte. Der nächste Schritt ist,
 
 0:04:47.040,0:04:52.380
 dass wir die Rekursion mit der Restliste machen,
@@ -239,8 +239,8 @@ können. Und das Letzte, was wir uns überlegen
 müssen, ist der Basisfall. Also in dem Fall,
 
 0:05:12.480,0:05:17.220
-dass die Liste abgebaut ist. Da kann man sich
-ganz gut überlegen, was passiert mit einer Liste,
+dass die Liste abgebaut ist. Da kann
+ganz gut überlegt werden, was passiert mit einer Liste,
 
 0:05:17.220,0:05:21.300
 unabhängig davon, welches Element wir aus einer
@@ -264,7 +264,7 @@ eigentlich immer, diesen Basisfakt als
 
 0:05:39.540,0:05:43.500
 erstes in die Regelbasis einzupflegen,
-damit man auch immer gewährleisten kann,
+damit auch immer gewährleistet werden kann,
 
 0:05:43.500,0:05:48.540
 dass die Rekursion nicht ins Unendliche läuft.
@@ -280,14 +280,14 @@ der aus der Vorlesung bekannten built-in-Prädikate
 
 0:05:59.870,0:06:04.920
 insert, not und member. Die Idee dabei ist, dass
-man jetzt zwei Fälle betrachtet. Beim ersten Fall
+jetzt zwei Fälle betrachtet werden. Beim ersten Fall
 
 0:06:04.920,0:06:10.020
-kann man sich vorstellen, dass, wenn die Liste
-das zu löschende Element nicht enthält, ist man
+kann sich vorgestellt werden, dass, wenn die Liste
+das zu löschende Element nicht enthält, alles
 
 0:06:10.020,0:06:14.880
-schon fertig. Das können wir so modellieren, dass
+schon erledigt ist. Das können wir so modellieren, dass
 wir das without-Prädikat auf die Art modellieren,
 
 0:06:14.880,0:06:20.280
@@ -300,18 +300,18 @@ ein member von Xs ist. Das heißt also,
 
 0:06:26.640,0:06:32.640
 falls X nicht in der Liste Xs vorkommt. Der andere
-Fall ist eigentlich der Rest. Da geht man jetzt
+Fall ist eigentlich der Rest. Da wird jetzt
 
 0:06:32.640,0:06:39.000
-geschickt vor und stellt einfach die erste Liste
+geschickt vorgegangen und einfach die erste Liste
 Xs als Ergebnis einer Einfüge-Operation von X
 
 0:06:39.000,0:06:43.860
-in die um X reduzierte Liste dar. Das kann
-man sich im Prinzip als eine Umkehrung des
+in die um X reduzierte Liste dargestellt. Das kann
+sich im Prinzip als eine Umkehrung des
 
 0:06:43.860,0:06:49.860
-insert-Prädikats vorstellen. Zur Erinnerung:
+insert-Prädikats vorgestellt werden. Zur Erinnerung:
 insert fügt ein Element in eine Liste ein. Bei
 
 0:06:49.860,0:06:55.740

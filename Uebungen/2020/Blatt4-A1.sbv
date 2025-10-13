@@ -44,18 +44,18 @@ nicht B und A übrigbleiben. Die beiden können
 
 0:00:59.360,0:01:03.590
 nicht miteinander kombiniert werden, aber
-man könnte das nicht B und das A mit dem
+das nicht B und das A könnten mit dem
 
 0:01:03.590,0:01:10.289
-ersten kombinieren. Dann kann das nicht B und
+ersten kombiniert werden. Dann kann das nicht B und
 das B eliminiert werden, sodass A übrigbleibt.
 
 0:01:10.289,0:01:16.799
 Jetzt können wir überlegen: Wir haben keine Klausel
-mehr mit nicht A. So könnte man theoretisch
+mehr mit nicht A. So könnte theoretisch
 
 0:01:16.799,0:01:22.289
-das C, das nicht C, zum Beispiel eliminieren.
+das C, das nicht C, zum Beispiel eliminiert werden.
 Ich verwende dafür eine andere Farbe. Hier
 
 0:01:22.289,0:01:27.939
@@ -75,7 +75,7 @@ kann. Das würde sowieso nichts nutzen. Ich
 habe es trotzdem hier aufgeschrieben, da es
 
 0:01:47.270,0:01:51.319
-ein Schritt ist, den man machen könnte. Jetzt
+ein Schritt ist, der gemacht werden könnte. Jetzt
 schauen wir, was wir noch haben: Wir haben
 
 0:01:51.319,0:01:58.340
@@ -92,10 +92,10 @@ Klauseln mehr haben, die noch miteinander
 
 0:02:06.759,0:02:10.170
 verbunden werden könnten, sehen wir, dass
-wir hier nicht weiterkommen. Wenn man nicht
+wir hier nicht weiterkommen. Wenn wir nicht
 
 0:02:10.170,0:02:15.840
-weiterkommt und sich nicht die leere Klausel
+weiterkommen und sich nicht die leere Klausel
 herleiten lässt, dann ist F erfüllbar. Hier
 
 0:02:15.840,0:02:21.329

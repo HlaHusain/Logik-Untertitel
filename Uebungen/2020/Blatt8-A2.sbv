@@ -21,11 +21,11 @@ Listenprädikate verwenden.
 Kurz noch einmal zu dem Generate-and-Test.
 
 0:00:21.860,0:00:27.830
-Da geht es im ersten Schritt darum, dass man
-mögliche Lösungen generiert und im zweiten
+Da geht es im ersten Schritt darum, dass
+mögliche Lösungen generiert werden und im zweiten
 
 0:00:27.830,0:00:29.679
-Schritt die Validität dieser Lösungen überprüft.
+Schritt die Validität dieser Lösungen überprüft wird.
 
 0:00:29.679,0:00:35.970
 Für das Generate gab es aus der Vorlesung
@@ -80,8 +80,8 @@ und C ist 3, D ist 4 und so weiter.
 Mit allen Ersetzungen.
 
 0:01:24.740,0:01:29.450
-Das heißt, man kann dieses Permutationsprädikat
-benutzen, um mögliche Permutationen
+Das heißt, dieses Permutationsprädikat kann
+benutzt werden, um mögliche Permutationen
 
 0:01:29.450,0:01:30.450
 zu generieren.

@@ -44,11 +44,11 @@ Allquantor. Der Allquantor ist aber hier, in dem
 
 0:01:08.940,0:01:16.500
 Fall innerhalb der Klammer vor der Implikation.
-Wenn man das jetzt auflösen würde, rein
+Wenn das jetzt aufgelöst würde, rein
 
 0:01:16.500,0:01:22.200
-gedanklich. Wenn man die Implikationsschreibweise
-auflösen würde, dann kämen nicht dieser oder
+gedanklich. Wenn die Implikationsschreibweise
+aufgelöst würde, dann kämen nicht dieser oder
 
 0:01:22.200,0:01:29.820
 dieser Teil heraus und dann haben wir hier
@@ -59,8 +59,8 @@ Quantor wieder herausziehen, dann klappt der
 um zum Existenzquantor und den Rest des Teils
 
 0:01:35.520,0:01:39.960
-kann man dann wieder in Implikationsschreibweise
-schreiben. Das Gleiche haben wir auch bei (1) und
+kann dann wieder in Implikationsschreibweise
+geschrieben werden. Das Gleiche haben wir auch bei (1) und
 
 0:01:39.960,0:01:45.060
 (4). Hier haben wir auch den Unterschied zwischen
@@ -71,15 +71,15 @@ Existenzquantor in Aussage (4) ist im Gegensatz zu
 Aussage (2) in der Klammer vor der Implikation.
 
 0:01:51.420,0:01:56.340
-Das heißt, wenn man hier gedanklich wieder die
-Implikationsschreibweise auflösen würde, hätte
+Das heißt, wenn hier gedanklich wieder die
+Implikationsschreibweise aufgelöst würde, würde
 
 0:01:56.340,0:02:02.100
-man wieder ein nicht. Zieht man das Ganze heraus,
-kann man den wieder umklappen und den Rest hier
+wieder ein Nicht erhalten werden. Wird das Ganze herausgezogen,
+kann der wieder umgeklappt werden und der Rest hier
 
 0:02:02.100,0:02:07.860
-wieder in Implikationsschreibweise umschreiben.
+wieder in Implikationsschreibweise umgeschrieben werden.
 Dann haben wir Formel (1). Das heißt, wir
 
 0:02:07.860,0:02:12.060
@@ -112,10 +112,10 @@ die beiden Formeln äquivalent miteinander sind.
 
 0:02:41.580,0:02:48.540
 Hierfür schauen wir uns zunächst zur Vereinfachung
-eine kleinere Formel an. Nur damit man ein Mal die
+eine kleinere Formel an. Nur damit ein Mal die
 
 0:02:48.540,0:02:53.760
-Umformungen sieht und das übertragen wir dann
+Umformungen gesehen werden, und das übertragen wir dann
 auf genau diese Formeln. Schauen wir uns also
 
 0:02:53.760,0:02:59.280
@@ -163,8 +163,8 @@ anwenden, dann können wir sagen: Für nicht alle z
 gilt, nicht F, und das in Klammern, impliziert G.
 
 0:04:06.000,0:04:10.860
-Das heißt, wir haben hier vorne dieses nicht,
-was man bei der Implikation dazu bekommt, diese
+Das heißt, wir haben hier vorne dieses Nicht,
+was bei der Implikation dazubekommen wird, diese
 
 0:04:10.860,0:04:16.500
 Negation, die haben wir jetzt ein Mal aufgelöst
@@ -188,10 +188,10 @@ Klammern, impliziert G. Das heißt, wir können
 
 0:04:42.540,0:04:48.720
 gucken, vom ersten Schritt zum letzten und können
-sagen, für alle z gilt F impliziert G, kann man
+sagen, für alle z gilt F impliziert G, kann
 
 0:04:48.720,0:04:56.040
-umformen zu: Es existiert ein z, für das gilt F
+umgeformt werden zu: Es existiert ein z, für das gilt F
 und das impliziert G. Also mit dem Existenzquantor
 
 0:04:56.040,0:05:00.240
@@ -199,12 +199,12 @@ hier herein gezogen vor die Implikation. Hier
 sehen wir den Umformungsschritt. Das funktioniert.
 
 0:05:00.240,0:05:06.960
-Und das Gleiche kann man auch sagen, ganz analog,
+Und das Gleiche kann auch gesagt werden, ganz analog,
 für es existiert z. Also hier ein Existenzquantor,
 
 0:05:06.960,0:05:12.540
 kein Allquantor wie hier oben. Sodass gilt F
-impliziert G. Und das kann man umformen zu:
+impliziert G. Und das kann umgeformt werden zu:
 
 0:05:12.540,0:05:18.660
 Für alle z gilt, F impliziert G. Also diese Formel
@@ -215,8 +215,8 @@ wieder vertauscht. Also genau einmal andersherum. Diese
 Umformungsschritte gelten. Und jetzt schauen wir uns
 
 0:05:22.980,0:05:27.300
-die vereinfacht an. Wenn man die jetzt auf
-unsere Aussagen aus der Aufgabe überträgt,
+die vereinfacht an. Wenn die jetzt auf
+unsere Aussagen aus der Aufgabe übertragen werden,
 
 0:05:27.300,0:05:35.640
 kommen wir einmal zu der Ausgangsformel (1). Das

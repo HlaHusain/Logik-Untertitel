@@ -12,10 +12,10 @@ werden. Das heißt, wenn das A einer 1 entspricht,
 
 0:00:15.201,0:00:19.850
 kann B nicht auch 1 entsprechen. Die Idee
-ist, dass man eine ganz normale Rechenaufgabe
+ist, dass eine ganz normale Rechenaufgabe
 
 0:00:19.850,0:00:24.901
-erhält, hier in diesem Fall eine Summenaufgabe,
+erhalten wird, hier in diesem Fall eine Summenaufgabe,
 und dass diese nach dem Ersetzen der Ziffern auch
 
 0:00:24.901,0:00:30.189
@@ -24,10 +24,10 @@ zur Lösung solcher Aufgaben angewendet werden,
 
 0:00:30.189,0:00:35.870
 welches Generate-and-Test heißt. Bei Generate-and-Test
-geht es darum, dass man im ersten Schritt
+geht es darum, dass im ersten Schritt
 
 0:00:35.870,0:00:40.860
-einen Generator schreibt, der mögliche Lösungen
+ein Generator geschrieben wird, der mögliche Lösungen
 generiert. Im zweiten Schritt werden diese
 
 0:00:40.860,0:00:45.670
@@ -104,11 +104,11 @@ Produkt der Ziffer mal 10⁰. 10⁰ ergibt nämlich
 
 0:02:15.730,0:02:22.400
 die 2, ist die Zehner-Stelle, und das kann
-man darstellen als 2·10¹. Die dritte Stelle,
+dargestellt werden als 2·10¹. Die dritte Stelle,
 
 0:02:22.400,0:02:27.660
 die 4, ist die Hunderter-Stelle. Einhundert
-entspricht 10², also kann man das darstellen
+entspricht 10², also kann das dargestellt werden
 
 0:02:27.660,0:02:36.150
 als 4·10². Wenn wir das Ganze als Variable
@@ -131,19 +131,19 @@ Die erste Zeile ist dann HDGAB, was B·10⁰
 + A ·10¹ + G ·10² + D ·10³ + H ·10⁴
 
 0:03:04.170,0:03:09.440
-entspricht. Und wenn man die Zahlen jeweils
-ausschreibt, ergibt sich dadurch die Zahlendarstellung
+entspricht. Und wenn die Zahlen jeweils
+ausgeschrieben werden, ergibt sich dadurch die Zahlendarstellung
 
 0:03:09.440,0:03:15.170
 von HDGAB. Wir müssen uns jetzt vorstellen,
 dass hinterher die Buchstaben durch die Ziffern
 
 0:03:15.170,0:03:19.170
-ersetzt werden, so kann man dann auch damit
-rechnen. Das Ganze macht man analog für das
+ersetzt werden, so kann dann auch damit
+gerechnet werden. Das Ganze wird analog auch für das
 
 0:03:19.170,0:03:25.989
-IHA und das CFFFE auch, wodurch sich drei
+IHA und das CFFFE gemacht, wodurch sich drei
 Gleichungen ergeben. Wenn wir diese in Prolog
 
 0:03:25.989,0:03:32.030

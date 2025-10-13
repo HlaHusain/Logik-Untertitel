@@ -100,7 +100,7 @@ als Z ist. Aber S von ist schon wichtig, weil Z
 
 0:02:15.300,0:02:19.380
 selber nicht größer als Z ist. Und so könnte
-man darauf kommen, dass die Abbruchbedingung
+darauf gekommen werden, dass die Abbruchbedingung
 
 0:02:19.380,0:02:26.820
 greaterThan S von und dann Unterstrich, Z sein
@@ -215,8 +215,8 @@ der rechte Teil muss Null sein und der Teil
 davor, S von Z ist größer als Z, stimmt.
 
 0:05:05.040,0:05:11.280
-Theoretisch könnte man jetzt meinen, man schreibt
-die Abbruchbedingung genau so. Aber dieses S von
+Theoretisch könnte jetzt gemeint werden, die Abbruchbedingung wird
+genau so geschrieben. Aber dieses S von
 
 0:05:11.280,0:05:17.280
 S von Z ist auch größer als Z. Und wenn das hier
