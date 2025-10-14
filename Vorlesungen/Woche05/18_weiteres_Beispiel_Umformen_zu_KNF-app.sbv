@@ -111,12 +111,12 @@ Jetzt haben wir hier so eine dreifache Konjunktion, die noch
 durch Klammern getrennt ist, aber zwei davon sind ausgezeichnet.
 
 0:03:14.680,0:03:21.610
-Also jetzt könnte man sagen, man möge dieses ∨ über dieses
-eine ∧ ziehen. Aber geschickter und schneller ist es, wenn man
+Also jetzt könnte gesagt werden, dieses ∨ möge über dieses
+eine ∧ gezogen werden. Aber geschickter und schneller ist es, wenn
 
 0:03:21.610,0:03:33.460
-die Klammern, die hier stehen, ignoriert. Das darf
-man, weil die Konjunktion ja assoziativ ist. Und dann
+die Klammern, die hier stehen, ignoriert werden. Das darf
+so gemacht werden, weil die Konjunktion ja assoziativ ist. Und dann
 
 0:03:33.460,0:03:43.450
 kann ich eben dieses ∨ direkt über die gesamte
@@ -143,8 +143,8 @@ Und-verknüpfe ich mit etwas anderem, dann kann ich
 sie auch einfach verschwinden lassen. Das heißt, das
 
 0:04:30.290,0:04:36.800
-kann man raustreichen. Nicht, weil es falsch ist,
-sondern weil man vereinfachen kann unter Verwendung einer
+kann rausgestrichen werden. Nicht, weil es falsch ist,
+sondern weil vereinfacht werden kann unter Verwendung einer
 
 0:04:36.800,0:04:48.590
 der Umformungsregeln. Nämlich der Tautologieregel. Und

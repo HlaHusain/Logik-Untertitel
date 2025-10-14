@@ -155,11 +155,11 @@ anwenden, wo wir diese äußere Disjunktion über
 die innere Konjunktion ziehen können. Und wie
 
 0:05:08.490,0:05:16.410
-war das? Da nimmt man einfach jeden der Partner
-aus der Konjunktion und disjungiert ihn jeweils
+war das? Da wird einfach jeder der Partner
+aus der Konjunktion genommen und jeweils
 
 0:05:16.410,0:05:29.790
-mit dem Kontext. Wir kriegen einmal: (A4 ∨
+mit dem Kontext disjungiert. Wir kriegen einmal: (A4 ∨
 ¬A3). Dann kriegen wir ein ∧. Das ist dieses ∧.
 
 0:05:29.790,0:05:38.520

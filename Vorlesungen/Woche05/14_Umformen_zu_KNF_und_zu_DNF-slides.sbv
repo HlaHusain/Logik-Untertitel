@@ -68,7 +68,7 @@ wird sagen, wie das geht. Der besteht aus
 
 0:01:45.480,0:01:51.750
 mehreren Schritten. Sieben denke ich oder acht, wenn
-man den ersten bzw. nullten Schritt mitzählt. Denn
+der erste bzw. nullte Schritt mitgezählt wird. Denn
 
 0:01:51.750,0:01:59.190
 zunächst müssen wir uns erst einmal fragen, was kommen denn
@@ -112,7 +112,7 @@ letzte Woche, als wir uns Wahrheitstabellen für
 
 0:02:58.560,0:03:03.330
 die Biimplikation angeschaut haben. Und wenn das nicht
-da stand, kann man sich das auch leicht herleiten, dass
+dastand, kann das auch leicht hergeleitet werden, dass
 
 0:03:03.330,0:03:15.780
 (A <=> B) äquivalent ist zu (A ∧ B) ∨ (¬A
@@ -508,7 +508,7 @@ auftaucht, zum Beispiel so etwas wie (A ∨ ¬A)
 
 0:13:46.910,0:13:58.190
 enthält. Wir wissen, (A ∨ ¬A) ist eine Tautologie und
-die kann man mit einer der Tautologieregeln entfernen.
+die kann mit einer der Tautologieregeln entfernt werden.
 
 0:13:58.190,0:14:03.710
 Tautologie und irgendeine Formel ist immer diese

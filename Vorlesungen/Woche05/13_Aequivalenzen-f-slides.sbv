@@ -71,10 +71,10 @@ auch noch eine Schreibweise. Wir hatten gesagt:
 
 0:01:41.399,0:01:47.649
 sie zum gleichen Wahrheitswert auswerten.“ Also
-man muss die atomaren Formeln, die in F und
+müssen die atomaren Formeln, die in F und
 
 0:01:47.649,0:01:54.170
-G vorkommen, belegen. Dafür gibt
+G vorkommen, belegt werden. Dafür gibt
 es diesen Begriff der Belegung α.
 
 0:01:54.170,0:01:59.770
@@ -82,15 +82,15 @@ Davon kann es mehrere geben. Das entspricht den
 Zeilen in Wahrheitstafeln. Und wenn zwei Formeln
 
 0:01:59.770,0:02:04.460
-für jede Belegung den gleichen Wert ergeben (man könnte
-auch sagen: Wenn sie die gleichen Wahrheitstafeln
+für jede Belegung den gleichen Wert ergeben (es könnte
+auch gesagt werden: Wenn sie die gleichen Wahrheitstafeln
 
 0:02:04.460,0:02:10.880
 haben; dass die Ergebnisspalte der Wahrheitstafel in jeder
 Zeile gleich ist für F und G), dann sind sie äquivalent.
 
 0:02:10.880,0:02:20.850
-Und man schreibt das in dieser Form. Mit
+Und das wird in dieser Form geschrieben. Mit
 diesem dreifachen ≡. Wichtig hierbei ist, dass
 
 0:02:20.850,0:02:27.970
@@ -262,7 +262,7 @@ zutreffend ist. Und zwar die sogenannte Absorption. Wir
 können uns einfach mal die erste Zeile anschauen. Die zweite
 
 0:06:45.289,0:06:51.009
-ist völlig dual. Man tauscht einfach Konjunktion und Disjunktion.
+ist völlig dual. Es werden einfach Konjunktion und Disjunktion vertauscht.
 So wie ich das hier oben auch jeweils durch Ersetzungen
 
 0:06:51.009,0:06:58.139
@@ -299,10 +299,10 @@ egal ob F wahr oder falsch ist, hier käme sowieso
 
 0:07:49.699,0:07:54.050
 immer der gleiche Wert von F heraus. Dann kann
-man auch diesen komplexeren Ausdruck durch
+auch dieser komplexere Ausdruck durch
 
 0:07:54.050,0:08:06.240
-Absorption vereinfachen und einfach direkt nur mit F arbeiten.
+Absorption vereinfacht und einfach direkt nur mit F gearbeitet werden.
 Und das Argument für die Zeile hier unten ist ganz analog.
 
 0:08:06.240,0:08:13.560
@@ -335,10 +335,10 @@ wenn Sie hier das ∨ durch + ersetzen und das
 
 0:08:59.560,0:09:07.650
 Interessant ist hier, dass auch diese Distributivität
-noch funktioniert, wenn man Konjunktion und
+noch funktioniert, wenn Konjunktion und
 
 0:09:07.650,0:09:11.530
-Disjunktion vertauscht. Das ist für die arithmetischen
+Disjunktion vertauscht werden. Das ist für die arithmetischen
 Operationen nicht der Fall. Es stimmt zwar, dass
 
 0:09:11.530,0:09:17.890
@@ -438,8 +438,8 @@ von A und B, von Anne und Bettina. Und das, was dort
 herausgearbeitet wurde, entsprach im Wesentlichen
 
 0:12:06.620,0:12:14.920
-dieser Beobachtung hier. Und das nennt man
-formal die de Morganschen Gesetze. Benannt nach
+dieser Beobachtung hier. Und das wird
+formal die "de Morgan'schen Gesetze" genannt. Benannt nach
 
 0:12:14.920,0:12:20.530
 de Morgan. Jemand, der sich mit dieser Art
@@ -482,8 +482,8 @@ Daneben gibt es noch mehr semantische Regeln. Die
 führe ich auch gleich noch an. Die unterscheiden
 
 0:13:22.000,0:13:25.840
-sich dahingehend, dass man zusätzlich noch etwas
-über die Teilformel wissen muss. Nämlich, ob
+sich dahingehend, dass zusätzlich noch etwas
+über die Teilformel gewusst werden muss. Nämlich, ob
 
 0:13:25.840,0:13:34.730
 Sie gültig oder unerfüllbar sind. Da gibt es zum einen
