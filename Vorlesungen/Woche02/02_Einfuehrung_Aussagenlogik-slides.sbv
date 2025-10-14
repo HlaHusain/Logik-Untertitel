@@ -31,8 +31,8 @@ letztlich auf seinen Namen zurück. Oder
 in vielen Programmiersprachen, Boolesche
 
 0:00:53.190,0:01:00.510
-Daten mit Werten: Wahr oder Falsch. Wenn man Boolean
-in einer Programmiersprache hat, dann geht das auf
+Daten mit Werten: Wahr oder Falsch. Wenn "Boolean"
+in einer Programmiersprache verwendet wird, dann geht das auf
 
 0:01:00.510,0:01:07.920
 George Boole zurück, der sich mit Aussagenlogik
@@ -43,11 +43,11 @@ Elementaraussagen, einfache Aussagen. Wichtig ist,
 dass diese irgendwie (prinzipiell zumindest) einen
 
 0:01:13.410,0:01:17.820
-Wahrheitswert haben können. Also man möchte sich nicht
-mit Aussagen beschäftigen, für die man gar nicht
+Wahrheitswert haben können. Also es soll sich nicht
+mit Aussagen beschäftigen werden, für die gar nicht
 
 0:01:17.820,0:01:23.280
-festlegen könnte, ob sie wahr oder falsch sind. Es geht also
+festgelegt werden könnte, ob sie wahr oder falsch sind. Es geht also
 nicht nur darum, dass Aussagen wahr sein *müssen*. Aber es muss
 
 0:01:23.280,0:01:27.600
@@ -59,16 +59,16 @@ ist. Wenn eine Aussage an sich schon gar nicht wohlgeformt
 ist und es gar nicht vorstellbar ist, ihr einen
 
 0:01:32.820,0:01:38.940
-Wahrheitsgehalt zuzuschreiben, dann könnte man sie
-auch nicht mit der Aussagenlogik behandeln. Typische
+Wahrheitsgehalt zuzuschreiben, dann könnte sie
+auch nicht mit der Aussagenlogik behandelt werden. Typische
 
 0:01:38.940,0:01:44.670
 mögliche Aussagen wären: „Es regnet“, „die Straße ist
 nass.“ Also viele sprachliche Aussagen, die irgendwie
 
 0:01:44.670,0:01:51.090
-genau einen Aspekt beschreiben, könnte man als solche
-Grundaussagen nehmen. Zu jedem beliebigen Zeitpunkt
+genau einen Aspekt beschreiben, könnten als solche
+Grundaussagen genommen werden. Zu jedem beliebigen Zeitpunkt
 
 0:01:51.090,0:01:56.400
 kann es sein, dass es regnet oder eben auch nicht. Oder dass
@@ -76,10 +76,10 @@ die Straße nass ist oder eben auch nicht. Das wären also
 
 0:01:56.400,0:02:02.400
 sozusagen die Grundbausteine für aussagenlogische
-Aussagen. Solche Aussagen, oder Elementaraussagen, wie man
+Aussagen. Solche Aussagen, oder Elementaraussagen, wie sie
 
 0:02:02.400,0:02:08.070
-sie auch nennt, würde man dann verknüpfen mit einfachen
+auch genannt werden, würden dann verknüpft mit einfachen
 Operatoren. Diese Operatoren sind erst mal sprachliche
 
 0:02:08.070,0:02:13.020
@@ -147,8 +147,8 @@ oder mit logischen Aussagen, oder mit logischen
 Dinge sind, die die Logik beschreiben kann. Und zwar wird es
 
 0:03:48.210,0:03:53.880
-eben passieren, indem man hier jetzt diese
-sprachlichen Mittel benutzt als solche Operatoren.
+eben passieren, indem hier jetzt diese
+sprachlichen Mittel als solche Operatoren benutzt werden.
 
 0:03:53.880,0:03:57.660
 Natürlich werden wir das nachher anders aufschreiben und
@@ -192,7 +192,7 @@ Zum einen über Beziehungen zwischen Objekten.
 
 0:04:56.770,0:05:00.610
 Die Objekte können identifiziert werden, um die es geht.
-Vielleicht gibt es mehrere Straßen. Da könnte man sagen:
+Vielleicht gibt es mehrere Straßen. Da könnte gesagt werden:
 
 0:05:00.610,0:05:05.560
 diese und jene Straße. Die eine ist nass, die andere
@@ -211,8 +211,8 @@ um alle Straßen. Oder „alle Menschen sind sterblich.“
 universelle Aussagen. Ein typisches Beispiel aus der
 
 0:05:24.550,0:05:33.610
-Mathematik, wo man all diese drei Zutaten sozusagen
-hat, wäre eine Aussage folgender Form: „Für jede
+Mathematik, wo sozusagen all diese drei Zutaten
+vorhanden sind, wäre eine Aussage folgender Form: „Für jede
 
 0:05:33.610,0:05:41.470
 natürliche Zahl x gilt, dass es eine natürliche Zahl y gibt, so
@@ -276,11 +276,11 @@ mit Prädikatenlogik zumindest formulierbar ist, um sie dann
 
 0:07:09.510,0:07:15.390
 auf Wahrheitsgehalt hin zu untersuchen. Während sie in der
-Aussagenlogik keinen Platz hätte. Weil man da mit solchen
+Aussagenlogik keinen Platz hätte. Weil da mit solchen
 
 0:07:15.390,0:07:26.250
-Grundaussagen über einzelne Objekte zum Beispiel
-arbeitet und nicht „es gibt x, y, z folgender Form“. Das
+Grundaussagen zum Beispiel über einzelne Objekte
+gearbeitet wird und nicht „es gibt x, y, z folgender Form“. Das
 
 0:07:26.250,0:07:30.450
 sozusagen erst mal als die Trennlinie zwischen
@@ -304,15 +304,15 @@ arbeiten, sondern mit solchen Aussagen. Insbesondere auch
 
 0:07:55.560,0:08:00.720
 schon diese Grundaussagen, die werden irgendwie bezeichnet
-werden. Oft werden das einfach irgendwie Buchstaben sein. Man
+werden. Oft werden das einfach irgendwie Buchstaben sein.
 
 0:08:00.720,0:08:07.530
-könnte zum Beispiel sagen, diese Grundaussage „es regnet“
-bezeichnet man als R. Die Grundaussage „die Straße
+Es könnte zum Beispiel gesagt werden, dass diese Grundaussage „es regnet“
+als R bezeichnet wird. Die Grundaussage „die Straße
 
 0:08:07.530,0:08:14.220
-ist nass“ bezeichnet man als N. Und dann kann man
-eben die Verknüpfungen auch mit Symbolen hinschreiben.
+ist nass“ wird als N bezeichnet. Und dann können
+eben die Verknüpfungen auch mit Symbolen hingeschrieben werden.
 
 0:08:14.880,0:08:21.480
 Die Aussage „es regnet und die Straße ist nass“
@@ -419,8 +419,8 @@ Häusern und den Aussagen dazu. Das hatten wir mit dieser
 Tabelle gelöst, und ich hatte einige Strategien genannt.
 
 0:11:20.910,0:11:28.050
-Die kann man auch formulieren, oder zunächst
-schon mal schlagwortartig sehen, anhand
+Die können auch formuliert werden, oder zunächst
+schon mal schlagwortartig gesehen werden, anhand
 
 0:11:28.050,0:11:37.380
 solcher Beschreibungen, wie wir es hier mit Formeln
@@ -508,7 +508,7 @@ also was hier stünde, wäre: es gilt immer A ODER
 
 0:13:51.770,0:13:57.350
 nicht A. Zum Beispiel gilt „es regnet oder es regnet nicht“.
-Das nennt man das Prinzip des ausgeschlossenen Dritten.
+Das wird das Prinzip des Ausgeschlossenen Dritten genannt.
 
 0:13:57.350,0:14:02.240
 Das ist in der klassischen Logik gesetzt. Denn wir
@@ -543,11 +543,11 @@ dem entsprechenden Haus Kaffee
 getrunken wird. Wie werden wir
 
 0:14:55.520,0:15:01.520
-das in Formelsprache später fassen? Was könnte man machen,
-wenn man das jetzt für allgemeine Aussagen A und B betrachten
+das in Formelsprache später fassen? Was könnte gemacht werden,
+wenn das jetzt für allgemeine Aussagen A und B betrachtet werden
 
 0:15:01.520,0:15:08.390
-möchte? Da könnte man sagen: Wenn wir wissen, dass
+soll? Da könnte gesagt werden: Wenn wir wissen, dass
 irgendetwas gilt, irgendein A gilt, und wir wissen,
 
 0:15:08.390,0:15:14.990
@@ -558,8 +558,8 @@ irgendwas folgt irgendwas" - „wenn dies, dann auch
 das“), dann können wir wiederum folgern, dass auf
 
 0:15:23.120,0:15:29.960
-jeden Fall B gelten muss. Diese Regel nennt man
-Modus Ponens. Natürlich tauchte die auch bei unseren
+jeden Fall B gelten muss. Diese Regel wird
+Modus Ponens genannt. Natürlich tauchte die auch bei unseren
 
 0:15:29.960,0:15:37.490
 Syllogismen auf. Als transitive
@@ -586,8 +586,8 @@ auf Widersprüche gestoßen sind, die wir aufgedeckt haben,
 und dann ausnutzen konnten. Zum Beispiel, indem wir andere
 
 0:16:10.640,0:16:20.570
-Alternativen exploriert haben. Wie könnte man
-das ausdrücken, in solcher Formelschreibweise?
+Alternativen exploriert haben. Wie könnte
+das ausgedrückt werden, in solcher Formelschreibweise?
 
 0:16:20.570,0:16:28.340
 Was ist ein Widerspruch? Ich hatte hier oben schon kurz gesagt,
@@ -606,7 +606,7 @@ nicht A gilt. Es darf aber auch nicht gelten (das steht
 hier oben noch nicht), dass nicht gleichzeitig A UND nicht A
 
 0:16:48.470,0:16:56.570
-gilt. Das könnte man so aufschreiben. Ich schreibe es
+gilt. Das könnte so aufgeschrieben werden. Ich schreibe es
 hier mal für B auf. Was steht hier? Es darf nicht gelten,
 
 0:16:56.570,0:17:05.540
@@ -658,8 +658,8 @@ das Haus gelb sein müsste unter bestimmten
 Voraussetzungen, weil keine weiteren Möglichkeiten mehr
 
 0:18:23.740,0:18:35.860
-übrig waren. Wie könnte man das fassen? Wie werden wir so
-etwas fassen? Das kann man zum Beispiel so fassen: Wenn wir
+übrig waren. Wie könnte das gefasst werden? Wie werden wir so
+etwas fassen? Das kann zum Beispiel so gefasst werden: Wenn wir
 
 0:18:35.860,0:18:42.790
 vielleicht zwei (oder es könnten auch mehr Möglichkeiten sein, aber
@@ -783,10 +783,10 @@ davon ist wahr oder falsch, ist gar nicht möglich, weil
 
 0:22:09.820,0:22:19.700
 wir diese Begriffe nicht kennen. Der Punkt ist, diese
-Prinzipien, die Art, wie man mit Aussagen arbeiten
+Prinzipien, die Art, wie mit Aussagen gearbeitet
 
 0:22:19.700,0:22:24.320
-kann, sind völlig unabhängig vom konkreten Gehalt. Also
+werden kann, sind völlig unabhängig vom konkreten Gehalt. Also
 steht hier jetzt für A „es regnet“ oder steht da „die Straße
 
 0:22:24.320,0:22:31.610
@@ -794,11 +794,11 @@ ist nass“? Die Strategien sind unabhängig vom konkreten
 Inhalt der einzelnen Aussagen. Es geht nur um die
 
 0:22:31.610,0:22:38.090
-Schemata, wie man sie verknüpfen kann. Deswegen
-kann man so ein Rätsel selbst dann lösen, wenn denn
+Schemata, wie sie verknüpft werden können. Deswegen
+kann so ein Rätsel selbst dann gelöst werden, wenn denn
 
 0:22:38.090,0:22:42.800
-genug Information vorhanden ist, wenn man gar nicht weiß, was
+genug Information vorhanden ist, wenn gar nicht gewusst wird, was
 es heißt, „ein Klep zu sein“, „ein Pfuff zu sein“, oder was
 
 0:22:42.800,0:22:54.470

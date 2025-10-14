@@ -12,23 +12,23 @@ als Überschriften für die Spalten, wo ich für die
 
 0:00:24.480,0:00:31.740
 Elementaraussagen A, B, C jeweils festgehalten hatte, ob sie wahr
-oder falsch sind. Statt dieser Buchstaben w und f verwendet man
+oder falsch sind. Statt dieser Buchstaben w und f werden
 
 0:00:31.740,0:00:36.600
-auch Zahlen 1 für wahr und 0 für falsch.
+auch Zahlen 1 für wahr und 0 für falsch verwendet.
 Die Menge dieser beiden Wahrheitswerte
 
 0:00:36.600,0:00:44.550
-würde man dann zum Beispiel W nennen. Manchmal auch
-B für Boolesch. Jeweils als Menge der Werte, die man
+würde dann zum Beispiel W genannt. Manchmal auch
+B für Boolesch. Jeweils als Menge der Werte, die
 
 0:00:44.550,0:00:49.080
-zur Auswahl hat. Und wegen des ausgeschlossenen Dritten
+zur Auswahl stehen. Und wegen des ausgeschlossenen Dritten
 gibt es nur zwei Werte. Nämlich 0 und 1, falsch und
 
 0:00:49.080,0:00:57.030
-wahr, f und w. Das ist eine Wahl, welche Werte man genau
-nimmt. Der Punkt ist, man muss das klar unterscheiden können.
+wahr, f und w. Das ist eine Wahl, welche Werte genau
+genommen werden. Der Punkt ist, das muss klar unterschieden werden können.
 
 0:00:57.030,0:01:04.470
 Und das ist mit 0 und 1 gegeben. Das legen wir erst
@@ -63,10 +63,10 @@ falsch. Und zwar hatte ich A, B, C belegt, weil A, B, C
 
 0:01:46.470,0:01:51.120
 in unserer Formel, in unserer Welt, die wir beschreiben
-wollten, vorkamen. Das möchte man eben dann auch so tun und das
+wollten, vorkamen. Das soll eben dann auch so getan und das
 
 0:01:51.120,0:01:58.860
-dann nur für eine bestimmte Menge immer machen
+dann nur für eine bestimmte Menge immer gemacht werden
 müssen. Also definiert: „Eine Belegung für dieses M
 
 0:01:58.860,0:02:07.980
@@ -86,7 +86,7 @@ mit einem Kasten am Ende versehen hatte, war die
 Festlegung, dass A falsch sei, B wahr sei und C falsch
 
 0:02:31.920,0:02:38.040
-sei. Das würde man dann zum Beispiel aufschreiben
+sei. Das würde dann zum Beispiel aufgeschrieben
 als: „α(A) = 0, α(B) = 1, α(C) = 0“.
 
 0:02:38.040,0:02:43.050
@@ -238,7 +238,7 @@ haben wir α^ für alles definiert. Dabei ist wichtig,
 dass es letztlich nur davon abhängt, nachdem
 
 0:06:43.515,0:06:49.740
-man diese Schritte hier durchgeführt hat, wie
+diese Schritte hier durchgeführt worden sind, wie
 denn das α definiert war für die Basisformeln.
 
 0:06:49.740,0:06:57.480
@@ -251,10 +251,10 @@ definiert ist. Der Rest ergibt sich aus diesen Regeln.
 
 0:07:02.040,0:07:10.470
 Da haben wir keine Freiheitsgrade mehr. Die Sachen, die
-jetzt hier so verbal aufgeschrieben sind, die kann man
+jetzt hier so verbal aufgeschrieben sind, die können
 
 0:07:10.470,0:07:15.300
-auch kompakter darstellen. Gern in Tabellenform.
+auch kompakter dargestellt werden. Gern in Tabellenform.
 Das sind die sogenannten Verknüpfungstabellen oder
 
 0:07:15.300,0:07:21.870
@@ -267,30 +267,30 @@ die wir gerade verwendet haben. Das ist jetzt hier
 
 0:07:29.730,0:07:34.080
 aufgeschrieben für A und B. Da könnten natürlich auch F
-und G stehen. Also man schreibt diese Tabellen meistens
+und G stehen. Also werden diese Tabellen meistens
 
 0:07:34.080,0:07:40.410
-einfach für Elementaraussagen, aber natürlich sind sie
-genauso anwendbar, wenn man hier komplexere Formeln
+einfach für Elementaraussagen geschrieben, aber natürlich sind sie
+genauso anwendbar, wenn hier komplexere Formeln
 
 0:07:40.410,0:07:47.310
-stehen hat, für die man denjenigen Wahrheitswert hier
-ausgerechnet hat. Also die Idee ist: A und B sind zwei
+stehen, für die derjenige Wahrheitswert hier
+ausgerechnet wurde. Also die Idee ist: A und B sind zwei
 
 0:07:47.310,0:07:52.140
 Aussagen. Jede könnte wahr oder falsch sein. Also gibt es vier
 Möglichkeiten: „Falsch-Falsch, Falsch-Wahr, Wahr-Falsch, Wahr-Wahr.“
 
 0:07:53.100,0:08:01.200
-Da muss man für die Konjunktion einfach sagen, was jeweils das
+Da muss für die Konjunktion einfach gesagt werden, was jeweils das
 Ergebnis sein soll. Bei dem UND ist es eben, es wird genau
 
 0:08:01.200,0:08:13.020
 dann 1, wenn beide 1 waren. Diese Tabelle entspricht
-diesen Zeilen hier. Analog kann man das für die anderen
+diesen Zeilen hier. Analog kann das für die anderen
 
 0:08:13.020,0:08:22.410
-Operationen machen. Bei dem ODER nochmal wichtig, das wird
+Operationen gemacht werden. Bei dem ODER nochmal wichtig, das wird
 wahr, wenn einer der beiden Teile wahr ist. Natürlich auch
 
 0:08:22.410,0:08:29.820
@@ -319,11 +319,11 @@ Damit ist die Information von dieser Folie auch erfasst,
 
 0:09:07.380,0:09:12.960
 anders dargestellt und kompakter dargestellt. Und das ist insbesondere
-deswegen interessant, weil man diese Art Tabellen dann auch
+deswegen interessant, weil diese Art Tabellen dann auch
 
 0:09:12.960,0:09:18.510
-für andere Operationen oder für komplexere Formeln aufstellen
-kann. Dann gibt es vielleicht mehr Zeilen, aber die Form
+für andere Operationen oder für komplexere Formeln aufgestellt werden können.
+Dann gibt es vielleicht mehr Zeilen, aber die Form
 
 0:09:18.510,0:09:27.750
 ist sehr gut übertragbar. Dann hieß es vorhin noch,
@@ -338,7 +338,7 @@ einem Beispiel beide Möglichkeiten durchprobieren wollen.
 Das Wichtige dabei ist, dass die beiden Möglichkeiten
 
 0:09:39.600,0:09:43.500
-äquivalent sind. Also man kann das so oder so machen.
+äquivalent sind. Also kann das so oder so gemacht werden.
 Manchmal werden wir vielleicht auch sagen, machen Sie es
 
 0:09:43.500,0:09:47.940
@@ -370,16 +370,16 @@ auch nicht direkt die Wahrheitstafeln, sondern
 ein paar arithmetische Operationen letztlich.
 
 0:10:30.360,0:10:38.010
-Wenn man auf diese Tabelle mal schaut, könnte einem
-auffallen, dass das, was hier herauskommt, man
+Wenn auf diese Tabelle mal geschaut wird, könnte
+auffallen, dass das, was hier herauskommt,
 
 0:10:38.010,0:10:45.120
-auch hätte ausrechnen können. Das ist nämlich immer das
+auch hätte ausgerechnet werden können. Das ist nämlich immer das
 Produkt der beiden Werte hiervon. 0 × 0 = 0, 0 × 1 = 0,
 
 0:10:45.120,0:10:53.310
-1 × 0 = 0 und 1 × 1 = 1. Da könnte man sagen, das ist Zufall. Man kann
-es aber auch einfach ausnutzen wollen. Man könnte also auch sagen,
+1 × 0 = 0 und 1 × 1 = 1. Da könnte gesagt werden, das ist Zufall. Es kann
+aber auch einfach auszunutzen gewollt werden. Es könnte also auch gesagt werden,
 
 0:10:53.310,0:11:01.020
 α^ für eine Formel, die Konjunktion ist, ist das
@@ -387,14 +387,14 @@ Produkt. Also wirklich das „mal“ auf Zahlen, 0 × 1
 
 0:11:01.020,0:11:09.040
 etc. Das Produkt der α^-Werte für die beiden
-Teilformeln. Da hat man noch kompakter die Information
+Teilformeln. Damit ist noch kompakter die Information
 
 0:11:09.040,0:11:15.670
 ausgedrückt, die in dieser Tabelle steht. Da ist die
 Frage, geht es auch für die anderen Operationen? Also
 
 0:11:15.670,0:11:21.310
-kann man hier auch irgendwie so etwas sagen wie:
+kann hier auch irgendwie so etwas gesagt werden wie:
 das wird arithmetisch berechnet aus den beiden
 
 0:11:21.310,0:11:29.560
@@ -403,7 +403,7 @@ nicht mehr. 0 + 1 würde passen. 1 + 0 = 1 würde passen.
 
 0:11:29.560,0:11:35.710
 1 + 1 = 1 passt natürlich nicht. Also hier
-muss man eine andere Operation nehmen.
+muss eine andere Operation genommen werden.
 
 0:11:35.710,0:11:43.450
 Was ist das denn für eine Operation? Das ist die
@@ -419,27 +419,27 @@ der beiden Werte genommen. Da das natürlich nur
 
 0:11:53.500,0:12:00.580
 wird 1 genommen, wenn 1 vorkommt. Andernfalls 0.
-Mit der Beobachtung kann man diese Zeile dann
+Mit der Beobachtung kann diese Zeile dann
 
 0:12:00.580,0:12:06.070
-auch sehr knapp schreiben. Man nehme nämlich
+auch sehr knapp geschrieben werden. Es wird nämlich
 das Maximum der α^-Werte für die beiden
 
 0:12:06.070,0:12:12.670
-Teilformeln. Dann muss man nur noch schauen, wie
-man mit der Negation sinnvoll umgehen kann. Das ist
+Teilformeln genommen. Dann muss nur noch geschaut werden, wie
+mit der Negation sinnvoll umgegangen werden kann. Das ist
 
 0:12:12.670,0:12:18.550
 auch sehr leicht, denn was hier immer steht: Wir haben vorhin
-gesagt, man kippt von 0 zu 1, von 1 zu 0. Dieses Kippen hätte
+gesagt, es wird von 0 zu 1 gekippt, von 1 zu 0. Dieses Kippen ließe
 
 0:12:18.550,0:12:24.940
-man auch ausdrücken als: 1 minus der Wert. 1 - 0 =
-1. 1 - 1 = 0. Also auch das kann man arithmetisch
+sich auch ausdrücken als: 1 minus der Wert. 1 - 0 =
+1. 1 - 1 = 0. Also auch das kann arithmetisch
 
 0:12:24.940,0:12:33.790
-hinschreiben. Dann erhält man diese Zeile. Statt
-einer Tabelle oder Fallunterscheidung. Dann hat man
+hingeschrieben werden. Dann wird diese Zeile erhalten. Statt
+einer Tabelle oder Fallunterscheidung. Dann ist
 
 0:12:33.790,0:12:41.410
 diese Zuordnung so definiert. Ist aber mathematisch äquivalent.

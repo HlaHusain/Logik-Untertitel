@@ -12,11 +12,11 @@ Pfeil verwendet als Folgerung/Implikation.
 
 0:00:20.400,0:00:28.290
 Aus irgendetwas folgt irgendetwas anderes. Der ist
-tatsächlich nur abkürzend. Insofern, als man ihn
+tatsächlich nur abkürzend. Insofern, als er
 
 0:00:28.290,0:00:36.180
-tatsächlich interpretieren und genau gleich
-benutzen kann wie folgenden Ausdruck: (¬F ∨ G).
+tatsächlich interpretiert und genau gleich
+benutzt werden kann wie folgender Ausdruck: (¬F ∨ G).
 
 0:00:36.180,0:00:44.190
 Also, wenn aus einer Formel, einer
@@ -31,7 +31,7 @@ gemeint: "Wenn F, dann G." Oder anders gesagt:
 logisch äquivalent, von der Bedeutung her (von
 
 0:01:03.420,0:01:12.630
-dem, was man damit ausdrücken möchte), zu der Tatsache: „F
+dem, was damit ausgedrückt werden soll), zu der Tatsache: „F
 muss falsch sein, oder G muss stimmen.“ Das ist manchmal
 
 0:01:12.630,0:01:20.940
@@ -51,16 +51,16 @@ eine von beiden Seiten wahr wird",
 das ist korrekt. Das entspricht dem schon
 
 0:01:39.420,0:01:45.990
-vorher mal erwähnten Aspekt, dass man aus
-Quatsch alles folgern kann. Also, wenn F nicht
+vorher mal erwähnten Aspekt, dass aus
+Quatsch alles gefolgert werden kann. Also, wenn F nicht
 
 0:01:45.990,0:01:55.110
 stimmt, dann stimmt es, dass aus F irgendein G folgt. Ein
-beliebiges G folgt. Deswegen kann man das so abkürzen.
+beliebiges G folgt. Deswegen kann das so abgekürzt werden.
 
 0:01:55.110,0:02:01.305
 Wir werden gleich nochmal die Wahrheitstabellen sehen. Da kann
-man das auch wiederfinden. Bezeichnet wird dieser Operator
+das auch wiedergefunden werden. Bezeichnet wird dieser Operator
 
 0:02:01.305,0:02:08.070
 als Implikation oder Folgerung. Ein anderer
@@ -68,10 +68,10 @@ wichtiger Operator, der wiederum mittels dieses
 
 0:02:08.070,0:02:15.170
 definiert werden kann, wäre die Biimplikation oder
-Äquivalenz. Dann schreibt man diesen Doppelpfeil in
+Äquivalenz. Dann wird dieser Doppelpfeil in
 
 0:02:15.170,0:02:23.090
-beide Richtungen. Und meint damit, sowohl folgt aus dem F das
+beide Richtungen geschrieben. Und meint damit, sowohl folgt aus dem F das
 G, als auch folgt aus dem G das F. Das heißt, F und G sind
 
 0:02:23.090,0:02:30.200
@@ -107,12 +107,12 @@ wahr folgt wahr, ist okay. Das motiviert und
 erklärt, warum das die Interpretation für Implikation
 
 0:03:24.290,0:03:34.640
-ist. Die gleichen Einträge würde man erhalten,
-wenn man stattdessen diesen Ausdruck auswertet für
+ist. Die gleichen Einträge würden erhalten werden,
+wenn stattdessen dieser Ausdruck ausgewertet wird für
 
 0:03:34.640,0:03:42.290
-F = A und G = B. Wenn man das für die Biimplikation
-macht, dann erhält man folgende Tabelle:
+F = A und G = B. Wenn das für die Biimplikation
+gemacht wird, dann wird folgende Tabelle erhalten:
 
 0:03:42.290,0:03:52.010
 Und zwar ist da immer ein Eintrag 1, wenn die beiden
@@ -123,11 +123,11 @@ müssen nicht beide 1 sein, sie müssen beide eins
 von beiden sein. Entweder beide 0 oder beide 1. Sie
 
 0:03:56.750,0:04:05.120
-dürfen nicht verschieden sein. Und das würde man erhalten,
-wenn man hierfür die andere Richtung wählt. Also, aus B
+dürfen nicht verschieden sein. Und das würde erhalten werden,
+wenn hierfür die andere Richtung gewählt wird. Also, aus B
 
 0:04:05.120,0:04:17.510
-folgt A. Dann hätte man nämlich hier 1 0, 1 0. Und dann die Konjunktion
+folgt A. Dann ergäbe sich nämlich hier 1 0, 1 0. Und dann die Konjunktion
 davon wäre: 1 1 ergibt diese 1. 1 0 ergibt diese 0. 0 und die hier
 
 0:04:17.510,0:04:25.440
@@ -135,8 +135,8 @@ stehende 1 ergibt 0. Und 1 und die 1 von B
 impliziert A ergibt 1. Dann sehen wir auch hier,
 
 0:04:25.440,0:04:33.540
-entweder kann man das hierüber definieren oder (das sieht man schon
-hier) man hätte auch sagen können: entweder beide wahr oder beide falsch.
+entweder kann das hierüber definiert werden oder (das wird
+hier schon gesehen) hätte auch gesagt werden können: entweder beide wahr oder beide falsch.
 
 0:04:33.540,0:04:41.160
 Also (¬A ∧ ¬B) ∨ (A ∧ B) wäre eine andere
@@ -168,10 +168,10 @@ waren diese Aussagen über Anne, Bettina und Claudia.
 
 0:05:23.280,0:05:29.640
 Die hatte ich dann in dem Video am
-Whiteboard aufgedröselt, was man denn jeweils
+Whiteboard aufgedröselt, was denn jeweils
 
 0:05:29.640,0:05:39.360
-hinter diesen Aussagen formalisieren kann. Also z.B. hatte ich
+hinter diesen Aussagen formalisiert werden kann. Also z.B. hatte ich
 gesagt, A, B, C, als Anne spricht Wahrheit, Bettina spricht
 
 0:05:39.360,0:05:45.930

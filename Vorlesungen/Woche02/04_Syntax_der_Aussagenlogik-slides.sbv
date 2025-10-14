@@ -19,20 +19,20 @@ wir es zu tun haben? Wie werden die aufgeschrieben?
 Was ist eine Formel? Und vor allem auch, wann
 
 0:00:26.619,0:00:31.800
-sind Formeln wohlaufgebaut? Man möchte nicht
-einfach Symbole willkürlich mischen, sondern es
+sind Formeln wohlaufgebaut? Es sollen nicht
+einfach Symbole willkürlich gemischt werden, sondern es
 
 0:00:31.800,0:00:37.500
 sollen schon sinnvolle Formeln herauskommen.
-Dieses „sinnvoll“ muss man kurz mal definieren.
+Dieses „sinnvoll“ muss kurz mal definiert werden.
 
 0:00:37.500,0:00:41.829
 Dann wird es um die Semantik gehen. Also, was ist
 denn die Bedeutung einer Formel? Syntaktisch irgendwas
 
 0:00:41.829,0:00:46.370
-hinzuschreiben, ist die eine Sache. Aber man möchte
-von einer Formel ja auch wissen, was sie bedeutet.
+hinzuschreiben, ist die eine Sache. Aber es soll
+von einer Formel ja auch gewusst werden, was sie bedeutet.
 
 0:00:46.370,0:00:52.149
 Dann gibt es eben vor allem besonders interessante
@@ -44,10 +44,10 @@ also sehr stark ist. In dem Sinne, dass die Formel immer wahr
 
 0:00:57.180,0:01:03.190
 ist. Es kann auch das Gegenteil geben, dass eine Formel
-unerfüllbar ist. Also, dass, egal wie viel Mühe man sich
+unerfüllbar ist. Also, dass, egal wie viel Mühe sich
 
 0:01:03.190,0:01:09.970
-gibt, vielleicht Teile der Formel wahr zu machen,
+gegeben wird, vielleicht Teile der Formel wahr zu machen,
 sie insgesamt immer falsch ist. Also nie wahr ist.
 
 0:01:09.970,0:01:16.110
@@ -64,19 +64,19 @@ vielleicht wahr gemacht werden kann. Das werden
 
 0:01:30.640,0:01:36.890
 wir alles definieren. Was es bedeutet, wahr, allgemeingültig,
-unerfüllbar, erfüllbar, etc. zu sein. Aber vor allem möchte man
+unerfüllbar, erfüllbar, etc. zu sein. Aber vor allem soll
 
 0:01:36.890,0:01:42.700
-das natürlich auch konstruktiv bestimmen können. Man
-möchte nicht nur mathematisch sagen können, was es heißt,
+das natürlich auch konstruktiv bestimmt werden können. Es
+soll nicht nur mathematisch gesagt werden können, was es heißt,
 
 0:01:42.700,0:01:47.070
 dass eine Formel wahr ist oder allgemeingültig ist,
-sondern die Frage ist auch, ob man diesen Grad
+sondern die Frage ist auch, ob dieser Grad
 
 0:01:47.070,0:01:53.170
 der Gültigkeit oder der Erfüllbarkeit einer Formel
-überprüfen kann, mit Algorithmen. Informatisch,
+mit Algorithmen überprüft werden kann. Informatisch,
 
 0:01:53.170,0:01:59.460
 mit Verfahren, die systematisch solche Aussagen
@@ -127,7 +127,7 @@ Aussage, die wahr sein könnte oder nicht. Das sind die
 sogenannten Elementaraussagen oder atomaren Formeln. Aus
 
 0:03:06.700,0:03:12.660
-denen baut man dann allgemeine Formeln auf. Durch so
+denen werden dann allgemeine Formeln aufgebaut. Durch so
 einen schrittweisen Prozess, von einfach zu kompliziert.
 
 0:03:12.660,0:03:17.230
@@ -143,8 +143,8 @@ Aussagen aus dem Einstein-Rätsel, die irgendwie
 aus atomaren Aussagen zusammengebaut waren. Dann
 
 0:03:30.850,0:03:37.459
-geht es darum: Wie kann man das in einer Formel
-sinnvoll fassen? Da gibt es sozusagen für diesen
+geht es darum: Wie kann das in einer Formel
+sinnvoll gefasst werden? Da gibt es sozusagen für diesen
 
 0:03:37.459,0:03:40.810
 schrittweisen Prozess den einfachsten
@@ -152,10 +152,10 @@ Fall, nämlich atomare Formeln sind bereits
 
 0:03:40.810,0:03:46.610
 Formeln. Jede atomare Formel, einfach so ein Buchstabe hingeschrieben,
-ist auch eine Formel. Die trivialste Formel, die man sich vorstellen
+ist auch eine Formel. Die trivialste Formel, die sich vorstellen
 
 0:03:46.610,0:03:51.900
-kann. Aber eben eine Formel. Dann gibt es Regeln zum
+lässt. Aber eben eine Formel. Dann gibt es Regeln zum
 Zusammenbau komplizierterer Formeln. Also allgemeiner
 
 0:03:51.900,0:04:00.410
@@ -199,19 +199,19 @@ klarstellen müssen, wie denn die Reihenfolge
 gemeint ist, würden wir hier im allgemeinen Fall
 
 0:04:47.550,0:04:53.569
-erst mal auch mit Klammern arbeiten. Man
-kann später nach bestimmten Präzedenzregeln,
+erst mal auch mit Klammern arbeiten. Später
+können nach bestimmten Präzedenzregeln,
 
 0:04:53.569,0:04:58.680
 so wie "Punkt- vor Strichrechnung" in der Arithmetik,
-auch einige Klammern weglassen. Aber zunächst
+auch einige Klammern weggelassen werden. Aber zunächst
 
 0:04:58.680,0:05:04.499
-mal, um die Formeln zu definieren, würde man präzise
-sagen, man setzt immer solche zusammengesetzten Formeln
+mal, um die Formeln zu definieren, würde präzise
+gesagt werden, dass immer solche zusammengesetzten Formeln
 
 0:05:04.499,0:05:13.729
-in Klammern. Das wären also diese beiden Möglichkeiten. Dann
+in Klammern gesetzt werden. Das wären also diese beiden Möglichkeiten. Dann
 gibt es noch eine dritte Möglichkeit. Neben den Grundformeln
 
 0:05:13.729,0:05:17.729
@@ -240,11 +240,11 @@ umgekehrte Dach oder diese Tränke ∨. UND, ODER
 
 0:05:52.900,0:05:59.669
 wären die beiden umgangssprachlichen
-Bezeichnungen. Formal, mathematisch, spricht
+Bezeichnungen. Formal, mathematisch,
 
 0:05:59.669,0:06:04.559
-man hier von der Konjunktion für das UND und
-der Disjunktion für das ODER. Manchmal auch
+wird hier von der Konjunktion für das UND und
+der Disjunktion für das ODER gesprochen. Manchmal auch
 
 0:06:04.559,0:06:11.990
 Alternative von F und G, zum Beispiel. Dieses „nicht“,
@@ -252,7 +252,7 @@ dieses Symbol ¬, steht für Negation von F oder
 
 0:06:11.990,0:06:21.770
 einfach „nicht F“ kurz ausgesprochen. Damit
-könnte man jetzt Formeln aufschreiben.
+könnten jetzt Formeln aufgeschrieben werden.
 
 0:06:21.770,0:06:27.449
 Da hätte ich jetzt hier ein paar Beispiele aufschreiben können, was
@@ -280,14 +280,14 @@ von zwei Zahlen? Eine Möglichkeit, diese
 
 0:06:57.809,0:07:02.249
 Struktur darzustellen, wären sogenannte
-Syntaxbäume. Wo man also nicht mehr Formeln nur
+Syntaxbäume. Wo also nicht mehr Formeln nur
 
 0:07:02.249,0:07:09.169
-flach hinschreibt, wie das hier suggeriert ist,
-sondern diesen strukturellen, schrittweisen Aufbau auch
+flach hingeschrieben werden, wie das hier suggeriert ist,
+sondern dieser strukturelle, schrittweise Aufbau auch
 
 0:07:09.169,0:07:17.839
-nachvollzieht. Das wäre dann eben so ein Syntaxbaum, und das sieht dann
+nachvollzogen wird. Das wäre dann eben so ein Syntaxbaum, und das sieht dann
 schematisch so aus. Hier ist einfach ein Beispiel. Nehmen wir mal A1, A2,
 
 0:07:17.839,0:07:23.139
@@ -340,14 +340,14 @@ zwei Nachfolger haben, wenn sie auftreten) einer Formel.
 
 0:08:36.810,0:08:40.740
 Wenn diese Symbole auftreten, müssen sie jeweils zwei
-Nachfolger haben. Und wenn man darüber dann Bäume erstellt,
+Nachfolger haben. Und wenn darüber dann Bäume erstellt werden,
 
 0:08:40.740,0:08:47.959
-also das so geschachtelt aufschreibt, dann entspricht
-das auch immer einer Formel. Dann kann man aus dem
+also das so geschachtelt aufgeschrieben wird, dann entspricht
+das auch immer einer Formel. Dann kann aus dem
 
 0:08:47.959,0:08:53.130
-Baum auch die Formel ablesen. So wie das hier in dem
+Baum auch die Formel abgelesen werden. So wie das hier in dem
 Beispiel miteinander korrespondiert. Und natürlich gibt es,
 
 0:08:53.130,0:08:58.480
@@ -424,7 +424,7 @@ eine Lösung suchen wollen. Dann müssen wir noch sagen, was
 
 0:10:35.379,0:10:42.389
 heißt denn überhaupt, eine Teilformel zu sein? Jetzt
-könnte man sagen, irgendwie irgendein Ausschnitt.
+könnte gesagt werden: irgendwie irgendein Ausschnitt.
 
 0:10:42.389,0:10:46.959
 Wir haben eine Formel, die sei gegeben. Wie auf der
@@ -471,8 +471,8 @@ die wir hier oben haben, dieses Stück herausgreifen,
 dann ist das keine wohlaufgebaute Formel. Dieses Stück
 
 0:11:53.639,0:11:59.519
-"B) ∧ C" kann man nicht nach diesen Regeln
-hier erstellen. Zum Beispiel, weil hier immer
+"B) ∧ C" kann nicht nach diesen Regeln
+hier erstellt werden. Zum Beispiel, weil hier immer
 
 0:11:59.519,0:12:04.389
 öffnende und schließende Klammern in gleicher
@@ -484,7 +484,7 @@ Teilformel davon. Wir wollen nur sinnvolle Ausschnitte
 
 0:12:13.120,0:12:20.430
 betrachten, wenn wir von Teilformeln reden. Und wie
-kann man das mit den Syntaxbäumen erklären? Teilformeln
+kann das mit den Syntaxbäumen erklärt werden? Teilformeln
 
 0:12:20.430,0:12:26.959
 entsprechen einfach jeweils einem

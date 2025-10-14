@@ -4,15 +4,15 @@ Video in dieser Vorlesung.
 
 0:00:07.500,0:00:13.690
 In diesem Video soll es zunächst um etwas Motivation
-gehen. Man kann sich ja schon fragen, warum es
+gehen. Es kann ja schon gefragt werden, warum es
 
 0:00:13.690,0:00:18.449
 überhaupt diese Lehrveranstaltung in Ihrem
-Studiengang gibt? Und dafür könnte man etwa einen
+Studiengang gibt? Und dafür könnte etwa ein
 
 0:00:18.449,0:00:22.720
 Blick in das Modulhandbuch des Komedia-Studiengangs
-werfen und findet da folgenden kurzen Text.
+geworfen und dort folgender kurzer Text gefunden werden.
 
 0:00:22.720,0:00:30.210
 Da geht es um Logik-Kalküle (es gibt verschiedene
@@ -24,14 +24,14 @@ verschiedener Anwendungsbereiche der
 
 0:00:33.500,0:00:39.840
 Informatik. (Das ist auch nicht sehr überraschend.)
-Wenn man mal an das Programmieren denkt, will man ja
+Wenn mal an das Programmieren gedacht wird, sollen ja
 
 0:00:39.840,0:00:44.060
-wahrscheinlich irgendwie Bedingungen ausdrücken, unter
+wahrscheinlich irgendwie Bedingungen ausgedrückt werden, unter
 denen bestimmte Dinge passieren sollen. Und dafür
 
 0:00:44.060,0:00:48.379
-wird man wahrscheinlich logische Ausdrücke verwenden.
+werden wahrscheinlich logische Ausdrücke verwendet.
 Hier sind allerdings auch noch andere Bereiche genannt
 
 0:00:48.379,0:00:53.340
@@ -127,8 +127,8 @@ Also nicht Symbole für diese Schaltungen irgendwie
 angeben, sondern mit Ausdrücken und Formeln
 
 0:03:06.920,0:03:14.530
-arbeiten, so wie das, was man in der Mathematik
-unter Ausdrücken und Formeln versteht.
+arbeiten, so wie das, was in der Mathematik
+unter Ausdrücken und Formeln verstanden wird.
 
 0:03:14.530,0:03:19.760
 Viel Motivation und auch so manches Beispiel in der
@@ -143,16 +143,16 @@ etwa (entweder explizit oder zumindest verinnerlicht)
 irgendwie kennen. Und viele Fragestellungen auch,
 
 0:03:33.990,0:03:38.720
-"Kann man irgendwas überhaupt ausdrücken?" oder
-"Wie kann man aus verschiedenen gegebenen Dingen
+"Kann irgendwas überhaupt ausgedrückt werden?" oder
+"Wie kann aus verschiedenen gegebenen Dingen
 
 0:03:38.720,0:03:45.629
-etwas folgern?", lassen sich gut an solchen sprachlichen
-Beispielen illustrieren. Gleichzeitig kann man natürlich auch
+etwas gefolgert werden?", lassen sich gut an solchen sprachlichen
+Beispielen illustrieren. Gleichzeitig können natürlich auch
 
 0:03:45.629,0:03:51.799
-Teile davon durch Symbole ersetzen und dann
-kriegt man eben diese Art des symbolischen
+Teile davon durch Symbole ersetzt werden und dann
+ergibt sich eben diese Art des symbolischen
 
 0:03:51.799,0:03:57.700
 Schließens. Tatsächlich möchte ich beginnen
@@ -180,8 +180,8 @@ möchte ich aber in den Folien jetzt erst
 
 0:04:26.410,0:04:33.800
 einmal das mit natürlicher Sprache, sozusagen
-mit menschlicher Strategie angehen, wie man so ein
-Rätsel lösen könnte.
+mit menschlicher Strategie angehen, wie so ein
+Rätsel gelöst werden könnte.
 
 0:04:33.800,0:04:40.190
 Also das ist so ein Zeitschriftenrätsel. Es ist auf Englisch,
@@ -204,8 +204,8 @@ Daran sehen Sie auch, dass es schon ein recht altes Rätsel
 ist. Es wird Einstein zugeschrieben oder in Verbindung
 
 0:05:01.080,0:05:06.940
-mit ihm genannt. Heute würde man wahrscheinlich ein
-Rätsel nicht gerade über das Rauchen involvieren.
+mit ihm genannt. Heute würde wahrscheinlich ein
+Rätsel nicht gerade das Rauchen involvieren.
 
 0:05:06.940,0:05:14.180
 Aber so ist das Rätsel und
@@ -213,7 +213,7 @@ herauszufinden ist, welche Eigenschaften
 
 0:05:14.180,0:05:20.970
 die einzelnen Personen in welchen Häusern haben.
-Dafür muss man natürlich einige Gegebenheiten wissen.
+Dafür müssen natürlich einige Gegebenheiten bekannt sein.
 
 0:05:20.970,0:05:28.729
 Und das wird gegeben als Regeln oder Hinweise, die
@@ -233,10 +233,10 @@ Aussagen. Etwas über die relative Position von spezifisch
 
 0:05:49.130,0:05:55.600
 gefärbten Häusern. Oder eben auch solche
-längeren Aussagen, die man erst mal zerlegen
+längeren Aussagen, die erst mal zerlegt werden
 
 0:05:55.600,0:05:59.819
-muss, um herauszufinden, was sie genau bedeuten und
+müssen, um herauszufinden, was sie genau bedeuten und
 vor allem auch, in welchem Sinne sie vielleicht
 
 0:05:59.819,0:06:06.509
@@ -249,42 +249,42 @@ und dann zu versuchen, weitere Erkenntnisse zu
 
 0:06:13.280,0:06:18.759
 gewinnen durch Kombinationen solcher Regeln. Am Ende
-will man irgendwas Konkretes wissen. Entweder möchte man
+soll irgendwas Konkretes herausgefunden werden. Entweder sollen
 
 0:06:18.759,0:06:24.180
-alle Zuordnungen wissen, oder in diesem Beispiel war
+alle Zuordnungen ermittelt werden, oder in diesem Beispiel war
 es so, dass gefragt wurde: „Wer ist der Wassertrinker
 
 0:06:24.180,0:06:31.690
-und wer hat ein Zebra als Haustier?“ Man kann genauso
-gut auch fragen, man möge alle Zuordnungen finden.
+und wer hat ein Zebra als Haustier?“ Genauso
+gut kann auch gefordert werden, alle Zuordnungen mögen gefunden werden.
 
 0:06:31.690,0:06:35.169
-Wobei man annehmen muss, dass eben tatsächlich jedes
+Wobei angenommen werden muss, dass eben tatsächlich jedes
 Haus eine Farbe hat, jede Person ein Haustier hat, etc.
 
 0:06:35.169,0:06:40.810
 Das sind so Kontextannahmen, dass es nicht irgendwie Personen
-gibt, die gar kein Haustier haben. Und dann muss man all diese
+gibt, die gar kein Haustier haben. Und dann müssen all diese
 
 0:06:40.810,0:06:49.400
-Erkenntnisse kombinieren, um diese Fragen zu
-lösen. Wie würde man das tun? Von Hand und nicht
+Erkenntnisse kombiniert werden, um diese Fragen zu
+lösen. Wie würde das getan werden? Von Hand und nicht
 
 0:06:49.400,0:06:55.570
 unter Zuhilfenahme eines Programms in Prolog oder
-einer anderen Sprache. Man würde versuchen, möglichst
+einer anderen Sprache. Es würde versucht, möglichst
 
 0:06:55.570,0:07:00.870
 konstruktiv vorzugehen, möglichst systematisch.
 Eine Möglichkeit wäre, sich zur Hilfe vielleicht
 
 0:07:00.870,0:07:08.259
-eine Tabellendarstellung zu nehmen, wo man sein
-Wissen festhält, um dann weitere Informationen
+eine Tabellendarstellung zu nehmen, in der Wissen
+festgehalten wird, um dann weitere Informationen
 
 0:07:08.259,0:07:13.099
-nach und nach einzubauen. Was könnte man sagen? Wir
+nach und nach einzubauen. Was könnte gesagt werden? Wir
 haben die Häuser, wir nummerieren die durch. Weil es
 
 0:07:13.099,0:07:17.100
@@ -305,10 +305,10 @@ sind, die interessant sind. Die Dimensionen
 
 0:07:32.949,0:07:40.230
 sozusagen. Und dann gibt es jeweils verschiedene Ausprägungen. Also
-welche Farben überhaupt vorkommen, da müsste man die Rätselregeln
+welche Farben überhaupt vorkommen, da müssten die Rätselregeln
 
 0:07:40.230,0:07:50.900
-lesen, um zu ermitteln, was alles in diesen Tabellenzellen
+gelesen werden, um zu ermitteln, was alles in diesen Tabellenzellen
 stehen kann. Wie beginnen wir dann? Es gab einige Regeln,
 
 0:07:50.900,0:07:56.890
@@ -332,12 +332,12 @@ festhalten, dass da der Norweger lebt, und es deswegen auch
 jetzt immer so bleiben kann. Das ist eine feste Aussage,
 
 0:08:22.000,0:08:27.979
-eine sichere Zuordnung, die kann man festhalten und wird
-man auch nie wieder revidieren müssen. Wenn man das
+eine sichere Zuordnung, die festgehalten werden kann und
+auch nie wieder revidiert werden muss. Wenn das
 
 0:08:27.979,0:08:33.229
-nicht berücksichtigen würde, würde man
-das Rätsel wahrscheinlich nicht lösen können.
+nicht berücksichtigt würde, würde
+das Rätsel wahrscheinlich nicht gelöst werden können.
 Und wie auch immer: jede Lösung zumindest,
 
 0:08:33.229,0:08:42.930
@@ -625,15 +625,15 @@ jetzt nicht vollständig durch alle Regeln, aber Sie sehen
 und haben auch die Erfahrung wahrscheinlich, wenn Sie
 
 0:16:15.250,0:16:20.769
-so ein Rätsel lösen, dass man nach und nach immer
-mehr Hinweise ausnutzen kann und hoffentlich
+so ein Rätsel lösen, dass nach und nach immer
+mehr Hinweise ausgenutzt werden können und hoffentlich
 
 0:16:20.769,0:16:29.870
-dann zu einer gefüllten Tabelle kommt. Tatsächlich
-ist es hier so, wenn man jetzt die Regeln anwendet,
+dann eine gefüllte Tabelle erreicht wird. Tatsächlich
+ist es hier so, wenn jetzt die Regeln angewendet werden,
 
 0:16:29.870,0:16:35.680
-dass man irgendwann in eine Sackgasse gerät, weil sich
+dass es irgendwann zu einer Sackgasse kommt, weil sich
 herausstellt, dass das doch nicht die richtige Wahl war.
 
 0:16:35.680,0:16:41.870
@@ -662,31 +662,31 @@ wir darauf, dass das die Lösung ist und zwar
 
 0:17:09.329,0:17:14.130
 die eindeutige Lösung, weil es keine anderen
-Alternativen gibt. Wenn man alles exploriert und
+Alternativen gibt. Wenn alles exploriert und
 
 0:17:14.130,0:17:19.420
-Backtracking-Schritte durchführt. Damit ist gemeint, wenn man
-irgendwo hängenbleibt, dass man ein paar Schritte zurückgeht
+Backtracking-Schritte durchgeführt werden. Damit ist gemeint, wenn
+irgendwo hängengeblieben wird, dass ein paar Schritte zurückgegangen wird
 
 0:17:19.420,0:17:24.520
-bis zur letzten Auswahlmöglichkeit, die man hatte, und
-dann noch verbleibende Alternativen überprüft. Wenn man
+bis zur letzten Auswahlmöglichkeit, die zur Verfügung stand, und
+dann noch verbleibende Alternativen überprüft werden. Wenn
 
 0:17:24.520,0:17:29.630
-das erschöpfend tut, indem man alle Möglichkeiten ausprobiert,
-kann man feststellen am Ende, dass es diese Lösung gibt
+das erschöpfend getan wird, indem alle Möglichkeiten ausprobiert
+werden, kann am Ende festgestellt werden, dass es diese Lösung gibt
 
 0:17:29.630,0:17:34.610
 und dass es auch die einzige Lösung ist. Dann
-kann man eben aus der vollständigen Tabelle
+kann eben aus der vollständigen Tabelle
 
 0:17:34.610,0:17:44.400
-natürlich die gewünschten Antworten ablesen
-oder auch einfach das Gesamtbild nutzen.
+natürlich die gewünschten Antworten abgelesen
+oder auch einfach das Gesamtbild genutzt werden.
 
 0:17:44.400,0:17:53.380
-Das wäre so eine Rätselstrategie, wie man mit solchen
-sprachlichen Hinweisen umgeht. Wir können mal kurz
+Das wäre so eine Rätselstrategie, wie mit solchen
+sprachlichen Hinweisen umgegangen wird. Wir können mal kurz
 
 0:17:53.380,0:17:58.121
 schauen, was wir da genau getan haben. Einige der Strategien
@@ -714,7 +714,7 @@ atomare oder kompakte Formen. Später werden das
 
 0:18:26.309,0:18:32.610
 einfach Formel-Buchstaben sein. Zum Beispiel so wie Variablen
-in arithmetischen Ausdrücken. Hier könnte man sagen,
+in arithmetischen Ausdrücken. Hier könnte gesagt werden,
 
 0:18:32.610,0:18:36.820
 diese atomare Darstellung, diese kompakte Darstellung,
@@ -890,10 +890,10 @@ Philosophie. Zum Beispiel hat Aristoteles sich damit
 
 0:23:10.010,0:23:14.140
 beschäftigt, wie überhaupt gutes Argumentieren
-aussieht. Also wie kann man jemanden von etwas
+aussieht. Also wie kann jemand von etwas
 
 0:23:14.140,0:23:18.169
-überzeugen, sprachlich? Da ging es nicht um Formeln,
+überzeugt werden, sprachlich? Da ging es nicht um Formeln,
 sondern wirklich um die sprachliche Anwendung
 
 0:23:18.169,0:23:23.090
@@ -925,8 +925,8 @@ dass offenbar Sokrates sterblich sein muss. Das ist
 ein sprachliches Argumentationsmuster, das nicht
 
 0:23:57.730,0:24:03.600
-überraschend ist, das man aber eben auch erstmal
-festhalten muss. Aristoteles hat diese Arten des Schließens
+überraschend ist, das aber eben auch erstmal
+festgehalten werden muss. Aristoteles hat diese Arten des Schließens
 
 0:24:03.600,0:24:09.940
 kategorisiert und untersucht. Und das
@@ -997,15 +997,15 @@ Sokrates. Das ist sehr ähnlich zu der ersten
 Folgerung von der Vorfolie. Dann gibt es auch
 
 0:26:09.919,0:26:16.130
-Syllogismen für negative Aussagen. Man kann natürlich
+Syllogismen für negative Aussagen. Natürlich können
 „Philosophen“, „Menschen“, „sterblich“ auch durch
 
 0:26:16.130,0:26:20.490
-andere Begriffe ersetzen. Dann kriegt man immer
-wieder gültige Folgerungen. Aber man kann auch
+andere Begriffe ersetzt werden. Dann werden immer
+wieder gültige Folgerungen erhalten, Aber es können auch
 
 0:26:20.490,0:26:25.169
-andere Argumentationsmuster betrachten. Zum
+andere Argumentationsmuster betrachtet werden. Zum
 Beispiel, was ist, wenn wir nicht wissen,
 
 0:26:25.169,0:26:32.110
@@ -1026,10 +1026,10 @@ ist. Sprachlich ist das nicht überraschend.
 
 0:26:53.220,0:26:58.030
 Sie werden dem hoffentlich zustimmen können.
-Wenn man diese beiden Tatsachen zur Kenntnis
+Wenn diese beiden Tatsachen zur Kenntnis
 
 0:26:58.030,0:27:03.770
-nimmt, dann sollte man auch glauben, dass keine
+genommen werden, dann sollte auch geglaubt werden, dass keine
 Blume ein Hund ist. Wenn sie ein Hund wäre, dann
 
 0:27:03.770,0:27:08.860
@@ -1038,15 +1038,15 @@ sind. Hier oben steht aber explizit, dass keine Blume ein
 
 0:27:08.860,0:27:17.190
 Tier ist. Also kann auch keine Blume ein Hund sein. Das ist eine andere
-Art des Denkens, des Schließens, als hier oben. Man kann vielleicht
+Art des Denkens, des Schließens, als hier oben. Es kann vielleicht
 
 0:27:17.190,0:27:22.070
-versuchen, das in Einklang zu bringen, dass
+versucht werden, das in Einklang zu bringen, dass
 hier stimmt, dass es doch irgendwie die gleiche
 
 0:27:22.070,0:27:27.720
 Argumentation ist. Das hängt dann aber davon ab, dass
-man zum Beispiel nachdenkt, was es heißt, „alle“ und
+zum Beispiel darüber nachgedacht wird, was es heißt, „alle“ und
 
 0:27:27.720,0:27:35.880
 „keine“ in Beziehung zu setzen, und ob das eine genau die Negation
@@ -1186,14 +1186,14 @@ Bei den Syllogismen ist wirklich die Forderung
 
 0:31:19.800,0:31:26.200
 auch von Aristoteles gewesen, dass es darum geht,
-dass man das, was herauskommt, aus den gegebenen
+dass das, was herauskommt, aus den gegebenen
 
 0:31:26.200,0:31:33.200
-Dingen folgern kann und zwar aus nur diesen. Also dass man
-nichts weiteres braucht. Sonst ist es kein überzeugender
+Dingen gefolgert werden kann und zwar aus nur diesen. Also dass
+nichts weiteres gebraucht wird. Sonst ist es kein überzeugender
 
 0:31:33.200,0:31:41.820
-Schlussweg, wenn man noch anderes Wissen braucht als
+Schlussweg, wenn noch anderes Wissen gebraucht wird als
 das, was in der Regel, in diesem Tripel hier, in
 
 0:31:41.820,0:31:49.500
@@ -1230,7 +1230,7 @@ wichtige Erkenntnis oder Tatsache, die uns auch
 
 0:32:35.110,0:32:38.350
 auf formaler Ebene wieder begegnen wird: Aus
-Quatsch kann man eigentlich alles folgern.
+Quatsch lässt sich eigentlich alles folgern.
 
 0:32:38.350,0:32:45.409
 Die Folgerung, aus Quatsch folgt irgendetwas,
@@ -1269,7 +1269,7 @@ Andererseits könnten wir das jetzt nicht, anders als bei
 den anderen beiden Fällen hier oben, irgendwie dadurch
 
 0:33:48.850,0:33:54.980
-wegdiskutieren, dass man sagt, es stimmt ja gar nicht, dass
+wegdiskutieren, dass gesagt wird, es stimmt ja gar nicht, dass
 Elefanten im Meer leben, oder Tomaten sind gar keine Säugetiere.
 
 0:33:54.980,0:34:00.110
@@ -1349,11 +1349,11 @@ ich auch bei den Delfinen. Bei den Aliens weiß
 ich das nicht notwendigerweise. Das heißt, diese
 
 0:35:50.440,0:36:00.960
-dritte Schlussweise darf man nur anwenden, wenn diese Menge
+dritte Schlussweise darf nur angewendet werden, wenn diese Menge
 nicht leer ist. Das ist ein Detail, aber ein wichtiges Detail,
 
 0:36:00.960,0:36:05.020
-bezüglich dessen man sehr präzise sein muss, wenn
+bezüglich dessen sehr präzise vorgegangen werden muss, wenn
 wir wirklich formale Argumentation betreiben.
 
 0:36:05.020,0:36:10.230
@@ -1389,11 +1389,11 @@ Video in diesem konkreten Fall jetzt tatsächlich
 auch an einem Donnerstagmorgen auf, zu dem Zeitpunkt,
 
 0:37:02.570,0:37:11.560
-wo sonst die Vorlesung wäre. Also könnte man sagen,
-ja, diese Aussage ist wahr. Wir haben ja Donnerstag.
+wo sonst die Vorlesung wäre. Also könnte gesagt werden,
+Ja, diese Aussage ist wahr. Wir haben ja Donnerstag.
 
 0:37:11.560,0:37:15.349
-Jetzt könnte man sich dennoch immer noch fragen: „Wenn
+Jetzt könnte dennoch immer noch die Frage gestellt werden: „Wenn
 der Mond grün ist, haben wir Donnerstag. Ist denn
 
 0:37:15.349,0:37:24.670
@@ -1406,11 +1406,11 @@ grün ist. Weil wir haben Donnerstag. Das wäre eine
 
 0:37:31.550,0:37:37.510
 Betrachtung. Wir könnten auch sagen, da der Mond nie
-grün ist, darf man auch (aus Quatsch darf man alles
+grün ist, darf auch (aus Quatsch darf alles
 
 0:37:37.510,0:37:41.670
-folgern) durchaus sagen: „Wenn der Mond grün ist, haben wir
-Donnerstag.“ Man könnte sogar sagen: „Wenn der Mond grün
+gefolgert werden) durchaus gesagt werden: „Wenn der Mond grün ist, haben wir
+Donnerstag.“ Es könnte sogar gesagt werden: „Wenn der Mond grün
 
 0:37:41.670,0:37:47.060
 ist, haben wir sowohl Mittwoch als auch Donnerstag.“
@@ -1426,15 +1426,15 @@ um dann festzustellen: „Ach, ich schau mal
 
 0:38:00.080,0:38:12.790
 auf den Kalender und stelle fest, es ist gar nicht gleichzeitig
-Mittwoch und Donnerstag.“ Also das könnte man sagen,
+Mittwoch und Donnerstag.“ Also das, so könnte gesagt werden,
 
 0:38:12.790,0:38:22.820
 wäre zu akzeptieren, diese Aussage. Da können Sie mal drüber
-nachdenken, ob Sie das auch so hingenommen hätten direkt. Oder man kann
+nachdenken, ob Sie das direkt auch so hingenommen hätten. Oder es können
 
 0:38:22.820,0:38:27.200
-sich Alternativen anschauen. Was ist denn, wenn man
-aus dem „wenn“ ein „weil“ machen würde? Also „Weil
+sich Alternativen angeschaut werden. Was ist denn, wenn
+aus dem „wenn“ ein „weil“ gemacht würde? Also „Weil
 
 0:38:27.200,0:38:35.790
 der Mond grün ist, haben wir Donnerstag.“ Wie
@@ -1453,7 +1453,7 @@ er nicht grün. Also zu sagen „Weil der Mond grün
 ist, haben wir Donnerstag.“ ist zumindest bedenklich.
 
 0:38:55.570,0:39:01.200
-Also könnte man sagen, diese Aussage stimmt nicht. Der
+Also könnte gesagt werden, diese Aussage stimmt nicht. Der
 Mond ist ja gar nicht grün. Dann könnte ich entgegnen:
 
 0:39:01.200,0:39:07.620
@@ -1506,11 +1506,11 @@ eine andere Welt zeigen, wo der Mond manchmal
 
 0:40:16.500,0:40:25.050
 doch grün ist und es trotzdem Donnerstage gibt, so dass die
-Argumentation, dass man Donnerstag hat, als Folge aus der Tatsache
+Argumentation, dass es Donnerstag ist, als Folge aus der Tatsache
 
 0:40:25.050,0:40:37.550
-"der Mond ist nicht grün", dann widerlegt wäre? Da
-muss man etwas drüber nachdenken. Und in der Tat
+"der Mond ist nicht grün", dann widerlegt wäre? Darüber
+muss etwas nachgedacht werden. Und in der Tat
 
 0:40:37.550,0:40:42.790
 eignet sich die Logik, die Art von Aussagenlogik,
@@ -1526,7 +1526,7 @@ Begriffe sprachlich unsauber, fast äquivalent benutzt.
 
 0:40:54.310,0:41:02.210
 Aber es gibt Unterschiede zwischen „wenn“ und „weil“. Statt
-„wenn“ sagt man gern „falls“. Man sagt gern auch: irgendetwas
+„wenn“ wird gern „falls“ gesagt. Es wird auch gern gesagt: irgendetwas
 
 0:41:02.210,0:41:08.460
 stimmt nur, falls dies und jenes. Das sind jeweils leicht
@@ -1537,16 +1537,16 @@ kleine Unterschiede dazwischen. Das sprachliche
 Folgern kann auch, und sollte dazu führen,
 
 0:41:16.540,0:41:21.660
-dass man so etwas mal hinterfragt. Und indem man diese
+dass so etwas mal hinterfragt wird. Und indem diese
 Aussagen, die etwas bizarr erscheinen mögen, dann
 
 0:41:21.660,0:41:28.839
 etwas formaler, etwas abstrakter auch unabhängig
-von konkreten Begriffen fasst, kann man solche
+von konkreten Begriffen gefasst werden, können solche
 
 0:41:28.839,0:41:34.869
 Wortbedeutungen solcher sprachlichen Konstrukte
-besser verstehen. Auch für andere Arten der
+besser verstanden werden. Auch für andere Arten der
 
 0:41:34.869,0:41:40.450
 Verknüpfung, also „und“, „oder“, was sehr typische
@@ -1554,18 +1554,18 @@ sprachliche Mittel auch zur Verknüpfung von
 
 0:41:40.450,0:41:47.310
 Aussagen sind. Oder der Unterschied zwischen „oder“ und „entweder
-... oder“. Das hat ja einen Grund, dass man manchmal sagt
+... oder“. Das hat ja einen Grund, dass manchmal gesagt wird
 
 0:41:47.310,0:41:52.400
-„dies oder das“ oder dass man sagt „entweder dies oder
+„dies oder das“ oder dass gesagt wird „entweder dies oder
 das“. Oder sogar auch „aber“. Ich habe ja gerade in diesem
 
 0:41:52.400,0:41:58.130
 Satz „aber“ benutzt, und da ist die Frage, was heißt denn dieses
-„aber“ überhaupt sprachlich? Das kann man versuchen zu untersuchen,
+„aber“ überhaupt sprachlich? Das kann zu untersuchen versucht werden,
 
 0:41:58.130,0:42:11.680
-indem man sich mit symbolischer Logik beschäftigt.
+indem sich mit symbolischer Logik beschäftigt wird.
 Ein anderer Grund, symbolische Logik oder
 
 0:42:11.680,0:42:19.109
@@ -1597,8 +1597,8 @@ Satz wie „Ich sah den Mann auf dem Berg mit dem
 Fernrohr.“ Das ist sprachlich nicht so schwer zu verstehen
 
 0:42:56.910,0:43:02.150
-auf den ersten Blick. Aber wenn man etwas
-genauer drüber nachdenkt, was denn überhaupt
+auf den ersten Blick. Aber wenn etwas
+genauer darüber nachgedacht wird, was denn überhaupt
 
 0:43:02.150,0:43:08.880
 dieser Satz bedeutet, dann stellt sich heraus,
@@ -1641,15 +1641,15 @@ dem Berg, mit dem Fernrohr. Das ist eine Interpretation
 des Satzes. Wie haben wir diesen Satz dabei
 
 0:44:07.090,0:44:10.640
-interpretiert? Wenn man da ein bisschen Struktur hineinbringt,
+interpretiert? Wenn da ein bisschen Struktur hineingebracht wird,
 die der Satz an sich erstmal nicht hat, weil er keine
 
 0:44:10.640,0:44:16.020
-Kommas oder andere Punktionen enthält, dann könnte
-man Klammern benutzen, um hier Sinneinheiten
+Kommas oder andere Punktionen enthält, dann könnten
+Klammern benutzt werden, um hier Sinneinheiten
 
 0:44:16.020,0:44:21.910
-zusammenzufassen. Man würde feststellen, ich sah den
+zusammenzufassen. Es würde festgestellt werden: ich sah den
 Mann. Ich sah den, während ich auf dem Berg war.
 
 0:44:21.910,0:44:27.450
@@ -1662,19 +1662,19 @@ darauf, wie ich den Mann gesehen habe, nämlich mit
 
 0:44:33.120,0:44:39.240
 dem Fernrohr. In dem Satz wären hier sogar das „auf dem
-Berg“ und „mit dem Fernrohr“ austauschbar. Man könnte auch
+Berg“ und „mit dem Fernrohr“ austauschbar. Es könnte auch
 
 0:44:39.240,0:44:46.280
-sagen „Ich sah den Mann, mit dem Fernrohr, auf dem Berg.“ Der Mann
+gesagt werden: „Ich sah den Mann, mit dem Fernrohr, auf dem Berg.“ Der Mann
 war nicht auf dem Berg, ich war auf dem Berg. Die Tatsache, dass
 
 0:44:46.280,0:44:51.660
 ich den sah, fand auf dem Berg statt. Das ist aber nur
-eine mögliche Interpretation dieses Satzes. Wenn man den
+eine mögliche Interpretation dieses Satzes. Wenn dieser
 
 0:44:51.660,0:44:56.790
-anders zusammenfasst, bzw. in gewissem Sinne anders
-klammert, könnte plötzlich auch die Situation sich anders
+anders zusammengefasst, bzw. in gewissem Sinne anders
+geklammert wird, könnte plötzlich auch die Situation sich anders
 
 0:44:56.790,0:45:02.170
 darstellen. Zum Beispiel gibt es auch folgende
@@ -1705,11 +1705,11 @@ ist. Das ist eine ganz andere Situation als hier, obwohl
 es der gleiche Satz ist, nur anders interpretiert.
 
 0:45:37.380,0:45:41.930
-Hier kann man das „auf dem Berg“ und „mit dem
-Fernrohr“ natürlich nicht mehr tauschen. Der
+Hier kann das „auf dem Berg“ und „mit dem
+Fernrohr“ natürlich nicht mehr getauscht werden. Der
 
 0:45:41.930,0:45:46.720
-Zusammenhang wäre ein anderer, wenn man sagen
+Zusammenhang wäre ein anderer, wenn gesagt
 würde: „Ich sah den Mann mit dem Fernrohr, auf
 
 0:45:46.720,0:45:55.339
@@ -1737,23 +1737,23 @@ Da bezieht sich das „mit dem Fernrohr“ nicht auf mein Sehen, sondern
 nur auf den Berg. Da könnte ja auch stehen: „Ich sah den Mann
 
 0:46:27.240,0:46:33.410
-auf dem Berg mit der Hütte.“ Über die man nicht denkt,
+auf dem Berg mit der Hütte.“ Über die nicht gedacht wird,
 dass ich durch die Hütte schaue. Nur weil es hier
 
 0:46:33.410,0:46:44.250
-auch diese Interpretation gibt, kann man sich diese
-Konstellation vorstellen. Wenn statt Fernrohr Hütte stünde,
+auch diese Interpretation gibt, kann sich diese
+Konstellation vorgestellt werden. Wenn statt Fernrohr Hütte stünde,
 
 0:46:44.250,0:46:52.420
 würde diese Interpretation wegfallen. Des Sinnes
 halber, nicht der sprachlichen Form halber. Während
 
 0:46:52.420,0:46:57.420
-das immer noch möglich wäre. Wenn man sagen würde: „Ich sah
-den Mann auf dem Berg mit der Hütte,“ und sich so vorstellen
+das immer noch möglich wäre. Wenn gesagt würde: „Ich sah
+den Mann auf dem Berg mit der Hütte,“ und es sich so vorgestellt
 
 0:46:57.420,0:47:01.510
-kann, dass hier die Hütte steht, dann sollte das
+werden kann, dass hier die Hütte steht, dann sollte das
 auch eine mögliche Interpretation sein. Vielleicht
 
 0:47:01.510,0:47:06.260
@@ -1765,15 +1765,15 @@ Fernrohr zwar wie die Hütte auf dem Berg ist, aber ich es
 nicht benutzte, während ich den Mann sehe. Vielleicht kann
 
 0:47:12.960,0:47:20.820
-man hier auch noch ein paar mehr Klammern einbauen
-wollen, um das noch anders klarer herauszustellen.
+hier auch noch das Einbauen von ein paar mehr Klammern
+gewollt werden, um das noch anders klarer herauszustellen.
 
 0:47:20.820,0:47:24.619
 Aber der Punkt ist, in dem Satz selber gibt es all diese Klammern gar
-nicht. Struktur ist gar nicht vorhanden. Vielleicht bräuchte man eine
+nicht. Struktur ist gar nicht vorhanden. Vielleicht würde eine
 
 0:47:24.619,0:47:33.119
-Baumstruktur statt nur dieser Klammerstruktur, um das zu unterscheiden.
+Baumstruktur statt nur dieser Klammerstruktur gebraucht, um das zu unterscheiden.
 Aber die Sprache an sich gibt das nicht her. Damit nicht genug, es gibt
 
 0:47:33.119,0:47:43.809
@@ -1825,7 +1825,7 @@ während hier das Fernrohr sich auf den Mann auf
 dem Berg bezieht. All diese Unterscheidungen
 
 0:48:52.170,0:49:03.200
-macht man in der gesprochenen Sprache erst mal gar nicht.
+werden in der gesprochenen Sprache erst mal gar nicht gemacht.
 Da liefert die Aussagenlogik mit der Form von Formeln,
 
 0:49:03.200,0:49:09.150
@@ -1842,22 +1842,22 @@ hätten. Das unterstreicht ja aber nur den Punkt, dass
 
 0:49:22.540,0:49:30.270
 eben natürliche Sprache nicht eindeutig ist,
-sondern man mitunter andere Mittel braucht, wenn
+sondern mitunter andere Mittel gebraucht werden, wenn
 
 0:49:30.270,0:49:37.190
-man präzise sein möchte. Ich hatte auch schon davon gesprochen:
-Vielleicht braucht man auch mehr Struktur. Vielleicht
+Präzision angestrebt wird. Ich hatte auch schon davon gesprochen:
+Vielleicht wird auch mehr Struktur gebraucht. Vielleicht
 
 0:49:37.190,0:49:41.349
-bräuchte man eine Baumstruktur statt nur so einer flachen
-Struktur, wo man nur Klammern einsetzt. Das ist aber
+würde eine Baumstruktur benötigt statt nur so einer flachen
+Struktur, in der nur Klammern eingesetzt werden. Das ist aber
 
 0:49:41.349,0:49:46.760
-dann eine Frage der Syntax, wenn man Aussagenlogik
-betreibt, welche Art von Teilen, welche Arten von
+dann eine Frage der Syntax, wenn Aussagenlogik
+betrieben wird, welche Art von Teilen, welche Arten von
 
 0:49:46.760,0:49:51.309
-Kombinationen, welche Struktur man da einführt. Das müssen
+Kombinationen, welche Struktur dort eingeführt wird. Das müssen
 wir natürlich nicht neu erfinden, sondern dafür gibt
 
 0:49:51.309,0:49:56.250

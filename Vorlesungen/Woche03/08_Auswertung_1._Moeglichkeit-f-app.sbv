@@ -76,19 +76,19 @@ die bliebe einfach bis dorthin stehen.
 
 0:02:30.970,0:02:48.760
 Dann kommt hier die Disjunktion. Also das
-α^(¬A4 ∨ A1). Da ist die Regel: Man schaue
+α^(¬A4 ∨ A1). Da ist die Regel: Es werden
 
 0:02:48.760,0:02:57.040
-die beiden Werte an. Schaue, ob mindestens einer
-von beiden 1 ist. Wenn dem so ist, dann nehme
+die beiden Werte angeschaut. Es wird geprüft, ob mindestens einer
+von beiden 1 ist. Wenn dem so ist, dann wird
 
 0:02:57.040,0:03:10.260
-man auch 1 als Ergebnis. Und natürlich auf
-der noch weiter außen liegenden Ebene, hätte
+auch 1 als Ergebnis genommen. Und natürlich auf
+der noch weiter außen liegenden Ebene, wäre
 
 0:03:10.260,0:03:23.460
-man die 1 für das A3 von oben einfach behalten.
-Und würde jetzt kombinieren als α^ von der
+die 1 für das A3 von oben einfach beibehalten worden.
+Und würde jetzt kombiniert als α^ von der
 
 0:03:23.460,0:03:36.510
 einen, inneren Formel ((¬A4 ∨ A1) ∧
@@ -108,7 +108,7 @@ die zu 1 bewertet wurde. Also wäre das Ergebnis
 
 0:04:11.280,0:04:18.750
 unsere gegebene Formel F. Dieses Verfahren arbeitet so
-von unten nach oben. Wenn man auf den Syntaxbaum schaut.
+von unten nach oben. Wenn auf den Syntaxbaum geschaut wird.
 
 0:04:18.750,0:04:23.910
 Wir haben ja von innen nach außen gearbeitet, als wir
@@ -132,10 +132,10 @@ der Konjunktion eine 1. Dann wird aus dieser 1
 
 0:05:10.070,0:05:19.820
 beim Negieren eine 0. Das, was ich hier
-drüben schrittweise getan habe, kann man auch
+drüben schrittweise getan habe, kann auch
 
 0:05:19.820,0:05:29.660
-hier entsprechend als Schritte wiederfinden. In dem
+hier entsprechend als Schritte wiedergefunden werden. In dem
 Sinne findet die Auswertung "bottom-up" also von
 
 0:05:29.660,0:05:35.240

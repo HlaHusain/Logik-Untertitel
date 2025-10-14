@@ -67,8 +67,8 @@ oder nicht, war unabhängig von irgendwelchen Äußerungen
 von Bettina. Jetzt sagt Bettina: „Claudia lügt,
 
 0:01:56.500,0:02:05.880
-aber Anne sagt die Wahrheit.“ Man könnte jetzt natürlich einfach
-die Sätze wieder hernehmen und versuchen, daraus zu folgern,
+aber Anne sagt die Wahrheit.“ Jetzt könnte natürlich einfach
+versucht werden, die Sätze wieder herzunehmen und daraus zu folgern,
 
 0:02:05.880,0:02:13.550
 was hier los ist. Also was ist, unter der Annahme,
@@ -244,7 +244,7 @@ unberührt davon, weil sie durch diese
 
 0:06:24.350,0:06:30.530
 Aussage gar nicht berührt wird. Wie sich herausstellen würde,
-wenn man das einfach ausprobiert. Im Wesentlichen, weil
+wenn das einfach ausprobiert wird. Im Wesentlichen, weil
 
 0:06:30.530,0:06:39.840
 in der Lösung / in diesem Lösungsfall sowieso auch
@@ -391,8 +391,8 @@ eine 1 herauskommt. Das wäre so etwas wie
 zum Beispiel: Diese Belegung für diese Formel
 
 0:10:18.290,0:10:26.970
-liefert 1 beim Auswerten. Dann sagt man: α ist ein
-Modell für F. Man kann das auch symbolisch schreiben:
+liefert 1 beim Auswerten. Dann wird gesagt: α ist ein
+Modell für F. Das kann auch symbolisch geschrieben werden:
 
 0:10:26.970,0:10:34.290
 Also α und dann das Modellzeichen. D.h.
@@ -443,7 +443,7 @@ Sie ist also unerfüllbar. Das ist die Frage nach der
 Erfüllbarkeit oder Unerfüllbarkeit einer Formel. Dann kann
 
 0:11:55.019,0:12:00.440
-eine Formel gültig sein. Da sagt man auch, das ist
+eine Formel gültig sein. Da wird auch gesagt, das ist
 eine Tautologie. Oder die Formel ist tautologisch.
 
 0:12:00.440,0:12:05.690
@@ -563,8 +563,8 @@ zugeordnet. Für drei atomare Aussagen. Unnötigerweise
 für A4, das gar nicht in der Formel vorkommt.
 
 0:15:05.940,0:15:10.430
-Das wäre per se nicht falsch. Man dürfte hier oben auch
-A4 noch auf irgendwas abbilden. Dann wäre das immer
+Das wäre per se nicht falsch. Hier oben dürfte auch
+A4 noch auf irgendwas abgebildet werden. Dann wäre das immer
 
 0:15:10.430,0:15:15.100
 noch eine passende Belegung. Aber wenn wir für
@@ -735,8 +735,8 @@ ist wahr. Eine dritte Möglichkeit gibt es nicht.
 Die hatte ich an der Stelle schon gefasst als, dass
 
 0:19:28.460,0:19:35.570
-könnte man auffassen (wenn man die ganzen
-Symbole kennt) als: (A ∨ ¬A). (A ∨ ¬A) ist eine
+könnte aufgefasst werden (wenn die ganzen
+Symbole bekannt sind) als: (A ∨ ¬A). (A ∨ ¬A) ist eine
 
 0:19:35.570,0:19:42.260
 Tautologie. Da können wir uns leicht überzeugen. Da gibt es
@@ -839,11 +839,11 @@ Sache folgt, dann folgt auch aus der ersten
 Sache direkt die Dritte. Transitives Schließen:
 
 0:22:30.400,0:22:36.830
-(((A => B) ∧ (B => C)) => (A => C)). Das kann man sich
-überlegen, dass das eine sinnvolle Schlussweise ist. Man
+(((A => B) ∧ (B => C)) => (A => C)). Das lässt sich
+überlegen, dass das eine sinnvolle Schlussweise ist. Es
 
 0:22:36.830,0:22:42.780
-kann es nachprüfen, ob es eine Tautologie ist. Jetzt
+kann nachgeprüft werden, ob es eine Tautologie ist. Jetzt
 wird die Tabelle größer, weil wir drei Elementaraussagen
 
 0:22:42.780,0:22:50.180
@@ -967,8 +967,8 @@ entsprechend vorher üben. Natürlich werden Ihnen
 dann Dinge / bestimmte Beziehungen auffallen,
 
 0:26:03.029,0:26:10.080
-die man auch nochmal allgemeiner fragen
-kann. Ein offensichtlicher Zusammenhang war:
+die auch nochmal allgemeiner gefragt
+werden können. Ein offensichtlicher Zusammenhang war:
 
 0:26:10.080,0:26:14.740
 Wenn wir hier ein Häkchen in der ersten
@@ -980,10 +980,10 @@ Und das in der Dritten bleibt mit Sicherheit frei.
 
 0:26:20.750,0:26:26.909
 Weil jede gültige Formel auch erfüllbar ist.
-Solche Zusammenhänge kann man auch nochmal
+Solche Zusammenhänge können auch nochmal
 
 0:26:26.909,0:26:31.240
-allgemeiner fragen. Das ist dann interessant
+allgemeiner gefragt werden. Das ist dann interessant
 für das Verständnis, auch für die relative
 
 0:26:31.240,0:26:37.429
@@ -1027,8 +1027,8 @@ Wenn-dann-Aussage sein. Also schauen wir mal. Das hatten
 wir gerade schon gehabt. Wenn eine Formel gültig ist,
 
 0:27:33.650,0:27:40.220
-dann ist natürlich auch erfüllbar. Hier würde man das
-Kreuz sicherlich setzen. Wenn eine Formel gültig ist,
+dann ist natürlich auch erfüllbar. Hier würde das
+Kreuz sicherlich gesetzt werden. Wenn eine Formel gültig ist,
 
 0:27:40.220,0:27:48.820
 dann ist die Negation dieser Formel
@@ -1059,15 +1059,15 @@ das Tutorium.
 Letztlich auch ein Zugang zu diesen
 
 0:28:32.590,0:28:38.960
-Fragen wäre, dass man sich die Begriffe Gültigkeit,
+Fragen wäre, dass die Begriffe Gültigkeit,
 Erfüllbarkeit, Unerfüllbarkeit schematisch
 
 0:28:38.960,0:28:45.120
-nochmal vorgefertigt. Hier sind die
+sich nochmal vorgegenwärtigt werden. Hier sind die
 Verbindungen durch verbale Aussagen hergestellt.
 
 0:28:45.120,0:28:53.740
-Man kann sich das auch in so einer schematischen
+Das lässt sich auch in so einer schematischen
 Sicht verdeutlichen. Es gibt so ein gewisses
 
 0:28:53.740,0:29:02.190
@@ -1095,8 +1095,8 @@ vorstellen, könnten Sie jede Formel irgendwo
 einordnen. Dann gibt es hier so eine Spiegelungsachse,
 
 0:29:39.679,0:29:46.970
-weil man natürlich durch Negation einer Formel
-sozusagen diese Position im Spektrum umdreht.
+weil natürlich durch Negation einer Formel
+sozusagen diese Position im Spektrum umgedreht wird.
 
 0:29:46.970,0:29:55.860
 Also wenn ich eine Formel mit vielen Einsen
@@ -1112,10 +1112,10 @@ durch Negation zu einer mit wenigen Einsen.
 
 0:30:05.960,0:30:13.539
 Oder eine Formel mit nur Nullen wird durch Negation zu
-einer Formel mit nur Einsen. Dann kann man sich auch anhand
+einer Formel mit nur Einsen. Dann kann auch anhand
 
 0:30:13.539,0:30:24.559
-des Spektrums diesen Fragen nähern. Nehmen wir einfach
+des Spektrums sich diesen Fragen genähert werden. Nehmen wir einfach
 mal irgendeine Zeile heraus. Wenn F nicht gültig ist,
 
 0:30:24.559,0:30:34.560
@@ -1168,10 +1168,10 @@ ist? Eine Möglichkeit ist offenbar, mit der Wahrheitstafel
 
 0:32:09.940,0:32:15.680
 zu arbeiten, so wie ich das bisher getan habe. Ich hatte immer die
-Wahrheitstafel angegeben. Dann konnte man an der Ergebnisspalte
+Wahrheitstafel angegeben. Dann konnte an der Ergebnisspalte
 
 0:32:15.680,0:32:20.919
-eben ablesen, welchen Status die Formel hat. Das ist
+eben abgelesen werden, welchen Status die Formel hat. Das ist
 natürlich ein gültiger Weg. Der ist nur nicht immer
 
 0:32:20.919,0:32:27.120
@@ -1191,12 +1191,12 @@ wenn wir viele atomare Formen haben. Woran liegt
 das? Wir hatten jetzt Beispiele mit einer, zwei, drei
 
 0:32:43.430,0:32:49.299
-atomaren Formeln A, B, C. Man könnte sich aber auch den
-allgemeinen Fall anschauen: Man hat n verschiedene atomare
+atomaren Formeln A, B, C. Es könnte aber auch der
+allgemeine Fall betrachtet werden: liegen n verschiedene atomare
 
 0:32:49.299,0:32:56.440
-Formen A1, A2, A3, A4 etc. Wie groß ist dann die Wahrheitstafel?
-Man kann sich sehr leicht überlegen, wie viele Zeilen
+Formeln vor: A1, A2, A3, A4 etc. Wie groß ist dann die Wahrheitstafel?
+Es kann sich sehr leicht überlegt werden, wie viele Zeilen
 
 0:32:56.440,0:33:02.010
 die Wahrheitstafel hat. Nämlich 2^n. Wir hatten

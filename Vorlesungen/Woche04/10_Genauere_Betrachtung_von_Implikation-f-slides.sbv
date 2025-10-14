@@ -19,8 +19,8 @@ als Folgerung kennen: "Wenn F, dann G", dass wir
 das abkürzen durch diesen Ausdruck. Das könnte
 
 0:00:32.560,0:00:38.050
-man als Definition sehen. Aber natürlich sollte
-man sich nochmal vergewissern (das führt bei
+als Definition gesehen werden. Aber natürlich sollte
+sich nochmal vergewissert werden (das führt bei
 
 0:00:38.050,0:00:44.379
 Implikation manchmal zu Missverständnissen,
@@ -28,10 +28,10 @@ vielleicht auch in Übungen), ob das überhaupt logisch
 
 0:00:44.379,0:00:50.540
 richtig ist. Also ist das hier eine angemessene Definition
-oder Entsprechung dessen, was man umgangssprachlich
+oder Entsprechung dessen, was umgangssprachlich
 
 0:00:50.540,0:00:55.190
-als Folgerung sieht? Vor allem für Fälle,
+als Folgerung gesehen wird? Vor allem für Fälle,
 wo eben die Vorbedingung nicht erfüllt ist,
 
 0:00:55.190,0:01:00.809
@@ -64,7 +64,7 @@ Satz wäre dann zu lesen oder wird interpretiert als:
 
 0:01:36.660,0:01:46.270
 dann auch B, nämlich: Wir haben Donnerstag.“ Jetzt
-könnte man sich auf der sprachlichen Ebene fragen: Unter
+könnte sich auf der sprachlichen Ebene gefragt werden: Unter
 
 0:01:46.270,0:01:54.960
 welchen Bedingungen, oder letztlich unter welchen
@@ -151,7 +151,7 @@ sind, wo der Mond grün ist und wir nicht Donnerstag
 haben, wäre dieser Satz falsch. Dann hätten wir ihn
 
 0:04:04.220,0:04:09.901
-widerlegt. Ein Gegenbeispiel, könnte man sagen. Das
+widerlegt. Ein Gegenbeispiel, könnte gesagt werden. Das
 heißt, dann wäre diese Aussage „aus A folgt B“ falsch.
 
 0:04:09.901,0:04:14.629
@@ -328,10 +328,10 @@ Kontraposition behauptete, dass (A => B) das
 
 0:08:48.830,0:08:53.590
 Gleiche bedeutet wie (¬B => ¬A). Also eine
-Art Umkehrschluss, wo man aber auch die
+Art Umkehrschluss, bei dem aber auch die
 
 0:08:53.590,0:08:58.110
-beiden Aussagen negieren musste. Dafür
+beiden Aussagen negiert werden mussten. Dafür
 können wir uns natürlich erst einmal das ¬B
 
 0:08:58.110,0:09:06.010
@@ -356,10 +356,10 @@ bisschen anders als hier vorne. Aber was wichtig
 
 0:09:33.510,0:09:41.580
 ist, die Implikation zwischen zwei solchen
-Spalten wird überall 1, außer wo man diese beiden
+Spalten wird überall 1, außer wo diese beiden
 
 0:09:41.580,0:09:49.160
-Einträge 1 0 hat. Also hier muss die 0 rauskommen.
+Einträge 1 0 vorliegen. Also hier muss die 0 rauskommen.
 An allen anderen Stellen eine 1. Das sind zwar andere
 
 0:09:49.160,0:09:56.520
@@ -376,23 +376,23 @@ gleichen Fällen ist diese Implikation wahr wie diese
 
 0:10:10.700,0:10:22.471
 Implikation wahr ist. Deswegen sind diese beiden
-Formeln und das dahinterstehende Konzept äquivalent. Man
+Formeln und das dahinterstehende Konzept äquivalent. Es
 
 0:10:22.471,0:10:29.560
 kann die Kontraposition / diese Äquivalenz auch anders
-herleiten. Und zwar kann man sich das auch anhand der
+hergeleitet werden. Und zwar kann sich dies natürlich auch anhand der
 
 0:10:29.560,0:10:36.930
-Definition natürlich überlegen. Statt das
-auszurechnen, kann man auch wieder wie eben
+Definition überlegt werden. Statt das
+auszurechnen, kann auch wieder wie eben
 
 0:10:36.930,0:10:43.070
 diese Entsprechung von Implikation ausgedrückt
-durch Disjunktion und Negation hernehmen und
+durch Disjunktion und Negation hergenommen und
 
 0:10:43.070,0:10:49.530
-sich das da dran überlegen. Das ist auch eine interessante
-Überlegung. Was würde man dafür jeweils benutzen? Zum einen
+sich das daran überlegt werden. Das ist auch eine interessante
+Überlegung. Was würde dafür jeweils benutzt werden? Zum einen
 
 0:10:49.530,0:10:56.860
 wissen wir ja (A => B) steht für (¬A ∨ B). Das ist genau
@@ -487,11 +487,11 @@ schreiben. Da hatte ich auch einfach angegeben, wie
 
 0:13:20.320,0:13:26.000
 die Tabelle dafür aussieht. Ohne es auszurechnen.
-Natürlich kann man das auch ausrechnen, indem
+Natürlich kann das auch ausgerechnet werden, indem
 
 0:13:26.000,0:13:34.550
-man einfach wieder unsere vier Konstellationen
-nimmt. Diese Spalte aufschreibt, aus der
+einfach wieder unsere vier Konstellationen
+genommen werden. Diese Spalte aufschreibt, aus der
 
 0:13:34.550,0:13:40.550
 Definition der Implikation. Sich das dann für
@@ -562,5 +562,5 @@ Exklusives-Oder. Was also genau dann 1 ist, wenn genau
 eine der beiden Ursprungsaussagen wahr ist. Dafür habe ich
 
 0:15:33.120,0:15:38.960
-jetzt kein Extrasymbol. Das könnte man
-aber eben als ¬(A <=> B) schreiben.
+jetzt kein Extrasymbol. Das könnte
+aber eben als ¬(A <=> B) geschrieben werden.
