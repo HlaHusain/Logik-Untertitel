@@ -40,7 +40,7 @@ Da hatten wir das sogenannte Spiegelungsprinzip.
 
 0:01:01.240,0:01:07.990
 Da ging es darum, dass wir per Negieren aus gültigen
-Formeln genau die unerfüllbaren Formen kriegen
+Formeln genau die unerfüllbaren Formeln kriegen
 
 0:01:07.990,0:01:13.960
 und umgekehrt. Das heißt, um etwa einen Tautologie-Test
@@ -48,7 +48,7 @@ zu machen, konnten wir auch die Formel negieren
 
 0:01:13.960,0:01:21.409
 und auf Unerfüllbarkeit überprüfen. Und das wollen wir
-jetzt gerne für prädikatenlogische Formen auch tun können.
+jetzt gerne für prädikatenlogische Formeln auch tun können.
 
 0:01:21.409,0:01:26.750
 Wenn wir uns dann wiederum erinnern, wie das
