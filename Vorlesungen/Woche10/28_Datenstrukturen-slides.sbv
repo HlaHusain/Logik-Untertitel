@@ -23,8 +23,8 @@ dann eine komplexe Aussage waren, die aber nicht
 weiter zerlegt war; die konnten wir mit Prädikaten
 
 0:00:35.880,0:00:40.830
-zerlegen, so wie man das in der natürlichen Sprache
-auch macht. Also etwa den Satz zerlegen in sein Subjekt
+zerlegen, so wie das in der natürlichen Sprache
+auch gemacht wird. Also etwa den Satz zerlegen in sein Subjekt
 
 0:00:40.830,0:00:46.920
 und sein Prädikat. Und dann hatten wir eben gesagt: „Der Mond ist
@@ -64,18 +64,18 @@ waren immer feste Konstanten, die keine weitere
 
 0:01:39.810,0:01:45.870
 Struktur hatten. Das ist allgemein zu unflexibel,
-wenn man tatsächlich mit Prolog programmieren möchte.
+wenn tatsächlich gewünscht wird, mit Prolog zu programmieren.
 
 0:01:45.870,0:01:53.250
 Also interessantere Aufgaben lösen möchte.
 Deswegen gibt es eine weitere Verfeinerung und da
 
 0:01:53.250,0:02:00.270
-ist einfach die Grundidee, dass man den Argumenten der Prädikate,
+ist einfach die Grundidee, dass den Argumenten der Prädikate,
 also "dem Mond", "Ich", "Mann", den Subjekten, Objekten,
 
 0:02:00.270,0:02:05.730
-dass man denen auch eine innere Struktur zubilligt.
+dass denen auch eine innere Struktur zugebilligt wird.
 Also das sind nicht einfach nur feste Begriffe,
 
 0:02:05.730,0:02:10.860
@@ -107,15 +107,15 @@ sondern das liefert einfach mehr Struktur
 für das Individuum Harry. Nämlich, dass
 
 0:02:52.860,0:02:59.040
-eine Person immer Vor- und Nachname hat und man die dann auch
-bitte getrennt angeben möchte. Dann können wir dann schreiben:
+eine Person immer Vor- und Nachname hat und diese dann bitte auch
+getrennt angegeben werden sollen. Dann können wir dann schreiben:
 
 0:02:59.040,0:03:08.040
 child(harry,X), person(harry,potter) und dann eine
 Variable X oder eben ein Elternteil von Harry.
 
 0:03:08.040,0:03:14.670
-Diese Art Terme nennt man Datenterme. Wir haben schon andere
+Diese Art Terme werden Datenterme genannt. Wir haben schon andere
 Terme gesehen. Wir hatten die Min-/Max-Terme. Wir hatten mal
 
 0:03:14.670,0:03:19.320
@@ -139,8 +139,8 @@ Variablen drin vorkommen. Also hier war es jetzt so,
 dass wir bei person(harry,potter) feste Begriffe hatten.
 
 0:03:49.170,0:03:55.620
-Man kann auch, insbesondere an den sozusagen tiefsten Stellen,
-also an den Blättern solch eines Terms, auch Variablen haben.
+Es können auch, insbesondere an den sozusagen tiefsten Stellen,
+also an den Blättern solch eines Terms, Variablen vorkommen.
 
 0:03:55.620,0:04:01.920
 Also zum Beispiel könnten wir auch sagen, wir
@@ -279,11 +279,11 @@ irgendwie eine Überprüfung, ob Harry wirklich
 da wohnt. Das ist nur eine Formatprüfung.
 
 0:07:16.060,0:07:20.800
-Also zum Beispiel würde zurückgewiesen, wenn man hier aus Versehen
-Argumente vertauschen würde. Also wenn man hier aus Versehen
+Also zum Beispiel würde zurückgewiesen, wenn hier aus Versehen
+Argumente vertauscht würden. Also wenn hier aus Versehen
 
 0:07:20.800,0:07:27.010
-erst die Straßenangaben macht und dann die Stadtangaben,
+erst die Straßenangaben gemacht werden und dann die Stadtangaben,
 dann würde hier nicht true herauskommen, weil dann
 
 0:07:27.010,0:07:32.380
@@ -311,15 +311,15 @@ Prädikat natürlich nicht, wer wo wohnt. Es
 geht nur um eine Formatprüfung hier sozusagen.
 
 0:08:01.780,0:08:09.130
-Zu beachten ist jetzt hier: Wenn man so
-syntaktisch vorgeht, dass jetzt natürlich
+Zu beachten ist jetzt hier: Wenn so
+syntaktisch vorgegangen wird, dass jetzt natürlich
 
 0:08:09.130,0:08:17.590
 das "valide" zum Beispiel oder dieses "address"
 (dieser Name) vollkommen verschiedene Rollen sind.
 
 0:08:17.590,0:08:21.700
-Da muss man also wirklich aufpassen. Die Rollen von
+Da muss also wirklich aufgepasst werden. Die Rollen von
 Prädikaten und diesen Datenkonstruktoren, wie ich die
 
 0:08:22.390,0:08:27.970
@@ -347,8 +347,7 @@ Und die Argumente durften vorher nur Konstanten und Variablen sein.
 Und dürfen jetzt auch strukturierte Terme sein, also solche Datenterme.
 
 0:08:56.510,0:09:08.580
-Zum Beispiel kann man das auch gut oder
-ein Potenzial für Verwechslung wäre ja:
+Zum Beispiel ein Potenzial für Verwechslung wäre ja:
 
 0:09:08.580,0:09:17.790
 Wenn wir uns hier "city" anschauen, dann gibt es hier so Einträge wie
@@ -456,11 +455,11 @@ aber auch wenn sie Funktor oder Funktionssymbol hören,
 
 0:12:04.380,0:12:10.950
 ist damit das Gleiche gemeint. Die Tatsache, dass
-Person zweistellig ist, notiert man auch in dieser Form.
+Person zweistellig ist, wird auch in dieser Form notiert.
 
 0:12:10.950,0:12:16.380
-Also nicht in dem Term selber, aber wenn man separat über
-"person" spricht, zum Beispiel in der Dokumentation oder
+Also nicht in dem Term selber, aber wenn separat über
+"person" gesprochen wird, zum Beispiel in der Dokumentation oder
 
 0:12:16.380,0:12:22.260
 einer Aufgabenstellung, dann wird durch dieses
@@ -468,7 +467,7 @@ einer Aufgabenstellung, dann wird durch dieses
 
 0:12:22.260,0:12:28.290
 soll also mit zwei Argumenten benutzt werden. Diese
-Notation verwendet man übrigens auch für Prädikate.
+Notation wird übrigens auch für Prädikate verwendet.
 
 0:12:28.290,0:12:32.730
 Also wenn wir ausdrücken wollen, dass "istVaterVon" ein
@@ -484,7 +483,7 @@ für Prädikate ein sinnvoller Begriff und auch für diese
 
 0:12:45.290,0:12:52.370
 Konstruktoren, die in den Datentermen verwendet werden. Dann
-kann man sich fragen, was das für die Konstanten heißt.
+kann die Frage gestellt werden, was das für die Konstanten heißt.
 
 0:12:52.370,0:12:56.510
 Ist das dann auch so ein Konstruktor? Ja, in gewissem
@@ -496,10 +495,10 @@ könnten wir auch als nullstellige Konstruktoren ansehen
 
 0:13:01.550,0:13:06.200
 und schreiben das dann tatsächlich auch so auf.
-Also wenn man darüber reden möchte, dass etwas eine
+Also wenn darüber gesprochen werden soll, dass etwas eine
 
 0:13:06.200,0:13:14.750
-Konstante ist, dann kann man das auch schreiben
+Konstante ist, dann kann das auch geschrieben werden
 /0. Was gibt es noch allgemein zu sagen?
 
 0:13:16.370,0:13:21.920
@@ -523,7 +522,7 @@ schon hätten in Prolog, diese selbst zusammenbasteln
 sozusagen. Also etwa die natürliche Zahl 13
 
 0:13:48.200,0:13:54.782
-könnte man auch darstellen als
+könnte auch dargestellt werden als
 "successor(successor(successor(successor(...(13 Mal) z)))".
 
 0:13:54.782,0:14:03.560
@@ -543,7 +542,7 @@ Natürlich ist das nicht das Gleiche. Das ist nur eine Repräsentation.
 Aber wir können dann symbolisch mit diesen Zahlen arbeiten.
 
 0:14:21.950,0:14:27.590
-Die nennt man auch Peano-Zahlen. Nach einem Mathematiker, der sich
+Die werden auch Peano-Zahlen genannt. Nach einem Mathematiker, der sich
 mit natürlichen Zahlen und deren Axiomatisierung beschäftigt hat.
 
 0:14:27.590,0:14:33.050
@@ -559,16 +558,16 @@ sondern Zahlen können auch direkt auftreten. Also
 zum Beispiel hier. Und das sind natürlich Konstanten.
 
 0:14:47.090,0:14:54.600
-Also letztlich auch solche nullstelligen Konstruktoren. Man
-kann auch auf denen rechnen. Da muss man etwas aufpassen,
+Also letztlich auch solche nullstelligen Konstruktoren. Es
+kann auch auf denen gerechnet werden. Da ist etwas zu beachten,
 
 0:14:54.600,0:15:01.200
-was rechnen überhaupt bedeutet, damit man tatsächlich auch
-nicht nur mit Termen arbeitet, sondern mit den Zahlen,
+was rechnen überhaupt bedeutet, damit tatsächlich auch
+nicht nur mit Termen gearbeitet wird, sondern mit den Zahlen,
 
 0:15:01.200,0:15:06.540
-die herauskommen beim Berechnen. Man kann Zahlen auch
-vergleichen. Das hatten wir auch schon hier gesehen.
+die herauskommen beim Berechnen. Zahlen können auch
+verglichen werden. Das hatten wir auch schon hier gesehen.
 
 0:15:06.540,0:15:13.020
 Also eine gewisse Arithmetik ist auf diesen Zahlen
@@ -607,7 +606,7 @@ hier ja nicht auftauchen. Hier waren normale, runde
 Klammern. Also zum Beispiel eine fünfelementige Liste mit
 
 0:16:00.150,0:16:08.160
-den Zahlen 1, 2, 3, 4, 5 würde man in Prolog notieren
+den Zahlen 1, 2, 3, 4, 5 würde in Prolog notiert werden
 als: [1, 2, 3, 4, 5]. Und das geht nicht nur für Zahlen.
 
 0:16:08.160,0:16:14.910

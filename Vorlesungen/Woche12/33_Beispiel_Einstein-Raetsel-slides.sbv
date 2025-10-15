@@ -11,7 +11,7 @@ Lehrveranstaltung verwendet und ich hatte auch
 zu Beginn des Prolog-Teils behauptet, dass
 
 0:00:19.039,0:00:26.050
-man das gut mit Prolog lösen könne. Zur Erinnerung:
+das gut mit Prolog gelöst werden könne. Zur Erinnerung:
 Das war die Situation, dass irgendwie gesagt war
 
 0:00:26.050,0:00:31.829
@@ -51,7 +51,7 @@ In dem Fall: Wer das Zebra besitzt und wer Wasser trinkt.
 Es könnten auch andere Sachen gefragt sein. Der Punkt ist,
 
 0:01:20.820,0:01:26.680
-man muss aus den Hinweisen genug Informationen ziehen,
+aus den Hinweisen müssen genug Informationen gezogen werden,
 um solche spezifischen Fragen beantworten zu können.
 
 0:01:26.680,0:01:32.690
@@ -83,7 +83,7 @@ Permutation ein relevantes Mittel. Hier ist das jetzt ein
 bisschen anders. Hier ist es ja nicht so ein Bereich,
 
 0:02:08.869,0:02:13.099
-auf den man irgendetwas zieht, sondern es geht einfach darum,
+auf den etwas gezogen wird, sondern es geht einfach darum,
 dass diese verschiedenen Konstellationen, welche die Häuser
 
 0:02:13.099,0:02:18.610
@@ -187,8 +187,8 @@ pro Haus angegeben waren. Davon abgesehen,
 entspricht das hier sehr gut dieser Vorstellung:
 
 0:04:46.170,0:04:51.110
-Man hat als Suchraum einfach diese
-Tabelle, die man irgendwie füllen muss.
+Als Suchraum steht einfach diese
+Tabelle zur Verfügung, die irgendwie gefüllt werden muss.
 
 0:04:51.110,0:04:59.040
 Und der Test-Teil sorgt dann hoffentlich dafür,
@@ -359,7 +359,7 @@ auf die am Anfang völlig unbeschränkte Häuserliste
 von der Folie zuvor. Die nächsten Hinweise
 
 0:09:20.170,0:09:24.690
-kann man auch analog behandeln. Der dritte und vierte
+können auch analog behandelt werden. Der dritte und vierte
 Hinweis sind auch Hinweise der Form, dass irgendwie
 
 0:09:24.690,0:09:31.130
@@ -375,8 +375,8 @@ heißt ja eben: Es gibt ein Haus, welches grün ist
 und dort Kaffee getrunken wird. Das Gleiche gilt
 
 0:09:41.320,0:09:48.360
-für den vierten Hinweis. Also die kann man einfach ganz
-analog zu den ersten und zweiten Hinweisen übersetzen.
+für den vierten Hinweis. Also die können einfach ganz
+analog zu den ersten und zweiten Hinweisen übersetzt werden.
 
 0:09:48.360,0:09:56.970
 Da können wir also unsere Strategie zum Ausdrücken hier
@@ -384,7 +384,7 @@ mehrfach anwenden. Danach wird es etwas interessanter.
 
 0:09:56.970,0:10:01.320
 Es gibt nämlich den fünften Hinweis und der sagt etwas, wo
-man nicht einfach direkt das member-Prädikat nehmen kann.
+nicht einfach direkt das member-Prädikat genommen werden kann.
 
 0:10:01.320,0:10:07.630
 Denn hier wird gesagt: "Das grüne Haus ist
@@ -460,18 +460,18 @@ oder fünfte Element einer Liste zu greifen oder zu beschreiben.
 
 0:11:45.720,0:11:50.780
 Dafür hatten wir append verwenden können. So
-kann man auch dieses "rechts von" ausdrücken.
+kann auch dieses "rechts von" ausgedrückt werden.
 
 0:11:50.780,0:11:57.130
-Man kann sagen: "Rechts von links für zwei
+Es kann gesagt werden: "Rechts von links für zwei
 konkrete Elemente heißt, es gibt eine Stelle
 
 0:11:57.130,0:12:01.400
 in der Gesamtliste, wo genau die beiden in der
-Reihenfolge stehen." Da könnte man zum Beispiel
+Reihenfolge stehen." Da könnte zum Beispiel gesagt werden:
 
 0:12:01.400,0:12:07.550
-sagen: Man greife sich von der Liste einen Präfix,
+Es werde von der Liste ein Präfix gegriffen,
 der genau bis einschließlich dieser beiden Elemente
 
 0:12:07.550,0:12:14.650
@@ -492,7 +492,7 @@ dann heißt das, sie stehen irgendwo in der Liste.
 
 0:12:31.220,0:12:36.810
 Dass sie am Ende des Präfixes in dieser Reihenfolge stehen,
-könnte man sagen: Es muss eine uninteressante Liste geben
+könnte gesagt werden: Es muss eine uninteressante Liste geben
 
 0:12:36.810,0:12:42.100
 (die könnte auch leer sein). Aber
@@ -627,8 +627,8 @@ dass eine Liste dieser Form das erste Element der Häuserliste
 ist. Wir hatten auch dieses First-Prädikat in der Übung.
 
 0:16:00.790,0:16:07.600
-Das hätte man hier auch verwenden können, statt
-das hier sozusagen zu verfeinern. Man hätte hier
+Das hätte hier auch verwendet werden können, statt
+das hier sozusagen zu verfeinern. Hier wären
 
 0:16:07.600,0:16:12.110
 mehrere Möglichkeiten. Ich habe jetzt mal die gewählt, weil
@@ -639,8 +639,8 @@ Auch wenn ich dabei sozusagen etwas in den Generate-Teil eingreife.
 Das ist ja im Endeffekt nur eine Idee des Generate-and-Test.
 
 0:16:18.850,0:16:24.660
-Man kann damit durchaus etwas herumspielen und
-muss sich nicht ganz streng daran halten, dass
+Damit kann durchaus etwas herumgespielt werden und
+es muss nicht ganz streng daran festgehalten werden, dass
 
 0:16:24.660,0:16:32.430
 auf keinen Fall der achte und neunte Hinweis irgendwie

@@ -80,7 +80,7 @@ Oder vielleicht haben Sie das auch in der Schule schon getan,
 
 0:02:16.860,0:02:22.035
 wenn Sie da Informatikunterricht hatten. Und da gibt es dann ganz viele
-verschiedene Herangehensweisen, wie man eine Liste sortieren könnte.
+verschiedene Herangehensweisen, wie eine Liste sortiert werden könnte.
 
 0:02:22.035,0:02:29.520
 Aber im Moment wollen wir uns damit noch gar nicht
@@ -108,11 +108,11 @@ Liste sortiert ist. Uns also erst mal um das "Was?"
 
 0:02:58.590,0:03:07.140
 kümmern, statt um das "Wie?". Wie sollte denn sortiert
-werden? Also da könnte man sich erst mal überlegen, welche
+werden? Also da könnte sich erst mal überlegt werden, welche
 
 0:03:07.860,0:03:14.430
 Eigenschaften denn die Resultatliste haben muss.
-Das kann man ja in Prolog günstig ausdrücken über
+Das kann ja in Prolog günstig ausgedrückt werden über
 
 0:03:14.430,0:03:19.440
 ein Prädikat. Ein einstelliges Prädikat. Während das
@@ -235,12 +235,12 @@ Ergebnisliste [1, 2, 4, 6, 9], käme heraus, dass sie sortiert
 ist. Wichtig ist hier erst mal vor allem auf der Folie, wie
 
 0:06:27.220,0:06:32.080
-das hier definiert ist. Insbesondere, dass man hier
-den rekursiven Aufruf nicht einfach auf Ys machen kann,
+das hier definiert ist. Insbesondere, dass hier
+der rekursive Aufruf nicht einfach auf Ys gemacht werden kann,
 
 0:06:32.080,0:06:37.180
 sondern auf einer Liste, die das Y noch mit enthält. Das
-kann man sich überlegen, warum das sonst ein Problem wäre.
+kann sich überlegt werden, warum das sonst ein Problem wäre.
 
 0:06:37.180,0:06:42.250
 Wenn wir mal zum Beispiel von dieser Liste die ersten beiden
@@ -303,7 +303,7 @@ Wir wollen ja nicht einfach irgendeine solche Liste haben. Das
 wäre einfach, da würden wir einfach die leere Liste nehmen.
 
 0:08:15.250,0:08:21.310
-Die ist immer sortiert. Da kann man jetzt erst mal sehr naiv vorgehen und sagen:
+Die ist immer sortiert. Da kann jetzt erstmal sehr naiv vorgegangen und gesagt werden:
 "Eigentlich will ich ja einfach eine Permutation der Ursprungsliste haben,
 
 0:08:21.310,0:08:26.890
@@ -316,15 +316,15 @@ mit der zusätzlichen Eigenschaft, dass das, was
 
 0:08:32.440,0:08:41.760
 da nach der Permutation rauskommt, sortiert ist.
-Das kann man tatsächlich so hinschreiben in Prolog.
+Das kann tatsächlich so hingeschrieben werden in Prolog.
 
 0:08:41.760,0:08:47.700
 Wir haben an anderer Stelle ja auch schon einfach Forderungen in Anfragen
 oder eben in Prädikaten hingeschrieben und Prolog dann nach Lösungen
 
 0:08:47.700,0:08:55.830
-suchen lassen. Also man könnte jetzt sehr naiv vorgehen und
-sagen: "Ich möchte gern Xs zu Ys sortieren." Das mache ich,
+suchen lassen. Also könnte jetzt sehr naiv vorgegangen und
+gesagt werden: "Ich möchte gern Xs zu Ys sortieren." Das mache ich,
 
 0:08:55.830,0:09:00.660
 indem ich sage: Ys muss eine Permutation von Xs sein.
@@ -504,11 +504,11 @@ folgende Aufgabe oder stellen Sie sich
 
 0:13:56.710,0:14:03.220
 vor, Ihnen sei als Aufgabe gestellt: Es mögen
-alle Möglichkeiten ermittelt werden, wie man bei
+alle Möglichkeiten ermittelt werden, wie bei
 
 0:14:03.220,0:14:10.390
-dreimaligem Würfeln insgesamt 15 Punkte erzielen
-kann. Also wir haben drei Würfel oder einen Würfel,
+dreimaligem Würfeln insgesamt 15 Punkte erzielt werden
+können. Also wir haben drei Würfel oder einen Würfel,
 
 0:14:10.390,0:14:14.410
 den wir dreimal würfeln. Da kommt jeweils
@@ -544,10 +544,10 @@ mache das jetzt bei diesen einfachen Beispielen so,
 
 0:14:58.150,0:15:02.110
 dass ich einfach direkt immer die Anfrage
-hinschreibe, die man in Prolog prompt eingeben könnte.
+hinschreibe, die in den Prolog-Prompt eingegeben werden könnte.
 
 0:15:02.110,0:15:07.960
-Man könnte natürlich auch ein Prädikat schreiben, "lösung" mit
+Es könnte natürlich auch ein Prädikat geschrieben werden, "lösung" mit
 den Argumenten, und dann das, was ich jetzt als Anfrage habe,
 
 0:15:07.960,0:15:12.790
@@ -556,7 +556,7 @@ Aufruf des Prädikats würde dann die Lösungen liefern.
 
 0:15:12.790,0:15:19.720
 Ich mache das jetzt hier so durch, dass ich das direkt als Query
-angebe. Und dann kann man das hier fast wortwörtlich übersetzen,
+angebe. Und dann kann das hier fast wortwörtlich übersetzt werden,
 
 0:15:19.720,0:15:25.420
 was ich gerade so angedeutet habe. Also, wir müssen natürlich
@@ -695,8 +695,8 @@ dann noch 15 entstanden sein kann. Wie kann ich das
 umsetzen? Ich werde einfach überlegen, ob ich entweder
 
 0:19:14.620,0:19:28.060
-meinen Generator oder meinen Tester erweitere. Man
-könnte sagen, statt einfach alle Kandidaten zu
+meinen Generator oder meinen Tester erweitere. Es
+könnte gesagt werden, statt einfach alle Kandidaten zu
 
 0:19:28.060,0:19:37.120
 erzeugen, alle drei Wahlen, sozusagen A, B, C aus dem
@@ -707,8 +707,8 @@ vorn herein nur diejenigen Kombinationen haben, wo A,
 B, C verschieden sind. Eine Möglichkeit wäre einfach
 
 0:19:44.410,0:19:52.870
-zu sagen: Man macht das Gleiche wie eben, aber fügt hier noch
-etwas hinzu. Also wieder [1,2,3,4,5,6] als die Würfel-Augenzahlen.
+zu sagen: Es wird das Gleiche wie eben gemacht, aber es wird hier noch
+etwas hinzugefügt. Also wieder [1,2,3,4,5,6] als die Würfel-Augenzahlen.
 
 0:19:52.870,0:20:00.880
 A, B, C sollen aus diesem Bereich kommen. Und es wird noch
@@ -716,7 +716,7 @@ geprüft, dass A ungleich B, A ungleich C und B ungleich C.
 
 0:20:00.880,0:20:08.460
 Die müssen paarweise verschieden sein. Das kann
-man dieses \= hier erreichen oder ausdrücken.
+durch dieses \= hier erreicht oder ausgedrückt werden.
 
 0:20:08.460,0:20:18.000
 Dann wäre das hier insgesamt die Beschreibung
@@ -735,8 +735,8 @@ weil ja zusätzliche Einschränkungen an die
 Elemente des Suchraums getroffen worden sind.
 
 0:20:44.910,0:20:49.530
-Oder man kann das hier tatsächlich geschickter und kürzer
-ausdrücken, wenn man geeignete vorhandene Prädikate benutzt.
+Oder das kann hier tatsächlich geschickter und kürzer
+ausgedrückt werden, wenn geeignete vorhandene Prädikate benutzt werden.
 
 0:20:49.530,0:20:57.420
 Was heißt das denn, dass ich drei
@@ -768,7 +768,7 @@ habe hier sozusagen nur den Generate-Teil vereinfacht
 
 0:21:44.070,0:21:53.280
 oder schicker gemacht. Semantisch von der Bedeutung her ist das
-genau das Gleiche. Man beachte hier auch diese Unterstriche.
+genau das Gleiche. Hier ist auch auf diese Unterstriche zu achten.
 
 0:21:53.280,0:21:59.070
 Ich kann natürlich nicht schreiben, [A, B, C] ist eine
@@ -859,7 +859,7 @@ Permutations-Sortieren verwendet haben. Und nach
 wie vor soll natürlich A + B + C = 15 ergeben.
 
 0:24:20.570,0:24:29.630
-Jetzt könnte man sich wieder überlegen, wie man das interpretiert.
+Jetzt könnte sich wieder überlegt werden, wie das interpretiert wird.
 Jetzt haben wir hier drei Prädikate, drei Forderungen.
 
 0:24:29.630,0:24:36.170
@@ -867,7 +867,7 @@ Was davon ist Generate und was davon ist Test? Da
 gibt es zumindest in diesem Beispiel tatsächlich
 
 0:24:36.170,0:24:42.540
-Interpretationsspielraum. Man könnte sagen, diese beiden Sachen
+Interpretationsspielraum. Es könnte gesagt werden, diese beiden Sachen
 zusammen, der Permutationsaufruf und der isSorted-Aufruf zusammen,
 
 0:24:42.540,0:24:49.410
@@ -899,8 +899,8 @@ Also der Auswertung der Kandidaten. Das ändert
 nichts an der Korrektheit dieser Lösung.
 
 0:25:36.090,0:25:41.580
-Generate and Test ist ein Prinzip, wie man an bestimmte Problemstellungen
-herangehen kann. Das lässt uns immer noch Freiheit, zu formulieren,
+Generate and Test ist ein Prinzip, wie an bestimmte Problemstellungen
+herangegangen werden kann. Das lässt uns immer noch Freiheit, zu formulieren,
 
 0:25:41.580,0:25:52.750
 was unser Generator ist und was unser Test ist.
@@ -915,16 +915,16 @@ einsetzen werden. Also, wann ist so ein Generate-and-Test-Ansatz
 sinnvoll? Der kann nicht jedes Problem lösen.
 
 0:26:04.840,0:26:11.500
-Das kann man sich leicht überlegen. Schon das Sortieren
+Das lässt sich leicht überlegen. Schon das Sortieren
 durch Permutieren ist nicht besonders effizient.
 
 0:26:11.500,0:26:18.430
 Wenn Sie lange Listen haben, gibt es einfach sehr viele
-Permutationen und da müsste man ja im Prinzip alle
+Permutationen und da müssten ja im Prinzip alle
 
 0:26:18.430,0:26:24.160
-Permutationen erzeugen und jede einzelne auf Sortiertheit
-testen. Das heißt noch nicht, dass Prolog das genauso macht.
+Permutationen erzeugt und jede einzelne auf Sortiertheit
+getestet werden. Das heißt noch nicht, dass Prolog das genauso macht.
 
 0:26:24.160,0:26:31.900
 Prolog hat eine effiziente Implementierung. Kann also
@@ -936,7 +936,7 @@ konzeptionell kann der Suchraum ja sehr groß sein.
 
 0:26:39.520,0:26:47.560
 Und beim Permutieren ist das in der Regel so, wenn die Listen nicht
-eher kurz sind. Also muss man das schon mit Augenmaß betreiben.
+eher kurz sind. Also muss das schon mit Augenmaß betrieben werden.
 
 0:26:47.560,0:26:52.960
 In der Vorlesung und in den Übungen werden dann natürlich
@@ -948,7 +948,7 @@ der potenziellen Lösungen, der Kandidaten,
 
 0:26:58.570,0:27:05.740
 sollte zumindest endlich sein. Also, es darf nicht unendlich viele
-Lösungen geben. Da kommt man mit den Testen ja nicht zum Schluss.
+Lösungen geben. Da wird mit den Testen ja kein Ende erreicht.
 
 0:27:05.740,0:27:14.350
 Noch besser ist, wenn der Suchraum möglichst klein
@@ -963,24 +963,24 @@ Suchraum mit sechs Elementen ist die Anzahl der
 Permutationen noch beherrschbar. Das wäre ein Indiz dafür,
 
 0:27:29.440,0:27:36.070
-dass man mit Generate und Test arbeiten kann. Es kann
+dass mit Generate und Test gearbeitet werden kann. Es kann
 natürlich auch sein, dass das Problem doch größer ist
 
 0:27:36.070,0:27:41.770
-oder es doch einen größeren Suchraum gibt und man
-dennoch mit Generate und Test arbeiten möchte. Warum?
+oder es doch einen größeren Suchraum gibt und
+dennoch mit Generate und Test gearbeitet werden möchte. Warum?
 
 0:27:41.770,0:27:46.240
-Vielleicht, weil man einfach keine andere Vorstellung hat.
-Weil man entweder noch keine algorithmischen Prinzipien
+Vielleicht, weil einfach keine andere Vorstellung vorhanden ist.
+Weil entweder noch keine algorithmischen Prinzipien
 
 0:27:46.240,0:27:51.970
-dafür kennt oder das Problem tatsächlich algorithmisch
+dafür bekannt sind oder das Problem tatsächlich algorithmisch
 sehr schwer systematisch zu erfassen ist.
 
 0:27:51.970,0:28:00.720
-Da kann es sein, dass man auf das Generate and
-Test zurückgreift, weil es zumindest vom Aufwand
+Da kann es sein, dass auf das Generate and
+Test zurückgegriffen wird, weil es zumindest vom Aufwand
 
 0:28:00.720,0:28:06.900
 des Programmschreibens relativ gering ist. Auch
@@ -1011,12 +1011,12 @@ Kriterium ein bisschen eine Ausrede. Wenn ich nichts
 anderes mehr weiß, dann mache ich eben Generate and Test.
 
 0:28:45.420,0:28:52.410
-So kann man das natürlich auffassen. Allerdings ist Prolog
+So kann das natürlich aufgefasst werden. Allerdings ist Prolog
 tatsächlich sehr gut geeignet, solche Lösungen knapp
 
 0:28:52.410,0:29:00.000
 aufzuschreiben. Und das kann dann sicher schon ein erster
-Ansatz sein, dass man schnell zu einem Programm kommt.
+Ansatz sein, dass schnell ein Programm formuliert werden kann.
 
 0:29:00.000,0:29:09.000
 Das waren hier natürlich immer noch sehr künstliche Beispiele. Wir schauen

@@ -12,10 +12,10 @@ weil Rekursion an sich problematisch ist, sondern
 
 0:00:20.280,0:00:24.810
 weil sie manchmal etwas tricky in der Benutzung sein
-kann. Und man auch gut überlegen muss, wann und
+kann. Und auch gut überlegt werden muss, wann und
 
 0:00:24.810,0:00:31.560
-wie man sie einsetzt. Das mache ich hier zunächst
+wie sie eingesetzt wird. Das mache ich hier zunächst
 mit einer alten Beispielübung. Vielleicht mögen
 
 0:00:31.560,0:00:38.970
@@ -51,15 +51,15 @@ Hier wird geschrieben: Linie von A nach B. Und das
 soll also behandelt werden, bei der Beschreibung
 
 0:01:21.810,0:01:28.920
-der drei Dreiecke und Vierecke, dass man natürlich
-auch von B nach A mit einer Verbindung gehen kann.
+der drei Dreiecke und Vierecke, dass natürlich
+auch von B nach A mit einer Verbindung gegangen werden kann.
 
 0:01:28.920,0:01:33.570
 Aber auch ohne, dass das in den Fakten explizit ausgedrückt ist.
-Also die Aufgabe war so ein bisschen, wie man das dann in seine
+Also die Aufgabe war so ein bisschen, wie das dann in die eigene
 
 0:01:33.570,0:01:41.130
-Beschreibung hineinbringt. Ein möglicher Lösungsversuch
+Beschreibung hineingebracht wird. Ein möglicher Lösungsversuch
 wäre wie folgt: Es wird beschrieben, was ein Dreieck ist.
 
 0:01:41.700,0:01:47.760
@@ -72,15 +72,15 @@ gleich sein, weil hier schon vorausgesetzt wurde, dass
 
 0:01:52.650,0:02:00.780
 das Linienprädikat nicht irgendwie zweimal den gleichen Punkt
-nennt. Und für Vierecke braucht man natürlich vier Parameter.
+nennt. Und für Vierecke werden natürlich vier Parameter benötigt.
 
 0:02:00.780,0:02:07.440
-Und dann braucht man eine Linie von X nach Y, Y nach Z, Z
-nach U und U nach X. Hier muss zusätzlich gefordert werden,
+Und dann wird eine Linie von X nach Y, Y nach Z, Z
+nach U und U nach X benötigt. Hier muss zusätzlich gefordert werden,
 
 0:02:07.440,0:02:12.060
 dass X und Z verschieden sind und Y und U verschieden sind,
-weil man sonst irgendwelche entarteten Vierecke bekommen könnte,
+weil sonst irgendwelche entarteten Vierecke entstehen könnten,
 
 0:02:12.060,0:02:18.570
 wo mehrere Punkte übereinstimmen und das allein durch
@@ -88,7 +88,7 @@ die Tatsache, dass es keine Linie von A nach A gibt,
 
 0:02:18.570,0:02:23.820
 nicht ausgeschlossen ist. Das wäre ein sinnvolles
-Programm, was man sich hier vorstellen könnte.
+Programm, was sich hier vorstellen ließe.
 
 0:02:23.820,0:02:31.590
 Es folgt auch etwa meiner Faustregel, dass wir
@@ -108,10 +108,10 @@ Beispiel nicht heißt, dass es eine Linie von B nach A gibt.
 
 0:02:54.960,0:02:59.370
 Und deswegen bestimmte Dreiecke und Vierecke, die
-eigentlich in der Ebene da wären, wenn man die
+eigentlich in der Ebene da wären, wenn die
 
 0:02:59.370,0:03:04.050
-Punkte einzeichnet und die Verbindungen zieht,
+Punkte eingezeichnet und die Verbindungen gezogen werden,
 durch diese Prädikate mit entsprechender
 
 0:03:04.050,0:03:10.410
@@ -195,7 +195,7 @@ sollen die rekursiven Aufrufe möglichst weit hinten
 kommen. Das war in dem Beispiel auch erfüllt, denn
 
 0:05:12.600,0:05:19.680
-diese Regel sah ja so aus. Man könnte also vermuten, dass
+diese Regel sah ja so aus. Es könnte also vermutet werden, dass
 schon alles in Ordnung ist. Allerdings, wenn wir das ausführen
 
 0:05:19.680,0:05:25.740
@@ -207,12 +207,12 @@ Sinne zu rekursiv ist, als dass wir niemals eine
 Lösung finden würden. Der Grund ist letztlich,
 
 0:05:30.660,0:05:37.590
-dass man aus line(X,Y) und line(Y,X), dass diese Beziehung
-ständig hin und her springen könnte. Also, wenn man
+dass aus line(X,Y) und line(Y,X) diese Beziehung
+ständig hin und her springen könnte. Also, wenn
 
 0:05:37.590,0:05:42.750
-weiß line(a,b), dann weiß man auch line(b,a), dann weiß man
-auch line(a,b), ... Das wird also hier so ein Zirkelschluss,
+line(a,b) bekannt ist, dann ist auch line(b,a) bekannt, dann ist
+auch line(a,b) bekannt, ... Das wird also hier so ein Zirkelschluss,
 
 0:05:42.750,0:05:48.030
 wo sich die Berechnung im Kreis dreht, statt
@@ -236,39 +236,39 @@ Variablen stehen. Das heißt, das hier
 
 0:06:18.240,0:06:23.190
 wäre tatsächlich ein Beispiel, welches gegen Rekursion
-spricht. Die Warnung hier ist, dass man nicht
+spricht. Die Warnung hier ist, dass nicht
 
 0:06:23.850,0:06:28.840
-immer direkt zur Rekursion greifen soll/muss.
+immer direkt zur Rekursion gegriffen werden soll/muss.
 Hier gibt es eine bessere Lösung, diese Symmetrie
 
 0:06:28.840,0:06:33.730
 zu erreichen. Und letztlich ist die Idee schon so
-ähnlich wie hier, dass man nämlich diese Symmetrie
+ähnlich wie hier, dass nämlich diese Symmetrie
 
 0:06:33.730,0:06:39.910
-ausdrücken muss, aber man tut das nicht, indem
-man das line-Prädikat selber symmetrisch ergänzt,
+ausgedrückt werden muss, aber dies geschieht nicht dadurch, dass
+das line-Prädikat selber symmetrisch ergänzt wird,
 
 0:06:39.910,0:06:44.980
-sondern man führt ein neues Prädikat ein. Man
-nimmt weiterhin an: Es gibt dieses line-Prädikat,
+sondern es wird ein neues Prädikat eingeführt. Es
+wird weiterhin angenommen: Es gibt dieses line-Prädikat,
 
 0:06:44.980,0:06:50.740
 für das die Basisfakten gegeben sind, welche konkreten
 Punkte verbunden sind, und basierend auf diesem
 
 0:06:50.740,0:06:56.740
-line-Prädikat definiert man ein neues
-Prädikat für symmetrische Verbindungen.
+line-Prädikat wird ein neues
+Prädikat für symmetrische Verbindungen definiert.
 
 0:06:56.740,0:07:01.930
 Also, wo beide Richtungen berücksichtigt sind. Und
-das kann nicht rekursiv passieren. Da muss man nicht
+das kann nicht rekursiv passieren. Da muss nicht
 
 0:07:01.930,0:07:10.540
-line - line verbinden oder auseinander ableiten, sondern
-man sagt: Wenn es eine Verbindung von X nach Y gibt,
+line - line verbunden oder auseinander abgeleitet werden, sondern
+es wird gesagt: Wenn es eine Verbindung von X nach Y gibt,
 
 0:07:10.540,0:07:15.010
 dann gibt es auch eine symmetrische Verbindung von
@@ -284,11 +284,11 @@ garantieren, dass zu jedem Fakt,
 
 0:07:29.170,0:07:35.260
 der für das line-Prädikat gegeben ist, auch der
-symmetrische Fakt gilt. Dann würde man einfach
+symmetrische Fakt gilt. Dann würden einfach
 
 0:07:35.260,0:07:43.510
 die eigentlichen interessanten Anfragen für Dreiecke, Vierecke
-auf diesen symmetrischen Linienprädikat passieren lassen.
+auf diesen symmetrischen Linienprädikat passieren gelassen werden.
 
 0:07:43.510,0:07:51.820
 Das wäre in dem Fall die Lösung der Übungsaufgabe
@@ -360,7 +360,7 @@ Verbunden-Sein bzw. hier über mehrere Schritte
 
 0:09:33.270,0:09:42.150
 per Direktverbindung Verbunden-Sein. Das hieße,
-man hat eine allgemeine Connection von X nach Y.
+dass eine allgemeine Connection von X nach Y besteht.
 
 0:09:42.150,0:09:48.480
 Das können wir ausführen. Ein paar Beispiele anfragen.
@@ -396,7 +396,7 @@ wäre false, weil (egal mit welcher der beiden Regeln)
 
 0:10:35.120,0:10:40.610
 wir nicht irgendwie erreichen oder zeigen können,
-dass man von Maui irgendwohin kommen könnte.
+dass von Maui irgendwo hingekommen werden könnte.
 
 0:10:40.610,0:10:45.470
 Einfach, weil es keine Direktverbindung von Maui irgendwohin
@@ -716,10 +716,10 @@ Jetzt der interessante Fall, der rekursive Fall.
 
 0:19:05.450,0:19:12.800
 Da haben wir hier gesagt, es gibt eine Connection von X nach
-Y, wenn man von X zu irgendeinem Z direkt kommt und dann von Z
+Y, wenn von X aus irgendein Z direkt erreicht wird und dann von Z
 
 0:19:12.800,0:19:18.950
-in beliebig vielen Schritten weiter nach Y fliegen kann.
+in beliebig vielen Schritten weiter nach Y geflogen werden kann.
 Und da konnte so ein Zyklus entstehen, falls das Z
 
 0:19:18.950,0:19:26.090
@@ -876,15 +876,15 @@ am Ende einer Regel stehen. Andererseits sollen
 
 0:23:14.660,0:23:20.940
 rekursive Aufrufe am Ende einer Regel stehen.
-Also, man kann sich fragen, warum es denn jetzt
+Also, es kann sich gefragt werden, warum es denn jetzt
 
 0:23:20.940,0:23:25.650
 genau so hier ist und so funktioniert. Eine
 Antwort wäre, es funktioniert, oder Sie könnten
 
 0:23:25.650,0:23:30.300
-ausprobieren, ob es funktioniert. Man kann es ja probieren.
-Mal so herum, mal so herum. Und stellt dann fest, dass diese
+ausprobieren, ob es funktioniert. Es kann ja ausprobiert werden.
+Mal so herum, mal so herum. Und es wird dann festgestellt, dass diese
 
 0:23:30.300,0:23:37.170
 Variante, wie sie hier steht, besser funktioniert. Ich kann
@@ -943,8 +943,8 @@ nachdem Z hier gewählt wurde. Das ist hier der Grund, warum
 wir das beides nicht tauschen sollten. Aber ein bisschen,
 
 0:25:05.910,0:25:12.330
-gerade wenn man noch nicht viel Erfahrung hat mit Prolog,
-kann man so etwas auch durch Versuch und Irrtum herausfinden.
+gerade wenn noch nicht viel Erfahrung mit Prolog vorhanden ist,
+kann so etwas auch durch Versuch und Irrtum herausgefunden werden.
 
 0:25:12.330,0:25:21.160
 Da hätten sie auch gemerkt, dass das die richtige Darstellung oder

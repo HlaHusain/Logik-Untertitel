@@ -47,8 +47,8 @@ Uns interessiert eine passende Belegung. Und
 zwar derart, dass hier und hier der gleiche
 
 0:01:17.799,0:01:22.941
-Wert herauskommt. Welcher das konkret ist, das kann man am Ende
-einfach ausrechnen. Aber der Punkt ist, dass die Belegungen
+Wert herauskommt. Welcher das konkret ist, das kann am Ende
+einfach ausgerechnet werden. Aber der Punkt ist, dass die Belegungen
 
 0:01:22.941,0:01:26.439
 natürlich dadurch eingeschränkt sind, dass überhaupt
@@ -416,7 +416,7 @@ konkreten Fall sind das eben die vier und die sieben,
 
 0:10:49.589,0:10:54.990
 die nicht gebraucht werden für diese Lösung. Was wir auch
-sehen, ist, dass (glücklicherweise, könnte man sagen)
+sehen, ist, dass (glücklicherweise, könnte gesagt werden)
 
 0:10:54.990,0:10:59.820
 jetzt nicht irgendwie die Null für eine erste Ziffer
@@ -455,8 +455,8 @@ konkrete Rätsel zu lösen. Natürlich lassen
 sich sehr viele ähnliche Rätsel auf analoge
 
 0:11:52.279,0:11:58.370
-Art und Weise lösen. Man muss einfach immer sinnvoll
-beschreiben, was denn überhaupt generiert werden darf.
+Art und Weise lösen. Es muss einfach immer sinnvoll
+beschrieben werden, was denn überhaupt generiert werden darf.
 
 0:11:58.370,0:12:02.540
 Also was infrage kommt und unter welchen Bedingungen
@@ -472,22 +472,22 @@ ausdrücken in dem Generierungsprädikat. Das war hier durch
 
 0:12:13.360,0:12:17.950
 die Permutation geschehen. In anderen Aufgaben mag das vielleicht
-keine Forderung sein. Da muss man das anders beschreiben.
+keine Forderung sein. Da muss das anders beschrieben werden.
 
 0:12:17.950,0:12:24.310
 Vielleicht nur mit member, statt mit permutieren. Dann
-muss man im Test-Teil eben alle Bedingungen ausdrücken.
+müssen im Test-Teil eben alle Bedingungen ausgedrückt werden.
 
 0:12:24.310,0:12:29.660
-Dann kann man das mit Prolog lösen. Und auf
+Dann kann das mit Prolog gelöst werden. Und auf
 ähnliche Art und Weise lassen sich natürlich
 
 0:12:29.660,0:12:36.060
 viele so arithmetische oder kombinatorische Probleme
-prinzipiell lösen. Also auch Sudoku kann man auf
+prinzipiell lösen. Also auch Sudoku kann auf
 
 0:12:36.060,0:12:40.790
-ähnliche Weise letztlich ausdrücken in Prolog. Da
+ähnliche Weise letztlich in Prolog ausgedrückt werden. Da
 dauert die Suche nur etwas länger, wahrscheinlich weil
 
 0:12:40.790,0:12:45.330
