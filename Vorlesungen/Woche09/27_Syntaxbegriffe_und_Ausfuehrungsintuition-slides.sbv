@@ -27,7 +27,7 @@ genauer anschauen, wie Resolution denn für solche nicht rein
 aussagenlogischen Formeln/Programme/Klauseln funktioniert.
 
 0:00:38.280,0:00:44.280
-Aber wenn man einfache Beispiele verstehen möchte
+Aber wenn einfache Beispiele verstanden werden sollen
 oder Sie auch im Übungsbetrieb verstehen möchten,
 
 0:00:44.280,0:00:48.000
@@ -39,8 +39,8 @@ da ist ganz nett, eine schrittweise, intuitive
 Erklärung oder Verständnis davon zu haben,
 
 0:00:53.640,0:00:59.940
-wie eine Anfrage abläuft. Da muss man nicht
-unbedingt den "Hammer Resolution" herausholen.
+wie eine Anfrage abläuft. Da muss nicht
+unbedingt der "Hammer Resolution" herausgeholt werden.
 
 0:00:59.940,0:01:10.410
 Hier haben wir ein kleines Programm. Wieder so eine
@@ -55,7 +55,7 @@ ein paar Verwandtschaftsbeziehungen angegeben oder
 erklärt, wann jemand Großvater von jemandem ist.
 
 0:01:25.740,0:01:30.750
-Man kann Großvater sein, wenn man Vater des
+Als Großvater wird eine Person bezeichnet, wenn sie Vater des
 Vaters ist oder Vater der Mutter von jemandem.
 
 0:01:30.750,0:01:37.590
@@ -68,10 +68,10 @@ die wir als Argumente nehmen. Also Objekte sozusagen.
 
 0:01:46.110,0:01:50.250
 Die werden wir erst mal mit solchen kleingeschriebenen
-Konstanten benennen. Da kann man später auch noch
+Konstanten benennen. Da können später auch noch
 
 0:01:50.250,0:01:54.900
-andere Strukturen stehen haben. In dem Einsteinrätsel-Beispiel
+andere Strukturen stehen. In dem Einsteinrätsel-Beispiel
 hatten wir zum Beispiel Listen dastehen.
 
 0:01:54.900,0:02:02.310
@@ -92,7 +92,7 @@ den Zweck dieses Programms. Wann jemand Vater
 
 0:02:16.940,0:02:21.560
 von jemand anderem ist, das wäre hier genau für diese
-drei Paarungen der Fall. Und das nennt man Fakten,
+drei Paarungen der Fall. Und das wird als Fakten bezeichnet,
 
 0:02:21.560,0:02:28.310
 weil es keine Vorbedingung gibt. Dann mit Implikation
@@ -171,16 +171,16 @@ Konjunktionen von Literalen stehen. Und auch da wären
 prinzipiell negative Literale erlaubt in Prolog.
 
 0:04:26.320,0:04:32.740
-Und das alles nennt man Klauseln. Auch das
+Und das alles wird Klauseln genannt. Auch das
 tauchte schon auf bei der Hornformel-Betrachtung.
 
 0:04:32.740,0:04:37.870
 Also Fakten, Regeln und Anfragen, das alles sind
-Klauseln. Insbesondere würde man diese Sicht als
+Klauseln. Insbesondere würde diese Sicht als
 
 0:04:37.870,0:04:43.960
-Klauseln verwenden, wenn man Resolution verwendet zum
-Auswerten/zum Beschreiben der Semantik von Prolog.
+Klauseln verwendet, wenn Resolution verwendet zum
+Auswerten/zum Beschreiben der Semantik von Prolog wird.
 
 0:04:43.960,0:04:54.520
 Semantik heißt ja für uns letztlich Ausführung.
@@ -199,20 +199,20 @@ wie im Taschenrechner. Ich tippe einen arithmetischen
 Ausdruck ein und kriege eine Zahl heraus. Sondern bei Prolog
 
 0:05:11.170,0:05:16.090
-kann man entweder Wahr, Falsch zurückkriegen für
+kann entweder Wahr, Falsch zurückgegeben werden für
 eine Anfrage, weil es um Logik geht, oder Belegungen
 
 0:05:16.090,0:05:23.590
-von Variablen. Man gibt eine Anfrage ein. Das könnten
+von Variablen. Es wird eine Anfrage eingegeben. Das könnten
 auch mehrere Literale sein. Dann wird resolviert im
 
 0:05:23.590,0:05:29.860
 Hintergrund. Das kann vielleicht eine Weile dauern, viele Schritte
-nehmen. Die sieht man nicht alle. Außer man benutzt den Trace-Modus.
+nehmen. Die werden nicht alle angezeigt. Außer der Trace-Modus wird benutzt.
 
 0:05:29.860,0:05:34.930
-Aber da passiert irgendwas im Hintergrund. Und dann kriegt
-man Antworten. Und das sind Variablensubstitutionen.
+Aber da passiert irgendwas im Hintergrund. Und dann werden
+Antworten zurückgegeben. Und das sind Variablensubstitutionen.
 
 0:05:34.930,0:05:41.680
 So werden wir das nennen. Diese Belegung X = paul.
@@ -272,7 +272,7 @@ die erste Regel prinzipiell passen.
 
 0:07:06.230,0:07:11.540
 Kurt und X könnten G und E sein. Hier stehen Variablen.
-Die kann man beliebig belegen. Warum nicht auch
+Die können beliebig belegt werden. Warum nicht auch
 
 0:07:11.540,0:07:17.270
 mit Kurt und X? Also im Grunde genommen werden
@@ -292,7 +292,7 @@ der Variable G wird die ganz konkrete Person Kurt.
 
 0:07:36.860,0:07:44.420
 Die erste Resolution wäre dann schon, dass
-man das ersetzt durch die rechte Seite.
+das durch die rechte Seite ersetzt wird.
 
 0:07:44.420,0:07:51.320
 Bei der Resolution wäre das ja eine negative
@@ -343,16 +343,16 @@ Jetzt würde eben dieses neue Teilziel/ dieses
 Literal wiederum versucht werden zu lösen.
 
 0:09:02.510,0:09:07.190
-Diesmal kann man das tatsächlich mit den Fakten
-vergleichen. Es gibt zwar keine Regeln für "istVaterVon",
+Diesmal kann das tatsächlich mit den Fakten
+verglichen werden. Es gibt zwar keine Regeln für "istVaterVon",
 
 0:09:07.190,0:09:12.470
-aber es gibt Fakten dazu. Da kann man hier
-schauen: "istVaterVon(kurt, V)", das kann nur sein,
+aber es gibt Fakten dazu. Da kann hier
+geschaut werden: "istVaterVon(kurt, V)", das kann nur sein,
 
 0:09:12.470,0:09:19.550
-wenn V = fritz ist. Das kann man an dieser Regel/ an diesem
-Fakt sehen. Wenn wir etwas über "istVaterVon(kurt, V)"
+wenn V = fritz ist. Das kann an dieser Regel/an diesem
+Fakt gesehen werden. Wenn wir etwas über "istVaterVon(kurt, V)"
 
 0:09:20.600,0:09:26.270
 haben oder wissen wollen, dann muss V = fritz sein.
@@ -403,7 +403,7 @@ Als Antwort wäre X = paul wegen dieser
 schrittweisen, letztlich Lösungssuche.
 
 0:10:56.310,0:11:00.390
-Jetzt könnte man sagen, dass das nicht die einzige
+Jetzt könnte gesagt werden, dass das nicht die einzige
 Möglichkeit war. Wenn wir hier genau hinschauen,
 
 0:11:00.390,0:11:07.680
@@ -435,7 +435,7 @@ Also was ist, wenn wir hier sagen: Entweder die Lösung
 gefällt uns nicht oder wir wollen eine weitere Lösung haben.
 
 0:11:44.700,0:11:51.300
-Also wenn wir als Nutzer auslösen würden: Nein, wir hätten gern andere
+Also wenn wir als Nutzende auslösen würden: Nein, wir hätten gern andere
 Lösungen. Das ist ja möglich, denn dieses Prädikat "istVaterVon"
 
 0:11:51.300,0:11:56.400
@@ -452,19 +452,19 @@ im Anfragefenster, dann würde Prolog sagen:
 
 0:12:11.910,0:12:17.250
 Da würde Prolog sozusagen diese Lösung verwerfen und nach
-weiteren Lösungen suchen. Das nennt man Backtracking,
+weiteren Lösungen suchen. Das wird Backtracking genannt,
 
 0:12:17.250,0:12:23.820
 dass dann einfach an anderer Stelle oder an der nächsten
 Alternativstelle nach einer weiteren Lösung gesucht wird,
 
 0:12:23.820,0:12:28.170
-weil ich diese Lösung zurückgewiesen oder verworfen oder
-als nicht ausreichend gekennzeichnet habe als Nutzer.
+weil ich als Nutzer diese Lösung zurückgewiesen oder verworfen
+oder als nicht ausreichend gekennzeichnet habe.
 
 0:12:28.170,0:12:35.850
-Dann würde man "istVaterVon(fritz,
-E)" noch einmal auswerten müssen,
+Dann würde "istVaterVon(fritz,
+E)" noch einmal ausgewertet werden müssen,
 
 0:12:35.850,0:12:41.730
 aber jetzt diese Lösung "istVaterVon(fritz, paul)"
@@ -515,7 +515,7 @@ hatten uns ganz am Anfang für die erste Regel
 entschieden, als ich diese Anfrage gestellt hatte.
 
 0:13:53.200,0:13:57.760
-Wenn jetzt der Nutzer sagt: "Ich möchte weitere
+Wenn jetzt die oder der Nutzende sagt: "Ich möchte weitere
 Lösungen haben", dann muss Prolog auch hier nochmal die
 
 0:13:57.760,0:14:04.600
@@ -596,35 +596,35 @@ dass wir hier noch weitersuchen würden und eventuell würde
 
 0:16:01.170,0:16:09.720
 das zu weiteren Lösungen führen. Nur in dem konkreten
-Fall eben nicht. Diese Suche kann man auch noch einmal
+Fall eben nicht. Diese Suche kann auch noch einmal
 
 0:16:09.720,0:16:17.760
-linear darstellen. Ich habe das jetzt hier
+linear dargestellt werden. Ich habe das jetzt hier
 immer durch Pfeile in dem Programm visualisiert.
 
 0:16:17.760,0:16:22.950
-Wenn man das Prolog-Programm tatsächlich ausführt,
-sieht man das ja nicht, was hier schrittweise passiert.
+Wenn das Prolog-Programm tatsächlich ausgeführt wird,
+ist das ja nicht zu sehen, was hier schrittweise passiert.
 
 0:16:22.950,0:16:28.260
-Man kann das ein bisschen erahnen, wenn man den
-Trace-Modus anschaltet. Das hatte ich glaube ich im letzten
+Das lässt sich ein bisschen erahnen, wenn der
+Trace-Modus angeschaltet wird. Das hatte ich glaube ich im letzten
 
 0:16:28.260,0:16:33.750
 Video der vergangenen Woche ganz kurz auch schon mal
-getan. Man kann im Prolog-System Trace anschalten.
+getan. Im Prolog-System kann Trace angeschaltet werden.
 
 0:16:33.750,0:16:38.250
-Und dann sieht man so ein bisschen Zwischenschritte. Damit
-kann man so ein bisschen diese Lösungssuche nachvollziehen.
+Und dann sind so ein bisschen Zwischenschritte zu sehen. Damit
+lässt sich diese Lösungssuche so ein bisschen nachvollziehen.
 
 0:16:38.250,0:16:42.990
 Ich mache das hier noch einmal stilisiert
 auch für das Programm und diese Anfrage.
 
 0:16:42.990,0:16:49.230
-Was passiert dann? Im Grunde genommen würde man dann
-sehen können, in einer etwas anderen Darstellung,
+Was passiert dann? Im Grunde genommen würde dann
+gesehen werden können, in einer etwas anderen Darstellung,
 
 0:16:49.230,0:16:56.970
 diese Suche nach weiteren Teilzielen oder
@@ -664,7 +664,7 @@ war die Antwort: Ja, das geht, für X = paul,
 
 0:17:57.140,0:18:04.340
 wegen dieses Fakts. Das heißt, hier käme dann die erste
-Lösung heraus. Dann könnte man per Backtracking sagen:
+Lösung heraus. Dann könnte per Backtracking gesagt werden:
 
 0:18:04.340,0:18:08.150
 Die Lösung gefällt mir nicht oder reicht mir nicht. Ich möchte

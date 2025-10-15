@@ -44,27 +44,27 @@ das Komplement aus der anderen Klausel zu wählen
 
 0:01:10.260,0:01:14.970
 und zu resolvieren. Auch da haben wir Beispiele gesehen,
-wo man für die gleichen zwei Klauseln verschiedene mögliche
+wo für die gleichen zwei Klauseln verschiedene mögliche
 
 0:01:14.970,0:01:20.100
-Schritte gehabt hätte. Man hat also die "Qual der
-Wahl", da man Klauseln auch beliebig oft verwenden kann.
+Schritte zur Auswahl gestanden hätten. Es besteht also die "Qual der
+Wahl", da Klauseln auch beliebig oft verwendet werden können.
 
 0:01:20.100,0:01:25.320
-Da weiß man nie, wann man nochmal auf eine frühere
-Klausel zurückgreifen sollte, etwa. Das ist alles nicht
+Da ist nie klar, wann nochmal auf eine frühere
+Klausel zurückgegriffen werden sollte, etwa. Das ist alles nicht
 
 0:01:25.320,0:01:30.870
-sehr zielgerichtet. Man kann die Ursprungsklauseln
-verwenden. Man kann Klauseln, die unterwegs entstanden
+sehr zielgerichtet. Die Ursprungsklauseln können
+verwendet werden. Klauseln, die unterwegs entstanden
 
 0:01:30.870,0:01:35.790
-sind, später nochmals wiederverwenden etc. Und man hat
-die Qual der Wahl, welches Literal man jeweils nimmt.
+sind, können später nochmals wiederverwendet werden etc. Und die Qual
+der Wahl ist gegeben, welches Literal jeweils genommen wird.
 
 0:01:37.260,0:01:43.470
-Also man siehe wirklich dieses Beispiel zu Beginn
-dieser Vorlesungswoche, wo da dieses "Spaghetti-Bild"
+Also sehen Sie sich wirklich dieses Beispiel zu Beginn
+dieser Vorlesungswoche an, wo da dieses "Spaghetti-Bild"
 
 0:01:43.470,0:01:51.180
 entstanden ist, mit ganz vielen Querverweisen. Ein
@@ -87,11 +87,11 @@ durch Resolution nicht herleitbar ist, dann haben
 wir noch lange keine konkrete erfüllende Belegung.
 
 0:02:10.050,0:02:16.230
-Also man kann nicht einfach einen nicht zu einer
-leeren Klausel führenden Resolutionsgraphen
+Also kann nicht einfach ein nicht zu einer
+leeren Klausel führender Resolutionsgraph genommen
 
 0:02:16.230,0:02:21.900
-nehmen und daraus irgendwie ablesen, für welche
+und daraus irgendwie abgelesen werden, für welche
 Belegung denn die Ursprungsformel erfüllbar war.
 
 0:02:21.900,0:02:29.940
@@ -120,10 +120,10 @@ Elementaraussagen stehen darf und rechts eine
 
 0:03:02.520,0:03:06.870
 Elementaraussage. Wir haben aber auch gesagt, wenn
-dort mehrere konjugiert stünden, könnte man das in
+dort mehrere konjugiert stünden, könnte das in
 
 0:03:06.870,0:03:13.410
-mehrere Implikationen aufsplitten. Es darf außerdem
+mehrere Implikationen aufgesplittet werden. Es darf außerdem
 rechts auch 0 stehen, als falsch/Falschaussage,
 
 0:03:13.410,0:03:20.970
@@ -147,7 +147,7 @@ letztlich, was diese Klasse von KNFs unterscheidet.
 Nicht nur in der Schreibweise, sondern tatsächlich
 
 0:03:45.540,0:03:50.850
-von der Möglichkeit, was man damit ausdrücken kann. Wenn
+von der Möglichkeit, was damit ausgedrückt werden kann. Wenn
 wir links eine Disjunktion hätten, also wenn hier stünde:
 
 0:03:56.430,0:03:59.130
@@ -159,12 +159,12 @@ also wenn A oder C gilt, dann gilt B, das ist äquivalent dazu zu
 sagen: "Wenn A gilt, gilt B, und übrigens auch wenn C gilt, gilt B".
 
 0:04:07.050,0:04:14.070
-Aber wenn wir rechts eine Disjunktion haben, kann man das
-nicht in eine äquivalente Hornformel immer überführen.
+Aber wenn wir rechts eine Disjunktion haben, kann das
+nicht immer in eine äquivalente Hornformel überführt werden.
 
 0:04:17.460,0:04:22.110
 Also wir haben diese spezielle Klasse. Und jetzt kann
-man sich fragen, warum soll das für die irgendwie besser
+sich gefragt werden, warum soll das für die irgendwie besser
 
 0:04:22.110,0:04:28.500
 gehen und vielleicht nicht diese Nachteile des
@@ -172,11 +172,11 @@ allgemeinen Resolutionsverfahrens fortbestehen?
 
 0:04:28.500,0:04:33.570
 Diese Implikationsschreibweise, die deutet das
-schon ein bisschen an, was man hier vielleicht
+schon ein bisschen an, was hier vielleicht
 
 0:04:33.570,0:04:38.580
-anderes tun kann. Man kann nämlich wirklich
-versuchen, das hier wie so ein Puzzle zu lösen.
+anderes getan werden kann. Es kann nämlich wirklich
+versucht werden, das hier wie so ein Puzzle zu lösen.
 
 0:04:38.580,0:04:43.140
 Also wenn ich mich frage, ist denn diese Formel
@@ -207,8 +207,8 @@ Wenn ich weiß, dass C = 1, dann würde ich sehen,
 dass auch D = 1 ist, weil ja D aus C folgt.
 
 0:05:16.650,0:05:23.370
-Und so kann man sich durch die Formel entlang
-hangeln, wenn sie diese spezielle Form hat und
+Und so kann durch die Formel entlang
+gehangelt werden, wenn sie diese spezielle Form hat und
 
 0:05:23.370,0:05:30.210
 rechts keine Disjunktionen auftauchen. Also
@@ -419,12 +419,12 @@ ist (ich hatte hier schrittweise die einzelnen
 Formelteile markiert), wenn wir am Ende nur noch
 
 0:10:53.150,0:10:57.410
-das hier übrig haben, sieht man natürlich nicht
-mehr, in welcher Reihenfolge etwas markiert wurde.
+das hier übrig haben, wird natürlich nicht
+mehr gesehen, in welcher Reihenfolge etwas markiert wurde.
 
 0:10:57.410,0:11:02.030
-Außer man schreibt das in dieser Ausführlichkeit
-hin. Damit wir das auch in der Formel
+Außer, das wird in dieser Ausführlichkeit
+hingeschrieben. Damit wir das auch in der Formel
 
 0:11:02.030,0:11:07.460
 direkt nachvollziehen können, werden wir
@@ -627,11 +627,11 @@ gesehen. Und gleich werde ich das nochmal aufgeschrieben haben
 mit den Nummern der Schritte da dran. Also, wie das am Ende
 
 0:16:03.320,0:16:07.160
-aussehen würde, wenn man nicht die Zwischenschritte alle sehen
-kann. Etwa auf einem Blatt Papier, während der Übung oder Klausur.
+aussehen würde, wenn die Zwischenschritte nicht alle gesehen
+werden können. Etwa auf einem Blatt Papier, während der Übung oder Klausur.
 
 0:16:07.160,0:16:16.190
-Erstmal fragt man sich: Hört der Algorithmus wirklich immer
+Erstmal wird die Frage gestellt: Hört der Algorithmus wirklich immer
 auf? Terminiert der? Ja, das ist ziemlich offensichtlich.
 
 0:16:16.190,0:16:22.760
@@ -655,12 +655,12 @@ Art mehr gibt, wo alles links markiert ist. Das heißt,
 es kann nicht sein, dass wir das unendlich lange tun.
 
 0:16:45.170,0:16:53.690
-Irgendwann ist Schluss! Definitiv! Das kann man sich
+Irgendwann ist Schluss! Definitiv! Das lässt sich
 leicht überlegen, dass dieses Vorgehen beschränkt ist.
 
 0:16:53.690,0:17:00.320
-Und was man hier in dieser Algorithmusform vielleicht
-auch besser sehen kann, als an dem Beispiel eben, wenn
+Und was sich hier in dieser Algorithmusform vielleicht
+auch besser sehen lässt, als an dem Beispiel eben, wenn
 
 0:17:00.320,0:17:05.600
 das Problem bestünde, wenn rechts von so einer
@@ -771,8 +771,8 @@ A und dann D oder erst D und dann A markiere. In
 dem Beispiel nicht. Da war die Reihenfolge sehr
 
 0:19:44.150,0:19:54.770
-fest. Man konnte in keiner anderen sinnvollen
-Reihenfolge gültigerweise die Markierungen durchführen.
+fest. Es konnten in keiner anderen sinnvollen
+Reihenfolge gültigerweise die Markierungen durchgeführt werden.
 
 0:19:54.770,0:20:01.020
 Schauen wir noch einmal auf ein anderes Beispiel. Nehmen
@@ -972,14 +972,14 @@ ist. Und diese Formel wirklich nicht erfüllbar war,
 
 0:25:15.230,0:25:21.650
 was sie natürlich mit Resolution durchrechnen könnten.
-Man kann sich natürlich noch allgemein auch fragen: Ist
+Es kann natürlich noch allgemein auch gefragt werden: Ist
 
 0:25:21.650,0:25:26.060
-denn dieser Algorithmus garantiert korrekt? Kann man den
-vielleicht irgendwie mit Resolution in Beziehung setzen?
+denn dieser Algorithmus garantiert korrekt? Kann der
+vielleicht irgendwie mit Resolution in Beziehung gesetzt werden?
 
 0:25:26.060,0:25:31.070
-Und in der Tat kann man das formal beweisen, dass er
+Und in der Tat kann das formal bewiesen werden, dass er
 korrekt ist. Das werden wir nicht tun, aber ich werde
 
 0:25:31.070,0:25:40.400
@@ -1044,7 +1044,7 @@ Anfrageklausel und verwenden dann für die Resolution
 
 0:27:19.590,0:27:25.590
 immer eine von den Programmklauseln. Die heißen auch
-Seitenklauseln, weil man nie eine Klausel verwendet,
+Seitenklauseln, weil nie eine Klausel verwendet wird,
 
 0:27:25.590,0:27:37.500
 die zum Beispiel weiter oben in dem aktuellen
@@ -1064,26 +1064,26 @@ haben in dem Beispiel, ist ja ähnlich zu diesem
 
 0:28:02.570,0:28:07.460
 einfachen Beispiel, was wir auch in der Vorlesung
-hatten, wo man nämlich eigentlich immer sozusagen mit
+hatten, wo nämlich eigentlich immer sozusagen mit
 
 0:28:07.460,0:28:11.990
 zwei Klauseln aus der Ursprungsformel
-startet, die resolviert und dann das Ergebnis
+gestartet wird, die resolviert werden und dann das Ergebnis
 
 0:28:11.990,0:28:18.110
-davon wieder mit einer Formel/ einer Klausel
-aus der Ursprungsformel resolviert usw.
+davon wieder mit einer Formel/einer Klausel
+aus der Ursprungsformel resolviert wird usw.
 
 0:28:20.330,0:28:26.630
-Das nennt man auch eine lineare Resolution, weil sie
+Das wird auch eine lineare Resolution genannt, weil sie
 eben diesen geradlinigen Weg hat und nicht so völlig
 
 0:28:26.630,0:28:34.580
 verworren ist wie hier. Und was wir hier haben, ist
-auch so eine lineare Resolution. Was man feststellen
+auch so eine lineare Resolution. Was festgestellt
 
 0:28:34.580,0:28:39.260
-kann, ist, dass der Markierungsalgorithmus immer solch
+werden kann, ist, dass der Markierungsalgorithmus immer solch
 einer linearen Resolution dieser einfachen Form entspricht.
 
 0:28:39.260,0:28:44.840
@@ -1115,8 +1115,8 @@ Und das ist auch kein Zufall für dieses Beispiel. Das ist
 immer so, dass so ein Markierungsalgorithmus-Ablauf einer
 
 0:29:18.290,0:29:23.510
-solchen linearen Resolution entspricht, wo man hier
-rechts einfach nur Programmklauseln benutzt und
+solchen linearen Resolution entspricht, wo hier
+rechts einfach nur Programmklauseln benutzt werden und
 
 0:29:23.510,0:29:29.720
 zwar immer die Programmklauseln mit
@@ -1144,15 +1144,15 @@ dass vielleicht an der dritten Stelle noch mal die
 
 0:29:58.590,0:30:03.465
 von hier oben steht. Aber da stehen immer Programmklauseln und
-nicht irgendwelche anderen Klauseln. Und man hat auch nie irgendwie
+nicht irgendwelche anderen Klauseln. Und es besteht auch nie irgendwie
 
 0:30:03.465,0:30:10.140
-den Bezug, dass man jetzt diesen Schritt
-erhält, indem man den und den resolviert.
+der Bezug, dass jetzt dieser Schritt
+erhalten wird, indem der und der resolviert wird.
 
 0:30:10.140,0:30:18.810
-Man nimmt immer den genau vorhergehenden Resolventen und eine
-Programmklausel. Deswegen hat man hier diese strikte Form.
+Es wird immer der genau vorhergehende Resolvent und eine
+Programmklausel genommen. Deswegen liegt hier diese strikte Form vor.
 
 0:30:18.810,0:30:25.380
 Das ist sehr viel linearer und sehr viel zielstrebiger
@@ -1160,10 +1160,10 @@ als eine beliebige Resolutionsdurchführung.
 
 0:30:25.380,0:30:31.410
 Auch diese andere "Qual der Wahl", welches
-Literal man denn bitteschön beim Resolvieren
+Literal denn bitteschön beim Resolvieren
 
 0:30:31.410,0:30:36.210
-nehmen möge, das besteht hier nicht, denn in
+genommen werden möge, die besteht hier nicht, denn in
 den Programmklauseln gibt es immer genau ein
 
 0:30:36.210,0:30:42.060
@@ -1203,8 +1203,8 @@ werden das aber nicht beweisen. Einfach diese Erläuterungen
 einfach hoffentlich glaubhaft genug machen,
 
 0:31:35.510,0:31:41.690
-dass man auf die Weise immer so linear vorgehen
-kann, und deswegen eben nicht eine allgemeine
+dass auf die Weise immer so linear vorgegangen
+werden kann, und deswegen eben nicht eine allgemeine
 
 0:31:41.690,0:31:49.850
 Suche braucht, wie bei dem Resolutionsverfahren, wo

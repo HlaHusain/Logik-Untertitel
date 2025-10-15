@@ -43,7 +43,7 @@ Implikationshornformel-Schreibweise bringen lässt,
 dass wir den Markierungsalgorithmus anwenden können.
 
 0:01:22.140,0:01:28.770
-Das hätte man hier auch machen können. Wir hätten sagen können
+Das hätte hier auch gemacht werden können. Wir hätten sagen können
 (jetzt mal auf diesem Programm statt auf der Hornformelform),
 
 0:01:28.770,0:01:34.350
@@ -52,23 +52,23 @@ steht. Dann gibt es diese Regeln. Zur Erinnerung: Diese
 
 0:01:34.350,0:01:39.510
 Prolog-Regeln sind von rechts nach links als Implikation
-zu lesen. Also (C => D) hätte man sagen können,
+zu lesen. Also (C => D) hätte gesagt werden können,
 
 0:01:39.510,0:01:45.780
 weil das c hier und hier zu markieren ist, gilt dann
-auch D. Deswegen könnte man D überall markieren.
+auch D. Deswegen könnte D überall markiert werden.
 
 0:01:45.780,0:01:51.030
 Das hieße insbesondere hier das D zu
 markieren. Dann wäre die rechte Seite dieser
 
 0:01:51.030,0:01:56.580
-Regel vollständig markiert. Dann könnte man noch A
-markieren. Und wenn man C schon vorher markiert hatte,
+Regel vollständig markiert. Dann könnte noch A
+markiert werden. Und wenn C schon vorher markiert worden war,
 
 0:01:56.580,0:02:02.640
-und jetzt A markiert hat, könnte man dann auch B markieren
-und deswegen sagen: "Ja, die Anfrage B ist wahr."
+und jetzt A markiert worden ist, könnte dann auch B markiert
+und deswegen gesagt werden: "Ja, die Anfrage B ist wahr."
 
 0:02:02.640,0:02:09.360
 Das war der Grund oder eine mögliche Erklärung dafür,
@@ -120,11 +120,11 @@ Markierungsalgorithmus und diese Resolution in
 
 0:03:20.490,0:03:26.910
 gewisser Weise entgegengesetzt ablaufen. Also bei dem
-Markierungsalgorithmus fängt man an und fragt sich:
+Markierungsalgorithmus wird begonnen und es stellt sich die Frage:
 
 0:03:26.910,0:03:32.370
-"Was ist denn alles wahr im Programm?" und arbeitet
-daraufhin vielleicht irgendwann zu zeigen, dass
+"Was ist denn alles wahr im Programm?" und es wird
+darauf hingearbeitet, vielleicht irgendwann zu zeigen, dass
 
 0:03:32.370,0:03:41.670
 die Anfrage wahr ist. So wäre das jetzt hier geschehen. B hätten
@@ -152,14 +152,14 @@ vergleichen, dass das in genau umgekehrter
 
 0:04:14.730,0:04:22.260
 Reihenfolge sozusagen die Regeln verwendet. Jetzt
-kann man sich fragen, warum Prolog dann nicht immer
+kann die Frage gestellt werden, warum Prolog dann nicht immer
 
 0:04:22.260,0:04:26.730
-den Markierungsalgorithmus nutzt, wenn man
-den so schön vorwärts anwenden kann und so
+den Markierungsalgorithmus nutzt, wenn der
+so schön vorwärts angewendet werden kann und so
 
 0:04:26.730,0:04:32.400
-gut auch an diesem Beispiel erklären kann? Warum muss
+gut auch an diesem Beispiel erklärt werden kann. Warum muss
 es diesen Trick benutzen mit dem Negieren und dann
 
 0:04:32.400,0:04:40.800
@@ -240,10 +240,10 @@ Regeln, aus denen wir hoffentlich folgern können.
 
 0:06:32.160,0:06:39.240
 Und ich hatte das dann in der Vorlesung an einer
-Tabelle durchgespielt, wie man sich da einer Lösung
+Tabelle durchgespielt, wie sich da einer Lösung
 
 0:06:39.240,0:06:42.900
-nähern kann. Also es gab diese Personen. Die hatten
+genähert werden kann. Also es gab diese Personen. Die hatten
 irgendwelche Eigenschaften, in welchem Haus sie
 
 0:06:42.900,0:06:50.130
@@ -275,8 +275,8 @@ in der Vorlesung. Und das war kein Zufall,
 dass ich dieses Beispiel hatte. Das ist
 
 0:07:24.870,0:07:30.990
-ein typisches Beispiel, das man auch mit Prolog
-gut lösen kann. Und natürlich können Sie das jetzt
+ein typisches Beispiel, das auch mit Prolog
+gut gelöst werden kann. Und natürlich können Sie das jetzt
 
 0:07:30.990,0:07:36.990
 noch nicht im Moment/sofort, weil Sie noch nicht genug
@@ -315,7 +315,7 @@ die ich Ihnen beim händischen
 Lösen des Rätsels gezeigt hatte.
 
 0:08:33.090,0:08:38.430
-Dann kann man eben sagen, hier die Häuser sind
+Dann kann eben gesagt werden, hier die Häuser sind
 eben eine Liste von Listen und da stehen die
 
 0:08:38.430,0:08:44.920
@@ -363,11 +363,11 @@ formalisiert, was hier die natürlich sprachlichen
 Regeln waren. Und eben auch die Anfragen über den
 
 0:09:49.630,0:09:55.870
-Zebrabesitzer zum Beispiel kann man dann in
-Prolog formulieren als eine Frage und könnte
+Zebrabesitzer zum Beispiel können dann in
+Prolog als eine Frage formuliert und
 
 0:09:55.870,0:10:06.160
-dann tatsächlich dieses Rätsel lösen, ohne
+dann tatsächlich dieses Rätsel gelöst werden, ohne
 händisch selber die Sachen alle auszuprobieren.
 
 0:10:07.960,0:10:13.990

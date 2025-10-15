@@ -48,14 +48,14 @@ weil tautologische Formeln und unerfüllbare Formeln
 
 0:01:14.970,0:01:20.910
 an zwei entgegengesetzten Enden eines
-Spektrums sind und man die Rollen durch
+Spektrums sind und die Rollen durch
 
 0:01:20.910,0:01:26.220
-Negation einer Formel vertauschen kann. Insofern sind
-diese Probleme verwandt, wenn man denn die Negation einer
+Negation einer Formel vertauscht werden können. Insofern sind
+diese Probleme verwandt, wenn die Negation einer
 
 0:01:26.220,0:01:34.500
-Formel ins Spiel bringt. Und wir haben mittlerweile
+Formel ins Spiel gebracht wird. Und wir haben mittlerweile
 kennengelernt, dass wir Formeln in KNF oder DNF
 
 0:01:34.500,0:01:42.630
@@ -143,36 +143,36 @@ Was schon mal als Begriff auftauchte, im letzten
 Video bei den Min-/Max-Termen, war der Begriff
 
 0:03:46.860,0:03:53.430
-der Klausel. Den kann man prinzipiell für KNF und DNF
-verwenden. Üblicherweise wird er vor allem mit KNF in
+der Klausel. Der kann prinzipiell für KNF und DNF
+verwendet werden. Üblicherweise wird er vor allem mit KNF in
 
 0:03:53.430,0:03:59.760
-Verbindung gebracht. Und zwar nennt man diese
-einzelnen Disjunktionsterme Klauseln. Also diese
+Verbindung gebracht. Und zwar werden diese
+einzelnen Disjunktionsterme Klauseln genannt. Also diese
 
 0:03:59.760,0:04:05.850
 inneren Sachen, die hier mit Und verknüpft werden,
-diese einzelnen Terme/Disjunktionen, die nennt man
+diese einzelnen Terme/Disjunktionen, die werden
 
 0:04:05.850,0:04:14.250
-Klauseln. Dann ist also eine KNF eine Konjunktion von
+Klauseln genannt. Dann ist also eine KNF eine Konjunktion von
 Klauseln. Und weil das jetzt so eine ganz spezielle
 
 0:04:14.250,0:04:19.140
 Form hat, also diese äußere Konjunktion und dann
-innen jeweils eine Disjunktion, kann man das auch
+innen jeweils eine Disjunktion, kann das auch
 
 0:04:19.140,0:04:23.850
-anders schreiben. Im Grunde braucht man ja nur
+anders geschrieben werden. Im Grunde werden ja nur
 Informationen über diese Ls, über diese ganzen Literale,
 
 0:04:23.850,0:04:28.710
-und wie die zusammengefasst sind. Man müsste nicht
-unbedingt diese Oders und Unds da hinschreiben.
+und wie die zusammengefasst sind, benötigt. Es müssten nicht
+unbedingt diese Oders und Unds da hingeschrieben werden.
 
 0:04:29.940,0:04:34.500
-In der Tat schreibt man eine Formel in KNF
-auch gern einfach als eine Menge von Klauseln,
+In der Tat wird eine Formel in KNF
+auch gern einfach als eine Menge von Klauseln geschrieben,
 
 0:04:34.500,0:04:40.260
 wobei diese Klauseln auch einfach nur als Mengen von
@@ -196,11 +196,11 @@ aller Klauseln. Das heißt, syntaktisch ist das.
 
 0:05:07.740,0:05:13.560
 ähnlich wie da oben, aber irgendwie haben wir sowohl die Unds
-als auch die Oders durch Kommata ersetzt. Jetzt könnte man sich
+als auch die Oders durch Kommata ersetzt. Jetzt könnte sich gefragt werden,
 
 0:05:13.560,0:05:18.600
-wundern, hat man dabei vielleicht irgendwas an Informationen
-verloren? Könnte das verwirrend sein? Nein, nicht wenn wir davon
+ob dabei vielleicht irgendwas an Informationen
+verloren gegangen ist. Könnte das verwirrend sein? Nein, nicht wenn wir davon
 
 0:05:18.600,0:05:28.050
 ausgehen, dass F in KNF vorliegt, in konjunktiver
@@ -336,7 +336,7 @@ können wir vereinen. Das ergibt eine Menge.
 
 0:08:58.150,0:09:09.730
 Und das ist die Menge R. Der Resolvent von K1 und K2. Warum
-machen wir das? Weil man sich überlegen kann, dass für einen
+machen wir das? Weil überlegt werden kann, dass für einen
 
 0:09:09.730,0:09:15.580
 solcherart gebildeten Resolventen gilt, dass die
@@ -351,7 +351,7 @@ aktuelle Menge von Klauseln um diese eine Klausel ergänzen.
 Wir werden das gleich an einem Beispiel mal sehen,
 
 0:09:30.250,0:09:34.510
-da kann man sich besser überzeugen, dass das ein
+da kann sich besser davon überzeugt werden, dass das ein
 gültiger Schritt ist. Der Punkt ist, dass das R, was so
 
 0:09:34.510,0:09:42.100
@@ -400,10 +400,10 @@ Schritt logisch sinnvoll ist, und dies tatsächlich,
 
 0:10:42.380,0:10:49.550
 wenn die leere Klausel abgeleitet werden kann,
-einer Unerfüllbarkeit entspricht. Das kann man
+einer Unerfüllbarkeit entspricht. Das kann
 
 0:10:49.550,0:10:57.020
-jeweils formal logisch herleiten durch Beweise. In den
+jeweils formal logisch durch Beweise hergeleitet werden. In den
 beiden Büchern, die ich Ihnen am Anfang des Semesters
 
 0:10:57.020,0:11:02.150
@@ -412,10 +412,10 @@ mathematische Betrachtungen finden.
 
 0:11:02.150,0:11:07.460
 Hier werde ich Ihnen einfach das Verfahren vorstellen
-und das an Beispielen erläutern. Da kann man sich auch
+und das an Beispielen erläutern. Da kann sich auch
 
 0:11:07.460,0:11:15.320
-überzeugen, dass das Sinn ergibt, ohne das tatsächlich
+überzeugt werden, dass das Sinn ergibt, ohne das tatsächlich
 mathematisch zu beweisen. Also gucken wir uns ein
 
 0:11:15.320,0:11:22.460
@@ -507,19 +507,19 @@ Literal und sein Komplement und der Rest wird
 oder-verknüpft. Was hier heißt, es in einer Menge
 
 0:13:59.550,0:14:05.430
-aufzusammeln. Warum das hier unten gilt, das könnte man
-sich durch Wahrheitstafeln überlegen. Einfach prüfen,
+aufzusammeln. Warum das hier unten gilt, das könnte sich
+durch Wahrheitstafeln überlegt werden. Einfach prüfen,
 
 0:14:05.430,0:14:11.910
-dass das wirklich eine Tautologie ist. Oder man kann
-sich überlegen, es ist ja nur möglich, dass L gilt
+dass das wirklich eine Tautologie ist. Oder es kann
+überlegt werden: es ist ja nur möglich, dass L gilt
 
 0:14:11.910,0:14:17.430
 oder dass L-bar gilt. Von einem Literal
 und seinem Komplement ist immer genau eins
 
 0:14:17.430,0:14:25.410
-von beiden wahr. Man kann sich überlegen, wenn L gelten würde,
+von beiden wahr. Es kann sich überlegt werden: wenn L gelten würde,
 dann ist diese linke Seite nicht besonders aussagekräftig, weil L
 
 0:14:25.410,0:14:32.430
@@ -535,8 +535,8 @@ falsch. Das heißt für diese Disjunktion muss dann auf jeden Fall
 G wahr sein. Deswegen kann es eben sein, dass hier G zutrifft.
 
 0:14:46.240,0:14:57.580
-Und im anderen Fall, wenn man annimmt, dass L falsch ist,
-dann kann man sich überzeugen, dass dann F gelten muss.
+Und im anderen Fall, wenn angenommen wird, dass L falsch ist,
+dann kann sich überzeugt werden, dass dann F gelten muss.
 
 0:14:57.580,0:15:06.400
 Und deswegen intuitiv erklärt, gilt diese
@@ -611,24 +611,24 @@ ist, dass es eben auch reicht, zu überprüfen, ob die
 leere Klausel rauskommen kann. Wenn wir uns da alle
 
 0:16:49.170,0:16:54.270
-Mühe geben, die man sich geben kann und es kommt
+Mühe geben, die sich gegeben werden kann, und es kommt
 nie die leere Klausel heraus, bei egal wie vielen
 
 0:16:54.270,0:17:02.670
 Schritten wir durchführen, dann wissen wir, dass die
-ursprüngliche Formel tatsächlich erfüllbar war. Man muss auf ein
+ursprüngliche Formel tatsächlich erfüllbar war. Auf ein
 
 0:17:02.670,0:17:06.930
-paar Dinge Acht geben. Das klingt jetzt erst mal wie ein sehr
-leichter Schritt. Den macht man eben ein paar Mal. Aber man muss
+paar Dinge muss Acht gegeben werden. Das klingt jetzt erstmal wie ein sehr
+leichter Schritt. Der wird eben ein paar Mal gemacht. Aber es muss
 
 0:17:06.930,0:17:13.740
-etwas aufpassen. Insbesondere ist ein beliebter Fehler,
+etwas aufgepasst werden. Insbesondere ist es ein beliebter Fehler,
 den die nächste Folie bewusst enthält: Ein beliebter
 
 0:17:13.740,0:17:19.440
-Fehler ist, dass man das für mehrere Literalpaare
-gleichzeitig zu machen versucht. Ich nehme mal eine
+Fehler ist, dass das für mehrere Literalpaare
+gleichzeitig zu machen versucht wird. Ich nehme mal eine
 
 0:17:19.440,0:17:25.350
 leicht andere Situation. Das sind nicht exakt die gleichen
@@ -640,7 +640,7 @@ vorkommt als so ein überlappendes Literal.
 
 0:17:32.010,0:17:40.530
 Aber auch das C und das ¬C. Hier gäbe es also zwei Kandidaten
-für Literale, nach denen man resolvieren könnte. Das war hier
+für Literale, nach denen resolviert werden könnte. Das war hier
 
 0:17:40.530,0:17:48.390
 nicht so. Hier tauchte nur das B in genau dieser Form
@@ -667,16 +667,16 @@ B und C wieder die Komplemente gibt. Dann streichen wir
 das raus und es bleibt diese Resolvente übrig. Das ist
 
 0:18:19.980,0:18:29.130
-falsch! Das ist logisch falsch. Das kann man sich überlegen:
+falsch! Das ist logisch falsch. Das kann sich überlegt werden:
 Aus der Konjunktion dieser beiden Klauseln folgt nicht
 
 0:18:29.130,0:18:36.780
-unbedingt diese Klausel. Das darf man also nicht machen. Man
-darf immer nur nach einem Literal resolvieren. Das heißt,
+unbedingt diese Klausel. Das darf also nicht gemacht werden. Es
+darf immer nur nach einem Literal resolviert werden. Das heißt,
 
 0:18:36.780,0:18:43.770
 in diesem konkreten Fall mit diesen beiden Mengen
-hätte man die Wahl, nach B zu resolvieren.
+bestünde die Wahl, nach B zu resolvieren.
 
 0:18:45.060,0:19:02.480
 Dann käme diese Resolvente heraus. Da würde ¬B und B
@@ -688,23 +688,23 @@ Oder nach C und ¬C zu resolvieren. Dann bliebe übrig: A,
 
 0:19:06.140,0:19:11.510
 darf nur ein Literal und dessen Komplement
-eliminiert werden. Ansonsten wendet man das
+eliminiert werden. Ansonsten wird das
 
 0:19:11.510,0:19:17.060
-Verfahren nicht korrekt an. Das heißt auch, dass wir hier noch
+Verfahren nicht korrekt angewendet. Das heißt auch, dass wir hier noch
 nicht fertig sind und hier vielleicht noch weitermachen müssten.
 
 0:19:17.060,0:19:23.600
-Was wir schon sehen: Diese Situation, wo man zwei
-Möglichkeiten hätte, zu resolvieren, die führt dann im nächsten
+Was wir schon sehen: Diese Situation, wo zwei
+Möglichkeiten bestünden, zu resolvieren, die führt dann im nächsten
 
 0:19:23.600,0:19:30.020
-Schritt dazu, dass man hier entweder C und sein
-Komplement hat oder hier B und sein Komplement. Das sind
+Schritt dazu, dass hier entweder C zusammen mit seinem
+Komplement vorliegt oder hier B zusammen mit seinem Komplement. Das sind
 
 0:19:30.020,0:19:35.570
 tatsächlich Klauseln, die nicht sehr nützlich sind. Das
-kann man sich mal überlegen, was heißt das denn? Das heißt,
+kann sich mal überlegt werden, was das denn heißt. Das heißt,
 
 0:19:35.570,0:19:44.420
 diese Klausel sagt: (A ∨ C ∨ ¬C ∨ ¬D). Die ist trivial,
@@ -716,7 +716,7 @@ nicht viel erreichen können. Aber das wäre in dieser
 
 0:19:48.860,0:19:56.120
 Konstellation eine von zwei Möglichkeiten hier zu
-resolvieren. Was man nicht darf, ist ein Schnellschuss
+resolvieren. Was nicht getan werden darf, ist ein Schnellschuss
 
 0:19:56.120,0:20:04.970
 und sozusagen B und C gleichzeitig eliminieren.
@@ -836,7 +836,7 @@ per se falsch. Zufälligerweise habe ich mich jetzt
 
 0:23:20.520,0:23:26.760
 auf dieser Folie entschieden, zunächst diese beiden
-Klauseln zu resolvieren. Das kann man nämlich über das A.
+Klauseln zu resolvieren. Das kann nämlich über das A vorgenommen werden.
 
 0:23:29.520,0:23:32.040
 Hier kommt A drin vor. Hier kommt ¬A drin vor. Das
@@ -891,20 +891,20 @@ mehr existiert. Das heißt, wir hätten dann festgestellt,
 dass diese Ursprungsformel unerfüllbar ist,
 
 0:24:45.480,0:24:51.360
-weil man durch Resolution die leere Menge/ die leere
-Klausel ableiten kann. Und dann wissen wir, dass tatsächlich
+weil durch Resolution die leere Menge/die leere
+Klausel abgeleitet werden kann. Und dann wissen wir, dass tatsächlich
 
 0:24:51.360,0:24:59.940
 diese Implikation gilt, ohne irgendwie eine
-Wahrheitstafel aufbauen zu müssen. Man hat nicht immer
+Wahrheitstafel aufbauen zu müssen. Es gibt nicht immer
 
 0:24:59.940,0:25:10.010
 so viel Glück, dass das so schnell geht. Aber
-man kann sozusagen durch geschickte Anwendung
+es kann sozusagen durch geschickte Anwendung
 
 0:25:10.010,0:25:15.950
-von Resolutionsschritten hier sehr schnell zu
-einem Ziel kommen. Hier hatten wir natürlich ein
+von Resolutionsschritten hier sehr schnell ein
+Ziel erreicht werden. Hier hatten wir natürlich ein
 
 0:25:15.950,0:25:22.550
 bisschen Glück beim Arrangement. Sie werden weitere
@@ -924,10 +924,10 @@ unterwegs gesagt habe. Also zunächst mal resolvieren
 
 0:25:49.040,0:25:53.630
 wir immer zwei Klauseln. Das tauchte auf der ersten
-Folie schon auf, dass K1 und K2 verschieden sind. Man
+Folie schon auf, dass K1 und K2 verschieden sind. Es
 
 0:25:53.630,0:25:59.090
-resolviert nicht eine Klausel mit sich selbst. Das wäre
+wird nicht eine Klausel mit sich selbst resolviert. Das wäre
 auch nicht besonders sinnvoll. Das ginge ja sowieso
 
 0:25:59.090,0:26:07.340
@@ -943,7 +943,7 @@ passieren? Dann würde ich aus der einen Klausel C rausschmeißen.
 Aus der anderen ¬C. Dann vereinigen. Dann käme wieder
 
 0:26:16.730,0:26:23.900
-diese Klausel heraus. Da macht man keinen Fortschritt.
+diese Klausel heraus. Da wird kein Fortschritt gemacht.
 Das ist nicht sinnvoll. Zum einen sind solche Klauseln,
 
 0:26:23.900,0:26:29.720
@@ -955,19 +955,19 @@ Selbst-resolvieren einer Klausel auch keinen Fortschritt
 in der Beweissuche oder Unerfüllbarkeitssuche
 
 0:26:34.280,0:26:38.900
-bringen. Das heißt, man nimmt immer zwei Klauseln. Aber
-auch nicht mehr als zwei. Man nimmt nicht irgendwie drei
+bringen. Das heißt, es werden immer zwei Klauseln genommen. Aber
+auch nicht mehr als zwei. Es werden nicht irgendwie drei
 
 0:26:39.560,0:26:45.050
-Klauseln und schmeißt da mehr raus. Man nimmt zwei Klauseln,
+Klauseln genommen und da mehr rausgeschmissen. Es werden zwei Klauseln genommen,
 die sich bezüglich eines Literals und dessen Komplement
 
 0:26:45.050,0:26:54.990
-zusammenbringen lassen und dann bildet man diesen
-Resolutionsschritt. Die Klauseln werden dabei nicht verbraucht. Man
+zusammenbringen lassen und dann wird dieser
+Resolutionsschritt gebildet. Die Klauseln werden dabei nicht verbraucht.
 
 0:26:54.990,0:26:59.730
-darf die beliebig oft verwenden. Hier war das so,
+Die dürfen beliebig oft verwendet werden. Hier war das so,
 dass wir jede Klausel genau einmal verwenden, aber es
 
 0:26:59.730,0:27:04.560
@@ -1007,11 +1007,11 @@ Geschick bei der Lösungssuche überlassen, wie wir
 vorgehen. Das war das, was ich auf der Folie absichtlich
 
 0:27:53.730,0:27:58.950
-falsch gemacht habe. Also man darf in jedem
+falsch gemacht habe. Also darf in jedem
 einzelnen Schritt nur genau ein Literal und dessen
 
 0:27:58.950,0:28:05.970
-Komplement eliminieren. Niemals irgendwie mehrere
+Komplement eliminiert werden. Niemals irgendwie mehrere
 atomare Aussagen wie B und C gleichzeitig anfassen.
 
 0:28:05.970,0:28:10.860
@@ -1036,10 +1036,10 @@ Die ursprüngliche Formel war wohl nicht unerfüllbar.
 
 0:28:35.160,0:28:40.320
 Sondern es muss sicher sein, dass die leere Klausel nicht
-hergeleitet werden kann. Man muss also alles probiert haben, alle
+hergeleitet werden kann. Es muss also alles probiert worden sein, alle
 
 0:28:40.320,0:28:45.810
-Resolvierungen durchgeführt haben, bis irgendwann nichts
+Resolvierungen durchgeführt worden sein, bis irgendwann nichts
 mehr geht und bis dahin trotzdem die leere Klausel
 
 0:28:45.810,0:28:50.010

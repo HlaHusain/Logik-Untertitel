@@ -76,14 +76,14 @@ weil A zwar in beiden Klauseln vorkommt, aber in
 
 0:02:06.450,0:02:12.850
 beiden Klauseln positiv. Für C wiederum gibt es hier
-gar nichts. Also nach C kann man hier auch nicht
+gar nichts. Also nach C kann hier auch nicht
 
 0:02:12.850,0:02:19.690
-resolvieren. Aber hier kommt B positiv und hier B
-negativ vor, das heißt, genau danach könnte man hier
+resolviert werden. Aber hier kommt B positiv und hier B
+negativ vor, das heißt, genau danach könnte hier
 
 0:02:19.690,0:02:28.570
-resolvieren. Das Ergebnis wäre die neue Menge, in
+resolviert werden. Das Ergebnis wäre die neue Menge, in
 der das A nach wie vor vorkommt, entweder von hier
 
 0:02:28.570,0:02:33.460
@@ -268,10 +268,10 @@ C, ¬C\}. Und im anderen Fall: Die Menge...
 
 0:07:47.640,0:07:53.430
 (Dabei sehen Sie schon, dass es schnell unübersichtlich werden
-kann, wenn man sehr viele Kombinationen betrachten muss, weil
+kann, wenn sehr viele Kombinationen betrachtet werden müssen, weil
 
 0:07:53.430,0:08:06.660
-man nicht direkt den Weg zur leeren Klausel findet.) Also
+nicht direkt der Weg zur leeren Klausel gefunden wird.) Also
 in dem Fall mache ich mal hier noch eine Resolvierung.
 
 0:08:06.660,0:08:20.550
@@ -280,7 +280,7 @@ Jetzt bezüglich des Cs zu entfernen. Da entsteht:
 
 0:08:20.550,0:08:25.590
 geworden. Und die führen auch nirgendwo hin. Das
-kann man auch schon erkennen, das hatte ich auch in.
+kann auch schon erkannt werden, das hatte ich auch in.
 
 0:08:25.590,0:08:32.910
 der letzten Woche schon gesagt. Genauso wie diese Klausel
@@ -335,8 +335,8 @@ führen, weil sie auch diesen Charakter hat, dass
 ein Literal und sein Komplement darin vorkommen.
 
 0:09:58.560,0:10:03.570
-Das heißt nicht, dass man in dem gesamten Bild hier nicht
-irgendwo die leere Klausel finden würde/ vielleicht könnte,
+Das heißt nicht, dass in dem gesamten Bild hier nicht
+irgendwo die leere Klausel gefunden würde/vielleicht gefunden werden könnte,
 
 0:10:03.570,0:10:09.930
 aber diese Klausel wird nicht dazu
@@ -407,7 +407,7 @@ mehr gibt, noch irgendeine Klausel zu erzeugen, die nicht
 schon in dem Bild enthalten ist, dann wissen wir, die
 
 0:11:54.010,0:11:58.780
-Ursprungsformel war doch erfüllbar. Das kann man formal beweisen.
+Ursprungsformel war doch erfüllbar. Das kann formal bewiesen werden.
 Das werden wir nicht tun. Für uns ist wichtig: Das terminiert immer
 
 0:11:58.780,0:12:03.790

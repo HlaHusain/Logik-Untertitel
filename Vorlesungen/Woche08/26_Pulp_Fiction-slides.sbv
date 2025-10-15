@@ -11,7 +11,7 @@ von Prolog so intuitiv vorgestellt werden, wird es auch
 darum gehen, wie jeweils Anfragen an Prolog-Programme
 
 0:00:26.310,0:00:34.080
-aussehen und was man da als Antworten erwarten darf.
+aussehen und was da als Antworten erwartet werden darf.
 Falls Sie das Beispiel nicht wiedererkennen, das
 
 0:00:34.080,0:00:40.140
@@ -44,23 +44,23 @@ Das wird hier als Fakten in dem
 
 0:01:15.840,0:01:23.400
 Fakten- und Regelfenster zum Beispiel der Swish-Website
-angegeben, indem man eben diese Fakten da auflistet.
+angegeben, indem eben diese Fakten da aufgelistet werden.
 
 0:01:23.400,0:01:31.575
 Und der Punkt hier ist jeweils wichtig, weil das sozusagen
 die Zeile oder die Angabe des Fakts beendet oder schließt.
 
 0:01:31.575,0:01:37.200
-Dann kann man in dem separaten Fenster (in dem Query-Fenster,
-im Anfragefenster) Anfragen stellen. Zum Beispiel
+Dann können in dem separaten Fenster (in dem Query-Fenster,
+im Anfragefenster) Anfragen gestellt werden. Zum Beispiel
 
 0:01:37.200,0:01:43.320
-könnte man fragen, ob denn Mia eine Frau ist.
+könnte gefragt werden, ob denn Mia eine Frau ist.
 Die Antwort wäre wahr. Wahr in dem Sinne, dass
 
 0:01:43.320,0:01:51.000
 es aus der Datenbank von Fakten folgt. Wichtig
-ist hier, dass man diesen Punkt wirklich eingibt
+ist hier, dass dieser Punkt wirklich eingegeben wird
 
 0:01:51.000,0:01:57.840
 bei der Anfrage. Das kommt auf das Prolog-System an,
@@ -92,7 +92,7 @@ Auch da wäre die Antwort: Ja. Wir können auch fragen, ob Mia
 
 0:02:33.075,0:02:38.610
 Luftgitarre spielt und da wird interessanterweise falsch
-geantwortet. Das stimmt nicht. Da könnte man sich fragen: Warum?
+geantwortet. Das stimmt nicht. Da könnte sich die Frage gestellt werden: Warum?
 
 0:02:38.610,0:02:44.460
 Hier oben ist ja nirgendwo explizit gesagt, dass
@@ -179,7 +179,7 @@ spielen nichts wissen. Der Hintergrund für diese Interpretation,
 für dieses Vorgehen ist, dass so etwas schnell auch
 
 0:04:44.880,0:04:49.050
-mal passieren kann, indem man sich vertippt.
+mal passieren kann, indem ein Tippfehler gemacht wird.
 Angenommen, ich wollte eigentlich fragen, ob Jody
 
 0:04:49.050,0:04:54.150
@@ -196,7 +196,7 @@ so naheliegend sein, dass das ein Tippfehler ist, aber
 
 0:05:05.010,0:05:09.000
 so gehen eben einige Systeme vor, dass sie dann,
-wenn man eine Anfrage stellt, wo das Prädikat
+wenn eine Anfrage gestellt wird, wo das Prädikat
 
 0:05:09.000,0:05:14.430
 überhaupt nicht definiert ist im Programm (in keinster
@@ -251,8 +251,8 @@ Der Kopf ist immer genau ein Literal. Jetzt können wir
 wieder Anfragen stellen. Zum Beispiel, ob Mia Luftgitarre
 
 0:06:38.040,0:06:49.050
-spielt. Da wäre die Antwort: Ja. Das kann man sich hier
-überlegen aus Gründen. Also, man kann sich überlegen:
+spielt. Da wäre die Antwort: Ja. Das lässt sich hier
+überlegen aus Gründen. Also, es lässt sich überlegen:
 
 0:06:49.050,0:06:54.600
 Mia hört Musik und wenn Mia Musik hört, dann spielt
@@ -375,23 +375,23 @@ Wir können auch sozusagen analog zu einer Regel mit
 Konjunktion auch eine Regel mit Disjunktion schreiben.
 
 0:10:00.980,0:10:07.130
-Und zwar kann man dafür das Semikolon benutzen, um in
+Und zwar kann dafür das Semikolon benutzt werden, um in
 einem Rumpf eine Disjunktion / ein „Oder“ auszudrücken.
 
 0:10:07.130,0:10:12.650
-Also diese beiden Regeln hier hätte man auch
-zusammenfassen können zu dieser Regel. Üblicher ist
+Also diese beiden Regeln hier hätten auch
+zu dieser Regel zusammengefasst werden können. Üblicher ist
 
 0:10:12.650,0:10:17.420
 es in Prolog tatsächlich, das durch getrennte Regeln zu
-schreiben. Also meistens benutzt man auf den rechten Seiten
+schreiben. Also meistens wird auf den rechten Seiten
 
 0:10:17.420,0:10:21.740
-der Regeln nur die Konjunktion. Wenn man die
-Disjunktion verwenden würde, schreibt man
+der Regeln nur die Konjunktion benutzt. Wenn die
+Disjunktion verwendet würde, würde
 
 0:10:21.740,0:10:27.710
-es eher als zwei Regeln, die die gleiche Konsequenz haben.
+es eher als zwei Regeln geschrieben, die die gleiche Konsequenz haben.
 Also auch mit dieser Regel, statt dieser beiden Regeln,
 
 0:10:27.710,0:10:32.240
@@ -504,7 +504,7 @@ sagt Prolog hier X = mia. Mia ist eine Antwort
 
 0:13:18.990,0:13:27.510
 auf deine Frage nach Frauen. Jetzt steht hier dieses ;
-und das hätte ich als Nutzer eingegeben. Das kommt jetzt
+und das hätte ich als Nutzer oder Nutzerin eingegeben. Das kommt jetzt
 
 0:13:27.510,0:13:33.840
 wieder auf das genaue Interaktionsverhalten Ihres
@@ -520,7 +520,7 @@ mit einem Punkt ab. Drücken Enter. Prolog sagt: „X = mia.“
 
 0:13:44.550,0:13:51.090
 Und dann steht das Semikolon noch nicht da. In dem Moment, wo
-Sie als Nutzer das Semikolon eingeben, also letztlich sagen
+Sie als Nutzer oder Nutzerin das Semikolon eingeben, also letztlich sagen
 
 0:13:51.090,0:13:57.390
 „X = mia“, oder? Gibt es noch andere Alternativen? Dann
@@ -535,7 +535,7 @@ noch weitere Alternativen? Dann würde Prolog sagen:
 Fall würde Prolog auch dann mit einem Punkt abschließen.
 
 0:14:07.380,0:14:11.700
-Dann müsste ich als Nutzer nichts weiter machen. Was Prolog
+Dann müsste ich als Nutzer oder Nutzerin nichts weiter machen. Was Prolog
 hier gesagt hätte, wäre letztlich: „Die Antwort auf deine Frage
 
 0:14:11.700,0:14:18.240
@@ -551,8 +551,8 @@ und sagen: Weitere Alternativen gibt es nicht. Das
 wäre also eine Möglichkeit, mit Variablen zu arbeiten.
 
 0:14:30.390,0:14:36.960
-Das könnte man auch für solche binären
-Prädikate machen. Also auch in einer solchen
+Das könnte auch für solche binären
+Prädikate gemacht werden. Also auch in einer solchen
 
 0:14:36.960,0:14:42.750
 Relation kann ich, statt nach Wahr und
@@ -623,11 +623,11 @@ Vincent eine Frau ist. Das heißt, Prolog würde immer noch
 fragen, würde Prolog sagen: „Falsch.“ Also letztlich: Es
 
 0:16:30.150,0:16:39.510
-gibt keine weiteren Antworten. Das kann man lesen als X =
-mia oder falsch. Und „oder falsch“ ist eigentlich gar nichts.
+gibt keine weiteren Antworten. Das kann als X =
+mia oder falsch gelesen werden. Und „oder falsch“ ist eigentlich gar nichts.
 
 0:16:39.510,0:16:47.550
-Das kann man auch einfach weglassen, weil falsch bezüglich der
+Das kann auch einfach weggelassen werden, weil falsch bezüglich der
 Disjunktion verschwindet. „Irgendwas ∨ Falsch“ ist immer irgendwas.
 
 0:16:47.550,0:16:57.540
@@ -648,10 +648,10 @@ Ein Beispiel dafür hatte ich schon in dem letzten
 
 0:17:15.990,0:17:22.800
 Video ganz am Ende gezeigt, bei dem Mann und dem Berg und
-mir und dem Fernrohr, dass man da auch Regeln schreiben
+mir und dem Fernrohr, dass da auch Regeln geschrieben werden
 
 0:17:22.800,0:17:31.980
-könnte, wo Variablen vorkommen. Machen wir das an einem
+könnten, wo Variablen vorkommen. Machen wir das an einem
 Beispiel hier. Da könnten wir uns folgendes Programm
 
 0:17:31.980,0:17:38.340
@@ -675,7 +675,7 @@ unter welchen Umständen ich denn weiß, dass X
 Y liebt, taucht eine weitere Variable Z auf.
 
 0:18:06.990,0:18:14.010
-Und das ist sozusagen der gemeinsame Liebespartner.
+Und das ist sozusagen die gemeinsame Liebespartnerin oder der gemeinsame Liebespartner.
 Also wenn X Z liebt und Y Z liebt, für irgendein Z,
 
 0:18:14.010,0:18:20.760
@@ -692,7 +692,7 @@ auch in den Anfragen weiterhin Variablen verwenden.
 
 0:18:32.580,0:18:39.840
 Zum Beispiel könnte ich fragen, auf wen denn Marcellus
-eifersüchtig ist. Jetzt könnte man gucken, auf wen
+eifersüchtig ist. Jetzt könnte geguckt werden, auf wen
 
 0:18:39.840,0:18:44.760
 Marcellus eifersüchtig ist. Da müssen wir mal
@@ -732,10 +732,10 @@ zutrifft, wäre auch Marcellus auf Marcellus eifersüchtig.
 
 0:19:35.480,0:19:42.500
 Weitere Lösungen gäbe es allerdings nicht. Das
-kann man vielleicht noch zu beheben versuchen,
+kann vielleicht noch zu beheben versucht werden,
 
 0:19:42.500,0:19:51.380
-dass wir dieses Selbst-Eifersuchtsproblem
+indem wir dieses Selbst-Eifersuchtsproblem
 eliminieren. Vorher noch ein weiteres Feature.
 
 0:19:51.380,0:19:57.800
@@ -820,7 +820,7 @@ könnten, dass wir diese "Selbsteifersuchten" entfernen.
 
 0:21:54.510,0:21:58.200
 Was wollen wir da eigentlich ausdrücken? Wir wollen ausdrücken, dass
-man nur auf jemand anderen eifersüchtig sein kann und nicht auf
+nur auf jemand anderen Eifersucht empfunden werden kann und nicht auf
 
 0:21:58.200,0:22:03.780
 sich selbst. Ich hatte gesagt, dass hier X und Y als
@@ -871,8 +871,8 @@ dass solch eine Ungleichheitsbeziehung immer am
 Ende einer Regel steht. Also wenn Sie das X \= Y
 
 0:23:12.190,0:23:17.980
-hier vorn hinschreiben würden, wo man vermeintlich
-sagen könnte, auch das müsste ja funktionieren,
+hier vorn hinschreiben würden, wo vermeintlich
+gesagt werden könnte, auch das müsste ja funktionieren,
 
 0:23:17.980,0:23:22.390
 wenn das Komma Konjunktion ist, ist die Reihenfolge egal,
@@ -1099,8 +1099,8 @@ Das haben wir jetzt nicht gemacht. Wir hatten das Z zum
 Beispiel, das taucht rechts mehrfach auf. Aber links hatte ich
 
 0:29:15.170,0:29:21.530
-jetzt nur jede Variable einmal. Man könnte hier auch X und
-X haben. Dann heißt das wieder etwas anderes. Dann würde
+jetzt nur jede Variable einmal. Hier könnten auch X und
+X stehen. Dann heißt das wieder etwas anderes. Dann würde
 
 0:29:21.530,0:29:28.220
 das nur die Selbsteifersucht von irgendjemand definieren.
@@ -1112,19 +1112,19 @@ aber etwas anderes bedeuten, denn dann muss das jeweils
 
 0:29:33.170,0:29:41.720
 das gleiche Objekt sein. Und dann noch etwas, was wir auch
-schon gesehen haben: Man darf durchaus auf der rechten
+schon gesehen haben: Auf der rechten Seite dürfen
 
 0:29:41.720,0:29:47.630
-Seite hier Variablen verwenden, die links gar nicht vorkommen.
+hier durchaus Variablen verwendet werden, die links gar nicht vorkommen.
 Das haben wir hier so hingenommen. Ich habe das vorhin an dem
 
 0:29:48.230,0:29:53.600
-Beispiel einfach so gemacht. Wenn man an die
-Mathematik denkt, ist das vielleicht ein wenig
+Beispiel einfach so gemacht. Wenn an die
+Mathematik gedacht wird, ist das vielleicht ein wenig
 
 0:29:53.600,0:29:59.240
-überraschend, denn wenn man sich das jetzt vorstellt wie eine
-Definition einer Funktion, dann geht das ja nicht so einfach.
+überraschend, denn wenn sich das jetzt als
+Definition einer Funktion vorgestellt wird, dann geht das ja nicht so einfach.
 
 0:29:59.240,0:30:04.175
 Ich kann in der Mathematik nicht sagen: Ich definiere
@@ -1135,8 +1135,8 @@ und hier rechts soll irgendwie die Definition einer
 Funktion stehen, dann kann ich da zwar sin(x) hinschreiben,
 
 0:30:08.840,0:30:14.630
-aber nicht cos(y). Also in der Mathematik wäre man
-sehr überrascht, wenn man eine Funktion definiert und
+aber nicht cos(y). Also in der Mathematik wäre es
+sehr überraschend, wenn eine Funktion definiert wird und
 
 0:30:14.630,0:30:20.030
 auf der rechten Seite der Definition dann plötzlich Variablen
@@ -1152,7 +1152,7 @@ darf ich plötzlich Variablen benutzen, die ich
 
 0:30:32.390,0:30:41.600
 gar nicht auf der linken Seite hatte. Das ist erstmal schön,
-dass man das darf. Die Interpretation ist insofern interessant,
+dass das erlaubt ist. Die Interpretation ist insofern interessant,
 
 0:30:41.600,0:30:48.950
 als es dann hier reicht, irgendein Z zu haben, das von X
@@ -1171,8 +1171,8 @@ für X und Y. Z ist nur notwendig, um
 überhaupt die Eifersucht festzustellen.
 
 0:31:10.520,0:31:16.340
-Das ist das Ende dieses Beispiels. Man könnte natürlich
-noch mit vielen weiteren Dingen herumspielen, aber ich
+Das ist das Ende dieses Beispiels. Es könnte natürlich
+noch mit vielen weiteren Dingen herumgespielt werden, aber ich
 
 0:31:16.340,0:31:22.070
 denke, ich habe die wesentlichen Aspekte

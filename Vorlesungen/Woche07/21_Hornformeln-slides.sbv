@@ -76,15 +76,15 @@ Hornklausel ist, dann ist die Gesamtformel eben nicht nur
 
 0:02:03.720,0:02:12.150
 KNF, sondern sogar Hornformel. Warum ist gerade
-das eine interessante Form? Warum trifft man diese
+das eine interessante Form? Warum wird diese
 
 0:02:12.150,0:02:17.790
 vielleicht auf den ersten Blick etwas willkürliche
-Einschränkung? Nun, die Besonderheit ist, dass
+Einschränkung getroffen? Nun, die Besonderheit ist, dass
 
 0:02:17.790,0:02:23.220
-man solche Hornformeln immer auffassen kann oder
-schreiben kann als Konjunktion von Implikationen.
+solche Hornformeln immer als Konjunktion von Implikationen
+aufgefasst oder geschrieben werden können.
 
 0:02:23.220,0:02:29.760
 Wobei diese Implikationen auf der linken und auf der
@@ -112,10 +112,10 @@ nur von positiven Aussagen, dann entspricht das
 
 0:02:59.100,0:03:10.350
 gerade Hornformeln. Und das ist eine sehr typische Klasse
-von Aussagen, die man haben kann, mit denen man arbeiten
+von Aussagen, die vorliegen können, mit denen gearbeitet
 
 0:03:10.350,0:03:16.110
-möchte. Also, warum ist das? Warum gilt das, dass wir
+werden möchte. Also, warum ist das? Warum gilt das, dass wir
 Hornformeln genauso schreiben können? Warum haben die diese
 
 0:03:16.110,0:03:22.500
@@ -147,7 +147,7 @@ auf die wir schließen wollen, allerdings positiv bleibt.
 Dann ist das eine Hornklausel. Und die Intuition/
 
 0:04:01.920,0:04:07.530
-die Bedeutung wäre hier, dass man sich das vorstellt. Wir hatten
+die Bedeutung wäre hier, dass sich das vorgestellt wird. Wir hatten
 so eine Art Wissensbasis. Das wird später bei den Logikprogrammen
 
 0:04:07.530,0:04:14.790
@@ -155,11 +155,11 @@ genauso auftreten. Also, wenn wir A_1, A_2, A_3 usw. bis A_k
 wissen, dann wissen wir auch B. Und um so etwas auszudrücken,
 
 0:04:14.790,0:04:20.220
-würde man, wenn man es als Disjunktion/als Klauseln in
-einer KNF schreibt, eben genau diese Form haben, wo
+würde, wenn es als Disjunktion/als Klauseln in
+einer KNF geschrieben wird, eben genau diese Form vorliegen, wo
 
 0:04:20.220,0:04:28.230
-man genau ein positives Literal hat und alle
+genau ein positives Literal vorliegt und alle
 anderen Literale, die hier links der Implikation
 
 0:04:28.230,0:04:36.210
@@ -319,7 +319,7 @@ Randfall ist: Was ist denn, wenn es keine Negativen
 gibt? Hier tauchte auch immer mindestens ein Negatives
 
 0:09:07.900,0:09:14.470
-und dann immer genau ein Positives auf. Man könnte sich
+und dann immer genau ein Positives auf. Es ließe sich
 auch vorstellen, dass das K = 0 ist, also gar keine
 
 0:09:14.470,0:09:19.900
@@ -376,10 +376,10 @@ und auch mindestens ein negatives Literal. Solche
 
 0:10:35.200,0:10:41.590
 Klauseln, also die ganz Allgemeinen mit A_1 bis A_k
-und dann auch den B, die nennt man Prozedurklauseln
+und dann auch den B, die werden Prozedurklauseln
 
 0:10:41.590,0:10:49.930
-oder Regeln. Ein Beispiel wäre so etwas
+oder Regeln genannt. Ein Beispiel wäre so etwas
 mit K = 2 etwa. (¬A_1 ∨ ¬A_2 ∨ B),
 
 0:10:49.930,0:10:58.570
@@ -492,19 +492,19 @@ beschäftigen wollen. Dazu eine ganz kurze
 
 0:13:59.220,0:14:05.340
 Überleitung. Noch eine Folie. Diese Regeln und
-Fakten, die jetzt hier aufgetreten sind, die nennt
+Fakten, die jetzt hier aufgetreten sind, die werden
 
 0:14:05.340,0:14:11.880
-man auch Programmklauseln. Eben mit Blick auf die
+auch Programmklauseln genannt. Eben mit Blick auf die
 Logikprogramme, die uns noch beschäftigen werden.
 
 0:14:11.880,0:14:22.500
-Und die Zielklausel oder Anfrage, die kann man dann
-verstehen (warum das sinnvoll ist, das als Frage
+Und die Zielklausel oder Anfrage, die kann dann
+verstanden werden (warum das sinnvoll ist, das als Frage
 
 0:14:22.500,0:14:28.290
-oder Anfrage zu verstehen), wenn man sie letztlich als
-negierte Frage sieht. Hier vorn mag das nicht so klar
+oder Anfrage zu verstehen), wenn sie letztlich als
+negierte Frage gesehen wird. Hier vorn mag das nicht so klar
 
 0:14:28.290,0:14:35.430
 sein, warum so etwas dieser Form eine Frage ist. Was ist hier die
@@ -512,10 +512,10 @@ Frage? Nun, die Frage hier ist (A_1 ∧ A_2). Also angenommen, ich habe
 
 0:14:35.430,0:14:42.780
 Regeln und Fakten und ich möchte gern wissen, ob es
-stimmt, dass (A_1 ∧ A_2) zutrifft. Da könnte man sich das
+stimmt, dass (A_1 ∧ A_2) zutrifft. Da könnte sich das
 
 0:14:42.780,0:14:49.560
-ja verbal erst mal so vorstellen. Wir haben irgendwie
+ja verbal erst mal so vorgestellt werden. Wir haben irgendwie
 Fakten. Wir haben Regeln. Und wir haben eine Frage.
 
 0:14:49.560,0:14:56.400

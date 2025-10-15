@@ -67,8 +67,8 @@ also als Teil des Programms im Prolog eingeben. Jetzt
 gibt es ein paar syntaktische Unterschiede. Zum einen
 
 0:01:56.010,0:02:02.460
-kann man in Prolog nicht einfach Großbuchstaben
-benutzen für Aussagen. Das hat Gründe darin, dass in
+in Prolog können Großbuchstaben nicht einfach
+für Aussagen benutzt werden. Das hat Gründe darin, dass in
 
 0:02:02.460,0:02:07.590
 Prolog Großbuchstaben als Variablen betrachtet werden und
@@ -79,11 +79,11 @@ Also wir müssen Kleinbuchstaben verwenden, statt A, C, B groß,
 werde ich jetzt a, c, b klein schreiben. Das ist ein Unterschied.
 
 0:02:15.220,0:02:20.320
-Dann kann man nicht die Symbole ∧ und => benutzen, sondern
-da gibt es in Prolog andere Symbole. Und zwar würde man
+Dann können die Symbole ∧ und => nicht benutzt werden, sondern
+da gibt es in Prolog andere Symbole. Und zwar würde
 
 0:02:20.320,0:02:28.420
-diese Regel ((A ∧ C) => B) in Prolog wie folgt schreiben:
+diese Regel ((A ∧ C) => B) in Prolog wie folgt geschrieben:
 b :- a, c. Also was ist hier anders? Zum einen scheint
 
 0:02:28.420,0:02:34.360
@@ -263,7 +263,7 @@ war gemäß unserer Folien eine Prozedurklausel für a. In
 Prolog heißen diese Dinger eben Prozeduren oder es wird so
 
 0:07:46.910,0:07:52.160
-darüber geredet. Deswegen nennt man das eine Prozedurklausel.
+darüber geredet. Deswegen wird das eine Prozedurklausel genannt.
 Wenn ich das hier überschreibe, dann gibt es für a
 
 0:07:52.160,0:07:59.190
@@ -295,8 +295,8 @@ Stack Overflow, sozusagen zu einem Speicherüberlauf
 geführt. Das heißt nicht, dass die Formel nicht
 
 0:08:46.920,0:08:52.800
-erfüllbar war oder so. Das kann man daraus nicht folgern.
-Weder erfüllbar, noch unerfüllbar kann man daraus folgern.
+erfüllbar war oder so. Das kann daraus nicht gefolgert werden.
+Weder erfüllbar, noch unerfüllbar kann daraus gefolgert werden.
 
 0:08:52.800,0:08:57.450
 Das heißt einfach, dass Prologs Algorithmus für die Suche [nicht
@@ -344,11 +344,11 @@ diese Formeln "irgendwas impliziert 0"
 
 0:09:59.790,0:10:05.010
 waren hier die sogenannten Anfrageklauseln. In
-Prolog würde man die tatsächlich an anderer
+Prolog würden die tatsächlich an anderer
 
 0:10:05.010,0:10:09.120
-Stelle benutzen. Hier das Programm und hier
-die Frage, die man stellt und laufen lässt.
+Stelle benutzt. Hier das Programm und hier
+die Frage, die gestellt und laufengelassen wird.
 
 0:10:09.120,0:10:15.990
 Mehr Details dann in den folgenden Wochen. Aber

@@ -196,7 +196,7 @@ C. Und jetzt wird eben auch die Aussage selbst, also die
 
 0:05:06.060,0:05:10.920
 Aussage A selber hat jetzt auch noch eine innere Struktur.
-Also auch einen Syntaxbaum, den man ausnutzen kann,
+Also auch einen Syntaxbaum, der ausgenutzt werden kann,
 
 0:05:10.920,0:05:17.250
 um etwa genauere Beziehungen herzustellen.
@@ -215,11 +215,11 @@ dass dieser Satz mehrdeutig ist, weil er verschiedene
 Interpretationen zulässt. Und ich habe so ein bisschen angedeutet,
 
 0:05:32.940,0:05:39.060
-dass je nachdem, wie man diesen Satz klammert, also
-dem letztlich mehr Struktur gibt, man verschiedene
+dass je nachdem, wie dieser Satz geklammert wird, also
+dem letztlich mehr Struktur gegeben wird, verschiedene
 
 0:05:39.060,0:05:44.100
-Interpretationen dann erklären kann. Man könnte auch sagen,
+Interpretationen dann erklärt werden können. Es könnte auch gesagt werden,
 dass wir vielleicht lieber mit Prädikaten arbeiten sollten.
 
 0:05:44.100,0:05:49.470
@@ -240,10 +240,10 @@ zu den verschiedenen Lesarten des Satzes, die wir
 
 0:06:08.610,0:06:13.800
 betrachtet hatten (wir hatten diese fünf betrachtet in der
-ersten Vorlesung), jeweils mal zu sehen, wie man die mit
+ersten Vorlesung), jeweils mal zu sehen, wie die mit
 
 0:06:13.800,0:06:20.070
-strukturierten Aussagen äquivalent ausdrücken könnte.
+strukturierten Aussagen äquivalent ausgedrückt werden könnten.
 Also zum Beispiel der erste Satz oder die erste
 
 0:06:20.070,0:06:27.630
@@ -252,7 +252,7 @@ Ich sah den Mann. Dann auf dem Berg. Also das tat ich,
 
 0:06:27.630,0:06:35.490
 während ich auf dem Berg war. Und ich tat das mit
-dem Fernrohr. Und das könnte man jetzt zerlegen in:
+dem Fernrohr. Und das könnte jetzt zerlegt werden in:
 
 0:06:35.490,0:06:42.000
 Es geht erstmal um die Aussage "Ich sah den Mann." Das
@@ -275,16 +275,16 @@ was Primat hat. Deswegen steht hier draußen das Prädikat
 und dann stehen in Klammern die Subjekte und Objekte.
 
 0:07:07.320,0:07:13.980
-"Ich sah den Mann." könnte man fassen als: Das Prädikat
+"Ich sah den Mann." könnte gefasst werden als: Das Prädikat
 ist "sah" und "ich" und "man" sind Subjekt und Objekt.
 
 0:07:13.980,0:07:20.940
-Und da kann man vielleicht eine Konvention treffen. Das
-muss man dann jeweils, wenn man seine Aussagen formalisiert,
+Und da kann vielleicht eine Konvention getroffen werden. Das
+muss sich dann jeweils, wenn Aussagen formalisiert werden,
 
 0:07:20.940,0:07:26.880
-sich natürlich überlegen, welche Position welche
-ist. Man könnte sagen, wir nehmen in der Regel für
+natürlich überlegt werden, welche Position welche
+ist. Es könnte gesagt werden, wir nehmen in der Regel für
 
 0:07:26.880,0:07:30.570
 die erste Position vielleicht das, was dem Subjekt
@@ -295,7 +295,7 @@ das Objekt. Also "Ich sah den Mann." Das wäre sozusagen die erste
 Teilaussage. Dann kommt ja auch noch die Aussage "auf dem Berg".
 
 0:07:38.640,0:07:45.180
-Da könnte man sagen, das könnte auch ein Prädikat sein, das meinen
+Da könnte gesagt werden, das könnte auch ein Prädikat sein, das meinen
 Ort angibt. Also "Ich sah den Mann. Ich war auf dem Berg dabei."
 
 0:07:45.180,0:07:51.720
@@ -311,11 +311,11 @@ einfach irgendwie, sondern mit dem Fernrohr. Also dieses
 Satz in der ersten Vorlesung besprochen hatte, hatte ich
 
 0:08:04.380,0:08:08.700
-glaube ich davon geredet, dass man sich durchaus vorstellen
-könnte, dass man das "auf dem Berg" und "mit dem Fernrohr"
+glaube ich davon geredet, dass sich durchaus vorstellen ließe,
+dass das "auf dem Berg" und "mit dem Fernrohr"
 
 0:08:08.700,0:08:15.060
-vertauschen könnte. Ich hätte auch sagen können:
+vertauscht werden könnte. Ich hätte auch sagen können:
 "Ich sah den Mann mit dem Fernrohr, auf dem Berg."
 
 0:08:15.060,0:08:20.010
@@ -331,8 +331,8 @@ Also "Ich sah den Mann, und ich war auf dem Berg, und ich hatte
 das Fernrohr dafür." Und wenn das Komma die Konjunktion ist,
 
 0:08:35.430,0:08:40.980
-dann wissen wir, die ist kommutativ. Also man könnte auch
-schreiben: sah(ich,mann), mit(ich,fernrohr), auf(ich,berg).
+dann wissen wir, die ist kommutativ. Also könnte auch
+geschrieben werden: sah(ich,mann), mit(ich,fernrohr), auf(ich,berg).
 
 0:08:40.980,0:08:47.610
 Das entspräche dann der Beobachtung/der Erkenntnis,
@@ -359,8 +359,8 @@ Also der zweite Satz war gelesen als: "Ich sah
 den Mann auf dem Berg." (als Einheit) Und dann:
 
 0:09:24.390,0:09:31.770
-"Das tat ich mit dem Fernrohr." Da könnte man hier
-sagen, die innere Aussage ist: Der Mann ist auf dem Berg.
+"Das tat ich mit dem Fernrohr." Da könnte hier
+gesagt werden, die innere Aussage ist: Der Mann ist auf dem Berg.
 
 0:09:31.770,0:09:36.990
 Also "den Mann auf dem Berg", das drücke ich aus durch dieses
@@ -419,8 +419,8 @@ Weise ausdrücken könnten mit diesem Baustein,
 wenn uns noch mehr als die fünf Sätze einfallen.
 
 0:11:02.190,0:11:13.500
-Und dann braucht man keine Bilder mehr, sondern könnte das mit
-diesen Mitteln ausdrücken. Wir haben also diese neue Art Literale.
+Und dann werden keine Bilder mehr gebraucht, sondern das könnte mit
+diesen Mitteln ausgedrückt werden. Wir haben also diese neue Art Literale.
 
 0:11:13.500,0:11:19.590
 Das ist erstmal flexibler. Wir müssen nicht nur von A, B, C sprechen
@@ -459,7 +459,7 @@ gleich reden, dass großgeschriebene Bezeichner für Variablen
 stehen. Ich habe jetzt hier mal J genommen für Jemand.
 
 0:12:10.470,0:12:19.560
-Und dann könnte man diese Regel verstehen als: "Wenn
+Und dann könnte diese Regel verstanden werden als: "Wenn
 das Fernrohr auf dem Berg ist UND (Komma steht für UND)
 
 0:12:19.560,0:12:29.070
@@ -468,7 +468,7 @@ jemand das Fernrohr benutzt, dann muss jemand
 
 0:12:29.070,0:12:34.560
 Das ist so eine naheliegende Konsistenzforderung. Die
-könnte man benutzen, um zum Beispiel zu überprüfen,
+könnte benutzt werden, um zum Beispiel zu überprüfen,
 
 0:12:34.560,0:12:44.880
 ob das hier jeweils zutrifft. Also wenn für einen
@@ -476,11 +476,11 @@ konkreten "Jemand" (wahrscheinlich für mich oder den Mann)
 
 0:12:44.880,0:12:51.180
 diese beiden Literale zutreffen, ob dann auch dieses Literal zutrifft.
-Dann könnte man das sozusagen als Konsistenzprüfung verwenden
+Dann könnte das sozusagen als Konsistenzprüfung verwendet werden
 
 0:12:51.180,0:12:55.200
-für diese Situation. Oder man könnte
-das auch benutzen, um vielleicht
+für diese Situation. Oder das könnte
+auch benutzt werden, um vielleicht
 
 0:12:55.200,0:12:59.880
 hier Sachen einzusparen. Also vielleicht tauchen hier
@@ -488,7 +488,7 @@ drin Literale auf, die eigentlich überflüssig sind,
 
 0:12:59.880,0:13:04.680
 weil sie sich bereits aus dieser Regel ergeben. Dann
-könnte man hier mit weniger Fakten arbeiten, weil
+könnte hier mit weniger Fakten gearbeitet werden, weil
 
 0:13:04.680,0:13:11.910
 sich bestimmtes Wissen aus dieser sinnvollen Regel
