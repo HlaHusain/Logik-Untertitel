@@ -464,7 +464,7 @@ jetzt eine Kandidaten-Interpretation, dass ich sage:
 
 0:11:33.560,0:11:39.899
 I(k) soll Klaus sein. Weitere Funktionssymbole gibt
-es nicht. Allerdings gibt es ein Prädikatsymbol,
+es nicht. Allerdings gibt es ein Prädikatssymbol,
 
 0:11:39.899,0:11:45.059
 dieses M. Das muss ich auch interpretieren. Das heißt, ich
@@ -596,7 +596,7 @@ Zuordnung "α-dach", welche einer gesamten Formel
 
 0:15:01.940,0:15:09.279
 einen solchen Wahrheitswert zuordnet. Und da gab
-es einfach Regeln dafür, wie man das ausrechnet.
+es einfach Regeln dafür, wie das ausgerechnet wird.
 
 0:15:09.279,0:15:16.239
 Jetzt wollen wir analog dazu vorgehen. Das heißt,
@@ -787,7 +787,7 @@ und ein Element der Grundmenge. Und dann steht A
 mit diesem Subskript, als "x ersetzt durch d" kann
 
 0:20:30.740,0:20:36.549
-man das lesen, für diejenige Struktur, die der
+das gelesen werden, für diejenige Struktur, die der
 Ursprungsstruktur A entspricht, außer dass die
 
 0:20:36.549,0:20:41.610
@@ -1012,7 +1012,7 @@ nochmal so etwas tun für eine konkrete Formel.
 
 0:26:47.559,0:26:52.970
 Und zwar die, die wir vorhin schon gesehen haben. Damit
-Ihnen klar ist, dass man das konkret ausrechnen kann
+Ihnen klar ist, dass das konkret ausgerechnet werden kann
 
 0:26:52.970,0:26:59.590
 für eine konkrete Formel und eine dafür
@@ -1127,7 +1127,7 @@ Prädikatsymbol M? Als die leere Relation. Also
 einfach nichts steht miteinander in Beziehung.
 
 0:29:50.370,0:30:02.090
-Und dann kann man ausrechnen, dass für diese
+Und dann kann ausgerechnet werden, dass für diese
 Struktur eben nicht 1 herauskommt. Warum nicht?
 
 0:30:02.090,0:30:09.410
@@ -1140,7 +1140,7 @@ jedes Element der Grundmenge (und da kommt nur Klaus infrage),
 
 0:30:14.150,0:30:24.129
 diese Rest-Aussage sich als wahr ergibt. Und
-da kann man feststellen: Wenn hier die leere
+da kann festgestellt werden: Wenn hier die leere
 
 0:30:24.129,0:30:31.929
 Relation für M gewählt wird, dann wird diese

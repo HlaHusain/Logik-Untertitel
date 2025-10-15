@@ -84,10 +84,10 @@ Syntax. Diese Regeln. Dieses Wohlaufgebaut-Sein.
 
 0:02:11.450,0:02:18.640
 Dazu gehörte auch, dass wir Klammern sinnvoll
-setzen und verwenden, so wie man ja auch in
+setzen und verwenden, so wie ja auch in
 
 0:02:18.640,0:02:24.030
-arithmetischen Ausdrücken Klammern verwendet,
+arithmetischen Ausdrücken Klammern verwendet werden,
 um etwa zwischen Punkt- und Strichrechnung
 
 0:02:24.030,0:02:33.270
@@ -127,8 +127,8 @@ Aus dem Atom A wird irgendwas Strukturiertes.
 Das war also ein Weg oder die Motivation
 
 0:03:22.990,0:03:28.560
-für die Prädikate. Andererseits kann man sich natürlich
-den Spezialfall nullstelliger Prädikate anschauen.
+für die Prädikate. Andererseits kann sich natürlich
+der Spezialfall nullstelliger Prädikate angeschaut werden.
 
 0:03:28.560,0:03:33.680
 Also Prädikate, die eben doch keine innere
@@ -219,7 +219,7 @@ werden auch Relationssymbole genannt, das hatte ich
 glaube ich auch schon erwähnt, weil sie vor allem im
 
 0:05:45.129,0:05:50.319
-Fall etwa, dass man zwei Argumente hat,
+Fall etwa, dass zwei Argumente vorliegen,
 auch Relationen entsprechen. Also bei einem
 
 0:05:50.319,0:05:56.930
@@ -227,7 +227,7 @@ einstelligen Prädikat macht Relation jetzt nicht
 so viel Sinn. Also eine einstellige Relation kann
 
 0:05:56.930,0:06:01.150
-man sich nicht so gut vorstellen. Aber zum Beispiel
+sich nicht so gut vorgestellt werden. Aber zum Beispiel
 zweistellige Relationen. Die kleiner/gleich-Relation
 
 0:06:01.150,0:06:08.569
@@ -416,7 +416,7 @@ sowohl Konstanten als auch die Funktionssymbole,
 
 0:11:47.200,0:11:52.670
 als auch die Variablen, alles Kleinbuchstaben sind. Da kann
-man das dann daran erkennen. Aber das wird auch gleich
+das dann daran erkannt werden. Aber das wird auch gleich
 
 0:11:52.670,0:12:00.230
 nochmal in der formalen Definition zutage
@@ -472,7 +472,7 @@ sein: Wenn das Fernrohr auf dem Berg ist und
 
 0:13:23.390,0:13:32.610
 irgendjemand (Variable J) das Fernrohr hat,
-dann muss der jemand auch auf dem Berg sein.
+dann muss diese Person auch auf dem Berg sein.
 
 0:13:32.610,0:13:38.880
 Weil das Fernrohr auf dem Berg ist und jemand das Fernrohr hat, muss
@@ -499,8 +499,8 @@ eher kurz schreiben, als vielleicht f für das Fernrohr,
 b für Berg und die Variablen auch kleinschreiben,
 
 0:14:10.240,0:14:15.220
-würde hier jetzt einfach j, f stehen. Und man würde zum
-einen nicht unbedingt erkennen, dass j eine Variable ist.
+würde hier jetzt einfach j, f stehen. Und zum
+einen würde nicht unbedingt erkannt werden, dass j eine Variable ist.
 
 0:14:15.220,0:14:21.080
 Zum anderen wäre j nirgendwo explizit eingeführt. Das
@@ -683,7 +683,7 @@ Also keine Blume ist ein Tier. Das heißt
 ja, es gibt keine Blume, die ein Tier ist.
 
 0:18:58.940,0:19:03.170
-Wie man Nicht ausdrückt, wissen wir schon. Mit
+Wie das Nicht ausgedrückt wird, wissen wir schon. Mit
 der logischen Negation. Und dann die Aussage:
 
 0:19:03.170,0:19:09.620
@@ -1032,7 +1032,7 @@ wären so typische Konstanten. Während wir a, b, c
 
 0:28:15.660,0:28:22.390
 eher nicht für Variablen oder für mehrstellige
-Funktionssymbole verwenden werden. Aber das muss man angeben.
+Funktionssymbole verwenden werden. Aber das muss angegeben werden.
 
 0:28:22.390,0:28:33.809
 Oder es muss aus dem Kontext klar sein. Das waren
@@ -1360,7 +1360,7 @@ diese Unterscheidung in Groß- und Kleinschreibung
 
 0:38:03.329,0:38:08.579
 mögliche Verwirrungen, die in Prolog noch hätten
-bestehen können. Man kann sich auch fragen,
+bestehen können. Es kann auch die Frage gestellt werden,
 
 0:38:08.579,0:38:13.619
 warum macht das Prolog nicht so? Warum nutzt Prolog
@@ -1376,14 +1376,14 @@ genug Sprachfeatures von Prolog gesehen haben.
 
 0:38:27.359,0:38:36.710
 Prolog ist mächtiger, als das, was wir in der Vorlesung
-gemacht haben. Und wenn man mehr Teile von Prolog betrachtet,
+gemacht haben. Und wenn mehr Teile von Prolog betrachtet werden,
 
 0:38:36.710,0:38:43.510
 würde es sozusagen problematisch sein, dass
-man für Prädikatsymbole und Funktionssymbole
+für Prädikatsymbole und Funktionssymbole
 
 0:38:43.510,0:38:56.290
-verschiedene Beschreibungen hat. In der Prädikatenlogik sorgen
+verschiedene Beschreibungen existieren. In der Prädikatenlogik sorgen
 die Definitionen dafür, dass wir da nichts verwechseln können.
 
 0:38:56.290,0:39:03.200

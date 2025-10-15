@@ -36,14 +36,14 @@ ist: Es ist im Grunde genommen das Gleiche.
 
 0:00:51.210,0:00:56.480
 Prolog-Programme sind spezielle prädikatenlogische
-Formeln, wenn Sie so wollen. Bzw. man kann die so
+Formeln, wenn Sie so wollen. Bzw. können die so
 
 0:00:56.480,0:01:02.550
-darstellen. Das würde ich jetzt hier einfach mal
+dargestellt werden. Das würde ich jetzt hier einfach mal
 tun. Also was wir hier als Prolog-Regeln haben,
 
 0:01:02.550,0:01:08.820
-könnte man prädikatenlogisch wie folgt fassen: Es gibt
+könnte prädikatenlogisch wie folgt gefasst werden: Es gibt
 jetzt natürlich ein paar syntaktische Unterschiede.
 
 0:01:08.820,0:01:16.130
@@ -543,8 +543,8 @@ aufgeschrieben haben, mit denen wir resolviert haben.
 Also dass da hier von der Seite sozusagen diese beiden
 
 0:14:27.440,0:14:32.660
-Klauseln hinzukommen, das sieht man in dem Ableitungsbaum
-eben nicht explizit. Aber davon abgesehen entspricht
+Klauseln hinzukommen, das ist in dem Ableitungsbaum
+eben nicht explizit zu sehen. Aber davon abgesehen entspricht
 
 0:14:32.660,0:14:39.920
 dieser Resolutionsbeweis, insbesondere dieser Pfad, den
@@ -647,7 +647,7 @@ wie ich das zuvor in Prolog getan hatte. Da hatte
 ich nämlich tatsächlich auch das z umbenannt in z'.
 
 0:17:07.730,0:17:12.000
-Das sieht man hier aufscheinen. Das mache ich jetzt
+Das scheint hier auf. Das mache ich jetzt
 mal nicht, ist aber ein ganz kleiner Unterschied.
 
 0:17:12.000,0:17:20.659
@@ -691,8 +691,8 @@ Ich mache es gleich so, wie ich es in dem Prolog-Beispiel
 auch getan hatte. Und s(0) und s(z) müssen unifiziert werden.
 
 0:18:20.780,0:18:26.950
-Und das geht, indem man die Variable z auf 0
-setzt. Also ich kann diesen Unifikator wählen.
+Und das geht, indem die Variable z auf 0
+gesetzt wird. Also ich kann diesen Unifikator wählen.
 
 0:18:26.950,0:18:37.270
 Das x wird s(x'). Das y wird y'. Und z wird

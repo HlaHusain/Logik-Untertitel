@@ -75,7 +75,7 @@ Nämlich die Quantoren sozusagen ein Stück weit
 "zähmen". Der erste Schritt dafür wird sein,
 
 0:01:52.450,0:01:57.830
-die Formeln zu bereinigen. So nennt man das. Das
+die Formeln zu bereinigen. So wird das genannt. Das
 wird eine bereinigte Form sein. Und zwar geht es
 
 0:01:57.830,0:02:03.600
@@ -271,8 +271,8 @@ wenn geschachtelte Quantoren auftauchen, dass
 wir nur wirklich die jeweils direkt gebundenen
 
 0:06:35.039,0:06:47.580
-Variablen-Vorkommen umbenennen. Das nennt man
-die sogenannte "gebundene Umbenennung". Also wie
+Variablen-Vorkommen umbenennen. Das wird
+die sogenannte "gebundene Umbenennung" genannt. Also wie
 
 0:06:47.580,0:06:52.460
 ist das zu verstehen? Was passiert da? Wir
@@ -347,8 +347,8 @@ ersetzen wir dann durch y, damit das zur neuen Bindung
 passt. Machen wir das für unsere Beispiele. Das ist
 
 0:08:53.450,0:08:59.250
-eine syntaktische Manipulation. Und man
-kann beweisen, dass die so erhaltene Formel
+eine syntaktische Manipulation. Und es
+kann bewiesen werden, dass die so erhaltene Formel
 
 0:08:59.250,0:09:04.510
 semantisch äquivalent ist zur Ursprungsformel. In dem
@@ -460,7 +460,7 @@ nehme dann eben z. Beziehungsweise, ich kann y nicht nehmen,
 
 0:11:48.860,0:11:56.100
 weil y hier drin vorkommt. Denn hier oben stand ja:
-Man nimmt eine Variable, die in der unter dem Quantor
+Es wird eine Variable genommen, die in der unter dem Quantor
 
 0:11:56.100,0:12:01.509
 stehenden Formel nicht auftritt. Aber das y taucht hier
@@ -507,8 +507,8 @@ Schritt wollen wir diese Quantoren vorziehen.
 Die sollen möglichst nur noch ganz vorne stehen.
 
 0:13:18.880,0:13:26.050
-Ganz außen bzw. ganz vorn, wenn man
-die Formel von links nach rechts liest.
+Ganz außen bzw. ganz vorn, wenn
+die Formel von links nach rechts gelesen wird.
 
 0:13:26.050,0:13:31.140
 Natürlich verletzen das alle diese Beispiele.
@@ -600,7 +600,7 @@ Quantor steht. Das folgt einfach aus der Bereinigung
 
 0:15:30.779,0:15:36.040
 der Formel. Und dann sagen diese Regeln hier einfach:
-Man kann das H unter so einen Quantor schieben.
+Das H kann unter so einen Quantor geschoben werden.
 
 0:15:36.040,0:15:40.889
 Wenn wir eine quantifizierte Formel
@@ -967,7 +967,7 @@ in dem konkreten Fall auch anders handhaben und das
 sozusagen sehen, dass es diese eine Äquivalenz gibt,
 
 0:26:00.919,0:26:07.890
-die man direkt anwenden kann. Dann kommen sie eben zu:
+die direkt angewendet werden kann. Dann kommen sie eben zu:
 "∀x : (P(x) ∧ Q(x))". Aber das hier wäre auch korrekt
 
 0:26:07.890,0:26:15.880

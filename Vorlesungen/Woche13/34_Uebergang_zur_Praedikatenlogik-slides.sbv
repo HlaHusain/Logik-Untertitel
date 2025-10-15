@@ -453,11 +453,11 @@ können wir hier jetzt spezifisch zum Beispiel auf
 einzelne Zahlen Bezug nehmen. Und hinzu kommt vor allem,
 
 0:11:17.190,0:11:22.630
-dass man über die Beziehungen zwischen
+dass über die Beziehungen zwischen
 diesen Objekten auch solche universellen oder
 
 0:11:22.630,0:11:27.269
-existentiellen Aussagen treffen kann.
+existentiellen Aussagen getroffen werden können.
 Also für jede natürliche Zahl X gilt, ...
 
 0:11:27.269,0:11:31.430
@@ -650,7 +650,7 @@ groß zu schreiben, aber in der Prädikatenlogik werden
 
 0:16:30.120,0:16:35.350
 wir als Variablen in der Regel Kleinbuchstaben verwenden.
-Da muss man sich jetzt leider etwas umgewöhnen,
+Da muss sich jetzt leider etwas umgewöhnt werden,
 
 0:16:35.350,0:16:40.519
 aber das ist einfach so. Prolog als Programmiersprache hat
@@ -661,8 +661,8 @@ werden Variablen in der Regel kleingeschrieben
 sein. Auch in meinen Formeln wird das so sein.
 
 0:16:44.620,0:16:56.910
-Da muss man sich also umgewöhnen, aber das ist halt
-einfach eine Regel der Syntax, die man berücksichtigt.
+Da muss sich also umgewöhnt werden, aber das ist halt
+einfach eine Regel der Syntax, die berücksichtigt wird.
 
 0:16:56.910,0:17:02.730
 Prädikate hatten wir zum Beispiel verwendet, um so
@@ -742,14 +742,14 @@ wirklich mit Zahlen zu operieren, oder in arithmetischem
 
 0:18:50.960,0:18:56.090
 Sinne Gleichungen zu lösen. Und auch mit Listen
-werden wir nicht arbeiten. Man kann zwar Listen
+werden wir nicht arbeiten. Listen können zwar
 
 0:18:56.090,0:19:02.170
 auch in der formalen Prädikatenlogik über
-Datenkonstruktoren einführen und dann auch
+Datenkonstruktoren eingeführt und dann auch
 
 0:19:02.170,0:19:07.770
-Formeln darüber aufschreiben. Das werden wir aber
+Formeln darüber aufgeschrieben werden. Das werden wir aber
 nicht tun. Wir werden uns auf einfachere symbolische
 
 0:19:07.770,0:19:12.560
@@ -769,7 +769,7 @@ Das waren wichtige Aspekte für die Prolog-Programmierung.
 Die wir aber in der Prädikatenlogik nicht
 
 0:19:34.190,0:19:41.440
-betrachten werden. Das könnte man. Also im Grunde genommen
+betrachten werden. Das könnte getan werden. Also im Grunde genommen
 lässt sich Prolog in die Prädikatenlogik einbetten.
 
 0:19:41.440,0:19:48.710
@@ -782,11 +782,11 @@ oder zumindest Erfüllbarkeit Gedanken zu machen. Und
 
 0:19:54.270,0:19:58.940
 nicht in erster Linie ein Programm zu haben, das
-man ausführen kann. Dafür ist Prolog gemacht.
+ausgeführt werden kann. Dafür ist Prolog gemacht.
 
 0:19:58.940,0:20:06.060
 Und das ist eine echte Teilmenge der Prädikatenlogik.
-Also man kann das zwar einbetten in die Prädikatenlogik,
+Also das kann zwar in die Prädikatenlogik eingebettet werden,
 
 0:20:06.060,0:20:09.630
 aber einfach die Programmausführung wird für
@@ -841,7 +841,7 @@ von prädikatenlogischen Formeln einfach so
 zugewiesen werden wie in einem Prolog-Programm,
 
 0:21:30.800,0:21:35.120
-wo man das einfach ausführt und guckt, was rauskommt.
+wo das einfach ausgeführt wird und geguckt wird, was rauskommt.
 Sozusagen war die Bedeutung eines Prolog-Programms,
 
 0:21:35.120,0:21:39.330
@@ -1100,11 +1100,11 @@ nur so intuitiv, informell gemacht bei der
 
 0:28:00.880,0:28:05.520
 Ausführung von Prolog-Programmen. Dass
-man eine Anfrage und Regeln hatte und
+eine Anfrage und Regeln vorlagen und
 
 0:28:05.520,0:28:10.950
 dann die Variablen geeignet
-belegen/matchen musste, unifizieren musste.
+belegt/gematcht werden mussten, unifiziert werden mussten.
 
 0:28:10.950,0:28:17.350
 So hatte ich das genannt, und so wurde es, denke ich,

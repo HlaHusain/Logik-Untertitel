@@ -28,11 +28,11 @@ geht letztlich darum, bis wohin bzw. wie weit ein
 
 0:00:43.440,0:00:49.560
 Quantor wirkt. Im letzten Video hatten wir darüber
-gesprochen, dass, wenn man "für alle x" sagt,
+gesprochen, dass, wenn "für alle x" gesagt wird,
 
 0:00:49.560,0:00:55.920
 und dann irgendeine Restformel kommt, es darum ging,
-über welche x man da quantifiziert. Woher kommen denn
+über welche x da quantifiziert wird. Woher kommen denn
 
 0:00:55.920,0:01:00.390
 die Individuen, die in einer All- oder Existenzaussage
@@ -152,10 +152,10 @@ vor, und zwar in dem G, weil wir ja nicht
 
 0:03:56.590,0:04:02.650
 dieses Vorkommen direkt an dem Quantor betrachten. Und
-wenn dem so ist, dann nennt man dieses Vorkommen der
+wenn dem so ist, dann wird dieses Vorkommen der
 
 0:04:02.650,0:04:12.580
-Variable "gebunden". Anderenfalls ist es ein "freies" Vorkommen. Und
+Variable "gebunden" genannt. Anderenfalls ist es ein "freies" Vorkommen. Und
 das können wir jeweils für jedes Vorkommen von Variablen in der Formel
 
 0:04:12.580,0:04:20.530
@@ -168,27 +168,27 @@ Das machen wir
 
 0:04:27.990,0:04:33.480
 für jedes Vorkommen von Variablen in der Formel.
-Und dann kann man die Formel hinterher als Ganzes
+Und dann kann die Formel hinterher als Ganzes
 
 0:04:33.480,0:04:40.050
-noch klassifizieren. Und zwar nennt
-man alle prädikatenlogischen Formeln,
+noch klassifiziert werden. Und zwar werden
+alle prädikatenlogischen Formeln,
 
 0:04:40.050,0:04:47.820
 die ganz ohne Vorkommen von freien
-Variablen sind, "geschlossene" Formeln.
+Variablen sind, "geschlossene" Formeln genannt.
 
 0:04:47.820,0:04:53.520
 Also, "nichts frei" heißt dann "geschlossen". Also, eine geschlossene
 Formel ist eine, die gar keine Vorkommen freier Variablen enthält.
 
 0:04:53.520,0:04:58.980
-Man nennt das auch eine prädikatenlogische Aussage. Bisher
+Das wird auch eine prädikatenlogische Aussage genannt. Bisher
 hatten wir von prädikatenlogischen Formeln gesprochen.
 
 0:04:58.980,0:05:04.110
-Und eine prädikatenlogische Formel nennt
-man dann prädikatenlogische Aussage,
+Und eine prädikatenlogische Formel wird
+dann prädikatenlogische Aussage genannt,
 
 0:05:04.110,0:05:12.570
 wenn sie keine freien Variablen enthält. In
@@ -315,7 +315,7 @@ Also dieses und dieses. Ist x hier jetzt gebunden oder frei?
 Nun, das kommt darauf an, welches Vorkommen wir uns anschauen.
 
 0:08:49.480,0:08:54.760
-Man sagt ja nicht, x als Ganzes ist für die
+Es wird ja nicht gesagt, x als Ganzes ist für die
 gesamte Formel gebunden oder frei, sondern
 
 0:08:54.760,0:09:00.190
@@ -331,7 +331,7 @@ Deswegen ist dieses x gebunden, während dieses x
 frei ist. Das taucht nicht in einer Teilformel der
 
 0:09:15.970,0:09:27.790
-entsprechenden Art auf. Man könnte sagen, es taucht zwar
+entsprechenden Art auf. Es könnte gesagt werden, es taucht zwar
 in dieser Formel auf, aber R(x) ist hier eben nicht Teil
 
 0:09:27.790,0:09:43.720
@@ -587,8 +587,8 @@ Und diese beiden x sind hier gebunden. Das sind auch
 alles Vorkommen der gleichen Variable, werden aber an
 
 0:17:58.180,0:18:02.860
-verschiedenen Stellen gebunden. Hier könnte man wieder
-mit Farben arbeiten, also die beiden x gleich einfärben,
+verschiedenen Stellen gebunden. Hier könnte wieder
+mit Farben gearbeitet werden, also die beiden x gleich einfärben,
 
 0:18:02.860,0:18:12.010
 und diese drei x gleich einfärben, weil sie die
@@ -623,7 +623,7 @@ keine sinnvolle Teilformel, und damit ist das auch
 insgesamt keine Formel. Wenn hier irgendwie stünde:
 
 0:19:05.140,0:19:12.940
-"∃x : wahre Aussage", dann würde man auch aussagen,
+"∃x : wahre Aussage", dann würde auch ausgesagt,
 dass x existiert. Aber ohne eine Aussage dahinter
 
 0:19:12.940,0:19:19.120

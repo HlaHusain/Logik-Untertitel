@@ -64,23 +64,23 @@ Festlegung auf dieses [x / a], das ist eigentlich überflüssig
 
 0:01:36.810,0:01:43.960
 oder verfrüht. Es gibt hier keinen vernünftigen Grund,
-der das erzwingt, dass man das x unbedingt auf a
+der das erzwingt, dass das x unbedingt auf a
 
 0:01:43.960,0:01:48.610
-setzen muss. Aber ich musste es hier setzen,
+gesetzt werden muss. Aber ich musste es hier setzen,
 damit ich Grundresolution anwenden konnte.
 
 0:01:48.610,0:01:53.590
-Wenn man genau draufschaut: Bei der restlichen Abarbeitung
-spielte das [x / a] nie wieder eine Rolle. Also hätte man sich
+Wenn genau draufgeschaut wird: Bei der restlichen Abarbeitung
+spielte das [x / a] nie wieder eine Rolle. Also hätte sich
 
 0:01:53.590,0:01:58.170
-auch wünschen können, dass man das hier nicht unbedingt
-setzen muss. Aber die Grundresolution erfordert das.
+auch wünschen lassen, dass das hier nicht unbedingt
+gesetzt werden muss. Aber die Grundresolution erfordert das.
 
 0:01:58.170,0:02:01.340
-Und da kann man eben auch in eine Sackgasse geraten, weil
-man hier vielleicht eine falsche Entscheidung trifft,
+Und da kann es eben auch zu einer Sackgasse kommen, weil
+hier vielleicht eine falsche Entscheidung getroffen wird,
 
 0:02:01.340,0:02:07.470
 die weiter unten doch noch eine Rolle spielt und dann
@@ -111,12 +111,12 @@ Uns vielleicht für manche Variablen nie für irgendwas
 Spezielles entscheiden. Zum Beispiel für dieses x hier
 
 0:02:46.879,0:02:51.510
-hätte man auch feststellen können: Das beeinflusst den weiteren
+hätte auch festgestellt werden können: Das beeinflusst den weiteren
 Weg gar nicht. Egal, was hier und hier steht. Ob das a ist oder
 
 0:02:51.510,0:02:55.510
 irgendwas anderes, diese Schritte wären genauso möglich gewesen.
-Das heißt, man möchte diese Entscheidung einfach ganz vermeiden.
+Das heißt, diese Entscheidung soll einfach ganz vermieden werden.
 
 0:02:55.510,0:03:01.440
 Und das erlaubt diese prädikatenlogische Resolution.
@@ -140,10 +140,10 @@ instanziiert wurden. Nicht zu einem Grundterm,
 
 0:03:21.049,0:03:25.809
 sondern vielleicht zu einem Teilterm, in dem
-noch weitere Variablen vorkommen. Das muss man
+noch weitere Variablen vorkommen. Das muss
 
 0:03:25.809,0:03:29.669
-dann natürlich alles nachhalten und pflegen, um später
+dann natürlich alles nachgehalten und gepflegt werden, um später
 am Ende alle Entscheidungen richtig getroffen zu haben.
 
 0:03:29.669,0:03:39.339
@@ -407,8 +407,8 @@ Wir werden im Folgenden dann noch sehen,
 wie wir darauf auch kommen können, letztlich
 
 0:10:15.339,0:10:21.180
-auch algorithmisch. Was man an dem Beispiel noch
-nicht sieht, was aber auch wichtig sein wird:
+auch algorithmisch. Was an dem Beispiel noch
+nicht gesehen wird, was aber auch wichtig sein wird:
 
 0:10:21.180,0:10:25.740
 Natürlich ersetzen wir nur Variablen. Wenn hier irgendwie
@@ -420,10 +420,10 @@ Art Resolution. Sowohl hier bei der Umbenennung der Variablen,
 
 0:10:31.949,0:10:40.470
 als auch hier, werden wir dann für Variablen Terme
-einsetzen. Das war auch nicht die einzige Wahl, die man hier
+einsetzen. Das war auch nicht die einzige Wahl, die hier
 
 0:10:40.470,0:10:45.529
-treffen hätte können. Zum Beispiel hätte ich mich
+hätte getroffen werden können. Zum Beispiel hätte ich mich
 auch entscheiden können (das hatte ich schon erwähnt),
 
 0:10:45.529,0:10:50.449
@@ -468,11 +468,11 @@ gearbeitet. Das ist kein Widerspruch oder falsch.
 
 0:11:42.350,0:11:48.379
 Es kann da durchaus mehrere Möglichkeiten geben.
-Auch hätte man in dem Fall, zum Beispiel, statt
+Auch hätte in dem Fall, zum Beispiel, statt
 
 0:11:48.379,0:11:53.009
 mit diesen beiden Literalen auf einmal zu resolvieren,
-das auch schrittweise tun können. Also doch immer nur
+das auch schrittweise getan werden können. Also doch immer nur
 
 0:11:53.009,0:12:03.499
 ein Literal auswählen und dann gegebenenfalls zwei
@@ -532,11 +532,11 @@ dieses Literal entfernen. Und es bleibt übrig: Q(y).
 
 0:13:26.379,0:13:35.860
 Natürlich genau wie auf der Folie zuvor,
-nur mit zwei Schritten. Also, oft kann man
+nur mit zwei Schritten. Also, oft kann
 
 0:13:35.860,0:13:40.470
-tatsächlich sozusagen davon ausgehen, dass man einfach
-nur einzelne Schritte macht, mit einem Literal.
+tatsächlich sozusagen davon ausgegangen werden, dass einfach
+nur einzelne Schritte gemacht werden, mit einem Literal.
 
 0:13:40.470,0:13:47.319
 Das wird dann ein etwas größerer Baum vielleicht.
@@ -544,15 +544,15 @@ Oder ein etwas größerer Aufschrieb. (Das muss ja
 
 0:13:47.319,0:13:52.490
 kein Baum sein, aber ein größerer Aufschrieb dieser
-Art, wenn man mehrere Schritte macht.) Aber dann kann
+Art, wenn mehrere Schritte gemacht werden.) Aber dann kann
 
 0:13:52.490,0:13:59.089
-man sich sozusagen sparen, Ausschau nach solchen
-Fällen zu halten, wo man mehrere Literale
+sozusagen darauf verzichtet werden, Ausschau nach solchen
+Fällen zu halten, wo mehrere Literale
 
 0:13:59.089,0:14:10.410
-auf einmal verarbeitet. Man muss natürlich aufpassen,
-dass man dadurch keinen Lösungsweg verliert.
+auf einmal verarbeitet werden. Es muss natürlich aufgepasst werden,
+dass dadurch kein Lösungsweg verloren geht.
 
 0:14:10.410,0:14:16.910
 Wenn das geht, mit solchen einfachen Schritten,
@@ -592,7 +592,7 @@ das y hier immer noch unbelegt. Was kann rechts passieren?
 
 0:15:13.679,0:15:21.070
 Da würden wir dieses P(y) mit diesem ¬P "und so weiter"
-verknüpfen. Variablen umbenennen muss man nicht.
+verknüpfen. Variablen müssen nicht umbenannt werden.
 
 0:15:21.070,0:15:25.730
 Hier ist y. Hier ist x. Da überlappt sich nichts.
@@ -643,8 +643,8 @@ Und was kommt dann heraus? Natürlich die leere
 Menge, weil dann diese beiden Literale verschwinden.
 
 0:16:52.649,0:17:08.520
-Dann kann man das mal vergleichen mit diesem
-Weg. Wir sind in beiden Fällen zum Ziel gekommen,
+Dann kann das mal mit diesem
+Weg verglichen werden. Wir sind in beiden Fällen zum Ziel gekommen,
 
 0:17:08.520,0:17:15.329
 hatten uns bei der Grundresolution aber
@@ -723,7 +723,7 @@ Und aus denen müssen irgendwie diese Variablenbelegungen
 extrahiert werden. Oft ist das irgendwie sehr einfach.
 
 0:19:11.580,0:19:16.660
-Man guckt einfach scharf hin und sieht: Hier muss ich x und
+Es wird einfach scharf hingeguckt und es wird gesehen: Hier muss ich x und
 y' durch f(a) ersetzen, zum Beispiel. Oder hier muss ich y
 
 0:19:16.660,0:19:24.450
@@ -735,15 +735,15 @@ komplizierter werden, wenn die Formeln und die Terme, die da
 drin vorkommen, komplizierter werden. Wichtig ist in jedem Fall,
 
 0:19:32.330,0:19:36.660
-dass man immer einen allgemeinsten Unifikator bildet.
-Also, dass man nicht zu viele Festlegungen trifft.
+dass immer ein allgemeinster Unifikator gebildet wird.
+Also, dass nicht zu viele Festlegungen getroffen werden.
 
 0:19:36.660,0:19:41.420
-Sonst wäre man wieder bei der Grundresolution und könnte auch
-Fehler machen. Bei der allgemeinen Resolution will man immer
+Sonst würde wieder auf die Grundresolution zurückgegriffen und es könnten auch
+Fehler gemacht werden. Bei der allgemeinen Resolution ist immer
 
 0:19:41.420,0:19:49.140
-einen sogenannten allgemeinsten Unifikator haben.
+ein sogenannter allgemeinster Unifikator zu ermitteln.
 
 0:19:49.140,0:19:54.790
 Im zweiten Beispiel etwa gäbe
@@ -843,7 +843,7 @@ möchte ich y' durch f(a) ersetzen. Weil ich das tue,
 
 0:22:16.790,0:22:21.940
 muss ich jetzt aber auch dieses y' hier ersetzen. Ich
-muss aufpassen: Man sammelt diese Ersetzungen auf,
+muss aufpassen: Diese Ersetzungen werden aufgesammelt,
 
 0:22:21.940,0:22:27.420
 muss sie aber auch kombinieren. Also weil ich hier oben
@@ -934,8 +934,8 @@ Dann suchen wir jeweils in diesen Literalen nach einem
 Unterschied. Und zwar nach dem ersten Unterschied,
 
 0:24:30.570,0:24:36.930
-wenn man sich so von links nach rechts diese
-beiden Literale anschaut. Nehmen wir an,
+wenn so von links nach rechts diese
+beiden Literale betrachtet werden. Nehmen wir an,
 
 0:24:36.930,0:24:41.780
 wir haben so eine Stelle gefunden. Und zwar die
@@ -1098,7 +1098,7 @@ Natürlich machen wir das nur, wenn
 die Ursprungsliterale zumindest alle
 
 0:28:28.490,0:28:34.950
-das gleiche Prädikatsymbol hatten. Andernfalls
+das gleiche Prädikatssymbol hatten. Andernfalls
 ist sowieso keine Resolution möglich.
 
 0:28:34.950,0:28:39.100
@@ -1127,11 +1127,11 @@ v und die andere wird als t benutzt.
 
 0:29:15.520,0:29:20.100
 Und so lässt sich das dann immer ausführen. Nicht
-nur in dem Beispiel eben, sondern so kann man
+nur in dem Beispiel eben, sondern so kann
 
 0:29:20.100,0:29:30.520
-allgemein für eine Menge von Literalen so einen allgemeinsten
-Unifikator finden. Und das wenden wir jetzt noch einmal an
+allgemein für eine Menge von Literalen so ein allgemeinster
+Unifikator gefunden werden. Und das wenden wir jetzt noch einmal an
 
 0:29:30.520,0:29:41.140
 auf unser Alien-Beispiel. Das war ein Beispiel, das

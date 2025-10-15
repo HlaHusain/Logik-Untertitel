@@ -95,12 +95,12 @@ natürlich eine Konstante ist und deswegen nicht
 irgendwie quantifiziert ist. Genau diesen Restteil hier,
 
 0:02:20.480,0:02:28.519
-den nennt man auch die Matrix dieser Formel.
+der wird auch die Matrix dieser Formel genannt.
 Da kann ich Ihnen nicht mal sagen, wo gerade
 
 0:02:28.519,0:02:34.129
 diese Begriffsbildung herkommt. Aber das ist in der
-Literatur einfach so. Das nennt man die Matrix,
+Literatur einfach so. Das wird die Matrix genannt,
 
 0:02:34.129,0:02:42.219
 diese Formel ohne die Allquantoren. Deswegen werden wir
@@ -299,8 +299,8 @@ für das Zusammenfallen von Dingen entsteht. Versuchen wir das mal
 auf unser Beispiel anzuwenden. Und da sehen wir, da gibt es gar
 
 0:07:48.289,0:07:55.210
-keine offenkundig komplementären Literale. Also man kann
-hier nicht sagen: „Ich resolviere die beiden Klauseln und
+keine offenkundig komplementären Literale. Also kann
+hier nicht gesagt werden: „Ich resolviere die beiden Klauseln und
 
 0:07:55.210,0:07:59.999
 betrachte zum Beispiel dieses Literal und dieses Literal.“
@@ -344,15 +344,15 @@ Existenz von Modellen. Beim Modell, da gibt es diesen
 
 0:09:02.510,0:09:07.019
 Begriff der passenden Struktur. Und da ist die
-erste Zutat, zu sagen: Man wähle die Grundmenge,
+erste Zutat, zu sagen: Die Grundmenge werde gewählt,
 
 0:09:07.019,0:09:13.959
 und dann werden zum Beispiel die Werte für Variablen
 bei der Instantiierung über dieser Grundmenge gewählt.
 
 0:09:13.959,0:09:20.810
-Also wäre man jetzt hier sehr frei, durch was man
-die Variablen ersetzen darf. Zu frei, eigentlich.
+Also wäre jetzt hier sehr viel Freiheit, wodurch
+die Variablen ersetzt werden dürfen. Zu frei, eigentlich.
 
 0:09:20.810,0:09:25.399
 Denn das ist für einen praktischen Erfüllbarkeitstest
@@ -407,7 +407,7 @@ Also ohne uns irgendwelche Instanzmengen
 auszudenken. Und was passiert dabei?
 
 0:10:41.360,0:10:45.430
-Man betrachtet als Grundmenge einfach Terme. Die
+Als Grundmenge werden einfach Terme betrachtet. Die
 Dinge, die wir syntaktisch hinschreiben können,
 
 0:10:45.430,0:10:51.279
@@ -427,20 +427,20 @@ Wir betrachten einfach sogenannte Herbrand-Strukturen, wo
 die Grundmenge festgelegt ist als variablenfreie Terme.
 
 0:11:07.190,0:11:13.380
-Und das nennt man dann Grundresolution, weil man diese
-variablenfreien Terme auch als Grundterme betrachtet.
+Und das wird dann Grundresolution genannt, weil diese
+variablenfreien Terme auch als Grundterme betrachtet werden.
 
 0:11:13.380,0:11:19.330
-Und für deren Aufbau benutzt man nur Konstanten und
-Funktionssymbole, die schon in der Formel vorkommen.
+Und für deren Aufbau werden nur Konstanten und
+Funktionssymbole benutzt, die schon in der Formel vorkommen.
 
 0:11:19.330,0:11:23.910
-Man muss also nicht völlig frei neu irgendetwas
-erfinden. Man nimmt einfach die Konstanten und
+Es muss also nicht völlig frei irgendetwas neu
+erfunden werden. Es werden einfach die Konstanten und
 
 0:11:23.910,0:11:29.000
 Funktionssymbole, die in der betrachteten Formel
-vorkommen und baut aus denen Terme zusammen.
+vorkommen, genommen und aus denen werden Terme zusammengebaut.
 
 0:11:29.000,0:11:35.920
 Und das sind die Dinge, mittels derer wir unsere
@@ -560,11 +560,11 @@ außer eben, dass jetzt diese Literale so aussehen.
 
 0:14:26.540,0:14:33.231
 Aber keine Variablen mehr enthalten, weil wir solche
-Grundinstantiierungen vorgenommen haben. Dann könnte man
+Grundinstantiierungen vorgenommen haben. Dann könnte
 
 0:14:33.231,0:14:39.649
-weitermachen. Dann sieht man: Hier gibt es komplementäre
-Literale. Da könnte man also resolvieren. Es bliebe das übrig.
+weitergemacht werden. Dann ist zu sehen: Hier gibt es komplementäre
+Literale. Da könnte also resolviert werden. Es bliebe das übrig.
 
 0:14:39.649,0:14:44.990
 Und dann können wir das mit der Klausel von
@@ -631,15 +631,15 @@ Und dann kann diese Grundresolution
 sozusagen einiges an Voraussicht erfordern,
 
 0:16:21.620,0:16:30.190
-weil man ja gute Wahlen für diese Instantiierungen treffen muss,
+weil ja gute Wahlen für diese Instantiierungen getroffen werden müssen,
 um später hoffentlich sinnvolle, nützliche Resolutionsschritte
 
 0:16:30.190,0:16:41.160
 ausführen zu können. Und um diesen Aspekt noch zu betonen,
-bevor wir dann schauen, wie man mit Nicht-Grundresolution
+bevor wir dann schauen, wie mit Nicht-Grundresolution
 
 0:16:41.160,0:16:46.130
-dem beikommen kann, noch ein künstliches Beispiel,
+dem beizukommen ist, noch ein künstliches Beispiel,
 das jetzt nicht irgendwie durch einen solchen
 
 0:16:46.130,0:16:54.649
@@ -652,14 +652,14 @@ b und Funktionssymbole, einstellig f, zweistellig g,
 
 0:17:02.500,0:17:09.730
 dass das unsere Klauseln seien, mit denen wir umgehen wollen.
-Und zwar wieder per Grundresolution. Was kann man da tun?
+Und zwar wieder per Grundresolution. Was kann da getan werden?
 
 0:17:09.730,0:17:14.120
-Man könnte sich zum Beispiel vornehmen, diese beiden
-Klauseln zu resolvieren. Da muss man offenkundig
+Es könnte sich zum Beispiel vorgenommen werden, diese beiden
+Klauseln zu resolvieren. Da muss offenkundig
 
 0:17:14.120,0:17:20.510
-irgendwie etwas mit dem P hier tun, damit das mit
+irgendwie etwas mit dem P hier getan werden, damit das mit
 dem einzigen Literal von hier resolvierbar ist.
 
 0:17:20.510,0:17:25.070
@@ -668,10 +668,10 @@ Und zwar muss die Wahl dergestalt sein,
 
 0:17:25.070,0:17:33.390
 dass wir mit einem dieser beiden Literale resolvieren
-können. Und zum Beispiel könnte man hier wählen: y ist f(a).
+können. Und zum Beispiel könnte hier gewählt werden: y ist f(a).
 
 0:17:33.390,0:17:38.250
-Dann könnte man hiermit resolvieren und wir können sogar
+Dann könnte hiermit resolviert werden und wir können sogar
 gleichzeitig hier drüben das x auch durch f(a) ersetzen.
 
 0:17:38.250,0:17:43.770
@@ -720,11 +720,11 @@ Aber das ist tatsächlich etwas, was sich hier
 
 0:18:35.311,0:18:38.570
 bei Betrachtung dieser beiden Klauseln noch gar
-nicht aufdrängt, sondern da muss man sozusagen
+nicht aufdrängt, sondern da muss sozusagen
 
 0:18:38.570,0:18:45.270
-geschickt vorausraten. Das ist eine gewisse Schwäche der
-Grundresolution, die man noch im Nachgang angehen kann.
+geschickt voraugesraten werden. Das ist eine gewisse Schwäche der
+Grundresolution, die noch im Nachgang angegangen werden kann.
 
 0:18:45.270,0:18:51.550
 Aber nehmen wir an, ich hätte hier jetzt so geraten.
@@ -839,19 +839,19 @@ Belegung für das y hier vorausschauend treffen
 musste, um am Ende hier erfolgreich zu sein.
 
 0:21:28.811,0:21:33.160
-Dabei kann man sich auch verrennen. Man kann ja
-auch eine ungünstige Wahl treffen, aus Versehen,
+Dabei kann sich auch verrannt werden. Es kann ja
+auch eine ungünstige Wahl getroffen werden, aus Versehen,
 
 0:21:33.160,0:21:38.590
-und dann zwar ein paar Schritte machen, aber später
-vielleicht hier nicht weiterkommen, und muss das dann
+und dann werden zwar ein paar Schritte gemacht, aber später
+wird hier vielleicht nicht weitergekommen, und dann muss das
 
 0:21:38.590,0:21:46.270
-nochmal neu machen. Das ist eine Eigenschaft der
-Grundresolution, weil man immer alle Variablen
+nochmal neu gemacht werden. Das ist eine Eigenschaft der
+Grundresolution, weil immer alle Variablen
 
 0:21:46.270,0:21:53.460
-auf einen Schlag belegen muss. Das wollen
+auf einen Schlag belegt werden müssen. Das wollen
 wir bei der allgemeinen prädikatenlogischen
 
 0:21:53.460,0:21:55.010

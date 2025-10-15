@@ -16,7 +16,7 @@ wie etwa in einer größeren Formel Variablen,
 
 0:00:28.430,0:00:35.570
 die da drin vorkommen, durch welche Quantoren gebunden
-sind. Oder auch, wie man erkennt, dass eine Variable
+sind. Oder auch, wie erkannt wird, dass eine Variable
 
 0:00:35.570,0:00:44.640
 zum Beispiel durch keinen Quantor gebunden
@@ -39,20 +39,20 @@ von denen wir dann wussten, dass sie für beliebige
 aussagenlogische Formeln F, G und in einigen tauchte
 
 0:01:10.469,0:01:17.909
-auch noch ein H drin auf, gelten. Das heißt, wenn man F
+auch noch ein H drin auf, gelten. Das heißt, wenn F
 oder G oder H durch beliebige aussagenlogische Formeln
 
 0:01:17.909,0:01:24.530
-ersetzt, die dann Teilformeln jeweils der hier
-angeführten Formelstruktur werden, dann erhält
+ersetzt werden, die dann Teilformeln jeweils der hier
+angeführten Formelstruktur werden, dann wird
 
 0:01:24.530,0:01:31.659
-man etwas, was logisch äquivalent ist. Wo also
+etwas erhalten, was logisch äquivalent ist. Wo also
 linke und rechte Seite das Gleiche bedeuten.
 
 0:01:31.659,0:01:36.130
-Die galten im Sinn der Semantik. Wenn man die Semantik
-der linken und der rechten Seite ausrechnet, für beliebige
+Die galten im Sinn der Semantik. Wenn die Semantik
+der linken und der rechten Seite ausgerechnet wird, für beliebige
 
 0:01:36.130,0:01:42.439
 Belegungen, kommt immer dasselbe heraus. Das ist eben so
@@ -72,15 +72,15 @@ Unerfüllbarkeit. Das war etwas, was wir schon gesehen haben
 
 0:02:06.369,0:02:12.239
 und benutzt haben. Wann hatten wir das
-benutzt? Unter anderem kann man das benutzen,
+benutzt? Unter anderem kann das benutzt werden,
 
 0:02:12.239,0:02:19.400
 um einfach von Formeln sich zu überlegen,
-ob sie das Gleiche bedeuten. Wenn man etwa
+ob sie das Gleiche bedeuten. Wenn etwa
 
 0:02:19.400,0:02:24.849
-einen Sachverhalt als aussagenlogische Formel
-dargestellt hat, kann man überprüfen, ob er
+ein Sachverhalt als aussagenlogische Formel
+dargestellt wurde, kann überprüft werden, ob er
 
 0:02:24.849,0:02:29.700
 zu einer anderen Formulierung äquivalent ist.
@@ -135,8 +135,8 @@ die offenkundig nicht rein aussagenlogisch ist (da
 kommt ein Quantor drin vor, hier wird Bezug genommen
 
 0:03:46.010,0:03:55.120
-auf die quantifizierte Variable), aber wenn man
-sozusagen dieses P(x) und Q(x) einfach so hinnimmt,
+auf die quantifizierte Variable), aber wenn
+sozusagen dieses P(x) und Q(x) einfach so hingenommen wird,
 
 0:03:55.120,0:04:00.639
 wie sie da stehen und zum Beispiel durch F
@@ -212,7 +212,7 @@ Umformungen? Gibt es Gesetze über die Quantoren?
 
 0:05:43.560,0:05:50.270
 Und da würden sich einige Fragen zunächst
-anbieten. Also zum Beispiel kann man sich fragen:
+anbieten. Also zum Beispiel kann die Frage gestellt werden:
 
 0:05:50.270,0:05:54.320
 Wenn wir jetzt mit den Quantoren in einer Formel
@@ -367,8 +367,8 @@ dass diese beiden Formeln verschiedene Dinge aussagen. Also sollte
 es kein Gesetz geben, das erlaubt, einfach Quantoren zu wechseln.
 
 0:09:42.230,0:09:47.450
-Man könnte sich auch fragen: Darf man zumindest die Variablen
-tauschen? Aber auch das ist klar. Wenn ich hier x und y vertausche,
+Es könnte sich auch gefragt werden: Dürfen zumindest die Variablen
+getauscht werden? Aber auch das ist klar. Wenn ich hier x und y vertausche,
 
 0:09:47.450,0:09:51.640
 und die Quantoren da stehen lasse, wo sie stehen (also
@@ -432,7 +432,7 @@ Das deckt sich mit der sprachlichen Interpretation.
 
 0:11:18.100,0:11:22.720
 Denn tatsächlich, so etwas wie "für alle x gilt, so dass für
-alle y gilt, so dass ..." das würde man oft auch ausdrücken als:
+alle y gilt, so dass ..." das würde oft auch ausgedrückt werden als:
 
 0:11:22.720,0:11:29.490
 "für alle x und y gilt". Und wenn ich sage "für
@@ -524,7 +524,7 @@ Quantoren einzuführen. Also einfach so ∃ durch ∀
 
 0:14:10.250,0:14:17.670
 zu ersetzen in so einer Formel, ist natürlich nicht okay.
-Das würde den Inhalt ändern. Allerdings kann man sich
+Das würde den Inhalt ändern. Allerdings lässt sich
 
 0:14:17.670,0:14:23.450
 gerade an diesem Beispiel überlegen, dass es natürlichsprachlich,
@@ -547,8 +547,8 @@ der Form: "jeder Ehemann" oder "für alle Ehemänner
 gilt", dann wäre es naheliegend, einen Allquantor
 
 0:14:51.850,0:14:59.240
-zu verwenden. Wie kann man diese Aussage
-denn umformulieren, so dass wir nicht mehr
+zu verwenden. Wie kann diese Aussage
+denn umformuliert werden, so dass wir nicht mehr
 
 0:14:59.240,0:15:06.910
 dieses "kein" drin haben, was für einen
@@ -735,8 +735,8 @@ das an de Morgan erinnert. Denn hier steht eine
 Negation einer Konjunktion. Genau genommen sogar einer
 
 0:20:04.340,0:20:09.510
-dreifachen Konjunktion. Da kann man sich jetzt entscheiden,
-über welche man vielleicht die Negation ziehen möchte.
+dreifachen Konjunktion. Da kann sich jetzt entschieden werden,
+über welche vielleicht die Negation gezogen werden soll.
 
 0:20:09.510,0:20:19.499
 Zum Beispiel könnten wir sagen, wir fassen
@@ -832,11 +832,11 @@ vielleicht auch andere Formeln finden, die äquivalent sind.
 
 0:23:10.230,0:23:16.179
 Logisch äquivalent, aber einfach anders hingeschrieben sind.
-Zum Beispiel hätte man hier auch andere Entscheidungen treffen
+Zum Beispiel hätten hier auch andere Entscheidungen getroffen werden
 
 0:23:16.179,0:23:25.389
-können, welche Äquivalenzen man nach dem
-"Quantor-Kippen" noch anwendet. Wesentlich hier ist aber,
+können, welche Äquivalenzen nach dem
+"Quantor-Kippen" noch angewendet werden. Wesentlich hier ist aber,
 
 0:23:25.389,0:23:32.029
 dass wir dadurch weitere
@@ -887,11 +887,11 @@ die ich jeweils nur kurz besprechen werde. Ich habe da
 jetzt nicht jeweils ein Beispiel mit auf den Folien,
 
 0:24:44.929,0:24:52.289
-aber man kann natürlich immer durch geeignete
+aber es kann natürlich immer durch geeignete
 Interpretation dieser Teilformel sich auch etwas
 
 0:24:52.289,0:25:00.450
-anschauliches darunter vorstellen. Also schauen wir uns
+Anschauliches darunter vorgestellt werden. Also schauen wir uns
 das zum Beispiel an. Da geht es genau um so einen Fall,
 
 0:25:00.450,0:25:08.210
@@ -928,7 +928,7 @@ wissen, dass für alle x G gilt, dann wissen wir auch,
 
 0:25:51.970,0:26:00.970
 dass für alle x (F ∧ G) gilt. So gesehen klingt das
-auch sehr einleuchtend, wenn man das so ausspricht.
+auch sehr einleuchtend, wenn das so ausgesprochen wird.
 
 0:26:00.970,0:26:06.059
 Denn letztlich sagt das hier, dieses "für alle x gilt F", das
@@ -980,10 +980,10 @@ Existenzquantor ersetzen, auch hinbekommen, dass diese
 
 0:27:19.330,0:27:27.529
 so "in Zweifel ziehend". In der Tat gilt das für den
-Existenzquantor nicht. Warum nicht? Nun, man kann sich
+Existenzquantor nicht. Warum nicht? Nun, das lässt sich
 
 0:27:27.529,0:27:32.269
-das an einem Beispiel verdeutlichen.
+an einem Beispiel verdeutlichen.
 Nehmen wir an, unsere Grundmenge wären
 
 0:27:32.269,0:27:36.519
@@ -1031,7 +1031,7 @@ Dieses Beispiel verdeutlicht, warum mit Existenzquantoren
 das hier keine logische Äquivalenz ist.
 
 0:28:47.730,0:28:51.509
-Das ist etwas bedauerlich, könnte man sagen. Hier oben ist
+Das ist etwas bedauerlich, könnte gesagt werden. Hier oben ist
 das immer schön symmetrisch. Es gibt diese Gesetze immer für
 
 0:28:51.509,0:28:58.119
@@ -1040,10 +1040,10 @@ entsprechende Version für den Existenzquantor.
 
 0:28:58.119,0:29:02.139
 Allerdings reicht es eben nicht, die Allquantoren
-durch Existenzquantoren zu ersetzen. Sondern man muss
+durch Existenzquantoren zu ersetzen. Sondern es muss
 
 0:29:02.139,0:29:14.139
-auch noch die Konjunktion durch eine Disjunktion ersetzen.
+auch noch die Konjunktion durch eine Disjunktion ersetzt werden.
 Diese Aussage gilt nämlich. Wenn wir, egal was F und G
 
 0:29:14.139,0:29:22.889
@@ -1055,8 +1055,8 @@ dann ist das äquivalent dazu, einfach mit einem Quantor zu
 sagen: "Es existiert ein x, so dass F Oder G zutrifft".
 
 0:29:31.570,0:29:39.909
-Jetzt kann man sich wieder fragen: Könnte man hier zumindest
-den Existenzquantor durch einen Allquantor ersetzen?
+Jetzt kann wieder die Frage gestellt werden: Könnte hier zumindest
+der Existenzquantor durch einen Allquantor ersetzt werden?
 
 0:29:39.909,0:29:44.820
 Und dann wäre die Antwort wieder Nein. Also für
@@ -1071,8 +1071,8 @@ Also wenn hier stünde: "Für alle x F Oder für alle x G", das
 ist nicht äquivalent dazu, zu sagen: "Für alle x F Oder G".
 
 0:29:59.330,0:30:03.729
-Auch das kann man sich wieder mit den geraden und ungeraden Zahlen
-überlegen. Also, nehmen wir wieder als Grundmenge den Bereich
+Auch das kann sich wieder mithilfe der geraden und ungeraden Zahlen
+überlegt werden. Also, nehmen wir wieder als Grundmenge den Bereich
 
 0:30:03.729,0:30:11.399
 der natürlichen Zahlen und für F die Feststellung, dass
@@ -1260,7 +1260,7 @@ Natürlich geht das auch, wenn das H links steht.
 Also wenn hier stünde "(H ∧ (∀x: F))", dann dürfte
 
 0:35:51.589,0:35:57.260
-man das H auch nach innen ziehen und daraus eben machen: "(∀x:
+das H auch nach innen gezogen und daraus eben gemacht werden: "(∀x:
 (H ∧ F))". Dafür gibt es aber kein extra Gesetz mehr hier.
 
 0:35:57.260,0:36:04.200
