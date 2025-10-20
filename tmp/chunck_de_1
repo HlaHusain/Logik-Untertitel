@@ -1,0 +1,195 @@
+0:00:00.060,0:00:05.880
+Heute besprechen wir Übungsblatt 11 von Logik.
+Bei Aufgabe 1 haben wir zunächst eine Prologregel
+
+0:00:05.880,0:00:11.700
+gegeben und dann vier Versuche, die Bedeutung
+dieser Regel als prädikatenlogische Aussage zu
+
+0:00:11.700,0:00:17.400
+beschreiben. Hierbei sollen wir sagen, welche der
+obigen Aussagen zueinander äquivalent sind und
+
+0:00:17.400,0:00:23.340
+das durch eine entsprechende Umformung zeigen. Und
+welche der Aussagen entsprechen dem tatsächlichen
+
+0:00:23.340,0:00:28.860
+Verhalten der ursprünglichen Regel in Prolog? Und
+unsere Antwort begründen. Kommen wir zunächst zu
+
+0:00:28.860,0:00:34.620
+Aufgabe (a). Welche der obigen Aussagen sind
+zueinander äquivalent? Wir sehen hier (1) und
+
+0:00:34.620,0:00:40.800
+(2) sind nicht zueinander äquivalent, da beide
+Aussagen identisch sind, bis auf diesen einen
+
+0:00:40.800,0:00:51.000
+Quantor hier und den Existenzquantor. Und die
+Restformeln nach den Quantoren hier, hängen echt
+
+0:00:51.000,0:00:56.640
+von z ab. Das heißt, sie sind zum Beispiel nicht
+einfach nur Tautologien, deswegen sind die Formeln
+
+0:00:56.640,0:01:04.080
+(1) und (2) nicht äquivalent. Die Formeln (2) und
+(3) wiederum sind äquivalent. Hier haben wir zwar
+
+0:01:04.080,0:01:08.940
+auch den Unterschied mit dem Existenzquantor und
+dem Allquantor. Der Allquantor ist aber hier, in dem
+
+0:01:08.940,0:01:16.500
+Fall innerhalb der Klammer vor der Implikation.
+Wenn man das jetzt auflösen würde, rein
+
+0:01:16.500,0:01:22.200
+gedanklich. Wenn man die Implikationsschreibweise
+auflösen würde, dann kämen nicht dieser oder
+
+0:01:22.200,0:01:29.820
+dieser Teil heraus und dann haben wir hier
+ein nicht davor stehen. Wenn wir dann den
+
+0:01:29.820,0:01:35.520
+Quantor wieder herausziehen, dann klappt der
+um zum Existenzquantor und den Rest des Teils
+
+0:01:35.520,0:01:39.960
+kann man dann wieder in Implikationsschreibweise
+schreiben. Das Gleiche haben wir auch bei (1) und
+
+0:01:39.960,0:01:45.060
+(4). Hier haben wir auch den Unterschied zwischen
+dem Allquantor und dem Existenzquantor. Aber der
+
+0:01:45.060,0:01:51.420
+Existenzquantor in Aussage (4) ist im Gegensatz
+zu Aussage (2) in der Klammer vor der Implikation.
+
+0:01:51.420,0:01:56.340
+Das heißt, wenn man hier gedanklich wieder die
+Implikationsschreibweise auflösen würde, hätte
+
+0:01:56.340,0:02:02.100
+man wieder ein nicht. Zieht man das Ganze heraus,
+kann man den wieder umklappen und den Rest hier
+
+0:02:02.100,0:02:07.860
+wieder in Implikationsschreibweise umschreiben.
+Dann haben wir Formel (1). Das heißt, wir
+
+0:02:07.860,0:02:12.060
+wissen, die Formeln (1) und (4) sind äquivalent,
+die Formel (2) und (3) sind äquivalent. Und
+
+0:02:12.060,0:02:17.100
+weil die Formeln (1) und (4) und (2) und (3)
+äquivalent sind, nicht aber zum Beispiel (1)
+
+0:02:17.100,0:02:22.560
+und (2), wissen wir auch, dass (1) und (3) nicht
+äquivalent sein können. Denn wenn (1) und (2)
+
+0:02:22.560,0:02:26.460
+nicht äquivalent sind, (2) und (3) aber schon,
+dann können nicht (1) und (3) äquivalent sein.
+
+0:02:27.060,0:02:32.340
+Das Gleiche gilt dann für (2) und (4) und für
+(3) und (4). Die sind nicht äquivalent. Das heißt
+
+0:02:32.340,0:02:38.460
+also, (1) und (4) und (2) und (3) sind äquivalent.
+Schauen wir uns dazu die Umformungen an, dann wird
+
+0:02:38.460,0:02:41.580
+es vielleicht auch noch einmal deutlicher, dass
+die beiden Formeln äquivalent miteinander sind.
+
+0:02:41.580,0:02:48.540
+Hierfür schauen wir uns zunächst zur Vereinfachung
+eine kleinere Formel an. Nur damit man ein Mal die
+
+0:02:48.540,0:02:53.760
+Umformungen sieht und das übertragen wir dann
+auf genau diese Formeln. Schauen wir uns also
+
+0:02:53.760,0:02:59.280
+zum Beispiel das hier an. Für alle z gilt F
+impliziert G und hierbei gehen wir davon aus,
+
+0:02:59.280,0:03:06.540
+dass z, dieses z hier nicht frei in G vorkommt.
+Wenn wir diese Aufgabe haben, dann können wir
+
+0:03:06.540,0:03:11.940
+zunächst wieder die Implikation auflösen, und zwar
+mit der Definition der Implikation und haben dann:
+
+0:03:11.940,0:03:20.280
+Für alle z gilt nicht F oder G. Einfach nach der
+Regel. Da wir gesagt haben, z liegt nicht frei
+
+0:03:20.280,0:03:29.700
+in G vor, können wir jetzt das umformen zu: Für
+alle z gilt nicht F, und das in Klammern, oder G.
+
+0:03:29.700,0:03:34.140
+Weil hier liegt z sowieso nicht frei drinnen
+vor, dann können wir es auch in die Klammer
+
+0:03:34.140,0:03:39.060
+stellen. Wenn wir das jetzt doppelt negieren,
+erhalten wir folgende Formel: Für nicht nicht
+
+0:03:39.060,0:03:48.480
+alle z gilt nicht F oder G. Die doppelte Negation
+hat den gleichen Aussagewert wie keine Negation,
+
+0:03:48.480,0:03:52.260
+deswegen können wir das einfach hier davor
+stellen. Ihr seht gleich, wohin das führt.
+
+0:03:52.260,0:03:56.040
+Das sind erst einmal nur die Schritte dahin. Wenn
+wir jetzt die Definition der Implikation wieder
+
+0:03:56.040,0:04:04.620
+anwenden, dann können wir sagen: Für nicht alle z
+gilt, nicht F, und das in Klammern, impliziert G.
+
+0:04:06.000,0:04:10.860
+Das heißt, wir haben hier vorne dieses nicht,
+was man bei der Implikation dazu bekommt, diese
+
+0:04:10.860,0:04:16.500
+Negation, die haben wir jetzt ein Mal aufgelöst
+und dann die Implikation daraus gemacht. Wenn wir
+
+0:04:16.500,0:04:22.560
+noch den Quantor aufgrund der Negation ändern zum
+Existenzquantor. Nicht der Allquantor wird jetzt
+
+0:04:22.560,0:04:29.340
+zum Existenzquantor. Dann haben wir: Es existiert
+ein z, sodass gilt, nicht nicht F impliziert G.
+
+0:04:29.340,0:04:35.880
+Und dann haben wir als letzten Schritt noch die
+Doppelnegation, die wir eliminieren. Das heißt,
+
+0:04:35.880,0:04:42.540
+es existiert ein z, für das gilt, F, und das in
+Klammern, impliziert G. Das heißt, wir können
+
+0:04:42.540,0:04:48.720
+gucken vom ersten Schritt zum letzten und können
+sagen, für alle z gilt F impliziert G, kann man
+
+0:04:48.720,0:04:56.040
+umformen zu: Es existiert ein z, für das gilt F
+und das impliziert G. Also mit dem Existenzquantor

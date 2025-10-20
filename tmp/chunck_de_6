@@ -1,0 +1,196 @@
+0:24:21.620,0:24:25.870
+Mit passenden Belegungen, zu einer Formel
+passenden Belegungen. Da ging es darum, dass
+
+0:24:25.870,0:24:30.250
+alle auftauchenden atomaren Aussagen irgendwie einen
+Wahrheitswert kriegen. Und dann haben wir das benutzt,
+
+0:24:30.250,0:24:37.460
+um der Formel als Ganzes einen Wahrheitswert zuzuordnen.
+Letztlich durch eine Wahrheitstafel zum Beispiel.
+
+0:24:37.460,0:24:41.060
+Das werden wir für die Prädikatenlogik so ähnlich machen.
+Allerdings in erweiterter Form. Warum?
+
+0:24:41.060,0:24:45.420
+Weil wir jetzt Variablen haben, und weil wir die Prädikatsymbole haben,
+die Datenkonstruktoren, etc. Das heißt, wir werden auch
+
+0:24:45.420,0:24:53.390
+mit Belegungen operieren, aber die Definitionen an sich werden
+anspruchsvoller sein. Aber Sie sollten nichtsdestotrotz, oder
+
+0:24:53.390,0:24:57.500
+vor allem deswegen, das aus der Aussagenlogik
+nochmal wiederholen.
+
+0:24:57.500,0:24:57.970
+Und dafür wird es deswegen auch im
+
+0:24:57.970,0:25:03.000
+nächsten Übungsblatt Gelegenheit geben.
+
+0:25:03.000,0:25:07.020
+Dann ging es um den Status von Formeln. Das hatte ich schon erwähnt.
+
+0:25:07.020,0:25:11.910
+Erfüllbarkeit einer Formel oder Allgemeingültigkeit
+einer Formel oder Unerfüllbarkeit einer Formel.
+
+0:25:11.910,0:25:16.560
+Diese Konzepte sollten Sie wiederholen, denn die werden wir
+aus der Aussagenlogik auf die Prädikatenlogik übertragen.
+
+0:25:16.560,0:25:24.760
+Und auch das Spiegelungs-Prinzip. Der Zusammenhang
+zwischen zum Beispiel Unerfüllbarkeit einer Formel
+
+0:25:24.760,0:25:30.400
+und Allgemeingültigkeit ihrer Negation wird auch für
+die Prädikatenlogik wichtig und nützlich sein.
+
+0:25:30.400,0:25:37.630
+Dann hatten wir in der Aussagenlogik
+Äquivalenzumformungen besprochen.
+
+0:25:37.630,0:25:43.850
+Also wir hatten erst mal Äquivalenzen besprochen.
+Zum Beispiel die de Morganschen Regeln, die Negation,
+
+0:25:43.850,0:25:47.660
+Disjunktion und Konjunktion in Beziehung setzen. Und dann hatten
+wir das benutzt, zum Beispiel, um Normalformen herzuleiten.
+
+0:25:47.660,0:25:53.840
+Also eine Formel zu nehmen und die durch
+Äquivalenzumformungen in KNF zu bringen.
+
+0:25:53.840,0:26:00.850
+Das werden wir für die Prädikatenlogik nachverwenden,
+also auch wieder so tun wollen.
+
+0:26:00.850,0:26:06.400
+Allerdings natürlich jetzt mit Formeln, in denen
+Prädikatsymbole und Datenkonstruktoren auftauchen.
+
+0:26:06.400,0:26:15.059
+Oder Relationssymbole und Funktionssymbole.
+Und Resolution hatten wir. Sowohl im Kapitel zur Aussagenlogik,
+
+0:26:15.059,0:26:21.370
+als auch in Prolog. Für die Prädikatenlogik werden wir Resolution
+brauchen in der Form, wie sie in der Aussagenlogik auftauchte.
+
+0:26:21.370,0:26:28.320
+Nämlich für Formeln in dieser Mengenschreibweise.
+Also nicht die SLD-Bäume, die wir in Prolog betrachtet haben,
+
+0:26:28.320,0:26:34.360
+sondern die allgemeine Resolution,
+wo wir diese Mengen von Klauseln haben
+
+0:26:34.360,0:26:41.930
+und dann paarweise Resolventen bilden
+mit dem Ziel, eine leere Klausel herzuleiten.
+
+0:26:41.930,0:26:46.000
+Auch das sollten Sie wiederholen. Im Prinzip alles,
+was hier oben steht, sollten Sie nochmal wiederholen,
+
+0:26:46.000,0:26:59.840
+weil wir diese Konzepte nachverwenden und
+erweitern wollen für die Prädikatenlogik.
+
+0:26:59.840,0:27:03.820
+Spezifisch für Resolution, da sie ja im Aussagenlogik-
+und im Prolog-Teil auftauchte, als Anmerkung nochmal:
+
+0:27:03.820,0:27:08.880
+Wir werden zurückkehren zur allgemeinen
+Resolution aus dem Aussagenlogik-Teil.
+
+0:27:08.880,0:27:14.510
+Also anders als in Prolog werden wir nicht mehr nur
+diese lineare oder SLD-Resolution haben.
+
+0:27:14.510,0:27:22.300
+Den Unterschied sollten Sie sich nochmal anschauen.
+Der tauchte letztlich auf beim Übergang vom Aussagenlogik-
+
+0:27:22.300,0:27:28.280
+zum Prolog-Kapitel. Genau in den Folien, die hier
+sozusagen an der Grenze standen, hatte ich das diskutiert.
+
+0:27:28.280,0:27:37.040
+Das sollten Sie sich sicher nochmal anschauen,
+um das dann sozusagen würdigen zu können,
+
+0:27:37.040,0:27:40.980
+diese verschiedenen Arten der Resolution, und
+dass wir für die Prädikatenlogik eben nicht mehr
+
+0:27:40.980,0:27:45.430
+nur lineare oder SLD-Resolution machen werden.
+Andererseits ist es eben auch nicht die
+
+0:27:45.430,0:27:49.670
+einfache Resolution aus dem Aussagenlogik-Kapitel,
+weil es da keine Variablen gab.
+
+0:27:49.670,0:27:56.160
+Also wie in Prolog werden wir jetzt natürlich Variablen
+zu berücksichtigen haben. Das heißt, auch diese Unifikation,
+
+0:27:56.160,0:28:00.880
+dieses geschickte Matching. Das haben wir bisher
+nur so intuitiv, informell gemacht bei der
+
+0:28:00.880,0:28:05.520
+Ausführung von Prolog-Programmen.
+Dass man eine Anfrage und Regeln hatte und
+
+0:28:05.520,0:28:10.950
+dann die Variablen geeignet belegen/matchen
+musste, unifizieren musste.
+
+0:28:10.950,0:28:17.350
+So hatte ich das genannt, und so wurde es, denke ich, auch
+im Übungsbetrieb genannt. Das wird uns jetzt für die
+
+0:28:17.350,0:28:27.350
+prädikatenlogische Resolution auch fordern,
+das auf korrekte Art und Weise zu tun. Da werden wir etwas
+
+0:28:27.350,0:28:37.350
+investieren müssen. Also auch das bitte wiederholen.
+Andererseits gibt es ja zwei Themen aus der Aussagenlogik,
+
+0:28:37.350,0:28:40.880
+die nicht unwichtig sind, die Sie auch können sollten,
+die natürlich auch für die Klausur relevant sein werden,
+
+0:28:40.880,0:28:45.710
+die wir aber im Prädikatenlogik-Teil nicht
+benutzen werden. Da möchte ich also auch
+
+0:28:45.710,0:28:52.300
+kurz anbringen, dass Ihnen das bewusst ist,
+dass wir bestimmte Teile nicht für die
+
+0:28:52.300,0:28:57.270
+Prädikatenlogik benutzen werden.
+Das sind zum einen die Min-/Max-Terme. Das war ein
+
+0:28:57.270,0:29:03.370
+interessantes Thema aus der Aussagenlogik.
+Die werden wir nicht gebrauchen können für die Prädikatenlogik.
+
+0:29:03.370,0:29:08.750
+Warum nicht? Weil sie im Grunde genommen dazu da sind,
+eine KNF oder DNF, also eine der Normalformen,
+
+0:29:08.750,0:29:14.360
+aus einer Wahrheitstafel abzulesen.
+Allerdings werden wir für die Prädikatenlogik

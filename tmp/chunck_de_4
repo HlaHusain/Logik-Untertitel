@@ -1,0 +1,187 @@
+0:14:30.029,0:14:34.470
+dass einige Säugetiere in Meer leben?
+Das hatten wir diskutiert für Delfine statt Aliens.
+
+0:14:34.470,0:14:43.620
+Und ich glaube noch für Elefanten und irgendeine Pflanze.
+Also was ändert es an der Aussage, wenn zum Beispiel
+
+0:14:43.620,0:14:46.990
+überhaupt keine Aliens existieren? Da kommen genau
+solche Aspekte ins Spiel wie die Existenz von Objekten.
+
+0:14:46.990,0:14:53.560
+Kann ich so etwas schlussfolgern,
+wenn ich gar nicht weiß, ob es Aliens gibt?
+
+0:14:53.560,0:14:58.779
+Das werden Fragen sein, die wir mit der Prädikatenlogik
+in der Lage sein werden zu diskutieren/formulieren,
+
+0:14:58.779,0:15:05.010
+und dann auch Antworten darauf finden.
+Also ging es darum, bei diesen Quantoren, die ich auf
+
+0:15:05.010,0:15:11.060
+der vorherigen Folie schon genannt hatte ("für alle", "es existiert")
+herauszufinden, über was für Mengen sie denn quantifizieren.
+
+0:15:11.060,0:15:16.649
+Was ist denn, wenn die über eine leere Menge quantifizieren?
+Weil mir zumindest keine Aliens bekannt sind.
+
+0:15:16.649,0:15:24.459
+Das sind Dinge, die wir in Prolog so nicht gesehen haben,
+weil es da nicht um Formalisierung von solchen
+
+0:15:24.459,0:15:36.930
+Aussagen ging, sondern vor allem um das Programmieren
+mit Relationen. Zusammenfassend vielleicht: Einige Dinge
+
+0:15:36.930,0:15:41.100
+in der Prädikatenlogik werden schon recht ähnlich zu
+Prolog sein. Wir werden Prädikate verwenden.
+
+0:15:41.100,0:15:47.490
+Das sind die Sachen, die wir in Prolog auch
+Prädikate genannt haben. In der Prädikatenlogik
+
+0:15:47.490,0:15:53.540
+werden die manchmal auch Relationssymbole genannt.
+In der Aussagenlogik kam das gar nicht vor.
+
+0:15:53.540,0:15:59.779
+Dann hatten wir die Datenkonstruktoren in Prolog.
+Auch die kamen in der Aussagenlogik gar nicht vor.
+
+0:15:59.779,0:16:04.710
+In der Prädikatenlogik werden sie vorkommen,
+und werden dort oft Funktionssymbole genannt.
+
+0:16:04.710,0:16:13.220
+Und wir hatten Variablen, die ebenfalls
+in der Aussagenlogik nicht vorkamen, aber in Prolog
+
+0:16:13.220,0:16:18.390
+eingeführt wurden. Da haben wir mit Variablen gearbeitet.
+In der Prädikatenlogik werden diese uns auch begleiten,
+
+0:16:18.390,0:16:24.000
+werden auch ganz wichtig sein.
+Und etwas ungünstig vielleicht, aber einfach
+
+0:16:24.000,0:16:30.120
+der Konvention geschuldet: In Prolog sind Variablen
+immer groß zu schreiben, aber in der Prädikatenlogik werden
+
+0:16:30.120,0:16:35.350
+wir als Variablen in der Regel Kleinbuchstaben verwenden.
+Da muss man sich jetzt leider etwas umgewöhnen,
+
+0:16:35.350,0:16:40.519
+aber das ist einfach so. Prolog als Programmiersprache
+hat diese großgeschriebenen Variablen. In der Prädikatenlogik
+
+0:16:40.519,0:16:44.620
+werden Variablen in der Regel kleingeschrieben sein.
+Auch in meinen Formeln wird das so sein.
+
+0:16:44.620,0:16:56.910
+Da muss man sich also umgewöhnen, aber das ist halt einfach
+eine Regel der Syntax, die man berücksichtigt.
+
+0:16:56.910,0:17:02.730
+Prädikate hatten wir zum Beispiel verwendet, um so
+strukturierte Aussagen zu treffen: Der Mond ist grün.
+
+0:17:02.730,0:17:07.380
+Und das nicht atomar zu halten, sondern dieser Tatsache
+("grün zu sein") ein Prädikat zuzuweisen, um dann auch von
+
+0:17:07.380,0:17:11.840
+anderen Individuen zum Beispiel sagen zu können,
+dass sie grün sind. Oder allgemeine Aussagen treffen
+
+0:17:11.840,0:17:18.620
+zu können. Wann auch immer jemand grün ist, ist Donnerstag.
+Oder irgendwelche Aussagen dieser Art.
+
+0:17:18.620,0:17:25.450
+Datenkonstruktoren haben wir verwendet für strukturierte Daten.
+Sie erinnern sich: Bei der Angabe von Adressen oder
+
+0:17:25.450,0:17:30.940
+validen Datumsangaben, oder eine Person zu zerlegen in ihren Vor-
+und Nachnamen. Das war die Verwendung der Datenkonstruktoren.
+
+0:17:30.940,0:17:38.960
+Und in der Prädikatenlogik werden die uns
+begleiten als Funktionssymbole.
+
+0:17:38.960,0:17:43.560
+Wichtig war da, bereits bei Prolog, und wird
+auch wichtig sein in der Prädikatenlogik
+
+0:17:43.560,0:17:49.350
+(deswegen sollten Sie sich das auch nochmal anschauen):
+die Rolle von Prädikaten und Datenkonstruktoren nicht
+
+0:17:49.350,0:17:54.070
+zu verwechseln. Beziehungsweise in der Prädikatenlogik die
+Rolle von Relationssymbolen und Funktionssymbolen nicht
+
+0:17:54.070,0:17:59.050
+zu verwechseln. Da mussten Sie beim Programmieren
+drauf aufpassen. Da werden Sie auch aufpassen müssen,
+
+0:17:59.050,0:18:04.500
+wenn Sie prädikatenlogische Formeln haben
+oder deren Semantik bestimmt werden soll.
+
+0:18:04.500,0:18:12.310
+Also das aus Prolog übernehmen wir in die
+Prädikatenlogik. Andererseits gibt es Dinge,
+
+0:18:12.310,0:18:17.830
+die wir in der Prolog-Programmierung gesehen haben, und
+die uns nicht in die Prädikatenlogik begleiten werden.
+
+0:18:17.830,0:18:24.870
+Mit denen wir uns also nicht weiter beschäftigen werden.
+Die für die Programmierung wichtig waren, etwa
+
+0:18:24.870,0:18:32.820
+der Umgang mit bestimmten Datentypen wie
+Zahlen oder Listen. Wir hatten Zahlen (5 + 3 ist 8)
+
+0:18:32.820,0:18:40.420
+in Prolog, weil wir mit Zahlen arbeiten wollten.
+Zum Beispiel beim Lösen unserer Kryptorätsel.
+
+0:18:40.420,0:18:46.170
+Das werden wir in der Prädikatenlogik nicht machen.
+Da werden wir rein symbolisch arbeiten.
+
+0:18:46.170,0:18:50.960
+Da werden wir also nicht in Verlegenheit kommen,
+wirklich mit Zahlen zu operieren, oder in arithmetischem
+
+0:18:50.960,0:18:56.090
+Sinne Gleichungen zu lösen. Und auch mit Listen
+werden wir nicht arbeiten. Man kann zwar Listen
+
+0:18:56.090,0:19:02.170
+auch in der formalen Prädikatenlogik über
+Datenkonstruktoren einführen und dann auch
+
+0:19:02.170,0:19:07.770
+Formeln darüber aufschreiben. Das werden wir aber
+nicht tun. Wir werden uns auf einfachere symbolische
+
+0:19:07.770,0:19:12.560
+Daten beschränken in der Prädikatenlogik,
+während wir in Prolog-Programmen gern mit Listen
+
+0:19:12.560,0:19:20.630
+arbeiten wollten. Das ist ein Punkt. Und auch
+diese algorithmischen Prinzipien, die wir in Prolog
