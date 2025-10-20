@@ -1,0 +1,35 @@
+---
+name: Super-Linter
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+    branches: ['**']
+
+jobs:
+  build:
+    name: Lint Code Base
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      statuses: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          # Full git history is needed to get a proper
+          # list of changed files within `super-linter`
+          fetch-depth: 0
+
+      - name: Run Linter
+        uses: super-linter/super-linter/slim@v8.1.0
+        env:
+          VALIDATE_MARKDOWN: false
+          VALIDATE_JSCPD_ALL_CODEBASE: true
+          YAML_ERROR_ON_WARNING: true
+          VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
+          VALIDATE_YAML_PRETTIER: false
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
