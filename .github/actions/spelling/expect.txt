@@ -126,6 +126,7 @@ gitweb
 gle
 googleusercontent
 gpg
+groupname
 gstatic
 hashtag
 heroku
@@ -160,7 +161,6 @@ regexplanet
 requestb
 sbv
 scastie
-sched
 searchin
 serverfault
 sopt
@@ -184,13 +184,14 @@ usercontent
 webstore
 wikipedia
 workaround
-xcode
 xcodeproject
 youtu
 youtube
 youtubei
 Zacdfh
-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜ
-ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜ
-Ýßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýÿ
-ŸŽžź
+facebook
+github
+kubernetes
+markdownlint
+googleapis
+getopts

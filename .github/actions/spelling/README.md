@@ -15,3 +15,5 @@ dictionary.txt | Replacement dictionary (creating this file will override the de
 
 Note: you can replace any of these files with a directory by the same name (minus the suffix)
 and then include multiple files inside that directory (with that suffix) to merge multiple files together.
+
+test 
