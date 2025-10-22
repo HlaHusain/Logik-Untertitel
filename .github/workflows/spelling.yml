@@ -71,6 +71,9 @@ jobs:
             cspell:k8s/dict/k8s.txt
             cspell:fullstack/dict/fullstack.txt
             cspell:shell/dict/shell-all-words.txt
+            cspell:cryptocurrencies/cryptocurrencies.txt
+            cspell:python/src/common/extra.txt
+            cspell:php/dict/php.txt
 
   comment:
     name: Report
