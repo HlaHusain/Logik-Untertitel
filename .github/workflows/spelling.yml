@@ -66,6 +66,11 @@ jobs:
             cspell:aws/aws.txt
             cspell:node/dict/node.txt
             cspell:python/src/python/python-lib.txt
+            cspell:lorem-ipsum/dictionary.txt
+            cspell:npm/dict/npm.txt
+            cspell:k8s/dict/k8s.txt
+            cspell:fullstack/dict/fullstack.txt
+            cspell:shell/dict/shell-all-words.txt
 
   comment:
     name: Report
