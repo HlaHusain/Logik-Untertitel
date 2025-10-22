@@ -7,8 +7,6 @@ on:
   pull_request:
     branches: ['**']
 
-permissions: read-all
-
 jobs:
   build:
     name: Lint Code Base

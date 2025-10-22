@@ -32,8 +32,6 @@ on:
   issue_comment:
     types: [created]
 
-permissions: read-all
-
 jobs:
   spelling:
     name: Check Spelling
@@ -54,35 +52,20 @@ jobs:
         id: spelling
         uses: check-spelling/check-spelling@v0.0.25
         with:
+          config: .github/actions/spelling 
           suppress_push_for_open_pull_request: 1
           checkout: true
-          spell_check_this: check-spelling/check-spelling@v0.0.25
+          spell_check_this: check-spelling/spell-check-this@v0.0.25
           post_comment: 0
           experimental_apply_changes_via_bot: 1
           extra_dictionaries:
-            cspell:aws/aws.txt
-            cspell:software-terms/dict/softwareTerms.txt
             cspell:filetypes/filetypes.txt
-            cspell:haskell/dict/haskell.txt
-            cspell:cpp/src/stdlib-c.txt
-            cspell:html/dict/html.txt
-            cspell:npm/dict/npm.txt
-            cspell:python/src/common/extra.txt
-            cspell:de_DE/src/German_de_DE.dic
-            cspell:node/dict/node.txt
+            cspell:software-terms/dict/softwareTerms.txt
             cspell:companies/src/companies.txt
-            cspell:de_DE/src/hunspell/index.dic
-            cspell:lorem-ipsum/dictionary.txt
-            cspell:shell/dict/shell-all-words.txt
-            cspell:k8s/dict/k8s.txt
-            cspell:fullstack/dict/fullstack.txt
+            cspell:html/dict/html.txt
+            cspell:aws/aws.txt
+            cspell:node/dict/node.txt
             cspell:python/src/python/python-lib.txt
-          ignore-pattern: '[^\p{Ll}\p{Lm}\p{Lt}\p{Lu}]'
-          upper-pattern: '[\p{Lu}\p{Lt}\p{Lm}]'
-          lower-pattern: '[\p{Ll}\p{Lm}]'
-          not-lower-pattern: '[^\p{Ll}\p{Lm}]'
-          not-upper-or-lower-pattern: '[^\p{Lu}\p{Lt}\p{Lm}]'
-          punctuation-pattern: "'"
 
   comment:
     name: Report
@@ -97,7 +80,7 @@ jobs:
         uses: check-spelling/check-spelling@v0.0.25
         with:
           checkout: true
-          spell_check_this: check-spelling/check-spelling@v0.0.25
+          spell_check_this: check-spelling/spell-check-this@v0.0.25
           task: ${{ needs.spelling.outputs.followup }}
           experimental_apply_changes_via_bot: 1
 
@@ -108,9 +91,9 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     if: ${{
-      github.event_name == 'issue_comment' &&
-      github.event.issue.pull_request &&
-      contains(github.event.comment.body, '@check-spelling-bot apply')
+        github.event_name == 'issue_comment' &&
+        github.event.issue.pull_request &&
+        contains(github.event.comment.body, '@check-spelling-bot apply')
       }}
     concurrency:
       group: spelling-update-${{ github.event.issue.number }}
