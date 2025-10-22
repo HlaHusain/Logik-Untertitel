@@ -196,3 +196,9 @@ ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜ
 ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜ
 Ýßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýÿ
 ŸŽžź
+facebook
+github
+kubernetes
+markdownlint
+googleapis
+getopts
