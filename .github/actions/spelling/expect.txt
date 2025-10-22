@@ -192,10 +192,6 @@ youtu
 youtube
 youtubei
 Zacdfh
-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜ
-ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜ
-Ýßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýÿ
-ŸŽžź
 facebook
 github
 kubernetes
