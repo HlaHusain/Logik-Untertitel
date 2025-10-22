@@ -1,0 +1,5 @@
+[^/]\.sbv$
+^\Q.github/actions/spelling/excludes.txt\E$
+^\Q.github/actions/spelling/expect.txt\E$
+^\Q.github/actions/spelling/reject.txt\E$
+^\Q.github/pull_request_template.md\E$
