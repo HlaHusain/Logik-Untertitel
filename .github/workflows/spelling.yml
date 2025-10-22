@@ -72,6 +72,11 @@ jobs:
             cspell:node/dict/node.txt
             cspell:companies/src/companies.txt
             cspell:de_DE/src/hunspell/index.dic
+            cspell:lorem-ipsum/dictionary.txt
+            cspell:shell/dict/shell-all-words.txt
+            cspell:k8s/dict/k8s.txt
+            cspell:fullstack/dict/fullstack.txt
+            cspell:python/src/python/python-lib.txt
           ignore-pattern: '[^\p{Ll}\p{Lm}\p{Lt}\p{Lu}]'
           upper-pattern: '[\p{Lu}\p{Lt}\p{Lm}]'
           lower-pattern: '[\p{Ll}\p{Lm}]'
